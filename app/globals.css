@@ -1,1 +1,35 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+:root {
+  --color-dark: #1A1625;
+  --color-ivory: #FAFAF8;
+  --color-surface: #F1EFE8;
+  --color-rose: #C9728A;
+  --color-rose-dark: #72243E;
+  --color-navy: #1E3A5F;
+  --color-navy-mid: #378ADD;
+  --color-text-dark: #2C2C2A;
+  --color-text-secondary: #5F5E5A;
+  --color-text-tertiary: #888780;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background-color: var(--color-dark); color: white; font-family: var(--font-nunito), sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+[dir="rtl"] { font-family: var(--font-cairo), sans-serif; }
+
+@keyframes spotlight {
+  0% { opacity: 0; transform: translate(-72%, -62%) scale(0.5); }
+  100% { opacity: 1; transform: translate(-50%, -40%) scale(1); }
+}
+.animate-spotlight { animation: spotlight 2s ease 0.75s forwards; }
+
+@keyframes beam-move {
+  0% { opacity: 0.2; transform: translateX(-5px); }
+  100% { opacity: 0.6; transform: translateX(5px); }
+}
+
+.bento-card:hover .bento-spotlight {
+  opacity: 1;
+  background: radial-gradient(200px circle at var(--mouse-x) var(--mouse-y), rgba(201,114,138,0.12), transparent 80%);
+}
