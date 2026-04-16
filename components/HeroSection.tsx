@@ -89,7 +89,7 @@ export function HeroSection() {
       </div>
 
       {/* Right: Floating cards */}
-      <div className="z-10 relative flex items-center justify-center mt-12 lg:mt-0 w-full max-w-sm lg:max-w-md">
+      <div className="z-10 relative flex flex-col items-center gap-4 mt-12 lg:mt-0 lg:flex-row lg:items-end w-full max-w-sm lg:max-w-md">
         {/* Mother card — rose glow */}
         <motion.div
           variants={cardSlide("left")}
@@ -117,7 +117,7 @@ export function HeroSection() {
           variants={cardSlide("right")}
           initial="hidden"
           animate="visible"
-          className="relative w-52 rounded-2xl bg-[#1A1625] border border-white/10 p-5 -ml-6 mt-8"
+          className="relative w-52 rounded-2xl bg-[#1A1625] border border-white/10 p-5 lg:-ml-6 lg:mt-8"
           style={{
             transform: "perspective(1000px) rotateX(8deg) rotateY(12deg)",
             boxShadow: "0 0 60px rgba(30,58,95,0.5), 0 20px 40px rgba(0,0,0,0.4)",

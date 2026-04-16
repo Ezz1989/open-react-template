@@ -12,7 +12,7 @@ export function PartnerSync() {
       <BackgroundBeams />
       <div className="relative z-10 flex flex-col items-center gap-16 lg:flex-row lg:gap-20">
         {/* Two floating 3D screens */}
-        <div className="flex items-end flex-shrink-0">
+        <div className="flex items-end flex-shrink-0 scale-[0.78] origin-top sm:scale-90 lg:scale-100">
           {/* Mother screen */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
