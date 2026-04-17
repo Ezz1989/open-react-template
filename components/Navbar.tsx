@@ -25,9 +25,9 @@ export function Navbar() {
       <Image
         src="/logo.png"
         alt="Nawah"
-        width={100}
-        height={32}
-        className="h-8 w-auto object-contain"
+        width={140}
+        height={48}
+        className="h-12 w-auto object-contain"
       />
       <div className="flex items-center gap-4">
         <button

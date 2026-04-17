@@ -102,51 +102,97 @@ export function HeroSection() {
       </div>
 
       <div className="z-10 relative flex flex-col items-center gap-4 mt-12 lg:mt-0 lg:flex-row lg:items-end w-full max-w-sm lg:max-w-md">
+        {/* Mother card — rose glow */}
         <motion.div
           variants={cardSlide("left")}
           initial="hidden"
           animate="visible"
-          className="relative w-56 rounded-2xl bg-[#1A1625] border border-white/10 p-5 z-10"
+          className="relative w-56 rounded-2xl bg-[#1A1625] border border-white/10 p-3 z-10 flex flex-col gap-2"
           style={{
             transform: "perspective(1000px) rotateX(8deg) rotateY(-12deg)",
             boxShadow: "0 0 60px rgba(201,114,138,0.3), 0 20px 40px rgba(0,0,0,0.4)",
           }}
         >
           <BorderBeam size={80} duration={8} colorFrom="#C9728A" colorTo="#72243E" />
-          <p className="text-xs text-[#C9728A] mb-2">{t("hero.motherCardLabel") as string}</p>
-          <p
-            className="text-4xl font-medium text-white mb-3"
-            style={{ fontFamily: "var(--font-playfair)" }}
-          >
-            11
-          </p>
-          <div className="mb-3 h-1 w-full rounded-full bg-white/10">
-            <div className="h-1 rounded-full bg-[#C9728A]" style={{ width: "27%" }} />
+          {/* App header */}
+          <div className="flex items-center justify-between px-1">
+            <div>
+              <p className="text-[9px] uppercase tracking-widest text-[#C9728A]/70">Mother</p>
+              <p className="text-xs font-medium text-white/90">Hello, Mom</p>
+            </div>
+            <span className="h-2 w-2 rounded-full bg-[#C9728A]" />
           </div>
-          <p className="text-xs text-white/60 leading-snug">{t("hero.motherCardSub") as string}</p>
+          {/* Week sub-card */}
+          <div className="rounded-xl bg-[#C9728A] p-3">
+            <div className="flex items-start justify-between mb-1">
+              <div>
+                <p className="text-[9px] text-white/70 uppercase tracking-wider">Week</p>
+                <p className="text-3xl font-medium text-white leading-none" style={{ fontFamily: "var(--font-playfair)" }}>11</p>
+              </div>
+              <span className="rounded-full bg-white/20 px-1.5 py-0.5 text-[9px] font-medium text-white">T1</span>
+            </div>
+            <p className="text-[10px] text-white/80 mb-1.5">Lime · 5.4 cm</p>
+            <div className="h-1 w-full rounded-full bg-white/20">
+              <div className="h-1 rounded-full bg-white" style={{ width: "27%" }} />
+            </div>
+          </div>
+          {/* Quick actions */}
+          <div className="grid grid-cols-2 gap-1.5 px-0.5">
+            {["Symptoms", "Vitals", "Baby Names", "Journal"].map((label) => (
+              <div key={label} className="rounded-lg bg-white/5 border border-white/5 px-2 py-1.5 text-center">
+                <p className="text-[9px] text-white/60">{label}</p>
+              </div>
+            ))}
+          </div>
         </motion.div>
 
+        {/* Father card — navy glow */}
         <motion.div
           variants={cardSlide("right")}
           initial="hidden"
           animate="visible"
-          className="relative w-56 rounded-2xl bg-[#1A1625] border border-white/10 p-5 lg:-ml-8 lg:mt-8"
+          className="relative w-56 rounded-2xl bg-[#1A1625] border border-white/10 p-3 lg:-ml-8 lg:mt-8 flex flex-col gap-2"
           style={{
             transform: "perspective(1000px) rotateX(8deg) rotateY(12deg)",
             boxShadow: "0 0 60px rgba(30,58,95,0.5), 0 20px 40px rgba(0,0,0,0.4)",
           }}
         >
-          <p className="text-xs text-[#378ADD] mb-2">{t("hero.fatherCardLabel") as string}</p>
-          <p
-            className="text-4xl font-medium text-white mb-3"
-            style={{ fontFamily: "var(--font-playfair)" }}
-          >
-            11
-          </p>
-          <div className="mb-3 h-1 w-full rounded-full bg-white/10">
-            <div className="h-1 rounded-full bg-[#378ADD]" style={{ width: "27%" }} />
+          {/* App header */}
+          <div className="flex items-center justify-between px-1">
+            <div>
+              <p className="text-[9px] uppercase tracking-widest text-[#378ADD]/70">Father</p>
+              <p className="text-xs font-medium text-white/90">Hello, Dad</p>
+            </div>
+            <span className="h-2 w-2 rounded-full bg-[#378ADD]" />
           </div>
-          <p className="text-xs text-white/60 leading-snug">{t("hero.fatherCardSub") as string}</p>
+          {/* Week sub-card */}
+          <div className="rounded-xl bg-[#1E3A5F] p-3">
+            <div className="flex items-start justify-between mb-1">
+              <div>
+                <p className="text-[9px] text-white/60 uppercase tracking-wider">Week</p>
+                <p className="text-3xl font-medium text-white leading-none" style={{ fontFamily: "var(--font-playfair)" }}>11</p>
+              </div>
+              <span className="rounded-full bg-white/15 px-1.5 py-0.5 text-[9px] font-medium text-white">T1</span>
+            </div>
+            <p className="text-[10px] text-white/70 mb-1.5">Lime · 5.4 cm</p>
+            <div className="h-1 w-full rounded-full bg-white/15">
+              <div className="h-1 rounded-full bg-[#378ADD]" style={{ width: "27%" }} />
+            </div>
+          </div>
+          {/* Quote */}
+          <div className="rounded-lg border-l-2 border-[#378ADD]/60 bg-white/[0.03] px-2 py-1.5">
+            <p className="text-[9px] italic text-white/50 leading-relaxed">
+              &ldquo;A child learns what a father&apos;s love looks like by watching you.&rdquo;
+            </p>
+          </div>
+          {/* Quick actions */}
+          <div className="grid grid-cols-2 gap-1.5 px-0.5">
+            {["Appointments", "Baby Budget"].map((label) => (
+              <div key={label} className="rounded-lg bg-white/5 border border-white/5 px-2 py-1.5 text-center">
+                <p className="text-[9px] text-white/60">{label}</p>
+              </div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>

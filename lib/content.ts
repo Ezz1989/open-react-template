@@ -6,7 +6,7 @@ export const content = {
     hero: {
       wordmark: "Nawah",
       headline: "Become each other's center.",
-      subheadline: "In Arabic. For your corner of the world.",
+      subheadline: "Week by week. Side by side.",
       body: "Pregnancy is a lot. Nawah keeps you and your partner together through every week of it — from the first heartbeat to the ride home.",
       cta: "Download on Google Play",
       motherCardLabel: "Week 11",
@@ -151,7 +151,7 @@ export const content = {
     hero: {
       wordmark: "\u0646\u0648\u0627\u0629",
       headline: "\u0643\u0648\u0646\u0648\u0627 \u0645\u0631\u0643\u0632 \u0628\u0639\u0636\u0643\u0645.",
-      subheadline: "\u0645\u0635\u0645\u0651\u0645 \u0644\u0643\u0645\u0627 \u2014 \u0628\u0644\u063a\u062a\u0643\u0645\u0627.",
+      subheadline: "أسبوعاً بأسبوع. جنباً إلى جنب.",
       body: "\u0627\u0644\u062d\u0645\u0644 \u0643\u062b\u064a\u0631. \u0646\u0648\u0627\u0629 \u064a\u0631\u0627\u0641\u0642\u0643 \u0648\u0634\u0631\u064a\u0643\u0643 \u0641\u064a \u0643\u0644 \u0623\u0633\u0628\u0648\u0639 \u0645\u0646\u0647 \u2014 \u0645\u0646 \u0623\u0648\u0644 \u0646\u0628\u0636\u0629 \u0625\u0644\u0649 \u0627\u0644\u0639\u0648\u062f\u0629 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0634\u0641\u0649.",
       cta: "\u062a\u062d\u0645\u064a\u0644 \u0645\u0646 Google Play",
       motherCardLabel: "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 ١١",
