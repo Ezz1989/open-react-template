@@ -1,7 +1,7 @@
 # Nawah Landing Page — nawah-landing
 
 **Project:** Landing page for Nawah (نواة) pregnancy companion app
-**URL:** nawah.vercel.app
+**URL:** babynawah.vercel.app
 **Stack:** Next.js 15 · Tailwind CSS v4 · Framer Motion · Magic UI · Aceternity UI
 
 ---
@@ -82,8 +82,10 @@ Update this when the Play Store listing goes live. It appears in `HeroSection.ts
 
 ## Deployment
 - Push to GitHub main branch → Vercel auto-deploys in ~30s
-- Domain: nawah.vercel.app (free, auto-assigned when project named "nawah")
-- Never push broken builds — run `npm run build` before pushing
+- Domain: babynawah.vercel.app (nawah.vercel.app was taken by someone else)
+- Package manager: npm (NOT pnpm — pnpm-lock.yaml was deleted, vercel.json forces npm)
+- vercel.json sets: installCommand "npm install --legacy-peer-deps", buildCommand "npm run build"
+- Never push broken builds — run `npm run build` locally before pushing
 
 ## Copy Tone
 Warm, specific, motherly best-friend voice. NOT clinical. NOT promotional.

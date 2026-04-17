@@ -1,31 +1,43 @@
 "use client";
+import Image from "next/image";
 import { Marquee } from "@/components/ui/marquee";
+import { useLang } from "@/lib/lang-context";
 
 const screenshots = [
-  "/screenshot-mother.png",
-  "/screenshot-father.png",
-  "/screenshot-mother.png",
-  "/screenshot-father.png",
-  "/screenshot-mother.png",
+  { src: "/screenshots/mother-home.jpg", alt: "Mother dashboard — week 11" },
+  { src: "/screenshots/father-home.jpg", alt: "Father dashboard — week 11" },
+  { src: "/screenshots/baby-names.jpg", alt: "Baby names — bilingual" },
+  { src: "/screenshots/nawal-ai.jpg", alt: "Nawal — AI pregnancy companion" },
+  { src: "/screenshots/baby-budget.jpg", alt: "Baby budget — regional currency" },
 ];
 
 export function ScreenshotsMarquee() {
+  const { lang } = useLang();
+  const isAr = lang === "ar";
+  const heading = isAr ? "داخل التطبيق" : "Inside the app";
+  const displayFont = isAr ? "var(--font-cairo)" : "var(--font-playfair)";
+
   return (
     <section className="bg-[#1A1625] py-20 overflow-hidden">
-      <Marquee pauseOnHover className="gap-6">
-        {screenshots.map((src, i) => (
+      <h2
+        className="text-center text-2xl lg:text-3xl font-medium text-white/90 mb-12 px-6"
+        style={{ fontFamily: displayFont }}
+      >
+        {heading}
+      </h2>
+      <Marquee pauseOnHover className="[--gap:1.5rem]">
+        {screenshots.map((s, i) => (
           <div
             key={i}
-            className="w-52 h-96 rounded-2xl overflow-hidden flex-shrink-0 bg-white/5"
-            style={{ boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}
+            className="flex-shrink-0 w-56 h-[380px] rounded-[28px] overflow-hidden border border-white/10 bg-[#0F0B18] relative"
+            style={{ boxShadow: "0 30px 60px rgba(0,0,0,0.5), 0 0 40px rgba(201,114,138,0.12)" }}
           >
-            <img
-              src={src}
-              alt={`Nawah screenshot ${i + 1}`}
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = "none";
-              }}
+            <Image
+              src={s.src}
+              alt={s.alt}
+              fill
+              sizes="224px"
+              className="object-cover object-top"
             />
           </div>
         ))}
