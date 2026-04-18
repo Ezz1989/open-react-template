@@ -1,33 +1,59 @@
 "use client";
+import Image from "next/image";
 import { useLang } from "@/lib/lang-context";
 
 export function Footer() {
-  const { t, lang } = useLang();
-  const wordmark = lang === "ar" ? "نواة" : "Nawah";
-  const font = lang === "ar" ? "var(--font-cairo)" : "var(--font-playfair)";
+  const { t } = useLang();
+  const links = t("footer.links") as {
+    privacy: string;
+    terms: string;
+    safety: string;
+    contact: string;
+  };
+  const copyright = t("footer.copyright") as string;
 
   return (
-    <footer className="bg-[#1A1625] border-t border-white/5 py-10 px-6">
-      <div className="flex flex-col items-center gap-4 text-center text-sm text-white/40">
-        <span className="text-white/90 text-2xl" style={{ fontFamily: font }}>
-          {wordmark}
-        </span>
-        <p>{t("footer.copy") as string}</p>
-        <div className="flex gap-4">
-          <a href="/privacy" className="hover:text-white/80 transition">
-            {t("footer.privacy") as string}
-          </a>
-          <span aria-hidden>·</span>
-          <a
-            href="https://instagram.com/nawahapp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white/80 transition"
-          >
-            {t("footer.instagram") as string}
-          </a>
+    <footer
+      style={{
+        background: "var(--bg-inv)",
+        color: "#fff",
+        padding: "0 0 40px",
+      }}
+    >
+      <div className="container">
+        <div
+          style={{
+            paddingTop: 40,
+            borderTop: "1px solid rgba(255,255,255,0.08)",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: 32,
+            flexWrap: "wrap",
+            fontSize: 13,
+            color: "rgba(255,255,255,0.55)",
+          }}
+        >
+          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+            <Image
+              src="/nawah-logo-white.png"
+              alt="Nawah"
+              width={64}
+              height={64}
+              style={{ height: 64, width: "auto", display: "block" }}
+            />
+          </div>
+          <div style={{ display: "flex", gap: 28, flexWrap: "wrap" }}>
+            <a href="#">{links.privacy}</a>
+            <a href="#">{links.terms}</a>
+            <a href="#">{links.safety}</a>
+            <a href="#">{links.contact}</a>
+          </div>
+          <div>{copyright}</div>
         </div>
       </div>
     </footer>
   );
 }
+
+export default Footer;
