@@ -4,12 +4,7 @@ import { useLang } from "@/lib/lang-context";
 
 export function Footer() {
   const { t } = useLang();
-  const links = t("footer.links") as {
-    privacy: string;
-    terms: string;
-    safety: string;
-    contact: string;
-  };
+  const links = t("footer.links") as { label: string; href: string }[];
   const copyright = t("footer.copyright") as string;
 
   return (
@@ -44,10 +39,18 @@ export function Footer() {
             />
           </div>
           <div style={{ display: "flex", gap: 28, flexWrap: "wrap" }}>
-            <a href="#">{links.privacy}</a>
-            <a href="#">{links.terms}</a>
-            <a href="#">{links.safety}</a>
-            <a href="#">{links.contact}</a>
+            {links.map((l) => {
+              const external = l.href.startsWith("http");
+              return (
+                <a
+                  key={l.label}
+                  href={l.href}
+                  {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                >
+                  {l.label}
+                </a>
+              );
+            })}
           </div>
           <div>{copyright}</div>
         </div>

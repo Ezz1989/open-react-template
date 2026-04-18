@@ -166,15 +166,19 @@ export const content = {
 
     cta: {
       eyebrow: "Ready?",
-      headlineA: "From the second line",
-      headlineB: "to the first cry.",
+      headlineA: "A whole new person is on the way.",
+      headlineB: "So are the two of you.",
       sub: "Free to download. Arabic and English from the first moment. For families across Egypt, the Gulf, and wherever you're reading this.",
       downloadSmall: "Get it on",
       downloadBig: "Google Play",
     },
 
     footer: {
-      links: { privacy: "Privacy", terms: "Terms", safety: "Safety", contact: "Contact" },
+      links: [
+        { label: "Privacy & Terms", href: "https://ezz1989.github.io/nawah-privacy/" },
+        { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
+        { label: "Contact", href: "https://www.instagram.com/nawahapp/" },
+      ],
       copyright: "© 2026 Nawah. Made in MENA, for MENA.",
     },
   },
@@ -346,15 +350,19 @@ export const content = {
 
     cta: {
       eyebrow: "مستعدّان؟",
-      headlineA: "من الخطّ الثاني",
-      headlineB: "إلى الصرخة الأولى.",
+      headlineA: "إنسانٌ جديد في الطريق.",
+      headlineB: "وأنتما كذلك.",
       sub: "مجاني. بالعربية والإنجليزية من اللحظة الأولى. للعائلات في مصر، والخليج، وأينما كنتما تقرآن هذا.",
       downloadSmall: "تحميل من",
       downloadBig: "جوجل بلاي",
     },
 
     footer: {
-      links: { privacy: "الخصوصية", terms: "الشروط", safety: "السلامة", contact: "اتصل بنا" },
+      links: [
+        { label: "الخصوصية والشروط", href: "https://ezz1989.github.io/nawah-privacy/" },
+        { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
+        { label: "تواصلوا معنا", href: "https://www.instagram.com/nawahapp/" },
+      ],
       copyright: "© ٢٠٢٦ نواة. صُنعت في المنطقة، للمنطقة.",
     },
   },
