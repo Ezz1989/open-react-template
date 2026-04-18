@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Naskh_Arabic } from "next/font/google";
 import { LangProvider } from "@/lib/lang-context";
+import { ModeProvider } from "@/lib/mode-context";
 import "./globals.css";
 
 const instrument = Instrument_Serif({
@@ -38,7 +39,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${instrument.variable} ${plusJakarta.variable} ${notoArabic.variable}`}>
-        <LangProvider>{children}</LangProvider>
+        <ModeProvider>
+          <LangProvider>{children}</LangProvider>
+        </ModeProvider>
       </body>
     </html>
   );
