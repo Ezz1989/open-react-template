@@ -71,3 +71,21 @@ Examples of the right tone:
 - Path: `../lib/` from this repo root
 - Reuse pattern from `../lib/services/gemini_service.dart` for the Nawal system prompt (mother/father branching, week context, emergency guidance)
 - Keep the two surfaces voice-consistent — the `000-jeremy-content-consistency-validator` plugin runs in Task 18 to enforce this.
+
+## Component inventory (post-port)
+
+Section components live in `components/`:
+
+- `Navbar.tsx` — pill-toggle mother/father + EN/ع language toggle
+- `HeroSection.tsx` — two-column hero, week slider (4-40), stats strip, Play Store CTA
+- `GrowthVisualizer.tsx` — week-image crossfade panel (used inside Hero)
+- `FeatureGrid.tsx` — 3-col grid, 6 cards with inline SVG icons
+- `DualJourney.tsx` — mother/father split panels, click toggles mode
+- `FetusSVG.tsx` — stylized fetus SVG that scales with week (used in DualJourney)
+- `NawalSection.tsx` — real-time chat UI fetching `/api/nawal/chat`, keyword fallback
+- `BabyNamesSection.tsx` — swipe-card UI with 6 seeded names
+- `PlannersSection.tsx` — tabs with HospitalBagPanel/BudgetPanel/JournalPanel (internal)
+- `CtaSection.tsx` — centered footer CTA block
+- `Footer.tsx` — hairline row with logo, links, copyright
+
+Assembly: `app/page.tsx` renders Navbar → Hero → FeatureGrid → DualJourney → Nawal → BabyNames → Planners → Cta → Footer.
