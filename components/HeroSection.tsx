@@ -1,100 +1,221 @@
 "use client";
-import { motion, type Easing } from "framer-motion";
+import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
-import { Meteors } from "@/components/ui/meteors";
-import { WordFadeIn } from "@/components/ui/word-fade-in";
-import { Spotlight } from "@/components/ui/spotlight";
-import { ScreenshotsMarquee } from "@/components/ScreenshotsMarquee";
-import { cn } from "@/lib/utils";
+import { GrowthVisualizer } from "./GrowthVisualizer";
 
+const WEEK_KEYS = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40];
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawahapp";
 
 export function HeroSection() {
-  const { t, lang } = useLang();
-  const isAr = lang === "ar";
-  const ease: Easing = "easeOut";
+  const { t } = useLang();
+  const [week, setWeek] = useState(12);
 
-  const fadeUp = {
-    hidden: { opacity: 0, y: 16 },
-    visible: (delay: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.28, ease, delay },
-    }),
-  };
+  const snappedKey = WEEK_KEYS.reduce((a, b) => (Math.abs(b - week) < Math.abs(a - week) ? b : a));
+  const pct = Math.round((week / 40) * 100);
 
-  const displayFont = isAr ? "var(--font-cairo)" : "var(--font-playfair)";
+  // force subtle re-animation pulse on week change for visualizer
+  const [, setPulse] = useState(0);
+  useEffect(() => {
+    const id = setTimeout(() => setPulse((p) => p + 1), 50);
+    return () => clearTimeout(id);
+  }, [week]);
 
   return (
-    <section className="relative min-h-[70vh] bg-[#1A1625] overflow-hidden pt-28 pb-0">
-      <Spotlight className="-top-40 left-1/2 -translate-x-1/2" fill="#C9728A" />
-      <Meteors number={18} />
+    <section id="hero" style={{ paddingTop: 140, paddingBottom: 100, position: "relative", overflow: "hidden" }}>
+      <div
+        aria-hidden
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "radial-gradient(ellipse 60% 40% at 80% 10%, color-mix(in oklch, var(--accent), transparent 88%), transparent 70%)",
+          pointerEvents: "none",
+        }}
+      />
 
-      <div className="relative z-10 flex flex-col items-center text-center gap-6 max-w-2xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.28, ease }}
-          className="text-6xl lg:text-8xl font-medium bg-clip-text text-transparent"
-          style={{
-            fontFamily: displayFont,
-            backgroundImage: "linear-gradient(135deg, #FAFAF8 0%, #C9728A 60%, #378ADD 100%)",
-          }}
+      <div className="container" style={{ position: "relative" }}>
+        <div
+          className="hero-grid"
+          style={{ display: "grid", gridTemplateColumns: "1.05fr 0.95fr", gap: 60, alignItems: "center" }}
         >
-          {t("hero.wordmark") as string}
-        </motion.div>
+          <div>
+            <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 28 }}>
+              <span className="chip">
+                <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--accent)" }} />
+                {t("hero.badge") as string}
+              </span>
+              <span className="ar muted" style={{ fontSize: 14 }}>
+                نواة
+              </span>
+            </div>
 
-        <motion.h1
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          custom={0.1}
-          className="text-3xl lg:text-5xl font-medium text-white leading-tight"
-          style={{ fontFamily: displayFont }}
-        >
-          {t("hero.headline") as string}
-        </motion.h1>
+            <h1 className="display-xl" id="hero-headline">
+              {t("hero.headlineA") as string}
+              <br />
+              <em style={{ fontStyle: "italic", color: "var(--accent-strong)" }}>
+                {t("hero.headlineB") as string}
+              </em>
+            </h1>
 
-        <WordFadeIn
-          words={t("hero.subheadline") as string}
-          className={cn(
-            "text-xl lg:text-2xl text-[#C9728A]",
-            isAr && "[font-family:var(--font-cairo)]"
-          )}
-        />
+            <p style={{ marginTop: 28, fontSize: 19, color: "var(--fg-muted)", maxWidth: 520, lineHeight: 1.55 }}>
+              {t("hero.sub") as string}
+            </p>
 
-        <motion.p
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          custom={0.2}
-          className="text-white/60 text-base lg:text-lg leading-relaxed max-w-lg"
-        >
-          {t("hero.body") as string}
-        </motion.p>
+            <div style={{ display: "flex", gap: 12, marginTop: 36, flexWrap: "wrap" }}>
+              <a href={PLAY_STORE_URL} className="btn btn-store" target="_blank" rel="noopener noreferrer">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3 20.5V3.5c0-.27.11-.52.29-.7L13 12l-9.71 9.2c-.18-.18-.29-.43-.29-.7zM14.14 12l2.65-2.51 3.82 2.18c.56.32.56 1.14 0 1.46l-3.82 2.18L14.14 12zM5.29 2.5l10.39 5.93-2.44 2.31L5.29 2.5zM5.29 21.5l7.95-7.74 2.44 2.31L5.29 21.5z" />
+                </svg>
+                <span>
+                  <small>{t("cta.downloadSmall") as string}</small>
+                  <strong>{t("cta.downloadBig") as string}</strong>
+                </span>
+              </a>
+            </div>
 
-        <motion.a
-          href={PLAY_STORE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          custom={0.3}
-          className="mt-2 inline-block"
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-            alt={t("hero.cta") as string}
-            className="h-14 w-auto"
-          />
-        </motion.a>
+            <div
+              style={{
+                marginTop: 48,
+                display: "flex",
+                gap: 32,
+                flexWrap: "wrap",
+                fontSize: 13,
+                color: "var(--fg-muted)",
+              }}
+            >
+              <div>
+                <strong
+                  style={{
+                    color: "var(--fg)",
+                    fontSize: 20,
+                    fontFamily: "var(--font-display)",
+                    display: "block",
+                  }}
+                >
+                  {t("hero.stat1Num") as string}
+                </strong>
+                {t("hero.stat1Label") as string}
+              </div>
+              <div>
+                <strong
+                  style={{
+                    color: "var(--fg)",
+                    fontSize: 20,
+                    fontFamily: "var(--font-display)",
+                    display: "block",
+                  }}
+                >
+                  {t("hero.stat2Num") as string}
+                </strong>
+                {t("hero.stat2Label") as string}
+              </div>
+              <div>
+                <strong
+                  style={{
+                    color: "var(--fg)",
+                    fontSize: 20,
+                    fontFamily: "var(--font-display)",
+                    display: "block",
+                  }}
+                >
+                  {t("hero.stat3Num") as string}
+                </strong>
+                {t("hero.stat3Label") as string}
+              </div>
+            </div>
+          </div>
+
+          <div style={{ position: "relative" }}>
+            <GrowthVisualizer week={snappedKey} weekVal={week} />
+
+            <div
+              style={{
+                marginTop: 24,
+                padding: "22px 26px",
+                background: "var(--bg-elev)",
+                borderRadius: 20,
+                border: "1px solid var(--border)",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  fontSize: 12,
+                  color: "var(--fg-muted)",
+                  marginBottom: 10,
+                }}
+              >
+                <span>{t("hero.scrubHint") as string}</span>
+                <span>
+                  {(t("hero.weekLabel") as string)} {week} · {pct}%
+                </span>
+              </div>
+              <input
+                type="range"
+                min={4}
+                max={40}
+                step={1}
+                value={week}
+                onChange={(e) => setWeek(+e.target.value)}
+                className="week-slider"
+                style={{ width: "100%" }}
+              />
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  marginTop: 10,
+                  fontSize: 10,
+                  color: "var(--fg-soft)",
+                  fontFamily: "monospace",
+                }}
+              >
+                <span>4</span>
+                <span>12</span>
+                <span>20</span>
+                <span>28</span>
+                <span>40</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="relative z-10 mt-16">
-        <ScreenshotsMarquee />
-      </div>
+      <style>{`
+        @media (max-width: 960px) {
+          .hero-grid { grid-template-columns: 1fr !important; gap: 60px !important; }
+        }
+        .week-slider {
+          -webkit-appearance: none;
+          appearance: none;
+          height: 4px;
+          background: color-mix(in oklch, var(--accent), transparent 80%);
+          border-radius: 2px;
+          outline: none;
+        }
+        .week-slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 22px; height: 22px;
+          background: var(--accent);
+          border-radius: 50%;
+          cursor: grab;
+          border: 4px solid var(--bg-elev);
+          box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          transition: transform 0.2s;
+        }
+        .week-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
+        .week-slider::-moz-range-thumb {
+          width: 22px; height: 22px;
+          background: var(--accent);
+          border-radius: 50%;
+          cursor: grab;
+          border: 4px solid var(--bg-elev);
+        }
+      `}</style>
     </section>
   );
 }
+
+export default HeroSection;
