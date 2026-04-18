@@ -1,10 +1,10 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
-import { WeekJourney } from "@/components/WeekJourney";
-import { PartnerSync } from "@/components/PartnerSync";
-import { FeaturesBento } from "@/components/FeaturesBento";
-import { ArabicStrip } from "@/components/ArabicStrip";
-import { ScreenshotsMarquee } from "@/components/ScreenshotsMarquee";
+import { FeatureGrid } from "@/components/FeatureGrid";
+import { DualJourney } from "@/components/DualJourney";
+import { NawalSection } from "@/components/NawalSection";
+import { BabyNamesSection } from "@/components/BabyNamesSection";
+import { PlannersSection } from "@/components/PlannersSection";
 import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
 
@@ -14,11 +14,11 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <WeekJourney />
-        <PartnerSync />
-        <FeaturesBento />
-        <ArabicStrip />
-        <ScreenshotsMarquee />
+        <FeatureGrid />
+        <DualJourney />
+        <NawalSection />
+        <BabyNamesSection />
+        <PlannersSection />
         <CtaSection />
       </main>
       <Footer />
