@@ -30,7 +30,10 @@ export function CtaSection() {
             className="h-16 w-auto mx-auto"
           />
         </a>
-        <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm text-white/40">
+        <p className="mt-4 text-xs text-white/30 tracking-wide">
+          {t("cta.credit") as string}
+        </p>
+        <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-white/40">
           <a href="/privacy" className="hover:text-white/80 transition">
             {t("cta.privacy") as string}
           </a>
