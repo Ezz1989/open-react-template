@@ -16,33 +16,28 @@ export default function ResetPasswordPage() {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
+    // The email template sends users here with ?token_hash=...&type=recovery.
+    // verifyOtp turns that into a session without needing a PKCE verifier and
+    // without being consumed by email-scanner pre-fetches (those don't run JS).
+    const params = new URLSearchParams(window.location.search);
+    const tokenHash = params.get("token_hash");
+    const type = params.get("type");
+
+    if (!tokenHash || type !== "recovery") {
+      setPhase("invalid");
+      return;
+    }
+
     const supabase = getSupabase();
-    let settled = false;
-
-    const subscription = supabase.auth.onAuthStateChange((event) => {
-      if (settled) return;
-      if (event === "PASSWORD_RECOVERY" || event === "SIGNED_IN") {
-        settled = true;
-        setPhase("ready");
-      }
-    });
-
-    supabase.auth.getSession().then(({ data }) => {
-      if (settled) return;
-      if (data.session) {
-        settled = true;
-        setPhase("ready");
-      } else {
-        setTimeout(() => {
-          if (!settled) {
-            settled = true;
-            setPhase("invalid");
-          }
-        }, 1500);
-      }
-    });
-
-    return () => subscription.data.subscription.unsubscribe();
+    supabase.auth
+      .verifyOtp({ type: "recovery", token_hash: tokenHash })
+      .then(({ data, error }) => {
+        if (error || !data.session) {
+          setPhase("invalid");
+        } else {
+          setPhase("ready");
+        }
+      });
   }, []);
 
   async function handleSubmit(e: React.FormEvent) {
