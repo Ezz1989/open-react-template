@@ -173,6 +173,26 @@ export const content = {
       downloadBig: "Google Play",
     },
 
+    resetPassword: {
+      eyebrow: "Account recovery",
+      title: "Set a new password",
+      sub: "Enter a new password for your Nawah account. Once it's saved, open the app and sign in.",
+      newLabel: "New password",
+      newPlaceholder: "At least 8 characters",
+      confirmLabel: "Confirm new password",
+      confirmPlaceholder: "Type it again",
+      submit: "Update password",
+      submitting: "Updating…",
+      successTitle: "You're all set.",
+      successSub: "Your password is updated. Open Nawah and sign in.",
+      invalidTitle: "This link isn't valid anymore.",
+      invalidSub: "It may have expired or already been used. Request a new one from the app — tap Forgot password again.",
+      errorMismatch: "Passwords don't match.",
+      errorShort: "Password must be at least 8 characters.",
+      errorGeneric: "Something went wrong. Please try again.",
+      openApp: "Open the Nawah app",
+    },
+
     footer: {
       links: [
         { label: "Privacy & Terms", href: "https://ezz1989.github.io/nawah-privacy/" },
@@ -355,6 +375,26 @@ export const content = {
       sub: "مجاني. بالعربية والإنجليزية من اللحظة الأولى. للعائلات في مصر، والخليج، وأينما كنتما تقرآن هذا.",
       downloadSmall: "تحميل من",
       downloadBig: "جوجل بلاي",
+    },
+
+    resetPassword: {
+      eyebrow: "استعادة الحساب",
+      title: "اختاري كلمة مرور جديدة",
+      sub: "أدخلي كلمة مرور جديدة لحسابك في نواة. بعد الحفظ، افتحي التطبيق وسجّلي دخولك.",
+      newLabel: "كلمة المرور الجديدة",
+      newPlaceholder: "٨ أحرف على الأقل",
+      confirmLabel: "تأكيد كلمة المرور",
+      confirmPlaceholder: "اكتبيها مرة أخرى",
+      submit: "تحديث كلمة المرور",
+      submitting: "جارٍ التحديث…",
+      successTitle: "تمّ بنجاح.",
+      successSub: "تم تحديث كلمة المرور. افتحي تطبيق نواة وسجّلي دخولك.",
+      invalidTitle: "هذا الرابط لم يعد صالحاً.",
+      invalidSub: "قد تكون صلاحيته انتهت أو تم استخدامه. اطلبي رابطاً جديداً من التطبيق — اضغطي على 'نسيت كلمة المرور' مجدداً.",
+      errorMismatch: "كلمتا المرور غير متطابقتين.",
+      errorShort: "يجب أن تكون كلمة المرور ٨ أحرف على الأقل.",
+      errorGeneric: "حدث خطأ. حاولي مرة أخرى.",
+      openApp: "افتحي تطبيق نواة",
     },
 
     footer: {
