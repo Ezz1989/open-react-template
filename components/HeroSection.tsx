@@ -1,10 +1,10 @@
-"use client";
+﻿"use client";
 import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { GrowthVisualizer } from "./GrowthVisualizer";
 
 const WEEK_KEYS = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40];
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawahapp";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
 
 export function HeroSection() {
   const { t } = useLang();
@@ -45,7 +45,7 @@ export function HeroSection() {
                 {t("hero.badge") as string}
               </span>
               <span className="ar muted" style={{ fontSize: 14 }}>
-                نواة
+                Ù†ÙˆØ§Ø©
               </span>
             </div>
 
@@ -148,7 +148,7 @@ export function HeroSection() {
               >
                 <span>{t("hero.scrubHint") as string}</span>
                 <span>
-                  {(t("hero.weekLabel") as string)} {week} · {pct}%
+                  {(t("hero.weekLabel") as string)} {week} Â· {pct}%
                 </span>
               </div>
               <input

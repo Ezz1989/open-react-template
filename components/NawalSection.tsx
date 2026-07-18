@@ -1,17 +1,17 @@
-"use client";
+﻿"use client";
 import { useEffect, useRef, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { useMode } from "@/lib/mode-context";
 
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawahapp";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
 
 type Msg = { who: "me" | "ai"; text: string };
 
 function pickFallback(text: string, replies: Record<string, string>): string {
   const lower = text.toLowerCase();
-  if (/hear|sense|اسمع|تسمع/.test(lower)) return replies.hear;
-  if (/tired|تعب|مرهق/.test(lower)) return replies.tired;
-  if (/partner|husband|شريك|زوج/.test(lower)) return replies.partner;
+  if (/hear|sense|Ø§Ø³Ù…Ø¹|ØªØ³Ù…Ø¹/.test(lower)) return replies.hear;
+  if (/tired|ØªØ¹Ø¨|Ù…Ø±Ù‡Ù‚/.test(lower)) return replies.tired;
+  if (/partner|husband|Ø´Ø±ÙŠÙƒ|Ø²ÙˆØ¬/.test(lower)) return replies.partner;
   return replies.default;
 }
 
@@ -249,7 +249,7 @@ export function NawalSection() {
                   cursor: "pointer",
                 }}
               >
-                {s} →
+                {s} â†’
               </button>
             ))}
           </div>
@@ -297,7 +297,7 @@ export function NawalSection() {
                 opacity: loading || !input.trim() ? 0.5 : 1,
               }}
             >
-              ↑
+              â†‘
             </button>
           </form>
         </div>

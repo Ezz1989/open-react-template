@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { getSupabase } from "@/lib/supabase";
 
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawahapp";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
 
 type Phase = "checking" | "ready" | "invalid" | "success";
 
