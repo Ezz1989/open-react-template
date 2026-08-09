@@ -2,8 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { useMode } from "@/lib/mode-context";
-
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
+import { PLAY_STORE_URL } from "@/lib/constants";
 
 type Msg = { who: "me" | "ai"; text: string };
 

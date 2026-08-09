@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { GrowthVisualizer } from "./GrowthVisualizer";
+import { PLAY_STORE_URL } from "@/lib/constants";
 
 const WEEK_KEYS = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40];
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
 
 export function HeroSection() {
   const { t } = useLang();

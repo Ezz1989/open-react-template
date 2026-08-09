@@ -1,7 +1,6 @@
 ﻿"use client";
 import { useLang } from "@/lib/lang-context";
-
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
+import { PLAY_STORE_URL } from "@/lib/constants";
 
 export function CtaSection() {
   const { t } = useLang();

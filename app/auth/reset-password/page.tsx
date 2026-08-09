@@ -2,8 +2,7 @@
 import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { getSupabase } from "@/lib/supabase";
-
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.nawah.app";
+import { PLAY_STORE_URL } from "@/lib/constants";
 
 type Phase = "checking" | "ready" | "invalid" | "success";
 
