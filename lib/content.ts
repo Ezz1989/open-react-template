@@ -171,6 +171,8 @@ export const content = {
       sub: "Free to download. Arabic and English from the first moment. For families across Egypt, the Gulf, and wherever you're reading this.",
       downloadSmall: "Get it on",
       downloadBig: "Google Play",
+      appStoreSmall: "Coming soon to",
+      appStoreBig: "App Store",
     },
 
     resetPassword: {
@@ -193,9 +195,130 @@ export const content = {
       openApp: "Open the Nawah app",
     },
 
+    legal: {
+      back: "Back to Nawah",
+    },
+
+    privacy: {
+      eyebrow: "Legal",
+      title: "Privacy Policy",
+      updated: "Last updated 11 August 2026",
+      intro:
+        "Nawah holds some of the most private information there is — how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, who else can see it, and how to get rid of it.",
+      sections: [
+        {
+          heading: "What we collect",
+          body: [
+            "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google, we receive your email and name from Google — nothing else.",
+            "Pregnancy and health information you enter: last menstrual period, due date, week-by-week logs, symptoms, moods, kick counts, contraction timings, vitals, appointments, baby names, hospital bag and budget lists, and journal entries.",
+            "Messages you send to Nawal, the in-app assistant.",
+            "Technical information: crash reports, and anonymous usage events such as which screens are opened.",
+          ],
+        },
+        {
+          heading: "Health data, specifically",
+          body: [
+            "Symptoms, moods, kick counts, contractions, vitals and your due date are health information. We treat them as the most sensitive data in the app.",
+            "We do not sell health data. We do not use it to target advertising. It is never shared with advertisers.",
+          ],
+        },
+        {
+          heading: "Who else can see it",
+          body: [
+            "Your partner, only if you link accounts — and journal entries only when you mark them as shared. Everything else stays yours.",
+            "Service providers who process data on our behalf: Supabase (database and sign-in), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq (which processes messages you send to Nawal so it can reply).",
+            "We do not sell your personal information to anyone.",
+          ],
+        },
+        {
+          heading: "Nawal, the assistant",
+          body: [
+            "Nawal is software, not a doctor, nurse or midwife. It gives general information only and can be wrong. Nothing it says is medical advice, and it must never replace your own doctor.",
+            "Messages you send are processed by Groq to generate a reply. Do not send information you would not want processed by a third party.",
+          ],
+        },
+        {
+          heading: "Advertising",
+          body: [
+            "The free version shows ads through Google AdMob. In the EEA and UK you are asked for consent before any personalised advertising, and you can decline.",
+            "Premium removes ads entirely.",
+          ],
+        },
+        {
+          heading: "Where it is stored, and for how long",
+          body: [
+            "Data is stored on Supabase infrastructure in the EU (eu-west-2). We keep it while your account exists.",
+            "When you delete your account, your data is deleted — see the account deletion page for exactly what goes and what is briefly retained.",
+          ],
+        },
+        {
+          heading: "Your rights",
+          body: [
+            "You can access, correct, export or delete your information at any time. Deletion is available inside the app under Profile, and by email if you cannot reach the app.",
+            "If you are in a jurisdiction with data protection law — including the EU/UK GDPR and Egypt's PDPL — those rights apply to you and we will honour them.",
+          ],
+        },
+        {
+          heading: "Children",
+          body: [
+            "Nawah is not intended for children under 13, and we do not knowingly collect their information.",
+          ],
+        },
+        {
+          heading: "Changes",
+          body: [
+            "If this policy changes in a way that matters, we will say so in the app rather than quietly editing this page.",
+          ],
+        },
+      ],
+      contactHeading: "Questions",
+      contactBody: "Write to nawahapp@outlook.com and a person will answer.",
+      contactEmail: "nawahapp@outlook.com",
+    },
+
+    deleteAccount: {
+      eyebrow: "Your data",
+      title: "Delete your account",
+      updated: "Last updated 11 August 2026",
+      intro:
+        "You can delete your Nawah account and everything in it, at any time, without asking anyone's permission.",
+      inAppHeading: "In the app — fastest",
+      inAppSteps: [
+        "Open Nawah and go to Profile.",
+        "Tap Delete Account.",
+        "Confirm. That is it — the deletion runs immediately.",
+      ],
+      emailHeading: "By email — if you can't open the app",
+      emailBody:
+        "Write to nawahapp@outlook.com from the email address on the account, with the subject \"Delete my account\". We will confirm your identity and delete it.",
+      contactEmail: "nawahapp@outlook.com",
+      deletedHeading: "What gets deleted",
+      deletedItems: [
+        "Your profile, name and sign-in details",
+        "Your pregnancy record, due date and weekly logs",
+        "Symptoms, moods, vitals, kick sessions and contraction timings",
+        "Appointments, journal entries, baby names, hospital bag and budget lists",
+        "The link to your partner's account",
+        "Your Nawal conversation history",
+      ],
+      keptHeading: "What is kept, briefly",
+      keptItems: [
+        "Anonymous, aggregated usage counts that are no longer linked to you and cannot identify you.",
+        "Records we are legally required to hold, such as a purchase receipt for tax purposes, kept only as long as the law requires.",
+        "Routine encrypted backups, which are overwritten on a rolling basis within 30 days.",
+      ],
+      timingHeading: "How long it takes",
+      timingBody:
+        "Deletion from the live database is immediate. Backups cycle out within 30 days. Once it is done it cannot be undone — there is no restore.",
+      partnerHeading: "If your accounts are linked",
+      partnerBody:
+        "Deleting your account removes the link. Your partner keeps their own account and their own entries; they lose access to anything of yours they could previously see.",
+    },
+
     footer: {
       links: [
-        { label: "Privacy & Terms", href: "https://ezz1989.github.io/nawah-privacy/" },
+        { label: "Privacy", href: "/privacy" },
+        { label: "Delete account", href: "/delete-account" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "Contact", href: "https://www.instagram.com/nawahapp/" },
       ],
@@ -375,6 +498,8 @@ export const content = {
       sub: "مجاني. بالعربية والإنجليزية من اللحظة الأولى. للعائلات في مصر، والخليج، وأينما كنتما تقرآن هذا.",
       downloadSmall: "تحميل من",
       downloadBig: "جوجل بلاي",
+      appStoreSmall: "قريباً على",
+      appStoreBig: "آب ستور",
     },
 
     resetPassword: {
@@ -397,9 +522,129 @@ export const content = {
       openApp: "افتحي تطبيق نواة",
     },
 
+    legal: {
+      back: "العودة إلى نواة",
+    },
+
+    privacy: {
+      eyebrow: "قانوني",
+      title: "سياسة الخصوصية",
+      updated: "آخر تحديث ١١ أغسطس ٢٠٢٦",
+      intro:
+        "نواة يحتفظ بأكثر المعلومات خصوصية — كيف يسير الحمل، وكيف تشعرين، وما تكتبينه في الثالثة فجراً. هذه الصفحة تقول بوضوح ما الذي نخزّنه، ومن يستطيع رؤيته، وكيف تحذفينه.",
+      sections: [
+        {
+          heading: "ما الذي نجمعه",
+          body: [
+            "بيانات الحساب: بريدك الإلكتروني، والاسم الظاهر، وما إذا كنتِ سجّلتِ كأم أو كأب. إذا سجّلتِ الدخول عبر جوجل، نستلم منه بريدك واسمك فقط، ولا شيء غير ذلك.",
+            "معلومات الحمل والصحة التي تدخلينها: تاريخ آخر دورة، موعد الولادة المتوقع، السجلات الأسبوعية، الأعراض، الحالة المزاجية، عدّاد الركلات، توقيت الانقباضات، المؤشرات الحيوية، المواعيد، أسماء الطفل، قائمة حقيبة المستشفى والميزانية، ومدوّناتك اليومية.",
+            "الرسائل التي ترسلينها إلى نوال، المساعِدة داخل التطبيق.",
+            "معلومات تقنية: تقارير الأعطال، وأحداث استخدام مجهولة الهوية مثل الشاشات التي تُفتح.",
+          ],
+        },
+        {
+          heading: "البيانات الصحية تحديداً",
+          body: [
+            "الأعراض والحالة المزاجية وعدّاد الركلات والانقباضات والمؤشرات الحيوية وموعد الولادة كلها معلومات صحية، ونتعامل معها باعتبارها أكثر البيانات حساسية في التطبيق.",
+            "لا نبيع البيانات الصحية، ولا نستخدمها لاستهدافك بالإعلانات، ولا تُشارَك مع المعلنين إطلاقاً.",
+          ],
+        },
+        {
+          heading: "من يستطيع رؤيتها",
+          body: [
+            "شريكك، فقط إذا ربطتما الحسابين — والمدوّنات اليومية فقط حين تحدّدينها كمشتركة. ما عدا ذلك يبقى لكِ وحدك.",
+            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وGoogle Firebase (تقارير الأعطال والإشعارات)، وPostHog (تحليلات استخدام مجهولة)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq (يعالج رسائلك إلى نوال ليردّ عليها).",
+            "لا نبيع معلوماتك الشخصية لأي جهة.",
+          ],
+        },
+        {
+          heading: "نوال، المساعِدة",
+          body: [
+            "نوال برنامج، وليست طبيبة أو ممرضة أو قابلة. تعطي معلومات عامة فقط وقد تخطئ. لا شيء تقوله يُعدّ استشارة طبية، ولا يجوز أن يحلّ محل طبيبتك.",
+            "الرسائل التي ترسلينها تُعالَج عبر Groq لتوليد الرد. لا ترسلي معلومات لا ترغبين في أن تعالجها جهة خارجية.",
+          ],
+        },
+        {
+          heading: "الإعلانات",
+          body: [
+            "النسخة المجانية تعرض إعلانات عبر Google AdMob. في الاتحاد الأوروبي والمملكة المتحدة يُطلب إذنك قبل أي إعلان مخصّص، ويمكنك الرفض.",
+            "النسخة المدفوعة تزيل الإعلانات تماماً.",
+          ],
+        },
+        {
+          heading: "أين تُخزَّن، ولكم من الوقت",
+          body: [
+            "تُخزَّن البيانات على بنية Supabase في الاتحاد الأوروبي (eu-west-2)، ونحتفظ بها ما دام حسابك قائماً.",
+            "عند حذف حسابك تُحذف بياناتك — راجعي صفحة حذف الحساب لمعرفة ما يُحذف بالضبط وما يُحتفظ به لفترة قصيرة.",
+          ],
+        },
+        {
+          heading: "حقوقك",
+          body: [
+            "يمكنك الاطلاع على معلوماتك أو تصحيحها أو تصديرها أو حذفها في أي وقت. الحذف متاح داخل التطبيق من صفحة الحساب، وعبر البريد الإلكتروني إن تعذّر عليك الوصول للتطبيق.",
+            "إذا كنتِ في بلد لديه قانون لحماية البيانات — بما في ذلك اللائحة الأوروبية والبريطانية وقانون حماية البيانات المصري — فهذه الحقوق تنطبق عليك وسنحترمها.",
+          ],
+        },
+        {
+          heading: "الأطفال",
+          body: [
+            "نواة ليس مخصّصاً لمن هم دون الثالثة عشرة، ولا نجمع معلوماتهم عن قصد.",
+          ],
+        },
+        {
+          heading: "التغييرات",
+          body: [
+            "إذا تغيّرت هذه السياسة بشكل يهمّك، سنخبرك داخل التطبيق بدل تعديل هذه الصفحة بصمت.",
+          ],
+        },
+      ],
+      contactHeading: "أسئلة",
+      contactBody: "اكتبي إلى nawahapp@outlook.com وسيردّ عليك إنسان.",
+      contactEmail: "nawahapp@outlook.com",
+    },
+
+    deleteAccount: {
+      eyebrow: "بياناتك",
+      title: "حذف حسابك",
+      updated: "آخر تحديث ١١ أغسطس ٢٠٢٦",
+      intro: "يمكنك حذف حسابك في نواة وكل ما فيه، في أي وقت، دون إذن من أحد.",
+      inAppHeading: "من التطبيق — الأسرع",
+      inAppSteps: [
+        "افتحي نواة واذهبي إلى صفحة الحساب.",
+        "اضغطي على حذف الحساب.",
+        "أكّدي. هذا كل شيء — يبدأ الحذف فوراً.",
+      ],
+      emailHeading: "بالبريد الإلكتروني — إن تعذّر فتح التطبيق",
+      emailBody:
+        "اكتبي إلى nawahapp@outlook.com من البريد المسجّل في الحساب، وليكن العنوان «حذف حسابي». سنتحقق من هويتك ثم نحذفه.",
+      contactEmail: "nawahapp@outlook.com",
+      deletedHeading: "ما الذي يُحذف",
+      deletedItems: [
+        "ملفك الشخصي واسمك وبيانات تسجيل الدخول",
+        "سجلّ الحمل وموعد الولادة والسجلات الأسبوعية",
+        "الأعراض والحالة المزاجية والمؤشرات الحيوية وجلسات الركلات وتوقيت الانقباضات",
+        "المواعيد والمدوّنات وأسماء الطفل وقائمة حقيبة المستشفى والميزانية",
+        "الرابط مع حساب شريكك",
+        "سجلّ محادثاتك مع نوال",
+      ],
+      keptHeading: "ما يُحتفظ به لفترة قصيرة",
+      keptItems: [
+        "أعداد استخدام مجمّعة ومجهولة لم تعد مرتبطة بك ولا يمكن التعرّف عليك من خلالها.",
+        "سجلات يلزمنا القانون بحفظها، كإيصال شراء لأغراض ضريبية، وللمدة التي يفرضها القانون فقط.",
+        "نسخ احتياطية مشفّرة تُستبدل دورياً خلال ٣٠ يوماً.",
+      ],
+      timingHeading: "كم يستغرق",
+      timingBody:
+        "الحذف من قاعدة البيانات الحيّة فوري، والنسخ الاحتياطية تنتهي دورتها خلال ٣٠ يوماً. وبعد تمامه لا يمكن التراجع عنه — لا توجد استعادة.",
+      partnerHeading: "إذا كان الحسابان مرتبطين",
+      partnerBody:
+        "حذف حسابك يلغي الارتباط. يحتفظ شريكك بحسابه وبمدخلاته، ويفقد الوصول إلى أي شيء يخصّك كان يراه من قبل.",
+    },
+
     footer: {
       links: [
-        { label: "الخصوصية والشروط", href: "https://ezz1989.github.io/nawah-privacy/" },
+        { label: "الخصوصية", href: "/privacy" },
+        { label: "حذف الحساب", href: "/delete-account" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "تواصلوا معنا", href: "https://www.instagram.com/nawahapp/" },
       ],

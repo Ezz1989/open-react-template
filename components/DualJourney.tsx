@@ -64,14 +64,14 @@ export function DualJourney() {
               <li key={b}>◦ {b}</li>
             ))}
           </ul>
-          <div style={{ position: "absolute", bottom: 60, right: 60, opacity: 0.85 }}>
+          <div style={{ position: "absolute", bottom: 60, insetInlineEnd: 60, opacity: 0.85 }}>
             <FetusSVG week={20} color="#F5E3E2" size={180} />
           </div>
           <div
             style={{
               position: "absolute",
               bottom: 40,
-              right: 40,
+              insetInlineEnd: 40,
               fontFamily: "var(--font-display)",
               fontSize: 120,
               opacity: 0.1,
@@ -128,7 +128,7 @@ export function DualJourney() {
             style={{
               position: "absolute",
               bottom: 40,
-              right: 40,
+              insetInlineEnd: 40,
               fontFamily: "var(--font-display)",
               fontSize: 120,
               opacity: 0.1,

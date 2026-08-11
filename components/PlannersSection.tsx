@@ -102,7 +102,10 @@ function HospitalBagPanel({ content }: { content: BagContent }) {
           </div>
         </div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 12 }}>
+      {/* min(100%, 300px): a bare 300px minimum overflows any viewport narrower
+          than 300px + container padding — a 360px Android leaves only 296px —
+          which produced a horizontally scrolling page on small phones. */}
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))", gap: 12 }}>
         {content.items.map((item, i) => (
           <label
             key={item.label}

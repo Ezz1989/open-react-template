@@ -45,7 +45,7 @@ export function HeroSection() {
                 {t("hero.badge") as string}
               </span>
               <span className="ar muted" style={{ fontSize: 14 }}>
-                Ù†ÙˆØ§Ø©
+                نواة
               </span>
             </div>
 
@@ -148,7 +148,7 @@ export function HeroSection() {
               >
                 <span>{t("hero.scrubHint") as string}</span>
                 <span>
-                  {(t("hero.weekLabel") as string)} {week} Â· {pct}%
+                  {(t("hero.weekLabel") as string)} {week} · {pct}%
                 </span>
               </div>
               <input

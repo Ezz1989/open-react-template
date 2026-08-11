@@ -76,7 +76,7 @@ export function GrowthVisualizer({ week, weekVal }: { week: number; weekVal: num
         style={{
           position: "absolute",
           top: 22,
-          left: 22,
+          insetInlineStart: 22,
           color: "#fff",
           display: "flex",
           alignItems: "baseline",
@@ -109,7 +109,7 @@ export function GrowthVisualizer({ week, weekVal }: { week: number; weekVal: num
         style={{
           position: "absolute",
           top: 22,
-          right: 22,
+          insetInlineEnd: 22,
           padding: "6px 12px",
           background: "rgba(255,255,255,0.15)",
           backdropFilter: "blur(8px)",
@@ -124,7 +124,7 @@ export function GrowthVisualizer({ week, weekVal }: { week: number; weekVal: num
         {trimesterNum}
       </div>
 
-      <div style={{ position: "absolute", left: 22, right: 22, bottom: 22, color: "#fff" }}>
+      <div style={{ position: "absolute", insetInlineStart: 22, insetInlineEnd: 22, bottom: 22, color: "#fff" }}>
         <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 8 }}>
           <div style={{ fontFamily: "var(--font-display)", fontSize: 28, fontStyle: "italic" }}>
             {info.fruit}

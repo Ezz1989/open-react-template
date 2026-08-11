@@ -37,12 +37,37 @@ Source of truth: `app/globals.css`. Never hardcode hex values in components — 
 3. RTL: toggled via `document.documentElement.dir` in `LangProvider` — no manual `dir` attrs in components.
 4. Mother/father toggle: `useMode()` from `lib/mode-context.tsx` writes `data-mode` on `<html>`. Components react through the CSS cascade, not JS state.
 5. One responsibility per file. Components do layout only, no business logic.
-6. Google Play only (no App Store button).
+6. **CHANGED 2026-08-11 (was "Google Play only, no App Store button").** `CtaSection.tsx` now shows BOTH badges. The App Store one is a non-interactive `<span class="btn btn-store btn-store-soon">` reading "Coming soon to App Store" / "قريباً على آب ستور" — **never an `<a>`**, because there is no iOS build and a badge linking nowhere misleads users. Full switch-on instructions are in the `APP_STORE_URL` memo in `lib/constants.ts`. Both badges were also made smaller (padding 14/24 → 11/18, strong 16px → 14px).
 7. Nawal chat uses real Groq AI via `app/api/nawal/chat/route.ts`. Never call Groq directly from the client — the key stays server-side.
 
 ## Play Store URL
 
-`https://play.google.com/store/apps/details?id=com.nawahapp` — appears in `HeroSection.tsx` and `CtaSection.tsx`. Update when the listing goes live.
+`https://play.google.com/store/apps/details?id=com.nawahapp` — appears in `HeroSection.tsx` and `CtaSection.tsx`, both importing `PLAY_STORE_URL` from `lib/constants.ts`.
+
+🔴 **Verified 2026-08-11: this URL returns HTTP 404.** The package id is right; the listing is not public because the app is only on the **internal testing** track, so the button currently sends visitors to a Play error page. It resolves by itself at production publish (tracker P15) with no code change. Memo lives on the constant.
+
+## Session 2026-08-11 — encoding, P7 pages, mobile/RTL
+
+**🔴 MOJIBAKE — FOUND AND FIXED, one of them functional.** `HeroSection.tsx` and `NawalSection.tsx` contained 10 double-encoded runs (Arabic written as UTF-8, re-read as CP1252, re-saved as UTF-8). `HeroSection:48` displayed `Ù†ÙˆØ§Ø©` instead of `نواة` on the live hero.
+**The serious one:** `NawalSection.tsx:11-13` are the Arabic keyword regexes for the demo chat. With mojibake in the pattern **no Arabic input could ever match**, so every Arabic visitor silently received the fallback reply — the Arabic demo of an Arabic-first product had never worked. Arrows `â†’`/`â†‘` on lines 251/299 were corrupted too.
+**Method that worked:** detect runs of characters CP1252 can encode to a single byte ≥ 0x80, then `run.encode('cp1252').decode('utf-8')`. **Guard the repair with an idempotence check** — a naive "no CP1252 chars remain" assertion is WRONG, because a correctly repaired `·` is itself a CP1252 character. Repo-wide rescan afterwards: 0 remaining. `lib/content.ts` was clean.
+
+**✅ P7 DONE — two new static routes**, both bilingual through `content.ts` (no hardcoded strings) and sharing `components/LegalLayout.tsx`:
+- **`/privacy`** — disclosures written from the app's ACTUAL integrations (Supabase eu-west-2, Firebase, PostHog, AdMob, RevenueCat, Groq), so the P13 Data Safety form can be filled to match. Health data called out explicitly as never sold and never used for ad targeting.
+- **`/delete-account`** — Play requires a **publicly reachable** deletion URL; an in-app path alone is not sufficient, since a reviewer or an uninstalled user must reach it without an account. Documents in-app route, email route, what is deleted, what is retained (30-day backup cycle), and the partner-unlink consequence.
+- `footer.links` now point at `/privacy` and `/delete-account` instead of `ezz1989.github.io/nawah-privacy/`.
+- **`LegalLayout` deliberately does not reuse `Navbar`** — Navbar links to on-page anchors (`#features`, `#nawal`) that don't exist on these routes, and its mother/father toggle is meaningless there.
+
+**✅ MOBILE + RTL.** Two of the first suspicions were WRONG and are recorded so they aren't re-raised: **viewport is NOT missing** (Next.js sets `width=device-width, initial-scale=1` automatically — its docs say manual config "is usually unnecessary"), and **the site IS responsive** — breakpoints live in per-component `<style jsx>` blocks, not `globals.css`, so grepping `globals.css` for `@media` returns 0 and looks alarming.
+Real fixes applied:
+- **9 physical CSS properties → logical** (`marginLeft`→`marginInlineStart`, `left/right`→`insetInlineStart/End`) in `NawalSection`, `GrowthVisualizer`, `DualJourney`, plus `.btn-store { text-align: left }` → `text-align: start`. These did not mirror under `dir="rtl"`.
+- **`PlannersSection` `minmax(300px, 1fr)` → `minmax(min(100%, 300px), 1fr)`** — a bare 300px minimum overflows a 360px Android (296px available after container padding), which made the page scroll sideways.
+- `.container` padding 32px → 20px under 600px, and `html, body { max-width: 100%; overflow-x: hidden }`.
+- ⚠️ **Still open:** `layout.tsx` hardcodes `<html lang="en">` and `LangProvider` sets `dir` in a `useEffect`, so Arabic renders LTR for one frame before flipping. Cosmetic, not fixed.
+
+**Metadata** now uses `metadataBase` + `SITE_URL = https://www.nawahapp.net`. ⚠️ `babynawah.vercel.app` must keep resolving — the shipped Android build hardcodes it as the password-reset redirect (`../lib/features/auth/forgot_password_screen.dart:42`).
+
+**Verification:** EN/AR key parity checked programmatically — **317 leaf paths each, 0 missing either way** (a missing key does not error, `t()` silently returns the raw dot-path). `npm run build` ✅ compiled, types and lint clean, 9/9 static pages.
 
 ## Env vars
 

@@ -8,9 +8,9 @@ type Msg = { who: "me" | "ai"; text: string };
 
 function pickFallback(text: string, replies: Record<string, string>): string {
   const lower = text.toLowerCase();
-  if (/hear|sense|Ø§Ø³Ù…Ø¹|ØªØ³Ù…Ø¹/.test(lower)) return replies.hear;
-  if (/tired|ØªØ¹Ø¨|Ù…Ø±Ù‡Ù‚/.test(lower)) return replies.tired;
-  if (/partner|husband|Ø´Ø±ÙŠÙƒ|Ø²ÙˆØ¬/.test(lower)) return replies.partner;
+  if (/hear|sense|اسمع|تسمع/.test(lower)) return replies.hear;
+  if (/tired|تعب|مرهق/.test(lower)) return replies.tired;
+  if (/partner|husband|شريك|زوج/.test(lower)) return replies.partner;
   return replies.default;
 }
 
@@ -163,7 +163,7 @@ export function NawalSection() {
                     background: "var(--accent)",
                     padding: "2px 7px",
                     borderRadius: 999,
-                    marginLeft: 6,
+                    marginInlineStart: 6,
                   }}
                 >
                   AI
@@ -248,7 +248,7 @@ export function NawalSection() {
                   cursor: "pointer",
                 }}
               >
-                {s} â†’
+                {s} →
               </button>
             ))}
           </div>
@@ -263,7 +263,7 @@ export function NawalSection() {
               background: "rgba(255,255,255,0.06)",
               borderRadius: 999,
               padding: 4,
-              paddingLeft: 16,
+              paddingInlineStart: 16,
               border: "1px solid rgba(255,255,255,0.08)",
             }}
           >
@@ -296,7 +296,7 @@ export function NawalSection() {
                 opacity: loading || !input.trim() ? 0.5 : 1,
               }}
             >
-              â†‘
+              ↑
             </button>
           </form>
         </div>
