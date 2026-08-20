@@ -43,3 +43,89 @@ export const PLAY_STORE_URL = `https://play.google.com/store/apps/details?id=${P
  *      the Play button.
  */
 export const APP_STORE_URL: string | null = null;
+
+/**
+ * Canonical public host. `babynawah.vercel.app` still resolves and MUST keep
+ * working — the shipped Android build hardcodes it as the password-reset
+ * redirect (`../lib/features/auth/forgot_password_screen.dart`) — but
+ * nawahapp.net is the public-facing domain used on the Play listing, so it is
+ * the one every canonical/hreflang/sitemap URL is built from.
+ */
+export const SITE_URL = "https://www.nawahapp.net";
+
+/**
+ * The languages the site publishes a *separate URL* for.
+ *
+ * ⚠️ This is not the same thing as the `LangProvider` toggle on the marketing
+ * page. That toggle swaps copy client-side at a single URL, which means
+ * Googlebot only ever sees English there. Verified at Google Search Central
+ * (developers.google.com/search/docs/specialty/international/localized-versions):
+ * "Google doesn't use hreflang or the HTML lang attribute to detect the
+ * language of a page; instead, we use algorithms to determine the language."
+ *
+ * So a language only becomes indexable when its text is server-rendered at its
+ * own URL. That is what `/en/...` and `/ar/...` exist for.
+ */
+export const LOCALES = ["en", "ar"] as const;
+export type Locale = (typeof LOCALES)[number];
+
+/** BCP-47 codes for hreflang. `ar` is left unregioned deliberately: the
+ *  audience spans EG + the GCC and we do not publish per-country variants. */
+export const HREFLANG: Record<Locale, string> = { en: "en", ar: "ar" };
+
+/** Which locale answers `x-default` — the version Google serves when no
+ *  language/region matches the visitor's browser setting. Arabic is the
+ *  primary audience, so Arabic is the fallback. */
+export const X_DEFAULT_LOCALE: Locale = "ar";
+
+export const DIR: Record<Locale, "ltr" | "rtl"> = { en: "ltr", ar: "rtl" };
+
+/**
+ * 🔗 UTM-TAGGED PLAY LINKS — the only measurement layer this project has.
+ *
+ * `pubspec.yaml` carries no Meta SDK, no Snapchat SDK and no MMP, so paid
+ * social cannot attribute an install. Play Console's
+ * "User acquisition → Acquisition reports → Tracked channels (UTM)" reads the
+ * utm_* parameters off the store-listing URL and is therefore the whole
+ * attribution story. See `../docs/AD_PLAN_150USD.md` §3.
+ *
+ * Play Console Help (answer/9859173) recommends setting utm_source,
+ * utm_medium, utm_campaign, utm_id and utm_source_platform; any parameter left
+ * off is reported as "(not set)".
+ *
+ * ⚠️ Never hand-write a Play URL in a component. Every link must come through
+ * here or it lands in the untracked "Play Store (Organic)" bucket and the
+ * article that earned the install becomes invisible.
+ */
+export interface PlayUtm {
+  source: string;
+  medium: string;
+  campaign: string;
+  content?: string;
+  id?: string;
+}
+
+export function playStoreUrl(utm?: PlayUtm): string {
+  if (!utm) return PLAY_STORE_URL;
+  const params = new URLSearchParams({
+    id: PLAY_PACKAGE_ID,
+    utm_source: utm.source,
+    utm_medium: utm.medium,
+    utm_campaign: utm.campaign,
+    utm_source_platform: "web",
+  });
+  if (utm.content) params.set("utm_content", utm.content);
+  if (utm.id) params.set("utm_id", utm.id);
+  return `https://play.google.com/store/apps/details?${params.toString()}`;
+}
+
+/** Every guide article shares one campaign so Play Console can report the
+ *  articles as a single channel, with `utm_content` naming the month. */
+export function guidePlayUrl(locale: Locale, month: number): string {
+  return playStoreUrl({
+    source: "nawahapp.net",
+    medium: "organic_article",
+    campaign: "pregnancy_guide",
+    content: `${locale}_month_${month}`,
+  });
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "slot": "month-1-hero",
+    "query": "pregnancy test flat lay",
+    "src": "/guide/month-1-hero.jpg",
+    "photographer": "Nataliya Vaitkevich",
+    "photographerUrl": "https://www.pexels.com/@n-voitkevich",
+    "pexelsUrl": "https://www.pexels.com/photo/white-and-pink-tulips-on-pink-surface-5982453/",
+    "alt": "Flat lay of pregnancy test, pacifier, and tulips on pink surface conveying fertility and new beginnings.",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "slot": "month-1-folate",
+    "query": "vitamin supplement pills white background",
+    "src": "/guide/month-1-folate.jpg",
+    "photographer": "Nataliya Vaitkevich",
+    "photographerUrl": "https://www.pexels.com/@n-voitkevich",
+    "pexelsUrl": "https://www.pexels.com/photo/a-variety-of-capsules-7615410/",
+    "alt": "A variety of colorful pills arranged on a white marble surface, representing healthcare.",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "slot": "month-1-quiet",
+    "query": "tea cup morning light minimal still life",
+    "src": "/guide/month-1-quiet.jpg",
+    "photographer": "İdil Ceren Çelikler",
+    "photographerUrl": "https://www.pexels.com/@idilcelikler",
+    "pexelsUrl": "https://www.pexels.com/photo/vintage-tea-cup-with-shadows-on-linen-33489604/",
+    "alt": "Top view of a tea cup with floral design casting shadows on linen.",
+    "width": 6000,
+    "height": 4000
+  }
+]

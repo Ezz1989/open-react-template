@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Naskh_Arabic } from "next/font/google";
 import { LangProvider } from "@/lib/lang-context";
 import { ModeProvider } from "@/lib/mode-context";
-import "./globals.css";
+import "../globals.css";
 
 const instrument = Instrument_Serif({
   subsets: ["latin"],
