@@ -147,10 +147,7 @@ export function Navbar() {
           setOpen={(v) => setOpenMenu(v ? "articles" : null)}
         />
 
-        {/* TODO(about): the "About us" item is intentionally absent until the
-            copy is signed off. The nav.about string and the /about route both
-            land in the same change; shipping the link first would publish
-            either a 404 or unapproved copy about the company. */}
+        <Link href={`/${lang}/about`}>{t("nav.about") as string}</Link>
       </div>
 
       <div className="nav-right">

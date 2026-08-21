@@ -50,6 +50,12 @@ export function Footer() {
             <a href="/en/guide" hrefLang="en" lang="en">
               Pregnancy guide
             </a>
+            <a href="/ar/about" hrefLang="ar" lang="ar">
+              من نحن
+            </a>
+            <a href="/en/about" hrefLang="en" lang="en">
+              About us
+            </a>
             {links.map((l) => {
               const external = l.href.startsWith("http");
               return (

@@ -35,6 +35,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const locale of LOCALES) {
     entries.push({
+      url: `${SITE_URL}/${locale}/about`,
+      changeFrequency: "yearly",
+      priority: 0.6,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/about`) },
+    });
+  }
+
+  for (const locale of LOCALES) {
+    entries.push({
       url: `${SITE_URL}/${locale}/guide`,
       changeFrequency: "weekly",
       priority: 0.8,
