@@ -75,5 +75,104 @@
     "alt": "Minimalistic close-up of delicate dried flowers against a neutral background, capturing a serene and timeless elegance.",
     "width": 6016,
     "height": 4016
+  },
+  {
+    "slot": "month-4-hero",
+    "query": "folded neutral linen clothes minimal",
+    "src": "/guide/month-4-hero.jpg",
+    "photographer": "Ron Lach",
+    "photographerUrl": "https://www.pexels.com/@ron-lach",
+    "pexelsUrl": "https://www.pexels.com/photo/a-person-holding-folded-textile-8346226/",
+    "alt": "A person holding a stack of neatly folded shirts in earthy tones against a soft white background.",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "slot": "month-5-hero",
+    "query": "tiny baby shoes white background minimal",
+    "src": "/guide/month-5-hero.jpg",
+    "photographer": "Pixabay",
+    "photographerUrl": "https://www.pexels.com/@pixabay",
+    "pexelsUrl": "https://www.pexels.com/photo/pair-of-toddler-s-white-and-gray-shoes-267278/",
+    "alt": "Pair of stylish checkered baby shoes with reflection and clean white background.",
+    "width": 3888,
+    "height": 2592
+  },
+  {
+    "slot": "month-5-scan",
+    "query": "soft white feather minimal neutral",
+    "src": "/guide/month-5-scan.jpg",
+    "photographer": "NSU MON",
+    "photographerUrl": "https://www.pexels.com/@nsu-mon-1803488",
+    "pexelsUrl": "https://www.pexels.com/photo/close-up-of-white-feather-4066847/",
+    "alt": "A close-up of a delicate feather against a simple, minimalist background.",
+    "width": 5596,
+    "height": 3731
+  },
+  {
+    "slot": "month-6-hero",
+    "query": "glass of water with lemon minimal white",
+    "src": "/guide/month-6-hero.jpg",
+    "photographer": "https://kaboompics.com/",
+    "photographerUrl": "https://www.pexels.com/@karola-g",
+    "pexelsUrl": "https://www.pexels.com/photo/glass-of-cold-beverage-on-white-background-4021976/",
+    "alt": "Flat lay of glass of fresh beverage with slices of lemon and leaves of mint placed on white background",
+    "width": 6685,
+    "height": 4457
+  },
+  {
+    "slot": "month-7-hero",
+    "query": "open notebook and pen on neutral desk",
+    "src": "/guide/month-7-hero.jpg",
+    "photographer": "Angela Roma",
+    "photographerUrl": "https://www.pexels.com/@angela-roma",
+    "pexelsUrl": "https://www.pexels.com/photo/table-with-stationery-in-workspace-7319188/",
+    "alt": "Timber table with stationery and potted plant with mug located in modern office",
+    "width": 4949,
+    "height": 3299
+  },
+  {
+    "slot": "month-7-count",
+    "query": "calm hands resting neutral minimal",
+    "src": "/guide/month-7-count.jpg",
+    "photographer": "Mikhail Nilov",
+    "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+    "pexelsUrl": "https://www.pexels.com/photo/woman-sitting-with-crossed-arms-on-her-knees-8307809/",
+    "alt": "A close-up of a woman's hands gently resting on her lap, showcasing a sense of calm and elegance.",
+    "width": 6000,
+    "height": 4000
+  },
+  {
+    "slot": "month-8-hero",
+    "query": "folded baby clothes neutral minimal",
+    "src": "/guide/month-8-hero.jpg",
+    "photographer": "Sarah  Chai",
+    "photographerUrl": "https://www.pexels.com/@sarah-chai",
+    "pexelsUrl": "https://www.pexels.com/photo/unrecognizable-woman-arranging-baby-clothes-at-table-7282431/",
+    "alt": "Crop faceless female in casual clothes folded colorful baby garments while sitting at white table in room on white background",
+    "width": 6000,
+    "height": 4000
+  },
+  {
+    "slot": "month-9-hero",
+    "query": "folded towels neutral flat lay minimal",
+    "src": "/guide/month-9-hero.jpg",
+    "photographer": "Cup of  Couple",
+    "photographerUrl": "https://www.pexels.com/@cup-of-couple",
+    "pexelsUrl": "https://www.pexels.com/photo/bathroom-accessories-with-sponge-8015811/",
+    "alt": "A clean, minimalist arrangement of bathroom essentials including bottles, a towel, and a sponge on a white background.",
+    "width": 8192,
+    "height": 5464
+  },
+  {
+    "slot": "month-9-ready",
+    "query": "soft knitted baby blanket neutral",
+    "src": "/guide/month-9-ready.jpg",
+    "photographer": "https://kaboompics.com/",
+    "photographerUrl": "https://www.pexels.com/@karola-g",
+    "pexelsUrl": "https://www.pexels.com/photo/photograph-of-a-baby-s-feet-4964255/",
+    "alt": "Charming view of a baby's feet under a cozy patterned blanket.",
+    "width": 6720,
+    "height": 4480
   }
 ]

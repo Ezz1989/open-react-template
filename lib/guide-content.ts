@@ -1065,7 +1065,975 @@ const month3: GuideMonth = {
   updated: "2026-08-21",
 };
 
-export const GUIDE_MONTHS: GuideMonth[] = [month1, month2, month3];
+/* ── Shared citations, so months 4 to 9 do not each re-declare them ──────── */
+
+const CITE_FETAL: Citation = {
+  id: "medlineplus-fetal-development",
+  org: "MedlinePlus, U.S. National Library of Medicine",
+  title: { en: "Fetal development", ar: "تطوّر الجنين" },
+  url: "https://medlineplus.gov/ency/article/002398.htm",
+  retrieved: "2026-08-21",
+};
+
+const CITE_MOVEMENTS: Citation = {
+  id: "nhs-movements",
+  org: "NHS",
+  title: { en: "Your baby's movements", ar: "حركة الجنين" },
+  url: "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+  retrieved: "2026-08-21",
+};
+
+const CITE_20WEEK: Citation = {
+  id: "nhs-20-week-scan",
+  org: "NHS",
+  title: { en: "20-week screening scan", ar: "سونار الأسبوع العشرين" },
+  url: "https://www.nhs.uk/pregnancy/your-pregnancy-care/20-week-scan/",
+  retrieved: "2026-08-21",
+};
+
+const CITE_GD: Citation = {
+  id: "nhs-gestational-diabetes",
+  org: "NHS",
+  title: { en: "Gestational diabetes", ar: "سكري الحمل" },
+  url: "https://www.nhs.uk/conditions/gestational-diabetes/",
+  retrieved: "2026-08-21",
+};
+
+const CITE_PRETERM: Citation = {
+  id: "nhs-premature-labour",
+  org: "NHS",
+  title: { en: "Premature labour and birth", ar: "الولادة المبكرة" },
+  url: "https://www.nhs.uk/pregnancy/labour-and-birth/signs-of-labour/premature-labour-and-birth/",
+  retrieved: "2026-08-21",
+};
+
+const CITE_LABOUR: Citation = {
+  id: "nhs-labour-signs",
+  org: "NHS",
+  title: { en: "Signs that labour has begun", ar: "علامات بدء الولادة" },
+  url: "https://www.nhs.uk/pregnancy/labour-and-birth/signs-of-labour/signs-that-labour-has-begun/",
+  retrieved: "2026-08-21",
+};
+
+/** Movement red flags. Identical from month 5 on, and must never drift: this
+ *  is the single most time-critical thing in the whole guide. */
+const MOVEMENT_FLAG: Localized = {
+  en: "Your baby is moving less than usual, you cannot feel movement any more, or the usual pattern has changed. Call immediately, at any hour. Do not wait to see if it improves.",
+  ar: "حركة جنينكِ أقلّ من المعتاد، أو لم تعودي تشعرين بها، أو تغيّر نمطها المعتاد. اتصلي فوراً في أي ساعة، ولا تنتظري لترَي إن كانت ستتحسّن.",
+};
+
+const month4: GuideMonth = {
+  month: 4,
+  weeks: [13, 16],
+  trimester: 2,
+  hero: {
+    src: "/guide/month-4-hero.jpg",
+    alt: {
+      en: "A stack of folded clothes in terracotta, rose and cream.",
+      ar: "ملابس مطوية بألوان الطين والوردي والكريمي.",
+    },
+    photographer: "Ron Lach",
+    photographerUrl: "https://www.pexels.com/@ron-lach",
+    pexelsUrl: "https://www.pexels.com/photo/a-person-holding-folded-textile-8346226/",
+    width: 5464,
+    height: 3643,
+  },
+  published: true,
+  title: {
+    en: "Month 4 of pregnancy: weeks 13 to 16",
+    ar: "الشهر الرابع من الحمل: الأسابيع ١٣ إلى ١٦",
+  },
+  metaTitle: {
+    en: "Month 4 of Pregnancy (Weeks 13-16): The Second Trimester Begins | Nawah",
+    ar: "الشهر الرابع من الحمل (الأسبوع ١٣–١٦): بداية الثلث الثاني | نواة",
+  },
+  description: {
+    en: "Weeks 13 to 16: the second trimester begins. Energy returning, the bump starting, first movements, and what is normal now.",
+    ar: "من الأسبوع ١٣ إلى ١٦: يبدأ الثلث الثاني. عودة الطاقة، وبداية ظهور البطن، وأول الحركات، وما هو الطبيعي الآن.",
+  },
+  standfirst: {
+    en: "Many women describe the second trimester as the part of pregnancy they actually enjoyed. The nausea usually loosens, the exhaustion lifts, and for the first time in months you may feel like yourself again.",
+    ar: "كثيرات يصفن الثلث الثاني بأنه الجزء الذي استمتعن به فعلاً من الحمل. الغثيان يخفّ عادةً، والإرهاق ينحسر، وقد تشعرين لأول مرة منذ شهور أنكِ عدتِ إلى نفسكِ.",
+  },
+  sections: [
+    {
+      heading: {
+        en: "Symptoms in month 4 of pregnancy",
+        ar: "أعراض الحمل في الشهر الرابع",
+      },
+      body: [
+        {
+          en: "This month usually gives more than it takes. What tends to change:",
+          ar: "هذا الشهر يعطي عادةً أكثر ممّا يأخذ. وما يتغيّر غالباً:",
+        },
+      ],
+      bullets: [
+        { en: "Nausea easing, often noticeably", ar: "انحسار الغثيان، وغالباً بشكل ملحوظ" },
+        { en: "Energy coming back", ar: "عودة الطاقة" },
+        { en: "A small bump beginning to show", ar: "بداية ظهور بطن صغير" },
+        { en: "Sharp, brief pain low on one side when you move suddenly", ar: "ألم قصير وحادّ أسفل جهة واحدة عند الحركة المفاجئة" },
+        { en: "A blocked nose, or gums that bleed when you brush", ar: "انسداد الأنف، أو نزف اللثة عند التنظيف" },
+        { en: "Darker skin patches, or a line down the belly", ar: "بقع داكنة في البشرة، أو خط أسفل البطن" },
+        { en: "Appetite returning, sometimes sharply", ar: "عودة الشهية، وأحياناً بقوة" },
+      ],
+      afterBullets: [
+        {
+          en: "The brief one-sided pain is usually round ligament pain, the muscles supporting the uterus stretching as it grows. It passes in seconds. Pain that is severe, constant, or comes with bleeding is a different thing and is in the list below.",
+          ar: "الألم القصير في جهة واحدة هو غالباً ألم الرباط المستدير، أي تمدّد العضلات التي تحمل الرحم مع كبره. ويزول خلال ثوانٍ. أما الألم الشديد أو المستمر أو المصحوب بنزيف فأمر آخر، وهو في القائمة أدناه.",
+        },
+      ],
+    },
+    {
+      heading: {
+        en: "The baby in month 4",
+        ar: "تطور الجنين في الشهر الرابع",
+      },
+      body: [
+        {
+          en: "Between weeks 11 and 14, the eyelids close and \"will not reopen until about the 28th week.\" Between weeks 15 and 18, \"fine hair called lanugo develops on your baby's head.\"",
+          ar: "بين الأسبوعين الحادي عشر والرابع عشر تنغلق الجفون، و«لن تُفتح مجدداً حتى الأسبوع الثامن والعشرين تقريباً». وبين الأسبوعين الخامس عشر والثامن عشر «ينمو شعر ناعم يُسمّى الزغب على رأس الجنين».",
+        },
+        {
+          en: "The baby is now moving a great deal. You will probably not feel it yet, because there is still room to move without touching anything you can sense.",
+          ar: "الجنين يتحرك كثيراً الآن. وغالباً لن تشعري بذلك بعد، لأن المساحة ما زالت تسمح له بالحركة دون أن يلامس ما تشعرين به.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+    {
+      heading: {
+        en: "When you will feel the baby move",
+        ar: "متى تشعرين بحركة الجنين",
+      },
+      body: [
+        {
+          en: "The NHS puts the window broadly: \"You should start to feel your baby move between 16 to 24 weeks of pregnancy.\" That is an eight-week range, and all of it is normal.",
+          ar: "تحدّد هيئة الخدمات الصحية البريطانية الفترة بمرونة: «من المفترض أن تبدئي بالشعور بحركة جنينكِ بين الأسبوع السادس عشر والرابع والعشرين». هذه فترة تمتدّ ثمانية أسابيع، وكلها طبيعية.",
+        },
+        {
+          en: "In a first pregnancy it is usually later. The first movements feel like bubbles, a flutter, or a muscle twitching, and are easy to mistake for digestion. Feeling nothing at week 16 means nothing at all.",
+          ar: "في الحمل الأول يكون ذلك متأخراً عادةً. والحركات الأولى تشبه فقاعات أو رفرفة أو ارتعاش عضلة، ويسهل الخلط بينها وبين الهضم. وعدم الشعور بشيء في الأسبوع السادس عشر لا يعني شيئاً إطلاقاً.",
+        },
+      ],
+      cites: ["nhs-movements"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Contact a doctor rather than waiting for your next appointment if any of these happen.",
+      ar: "تواصلي مع طبيب بدل انتظار موعدكِ التالي إذا حدث أيٌّ ممّا يلي.",
+    },
+    items: [
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "Severe or constant abdominal pain", ar: "ألم شديد أو مستمر في البطن" },
+      { en: "Fluid leaking from the vagina", ar: "تسرّب سائل من المهبل" },
+      { en: "A high temperature, or pain when passing urine", ar: "ارتفاع في الحرارة، أو ألم عند التبوّل" },
+      { en: "A severe headache, or changes in your vision", ar: "صداع شديد، أو تغيّر في الرؤية" },
+      { en: "Sudden swelling of the face or hands", ar: "تورّم مفاجئ في الوجه أو اليدين" },
+    ],
+  },
+  faqs: [
+    {
+      q: { en: "When will I look pregnant?", ar: "متى يظهر البطن؟" },
+      a: {
+        en: "Usually somewhere in this month or the next, and later in a first pregnancy. Height, build and the position of the uterus all change the answer. It is not a measure of the baby's growth.",
+        ar: "غالباً خلال هذا الشهر أو الذي يليه، ومتأخراً أكثر في الحمل الأول. الطول والبنية وموضع الرحم كلها تغيّر الإجابة. وهو ليس مقياساً لنمو الجنين.",
+      },
+    },
+    {
+      q: { en: "I felt a sharp pain in my side. Is that normal?", ar: "شعرتُ بألم حادّ في جانبي. هل هذا طبيعي؟" },
+      a: {
+        en: "If it was brief and came with a sudden movement, it is most likely the ligaments supporting your uterus stretching. If it is severe, lasts, or comes with bleeding or fever, call your doctor.",
+        ar: "إذا كان قصيراً وجاء مع حركة مفاجئة، فالأرجح أنه تمدّد الأربطة الحاملة للرحم. أما إذا كان شديداً أو استمرّ أو صاحبه نزيف أو حرارة، فاتصلي بطبيبكِ.",
+      },
+    },
+    {
+      q: { en: "Should I be counting movements yet?", ar: "هل أبدأ بعدّ الحركات الآن؟" },
+      a: {
+        en: "No. Most women have not felt reliable movement this early, and the NHS says you do not need to count at all. What matters later is knowing your baby's usual pattern, not a number.",
+        ar: "لا. معظم النساء لا يشعرن بحركة منتظمة في هذا الوقت المبكر، والهيئة البريطانية تقول إنكِ لا تحتاجين إلى العدّ أصلاً. المهم لاحقاً هو معرفة النمط المعتاد لجنينكِ، لا رقم معيّن.",
+      },
+      cites: ["nhs-movements"],
+    },
+  ],
+  cta: {
+    headline: {
+      en: "The good months are the ones worth writing down",
+      ar: "الشهور الجميلة هي التي تستحقّ أن تُكتب",
+    },
+    body: {
+      en: "Nawah gives you a journal you can share with him, week-by-week content written for both of you, and a father's view showing the same week from his side. In Arabic and English, free.",
+      ar: "تمنحكِ نواة مفكّرة تشاركينها معه، ومحتوى أسبوعياً مكتوباً لكما معاً، وواجهة للأب تُظهر الأسبوع نفسه من جهته. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_FETAL, CITE_MOVEMENTS],
+  updated: "2026-08-21",
+};
+
+const month5: GuideMonth = {
+  month: 5,
+  weeks: [17, 20],
+  trimester: 2,
+  hero: {
+    src: "/guide/month-5-hero.jpg",
+    alt: {
+      en: "A pair of very small baby shoes on a white background.",
+      ar: "حذاء صغير جداً للأطفال على خلفية بيضاء.",
+    },
+    photographer: "Pixabay",
+    photographerUrl: "https://www.pexels.com/@pixabay",
+    pexelsUrl: "https://www.pexels.com/photo/pair-of-toddler-s-white-and-gray-shoes-267278/",
+    width: 1920,
+    height: 1200,
+  },
+  published: true,
+  title: {
+    en: "Month 5 of pregnancy: weeks 17 to 20",
+    ar: "الشهر الخامس من الحمل: الأسابيع ١٧ إلى ٢٠",
+  },
+  metaTitle: {
+    en: "Month 5 of Pregnancy (Weeks 17-20): The 20-Week Scan | Nawah",
+    ar: "الشهر الخامس من الحمل (الأسبوع ١٧–٢٠): سونار الأسبوع العشرين | نواة",
+  },
+  description: {
+    en: "Weeks 17 to 20: halfway. The 20-week scan, the first movements you can trust, and the baby starting to hear you.",
+    ar: "من الأسبوع ١٧ إلى ٢٠: منتصف الطريق. سونار الأسبوع العشرين، وأول حركة تثقين بها، وبداية سماع الجنين لكِ.",
+  },
+  standfirst: {
+    en: "Halfway. This is the month most women feel unmistakable movement for the first time, and the month of the longest scan of the whole pregnancy.",
+    ar: "منتصف الطريق. هذا هو الشهر الذي تشعر فيه معظم النساء بحركة لا تُخطئها لأول مرة، وشهر أطول سونار في الحمل كله.",
+  },
+  sections: [
+    {
+      heading: { en: "Symptoms in month 5 of pregnancy", ar: "أعراض الحمل في الشهر الخامس" },
+      body: [
+        {
+          en: "The bump is now doing things to the rest of you. What most women notice:",
+          ar: "البطن الآن يؤثر على بقية جسمكِ. وأكثر ما تلاحظه معظم النساء:",
+        },
+      ],
+      bullets: [
+        { en: "Movement you can finally identify as movement", ar: "حركة تستطيعين أخيراً تمييزها كحركة" },
+        { en: "Backache, especially at the end of the day", ar: "ألم في الظهر، خاصةً آخر اليوم" },
+        { en: "Leg cramps, often at night", ar: "تشنّج في الساقين، غالباً ليلاً" },
+        { en: "Heartburn after meals", ar: "حرقة في المعدة بعد الأكل" },
+        { en: "Trouble finding a comfortable sleeping position", ar: "صعوبة في إيجاد وضعية نوم مريحة" },
+        { en: "Mild swelling in the feet and ankles", ar: "تورّم خفيف في القدمين والكاحلين" },
+        { en: "Feeling short of breath more easily", ar: "ضيق في النفس بسهولة أكبر" },
+      ],
+    },
+    {
+      heading: { en: "The 20-week scan", ar: "سونار الأسبوع العشرين" },
+      body: [
+        {
+          en: "This is the anomaly scan, and it is the most detailed look at your baby you will get. The NHS offers it \"when you're between 18 and 21 weeks pregnant,\" and it \"usually takes around 30 minutes.\"",
+          ar: "هذا هو سونار الكشف عن التشوّهات، وهو أدقّ نظرة ستحصلين عليها على جنينكِ. تقدّمه الهيئة البريطانية «حين تكونين بين الأسبوع الثامن عشر والحادي والعشرين»، و«يستغرق عادةً نحو ثلاثين دقيقة».",
+        },
+        {
+          en: "The baby \"will be checked for signs of 11 different conditions.\" It also checks growth, and \"your placenta and the blood flow in your uterus will also be checked.\"",
+          ar: "ويُفحص الجنين «بحثاً عن علامات ١١ حالة مختلفة». كما يتحقّق من النمو، و«يُفحص كذلك موضع المشيمة وتدفّق الدم في الرحم».",
+        },
+        {
+          en: "It is offered, not required: \"It's your choice if you want to have a 20-week scan or not.\" Some parents want everything known in advance and some do not, and both are legitimate.",
+          ar: "وهو يُعرض ولا يُفرض: «القرار قراركِ إن كنتِ تريدين إجراء سونار الأسبوع العشرين أم لا». بعض الآباء يريدون معرفة كل شيء مسبقاً وبعضهم لا، وكلا الموقفين مشروع.",
+        },
+        {
+          en: "The scan is long and quiet, and the sonographer will be concentrating rather than chatting. That silence is the job, not bad news.",
+          ar: "السونار طويل وهادئ، وسيكون الفنّي مركّزاً لا متحدّثاً. هذا الصمت جزء من العمل، وليس خبراً سيئاً.",
+        },
+      ],
+      cites: ["nhs-20-week-scan"],
+      image: {
+        src: "/guide/month-5-scan.jpg",
+        alt: {
+          en: "A single soft white feather on a pale background.",
+          ar: "ريشة بيضاء ناعمة على خلفية فاتحة.",
+        },
+        photographer: "NSU MON",
+        photographerUrl: "https://www.pexels.com/@nsu-mon",
+        pexelsUrl: "https://www.pexels.com/photo/close-up-of-white-feather-4066847/",
+        width: 5184,
+        height: 3456,
+      },
+    },
+    {
+      heading: { en: "The baby in month 5", ar: "تطور الجنين في الشهر الخامس" },
+      body: [
+        {
+          en: "Between weeks 19 and 21, \"your baby can hear.\" By the end of that period the baby can also swallow.",
+          ar: "بين الأسبوعين التاسع عشر والحادي والعشرين «يستطيع جنينكِ السمع». ومع نهاية تلك الفترة يستطيع البلع أيضاً.",
+        },
+        {
+          en: "Hearing is the detail worth telling the father, because it is the first thing he can do that reaches the baby directly. His voice carries. That is not sentiment, it is anatomy.",
+          ar: "والسمع هو التفصيل الذي يستحقّ أن تخبري الأب به، لأنه أول شيء يستطيع فعله ويصل إلى الجنين مباشرة. صوته يصل. وهذه ليست عاطفة، بل تشريح.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Contact your doctor or maternity unit if any of these happen.",
+      ar: "تواصلي مع طبيبكِ أو قسم الولادة إذا حدث أيٌّ ممّا يلي.",
+    },
+    items: [
+      MOVEMENT_FLAG,
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "Fluid leaking from the vagina", ar: "تسرّب سائل من المهبل" },
+      { en: "Regular tightening or period-type pains", ar: "تقلّصات منتظمة أو آلام تشبه الدورة" },
+      { en: "A severe headache, blurred vision, or sudden swelling", ar: "صداع شديد، أو تشوّش في الرؤية، أو تورّم مفاجئ" },
+      { en: "A high temperature", ar: "ارتفاع في درجة الحرارة" },
+    ],
+    cites: ["nhs-movements"],
+  },
+  faqs: [
+    {
+      q: { en: "Will the scan tell me the baby's sex?", ar: "هل يخبرني السونار بجنس الجنين؟" },
+      a: {
+        en: "Often yes, if you ask and if the baby is positioned to allow it. But that is not what the scan is for, and policies differ between clinics and countries. Ask in advance rather than on the day.",
+        ar: "غالباً نعم، إذا سألتِ وإذا سمحت وضعية الجنين. لكن هذا ليس الغرض من السونار، والسياسات تختلف بين العيادات والدول. اسألي مسبقاً لا يوم الموعد.",
+      },
+    },
+    {
+      q: { en: "The sonographer went quiet. Is something wrong?", ar: "صمت الفنّي أثناء السونار. هل هناك مشكلة؟" },
+      a: {
+        en: "Almost always no. Measuring eleven conditions takes concentration, and talking through it is not part of the task. If something needs a second look, you will be told.",
+        ar: "في الغالب لا. فحص إحدى عشرة حالة يتطلّب تركيزاً، والحديث أثناءه ليس جزءاً من المهمة. وإذا احتاج شيء إلى نظرة ثانية فسيُقال لكِ.",
+      },
+      cites: ["nhs-20-week-scan"],
+    },
+    {
+      q: { en: "I still have not felt movement. Should I worry?", ar: "لم أشعر بالحركة بعد. هل أقلق؟" },
+      a: {
+        en: "The normal window runs to 24 weeks, and first pregnancies are usually later. Mention it at your next appointment so it is on record, but on its own at week 18 it is not a warning sign.",
+        ar: "الفترة الطبيعية تمتدّ حتى الأسبوع الرابع والعشرين، والحمل الأول يكون متأخراً عادةً. اذكري ذلك في موعدكِ التالي ليُسجَّل، لكنه وحده في الأسبوع الثامن عشر ليس علامة تحذير.",
+      },
+      cites: ["nhs-movements"],
+    },
+  ],
+  cta: {
+    headline: { en: "He can talk to the baby now, and be heard", ar: "يستطيع أن يكلّم الجنين الآن، وأن يُسمَع" },
+    body: {
+      en: "Nawah shows the father the same week you are living and tells him what he can actually do in it. When you log a kick, an alert reaches his phone. Arabic and English, free.",
+      ar: "تُظهر نواة للأب الأسبوع نفسه الذي تعيشينه وتخبره بما يستطيع فعله فيه. وحين تسجّلين ركلة، يصله تنبيه على هاتفه. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_20WEEK, CITE_FETAL, CITE_MOVEMENTS],
+  updated: "2026-08-21",
+};
+
+const month6: GuideMonth = {
+  month: 6,
+  weeks: [21, 24],
+  trimester: 2,
+  hero: {
+    src: "/guide/month-6-hero.jpg",
+    alt: {
+      en: "A glass of water with lemon and mint in bright daylight.",
+      ar: "كوب ماء بالليمون والنعناع في ضوء نهار ساطع.",
+    },
+    photographer: "Kaboompics",
+    photographerUrl: "https://www.pexels.com/@karola-g",
+    pexelsUrl: "https://www.pexels.com/photo/glass-of-cold-beverage-on-white-background-4021976/",
+    width: 3648,
+    height: 5472,
+  },
+  published: true,
+  title: {
+    en: "Month 6 of pregnancy: weeks 21 to 24",
+    ar: "الشهر السادس من الحمل: الأسابيع ٢١ إلى ٢٤",
+  },
+  metaTitle: {
+    en: "Month 6 of Pregnancy (Weeks 21-24): Movement and the Glucose Test | Nawah",
+    ar: "الشهر السادس من الحمل (الأسبوع ٢١–٢٤): الحركة وتحليل السكر | نواة",
+  },
+  description: {
+    en: "Weeks 21 to 24: the baby's movements settle into a pattern, and the gestational diabetes test approaches. What the test involves and who is offered it.",
+    ar: "من الأسبوع ٢١ إلى ٢٤: تنتظم حركة الجنين في نمط، ويقترب موعد تحليل سكر الحمل. ما هو التحليل ولمن يُقدَّم.",
+  },
+  standfirst: {
+    en: "This is the month the baby stops being a set of measurements and becomes someone with habits. Movements settle into a pattern, and that pattern becomes the most useful thing you own.",
+    ar: "هذا هو الشهر الذي يتوقف فيه الجنين عن كونه مجموعة قياسات ويصبح شخصاً له عاداته. تنتظم حركته في نمط، ويصبح ذلك النمط أنفع ما تملكينه.",
+  },
+  sections: [
+    {
+      heading: { en: "Symptoms in month 6 of pregnancy", ar: "أعراض الحمل في الشهر السادس" },
+      body: [
+        { en: "What most women notice now:", ar: "ما تلاحظه معظم النساء الآن:" },
+      ],
+      bullets: [
+        { en: "Strong, regular movement", ar: "حركة قوية ومنتظمة" },
+        { en: "Backache and aching hips", ar: "ألم في الظهر والوركين" },
+        { en: "Stretch marks appearing on the belly or breasts", ar: "ظهور علامات تمدّد على البطن أو الثديين" },
+        { en: "Swollen ankles by evening", ar: "تورّم الكاحلين مع المساء" },
+        { en: "Heartburn that worsens lying down", ar: "حرقة معدة تزداد عند الاستلقاء" },
+        { en: "Occasional painless tightening of the bump", ar: "تقلّص عرضي غير مؤلم في البطن" },
+        { en: "Itchy skin as the belly stretches", ar: "حكّة في الجلد مع تمدّد البطن" },
+      ],
+      afterBullets: [
+        {
+          en: "Occasional painless tightening is usually practice contractions. Tightening that becomes regular, painful, or comes with pressure is different, and is in the list below.",
+          ar: "التقلّص العرضي غير المؤلم هو غالباً تقلّصات تدريبية. أما التقلّص الذي يصبح منتظماً أو مؤلماً أو مصحوباً بضغط فأمر مختلف، وهو في القائمة أدناه.",
+        },
+      ],
+    },
+    {
+      heading: { en: "The gestational diabetes test", ar: "تحليل سكر الحمل" },
+      body: [
+        {
+          en: "Gestational diabetes is \"high blood sugar (glucose) that develops during pregnancy and usually disappears after giving birth.\" It often has no symptoms at all, which is why it is screened for rather than waited for.",
+          ar: "سكري الحمل هو «ارتفاع في سكر الدم يظهر أثناء الحمل ويزول عادةً بعد الولادة». وكثيراً ما لا تظهر له أعراض إطلاقاً، ولهذا يُفحص عنه بدل انتظاره.",
+        },
+        {
+          en: "The test is an oral glucose tolerance test, and \"the OGTT is done when you're between 24 and 28 weeks pregnant.\" It takes about two hours, most of which is waiting.",
+          ar: "الفحص هو اختبار تحمّل الجلوكوز الفموي، و«يُجرى حين تكونين بين الأسبوع الرابع والعشرين والثامن والعشرين». ويستغرق نحو ساعتين، معظمها انتظار.",
+        },
+        {
+          en: "Screening is offered to women with certain risk factors, and one of them matters here: the NHS lists being of \"South Asian, Black, African-Caribbean or Middle Eastern origin\" among them, alongside a BMI above 30, being over 40, a previous baby weighing 4.5kg or more, previous gestational diabetes, and a family history of diabetes.",
+          ar: "يُعرض الفحص على من لديهنّ عوامل خطر معيّنة، وأحدها يهمّنا هنا: تذكر الهيئة البريطانية أن الأصل «الجنوب آسيوي أو الأسود أو الأفريقي الكاريبي أو الشرق أوسطي» من بين هذه العوامل، إلى جانب مؤشر كتلة جسم فوق ٣٠، والعمر فوق ٤٠، وولادة سابقة لطفل وزنه ٤٫٥ كجم أو أكثر، وإصابة سابقة بسكري الحمل، ووجود تاريخ عائلي للسكري.",
+        },
+        {
+          en: "If you are reading this from Egypt or the Gulf, that last point means the test is more likely to be offered to you than not. It is worth asking about rather than waiting to be told.",
+          ar: "وإن كنتِ تقرئين هذا من مصر أو الخليج، فهذه النقطة الأخيرة تعني أن احتمال عرض الفحص عليكِ أكبر. ويستحقّ أن تسألي عنه بدل انتظار أن يُقال لكِ.",
+        },
+      ],
+      cites: ["nhs-gestational-diabetes"],
+    },
+    {
+      heading: { en: "Your baby's pattern of movement", ar: "نمط حركة جنينكِ" },
+      body: [
+        {
+          en: "There is a widespread belief that you should count ten kicks a day. The NHS is direct about this: \"You do not need to count the number of kicks or movements you feel each day.\"",
+          ar: "يشيع اعتقاد بأن عليكِ عدّ عشر ركلات يومياً. والهيئة البريطانية صريحة في هذا: «لستِ بحاجة إلى عدّ الركلات أو الحركات التي تشعرين بها كل يوم».",
+        },
+        {
+          en: "What replaces it: \"The important thing is to get to know your baby's usual pattern of movements from day to day.\" And plainly, \"There's no set number of movements you should feel each day, every baby is different.\"",
+          ar: "وما يحلّ محلّه: «المهم أن تتعرّفي على النمط المعتاد لحركة جنينكِ من يوم إلى يوم». وبوضوح: «لا يوجد عدد محدّد من الحركات يجب أن تشعري به يومياً، فكل جنين مختلف».",
+        },
+        {
+          en: "So the thing to learn this month is your own baby, not a number. When he is usually active, what usually wakes him, what quiet looks like for him. That knowledge is what makes a change detectable.",
+          ar: "إذن ما تتعلّمينه هذا الشهر هو جنينكِ أنتِ، لا رقماً. متى ينشط عادةً، وما الذي يوقظه، وكيف يكون هدوؤه المعتاد. هذه المعرفة هي ما يجعل أي تغيّر قابلاً للملاحظة.",
+        },
+      ],
+      cites: ["nhs-movements"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Contact your maternity unit if any of these happen. The first one is the most time-critical thing in this whole guide.",
+      ar: "تواصلي مع قسم الولادة إذا حدث أيٌّ ممّا يلي. والبند الأول هو الأكثر إلحاحاً في هذا الدليل كله.",
+    },
+    items: [
+      MOVEMENT_FLAG,
+      { en: "Regular tightening, or period-type pains", ar: "تقلّصات منتظمة، أو آلام تشبه الدورة" },
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "A gush or trickle of fluid from the vagina", ar: "اندفاع أو تسرّب سائل من المهبل" },
+      { en: "A severe headache, blurred vision, or sudden swelling of face or hands", ar: "صداع شديد، أو تشوّش رؤية، أو تورّم مفاجئ في الوجه أو اليدين" },
+      { en: "Severe itching, particularly of the hands and feet", ar: "حكّة شديدة، خاصةً في اليدين والقدمين" },
+    ],
+    cites: ["nhs-movements"],
+  },
+  faqs: [
+    {
+      q: { en: "Do I have to count ten kicks a day?", ar: "هل يجب أن أعدّ عشر ركلات يومياً؟" },
+      a: {
+        en: "No. The NHS says you do not need to count at all, and that there is no set number. Knowing your baby's usual pattern is what matters, because a change from it is the signal.",
+        ar: "لا. تقول الهيئة البريطانية إنكِ لستِ بحاجة إلى العدّ إطلاقاً، وإنه لا يوجد عدد محدّد. المهم معرفة النمط المعتاد لجنينكِ، لأن تغيّره هو الإشارة.",
+      },
+      cites: ["nhs-movements"],
+    },
+    {
+      q: { en: "Will I be offered the glucose test?", ar: "هل سيُعرض عليّ تحليل السكر؟" },
+      a: {
+        en: "If you have any of the listed risk factors, yes, and Middle Eastern origin is one of them. The test is done between 24 and 28 weeks. If nobody has mentioned it by week 24, ask.",
+        ar: "إذا كان لديكِ أيٌّ من عوامل الخطر المذكورة فنعم، والأصل الشرق أوسطي أحدها. ويُجرى الفحص بين الأسبوع الرابع والعشرين والثامن والعشرين. وإذا لم يذكره أحد حتى الأسبوع الرابع والعشرين، فاسألي.",
+      },
+      cites: ["nhs-gestational-diabetes"],
+    },
+    {
+      q: { en: "Does gestational diabetes go away?", ar: "هل يزول سكري الحمل؟" },
+      a: {
+        en: "It \"usually disappears after giving birth.\" It still needs managing during the pregnancy, and having had it once affects screening in a future pregnancy.",
+        ar: "إنه «يزول عادةً بعد الولادة». لكنه يحتاج إلى متابعة أثناء الحمل، والإصابة به مرة تؤثر على الفحص في حمل لاحق.",
+      },
+      cites: ["nhs-gestational-diabetes"],
+    },
+  ],
+  cta: {
+    headline: { en: "A pattern you can see beats a number you have to remember", ar: "نمط تَرينه أفضل من رقم تحفظينه" },
+    body: {
+      en: "Nawah's kick counter records sessions by week, so your baby's usual rhythm becomes something visible rather than something you are trying to hold in your head. And the father gets an alert when you log one. Arabic and English, free.",
+      ar: "يسجّل عدّاد الركلات في نواة الجلسات أسبوعاً بأسبوع، فيصبح إيقاع جنينكِ المعتاد شيئاً تَرينه بدل شيء تحاولين تذكّره. ويصل الأب تنبيه حين تسجّلين ركلة. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_MOVEMENTS, CITE_GD, CITE_FETAL],
+  updated: "2026-08-21",
+};
+
+const month7: GuideMonth = {
+  month: 7,
+  weeks: [25, 28],
+  trimester: 3,
+  hero: {
+    src: "/guide/month-7-hero.jpg",
+    alt: {
+      en: "An open notebook and pen beside a mug on a wooden table.",
+      ar: "دفتر مفتوح وقلم بجانب فنجان على طاولة خشبية.",
+    },
+    photographer: "Angela Roma",
+    photographerUrl: "https://www.pexels.com/@angela-roma",
+    pexelsUrl: "https://www.pexels.com/photo/table-with-stationery-in-workspace-7319188/",
+    width: 4000,
+    height: 6000,
+  },
+  published: true,
+  title: {
+    en: "Month 7 of pregnancy: weeks 25 to 28",
+    ar: "الشهر السابع من الحمل: الأسابيع ٢٥ إلى ٢٨",
+  },
+  metaTitle: {
+    en: "Month 7 of Pregnancy (Weeks 25-28): The Third Trimester Begins | Nawah",
+    ar: "الشهر السابع من الحمل (الأسبوع ٢٥–٢٨): بداية الثلث الثالث | نواة",
+  },
+  description: {
+    en: "Weeks 25 to 28: the third trimester begins. The baby's eyes open, movements matter more than ever, and sleep gets harder.",
+    ar: "من الأسبوع ٢٥ إلى ٢٨: يبدأ الثلث الثالث. تنفتح عينا الجنين، وتصبح حركته أهم من أي وقت، ويصعب النوم.",
+  },
+  standfirst: {
+    en: "The last third begins. From here the pregnancy is less about milestones and more about watching, and the thing you are watching is movement.",
+    ar: "يبدأ الثلث الأخير. ومن هنا يصبح الحمل أقلّ تعلّقاً بالمحطات وأكثر تعلّقاً بالمراقبة، وما تراقبينه هو الحركة.",
+  },
+  sections: [
+    {
+      heading: { en: "Symptoms in month 7 of pregnancy", ar: "أعراض الحمل في الشهر السابع" },
+      body: [{ en: "What tends to arrive or intensify now:", ar: "ما يظهر أو يشتدّ الآن عادةً:" }],
+      bullets: [
+        { en: "Sleep becoming genuinely difficult", ar: "صعوبة حقيقية في النوم" },
+        { en: "Heartburn, often worse at night", ar: "حرقة معدة، غالباً أسوأ ليلاً" },
+        { en: "Backache and pelvic pressure", ar: "ألم في الظهر وضغط في الحوض" },
+        { en: "Shortness of breath climbing stairs", ar: "ضيق نفس عند صعود الدرج" },
+        { en: "Swelling in the hands, feet and ankles", ar: "تورّم في اليدين والقدمين والكاحلين" },
+        { en: "Practice contractions, painless and irregular", ar: "تقلّصات تدريبية، غير مؤلمة وغير منتظمة" },
+        { en: "Leaking colostrum from the breasts", ar: "تسرّب اللبأ من الثديين" },
+        { en: "Restless legs at night", ar: "تململ الساقين ليلاً" },
+      ],
+    },
+    {
+      heading: { en: "The baby in month 7", ar: "تطور الجنين في الشهر السابع" },
+      body: [
+        {
+          en: "By week 26 \"all parts of your baby's eyes are developed,\" and between weeks 27 and 30 \"your baby's eyelids can open and close.\" They have been closed since around week 14.",
+          ar: "مع الأسبوع السادس والعشرين «تكون جميع أجزاء عيني الجنين قد تكوّنت»، وبين الأسبوعين السابع والعشرين والثلاثين «يستطيع الجنين فتح جفنيه وإغلاقهما». وكانا مغلقين منذ الأسبوع الرابع عشر تقريباً.",
+        },
+        {
+          en: "The lungs are the organ still under construction. The respiratory system, though immature, now produces surfactant, the substance that lets the lungs inflate. That is the single most important thing happening in the next three months.",
+          ar: "الرئتان هما العضو الذي ما زال قيد البناء. فالجهاز التنفسي، رغم عدم اكتماله، بدأ ينتج المادة الفاعلة بالسطح التي تسمح للرئتين بالانتفاخ. وهذا أهم ما يحدث في الأشهر الثلاثة القادمة.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+      image: {
+        src: "/guide/month-7-count.jpg",
+        alt: {
+          en: "Hands resting calmly on a knee.",
+          ar: "يدان تستقرّان بهدوء على الركبة.",
+        },
+        photographer: "Mikhail Nilov",
+        photographerUrl: "https://www.pexels.com/@mikhail-nilov",
+        pexelsUrl: "https://www.pexels.com/photo/woman-sitting-with-crossed-arms-on-her-knees-8307809/",
+        width: 4000,
+        height: 6000,
+      },
+    },
+    {
+      heading: { en: "Movement, and when to call", ar: "الحركة ومتى تتصلين" },
+      body: [
+        {
+          en: "By now you know your baby's rhythm. That knowledge is the point of it, because from here a change in the pattern is the thing that gets acted on.",
+          ar: "أصبحتِ الآن تعرفين إيقاع جنينكِ. وهذه المعرفة هي المقصودة، لأن تغيّر النمط من هنا فصاعداً هو ما يُتصرَّف بناءً عليه.",
+        },
+        {
+          en: "The NHS instruction is unambiguous. Call your midwife or maternity unit immediately if your baby is moving less than usual, if you cannot feel movement any more, or if there is a change to the usual pattern.",
+          ar: "وتعليمات الهيئة البريطانية لا لبس فيها: اتصلي بالقابلة أو قسم الولادة فوراً إذا كانت حركة جنينكِ أقلّ من المعتاد، أو لم تعودي تشعرين بها، أو تغيّر نمطها المعتاد.",
+        },
+        {
+          en: "Immediately means immediately. Not in the morning, not after a cold drink, not after lying down to see whether it improves. Maternity units expect these calls and would far rather receive one that turns out to be nothing.",
+          ar: "وفوراً تعني فوراً. لا في الصباح، ولا بعد شرب شيء بارد، ولا بعد الاستلقاء لترَي إن كانت ستتحسّن. أقسام الولادة تتوقّع هذه الاتصالات، وتفضّل كثيراً أن تتلقّى اتصالاً يتبيّن أنه لا شيء.",
+        },
+      ],
+      cites: ["nhs-movements"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Call your maternity unit if any of these happen, at any hour.",
+      ar: "اتصلي بقسم الولادة إذا حدث أيٌّ ممّا يلي، في أي ساعة.",
+    },
+    items: [
+      MOVEMENT_FLAG,
+      { en: "Regular contractions before 37 weeks", ar: "تقلّصات منتظمة قبل الأسبوع ٣٧" },
+      { en: "A gush or trickle of fluid from the vagina", ar: "اندفاع أو تسرّب سائل من المهبل" },
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "A severe headache, blurred vision, or sudden swelling", ar: "صداع شديد، أو تشوّش رؤية، أو تورّم مفاجئ" },
+      { en: "Severe itching, particularly of the hands and feet", ar: "حكّة شديدة، خاصةً في اليدين والقدمين" },
+    ],
+    cites: ["nhs-movements"],
+  },
+  faqs: [
+    {
+      q: { en: "Do babies move less as they run out of room?", ar: "هل تقلّ حركة الجنين مع ضيق المساحة؟" },
+      a: {
+        en: "No, and this belief is dangerous. The character of movement changes, from kicks to rolls and pushes, but the amount should not decrease. Reduced movement is always a reason to call, at any stage.",
+        ar: "لا، وهذا الاعتقاد خطير. تتغيّر طبيعة الحركة من ركلات إلى تقلّبات ودفعات، لكن مقدارها لا ينبغي أن يقلّ. وقلّة الحركة سبب للاتصال دائماً، في أي مرحلة.",
+      },
+      cites: ["nhs-movements"],
+    },
+    {
+      q: { en: "What are these painless tightenings?", ar: "ما هذه التقلّصات غير المؤلمة؟" },
+      a: {
+        en: "Usually practice contractions. They are irregular, do not get closer together, and ease if you change position. Contractions that become regular, get stronger, or come every five minutes are a different thing, especially before 37 weeks.",
+        ar: "هي غالباً تقلّصات تدريبية. غير منتظمة، ولا تتقارب، وتخفّ إذا غيّرتِ وضعيتكِ. أما التقلّصات التي تصبح منتظمة أو تقوى أو تأتي كل خمس دقائق فأمر مختلف، خاصةً قبل الأسبوع ٣٧.",
+      },
+    },
+    {
+      q: { en: "I cannot sleep. Does that harm the baby?", ar: "لا أستطيع النوم. هل يضرّ هذا الجنين؟" },
+      a: {
+        en: "Poor sleep in the third trimester is close to universal and does not harm the baby. It does make everything else harder, so it is worth raising with your doctor rather than treating as something to endure quietly.",
+        ar: "سوء النوم في الثلث الثالث يكاد يكون عاماً، ولا يضرّ الجنين. لكنه يجعل كل شيء آخر أصعب، لذا يستحقّ أن تذكريه لطبيبكِ بدل اعتباره أمراً يُحتمل بصمت.",
+      },
+    },
+  ],
+  cta: {
+    headline: { en: "Reduced movement is a call you make at 3 a.m.", ar: "قلّة الحركة اتصال تجرينه في الثالثة فجراً" },
+    body: {
+      en: "Nawah's kick counter shows your baby's usual rhythm week by week, so a change is something you can see rather than something you are second-guessing. The father gets the alert too, so you are not the only one watching. Arabic and English, free.",
+      ar: "يُظهر عدّاد الركلات في نواة إيقاع جنينكِ المعتاد أسبوعاً بأسبوع، فيصبح أي تغيّر شيئاً ترينه بدل شيء تشكّكين فيه. ويصل التنبيه إلى الأب أيضاً، فلا تكونين وحدكِ من يراقب. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_FETAL, CITE_MOVEMENTS],
+  updated: "2026-08-21",
+};
+
+const month8: GuideMonth = {
+  month: 8,
+  weeks: [29, 32],
+  trimester: 3,
+  hero: {
+    src: "/guide/month-8-hero.jpg",
+    alt: {
+      en: "Someone folding small baby clothes in soft neutral colours.",
+      ar: "شخص يطوي ملابس أطفال صغيرة بألوان هادئة.",
+    },
+    photographer: "Sarah Chai",
+    photographerUrl: "https://www.pexels.com/@sarah-chai",
+    pexelsUrl: "https://www.pexels.com/photo/unrecognizable-woman-arranging-baby-clothes-at-table-7282431/",
+    width: 6000,
+    height: 4000,
+  },
+  published: true,
+  title: {
+    en: "Month 8 of pregnancy: weeks 29 to 32",
+    ar: "الشهر الثامن من الحمل: الأسابيع ٢٩ إلى ٣٢",
+  },
+  metaTitle: {
+    en: "Month 8 of Pregnancy (Weeks 29-32): Signs of Premature Labour | Nawah",
+    ar: "الشهر الثامن من الحمل (الأسبوع ٢٩–٣٢): علامات الولادة المبكرة | نواة",
+  },
+  description: {
+    en: "Weeks 29 to 32: the baby is putting on weight and practising breathing. The signs of premature labour, and what to have ready.",
+    ar: "من الأسبوع ٢٩ إلى ٣٢: يزداد وزن الجنين ويتدرّب على التنفّس. علامات الولادة المبكرة، وما ينبغي تجهيزه.",
+  },
+  standfirst: {
+    en: "The baby is mostly growing now rather than forming. Your job this month is to know what early labour looks like, so that if it happens you recognise it instead of talking yourself out of it.",
+    ar: "الجنين الآن ينمو أكثر ممّا يتكوّن. ومهمّتكِ هذا الشهر أن تعرفي كيف تبدو الولادة المبكرة، فإن حدثت تتعرّفي عليها بدل أن تقنعي نفسكِ بأنها لا شيء.",
+  },
+  sections: [
+    {
+      heading: { en: "Symptoms in month 8 of pregnancy", ar: "أعراض الحمل في الشهر الثامن" },
+      body: [{ en: "What most women are dealing with now:", ar: "ما تتعامل معه معظم النساء الآن:" }],
+      bullets: [
+        { en: "Practice contractions becoming more noticeable", ar: "تقلّصات تدريبية أكثر وضوحاً" },
+        { en: "Breathlessness as the bump presses upward", ar: "ضيق نفس مع ضغط البطن إلى أعلى" },
+        { en: "Heartburn that resists everything", ar: "حرقة معدة لا ينفع معها شيء" },
+        { en: "Pelvic and hip pain, especially turning in bed", ar: "ألم في الحوض والوركين، خاصةً عند التقلّب في السرير" },
+        { en: "Needing the bathroom constantly again", ar: "الحاجة المتكررة للحمّام من جديد" },
+        { en: "Swelling that is worse by evening", ar: "تورّم يزداد مع المساء" },
+        { en: "Difficulty sleeping in any position", ar: "صعوبة النوم في أي وضعية" },
+      ],
+    },
+    {
+      heading: { en: "Signs of premature labour", ar: "علامات الولادة المبكرة" },
+      body: [
+        {
+          en: "The NHS definition is simple: \"Premature labour is labour that happens before the 37th week of pregnancy.\" You are inside that window for the whole of this month and the next.",
+          ar: "تعريف الهيئة البريطانية بسيط: «الولادة المبكرة هي التي تحدث قبل الأسبوع السابع والثلاثين». وأنتِ داخل هذه الفترة طوال هذا الشهر والذي يليه.",
+        },
+        {
+          en: "Call your midwife or maternity unit if you are less than 37 weeks and have regular contractions or tightenings, period-type pains, a gush or trickle of fluid from the vagina, or backache that is not usual for you.",
+          ar: "اتصلي بالقابلة أو قسم الولادة إذا كنتِ قبل الأسبوع السابع والثلاثين وشعرتِ بتقلّصات أو تشنّجات منتظمة، أو آلام تشبه الدورة، أو اندفاع أو تسرّب سائل من المهبل، أو ألم ظهر غير معتاد بالنسبة لكِ.",
+        },
+        {
+          en: "The NHS adds a line worth taking literally: \"You can also call your midwife or maternity unit if you're unsure or worried about anything.\" Uncertainty is a sufficient reason. You do not need to earn the call.",
+          ar: "وتضيف الهيئة عبارة تستحقّ أن تُؤخذ حرفياً: «يمكنكِ أيضاً الاتصال بالقابلة أو قسم الولادة إن كنتِ غير متأكدة أو قلقة من أي شيء». عدم اليقين سبب كافٍ. ولستِ مضطرة لأن تستحقّي الاتصال.",
+        },
+      ],
+      cites: ["nhs-premature-labour"],
+    },
+    {
+      heading: { en: "The baby in month 8", ar: "تطور الجنين في الشهر الثامن" },
+      body: [
+        {
+          en: "Between weeks 31 and 34, \"rhythmic breathing occurs, but baby's lungs are not fully mature.\" The baby is practising a movement it will not use for real until birth.",
+          ar: "بين الأسبوعين الحادي والثلاثين والرابع والثلاثين «يحدث تنفّس إيقاعي، لكن رئتي الجنين لم تنضجا تماماً». فهو يتدرّب على حركة لن يستخدمها فعلياً حتى الولادة.",
+        },
+        {
+          en: "Most of what happens now is weight. That is also why the last weeks matter so much, and why a baby born now would usually need help breathing that a baby born at term would not.",
+          ar: "ومعظم ما يحدث الآن هو زيادة الوزن. ولهذا أيضاً تكون الأسابيع الأخيرة بهذه الأهمية، ولهذا يحتاج المولود الآن عادةً إلى مساعدة على التنفّس لا يحتاجها المولود في موعده.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Call your maternity unit if any of these happen. Before 37 weeks, do not wait to see whether it settles.",
+      ar: "اتصلي بقسم الولادة إذا حدث أيٌّ ممّا يلي. وقبل الأسبوع ٣٧، لا تنتظري لترَي إن كان سيهدأ.",
+    },
+    items: [
+      MOVEMENT_FLAG,
+      { en: "Regular contractions or tightenings", ar: "تقلّصات أو تشنّجات منتظمة" },
+      { en: "Period-type pains", ar: "آلام تشبه الدورة" },
+      { en: "A gush or trickle of fluid from the vagina", ar: "اندفاع أو تسرّب سائل من المهبل" },
+      { en: "Backache that is not usual for you", ar: "ألم ظهر غير معتاد بالنسبة لكِ" },
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "A severe headache, blurred vision, or sudden swelling", ar: "صداع شديد، أو تشوّش رؤية، أو تورّم مفاجئ" },
+    ],
+    cites: ["nhs-premature-labour", "nhs-movements"],
+  },
+  faqs: [
+    {
+      q: { en: "How do I tell practice contractions from real ones?", ar: "كيف أفرّق بين التقلّصات التدريبية والحقيقية؟" },
+      a: {
+        en: "Practice contractions are irregular, do not get closer together or stronger, and often ease if you move or change position. Real ones become longer, stronger and more frequent. Before 37 weeks, anything regular is worth a call rather than an experiment.",
+        ar: "التقلّصات التدريبية غير منتظمة، ولا تتقارب ولا تقوى، وتخفّ غالباً إذا تحرّكتِ أو غيّرتِ وضعيتكِ. أما الحقيقية فتصبح أطول وأقوى وأكثر تكراراً. وقبل الأسبوع ٣٧، أي شيء منتظم يستحقّ اتصالاً لا تجربة.",
+      },
+      cites: ["nhs-premature-labour"],
+    },
+    {
+      q: { en: "When should the hospital bag be ready?", ar: "متى تكون حقيبة المستشفى جاهزة؟" },
+      a: {
+        en: "This month. Not because labour is likely now, but because a bag packed calmly at week 30 is a better bag than one packed in a hurry at week 34, and because it removes one decision from a day that will have enough of them.",
+        ar: "هذا الشهر. لا لأن الولادة مرجّحة الآن، بل لأن حقيبة تُجهَّز بهدوء في الأسبوع الثلاثين أفضل من حقيبة تُجهَّز على عجل في الأسبوع الرابع والثلاثين، ولأنها تُسقط قراراً واحداً من يوم سيكون مليئاً بالقرارات.",
+      },
+    },
+    {
+      q: { en: "The baby feels like it is always in my ribs.", ar: "أشعر أن الجنين دائماً في أضلاعي." },
+      a: {
+        en: "Common at this stage and usually just position. It often changes as the baby moves head-down later. Mention it at your next appointment, but on its own it is not a warning sign.",
+        ar: "شائع في هذه المرحلة، وسببه غالباً وضعية الجنين. ويتغيّر عادةً حين ينقلب رأسه إلى أسفل لاحقاً. اذكريه في موعدكِ التالي، لكنه وحده ليس علامة تحذير.",
+      },
+    },
+  ],
+  cta: {
+    headline: { en: "Pack it once, calmly, with him", ar: "جهّزيها مرة واحدة، بهدوء، معه" },
+    body: {
+      en: "Nawah's hospital bag list splits three ways: yours, the baby's, and his, so packing is a shared task instead of one more thing on your list. The contraction timer is there for when the tightenings stop being practice. Arabic and English, free.",
+      ar: "قائمة حقيبة المستشفى في نواة مقسّمة ثلاثة أقسام: لكِ، وللطفل، وله، فيصبح التجهيز مهمة مشتركة بدل بند إضافي على قائمتكِ. ومؤقّت التقلّصات جاهز حين تتوقف عن كونها تدريبية. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_PRETERM, CITE_FETAL, CITE_MOVEMENTS],
+  updated: "2026-08-21",
+};
+
+const month9: GuideMonth = {
+  month: 9,
+  weeks: [33, 40],
+  trimester: 3,
+  hero: {
+    src: "/guide/month-9-hero.jpg",
+    alt: {
+      en: "A folded towel, unlabelled bottles and a sponge on a white surface.",
+      ar: "منشفة مطوية وعبوات بلا علامات وإسفنجة على سطح أبيض.",
+    },
+    photographer: "Cup of Couple",
+    photographerUrl: "https://www.pexels.com/@cup-of-couple",
+    pexelsUrl: "https://www.pexels.com/photo/bathroom-accessories-with-sponge-8015811/",
+    width: 6000,
+    height: 4000,
+  },
+  published: true,
+  title: {
+    en: "Month 9 of pregnancy: weeks 33 to 40",
+    ar: "الشهر التاسع من الحمل: الأسابيع ٣٣ إلى ٤٠",
+  },
+  metaTitle: {
+    en: "Month 9 of Pregnancy (Weeks 33-40): Signs of Labour | Nawah",
+    ar: "الشهر التاسع من الحمل (الأسبوع ٣٣–٤٠): علامات الولادة | نواة",
+  },
+  description: {
+    en: "Weeks 33 to 40. The signs that labour has begun, when to call, when to go in, and what to have ready before any of it starts.",
+    ar: "من الأسبوع ٣٣ إلى ٤٠. علامات بدء الولادة، ومتى تتصلين، ومتى تذهبين، وما تجهّزينه قبل أن يبدأ أي شيء.",
+  },
+  standfirst: {
+    en: "The last stretch. This month is mostly waiting, and waiting is easier when you already know exactly what you are waiting for and what you will do when it arrives.",
+    ar: "المرحلة الأخيرة. هذا الشهر انتظار في معظمه، والانتظار أسهل حين تعرفين بالضبط ما تنتظرينه وما ستفعلينه حين يأتي.",
+  },
+  sections: [
+    {
+      heading: { en: "Symptoms in month 9 of pregnancy", ar: "أعراض الحمل في الشهر التاسع" },
+      body: [{ en: "What the last weeks usually bring:", ar: "ما تجلبه الأسابيع الأخيرة عادةً:" }],
+      bullets: [
+        { en: "The bump dropping lower, easing your breathing", ar: "نزول البطن إلى أسفل، فيخفّ ضيق النفس" },
+        { en: "More pressure on the pelvis and bladder", ar: "ضغط أكبر على الحوض والمثانة" },
+        { en: "Practice contractions that are frequent and convincing", ar: "تقلّصات تدريبية متكررة ومقنِعة" },
+        { en: "Broken sleep almost every night", ar: "نوم متقطّع كل ليلة تقريباً" },
+        { en: "Sudden bursts of energy, or of wanting to clean", ar: "نوبات مفاجئة من النشاط أو الرغبة في التنظيف" },
+        { en: "Aching pelvis when walking", ar: "ألم في الحوض عند المشي" },
+        { en: "Swollen feet and hands", ar: "تورّم القدمين واليدين" },
+      ],
+    },
+    {
+      heading: { en: "Signs that labour has begun", ar: "علامات بدء الولادة" },
+      body: [
+        {
+          en: "The NHS lists the signs: contractions or tightenings, a show, backache, an urge to go to the toilet, and your waters breaking.",
+          ar: "تذكر الهيئة البريطانية العلامات: تقلّصات أو تشنّجات، ونزول السدادة المخاطية، وألم في الظهر، ورغبة في دخول الحمّام، ونزول ماء الرأس.",
+        },
+        {
+          en: "Contractions: \"When you have a contraction, your womb tightens and then relaxes,\" and they \"tend to become longer, stronger and more frequent as your labour progresses.\" That progression is what separates them from practice.",
+          ar: "التقلّصات: «حين يأتيكِ تقلّص، ينقبض الرحم ثم يرتخي»، وهي «تميل إلى أن تصبح أطول وأقوى وأكثر تكراراً مع تقدّم المخاض». وهذا التدرّج هو ما يفرّقها عن التدريبية.",
+        },
+        {
+          en: "The show: \"This sticky, jelly-like pink mucus is called a show.\" It does not mean labour is imminent. \"Labour may quickly follow or may take a few days.\"",
+          ar: "السدادة المخاطية: «هذا المخاط الوردي اللزج يُسمّى السدادة». وظهورها لا يعني أن الولادة وشيكة، فـ«قد يتبعها المخاض سريعاً وقد يستغرق أياماً».",
+        },
+        {
+          en: "Waters breaking: \"you may feel a slow trickle or a sudden gush of water you cannot control.\" It is not always the dramatic version.",
+          ar: "نزول ماء الرأس: «قد تشعرين بتسرّب بطيء أو باندفاع مفاجئ للماء لا تستطيعين التحكّم فيه». وليس دائماً بالصورة الدرامية.",
+        },
+      ],
+      cites: ["nhs-labour-signs"],
+    },
+    {
+      heading: { en: "When to call and when to go in", ar: "متى تتصلين ومتى تذهبين" },
+      body: [
+        {
+          en: "Call if you think you are in labour, or if you are having regular contractions coming every 5 minutes or more often.",
+          ar: "اتصلي إذا شعرتِ أنكِ في مخاض، أو إذا كانت التقلّصات منتظمة وتأتي كل خمس دقائق أو أكثر تكراراً.",
+        },
+        {
+          en: "Call urgently if your waters break, if you have vaginal bleeding, if your baby is moving less than usual, or if you are having 6 or more contractions every 10 minutes.",
+          ar: "واتصلي بشكل عاجل إذا نزل ماء الرأس، أو حدث نزيف مهبلي، أو كانت حركة جنينكِ أقلّ من المعتاد، أو جاءتكِ ٦ تقلّصات أو أكثر كل عشر دقائق.",
+        },
+        {
+          en: "Reduced movement remains on that urgent list right up to birth. It never stops being a reason to call, no matter how close you are.",
+          ar: "وتبقى قلّة الحركة على قائمة الحالات العاجلة حتى الولادة. فهي لا تتوقف أبداً عن كونها سبباً للاتصال، مهما اقترب الموعد.",
+        },
+      ],
+      cites: ["nhs-labour-signs"],
+      image: {
+        src: "/guide/month-9-ready.jpg",
+        alt: {
+          en: "A newborn's feet under a soft knitted blanket.",
+          ar: "قدما مولود تحت بطانية محبوكة ناعمة.",
+        },
+        photographer: "Kaboompics",
+        photographerUrl: "https://www.pexels.com/@karola-g",
+        pexelsUrl: "https://www.pexels.com/photo/photograph-of-a-baby-s-feet-4964255/",
+        width: 5760,
+        height: 3840,
+      },
+    },
+    {
+      heading: { en: "The baby in month 9", ar: "تطور الجنين في الشهر التاسع" },
+      body: [
+        {
+          en: "Between weeks 35 and 37, \"your baby's heart and blood vessels are complete.\" From 37 weeks the pregnancy is no longer considered premature.",
+          ar: "بين الأسبوعين الخامس والثلاثين والسابع والثلاثين «يكتمل قلب الجنين وأوعيته الدموية». ومن الأسبوع السابع والثلاثين لم يعد الحمل يُعدّ مبكراً.",
+        },
+        {
+          en: "A detail that puts the whole count in perspective: \"In your 40th week of pregnancy, it has been 38 weeks since conception.\" The two weeks from month 1 are still there at the end, exactly where they started.",
+          ar: "وتفصيل يضع العدّ كله في نصابه: «في أسبوعكِ الأربعين من الحمل، يكون قد مرّ ٣٨ أسبوعاً على الإخصاب». فالأسبوعان اللذان بدأنا بهما في الشهر الأول ما زالا هنا في النهاية، في موضعهما تماماً.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+  ],
+  redFlags: {
+    intro: {
+      en: "Call urgently, at any hour, if any of these happen.",
+      ar: "اتصلي بشكل عاجل، في أي ساعة، إذا حدث أيٌّ ممّا يلي.",
+    },
+    items: [
+      MOVEMENT_FLAG,
+      { en: "Your waters break", ar: "نزول ماء الرأس" },
+      { en: "Vaginal bleeding", ar: "نزيف مهبلي" },
+      { en: "6 or more contractions every 10 minutes", ar: "٦ تقلّصات أو أكثر كل عشر دقائق" },
+      { en: "Regular contractions every 5 minutes or more often", ar: "تقلّصات منتظمة كل خمس دقائق أو أكثر تكراراً" },
+      { en: "A severe headache, blurred vision, or sudden swelling", ar: "صداع شديد، أو تشوّش رؤية، أو تورّم مفاجئ" },
+    ],
+    cites: ["nhs-labour-signs", "nhs-movements"],
+  },
+  faqs: [
+    {
+      q: { en: "My waters broke but there are no contractions. What now?", ar: "نزل ماء الرأس بلا تقلّصات. ماذا أفعل؟" },
+      a: {
+        en: "Call urgently. Waters breaking is on the urgent list on its own, whether or not contractions have started. Note the time and the colour of the fluid, because you will be asked both.",
+        ar: "اتصلي بشكل عاجل. نزول ماء الرأس وحده على قائمة الحالات العاجلة، سواء بدأت التقلّصات أم لا. وسجّلي الوقت ولون السائل، لأنكِ ستُسألين عنهما.",
+      },
+      cites: ["nhs-labour-signs"],
+    },
+    {
+      q: { en: "I had a show. Is the baby coming today?", ar: "نزلت السدادة المخاطية. هل سيأتي الطفل اليوم؟" },
+      a: {
+        en: "Not necessarily. Labour \"may quickly follow or may take a few days.\" A show on its own is a sign of progress, not a countdown.",
+        ar: "ليس بالضرورة. فالمخاض «قد يتبعها سريعاً وقد يستغرق أياماً». ونزول السدادة وحده علامة تقدّم، لا عدّاً تنازلياً.",
+      },
+      cites: ["nhs-labour-signs"],
+    },
+    {
+      q: { en: "I am past my due date. Is that a problem?", ar: "تجاوزتُ موعد الولادة. هل هذه مشكلة؟" },
+      a: {
+        en: "A due date is an estimate, not a deadline, and going past it is common. Your doctor will monitor you more closely from then and will discuss options with you. Keep watching movement exactly as before.",
+        ar: "موعد الولادة تقدير لا موعد نهائي، وتجاوزه أمر شائع. سيتابعكِ طبيبكِ عن قرب أكبر من ذلك الحين ويناقش معكِ الخيارات. وواصلي مراقبة الحركة تماماً كما كنتِ.",
+      },
+    },
+    {
+      q: { en: "How will I know it is real labour?", ar: "كيف أعرف أنه مخاض حقيقي؟" },
+      a: {
+        en: "Real contractions get longer, stronger and more frequent, and they do not ease when you change position. If they are coming every 5 minutes, call. If you are unsure, call anyway.",
+        ar: "التقلّصات الحقيقية تصبح أطول وأقوى وأكثر تكراراً، ولا تخفّ عند تغيير الوضعية. وإذا جاءت كل خمس دقائق فاتصلي. وإذا لم تكوني متأكدة فاتصلي أيضاً.",
+      },
+      cites: ["nhs-labour-signs"],
+    },
+  ],
+  cta: {
+    headline: { en: "Time them properly, so you can say the number", ar: "احسبيها بدقّة، لتستطيعي قول الرقم" },
+    body: {
+      en: "The first question you will be asked is how far apart they are. Nawah's contraction timer records interval and duration to the second, so you have an answer instead of a guess. The hospital bag list and your emergency contacts are one tap away. Arabic and English, free.",
+      ar: "أول سؤال سيُطرح عليكِ هو كم المدة بينها. مؤقّت التقلّصات في نواة يسجّل الفاصل والمدة بالثانية، فتكون لديكِ إجابة لا تخمين. وقائمة حقيبة المستشفى وأرقام الطوارئ على بُعد لمسة واحدة. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: { en: "Get Nawah on Google Play", ar: "حمّلي نواة من جوجل بلاي" },
+  },
+  citations: [CITE_LABOUR, CITE_FETAL, CITE_MOVEMENTS],
+  updated: "2026-08-21",
+};
+
+export const GUIDE_MONTHS: GuideMonth[] = [
+  month1,
+  month2,
+  month3,
+  month4,
+  month5,
+  month6,
+  month7,
+  month8,
+  month9,
+];
 
 /** Week spans for all nine months, mirroring the app's nine bands. Used by the
  *  hub so the shape of the series is visible before the rest is written. */

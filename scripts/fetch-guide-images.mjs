@@ -75,6 +75,23 @@ const WANTED = [
   // late-term 3D face rather than anything a 12-week scan produces.
   { slot: "month-3-hero", query: "soft sunlight through sheer curtain window" },
   { slot: "month-3-detail", query: "soft neutral dried flowers minimal still life" },
+
+  // Months 4 to 9. Queries chosen to return text-free objects on neutral
+  // grounds. Two things get rejected on sight every time: Latin signage inside
+  // an Arabic article, and anything that fights the cream-and-rose palette.
+  { slot: "month-4-hero", query: "folded neutral linen clothes minimal" },
+  // "knitted baby booties" returned a sock on a Christmas tree. The audience is
+  // Gulf and Egyptian; Christmas imagery is simply the wrong room.
+  { slot: "month-5-hero", query: "tiny baby shoes white background minimal" },
+  { slot: "month-5-scan", query: "soft white feather minimal neutral" },
+  { slot: "month-6-hero", query: "glass of water with lemon minimal white" },
+  { slot: "month-7-hero", query: "open notebook and pen on neutral desk" },
+  { slot: "month-7-count", query: "calm hands resting neutral minimal" },
+  { slot: "month-8-hero", query: "folded baby clothes neutral minimal" },
+  // "packed bag travel" returned a grey camera bag on a red striped sofa, and
+  // "empty crib nursery" returned a US real-estate listing with a ceiling fan.
+  { slot: "month-9-hero", query: "folded towels neutral flat lay minimal" },
+  { slot: "month-9-ready", query: "soft knitted baby blanket neutral" },
 ];
 
 const seen = new Set();
