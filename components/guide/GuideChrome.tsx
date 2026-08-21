@@ -18,6 +18,7 @@ import { DIR, type Locale } from "@/lib/constants";
 const T = {
   home: { en: "Nawah", ar: "نواة" },
   guide: { en: "Pregnancy guide", ar: "دليل الحمل" },
+  father: { en: "For fathers", ar: "للأب" },
   switchTo: { en: "عربي", ar: "English" },
   switchLabel: { en: "Read this page in Arabic", ar: "Read this page in English" },
   privacy: { en: "Privacy", ar: "الخصوصية" },
@@ -53,6 +54,10 @@ export function GuideHeader({
 
         <nav className="guide-head-right">
           <Link href={`/${locale}/guide`}>{T.guide[locale]}</Link>
+          {/* Without this the father series is reachable only from its own
+              articles and the sitemap — orphaned from the month pages, which
+              are the ones that actually have inbound links today. */}
+          <Link href={`/${locale}/father`}>{T.father[locale]}</Link>
           <Link
             href={altPath}
             hrefLang={other}
@@ -73,11 +78,20 @@ export function GuideHeader({
           gap: 16px; padding-block: 18px;
         }
         .guide-head-right { display: flex; align-items: center; gap: 20px; font-size: 14px; }
-        .guide-head-right a { color: var(--fg-muted); }
+        /* nowrap because the third link ("For fathers") pushed the row past the
+           width available at 390px, and flex resolved it by breaking each label
+           over two lines — "Pregnancy / guide" reads as two nav items rather
+           than one. The row does not overflow; only the labels were breaking. */
+        .guide-head-right a { color: var(--fg-muted); white-space: nowrap; }
         .guide-head-right a:hover { color: var(--fg); }
         .guide-lang {
           border: 1px solid var(--border); border-radius: 999px;
           padding: 6px 14px; color: var(--fg) !important;
+        }
+
+        @media (max-width: 600px) {
+          .guide-head-right { gap: 12px; font-size: 13px; }
+          .guide-lang { padding: 5px 11px; }
         }
       `}</style>
     </header>

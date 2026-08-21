@@ -129,3 +129,21 @@ export function guidePlayUrl(locale: Locale, month: number): string {
     content: `${locale}_month_${month}`,
   });
 }
+
+/**
+ * The father series, deliberately a SEPARATE campaign from `pregnancy_guide`.
+ *
+ * The two series are judged on different things. The month articles exist to
+ * capture head-term search traffic, so sessions are a fair measure of them.
+ * The father articles exist to convert one worried reader into an install, so
+ * the only number that means anything is store clicks per session — and that
+ * comparison is impossible if both series report into one campaign bucket.
+ */
+export function fatherPlayUrl(locale: Locale, slug: string): string {
+  return playStoreUrl({
+    source: "nawahapp.net",
+    medium: "organic_article",
+    campaign: "father_guide",
+    content: `${locale}_father_${slug}`,
+  });
+}

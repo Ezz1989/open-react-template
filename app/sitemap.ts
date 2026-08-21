@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
+import { publishedArticles } from "@/lib/father-content";
 
 /**
  * /sitemap.xml
@@ -60,6 +61,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/guide/${doc.month}`),
+        },
+      });
+    }
+  }
+
+  // The father series. A separate loop rather than a shared one, because these
+  // are keyed by slug — folding them into the month loop above would emit
+  // /ar/father/1 and advertise a route that does not exist.
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/father`,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/father`) },
+    });
+  }
+
+  for (const doc of publishedArticles()) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/father/${doc.slug}`,
+        lastModified: new Date(doc.updated),
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: {
+          languages: alt((l) => `${SITE_URL}/${l}/father/${doc.slug}`),
         },
       });
     }

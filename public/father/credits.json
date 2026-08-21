@@ -1,0 +1,90 @@
+[
+  {
+    "slot": "labour-signs-hero",
+    "query": "empty night road headlights long exposure",
+    "src": "/father/labour-signs-hero.jpg",
+    "photographer": "Juan Pablo Serrano",
+    "photographerUrl": "https://www.pexels.com/@juanpphotoandvideo",
+    "pexelsUrl": "https://www.pexels.com/photo/time-lapse-photography-of-cars-on-road-792815/",
+    "alt": "Night shot capturing long exposure light trails on a dark, curved highway.",
+    "width": 5015,
+    "height": 3343
+  },
+  {
+    "slot": "labour-signs-clock",
+    "query": "hourglass sand timer minimal neutral",
+    "src": "/father/labour-signs-clock.jpg",
+    "photographer": "https://kaboompics.com/",
+    "photographerUrl": "https://www.pexels.com/@karola-g",
+    "pexelsUrl": "https://www.pexels.com/photo/stylish-sand-gourglasses-4397907/",
+    "alt": "Decorative hourglasses in different shapes with pouring beige and black sand placed on white table",
+    "width": 6720,
+    "height": 4480
+  },
+  {
+    "slot": "scan-20-weeks-hero",
+    "query": "abstract blue water ripples surface",
+    "src": "/father/scan-20-weeks-hero.jpg",
+    "photographer": "The Cheap Shot",
+    "photographerUrl": "https://www.pexels.com/@the-cheap-shot-1904877",
+    "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-water-4021693/",
+    "alt": "A tranquil close-up view of ripples gently forming on a water surface under daylight.",
+    "width": 3070,
+    "height": 2046
+  },
+  {
+    "slot": "baby-budget-hero",
+    "query": "wicker moses basket neutral minimal",
+    "src": "/father/baby-budget-hero.jpg",
+    "photographer": "Arina Krasnikova",
+    "photographerUrl": "https://www.pexels.com/@arina-krasnikova",
+    "pexelsUrl": "https://www.pexels.com/photo/overhead-view-of-wicker-baskets-5119832/",
+    "alt": "A collection of various wicker baskets arranged on a white background, showcasing craftsmanship.",
+    "width": 5000,
+    "height": 3338
+  },
+  {
+    "slot": "fathers-mental-health-hero",
+    "query": "empty armchair by window low light",
+    "src": "/father/fathers-mental-health-hero.jpg",
+    "photographer": "Nothing Ahead",
+    "photographerUrl": "https://www.pexels.com/@ian-panelo",
+    "pexelsUrl": "https://www.pexels.com/photo/an-armchair-and-wooden-cabinet-near-windows-7930485/",
+    "alt": "A peaceful room with natural light illuminating a chair and cabinet against large windows.",
+    "width": 6000,
+    "height": 3964
+  },
+  {
+    "slot": "hospital-bag-hero",
+    "query": "empty open suitcase on bed minimal",
+    "src": "/father/hospital-bag-hero.jpg",
+    "photographer": "M.Emin  BİLİR",
+    "photographerUrl": "https://www.pexels.com/@travelerchitect",
+    "pexelsUrl": "https://www.pexels.com/photo/books-in-suitcase-on-pavement-18048278/",
+    "alt": "An open suitcase on a pavement with a book inside, casting shadows.",
+    "width": 6006,
+    "height": 4004
+  },
+  {
+    "slot": "her-mood-hero",
+    "query": "two cups of tea on table minimal neutral",
+    "src": "/father/her-mood-hero.jpg",
+    "photographer": "Semanur Çoban",
+    "photographerUrl": "https://www.pexels.com/@farahmyr",
+    "pexelsUrl": "https://www.pexels.com/photo/wooden-table-with-two-cups-of-tea-outdoors-38756435/",
+    "alt": "Two cups of tea on a rustic wooden table outdoors. Perfect for lifestyle and relaxation themes.",
+    "width": 2580,
+    "height": 1841
+  },
+  {
+    "slot": "baby-movements-hero",
+    "query": "folded grey linen fabric texture minimal",
+    "src": "/father/baby-movements-hero.jpg",
+    "photographer": "Engin Akyurt",
+    "photographerUrl": "https://www.pexels.com/@enginakyurt",
+    "pexelsUrl": "https://www.pexels.com/photo/gray-textile-closeup-photo-1487713/",
+    "alt": "A close-up view of a soft, light-colored linen fabric displaying its intricate texture and weave.",
+    "width": 7680,
+    "height": 5120
+  }
+]
