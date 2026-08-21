@@ -39,6 +39,17 @@ export function Footer() {
             />
           </div>
           <div style={{ display: "flex", gap: 28, flexWrap: "wrap" }}>
+            {/* Both locales are linked explicitly, not via the current `lang`.
+                The homepage renders server-side with lang defaulting to "en",
+                so a language-aware link would leave /ar/guide with no internal
+                link from anywhere on the site. Arabic is the primary audience,
+                so it cannot be the one that goes unlinked. */}
+            <a href="/ar/guide" hrefLang="ar" lang="ar">
+              دليل الحمل
+            </a>
+            <a href="/en/guide" hrefLang="en" lang="en">
+              Pregnancy guide
+            </a>
             {links.map((l) => {
               const external = l.href.startsWith("http");
               return (

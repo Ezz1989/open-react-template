@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useLang } from "@/lib/lang-context";
 import { useMode } from "@/lib/mode-context";
 
@@ -21,6 +22,11 @@ export function Navbar() {
       </div>
 
       <div className="nav-links nav-links-desktop">
+        {/* A real route, not an on-page anchor like the others. Next's Link
+            prefetches it, and it is the only nav item that leaves the page. */}
+        <Link href={`/${lang}/guide`} className="nav-guide">
+          {t("nav.guide") as string}
+        </Link>
         <a href="#features">{t("nav.features") as string}</a>
         <a href="#journey">{t("nav.journey") as string}</a>
         <a href="#nawal">{t("nav.nawal") as string}</a>
@@ -55,6 +61,7 @@ export function Navbar() {
       </div>
 
       <style>{`
+        .nav-guide { color: var(--accent-strong) !important; font-weight: 500; }
         @media (max-width: 720px) {
           .nav-links-desktop { display: none; }
         }

@@ -86,10 +86,32 @@ export interface GuideImage {
 }
 
 export interface Section {
+  /**
+   * Headings are NOUN PHRASES carrying the search term, not sentences.
+   *
+   * Both Arabic market leaders do this and it is the single clearest pattern
+   * in them. WebTeb: "الحمل في الشهر الأول", "اسابيع الحمل في الشهر الأول".
+   * SuperMama: "أعراض الحمل في الشهر الأول", "شكل الجنين في الشهر الأول من
+   * الحمل". Every heading repeats the month phrase, because that is what
+   * people type.
+   *
+   * The first draft of this file used literary sentences instead
+   * ("لماذا يبدأ العدّ قبل حدوث الحمل"). Better prose, worse article: it
+   * matches no query and gives a scanning reader nothing to lock onto.
+   */
   heading: Localized;
   /** One entry per paragraph, so the renderer owns spacing and never has to
    *  parse markdown or trust raw HTML. */
   body: Localized[];
+  /**
+   * Scannable facts. Both competitors lean on lists heavily; WebTeb is roughly
+   * 60% bullets. Symptoms in particular get read as a checklist, never as
+   * prose, so any list of them belongs here rather than in `body`.
+   */
+  bullets?: Localized[];
+  /** Paragraphs that must land after the list rather than before it, e.g. the
+   *  reassurance that follows a symptom checklist. */
+  afterBullets?: Localized[];
   cites?: string[];
   image?: GuideImage;
 }
@@ -262,49 +284,64 @@ const month1: GuideMonth = {
     ar: "الأسابيع ١ إلى ٤، حين يبدأ العدّ قبل حدوث الحمل. ماذا تعني الأرقام، ولماذا لا يحتمل حمض الفوليك التأجيل، والأعراض التي تستدعي الطبيب فوراً.",
   },
   standfirst: {
-    en: "The first month of pregnancy contains two weeks in which nobody is pregnant. That is not a trick of language. It follows from how the weeks are counted, and understanding it explains most of the confusion that comes later.",
-    ar: "الشهر الأول من الحمل يتضمّن أسبوعين لا يكون فيهما حمل أصلاً. هذه ليست لعبة لفظية، بل نتيجة مباشرة لطريقة حساب الأسابيع، وفهمها يزيل معظم الالتباس الذي يأتي لاحقاً.",
+    en: "You have just found out, and the first thing that confuses everyone is the numbers. The first month of pregnancy contains two weeks in which nobody is pregnant. That is not a trick of language, and once you see why, most of what comes later makes sense.",
+    ar: "عرفتِ للتوّ، وأول ما يربك الجميع هو الأرقام. الشهر الأول من الحمل يشمل أسبوعين لا يوجد فيهما حمل أصلاً. ليست لعبة لفظية، وحين تفهمين السبب يتضح معظم ما يأتي بعده.",
   },
 
   sections: [
     {
       heading: {
-        en: "Why the count starts before conception",
-        ar: "لماذا يبدأ العدّ قبل حدوث الحمل",
+        en: "How the weeks are counted in month 1",
+        ar: "حساب أسابيع الحمل في الشهر الأول",
       },
       body: [
         {
-          en: "Gestational age is measured in weeks from the first day of the last menstrual period, not from the day of conception. Conception cannot be dated reliably, because it is invisible and its timing varies. The first day of a period is a date a woman can usually name.",
-          ar: "يُحسب عمر الحمل بالأسابيع ابتداءً من اليوم الأول لآخر دورة شهرية، لا من يوم حدوث الحمل. فيوم الإخصاب لا يمكن تحديده بدقة لأنه غير مرئي ويختلف توقيته من امرأة إلى أخرى، أما اليوم الأول للدورة فتاريخ تستطيع المرأة تحديده عادةً.",
+          en: "Gestational age is measured in weeks from the first day of the last menstrual period, not from the day of conception. Conception cannot be dated reliably, because it is invisible and its timing varies. The first day of a period is a date you can usually name.",
+          ar: "يُحسب عمر حملكِ بالأسابيع من اليوم الأول لآخر دورة شهرية، لا من يوم حدوث الحمل. سبب ذلك بسيط: يوم الإخصاب لا يمكن تحديده بدقة، أما اليوم الأول لدورتكِ فتاريخ تعرفينه.",
         },
         {
-          en: "One consequence follows immediately. In weeks 1 and 2, the body is preparing to release an egg and no pregnancy exists yet. Ovulation falls near the end of the second week, so fertilisation happens around week 2 or 3 of a count that began a fortnight earlier.",
-          ar: "ويترتب على ذلك أمر مباشر: في الأسبوعين الأول والثاني يكون الجسم في طور التحضير لإطلاق البويضة ولا وجود لحمل بعد. تحدث الإباضة قرب نهاية الأسبوع الثاني، أي أن الإخصاب يقع في حدود الأسبوع الثاني أو الثالث من عدٍّ بدأ قبل ذلك بأسبوعين.",
+          en: "One consequence follows immediately. In weeks 1 and 2 your body is preparing to release an egg, and no pregnancy exists yet. Ovulation falls near the end of the second week, so fertilisation happens around week 2 or 3 of a count that began a fortnight earlier.",
+          ar: "ويترتب على ذلك أمر مهم. في الأسبوعين الأول والثاني يكون جسمكِ يستعد لإطلاق البويضة، ولا يوجد حمل بعد. تحدث الإباضة قرب نهاية الأسبوع الثاني، فيقع الإخصاب في حدود الأسبوع الثاني أو الثالث من عدٍّ بدأ قبله بأسبوعين.",
         },
         {
-          en: "This is why a woman who learns she is pregnant is often told she is already four or five weeks along on the day she finds out. The pregnancy did not start four weeks ago. The counting did.",
-          ar: "ولهذا تُخبَر المرأة التي تكتشف حملها أنها في الأسبوع الرابع أو الخامس في اليوم نفسه الذي عرفت فيه. لم يبدأ الحمل قبل أربعة أسابيع، بل بدأ العدّ قبل أربعة أسابيع.",
+          en: "This is why you may be told you are four or five weeks pregnant on the very day you find out. The pregnancy did not start four weeks ago. The counting did.",
+          ar: "لهذا قد يقول لكِ الطبيب إنكِ في الأسبوع الرابع أو الخامس في اليوم نفسه الذي عرفتِ فيه. حملكِ لم يبدأ قبل أربعة أسابيع، بل العدّ هو الذي بدأ.",
         },
       ],
       cites: ["medlineplus-gestational-age"],
     },
     {
       heading: {
-        en: "What actually happens in these four weeks",
-        ar: "ما الذي يحدث فعلاً خلال هذه الأسابيع الأربعة",
+        en: "Symptoms in month 1 of pregnancy",
+        ar: "أعراض الحمل في الشهر الأول",
       },
       body: [
         {
-          en: "After fertilisation the cell cluster travels toward the uterus and embeds itself in the lining, which usually happens during the fourth week. Some women notice light spotting when it does. Many notice nothing.",
-          ar: "بعد الإخصاب تتّجه الكتلة الخلوية نحو الرحم وتنغرس في بطانته، وهو ما يحدث عادةً خلال الأسبوع الرابع. تلاحظ بعض النساء نزفاً خفيفاً حين يحدث ذلك، ولا تلاحظ كثيرات منهنّ شيئاً.",
+          en: "After fertilisation the cell cluster travels toward the uterus and embeds itself in the lining, usually during the fourth week. Some women notice light spotting. Many notice nothing.",
+          ar: "بعد الإخصاب تتّجه الكتلة الخلوية نحو الرحم وتنغرس في بطانته، وذلك عادةً خلال الأسبوع الرابع. بعض النساء يلاحظن نزفاً خفيفاً، وكثيرات لا يلاحظن شيئاً.",
         },
         {
-          en: "Home pregnancy tests detect a hormone the body only begins producing after implantation, which is why testing too early returns a negative result in a pregnancy that is genuinely there. A missed period is the usual signal to test.",
-          ar: "تكشف اختبارات الحمل المنزلية هرموناً لا يبدأ الجسم بإفرازه إلا بعد الانغراس، ولهذا يعطي الاختبار المبكر نتيجة سلبية رغم وجود حمل فعلي. وتأخّر الدورة هو الإشارة المعتادة لإجراء الاختبار.",
+          en: "Most symptoms this month are either absent or easy to mistake for an approaching period. The ones you are most likely to notice:",
+          ar: "معظم أعراض هذا الشهر إما غائبة أو يسهل الخلط بينها وبين اقتراب الدورة. وأكثر ما قد تلاحظينه:",
+        },
+      ],
+      bullets: [
+        { en: "A missed period, usually the first real sign", ar: "تأخّر الدورة، وهي أول علامة حقيقية عادةً" },
+        { en: "Tiredness that sleep does not fix", ar: "إرهاق لا ينفع معه النوم" },
+        { en: "Tender or heavier breasts", ar: "ألم في الثديين أو ثِقَل فيهما" },
+        { en: "Needing to urinate more often", ar: "الحاجة إلى التبوّل بصورة متكررة" },
+        { en: "Bloating, gas, or constipation", ar: "انتفاخ أو غازات أو إمساك" },
+        { en: "A shifting appetite, or a sharper sense of smell", ar: "تغيّر الشهية، أو حِدّة في حاسة الشم" },
+        { en: "Light spotting around week 4", ar: "نزف خفيف في حدود الأسبوع الرابع" },
+      ],
+      afterBullets: [
+        {
+          en: "Feeling none of these is common and does not mean anything is wrong. Symptom intensity is not a measure of how a pregnancy is going.",
+          ar: "ألّا تشعري بأيٍّ منها أمر شائع، ولا يعني أن هناك خطأ. شدّة الأعراض ليست مقياساً لسير الحمل.",
         },
         {
-          en: "Symptoms in this month are usually absent or easy to mistake for an approaching period. Tiredness, tender breasts and a shifting appetite all belong to both. Feeling nothing at all is common and means nothing is wrong.",
-          ar: "الأعراض في هذا الشهر غائبة عادةً أو يسهل الخلط بينها وبين اقتراب الدورة. فالإرهاق وألم الثديين وتغيّر الشهية أعراض مشتركة بين الحالتين. وعدم الشعور بأي عرض أمر شائع ولا يدلّ على وجود خلل.",
+          en: "A home test looks for a hormone your body only starts producing after implantation, so testing too early can read negative in a pregnancy that is genuinely there. A missed period is the usual signal to test.",
+          ar: "اختبار الحمل المنزلي يبحث عن هرمون لا يفرزه جسمكِ إلا بعد الانغراس، لذا قد يعطي الاختبار المبكر نتيجة سلبية رغم وجود حمل. تأخّر الدورة هو الوقت المناسب للاختبار.",
         },
       ],
       image: {
@@ -322,21 +359,21 @@ const month1: GuideMonth = {
     },
     {
       heading: {
-        en: "Folic acid is the part that cannot wait",
-        ar: "حمض الفوليك هو الأمر الذي لا يحتمل التأجيل",
+        en: "Folic acid in month 1 of pregnancy",
+        ar: "حمض الفوليك في الشهر الأول من الحمل",
       },
       body: [
         {
-          en: "The World Health Organization recommends that all women take 400 micrograms of folic acid daily from the moment they begin trying to conceive until 12 weeks of gestation. Women who have previously had a fetus with a neural tube defect are offered a much higher dose of 5 milligrams daily.",
-          ar: "توصي منظمة الصحة العالمية بأن تتناول كل امرأة ٤٠٠ ميكروغرام من حمض الفوليك يومياً منذ لحظة بدء محاولة الحمل وحتى الأسبوع الثاني عشر من الحمل. أما من سبق أن كان لديها جنين مصاب بعيب في الأنبوب العصبي فتُعطى جرعة أعلى بكثير تبلغ ٥ ملّيغرامات يومياً.",
+          en: "The World Health Organization recommends 400 micrograms of folic acid daily, from the moment you begin trying to conceive until 12 weeks of gestation. Women who have previously had a fetus with a neural tube defect are offered a much higher dose of 5 milligrams daily.",
+          ar: "توصي منظمة الصحة العالمية بتناول ٤٠٠ ميكروغرام من حمض الفوليك يومياً، منذ لحظة بدء محاولة الحمل وحتى الأسبوع الثاني عشر. أما من سبق أن كان لديها جنين مصاب بعيب في الأنبوب العصبي، فتُعطى جرعة أعلى بكثير تبلغ ٥ ملّيغرامات يومياً.",
         },
         {
-          en: "The timing is the point. The structures that folic acid protects form in the earliest weeks, often before a woman knows she is pregnant at all. That is the reason the recommendation starts before conception rather than at the first appointment.",
-          ar: "التوقيت هو جوهر المسألة. فالتراكيب التي يحميها حمض الفوليك تتكوّن في الأسابيع الأولى، وغالباً قبل أن تعرف المرأة أنها حامل. ولهذا تبدأ التوصية قبل حدوث الحمل لا عند أول موعد مع الطبيب.",
+          en: "The timing is the whole point. The structures folic acid protects form in the earliest weeks, often before you know you are pregnant. That is why the recommendation starts before conception, not at the first appointment.",
+          ar: "التوقيت هنا هو كل شيء. فالتراكيب التي يحميها حمض الفوليك تتكوّن في الأسابيع الأولى، وغالباً قبل أن تعرفي أنكِ حامل. لهذا تبدأ التوصية قبل الحمل، لا عند أول موعد مع الطبيب.",
         },
         {
-          en: "A woman who reads this after her positive test has not missed her chance. The recommendation runs through week 12, and starting late is better than not starting.",
-          ar: "ومن تقرأ هذا بعد ظهور نتيجة الاختبار الإيجابية لم تفقد الفرصة. فالتوصية تمتدّ حتى الأسبوع الثاني عشر، والبدء متأخراً أفضل من عدم البدء.",
+          en: "If you are reading this after a positive test, you have not missed your chance. The recommendation runs through week 12, and starting late is better than not starting.",
+          ar: "وإن كنتِ تقرأين هذا بعد نتيجة إيجابية، فأنتِ لم تفوّتي الفرصة. التوصية تمتدّ حتى الأسبوع الثاني عشر، والبدء متأخرة أفضل من عدم البدء.",
         },
       ],
       cites: ["who-folic-acid"],
@@ -355,17 +392,17 @@ const month1: GuideMonth = {
     },
     {
       heading: {
-        en: "Booking the first appointment",
-        ar: "حجز أول موعد",
+        en: "The first doctor's appointment",
+        ar: "موعد الطبيب الأول ومتابعة الحمل",
       },
       body: [
         {
-          en: "ACOG advises beginning prenatal care in the first trimester, ideally before 10 weeks. Booking usually takes longer than expected, so the appointment is worth arranging on the day of a positive test rather than in the week after it.",
-          ar: "توصي الكلية الأمريكية لأطباء النساء والولادة ببدء متابعة الحمل في الثلث الأول، ويُفضَّل قبل الأسبوع العاشر. وغالباً ما يستغرق الحجز وقتاً أطول من المتوقع، لذا يُستحسن ترتيب الموعد يوم ظهور النتيجة الإيجابية لا في الأسبوع الذي يليه.",
+          en: "ACOG advises starting prenatal care in the first trimester, ideally before 10 weeks. Booking usually takes longer than you expect, so arrange it on the day of a positive test rather than the week after.",
+          ar: "توصي الكلية الأمريكية لأطباء النساء والولادة ببدء متابعة الحمل في الثلث الأول، ويُفضَّل قبل الأسبوع العاشر. الحجز عادةً يستغرق وقتاً أطول ممّا تتوقعين، لذا رتّبي الموعد يوم ظهور النتيجة الإيجابية، لا في الأسبوع الذي يليه.",
         },
         {
-          en: "The number of visits has changed recently. ACOG's 2025 clinical consensus moved away from the fixed twelve-to-fourteen visit schedule toward a plan tailored to the individual, citing equivalent outcomes with six to ten visits in average-risk pregnancies. A doctor proposing fewer appointments than an older relative remembers is following current guidance.",
-          ar: "وقد تغيّر عدد الزيارات مؤخراً. فقد ابتعد التوافق السريري للكلية الأمريكية لعام ٢٠٢٥ عن جدول الاثنتي عشرة إلى الأربع عشرة زيارة الثابت نحو خطة مُفصَّلة على حالة كل امرأة، مستنداً إلى تكافؤ النتائج مع ست إلى عشر زيارات في الحمل متوسط الخطورة. فالطبيب الذي يقترح مواعيد أقلّ ممّا تتذكره قريبة أكبر سنّاً إنما يتّبع الإرشادات الحالية.",
+          en: "The number of visits has changed recently. ACOG's 2025 clinical consensus moved away from the fixed twelve-to-fourteen visit schedule toward a plan tailored to you, citing equivalent outcomes with six to ten visits in average-risk pregnancies. If your doctor suggests fewer appointments than your mother had, that is current practice, not neglect.",
+          ar: "عدد الزيارات تغيّر مؤخراً. فقد ابتعد التوافق السريري للكلية الأمريكية لعام ٢٠٢٥ عن جدول الاثنتي عشرة إلى الأربع عشرة زيارة الثابت، نحو خطة مُفصَّلة على حالتكِ، استناداً إلى تكافؤ النتائج مع ست إلى عشر زيارات في الحمل متوسط الخطورة. فإن اقترح طبيبكِ مواعيد أقلّ ممّا كان لدى والدتكِ، فهذا هو المعمول به اليوم، وليس إهمالاً.",
         },
       ],
       cites: ["acog-prenatal-care", "acog-tailored-2025"],

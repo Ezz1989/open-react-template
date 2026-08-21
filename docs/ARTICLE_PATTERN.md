@@ -57,6 +57,60 @@ source of Arabic keyword data available here.
 
 ---
 
+## 2a · Tone: what the Arabic market actually does
+
+Researched 2026-08-21 against the two sites that own these queries.
+
+**WebTeb (`baby.webteb.com`)** — clinical and impersonal. Third person
+throughout ("يجب ان تحتوي تغذية المراة"), long sentences of 15 to 20+ words,
+pure MSA, roughly **60% bullet lists**. Headings are bare noun phrases.
+
+**SuperMama (`supermama.me`)** — warm, and it is the bigger consumer brand.
+Second-person feminine everywhere, with the ـكِ suffix running through the
+whole article. It opens by addressing the reader emotionally before giving any
+information: *"بمجرد معرفتك بخبر الحمل، يتملككِ الشوق لمعرفة كل ما يحدث
+لجنينكِ"*. Mixes lists and paragraphs.
+
+### The thing both do, and the first draft here did not
+
+**Headings are noun phrases that repeat the search term.**
+
+- `أعراض الحمل في الشهر الأول`
+- `شكل الجنين في الشهر الأول من الحمل`
+- `اسابيع الحمل في الشهر الأول`
+
+Never a question, never a statement. The month phrase is repeated in almost
+every heading because that is what people type.
+
+The first draft of month 1 used literary sentences instead:
+`لماذا يبدأ العدّ قبل حدوث الحمل`, `حمض الفوليك هو الأمر الذي لا يحتمل التأجيل`.
+Nicer prose, worse article. Those match no query, and a reader scanning for
+"أعراض" finds nothing to lock onto. They were rewritten to
+`حساب أسابيع الحمل في الشهر الأول` and `حمض الفوليك في الشهر الأول من الحمل`.
+
+### The correction this forces
+
+**Warm is not the same as dialect.** The first draft treated "MSA only" as a
+licence to be formal and impersonal, and the result read like a textbook.
+SuperMama is entirely MSA and still sounds like a friend, because warmth in
+Arabic comes from **who you are speaking to**, not from dialect vocabulary.
+
+So the rule stays MSA, and the register changes:
+
+| Do | Not |
+|---|---|
+| `يُحسب عمر حملكِ` | `يُحسب عمر الحمل` |
+| `قد يقول لكِ الطبيب` | `تُخبَر المرأة` |
+| `ما قد تلاحظينه` | `ما تلاحظه المرأة` |
+| Open by addressing her: `عرفتِ للتوّ` | Open with an abstraction |
+| Symptoms as a bulleted list | Symptoms buried in a paragraph |
+| Sentences of 8 to 15 words | Sentences of 25+ |
+
+Second-person feminine is correct for the article body. The father is served by
+the app's father mode, not by making the prose genderless and cold.
+
+---
+
 ## 2 · Language: MSA only
 
 The app ships `app_ar`, `app_ar_EG`, `app_ar_SA`, `app_ar_AE`. Dialect belongs

@@ -245,6 +245,16 @@ export default async function GuideMonthPage({
               {s.body.map((p, j) => (
                 <p key={j}>{p[locale]}</p>
               ))}
+              {s.bullets && s.bullets.length > 0 && (
+                <ul className="g-list">
+                  {s.bullets.map((b, j) => (
+                    <li key={j}>{b[locale]}</li>
+                  ))}
+                </ul>
+              )}
+              {s.afterBullets?.map((p, j) => (
+                <p key={`a${j}`}>{p[locale]}</p>
+              ))}
               {s.cites && s.cites.length > 0 && (
                 <p className="g-cites">
                   {locale === "ar" ? "المصدر: " : "Source: "}
@@ -343,7 +353,21 @@ export default async function GuideMonthPage({
         }
         .g-byline-role { display: block; margin-top: 6px; color: var(--fg-soft); }
 
-        .g-figure { margin: 32px 0; }
+        /* globals.css carries "section { padding: clamp(80px, 12vw, 160px) 0 }"
+           for the marketing page's full-bleed bands. Every <section> in this
+           article inherited it, which put 160px of dead space above every
+           heading on desktop and 80px on mobile. .g-flags and .g-cta happened
+           to escape because they set their own padding; .g-section and
+           .g-sources did not.
+
+           Reset here rather than in globals.css, which the homepage still
+           needs. Scoped to these two classes and NOT written as
+           ".g-wrap section": that selector is specificity (0,1,1) and would
+           beat .g-flags and .g-cta at (0,1,0), stripping the padding those
+           two depend on. */
+        .g-section, .g-sources { padding: 0; }
+
+        .g-figure { margin: 20px 0; }
         .g-figure img {
           width: 100%; height: auto; border-radius: var(--radius-md);
         }
@@ -352,9 +376,13 @@ export default async function GuideMonthPage({
         }
         .g-figure figcaption a { text-decoration: underline; }
 
-        .g-section { margin-top: 40px; }
+        .g-section { margin-top: 28px; }
         .g-section h2 { font-family: var(--font-display); font-size: 30px; font-weight: 400; margin-bottom: 14px; }
         .g-section p { margin-bottom: 16px; line-height: 1.75; }
+        /* list-style restated because Tailwind preflight zeroes it. */
+        .g-list { margin: 0 0 16px; padding-inline-start: 20px; list-style: disc; }
+        .g-list li { margin-bottom: 8px; line-height: 1.7; }
+
         .g-cites { font-size: 13px; color: var(--fg-soft); }
         .g-cites a { text-decoration: underline; }
 

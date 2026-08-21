@@ -5,8 +5,21 @@ export const content = {
       journey: "Journey",
       nawal: "Nawal",
       names: "Names",
+      guide: "Guide",
       mother: "Mother",
       father: "Father",
+    },
+
+    // Sits between the hero and the feature grid. The guide is the only part
+    // of this site a search engine can rank, so the homepage has to hand it
+    // real link equity rather than burying it in the footer.
+    guidePromo: {
+      eyebrow: "Free to read, no app needed",
+      headlineA: "Nine months,",
+      headlineB: "nine guides.",
+      sub: "What changes each month, what counts as normal, and when to call a doctor. Written from WHO and ACOG guidance, with every source linked.",
+      cta: "Read the pregnancy guide",
+      note: "Month 1 is live. The rest are on the way.",
     },
 
     hero: {
@@ -332,8 +345,18 @@ export const content = {
       journey: "الرحلة",
       nawal: "نوال",
       names: "الأسماء",
+      guide: "الدليل",
       mother: "الأم",
       father: "الأب",
+    },
+
+    guidePromo: {
+      eyebrow: "اقرأيه مجاناً، بدون تطبيق",
+      headlineA: "تسعة أشهر،",
+      headlineB: "تسعة أدلة.",
+      sub: "ما الذي يتغيّر كل شهر، وما الطبيعي، ومتى تتصلين بالطبيب. مكتوب من إرشادات منظمة الصحة العالمية والكلية الأمريكية لأطباء النساء، وكل مصدر مذكور برابطه.",
+      cta: "اقرأي دليل الحمل",
+      note: "الشهر الأول متاح الآن، والبقية في الطريق.",
     },
 
     hero: {
