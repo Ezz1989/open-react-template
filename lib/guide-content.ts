@@ -545,7 +545,527 @@ const month1: GuideMonth = {
 
 /* ────────────────────────────────────────────────────────────────────────── */
 
-export const GUIDE_MONTHS: GuideMonth[] = [month1];
+/**
+ * Month 2 — the nausea month.
+ *
+ * "أعراض الحمل في الشهر الثاني" is the query this article exists for, so it is
+ * a heading rather than a buried paragraph, and the symptoms are a list
+ * because that is how they get read.
+ *
+ * Sources are NHS and MedlinePlus rather than ACOG. ACOG returns HTTP 402 to
+ * every automated fetch, so its pages cannot be opened and checked the way
+ * §5 of ARTICLE_PATTERN.md requires.
+ */
+const month2: GuideMonth = {
+  month: 2,
+  weeks: [5, 8],
+  trimester: 1,
+  hero: {
+    src: "/guide/month-2-hero.jpg",
+    alt: {
+      en: "Fresh ginger root on a deep red plate against white marble.",
+      ar: "جذور زنجبيل طازجة في طبق أحمر على رخام أبيض.",
+    },
+    photographer: "Kaboompics",
+    photographerUrl: "https://www.pexels.com/@karola-g",
+    pexelsUrl: "https://www.pexels.com/photo/close-up-shot-of-a-ginger-on-the-plate-5202108/",
+    width: 4633,
+    height: 3089,
+  },
+  published: true,
+
+  title: {
+    en: "Month 2 of pregnancy: weeks 5 to 8",
+    ar: "الشهر الثاني من الحمل: الأسابيع ٥ إلى ٨",
+  },
+  metaTitle: {
+    en: "Month 2 of Pregnancy (Weeks 5-8): Symptoms and Morning Sickness | Nawah",
+    ar: "الشهر الثاني من الحمل (الأسبوع ٥–٨): الأعراض والغثيان | نواة",
+  },
+  description: {
+    en: "Weeks 5 to 8, the month most symptoms arrive. Nausea, exhaustion, the baby's heartbeat, and the signs that mean call a doctor now.",
+    ar: "من الأسبوع الخامس إلى الثامن، الشهر الذي تبدأ فيه معظم الأعراض. الغثيان والإرهاق ونبض الجنين، والعلامات التي تستدعي الطبيب فوراً.",
+  },
+  standfirst: {
+    en: "This is usually the month pregnancy stops being an idea and starts being something you feel all day. Most of what arrives now is normal, a few things are not, and knowing which is which is most of what you need.",
+    ar: "هذا عادةً هو الشهر الذي يتوقف فيه الحمل عن كونه فكرة ويصبح شيئاً تشعرين به طوال اليوم. معظم ما يأتي الآن طبيعي، وقليل منه ليس كذلك، ومعرفة الفرق هي أهم ما تحتاجينه.",
+  },
+
+  sections: [
+    {
+      heading: {
+        en: "Symptoms in month 2 of pregnancy",
+        ar: "أعراض الحمل في الشهر الثاني",
+      },
+      body: [
+        {
+          en: "Hormones rise steeply through these four weeks, and most women notice it. What you are most likely to feel:",
+          ar: "ترتفع الهرمونات بسرعة خلال هذه الأسابيع الأربعة، ومعظم النساء يشعرن بذلك. وأكثر ما قد تشعرين به:",
+        },
+      ],
+      bullets: [
+        { en: "Nausea, with or without vomiting", ar: "غثيان، مع قيء أو بدونه" },
+        { en: "Exhaustion that sleep does not fix", ar: "إرهاق لا ينفع معه النوم" },
+        { en: "Sore, swollen or heavier breasts", ar: "ألم أو تورّم أو ثِقَل في الثديين" },
+        { en: "A sense of smell that has turned against you", ar: "حاسة شمّ صارت ضدّكِ" },
+        { en: "Going to the bathroom far more often", ar: "الذهاب إلى الحمّام أكثر بكثير" },
+        { en: "Food you loved last month now unbearable", ar: "طعام كنتِ تحبّينه صار لا يُحتمل" },
+        { en: "Mood swinging without an obvious reason", ar: "تقلّب المزاج دون سبب واضح" },
+        { en: "Mild cramping, similar to period pain", ar: "مغص خفيف يشبه ألم الدورة" },
+      ],
+      afterBullets: [
+        {
+          en: "Mild cramping alone is common as the uterus grows. Cramping with bleeding is not, and belongs in the list further down.",
+          ar: "المغص الخفيف وحده شائع مع تمدّد الرحم. أما المغص مع نزيف فليس كذلك، وهو مذكور في القائمة أدناه.",
+        },
+      ],
+    },
+    {
+      heading: {
+        en: "Morning sickness in month 2",
+        ar: "غثيان الحمل في الشهر الثاني",
+      },
+      body: [
+        {
+          en: "The name is misleading. The NHS puts it plainly: it \"can affect you at any time of the day or night or you may feel sick all day long.\" Plenty of women find evenings worse.",
+          ar: "الاسم مضلّل. تقول هيئة الخدمات الصحية البريطانية بوضوح إنه «قد يصيبكِ في أي وقت من النهار أو الليل، وقد تشعرين بالغثيان طوال اليوم». وكثيرات يجدن المساء أسوأ.",
+        },
+        {
+          en: "It usually clears up by weeks 16 to 20. That is a long way off when you are in week 6, and saying so honestly is more useful than pretending it passes quickly.",
+          ar: "وينتهي عادةً مع الأسبوع السادس عشر إلى العشرين. هذه مدة طويلة وأنتِ في الأسبوع السادس، وقول ذلك بصراحة أنفع من التظاهر بأنه يزول سريعاً.",
+        },
+        {
+          en: "What tends to help: eating small amounts often rather than full meals, keeping something plain within reach for the morning before you sit up, and drinking in small sips through the day rather than a glass at once.",
+          ar: "ما يساعد عادةً: تناول كميات صغيرة على فترات متقاربة بدل الوجبات الكاملة، وإبقاء شيء خفيف في متناول يدكِ لتأكليه قبل النهوض من السرير، وشرب الماء برشفات صغيرة على مدار اليوم بدل كوب دفعة واحدة.",
+        },
+        {
+          en: "Feeling no nausea at all is also normal and is not a sign that anything is wrong.",
+          ar: "وألّا تشعري بالغثيان إطلاقاً أمر طبيعي كذلك، وليس علامة على وجود خطأ.",
+        },
+      ],
+      cites: ["nhs-morning-sickness"],
+      image: {
+        src: "/guide/month-2-rest.jpg",
+        alt: {
+          en: "White bed linen and pillows in soft daylight.",
+          ar: "أغطية سرير ووسائد بيضاء في ضوء نهار هادئ.",
+        },
+        photographer: "Castorly Stock",
+        photographerUrl: "https://www.pexels.com/@castorlystock",
+        pexelsUrl: "https://www.pexels.com/photo/white-bed-with-pillows-3755590/",
+        width: 6000,
+        height: 4000,
+      },
+    },
+    {
+      heading: {
+        en: "The baby in month 2",
+        ar: "تطور الجنين في الشهر الثاني",
+      },
+      body: [
+        {
+          en: "This is the month the heart starts working. By weeks 6 to 7 it \"continues to grow and now beats at a regular rhythm.\" By week 8, hands and feet \"begin to form and look like little paddles.\"",
+          ar: "هذا هو الشهر الذي يبدأ فيه القلب بالعمل. ففي الأسبوعين السادس والسابع «يستمر القلب في النمو وينبض بإيقاع منتظم». ومع الأسبوع الثامن «تبدأ اليدان والقدمان بالتكوّن وتبدوان كمجدافين صغيرين».",
+        },
+        {
+          en: "A heartbeat may be visible on an early ultrasound, though not always, and timing varies with equipment and with your dates. Fetal heart tones are detectable by Doppler around week 10, so not hearing one yet at week 7 says nothing on its own.",
+          ar: "قد يظهر النبض في سونار مبكر، وليس دائماً، والتوقيت يختلف باختلاف الجهاز وباختلاف تاريخ حملكِ. أما سماع النبض بجهاز الدوبلر فيكون في حدود الأسبوع العاشر، لذا فعدم سماعه في الأسبوع السابع لا يعني شيئاً بحدّ ذاته.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+  ],
+
+  redFlags: {
+    intro: {
+      en: "Nausea is expected this month. These are the signs that it has stopped being ordinary, or that something else needs attention. Contact a doctor rather than waiting.",
+      ar: "الغثيان متوقّع هذا الشهر. وهذه هي العلامات التي تدلّ على أنه تجاوز الحدّ الطبيعي، أو أن هناك أمراً آخر يحتاج انتباهاً. تواصلي مع طبيب ولا تنتظري.",
+    },
+    items: [
+      {
+        en: "You cannot keep food or fluids down for 24 hours",
+        ar: "عدم القدرة على الاحتفاظ بالطعام أو السوائل لمدة ٢٤ ساعة",
+      },
+      {
+        en: "Very dark urine, or you have not passed urine in more than 8 hours",
+        ar: "بول داكن جداً، أو عدم التبوّل لأكثر من ٨ ساعات",
+      },
+      {
+        en: "You feel very weak, dizzy or faint when standing up",
+        ar: "شعور بضعف شديد أو دوخة أو إغماء عند الوقوف",
+      },
+      { en: "You are vomiting blood", ar: "قيء مصحوب بدم" },
+      { en: "You are losing weight", ar: "نقصان في الوزن" },
+      { en: "A high temperature", ar: "ارتفاع في درجة الحرارة" },
+      {
+        en: "Vaginal bleeding, or sharp pain on one side of the lower abdomen",
+        ar: "نزيف مهبلي، أو ألم حادّ في جهة واحدة من أسفل البطن",
+      },
+    ],
+    cites: ["nhs-morning-sickness"],
+  },
+
+  faqs: [
+    {
+      q: {
+        en: "When can the baby's heartbeat be seen or heard?",
+        ar: "متى يظهر نبض الجنين؟",
+      },
+      a: {
+        en: "The heart is beating at a regular rhythm by weeks 6 to 7, and heart tones are detectable by Doppler around week 10. Whether it shows on your particular scan depends on your dates and the equipment, so an early scan that does not show one is not a verdict.",
+        ar: "ينبض القلب بإيقاع منتظم في الأسبوعين السادس والسابع، ويمكن التقاط النبض بجهاز الدوبلر في حدود الأسبوع العاشر. أما ظهوره في السونار عندكِ فيعتمد على تاريخ حملكِ وعلى الجهاز، لذا فسونار مبكر لا يُظهر النبض ليس حُكماً نهائياً.",
+      },
+      cites: ["medlineplus-fetal-development"],
+    },
+    {
+      q: {
+        en: "My nausea is severe. When does it stop being normal?",
+        ar: "غثياني شديد. متى يتوقف عن كونه طبيعياً؟",
+      },
+      a: {
+        en: "When you cannot keep fluids down for a day, when you are losing weight, or when you are passing very little urine. That severe form can lead to dehydration and sometimes needs hospital treatment, so it is worth calling early rather than enduring it.",
+        ar: "حين لا تستطيعين الاحتفاظ بالسوائل ليوم كامل، أو حين ينقص وزنكِ، أو حين يقلّ التبوّل كثيراً. هذه الصورة الشديدة قد تؤدي إلى الجفاف وتحتاج أحياناً إلى علاج في المستشفى، لذا الاتصال مبكراً أفضل من التحمّل.",
+      },
+      cites: ["nhs-morning-sickness"],
+    },
+    {
+      q: {
+        en: "I have no symptoms at all. Should I worry?",
+        ar: "لا أشعر بأي أعراض. هل أقلق؟",
+      },
+      a: {
+        en: "No. Symptom intensity varies enormously between women and between pregnancies, and having none is within the normal range. It is not a measure of how the pregnancy is going.",
+        ar: "لا. تختلف شدّة الأعراض اختلافاً كبيراً بين امرأة وأخرى وبين حمل وآخر، وعدم وجودها يقع ضمن الطبيعي. وهي ليست مقياساً لسير الحمل.",
+      },
+    },
+    {
+      q: {
+        en: "Why am I this tired?",
+        ar: "لماذا أشعر بهذا الإرهاق؟",
+      },
+      a: {
+        en: "Because your body is building an entire organ, the placenta, at the same time as everything else it normally does. The tiredness of the first trimester is not ordinary tiredness and usually does not respond to sleeping more. It commonly eases in the second trimester.",
+        ar: "لأن جسمكِ يبني عضواً كاملاً هو المشيمة، في الوقت نفسه الذي يقوم فيه بكل ما يفعله عادةً. إرهاق الثلث الأول ليس تعباً عادياً، وغالباً لا ينفع معه النوم أكثر. وهو يخفّ عادةً في الثلث الثاني.",
+      },
+    },
+  ],
+
+  cta: {
+    headline: {
+      en: "Your doctor will ask how bad it has been. Have an answer",
+      ar: "سيسألكِ الطبيب كم كان الأمر سيئاً. اجعلي لديكِ إجابة",
+    },
+    body: {
+      en: "Nawah logs symptoms and severity by day, so \"it was bad, I think Tuesday?\" becomes a record your doctor can read in ten seconds. It also carries the appointment schedule, and Nawal is awake when the questions arrive at 3 a.m. Arabic and English, free.",
+      ar: "تسجّل نواة الأعراض وشدّتها يوماً بيوم، فتتحوّل «كان سيئاً، أظن يوم الثلاثاء؟» إلى سجلّ يقرأه طبيبكِ في عشر ثوانٍ. وتضمّ كذلك جدول المواعيد، ونوال مستيقظة حين تأتي الأسئلة في الثالثة فجراً. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: {
+      en: "Get Nawah on Google Play",
+      ar: "حمّلي نواة من جوجل بلاي",
+    },
+  },
+
+  citations: [
+    {
+      id: "nhs-morning-sickness",
+      org: "NHS",
+      title: {
+        en: "Vomiting and morning sickness",
+        ar: "القيء وغثيان الحمل",
+      },
+      url: "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/vomiting-and-morning-sickness/",
+      retrieved: "2026-08-21",
+    },
+    {
+      id: "medlineplus-fetal-development",
+      org: "MedlinePlus, U.S. National Library of Medicine",
+      title: { en: "Fetal development", ar: "تطوّر الجنين" },
+      url: "https://medlineplus.gov/ency/article/002398.htm",
+      retrieved: "2026-08-21",
+    },
+  ],
+
+  updated: "2026-08-21",
+};
+
+/**
+ * Month 3 — the end of the first trimester.
+ *
+ * Carries the dating scan, which is the concrete thing a reader in this month
+ * is searching for, and the point where the WHO folic acid recommendation
+ * ends. The miscarriage line is tied to heartbeat detection rather than to
+ * week 12, because that is what the cited source actually says.
+ */
+const month3: GuideMonth = {
+  month: 3,
+  weeks: [9, 12],
+  trimester: 1,
+  hero: {
+    src: "/guide/month-3-hero.jpg",
+    alt: {
+      en: "Warm daylight coming through a sheer curtain.",
+      ar: "ضوء نهار دافئ يتسلّل من ستارة شفافة.",
+    },
+    photographer: "Pexels contributor",
+    photographerUrl: "https://www.pexels.com/@pexels-user-176206548",
+    pexelsUrl: "https://www.pexels.com/photo/low-angle-shot-of-a-curtain-11111717/",
+    width: 4032,
+    height: 3024,
+  },
+  published: true,
+
+  title: {
+    en: "Month 3 of pregnancy: weeks 9 to 12",
+    ar: "الشهر الثالث من الحمل: الأسابيع ٩ إلى ١٢",
+  },
+  metaTitle: {
+    en: "Month 3 of Pregnancy (Weeks 9-12): The 12-Week Scan | Nawah",
+    ar: "الشهر الثالث من الحمل (الأسبوع ٩–١٢): سونار الأسبوع الثاني عشر | نواة",
+  },
+  description: {
+    en: "Weeks 9 to 12: the end of the first trimester. The dating scan, nausea starting to ease, folic acid ending, and what the numbers actually mean.",
+    ar: "من الأسبوع التاسع إلى الثاني عشر: نهاية الثلث الأول. سونار تحديد الموعد، وبداية انحسار الغثيان، ونهاية حمض الفوليك، وما تعنيه الأرقام فعلاً.",
+  },
+  standfirst: {
+    en: "The third month closes the hardest stretch of the first trimester. The scan that dates your pregnancy happens now, and for many women the nausea finally starts to loosen its grip.",
+    ar: "الشهر الثالث يُنهي أصعب فترات الثلث الأول. السونار الذي يحدّد موعد ولادتكِ يكون الآن، وعند كثيرات يبدأ الغثيان أخيراً في التراجع.",
+  },
+
+  sections: [
+    {
+      heading: {
+        en: "Symptoms in month 3 of pregnancy",
+        ar: "أعراض الحمل في الشهر الثالث",
+      },
+      body: [
+        {
+          en: "Most of month 2 is still with you at the start of this month, and much of it begins to ease by the end. What you are likely to notice:",
+          ar: "معظم ما كان في الشهر الثاني ما زال معكِ في بدايته، وكثير منه يبدأ بالخفّة قرب نهايته. وأكثر ما قد تلاحظينه:",
+        },
+      ],
+      bullets: [
+        { en: "Nausea, often at its peak then starting to fade", ar: "غثيان يبلغ ذروته ثم يبدأ بالانحسار" },
+        { en: "Tiredness still heavy, but lifting for some", ar: "إرهاق ما زال ثقيلاً، لكنه يخفّ عند بعض النساء" },
+        { en: "Waistbands getting tight before anything shows", ar: "ضيق الملابس عند الخصر قبل أن يظهر البطن" },
+        { en: "Visible veins across the chest", ar: "ظهور عروق واضحة في منطقة الصدر" },
+        { en: "Headaches, often from dehydration", ar: "صداع، غالباً بسبب قلّة السوائل" },
+        { en: "Mild cramping as the uterus grows", ar: "مغص خفيف مع تمدّد الرحم" },
+      ],
+      afterBullets: [
+        {
+          en: "Not showing yet is normal, particularly in a first pregnancy, and says nothing about the baby's size.",
+          ar: "عدم ظهور البطن بعد أمر طبيعي، خاصةً في الحمل الأول، ولا يدلّ على حجم الجنين.",
+        },
+      ],
+    },
+    {
+      heading: {
+        en: "The 12-week scan",
+        ar: "سونار الأسبوع الثاني عشر",
+      },
+      body: [
+        {
+          en: "In England this scan is offered \"at around 10 to 14 weeks of pregnancy.\" Local practice differs, but the window is broadly the same, and it is the appointment that sets your due date.",
+          ar: "يُقدَّم هذا السونار في إنجلترا «في حدود الأسبوع العاشر إلى الرابع عشر من الحمل». والممارسة تختلف من بلد لآخر، لكن الفترة متقاربة، وهو الموعد الذي يُحدَّد فيه تاريخ ولادتكِ.",
+        },
+        {
+          en: "The NHS lists what it checks: \"how many weeks pregnant you are and work out your due date,\" \"whether you're expecting more than 1 baby,\" \"that the baby is growing in the right place,\" and \"your baby's development.\"",
+          ar: "وتذكر الهيئة ما يتحقّق منه: «في أي أسبوع أنتِ وتحديد موعد الولادة»، و«ما إذا كنتِ تحملين أكثر من جنين»، و«أن الجنين ينمو في المكان الصحيح»، و«تطوّر الجنين».",
+        },
+        {
+          en: "You may also be offered screening in the same visit. The combined test pairs a blood test with a measurement of the fluid at the back of the baby's neck, called nuchal translucency. It is offered, not required, and the choice is yours.",
+          ar: "وقد يُعرض عليكِ فحص في الزيارة نفسها. الفحص المشترك يجمع بين تحليل دم وقياس السائل خلف رقبة الجنين، ويُسمّى الشفافية القفوية. وهو يُعرض ولا يُفرض، والقرار قراركِ.",
+        },
+        {
+          en: "This scan sets the dates your whole pregnancy is measured against, so it is worth booking rather than assuming it will be arranged for you.",
+          ar: "هذا السونار يضبط التواريخ التي يُقاس عليها حملكِ كله، لذا يستحقّ أن تحجزيه بنفسكِ لا أن تفترضي أنه سيُرتَّب تلقائياً.",
+        },
+      ],
+      cites: ["nhs-12-week-scan"],
+      image: {
+        src: "/guide/month-3-detail.jpg",
+        alt: {
+          en: "Dried flowers against a soft neutral background.",
+          ar: "زهور مجفّفة أمام خلفية هادئة بلون محايد.",
+        },
+        photographer: "Johnny Ng",
+        photographerUrl: "https://www.pexels.com/@johnny-ng-74121137",
+        pexelsUrl: "https://www.pexels.com/photo/dried-flowers-in-tilt-shift-lens-9055006/",
+        width: 6016,
+        height: 4016,
+      },
+    },
+    {
+      heading: {
+        en: "The baby in month 3",
+        ar: "تطور الجنين في الشهر الثالث",
+      },
+      body: [
+        {
+          en: "By week 9, \"all of your baby's essential organs have begun to grow,\" and the toes can be seen. Between weeks 11 and 14, nails appear on the fingers and toes.",
+          ar: "مع الأسبوع التاسع «تكون كل أعضاء الجنين الأساسية قد بدأت في النمو»، وتظهر أصابع القدمين. وبين الأسبوعين الحادي عشر والرابع عشر تظهر الأظافر على أصابع اليدين والقدمين.",
+        },
+        {
+          en: "Formed is not the same as finished. The organs go on developing for the rest of the pregnancy. What changes this month is that the period in which they were being built for the first time is behind you.",
+          ar: "والتكوّن ليس اكتمالاً. فالأعضاء تواصل نموّها بقية فترة الحمل. ما يتغيّر هذا الشهر أن مرحلة تكوّنها الأولى صارت خلفكِ.",
+        },
+      ],
+      cites: ["medlineplus-fetal-development"],
+    },
+    {
+      heading: {
+        en: "The end of the first trimester",
+        ar: "نهاية الثلث الأول",
+      },
+      body: [
+        {
+          en: "Two things change at week 12, and it is worth being precise about both.",
+          ar: "أمران يتغيّران مع الأسبوع الثاني عشر، ويستحقّان الدقة.",
+        },
+        {
+          en: "Folic acid. The World Health Organization's recommendation of 400 micrograms daily runs \"until 12 weeks of gestation.\" Ask your doctor what to continue, because a prenatal vitamin usually carries other things you still need.",
+          ar: "حمض الفوليك: توصية منظمة الصحة العالمية بـ ٤٠٠ ميكروغرام يومياً تمتدّ «حتى الأسبوع الثاني عشر من الحمل». اسألي طبيبكِ عمّا تواصلين تناوله، فمكمّلات الحمل تحتوي عادةً على عناصر أخرى ما زلتِ تحتاجينها.",
+        },
+        {
+          en: "Risk. Most miscarriages \"occur during the first 7 weeks of pregnancy,\" and the rate \"drops after the fetus's heartbeat is detected.\" So the reassurance is real, but it is tied to a confirmed heartbeat rather than to the number 12 on a calendar.",
+          ar: "والاحتمال: معظم حالات الإجهاض «تحدث خلال الأسابيع السبعة الأولى من الحمل»، ومعدّلها «ينخفض بعد الكشف عن نبض الجنين». فالطمأنينة حقيقية، لكنها مرتبطة بنبض مؤكَّد لا برقم اثني عشر على التقويم.",
+        },
+      ],
+      cites: ["who-folic-acid", "medlineplus-miscarriage"],
+    },
+  ],
+
+  redFlags: {
+    intro: {
+      en: "Contact a doctor or go to a hospital if any of these happen, whatever week you are in.",
+      ar: "تواصلي مع طبيب أو توجّهي إلى المستشفى إذا حدث أيٌّ من هذه، في أي أسبوع كنتِ.",
+    },
+    items: [
+      {
+        en: "Vaginal bleeding, especially with cramping",
+        ar: "نزيف مهبلي، خاصةً مع مغص",
+      },
+      {
+        en: "Severe abdominal pain, or pain on one side",
+        ar: "ألم شديد في البطن، أو ألم في جهة واحدة",
+      },
+      {
+        en: "Fluid leaking from the vagina",
+        ar: "تسرّب سائل من المهبل",
+      },
+      {
+        en: "A high temperature, or pain and burning when passing urine",
+        ar: "ارتفاع في الحرارة، أو ألم وحرقان عند التبوّل",
+      },
+      {
+        en: "Fainting, or dizziness that does not pass on sitting down",
+        ar: "إغماء، أو دوخة لا تزول عند الجلوس",
+      },
+      {
+        en: "Vomiting so persistent you cannot keep fluids down",
+        ar: "قيء متواصل يمنعكِ من الاحتفاظ بالسوائل",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      q: {
+        en: "When should I tell people?",
+        ar: "متى أخبر الناس بالحمل؟",
+      },
+      a: {
+        en: "There is no medical rule, only a convention built around risk falling after the early weeks. Some people tell everyone early precisely so they will have support if something goes wrong. Both are reasonable. It is your news.",
+        ar: "لا توجد قاعدة طبية، بل عُرف نشأ حول انخفاض الاحتمال بعد الأسابيع الأولى. بعض النساء يخبرن الجميع مبكراً تحديداً كي يجدن سنداً إن حدث شيء. وكلا الخيارين معقول. الخبر خبركِ.",
+      },
+    },
+    {
+      q: {
+        en: "My nausea stopped suddenly. Is that a bad sign?",
+        ar: "توقف الغثيان فجأة. هل هذه علامة سيئة؟",
+      },
+      a: {
+        en: "Usually not. This is the month it commonly eases, and it can ease quickly. But symptoms disappearing is worth mentioning to your doctor rather than sitting with, particularly alongside bleeding or cramping.",
+        ar: "غالباً لا. هذا هو الشهر الذي يخفّ فيه عادةً، وقد يخفّ بسرعة. لكن اختفاء الأعراض يستحقّ أن تذكريه لطبيبكِ بدل الجلوس معه، خاصةً إذا صاحبه نزيف أو مغص.",
+      },
+    },
+    {
+      q: {
+        en: "Do I stop folic acid after week 12?",
+        ar: "هل أتوقف عن حمض الفوليك بعد الأسبوع الثاني عشر؟",
+      },
+      a: {
+        en: "The WHO recommendation for folic acid specifically runs until 12 weeks. That is not the same as stopping your prenatal vitamin, which usually contains iron and other things you still need. Ask your doctor what to continue.",
+        ar: "توصية منظمة الصحة العالمية بخصوص حمض الفوليك تحديداً تمتدّ حتى الأسبوع الثاني عشر. وهذا لا يعني التوقف عن مكمّل الحمل، فهو يحتوي عادةً على الحديد وعناصر أخرى ما زلتِ تحتاجينها. اسألي طبيبكِ.",
+      },
+      cites: ["who-folic-acid"],
+    },
+    {
+      q: {
+        en: "Is the nuchal translucency scan compulsory?",
+        ar: "هل فحص الشفافية القفوية إجباري؟",
+      },
+      a: {
+        en: "No. Screening is offered, and you can accept or decline it. It estimates a likelihood rather than giving a diagnosis, which is worth understanding before the appointment rather than during it.",
+        ar: "لا. الفحص يُعرض عليكِ، ولكِ أن تقبليه أو ترفضيه. وهو يقدّر احتمالاً ولا يعطي تشخيصاً، وهذا ممّا يُستحسن فهمه قبل الموعد لا أثناءه.",
+      },
+      cites: ["nhs-12-week-scan"],
+    },
+  ],
+
+  cta: {
+    headline: {
+      en: "The scan that sets your due date is this month",
+      ar: "السونار الذي يحدّد موعد ولادتكِ هذا الشهر",
+    },
+    body: {
+      en: "Nawah keeps the appointment schedule, surfaces the lab work in the week you need it, and once your dates are confirmed it counts the weeks for you. The father sees the same week from his side. Arabic and English, free.",
+      ar: "تحتفظ نواة بجدول المواعيد، وتُظهر التحاليل في الأسبوع الذي تحتاجينها فيه، وبمجرد تأكيد تواريخكِ تحسب الأسابيع بدلاً عنكِ. ويرى الأب الأسبوع نفسه من جهته. بالعربية والإنجليزية، مجاناً.",
+    },
+    button: {
+      en: "Get Nawah on Google Play",
+      ar: "حمّلي نواة من جوجل بلاي",
+    },
+  },
+
+  citations: [
+    {
+      id: "nhs-12-week-scan",
+      org: "NHS",
+      title: { en: "12-week scan", ar: "سونار الأسبوع الثاني عشر" },
+      url: "https://www.nhs.uk/pregnancy/your-pregnancy-care/12-week-scan/",
+      retrieved: "2026-08-21",
+    },
+    {
+      id: "medlineplus-fetal-development",
+      org: "MedlinePlus, U.S. National Library of Medicine",
+      title: { en: "Fetal development", ar: "تطوّر الجنين" },
+      url: "https://medlineplus.gov/ency/article/002398.htm",
+      retrieved: "2026-08-21",
+    },
+    {
+      id: "medlineplus-miscarriage",
+      org: "MedlinePlus, U.S. National Library of Medicine",
+      title: { en: "Miscarriage", ar: "الإجهاض" },
+      url: "https://medlineplus.gov/ency/article/001488.htm",
+      retrieved: "2026-08-21",
+    },
+    {
+      id: "who-folic-acid",
+      org: "World Health Organization (WHO)",
+      title: {
+        en: "Periconceptional folic acid supplementation to prevent neural tube defects",
+        ar: "مكمّلات حمض الفوليك حول فترة الإخصاب للوقاية من عيوب الأنبوب العصبي",
+      },
+      url: "https://www.who.int/tools/elena/interventions/folate-periconceptional",
+      retrieved: "2026-08-21",
+    },
+  ],
+
+  updated: "2026-08-21",
+};
+
+export const GUIDE_MONTHS: GuideMonth[] = [month1, month2, month3];
 
 /** Week spans for all nine months, mirroring the app's nine bands. Used by the
  *  hub so the shape of the series is visible before the rest is written. */

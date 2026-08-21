@@ -60,6 +60,21 @@ const WANTED = [
   { slot: "month-1-hero", query: "pregnancy test flat lay" },
   { slot: "month-1-folate", query: "vitamin supplement pills white background" },
   { slot: "month-1-quiet", query: "tea cup morning light minimal still life" },
+
+  // Month 2 is the nausea month, so the imagery is what actually helps:
+  // ginger, lemon, rest. Not a woman clutching her stomach.
+  // First pull for the hero was a dark rustic board next to a rainbow-striped
+  // placemat, which fights the cream-and-rose palette on every other page.
+  { slot: "month-2-hero", query: "fresh ginger root white background minimal" },
+  { slot: "month-2-rest", query: "white bed linen soft morning light" },
+
+  // Month 3 closes the first trimester and contains the dating scan.
+  // ⚠️ Do NOT query for ultrasound machines. The first pull was a scanner
+  // console covered in English UI ("Routine", "MagiCut", "HDlive", a QWERTY
+  // keyboard) which is the Portuguese-calendar problem again, and it showed a
+  // late-term 3D face rather than anything a 12-week scan produces.
+  { slot: "month-3-hero", query: "soft sunlight through sheer curtain window" },
+  { slot: "month-3-detail", query: "soft neutral dried flowers minimal still life" },
 ];
 
 const seen = new Set();

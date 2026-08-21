@@ -31,5 +31,49 @@
     "alt": "Top view of a tea cup with floral design casting shadows on linen.",
     "width": 6000,
     "height": 4000
+  },
+  {
+    "slot": "month-2-hero",
+    "query": "fresh ginger root white background minimal",
+    "src": "/guide/month-2-hero.jpg",
+    "photographer": "https://kaboompics.com/",
+    "photographerUrl": "https://www.pexels.com/@karola-g",
+    "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-ginger-on-the-plate-5202108/",
+    "alt": "Close-up of fresh ginger roots on a vibrant red plate against a white background.",
+    "width": 4633,
+    "height": 3089
+  },
+  {
+    "slot": "month-2-rest",
+    "query": "white bed linen soft morning light",
+    "src": "/guide/month-2-rest.jpg",
+    "photographer": "Castorly Stock",
+    "photographerUrl": "https://www.pexels.com/@castorlystock",
+    "pexelsUrl": "https://www.pexels.com/photo/white-bed-with-pillows-3755590/",
+    "alt": "Elegant white bed linen with soft pillows creating a warm and inviting atmosphere.",
+    "width": 6000,
+    "height": 4000
+  },
+  {
+    "slot": "month-3-hero",
+    "query": "soft sunlight through sheer curtain window",
+    "src": "/guide/month-3-hero.jpg",
+    "photographer": "Pexels User",
+    "photographerUrl": "https://www.pexels.com/@pexels-user-176206548",
+    "pexelsUrl": "https://www.pexels.com/photo/low-angle-shot-of-a-curtain-11111717/",
+    "alt": "A low-angle shot of golden sheer curtains beautifully illuminated by sunlight.",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "slot": "month-3-detail",
+    "query": "soft neutral dried flowers minimal still life",
+    "src": "/guide/month-3-detail.jpg",
+    "photographer": "Johnny Ng",
+    "photographerUrl": "https://www.pexels.com/@johnny-ng-74121137",
+    "pexelsUrl": "https://www.pexels.com/photo/dried-flowers-in-tilt-shift-lens-9055006/",
+    "alt": "Minimalistic close-up of delicate dried flowers against a neutral background, capturing a serene and timeless elegance.",
+    "width": 6016,
+    "height": 4016
   }
 ]

@@ -153,6 +153,13 @@ export default async function GuideMonthPage({
   const altPath = `/${locale === "en" ? "ar" : "en"}/guide/${doc.month}`;
   const cite = (id: string) => doc.citations.find((c) => c.id === id);
 
+  // Neighbours among PUBLISHED months only, so an unwritten month never
+  // produces a link to a route that does not exist.
+  const all = publishedMonths();
+  const idx = all.findIndex((m) => m.month === doc.month);
+  const prev = idx > 0 ? all[idx - 1] : undefined;
+  const next = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : undefined;
+
   /**
    * Structured data: Article and BreadcrumbList only.
    *
@@ -332,6 +339,27 @@ export default async function GuideMonthPage({
 
           <p className="g-disclaimer">{MEDICAL_DISCLAIMER[locale]}</p>
 
+          {/* Prev/next across published months. Real internal linking: it
+              gives a crawler a path between the articles instead of leaving
+              each one reachable only from the hub, and it is how a reader
+              actually moves through a month-by-month series. */}
+          <nav className="g-seq" aria-label={locale === "ar" ? "تصفّح الأشهر" : "Month navigation"}>
+            {prev ? (
+              <Link href={`/${locale}/guide/${prev.month}`} className="g-seq-prev">
+                <span>{locale === "ar" ? "السابق" : "Previous"}</span>
+                <strong>{prev.title[locale]}</strong>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next && (
+              <Link href={`/${locale}/guide/${next.month}`} className="g-seq-next">
+                <span>{locale === "ar" ? "التالي" : "Next"}</span>
+                <strong>{next.title[locale]}</strong>
+              </Link>
+            )}
+          </nav>
+
           <p className="g-back">
             <Link href={`/${locale}/guide`}>
               {locale === "ar" ? "← كل أشهر الدليل" : "← All months"}
@@ -420,6 +448,25 @@ export default async function GuideMonthPage({
           background: var(--bg-elev); border-radius: var(--radius-sm);
           font-size: 13px; line-height: 1.7; color: var(--fg-muted);
         }
+        .g-seq {
+          display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+          margin-top: 40px;
+        }
+        .g-seq a {
+          display: block; padding: 16px 18px;
+          border: 1px solid var(--border); border-radius: var(--radius-sm);
+          transition: border-color 0.2s var(--ease);
+        }
+        .g-seq a:hover { border-color: var(--accent); }
+        .g-seq span { display: block; font-size: 12px; color: var(--fg-soft); margin-bottom: 4px; }
+        .g-seq strong { font-family: var(--font-display); font-size: 17px; font-weight: 400; }
+        .g-seq-next { text-align: end; }
+
+        @media (max-width: 600px) {
+          .g-seq { grid-template-columns: 1fr; }
+          .g-seq-next { text-align: start; }
+        }
+
         .g-back { margin-top: 32px; font-size: 14px; }
         .g-back a { text-decoration: underline; }
 

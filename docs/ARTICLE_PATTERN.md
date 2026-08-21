@@ -213,11 +213,27 @@ Sources that worked, and are good defaults for the remaining months:
 
 | Org | Note |
 |---|---|
-| WHO ELENA | Fetches cleanly. Best for supplement and nutrition recommendations |
-| MedlinePlus | Fetches cleanly. Good for definitions |
-| ACOG | Fetches cleanly. Best for care schedules and US clinical consensus |
-| CDC | **403s to automated fetch.** Findable via search, but do not cite without opening it another way |
-| NHS | Section URLs move. Verify the exact page, not the section root |
+| **MedlinePlus** | ✅ Fetches cleanly. Best default. Definitions, fetal development, risk figures |
+| **NHS** | ✅ Fetches cleanly. Best for symptoms, scans and red-flag lists. Section URLs move, so verify the exact page rather than the section root |
+| **WHO ELENA** | ✅ Fetches cleanly. Best for supplement and nutrition recommendations |
+| ACOG | 🔴 **Returns HTTP 402 to every automated fetch.** See below |
+| CDC | 🔴 **403s to automated fetch** |
+
+### ⚠️ Correction, 2026-08-21
+
+An earlier version of this file listed ACOG as fetching cleanly. It does not.
+`acog.org` returns **402 Payment Required** to every automated request, and
+`cdc.gov` returns 403.
+
+That matters because month 1 cites two ACOG pages. **Those two were verified
+from search-result content, not from opening the pages.** The URLs are real and
+the returned text matched what the article claims, but that is a weaker check
+than the rule at the top of §5 states, and pretending otherwise would be the
+exact failure this section exists to prevent.
+
+Months 2 and 3 therefore cite only MedlinePlus, NHS and WHO, all of which were
+opened and read. **Prefer those three.** If a claim can only be sourced to ACOG
+or CDC, either find the same fact at a fetchable body or leave the claim out.
 
 Note for a future month: ACOG's April 2025 clinical consensus replaced the
 fixed 12-to-14 visit schedule with a tailored 6-to-10 visit plan for
