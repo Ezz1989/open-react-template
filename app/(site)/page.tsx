@@ -58,10 +58,14 @@ export default function Home() {
       />
       <Navbar />
       <main>
+        {/* DualJourney sits directly under the hero: the hero promises "every
+            week, the two of you" and this is the section that shows what "the
+            two of you" actually means. Putting the feature grid between them
+            broke that hand-off. */}
         <HeroSection />
+        <DualJourney />
         <GuidePromo />
         <FeatureGrid />
-        <DualJourney />
         <NawalSection />
         <BabyNamesSection />
         <PlannersSection />

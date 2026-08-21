@@ -1,11 +1,14 @@
 export const content = {
   en: {
     nav: {
+      home: "Home",
       features: "Features",
       journey: "Journey",
       nawal: "Nawal",
       names: "Names",
-      guide: "Guide",
+      articles: "Articles",
+      guide: "Pregnancy guide",
+      about: "About us",
       mother: "Mother",
       father: "Father",
     },
@@ -341,11 +344,14 @@ export const content = {
 
   ar: {
     nav: {
+      home: "الرئيسية",
       features: "المميزات",
       journey: "الرحلة",
       nawal: "نوال",
       names: "الأسماء",
-      guide: "الدليل",
+      articles: "مقالات",
+      guide: "دليل الحمل",
+      about: "من نحن",
       mother: "الأم",
       father: "الأب",
     },

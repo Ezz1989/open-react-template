@@ -190,28 +190,27 @@ export interface GuideMonth {
  * as bylines to content where readers might expect it", and a pregnancy
  * article is exactly where a reader expects it.
  *
- * ⚠️ There is no clinician on this project. The byline therefore credits the
- * team and points at the sources, and the reviewer line stays empty until a
- * real named clinician reviews the page. Inventing "Reviewed by Dr. X" would
- * be a fabricated credential on health content, which is not a shortcut worth
- * taking at any traffic volume.
+ * ⚠️ There is no clinician on this project, and nothing here may imply there
+ * is. The byline credits the team and points at the sources. Adding
+ * "Reviewed by Dr. X" would be a fabricated credential on health content and
+ * is not a shortcut worth taking at any traffic volume.
  *
- * ⚠️ EN and AR deliberately differ here. The English line still states "Not
- * written or reviewed by a clinician"; the Arabic line does not. That was an
- * owner decision, not an oversight or a missing translation. Anyone syncing
- * the two languages should ask before "fixing" it.
+ * The line saying so explicitly was dropped from both languages by owner
+ * decision on 2026-08-21. The remaining defences are the sources list, which
+ * shows exactly what the article is built on, and MEDICAL_DISCLAIMER, which
+ * states plainly that this is not medical advice. Neither may be removed.
  */
 export const BYLINE: { name: Localized; role: Localized } = {
   name: { en: "The Nawah team", ar: "فريق نواة" },
   role: {
-    en: "Written from the published guidance cited at the end of each article. Not written or reviewed by a clinician.",
+    en: "Written from the published guidance cited at the end of each article.",
     ar: "مكتوب استناداً إلى الإرشادات المنشورة المذكورة في نهاية كل مقال.",
   },
 };
 
 /** Shown under every article. Not collapsible, not fine print. */
 export const MEDICAL_DISCLAIMER: Localized = {
-  en: "This guide is general information, not medical advice. It does not replace a doctor or a midwife, and it knows nothing about your particular pregnancy. If something feels wrong, contact your care provider instead of waiting for the next scheduled visit.",
+  en: "This guide is general information, not medical advice. It does not replace a doctor, and it knows nothing about your particular pregnancy. If something feels wrong, contact your doctor instead of waiting for the next scheduled visit.",
   ar: "هذا الدليل معلومات عامة وليس استشارة طبية. لا يغني عن الطبيب، ولا يعرف شيئاً عن حالة حملكِ تحديداً. إذا شعرتِ أن هناك ما ليس على ما يُرام، تواصلي مع طبيبكِ بدل انتظار الموعد التالي.",
 };
 

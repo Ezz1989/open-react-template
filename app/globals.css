@@ -142,7 +142,11 @@ html, body { max-width: 100%; overflow-x: hidden; }
 
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: var(--chip-bg); color: var(--accent-strong); border-radius: 999px; font-size: 12px; font-weight: 500; }
 
-section { padding: clamp(80px, 12vw, 160px) 0; }
+/* Halved 2026-08-21 from clamp(80px, 12vw, 160px). The original spacing was
+   set when the homepage had fewer sections; at eight bands it made the page a
+   long scroll of empty cream. The guide routes reset this to 0 on .g-section
+   and .g-sources, so they are unaffected either way. */
+section { padding: clamp(40px, 6vw, 80px) 0; }
 
 .nav { position: fixed; top: 16px; left: 50%; transform: translateX(-50%); width: calc(100% - 32px); max-width: 1100px; padding: 12px 16px 12px 20px; background: color-mix(in oklch, var(--bg), transparent 20%); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid var(--border); border-radius: 999px; display: flex; align-items: center; justify-content: space-between; gap: 16px; z-index: 100; }
 .nav-links { display: flex; gap: 28px; font-size: 14px; color: var(--fg-muted); }
