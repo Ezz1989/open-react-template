@@ -8,7 +8,7 @@ import { useMode } from "@/lib/mode-context";
 /**
  * Top navigation.
  *
- * Desktop: Home · Features (dropdown) · Articles (dropdown) · About us.
+ * Desktop: Home · Features (dropdown) · Guides (dropdown) · About us.
  * Journey, Nawal and Names are sub-topics of the product rather than peers of
  * it, so they live under Features.
  *
@@ -18,7 +18,7 @@ import { useMode } from "@/lib/mode-context";
  *
  * 1. There was no mobile menu at all. The link row was simply
  *    `display: none` under the breakpoint, so a phone visitor could not reach
- *    Features, Articles, About or the guide from the header.
+ *    Features, Guides, About or the guide hubs from the header.
  * 2. The mother/father pill overlapped the wordmark at 390px, rendering the
  *    logo as "Nawa". The bar was trying to hold a logo, a two-option toggle
  *    and a language button in 390px minus padding.
@@ -37,15 +37,26 @@ interface MenuItem {
   route?: boolean;
 }
 
+/**
+ * The panel lists ONLY its children.
+ *
+ * It used to repeat the trigger's own label as the first row, so the menu read
+ * "Guides > Guides, Mother's guide, Father's guide" — the heading and its first
+ * item were the same word, and a reader cannot tell what the duplicate would
+ * do differently. Same for Features. The label now appears exactly once, on the
+ * trigger in the bar.
+ *
+ * That removed the only link to the parent destination, so the `href` prop went
+ * with it. Nothing is lost: /[lang]/guide is still reached through "Mother's
+ * guide", and #features through the anchors already in the panel.
+ */
 function Dropdown({
   label,
-  href,
   items,
   open,
   setOpen,
 }: {
   label: string;
-  href: string;
   items: MenuItem[];
   open: boolean;
   setOpen: (v: boolean) => void;
@@ -89,9 +100,6 @@ function Dropdown({
       </button>
 
       <div className={`nav-dd-panel ${open ? "is-open" : ""}`} role="menu">
-        <a href={href} role="menuitem" onClick={() => setOpen(false)}>
-          {label}
-        </a>
         {items.map((it) =>
           it.route ? (
             <Link key={it.label} href={it.href} role="menuitem" onClick={() => setOpen(false)}>
@@ -167,7 +175,6 @@ export function Navbar() {
 
         <Dropdown
           label={t("nav.features") as string}
-          href="#features"
           items={featureItems}
           open={openMenu === "features"}
           setOpen={(v) => setOpenMenu(v ? "features" : null)}
@@ -175,7 +182,6 @@ export function Navbar() {
 
         <Dropdown
           label={t("nav.articles") as string}
-          href={`/${lang}/guide`}
           items={articleItems}
           open={openMenu === "articles"}
           setOpen={(v) => setOpenMenu(v ? "articles" : null)}

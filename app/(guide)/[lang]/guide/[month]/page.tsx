@@ -362,7 +362,7 @@ export default async function GuideMonthPage({
 
           <p className="g-back">
             <Link href={`/${locale}/guide`}>
-              {locale === "ar" ? "← كل أشهر الدليل" : "← All months"}
+              {locale === "ar" ? "→ كل أشهر الدليل" : "← All months"}
             </Link>
           </p>
         </article>

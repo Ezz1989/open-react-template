@@ -91,7 +91,7 @@ export default async function FatherHubPage({
         <p className="f-hub-cross">
           <Link href={`/${locale}/guide`}>
             {locale === "ar"
-              ? "← دليل الأم شهراً بعد شهر"
+              ? "→ دليل الأم شهراً بعد شهر"
               : "← The mother's guide, month by month"}
           </Link>
         </p>

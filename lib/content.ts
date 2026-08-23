@@ -353,7 +353,14 @@ export const content = {
       journey: "الرحلة",
       nawal: "نوال",
       names: "الأسماء",
-      articles: "الأدلة",
+      // "الأدلة" was the literal rendering of "Guides" and read wrong — دليل
+      // carries the sense of proof/evidence as readily as guidebook, so the
+      // plural landed closer to "the evidence". إرشادات is the ordinary word
+      // for guidance material. Owner's call, 2026-08-23.
+      // ⚠️ Hamza-under-alef (إ), not a bare alef. The project's locale linter
+      // folds hamza carriers before matching, so a bare ا would pass the check
+      // and still be misspelled on screen.
+      articles: "إرشادات",
       guide: "دليل الأم",
       fatherGuide: "دليل الأب",
       about: "من نحن",

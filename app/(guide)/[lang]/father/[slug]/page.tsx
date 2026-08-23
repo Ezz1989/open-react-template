@@ -340,7 +340,12 @@ export default async function FatherArticlePage({
                 to the pages that need it most. */}
             <p className="g-back">
               <Link href={`/${locale}/father`}>
-                {locale === "ar" ? "← كل دليل الأب" : "← All of the father's guide"}
+                {/* → in Arabic, ← in English. An arrow is a picture of a
+                    direction, not a glyph to translate: "back" runs leftward
+                    in an LTR column and rightward in an RTL one. Bidi does not
+                    mirror U+2190 for us, so the two strings carry different
+                    characters. */}
+                {locale === "ar" ? "→ كل دليل الأب" : "← All of the father's guide"}
               </Link>
               <Link href={`/${locale}/guide`}>
                 {locale === "ar" ? "دليل الأم شهراً بعد شهر" : "The mother's guide, month by month"}
