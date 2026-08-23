@@ -316,7 +316,7 @@ export default async function FatherArticlePage({
 
             <nav
               className="g-seq"
-              aria-label={locale === "ar" ? "تصفّح المقالات" : "Article navigation"}
+              aria-label={locale === "ar" ? "تصفّح الدليل" : "Guide navigation"}
             >
               {prev ? (
                 <Link href={`/${locale}/father/${prev.slug}`} className="g-seq-prev">
@@ -340,10 +340,10 @@ export default async function FatherArticlePage({
                 to the pages that need it most. */}
             <p className="g-back">
               <Link href={`/${locale}/father`}>
-                {locale === "ar" ? "← كل مقالات الأب" : "← All father articles"}
+                {locale === "ar" ? "← كل دليل الأب" : "← All of the father's guide"}
               </Link>
               <Link href={`/${locale}/guide`}>
-                {locale === "ar" ? "دليل الحمل شهراً بعد شهر" : "The month-by-month guide"}
+                {locale === "ar" ? "دليل الأم شهراً بعد شهر" : "The mother's guide, month by month"}
               </Link>
             </p>
           </article>

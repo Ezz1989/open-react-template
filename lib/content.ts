@@ -6,8 +6,12 @@ export const content = {
       journey: "Journey",
       nawal: "Nawal",
       names: "Names",
-      articles: "Articles",
-      guide: "Pregnancy guide",
+      // The menu that holds both guides. Renamed from "Articles" 2026-08-22:
+      // everything under it is a guide, so "Articles > Pregnancy guide" named
+      // the same thing twice in two different words.
+      articles: "Guides",
+      guide: "Mother's guide",
+      fatherGuide: "Father's guide",
       about: "About us",
       mother: "Mother",
       father: "Father",
@@ -349,8 +353,9 @@ export const content = {
       journey: "الرحلة",
       nawal: "نوال",
       names: "الأسماء",
-      articles: "مقالات",
-      guide: "دليل الحمل",
+      articles: "الأدلة",
+      guide: "دليل الأم",
+      fatherGuide: "دليل الأب",
       about: "من نحن",
       mother: "الأم",
       father: "الأب",

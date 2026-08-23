@@ -45,10 +45,19 @@ export function Footer() {
                 link from anywhere on the site. Arabic is the primary audience,
                 so it cannot be the one that goes unlinked. */}
             <a href="/ar/guide" hrefLang="ar" lang="ar">
-              دليل الحمل
+              دليل الأم
             </a>
             <a href="/en/guide" hrefLang="en" lang="en">
-              Pregnancy guide
+              Mother&apos;s guide
+            </a>
+            {/* The father hub had no link from the homepage at all, so it was
+                reachable only from the guide header and the sitemap. Same
+                both-locales reasoning as above. */}
+            <a href="/ar/father" hrefLang="ar" lang="ar">
+              دليل الأب
+            </a>
+            <a href="/en/father" hrefLang="en" lang="en">
+              Father&apos;s guide
             </a>
             <a href="/ar/about" hrefLang="ar" lang="ar">
               من نحن

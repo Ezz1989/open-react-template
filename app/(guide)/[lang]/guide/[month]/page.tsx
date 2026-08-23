@@ -200,7 +200,7 @@ export default async function GuideMonthPage({
           {
             "@type": "ListItem",
             position: 1,
-            name: locale === "ar" ? "دليل الحمل" : "Pregnancy guide",
+            name: locale === "ar" ? "دليل الأم" : "Mother's guide",
             item: `${SITE_URL}/${locale}/guide`,
           },
           { "@type": "ListItem", position: 2, name: doc.title[locale], item: url },

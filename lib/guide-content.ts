@@ -220,9 +220,22 @@ export const GUIDE_HUB: {
   description: Localized;
   standfirst: Localized;
 } = {
+  /**
+   * ⚠️ The H1 carries the nav's new name AND the query phrase, on purpose.
+   *
+   * The nav was renamed to "Mother's guide" on 2026-08-22 so it reads as a
+   * sibling of the father's guide. Renaming this H1 to match exactly would
+   * have dropped "pregnancy" / "الحمل" from the one page whose entire job is
+   * to rank for it — nobody searches "mother's guide". Keeping both words
+   * satisfies the nav consistency and the search term.
+   *
+   * `metaTitle` is deliberately NOT renamed. It leads with the query phrasing
+   * because that is what appears in the search result, and it is the single
+   * highest-value string in the month series.
+   */
   title: {
-    en: "The pregnancy guide, month by month",
-    ar: "دليل الحمل، شهراً بعد شهر",
+    en: "The mother's guide: pregnancy month by month",
+    ar: "دليل الأم: الحمل شهراً بعد شهر",
   },
   metaTitle: {
     en: "Pregnancy Month by Month: The Nine-Month Guide | Nawah",

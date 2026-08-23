@@ -17,8 +17,8 @@ import { DIR, type Locale } from "@/lib/constants";
 
 const T = {
   home: { en: "Nawah", ar: "نواة" },
-  guide: { en: "Pregnancy guide", ar: "دليل الحمل" },
-  father: { en: "For fathers", ar: "للأب" },
+  guide: { en: "Mother's guide", ar: "دليل الأم" },
+  father: { en: "Father's guide", ar: "دليل الأب" },
   switchTo: { en: "عربي", ar: "English" },
   switchLabel: { en: "Read this page in Arabic", ar: "Read this page in English" },
   privacy: { en: "Privacy", ar: "الخصوصية" },

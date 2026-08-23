@@ -141,8 +141,12 @@ export function Navbar() {
     { label: t("nav.names") as string, href: "#names" },
   ];
 
+  // Two siblings, not one entry with the father series buried inside it. They
+  // are separate hubs at separate URLs and each is somebody's whole reason for
+  // being on the site.
   const articleItems: MenuItem[] = [
     { label: t("nav.guide") as string, href: `/${lang}/guide`, route: true },
+    { label: t("nav.fatherGuide") as string, href: `/${lang}/father`, route: true },
   ];
 
   return (
