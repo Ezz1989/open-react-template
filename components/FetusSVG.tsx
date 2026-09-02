@@ -4,7 +4,7 @@ interface FetusSVGProps {
   size?: number;
 }
 
-export function FetusSVG({ week = 11, color = "#E8D5C5", size = 90 }: FetusSVGProps) {
+export function FetusSVG({ week = 11, color = "#DFD7C4", size = 90 }: FetusSVGProps) {
   const t = Math.min(Math.max((week - 4) / 36, 0), 1);
   const scale = 0.35 + t * 0.75;
   const headR = 12 + t * 5;

@@ -368,7 +368,7 @@ export default async function FatherArticlePage({
            accent. Values are the ones globals.css already uses. */
         [data-theme="dark"] .f-mode {
           --chip-bg: rgba(58,72,107,0.25);
-          --accent: #8AA0D0;
+          --accent: #8FBBA4;
           --accent-strong: #B4C3E6;
         }
 

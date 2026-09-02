@@ -26,7 +26,7 @@ export function DualJourney() {
           onClick={() => setMode("mother")}
           className={`journey-side ${mode === "mother" ? "active" : ""}`}
           style={{
-            background: "#B55F77",
+            background: "#A8455A",
             color: "#fff",
             padding: "clamp(60px, 10vw, 120px) clamp(32px, 6vw, 80px)",
             cursor: "pointer",
@@ -65,7 +65,7 @@ export function DualJourney() {
             ))}
           </ul>
           <div style={{ position: "absolute", bottom: 60, insetInlineEnd: 60, opacity: 0.85 }}>
-            <FetusSVG week={20} color="#F5E3E2" size={180} />
+            <FetusSVG week={20} color="#F6E1E4" size={180} />
           </div>
           <div
             style={{
@@ -86,7 +86,7 @@ export function DualJourney() {
           onClick={() => setMode("father")}
           className={`journey-side ${mode === "father" ? "active" : ""}`}
           style={{
-            background: "#1F2C4F",
+            background: "#1F4D3D",
             color: "#fff",
             padding: "clamp(60px, 10vw, 120px) clamp(32px, 6vw, 80px)",
             cursor: "pointer",

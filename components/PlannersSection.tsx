@@ -379,8 +379,8 @@ function JournalPanel({ content }: { content: JournalContent }) {
             <span
               className="chip"
               style={{
-                background: e.shared ? "#E8F0E4" : "var(--cream-200)",
-                color: e.shared ? "#4A6E3A" : "var(--fg-muted)",
+                background: e.shared ? "#E4EFE8" : "var(--cream-200)",
+                color: e.shared ? "#3E8065" : "var(--fg-muted)",
               }}
             >
               {e.shared ? content.sharedLabel : content.privateLabel}

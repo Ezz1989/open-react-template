@@ -41,9 +41,9 @@ export function BabyNamesSection() {
   };
 
   const genderChipBg =
-    current.gender === "F" ? "#F5E3E2" : current.gender === "M" ? "#DCE7F5" : "#EBE5D9";
+    current.gender === "F" ? "#F6E1E4" : current.gender === "M" ? "#E4EFE8" : "#EDE5D5";
   const genderChipColor =
-    current.gender === "F" ? "#8F3C52" : current.gender === "M" ? "#3A486B" : "#7A5D2B";
+    current.gender === "F" ? "#8B3549" : current.gender === "M" ? "#3E8065" : "#8B6A1C";
   const genderLabel =
     current.gender === "F" ? "♀" : current.gender === "M" ? "♂" : "⚥";
 

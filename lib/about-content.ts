@@ -280,8 +280,8 @@ export const ABOUT_NAME: AboutBlock = {
 };
 
 export const ABOUT_MOTTO: Localized = {
-  en: "Become each other's centre.",
-  ar: "كونوا مركز بعضكم.",
+  en: "Neither of you is doing this alone.",
+  ar: "مش لوحدك في الحكاية دي.",
 };
 
 export const ABOUT_CTA: { body: Localized; button: Localized } = {
