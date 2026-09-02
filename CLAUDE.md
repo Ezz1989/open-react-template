@@ -30,6 +30,31 @@ Source of truth: `app/globals.css`. Never hardcode hex values in components — 
 - Shadows and radial gradients are now allowed (prototype uses them throughout — see `--shadow-md`, `--shadow-lg` and radial-gradient backgrounds in GrowthVisualizer / FetusSVG)
 - Framer Motion for interactive animations; plain CSS keyframes for entrance animations
 
+## 🧠 Verification rules — inherited, non-negotiable
+
+Root [`../CLAUDE.md`](../CLAUDE.md) Hard Rules **0 / 0a / 0b** apply here in full:
+
+> **0. Verify or don't say it.** Every factual claim must trace to a source fetched
+> or a file read *this session*. **Errors cluster in volunteered asides, not in
+> answers to direct questions.** If you can't cite it, cut it or mark it unverified.
+> **0a. Third-party console steps need a fetched doc in the SAME turn** (Vercel,
+> Porkbun DNS) — or label it unverified.
+> **0b. Answer the question asked, then stop.**
+
+### 🔴 The trap unique to this folder
+
+**This is a SEPARATE git repo nested inside the app repo.** The parent stores only
+a SHA pointer and **cannot commit these files**.
+
+- **Never record a landing-page change as done based on the parent repo's status.**
+  That mistake once left a wrong Play link — pointing at a stranger's app —
+  live on the public site.
+- `git add` from the parent silently does nothing useful. Commit **from inside
+  this directory**, then bump the parent's pointer as its own commit.
+- ⚠️ **Vercel deploys on push.** A push here is an outward-facing action on a live
+  public site — confirm with the user first. A local commit is not a deploy, and
+  saying "fixed" before the push is a false claim.
+
 ## Architecture rules
 
 1. Read a file before editing it. Never assume current state.
@@ -44,7 +69,10 @@ Source of truth: `app/globals.css`. Never hardcode hex values in components — 
 
 `https://play.google.com/store/apps/details?id=com.nawahapp` — appears in `HeroSection.tsx` and `CtaSection.tsx`, both importing `PLAY_STORE_URL` from `lib/constants.ts`.
 
-🔴 **Verified 2026-08-11: this URL returns HTTP 404.** The package id is right; the listing is not public because the app is only on the **internal testing** track, so the button currently sends visitors to a Play error page. It resolves by itself at production publish (tracker P15) with no code change. Memo lives on the constant.
+✅ **Resolved.** Was 404 on 2026-08-11 while the app sat on the internal-testing track.
+The app has been **Published** on Play since 2026-08-15 (closed testing), so the listing
+is public and this link works — no code change was needed, as predicted. Not re-fetched
+this session; if in doubt, click it.
 
 ## Session 2026-08-11 — encoding, P7 pages, mobile/RTL
 
