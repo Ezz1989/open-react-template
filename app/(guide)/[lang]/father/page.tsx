@@ -69,7 +69,7 @@ export default async function FatherHubPage({
 
   return (
     <div className="f-mode" data-mode="father">
-      <GuideHeader locale={locale} altPath={`/${locale === "en" ? "ar" : "en"}/father`} />
+      <GuideHeader locale={locale} altPath={`/${locale === "en" ? "ar" : "en"}/father`} variant="father" />
 
       <main className="container f-hub">
         <h1 className="display-md">{FATHER_HUB.title[locale]}</h1>

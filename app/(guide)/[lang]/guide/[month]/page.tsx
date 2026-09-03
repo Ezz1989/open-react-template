@@ -222,7 +222,7 @@ export default async function GuideMonthPage({
         }}
       />
 
-      <GuideHeader locale={locale} altPath={altPath} />
+      <GuideHeader locale={locale} altPath={altPath} variant="mother" />
 
       <main className="container g-wrap">
         <article>

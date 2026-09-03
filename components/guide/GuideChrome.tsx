@@ -17,6 +17,7 @@ import { DIR, type Locale } from "@/lib/constants";
 
 const T = {
   home: { en: "Nawah", ar: "نواة" },
+  homeLink: { en: "Home", ar: "الرئيسية" },
   guide: { en: "Mother's guide", ar: "دليل الأم" },
   father: { en: "Father's guide", ar: "دليل الأب" },
   switchTo: { en: "عربي", ar: "English" },
@@ -32,27 +33,31 @@ const T = {
 export function GuideHeader({
   locale,
   altPath,
+  variant = "neutral",
 }: {
   locale: Locale;
   /** Path of the SAME page in the other locale, e.g. "/ar/guide/3". */
   altPath: string;
+  /** Tints the bar with the section's role colour — rose for the mother's
+      guide, green for the father's. "about" has no owner, so it stays neutral. */
+  variant?: "mother" | "father" | "neutral";
 }) {
   const other: Locale = locale === "en" ? "ar" : "en";
   return (
-    <header className="guide-head">
+    <header className={`guide-head guide-head-${variant}`}>
       <div className="container guide-head-inner">
         <Link href="/" className="nav-logo" aria-label={T.home[locale]}>
           <Image
-            src="/nawah-logo-dark.png"
-            alt=""
-            width={28}
-            height={28}
-            style={{ width: 28, height: 28, objectFit: "contain" }}
+            src="/nawah-lockup-dark.svg"
+            alt={T.home[locale]}
+            width={1954}
+            height={965}
+            style={{ height: 32, width: "auto", objectFit: "contain" }}
           />
-          <span>{T.home[locale]}</span>
         </Link>
 
         <nav className="guide-head-right">
+          <Link href="/">{T.homeLink[locale]}</Link>
           <Link href={`/${locale}/guide`}>{T.guide[locale]}</Link>
           {/* Without this the father series is reachable only from its own
               articles and the sitemap — orphaned from the month pages, which
@@ -73,6 +78,8 @@ export function GuideHeader({
 
       <style>{`
         .guide-head { border-bottom: 1px solid var(--border); background: var(--bg); }
+        .guide-head-mother { background: var(--rose-100); }
+        .guide-head-father { background: var(--navy-100); }
         .guide-head-inner {
           display: flex; align-items: center; justify-content: space-between;
           gap: 16px; padding-block: 18px;

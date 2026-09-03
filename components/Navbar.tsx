@@ -171,8 +171,6 @@ export function Navbar() {
       </div>
 
       <div className="nav-links nav-links-desktop">
-        <Link href="/">{t("nav.home") as string}</Link>
-
         <Dropdown
           label={t("nav.features") as string}
           items={featureItems}
@@ -238,10 +236,6 @@ export function Navbar() {
         className={`nav-mobile ${mobileOpen ? "is-open" : ""}`}
         hidden={!mobileOpen}
       >
-        <Link href="/" onClick={close}>
-          {t("nav.home") as string}
-        </Link>
-
         <p className="nav-mobile-label">{t("nav.features") as string}</p>
         {featureItems.map((it) => (
           <a key={it.label} href={it.href} className="nav-mobile-sub" onClick={close}>

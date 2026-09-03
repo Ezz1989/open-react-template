@@ -190,7 +190,7 @@ export default async function FatherArticlePage({
           on <html>; here it is simply part of the server-rendered markup,
           which is what a static article route wants. */}
       <div className="f-mode" data-mode="father">
-        <GuideHeader locale={locale} altPath={altPath} />
+        <GuideHeader locale={locale} altPath={altPath} variant="father" />
 
         <main className="container g-wrap">
           <article>

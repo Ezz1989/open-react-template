@@ -81,7 +81,7 @@ export default async function GuideHubPage({
 
   return (
     <>
-      <GuideHeader locale={locale} altPath={`/${locale === "en" ? "ar" : "en"}/guide`} />
+      <GuideHeader locale={locale} altPath={`/${locale === "en" ? "ar" : "en"}/guide`} variant="mother" />
 
       <main className="container g-hub">
         <h1 className="display-md">{GUIDE_HUB.title[locale]}</h1>
