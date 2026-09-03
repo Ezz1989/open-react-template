@@ -161,13 +161,13 @@ export function Navbar() {
     <nav className="nav">
       <div className="nav-logo">
         <Image
-          src="/nawah-logo-dark.png"
-          alt="Nawah"
-          width={32}
-          height={32}
-          style={{ width: 32, height: 32, objectFit: "contain" }}
+          src="/nawah-lockup-dark.svg"
+          alt="Nawah — نواة"
+          width={1954}
+          height={965}
+          priority
+          style={{ height: 40, width: "auto", objectFit: "contain" }}
         />
-        <span>Nawah</span>
       </div>
 
       <div className="nav-links nav-links-desktop">

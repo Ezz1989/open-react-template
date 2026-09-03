@@ -24,8 +24,8 @@ const T = {
   privacy: { en: "Privacy", ar: "الخصوصية" },
   deleteAccount: { en: "Delete account", ar: "حذف الحساب" },
   rights: {
-    en: "Nawah. Become each other's center.",
-    ar: "نواة. كونوا مركز بعضكم.",
+    en: "Nawah. Neither of you is doing this alone.",
+    ar: "نواة. مش لوحدك في الحكاية دي.",
   },
 } as const;
 

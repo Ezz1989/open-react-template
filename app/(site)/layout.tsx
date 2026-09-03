@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   description: "The Arabic pregnancy companion app for mothers and fathers. Built for GCC and Egypt.",
   openGraph: {
     title: "Nawah — نواة",
-    description: "Become each other's center. كونوا مركز بعضكم.",
+    description: "Neither of you is doing this alone. مش لوحدك في الحكاية دي.",
     url: SITE_URL,
     siteName: "Nawah",
   },
