@@ -341,7 +341,7 @@ export const content = {
         { label: "Delete account", href: "/delete-account" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "Instagram", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
-        { label: "TikTok", href: "https://www.tiktok.com/@nawah596", icon: "tiktok" },
+        { label: "TikTok", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
         {
           label: "Facebook",
           href: "https://www.facebook.com/profile.php?id=61593761370296",
@@ -694,7 +694,7 @@ export const content = {
         { label: "حذف الحساب", href: "/delete-account" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "إنستجرام", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
-        { label: "تيك توك", href: "https://www.tiktok.com/@nawah596", icon: "tiktok" },
+        { label: "تيك توك", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
         {
           label: "فيسبوك",
           href: "https://www.facebook.com/profile.php?id=61593761370296",

@@ -34,7 +34,12 @@ const siteJsonLd = {
       logo: `${SITE_URL}/nawah-logo-dark.png`,
       description:
         "Arabic pregnancy companion app for mothers and fathers, built for the GCC and Egypt.",
-      sameAs: [PLAY_STORE_URL, "https://www.tiktok.com/@nawah596"],
+      sameAs: [
+        PLAY_STORE_URL,
+        "https://www.tiktok.com/@nawah_app",
+        "https://www.instagram.com/nawah_app/",
+        "https://www.facebook.com/profile.php?id=61593761370296",
+      ],
     },
     {
       "@type": "WebSite",
