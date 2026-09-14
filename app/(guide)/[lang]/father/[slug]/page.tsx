@@ -17,6 +17,7 @@ import {
   publishedArticles,
 } from "@/lib/father-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
+import { PanicNormalPanel } from "@/components/PanicNormalPanel";
 
 /**
  * One father article, server-rendered per locale.
@@ -250,27 +251,20 @@ export default async function FatherArticlePage({
             ))}
 
             {/* Optional on FatherArticle — a budget or a packing article has no
-                emergency symptoms, and an empty red box would alarm a reader
-                about nothing. Rendered before the CTA so nothing commercial
-                sits between the reader and it. */}
-            {doc.redFlags && (
-              <section className="g-flags" aria-labelledby="redflags">
-                {/* Per-article heading where one is set. The default suits the
-                    obstetric articles; the paternal mental-health one needs to
-                    say something else entirely, since its list is about the
-                    reader himself. */}
-                <h2 id="redflags">
-                  {doc.redFlags.heading?.[locale] ??
-                    (locale === "ar" ? "متى تتصلان فوراً" : "When to call straight away")}
-                </h2>
-                <p>{doc.redFlags.intro[locale]}</p>
-                <ul>
-                  {doc.redFlags.items.map((it, i) => (
-                    <li key={i}>{it[locale]}</li>
-                  ))}
-                </ul>
-              </section>
-            )}
+                emergency symptoms, and PanicNormalPanel renders nothing when
+                redFlags is undefined, same as before. Per-article heading
+                override where one is set (the paternal mental-health article
+                needs to say something other than "call a doctor", since its
+                list is about the reader himself). */}
+            <PanicNormalPanel
+              sections={doc.sections}
+              redFlags={doc.redFlags}
+              locale={locale}
+              redHeadingOverride={
+                doc.redFlags?.heading?.[locale] ??
+                (doc.redFlags ? (locale === "ar" ? "متى تتصلان فوراً" : "When to call straight away") : undefined)
+              }
+            />
 
             <section className="g-cta">
               <h2>{doc.cta.headline[locale]}</h2>

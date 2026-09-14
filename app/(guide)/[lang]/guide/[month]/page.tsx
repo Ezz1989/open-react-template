@@ -20,6 +20,7 @@ import {
   type GuideMonth,
 } from "@/lib/guide-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
+import { PanicNormalPanel } from "@/components/PanicNormalPanel";
 
 /**
  * One month-article, server-rendered per locale.
@@ -284,18 +285,11 @@ export default async function GuideMonthPage({
           ))}
 
           {/* Highest-stakes block on the page. Rendered before the CTA on
-              purpose: nothing commercial should sit between a reader and this. */}
-          <section className="g-flags" aria-labelledby="redflags">
-            <h2 id="redflags">
-              {locale === "ar" ? "متى تتصلين بالطبيب فوراً" : "When to call a doctor now"}
-            </h2>
-            <p>{doc.redFlags.intro[locale]}</p>
-            <ul>
-              {doc.redFlags.items.map((it, i) => (
-                <li key={i}>{it[locale]}</li>
-              ))}
-            </ul>
-          </section>
+              purpose: nothing commercial should sit between a reader and this.
+              PanicNormalPanel adds a "what's common" green panel beside it,
+              built from this article's own already-written section bullets —
+              always shown alongside, never hidden behind a toggle. */}
+          <PanicNormalPanel sections={doc.sections} redFlags={doc.redFlags} locale={locale} />
 
           <section className="g-cta">
             <h2>{doc.cta.headline[locale]}</h2>
