@@ -54,10 +54,7 @@ make_gemini_prompt.js`'s `blockCta()`) now names `nawahapp.net` instead of the g
    infra, not site scope). A third — "reviewed by local OB-GYNs" — is explicitly ruled out by this
    file's own `BYLINE` precedent in `lib/guide-content.ts`: no clinician on the project, fabricating
    one is a real Play-policy risk.
-3. **Bio links still not pasted** on TikTok/IG/Facebook (`Social Media/PLATFORMS.md:134`,
-   pre-existing, user-postponed, unrelated to this session) — the CTA signature change has no
-   effect until this happens; keep flagging it, don't silently do it (it's a live-account action).
-4. **GSC re-export** in 4–6 weeks once the 629 new pages get crawled — the 2026-09-15 export
+3. **GSC re-export** in 4–6 weeks once the 629 new pages get crawled — the 2026-09-15 export
    (`docs/gsc/`) is a baseline, not a verdict; 11 queries is too thin to drive P4's topics alone.
 
 ## Active port (2026-04-18)
