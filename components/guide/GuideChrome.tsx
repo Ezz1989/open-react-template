@@ -21,6 +21,7 @@ const T = {
   guide: { en: "Mother's guide", ar: "دليل الأم" },
   father: { en: "Father's guide", ar: "دليل الأب" },
   tools: { en: "Tools", ar: "الأدوات" },
+  names: { en: "Names", ar: "الأسماء" },
   switchTo: { en: "عربي", ar: "English" },
   switchLabel: { en: "Read this page in Arabic", ar: "Read this page in English" },
   privacy: { en: "Privacy", ar: "الخصوصية" },
@@ -65,6 +66,7 @@ export function GuideHeader({
               are the ones that actually have inbound links today. */}
           <Link href={`/${locale}/father`}>{T.father[locale]}</Link>
           <Link href={`/${locale}/tools`}>{T.tools[locale]}</Link>
+          <Link href={`/${locale}/names`}>{T.names[locale]}</Link>
           <Link
             href={altPath}
             hrefLang={other}

@@ -3,6 +3,8 @@ import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
 import { TOOLS } from "@/lib/tools-content";
+import { getAllNames, getOrigins, slugForName } from "@/lib/names-data";
+import { originSlug } from "@/lib/names-content";
 
 /**
  * /sitemap.xml
@@ -16,7 +18,7 @@ import { TOOLS } from "@/lib/tools-content";
  * Only published months appear. Listing an unwritten month would advertise a
  * 404, since `dynamicParams = false` means unpublished months are not built.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
   const alt = (build: (l: string) => string) => {
@@ -115,6 +117,53 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/tools/${tool.slug}`),
         },
+      });
+    }
+  }
+
+  // Baby names hub — hub + /boys + /girls + one per origin + every name.
+  // `updated` isn't tracked per-row in `baby_names` (unlike the guide's
+  // `updated` field), so these get no `lastModified` rather than a fake one.
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/names`,
+      changeFrequency: "monthly",
+      priority: 0.6,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/names`) },
+    });
+    for (const seg of ["boys", "girls"]) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/names/${seg}`,
+        changeFrequency: "monthly",
+        priority: 0.6,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/names/${seg}`) },
+      });
+    }
+  }
+
+  const [origins, names] = await Promise.all([getOrigins(), getAllNames()]);
+
+  for (const origin of origins) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/names/origin/${originSlug(origin)}`,
+        changeFrequency: "monthly",
+        priority: 0.5,
+        alternates: {
+          languages: alt((l) => `${SITE_URL}/${l}/names/origin/${originSlug(origin)}`),
+        },
+      });
+    }
+  }
+
+  for (const n of names) {
+    const slug = slugForName(n);
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/names/${slug}`,
+        changeFrequency: "yearly",
+        priority: 0.5,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/names/${slug}`) },
       });
     }
   }
