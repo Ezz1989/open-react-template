@@ -36,3 +36,18 @@ export function formatBothCalendars(date: Date, locale: Locale): { gregorian: st
   ).format(date);
   return { gregorian, hijri };
 }
+
+/** Same idea as `formatBothCalendars`, month + year only — for a due MONTH
+ *  rather than a specific day (the cohort pages don't claim to know a
+ *  reader's exact date, only which month she's due). */
+export function formatMonthYearBothCalendars(date: Date, locale: Locale): { gregorian: string; hijri: string } {
+  const gregorian = date.toLocaleDateString(locale === "ar" ? "ar-EG" : "en-GB", {
+    year: "numeric",
+    month: "long",
+  });
+  const hijri = new Intl.DateTimeFormat(
+    locale === "ar" ? "ar-SA-u-ca-islamic-umalqura" : "en-u-ca-islamic-umalqura",
+    { year: "numeric", month: "long" },
+  ).format(date);
+  return { gregorian, hijri };
+}

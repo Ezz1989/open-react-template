@@ -5,6 +5,7 @@ import { publishedArticles } from "@/lib/father-content";
 import { TOOLS } from "@/lib/tools-content";
 import { getAllNames, getOrigins, slugForName } from "@/lib/names-data";
 import { originSlug } from "@/lib/names-content";
+import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
 
 /**
  * /sitemap.xml
@@ -164,6 +165,30 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "yearly",
         priority: 0.5,
         alternates: { languages: alt((l) => `${SITE_URL}/${l}/names/${slug}`) },
+      });
+    }
+  }
+
+  // Birth-month cohort pages — a rolling 24-month forward window, so this
+  // list (and the sitemap entry for it) simply moves forward on the next
+  // build with no manual upkeep, same as `upcomingCohorts()` itself.
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/due`,
+      changeFrequency: "monthly",
+      priority: 0.6,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/due`) },
+    });
+  }
+
+  for (const cohort of upcomingCohorts(24)) {
+    const slug = cohortSlug(cohort);
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/due/${slug}`,
+        changeFrequency: "monthly",
+        priority: 0.6,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/due/${slug}`) },
       });
     }
   }

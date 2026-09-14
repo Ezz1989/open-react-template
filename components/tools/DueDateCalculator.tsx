@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { Locale } from "@/lib/constants";
 import { formatBothCalendars, localizedNumber } from "@/lib/utils";
+import { cohortSlug } from "@/lib/due-content";
 
 const T = {
   label: { en: "First day of your last period", ar: "أول يوم من آخر دورة شهرية" },
@@ -18,6 +20,7 @@ const T = {
     en: "That date is in the future — pick the first day of your last period.",
     ar: "هذا التاريخ في المستقبل — اختاري أول يوم من آخر دورة شهرية.",
   },
+  timeline: { en: "See your full nine-month timeline →", ar: "شوفي رحلتك التسعة أشهر كاملة ←" },
 } as const;
 
 /**
@@ -70,6 +73,26 @@ export function DueDateCalculator({ locale }: { locale: Locale }) {
           <p className="t-result-value">
             {localizedNumber(result.week, locale)} <span className="t-result-of">{T.weekOf[locale]}</span>
           </p>
+
+          {/* Only linked when the due month is this month or later. An LMP
+              old enough to put the due date in the past (clamped week 42,
+              already overdue by the calculator's own math) has no matching
+              static page — those cohorts have no future search traffic, so
+              the fix is not linking rather than generating pages nobody
+              would look for. */}
+          {(result.due.getFullYear() > new Date().getFullYear() ||
+            (result.due.getFullYear() === new Date().getFullYear() &&
+              result.due.getMonth() >= new Date().getMonth())) && (
+            <p style={{ marginTop: 18 }}>
+              <Link
+                href={`/${locale}/due/${cohortSlug({ year: result.due.getFullYear(), month: result.due.getMonth() + 1 })}`}
+                className="t-hint"
+                style={{ textDecoration: "underline" }}
+              >
+                {T.timeline[locale]}
+              </Link>
+            </p>
+          )}
         </div>
       )}
     </div>

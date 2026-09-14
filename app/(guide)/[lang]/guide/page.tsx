@@ -87,6 +87,16 @@ export default async function GuideHubPage({
         <h1 className="display-md">{GUIDE_HUB.title[locale]}</h1>
         <p className="g-hub-stand">{GUIDE_HUB.standfirst[locale]}</p>
 
+        {/* Contextual link, not a header nav item — a visitor here is
+            already thinking in months, so "find my month from my due date"
+            belongs on THIS page, not competing for space in every page's
+            header. */}
+        <p className="g-hub-due-link">
+          <Link href={`/${locale}/due`}>
+            {locale === "ar" ? "مش متأكدة من شهرك؟ ابحثي عنه بموعد ولادتك ←" : "Not sure which month you're in? Find it by your due date →"}
+          </Link>
+        </p>
+
         <ol className="g-hub-list">
           {months.map((m) => {
             const doc = getMonth(m);
@@ -116,6 +126,8 @@ export default async function GuideHubPage({
       <style>{`
         .g-hub { max-width: 760px; padding-block: 56px 0; }
         .g-hub-stand { margin-top: 16px; font-size: 19px; line-height: 1.65; color: var(--fg-muted); }
+        .g-hub-due-link { margin-top: 20px; font-size: 14px; }
+        .g-hub-due-link a { text-decoration: underline; color: var(--accent-strong); }
         .g-hub-list { list-style: none; margin-top: 40px; padding: 0; }
         .g-hub-list li { border-top: 1px solid var(--border); }
         .g-hub-list li:last-child { border-bottom: 1px solid var(--border); }
