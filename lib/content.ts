@@ -12,6 +12,20 @@ export const content = {
       articles: "Guides",
       guide: "Mother's guide",
       fatherGuide: "Father's guide",
+      // Added 2026-09-15: the "Guides" dropdown previously listed only the
+      // two guides, so /tools, /names and /due had zero link from the
+      // homepage — a real visitor could only reach them by direct URL,
+      // search, or the sitemap.
+      // "Tools" here matches GuideChrome.tsx's own header label for the same
+      // destination — one word for one page, not two different names for it
+      // depending on which nav a visitor is looking at.
+      tools: "Tools",
+      // Deliberately NOT reusing `names` (the Features dropdown already uses
+      // that label for the "#names" homepage teaser anchor) — this entry
+      // points at the full /names hub, a different destination, and two
+      // identical labels in two different dropdowns would read as a bug.
+      namesHub: "All names",
+      dueMonth: "Due month",
       about: "About us",
       mother: "Mother",
       father: "Father",
@@ -369,6 +383,10 @@ export const content = {
       articles: "إرشادات",
       guide: "دليل الأم",
       fatherGuide: "دليل الأب",
+      // Matches GuideChrome.tsx's own header labels for the same destinations.
+      tools: "الأدوات",
+      namesHub: "كل الأسماء",
+      dueMonth: "شهر ولادتك",
       about: "من نحن",
       mother: "الأم",
       father: "الأب",

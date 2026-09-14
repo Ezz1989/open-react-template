@@ -155,6 +155,10 @@ export function Navbar() {
   const articleItems: MenuItem[] = [
     { label: t("nav.guide") as string, href: `/${lang}/guide`, route: true },
     { label: t("nav.fatherGuide") as string, href: `/${lang}/father`, route: true },
+    // Added 2026-09-15 — see lib/content.ts's comment on nav.tools for why.
+    { label: t("nav.tools") as string, href: `/${lang}/tools`, route: true },
+    { label: t("nav.namesHub") as string, href: `/${lang}/names`, route: true },
+    { label: t("nav.dueMonth") as string, href: `/${lang}/due`, route: true },
   ];
 
   return (

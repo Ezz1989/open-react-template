@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { useLang } from "@/lib/lang-context";
 
 interface Name {
@@ -12,7 +13,7 @@ interface Name {
 }
 
 export function BabyNamesSection() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const names = t("names.seeds") as readonly Name[];
   const originChips = t("names.originChips") as readonly string[];
   const savedLabel = t("names.savedLabel") as string;
@@ -20,6 +21,10 @@ export function BabyNamesSection() {
   const headlineA = t("names.headlineA") as string;
   const headlineB = t("names.headlineB") as string;
   const sub = t("names.sub") as string;
+  // Added 2026-09-15: this section only ever showed the handful of names in
+  // `names.seeds` with no way out to the other 240+ — a dead end for anyone
+  // who liked what they saw here. /names is the full hub built this session.
+  const browseAll = lang === "ar" ? "تصفّحي كل ٢٥٠ اسم ←" : "Browse all 250 names →";
 
   const [idx, setIdx] = useState(0);
   const [liked, setLiked] = useState<string[]>([]);
@@ -68,6 +73,11 @@ export function BabyNamesSection() {
               </div>
             ))}
           </div>
+          <p style={{ marginTop: 24 }}>
+            <Link href={`/${lang}/names`} style={{ fontSize: 14, textDecoration: "underline", color: "var(--accent-strong)" }}>
+              {browseAll}
+            </Link>
+          </p>
           {liked.length > 0 && (
             <div style={{ marginTop: 28, fontSize: 14, color: "var(--fg-muted)" }}>
               {savedLabel}{" "}
