@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Naskh_Arabic } from "next/font/google";
 import { DIR, LOCALES, SITE_URL, type Locale } from "@/lib/constants";
+import { PostHogProvider } from "@/components/PostHogProvider";
 import "../../globals.css";
 
 /**
@@ -81,7 +82,7 @@ export default async function GuideRootLayout({
   return (
     <html lang={locale} dir={DIR[locale]}>
       <body className={`${instrument.variable} ${plusJakarta.variable} ${notoArabic.variable}`}>
-        {children}
+        <PostHogProvider>{children}</PostHogProvider>
       </body>
     </html>
   );

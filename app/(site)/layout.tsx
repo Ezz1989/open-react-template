@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Naskh_Arabic } from "next/font/google";
 import { LangProvider } from "@/lib/lang-context";
 import { ModeProvider } from "@/lib/mode-context";
+import { PostHogProvider } from "@/components/PostHogProvider";
 import "../globals.css";
 
 const instrument = Instrument_Serif({
@@ -45,9 +46,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${instrument.variable} ${plusJakarta.variable} ${notoArabic.variable}`}>
-        <ModeProvider>
-          <LangProvider>{children}</LangProvider>
-        </ModeProvider>
+        <PostHogProvider>
+          <ModeProvider>
+            <LangProvider>{children}</LangProvider>
+          </ModeProvider>
+        </PostHogProvider>
       </body>
     </html>
   );
