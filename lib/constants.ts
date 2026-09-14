@@ -147,3 +147,18 @@ export function fatherPlayUrl(locale: Locale, slug: string): string {
     content: `${locale}_father_${slug}`,
   });
 }
+
+/**
+ * The calculator tools, their own campaign for the same reason `father_guide`
+ * is separate from `pregnancy_guide`: a tool page is judged on a different
+ * metric (did the result screen convert to a store click) than an article
+ * (did it hold a session), so they must not share one bucket.
+ */
+export function toolsPlayUrl(locale: Locale, tool: string): string {
+  return playStoreUrl({
+    source: "nawahapp.net",
+    medium: "organic_tool",
+    campaign: "tools",
+    content: `${locale}_${tool}`,
+  });
+}

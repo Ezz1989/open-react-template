@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
+import { TOOLS } from "@/lib/tools-content";
 
 /**
  * /sitemap.xml
@@ -87,6 +88,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/father/${doc.slug}`),
+        },
+      });
+    }
+  }
+
+  // The calculator tools. Same shape as the father-series loop above: keyed
+  // by slug, so it gets its own hub + per-tool loop rather than folding into
+  // the month numbers.
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/tools`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/tools`) },
+    });
+  }
+
+  for (const tool of TOOLS) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/tools/${tool.slug}`,
+        lastModified: new Date(tool.updated),
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: {
+          languages: alt((l) => `${SITE_URL}/${l}/tools/${tool.slug}`),
         },
       });
     }
