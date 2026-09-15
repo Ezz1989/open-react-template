@@ -204,6 +204,17 @@ If a real clinician ever reviews these pages, add a `reviewer` field and a
 Every URL in `citations` was opened and read before it was written down.
 `retrieved` records the day that happened.
 
+**Cap: 2 citations per article.** Verifying every individual claim
+line-by-line against a fresh NHS/MedlinePlus page is real, compounding work —
+each article was eating 8-10 fetches chasing a citation per sentence. Pick the
+2 sources that cover the article's core claims (the reasons/how-it-works
+source and the risks/red-flags source, typically) and write the rest of the
+article from established, uncontroversial medical consensus without a URL
+attached to every line. Still never invent a specific number, threshold, or
+study finding — if a precise figure needs sourcing and doesn't fit the 2
+picked sources, soften it to the general shape of the fact rather than adding
+a 3rd citation to chase it down.
+
 This is not ceremony. Two CDC URLs and one NHS URL that looked entirely
 plausible returned 403 and 404 when actually fetched during the month 1 write.
 A plausible-looking `acog.org` path that nobody opened is a fabrication, and on

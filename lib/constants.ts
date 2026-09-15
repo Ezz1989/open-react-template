@@ -162,3 +162,17 @@ export function toolsPlayUrl(locale: Locale, tool: string): string {
     content: `${locale}_${tool}`,
   });
 }
+
+/**
+ * The P4 article clusters (glossary, صيام الحامل, تكلفة الولادة, etc.) — their own campaign for
+ * the same reason father_guide is split from pregnancy_guide: a different content series,
+ * judged separately in Play Console's Acquisition reports.
+ */
+export function articlesPlayUrl(locale: Locale, cluster: string, slug: string): string {
+  return playStoreUrl({
+    source: "nawahapp.net",
+    medium: "organic_article",
+    campaign: "topic_articles",
+    content: `${locale}_${cluster}_${slug}`,
+  });
+}

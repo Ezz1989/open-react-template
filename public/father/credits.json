@@ -86,5 +86,38 @@
     "alt": "A close-up view of a soft, light-colored linen fabric displaying its intricate texture and weave.",
     "width": 7680,
     "height": 5120
+  },
+  {
+    "slot": "soothing-crying-baby-hero",
+    "query": "soft muslin blanket folded neutral texture",
+    "src": "/father/soothing-crying-baby-hero.jpg",
+    "photographer": "Sandra Filipe",
+    "photographerUrl": "https://www.pexels.com/@sandra-filipe-64798",
+    "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-white-textile-7087672/",
+    "alt": "Close-up view of smooth, white fabric texture with gentle folds and wrinkles.",
+    "width": 5641,
+    "height": 3761
+  },
+  {
+    "slot": "safe-sleep-setup-hero",
+    "query": "empty white crib nursery no people",
+    "src": "/father/safe-sleep-setup-hero.jpg",
+    "photographer": "Polina Tankilevitch",
+    "photographerUrl": "https://www.pexels.com/@polina-tankilevitch",
+    "pexelsUrl": "https://www.pexels.com/photo/crib-next-to-bed-in-bedroom-3875087/",
+    "alt": "Cozy bedroom with white cute wooden crib locating in corner near empty bed with white sheet and pillows and built in wardrobe on daytime",
+    "width": 3000,
+    "height": 2000
+  },
+  {
+    "slot": "intimacy-hero",
+    "query": "wedding rings bedside table soft light minimal",
+    "src": "/father/intimacy-hero.jpg",
+    "photographer": "Matheus Lara",
+    "photographerUrl": "https://www.pexels.com/@matheus-lara-1785960246",
+    "pexelsUrl": "https://www.pexels.com/photo/wedding-rings-and-red-heart-on-a-white-plate-30268247/",
+    "alt": "Two gold wedding rings with a red heart on a white plate, symbolizing love.",
+    "width": 4928,
+    "height": 3264
   }
 ]

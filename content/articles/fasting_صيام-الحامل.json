@@ -1,0 +1,92 @@
+{
+  "cluster": "صيام الحامل",
+  "topic": "صيام الحامل",
+  "title": "صيام الحامل: الدليل الطبي الشامل لسلامتكِ",
+  "standfirst": "تعرفي على تأثير الصيام على سكر الدم والترطيب، واكتشفي العلامات التي تستدعي كسر الصيام فورًا للحفاظ على سلامتكِ وسلامة طفلكِ.",
+  "eyebrow": "صحة الحامل",
+  "sections": [
+    {
+      "heading": "الموقف الطبي من صيام الحامل",
+      "body": "نطرح هنا الصورة الطبية حول صيام الحامل. أما مسألة الوجوب الديني أو الإعفاء من الصيام فهي سؤال يوجه لمرجعيتكِ الدينية الخاصة، وليس لهذا المقال. لا يقدم هذا المقال أي فتاوى دينية. من الناحية الطبية، تختلف التوصيات باختلاف حالتكِ الصحية الفردية ووجود أي أمراض مزمنة مثل السكري. راقبي حركة طفلكِ وتغييرات جسمكِ يوميًا، واستشيري طبيبكِ لتقييم وضعكِ الخاص قبل اتخاذ القرار."
+    },
+    {
+      "heading": "تأثير صيام الحامل على الترطيب وسكر الدم",
+      "body": "يؤثر الانقطاع عن الطعام والشراب لساعات طويلة على جسمكِ. الجفاف يسبب أعراضًا مثل الدوار والشعور بالتعب، وفي حالاته الشديدة قد يصل إلى تسارع في ضربات القلب أو التنفس. لذلك يجب عليكِ شرب كميات وفيرة من الماء بين الإفطار والسحور. أما خطر انخفاض سكر الدم أثناء الصيام فهو موثق بشكل خاص لدى الحوامل المصابات بسكري الحمل أو السكري من النوع الأول، حيث رصدت الأبحاث زيادة في نوبات هبوط السكر خلال الساعات الأخيرة من الصيام لدى هذه الفئة تحديدًا.",
+      "sources": [
+        "https://medlineplus.gov/dehydration.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9263982/"
+      ]
+    },
+    {
+      "heading": "احتياج الحامل من السعرات في الثلث الأخير",
+      "body": "يحتاج جسمكِ في الثلث الأخير من الحمل طاقة أكبر لدعم نمو طفلكِ السريع. تشير مصادر طبية موثوقة إلى أن الحامل تحتاج في هذه المرحلة إلى نحو ٢٤٠٠ سعرة حرارية يوميًا للحفاظ على نمو صحي، وهو ما يجعل الصيام لساعات طويلة أكثر إرهاقًا وتحديًا لكِ في هذا الثلث تحديدًا.",
+      "sources": [
+        "https://medlineplus.gov/ency/patientinstructions/000584.htm"
+      ]
+    },
+    {
+      "heading": "الحالات الطبية التي تستدعي الحذر من صيام الحامل",
+      "body": "التوصية الطبية الموثقة الأوضح تخص الحوامل المصابات بسكري الحمل أو السكري من النوع الأول: الأبحاث الطبية تنصح هذه الفئة تحديدًا بعدم الصيام، لارتفاع خطر هبوط السكر الحاد أثناء ساعات الصيام الأخيرة. بالنسبة لأي حالة صحية أخرى، سواء فقر دم أو قيء مستمر أو أي مرض مزمن يستدعي دواءً منتظمًا نهارًا، فالقرار يعود لطبيبكِ المتابع لحالتكِ.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9263982/"
+      ]
+    }
+  ],
+  "redFlags": [
+    "الشعور بالعطش الشديد، أو ملاحظة تحول لون البول للداكن جدًا.",
+    "الشعور بالدوار المستمر، أو الضعف، أو نوبات الصداع الشديدة.",
+    "ملاحظة نقص ملحوظ أو تغير في حركة طفلكِ المعتادة.",
+    "الشعور بالإعياء المفاجئ أو التعب الشديد خلال ساعات النهار."
+  ],
+  "cta": {
+    "feature": "symptom/hydration tracking",
+    "text": "تابعي كميات الماء التي تشربينها بين الإفطار والسحور وسجلي أي أعراض جديدة تشعرين بها باستخدام أداة تتبع الأعراض في تطبيق نواة."
+  },
+  "faqs": [
+    {
+      "q": "هل يؤثر صيام الحامل على وزن الجنين؟",
+      "a": "لا توجد أدلة قوية من مصادر موثوقة تثبت أن الصيام في حمل صحي غير مصاب بالسكري يقلل وزن الطفل بشكل مباشر، لكن من الضروري مراقبة حركة الجنين يوميًا واستشارة الطبيب."
+    },
+    {
+      "q": "كيف أتجنب الجفاف أثناء صيام الحامل؟",
+      "a": "اشربي كميات وفيرة من الماء بين الإفطار والسحور، وانتبهي لعلامات الجفاف المبكرة مثل الدوار والتعب وتغير لون البول."
+    },
+    {
+      "q": "هل يمكن لمصابة سكري الحمل الصيام؟",
+      "a": "التوصية الطبية الموثقة هي عدم الصيام لمصابات سكري الحمل أو السكري من النوع الأول، لارتفاع خطر هبوط السكر الحاد، وخاصة في الساعات الأخيرة من اليوم. استشيري طبيبكِ المتابع لحالتكِ قبل أي قرار."
+    }
+  ],
+  "citations": [
+    {
+      "url": "https://medlineplus.gov/dehydration.html",
+      "source": "MedlinePlus",
+      "retrieved": "2026-09-15",
+      "note": "General dehydration symptoms (dizziness, fatigue, severe warning signs). Does not mention pregnancy specifically."
+    },
+    {
+      "url": "https://medlineplus.gov/ency/patientinstructions/000584.htm",
+      "source": "MedlinePlus",
+      "retrieved": "2026-09-15",
+      "note": "States approximately 2,400 total calories/day in the third trimester for most normal-weight pregnant women."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9263982/",
+      "source": "PMC / NCBI (peer-reviewed literature review)",
+      "retrieved": "2026-09-15",
+      "note": "Ramadan fasting and maternal/fetal outcomes in pregnant women WITH DIABETES specifically — increased hypoglycemia frequency in last 3 fasting hours, current recommendation against fasting for pregnant women with diabetes. Do not generalize this finding to non-diabetic pregnancies."
+    }
+  ],
+  "_verification_log": {
+    "verified_by": "Claude, 2026-09-15",
+    "removed_from_gemini_draft": [
+      "Citation to yourhealth.leicestershospitals.nhs.uk — fetched, content was an unrelated patient/public-involvement PDF, not about fasting. Fabricated-looking citation, dropped entirely.",
+      "Citation to tommys.org — not on the approved source list (MedlinePlus/NHS/WHO ELENA per ARTICLE_PATTERN.md §5), and fetch returned 403 so it could not be verified either way. Dropped.",
+      "Claim 'no medical evidence proves fasting harms a healthy pregnancy' — no approved source found supporting this specific assertion. Softened to 'consult your doctor about your individual case.'",
+      "Claim that dehydration raises UTI risk and blood-clot risk specifically — not supported by the MedlinePlus dehydration page (only symptom found: dizziness, fatigue, severe symptoms). Removed.",
+      "The '+200 extra calories/day' figure — traces to Tommy's (not approved), and other sources (MedlinePlus, PMC5104202) suggest a wider range (350-450 extra, or ~2400 total). Replaced with MedlinePlus's own stated total figure (~2400 kcal/day, third trimester).",
+      "Blood-sugar-drop claim was written as applying to ALL pregnant women; the only real source (PMC9263982) documents this specifically for women with gestational/type-1 diabetes during Ramadan. Re-scoped the claim to that population.",
+      "Anemia/hyperemesis as flatly-stated fasting contraindications — no approved-body source found for these specifically in the time spent; generalized to 'ask your doctor about your own condition' instead of asserting them as established fact."
+    ],
+    "still_unverified": "Whether MedlinePlus/NHS/WHO has ANY page specifically about pregnancy + Ramadan fasting (as opposed to the general dehydration/nutrition pages used here) was not found. If one surfaces later, prefer it over the current citation set."
+  }
+}

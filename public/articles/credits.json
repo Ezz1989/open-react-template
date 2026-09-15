@@ -1,0 +1,46 @@
+[
+  {
+    "slot": "fasting-hero",
+    "query": "glass water pitcher dates bowl minimal",
+    "src": "/articles/fasting-hero.jpg",
+    "photographer": "cottonbro studio",
+    "photographerUrl": "https://www.pexels.com/@cottonbro",
+    "pexelsUrl": "https://www.pexels.com/photo/a-pitcher-with-water-beside-a-ceramic-bowl-6802639/",
+    "alt": "A minimalist photograph showcasing a ceramic bowl with almonds and a glass pitcher of water on a dark blue background.",
+    "width": 6240,
+    "height": 4160
+  },
+  {
+    "slot": "postpartum-hero",
+    "query": "soft folded blanket cozy bed minimal neutral",
+    "src": "/articles/postpartum-hero.jpg",
+    "photographer": "Cup of  Couple",
+    "photographerUrl": "https://www.pexels.com/@cup-of-couple",
+    "pexelsUrl": "https://www.pexels.com/photo/overhead-shot-of-a-white-blanket-7303685/",
+    "alt": "A close-up view of crumpled white bedsheets in soft, natural lighting, offering a cozy and calm texture.",
+    "width": 5657,
+    "height": 3771
+  },
+  {
+    "slot": "csection-hero",
+    "query": "empty hospital room bed calm minimal",
+    "src": "/articles/csection-hero.jpg",
+    "photographer": "Odin Reyna",
+    "photographerUrl": "https://www.pexels.com/@odin-reyna-383507",
+    "pexelsUrl": "https://www.pexels.com/photo/empty-hospital-beds-8410648/",
+    "alt": "Dimly lit vintage hospital room featuring empty beds and medical equipment, creating a nostalgic atmosphere.",
+    "width": 6016,
+    "height": 4016
+  },
+  {
+    "slot": "gender-prediction-hero",
+    "query": "neutral yellow baby clothes folded minimal",
+    "src": "/articles/gender-prediction-hero.jpg",
+    "photographer": "Sarah  Chai",
+    "photographerUrl": "https://www.pexels.com/@sarah-chai",
+    "pexelsUrl": "https://www.pexels.com/photo/unrecognizable-woman-folding-baby-clothes-7282430/",
+    "alt": "Crop faceless female with red manicure folding colorful baby garments while sitting at white table in light room at home",
+    "width": 6000,
+    "height": 4000
+  }
+]

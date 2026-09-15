@@ -105,6 +105,23 @@ const WANTED = [
   { slot: "hospital-bag-hero", query: "empty open suitcase on bed minimal" },
   { slot: "her-mood-hero", query: "two cups of tea on table minimal neutral" },
   { slot: "baby-movements-hero", query: "folded grey linen fabric texture minimal" },
+
+  // P4 father_expansion additions (2026-09-16). Same no-faces, no-Latin-
+  // signage rules as above.
+
+  // soothing-crying-baby. Not a photo of a crying baby or a holding father —
+  // a soft muslin/swaddle texture carries the comfort theme without a face.
+  { slot: "soothing-crying-baby-hero", query: "soft muslin blanket folded neutral texture" },
+
+  // safe-sleep-setup. Deliberately a plain crib, not the moses basket already
+  // used for baby-budget-hero — same nursery-object family, different item,
+  // so the two father articles don't visually duplicate each other.
+  { slot: "safe-sleep-setup-hero", query: "empty white crib nursery no people" },
+
+  // sex-during-pregnancy. Discreet, not clinical and not coy: wedding rings
+  // on a bedside table imply the topic without a single identifiable person
+  // or anything remotely explicit in frame.
+  { slot: "intimacy-hero", query: "wedding rings bedside table soft light minimal" },
 ];
 
 /**

@@ -247,6 +247,45 @@ const CITE_MENTAL_PREG: Citation = {
   retrieved: "2026-08-22",
 };
 
+/* ── P4 father_expansion citations (2026-09-16). ──────────────────────────── */
+
+const CITE_SOOTHING: Citation = {
+  id: "nhs-soothing-crying-baby",
+  org: "NHS",
+  title: { en: "Soothing a crying baby", ar: "تهدئة بكاء الرضيع" },
+  url: "https://www.nhs.uk/conditions/baby/caring-for-a-newborn/soothing-a-crying-baby/",
+  retrieved: "2026-09-16",
+};
+
+const CITE_SIDS: Citation = {
+  id: "nhs-reduce-sids-risk",
+  org: "NHS",
+  title: {
+    en: "Reduce the risk of sudden infant death syndrome (SIDS)",
+    ar: "تقليل مخاطر متلازمة موت الرضيع المفاجئ",
+  },
+  url: "https://www.nhs.uk/baby/caring-for-a-newborn/reduce-the-risk-of-sudden-infant-death-syndrome/",
+  retrieved: "2026-09-16",
+};
+
+/*
+ * intimacy (sex-during-pregnancy) deliberately carries NO citation.
+ *
+ * Checked four routes for a compliant source before writing this: NHS
+ * retired its own "sex in pregnancy" page and it now 301-redirects to
+ * Tommy's, which docs/ARTICLE_PATTERN.md §5's NEVER list already bans as a
+ * citation; MedlinePlus has no dedicated page on the topic; Ireland's HSE
+ * equivalent returns 403 to every automated fetch, same failure class as
+ * ACOG/CDC; and the actual PMC literature on sex-and-preterm-birth is
+ * genuinely mixed across studies, not a clean fact to assert as settled.
+ *
+ * Decision (user, 2026-09-16): rather than force a non-compliant source or
+ * cut the topic, the article drops medical-safety claims entirely and
+ * answers the real underlying question instead — who to ask, and that
+ * asking is normal. Nothing in it is a factual medical claim, so nothing
+ * needs a citation.
+ */
+
 /* ────────────────────────────────────────────────────────────────────────── */
 
 /**
@@ -1808,6 +1847,365 @@ const fathersMentalHealth: FatherArticle = {
   updated: "2026-08-22",
 };
 
+/**
+ * Article — العلاقة الزوجية أثناء الحمل.
+ *
+ * The intimacy cluster (clusters.js) is deliberately father-voiced — research
+ * found this fits the "asking on behalf of, privately" pattern better than a
+ * mother-voiced article would. See the CITE block comment above for why this
+ * article carries no citations: no NHS/MedlinePlus/WHO source survived
+ * verification, so it answers "who do we ask" rather than asserting a
+ * medical safety fact nobody could confirm.
+ *
+ * Register: clinical-warm, never coy, never explicit. No red-flag block —
+ * the whole point of the article is "ask her doctor", not a symptom list.
+ */
+const intimacy: FatherArticle = {
+  slug: "sex-during-pregnancy",
+  published: true,
+  hero: {
+    src: "/father/intimacy-hero.jpg",
+    alt: {
+      en: "Two gold wedding rings resting on a small white dish on a wooden table.",
+      ar: "خاتما زواج ذهبيان على طبق أبيض صغير فوق طاولة خشبية.",
+    },
+    photographer: "Matheus Lara",
+    photographerUrl: "https://www.pexels.com/@matheuslaraphoto",
+    pexelsUrl: "https://www.pexels.com/photo/wedding-rings-and-red-heart-on-a-white-plate-30268247/",
+    width: 1890,
+    height: 1080,
+  },
+  title: {
+    en: "Sex during pregnancy: the question most couples don't ask out loud",
+    ar: "العلاقة الزوجية أثناء الحمل: السؤال الذي لا يُطرح بصوت عالٍ",
+  },
+  metaTitle: {
+    en: "Sex During Pregnancy: A Father's Guide | Nawah",
+    ar: "العلاقة الزوجية أثناء الحمل: دليل الأب | نواة",
+  },
+  description: {
+    en: "A plain answer to a question most couples feel awkward asking out loud — and why the real answer depends on her specific pregnancy, not a generic rule.",
+    ar: "إجابة واضحة عن سؤال يشعر أغلب الأزواج بالحرج من طرحه بصوت عالٍ — ولماذا تعتمد الإجابة الحقيقية على حالة حملها هي تحديدًا، لا على قاعدة عامة.",
+  },
+  standfirst: {
+    en: "There's no single universal answer here, and any page that gives you a confident yes-or-no is oversimplifying. What actually helps is knowing who to ask — and that asking is completely normal.",
+    ar: "لا توجد إجابة عامة واحدة هنا، وأي صفحة تعطيك «نعم» أو «لا» قاطعة تبسّط الأمر أكثر مما ينبغي. ما يفيدك فعلاً هو معرفة من تسأل — وأن السؤال نفسه أمر طبيعي تمامًا.",
+  },
+  sections: [
+    {
+      heading: {
+        en: "Why there's no one-size-fits-all answer",
+        ar: "لماذا لا توجد إجابة واحدة تناسب الجميع",
+      },
+      body: [
+        {
+          en: "Every pregnancy is different, and whether it's fine at any given point depends on things specific to her — how the pregnancy is progressing, whether anything unusual came up at a checkup, what stage she's in. That's exactly the kind of question her doctor or midwife can answer directly, with her actual chart in front of them — not a general page written for every reader.",
+          ar: "كل حمل مختلف، وما إذا كان الأمر مناسبًا في أي مرحلة يعتمد على تفاصيل خاصة بحالتها — كيف يسير الحمل، وهل ظهر أي شيء غير معتاد في فحص سابق، وفي أي مرحلة هي الآن. هذا بالضبط نوع السؤال الذي يستطيع طبيبها أو قابلتها الإجابة عنه مباشرة، وأمامهما ملفها الفعلي — لا صفحة عامة مكتوبة لكل قارئ.",
+        },
+      ],
+    },
+    {
+      heading: { en: "The one thing worth knowing: just ask", ar: "الشيء الوحيد المهم معرفته: فقط اسأل" },
+      body: [
+        {
+          en: "Most couples feel awkward raising this with a doctor. It helps to know it's one of the most ordinary questions a maternity appointment gets — asking directly, by name, gets you a real answer instead of a guess from a search result.",
+          ar: "يشعر معظم الأزواج بالحرج من طرح هذا على الطبيب. يفيد أن تعرف أنه من أكثر الأسئلة اعتيادية في زيارة الحمل — وطرحه مباشرة وبوضوح يمنحكما إجابة حقيقية بدل تخمين من نتيجة بحث.",
+        },
+      ],
+    },
+    {
+      heading: {
+        en: "If anything feels different, that's your answer to pause",
+        ar: "إذا شعرتما بأي شيء مختلف، فتلك إشارتكما للتوقف",
+      },
+      body: [
+        {
+          en: "You don't need a medical checklist to know when to stop and ask instead of guessing: any bleeding, any pain that isn't ordinary, or her simply telling you something feels wrong — that's reason enough to check with her doctor before continuing, not after.",
+          ar: "لا تحتاجان قائمة طبية لتعرفا متى تتوقفان لتسألا بدل أن تخمّنا: أي نزيف، أو ألم غير معتاد، أو مجرد أن تخبرك أن شيئًا يبدو خطأ — هذا سبب كافٍ للتأكد من طبيبها قبل الاستمرار، لا بعده.",
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      q: {
+        en: "Is it normal for how she feels about intimacy to change during pregnancy?",
+        ar: "هل من الطبيعي أن يتغيّر شعورها تجاه العلاقة خلال الحمل؟",
+      },
+      a: {
+        en: "Yes — fatigue, nausea, and simply how her body feels can shift things month to month. That's a conversation between the two of you, not a problem to fix.",
+        ar: "نعم — الإرهاق والغثيان وشعورها بجسدها يمكن أن يغيّر الأمر شهرًا بعد شهر. هذا حديث بينكما، لا مشكلة عليكما حلّها.",
+      },
+    },
+    {
+      q: { en: "Who do we actually ask?", ar: "من نسأل فعليًا؟" },
+      a: {
+        en: "Whoever is following her pregnancy — her doctor or midwife, at any regular appointment. It's a normal question to raise, not one that needs a special visit.",
+        ar: "من يتابع حملها — طبيبها أو قابلتها، في أي زيارة اعتيادية. إنه سؤال طبيعي يُطرح، لا يحتاج زيارة خاصة.",
+      },
+    },
+  ],
+  cta: {
+    headline: { en: "Keep the whole pregnancy in view, together", ar: "تابعا الحمل كاملاً معًا" },
+    body: {
+      en: "Nawah's father mode gives you your own week-by-week view alongside hers, so questions like this come up naturally as part of following along — not as something you have to bring up cold.",
+      ar: "يمنحك وضع الأب في نواة عرضك الأسبوعي الخاص إلى جانب عرضها، فتُطرح أسئلة كهذه بشكل طبيعي كجزء من المتابعة — لا كأمر عليك طرحه فجأة.",
+    },
+    button: { en: "Get Nawah free", ar: "حمّل نواة مجاناً" },
+  },
+  citations: [],
+  updated: "2026-09-16",
+};
+
+/**
+ * Article — تجهيز مكان نوم آمن للمولود.
+ *
+ * A prep-stage, concrete-DO article, same family as the hospital bag and the
+ * budget: something he can actually go and set up before the baby arrives,
+ * with a real safety payoff (SIDS risk) rather than a decorating task.
+ *
+ * No red-flag block — this is a one-time setup job, not something with an
+ * ongoing symptom to watch for.
+ */
+const safeSleepSetup: FatherArticle = {
+  slug: "safe-sleep-setup",
+  published: true,
+  hero: {
+    src: "/father/safe-sleep-setup-hero.jpg",
+    alt: {
+      en: "A white crib beside a bed with white linens, in a calm bedroom corner.",
+      ar: "سرير أطفال أبيض بجانب سرير بملاءات بيضاء، في ركن هادئ من غرفة النوم.",
+    },
+    photographer: "Polina Tankilevitch",
+    photographerUrl: "https://www.pexels.com/@polina-tankilevitch",
+    pexelsUrl: "https://www.pexels.com/photo/crib-next-to-bed-in-bedroom-3875087/",
+    width: 3000,
+    height: 2000,
+  },
+  title: {
+    en: "A safe place for your baby to sleep: what to set up before birth",
+    ar: "مكان نوم آمن لطفلك: ما تجهّزه قبل الولادة",
+  },
+  metaTitle: {
+    en: "Safe Sleep Setup for Your Newborn: A Father's Guide | Nawah",
+    ar: "تجهيز مكان نوم آمن للمولود: دليل الأب | نواة",
+  },
+  description: {
+    en: "What the NHS actually recommends for a newborn's sleep space: room-sharing, the mattress, what to keep out of the cot, and room temperature.",
+    ar: "ما توصي به هيئة الصحة البريطانية فعليًا لمكان نوم المولود: مشاركة الغرفة، المرتبة، ما تبعده عن السرير، ودرجة حرارة الغرفة.",
+  },
+  standfirst: {
+    en: "This is a task, not a mood board. Four decisions, made once before she comes home from hospital, that measurably lower the risk of SIDS.",
+    ar: "هذه مهمة لا لوحة تصميم. أربعة قرارات تتّخذها مرة واحدة قبل عودتهما من المستشفى، تقلّل فعليًا من خطر متلازمة موت الرضيع المفاجئ.",
+  },
+  sections: [
+    {
+      heading: {
+        en: "His own sleep space, in your room",
+        ar: "سرير مستقل له، في غرفتكما",
+      },
+      body: [
+        {
+          en: "The baby sleeps in his own cot or Moses basket, not in bed with either of you, but in the same room as you — for every sleep, day and night — for at least the first six months.",
+          ar: "ينام الطفل في سريره أو سلته الخاصة، لا في فراشكما، لكن في نفس غرفتكما — في كل نومة، ليلاً ونهارًا — لمدة ستة أشهر على الأقل.",
+        },
+      ],
+      cites: ["nhs-reduce-sids-risk"],
+    },
+    {
+      heading: {
+        en: "The mattress and what stays out of the cot",
+        ar: "المرتبة وما تبعده عن السرير",
+      },
+      body: [
+        {
+          en: "Use a firm, flat mattress with a fitted sheet — nothing soft or raised. Then place him feet-to-foot: his feet at the bottom of the cot, so he can't wriggle down under the covers.",
+          ar: "استخدم مرتبة صلبة ومستوية مع شرشف مثبّت — دون أي شيء طري أو مرتفع. ثم ضعه بوضعية «القدمين عند الحافة»: قدماه عند نهاية السرير، حتى لا ينزلق تحت الغطاء.",
+        },
+      ],
+      bullets: [
+        { en: "No pillows or duvets.", ar: "لا وسائد ولا لحف." },
+        { en: "No cot bumpers.", ar: "لا حواجز سرير مبطّنة." },
+        { en: "No loose blankets or soft toys.", ar: "لا بطانيات فضفاضة ولا ألعاب محشوّة." },
+      ],
+      cites: ["nhs-reduce-sids-risk"],
+    },
+    {
+      heading: {
+        en: "Room temperature",
+        ar: "درجة حرارة الغرفة",
+      },
+      body: [
+        {
+          en: "Keep the room between 16°C and 20°C, and dress him for that rather than piling on blankets. A baby who is too hot is a real, documented risk factor — not just a comfort question.",
+          ar: "حافظ على حرارة الغرفة بين ١٦ و٢٠ درجة مئوية، وألبسه وفق ذلك بدل تكديس البطانيات. حرارة الطفل الزائدة عامل خطر حقيقي وموثّق، لا مجرد مسألة راحة.",
+        },
+      ],
+      cites: ["nhs-reduce-sids-risk"],
+    },
+  ],
+  faqs: [
+    {
+      q: {
+        en: "Can he nap in the pram or car seat during the day?",
+        ar: "هل يمكنه أن ينام قيلولته في العربة أو مقعد السيارة؟",
+      },
+      a: {
+        en: "For a short trip, yes — but a flat, firm cot in your room stays the recommended setup for his main sleeps. Don't let a car-seat nap become his default at home.",
+        ar: "لرحلة قصيرة، نعم — لكن السرير المستوي الصلب في غرفتكما يبقى الإعداد الموصى به لنومه الأساسي. لا تجعل قيلولة مقعد السيارة نمطه الافتراضي في البيت.",
+      },
+    },
+    {
+      q: {
+        en: "When can we move him to his own room?",
+        ar: "متى ننقله إلى غرفته الخاصة؟",
+      },
+      a: {
+        en: "The guidance covers at least the first six months in your room. There's no rush before that point, and no feature or gadget replaces the room-sharing rule itself.",
+        ar: "توصي الإرشادات بستة أشهر على الأقل في غرفتكما. لا داعي للاستعجال قبل ذلك، ولا يغني أي جهاز أو ميزة عن قاعدة مشاركة الغرفة نفسها.",
+      },
+    },
+  ],
+  cta: {
+    headline: {
+      en: "Set this up before the due date, not after",
+      ar: "جهّز هذا قبل موعد الولادة، لا بعده",
+    },
+    body: {
+      en: "Nawah's father mode gives you the week-by-week view of what's left to prepare, so the cot gets set up with the same attention as the hospital bag — before the night you actually need it.",
+      ar: "يمنحك وضع الأب في نواة عرضًا أسبوعيًا لما تبقّى تجهيزه، ليُعَدّ السرير باهتمام كحقيبة المستشفى تمامًا — قبل الليلة التي تحتاجه فيها فعلًا.",
+    },
+    button: { en: "Get Nawah free", ar: "حمّل نواة مجاناً" },
+  },
+  citations: [CITE_SIDS],
+  updated: "2026-09-16",
+};
+
+/**
+ * Article — تهدئة بكاء الرضيع.
+ *
+ * Placed after labour and before his own mental health: this is the daily,
+ * recurring version of "something a father is actually asked to do", once
+ * she's home. The honest third section — what to do with your own frustration
+ * — is the reason this article exists rather than being a generic listicle.
+ */
+const soothingCryingBaby: FatherArticle = {
+  slug: "soothing-crying-baby",
+  published: true,
+  hero: {
+    src: "/father/soothing-crying-baby-hero.jpg",
+    alt: {
+      en: "Close-up of smooth, softly folded white fabric.",
+      ar: "لقطة مقرّبة لقماش أبيض ناعم مطوي برفق.",
+    },
+    photographer: "Sandra Filipe",
+    photographerUrl: "https://www.pexels.com/@sandra-filipe-64798",
+    pexelsUrl: "https://www.pexels.com/photo/close-up-shot-of-a-white-textile-7087672/",
+    width: 5641,
+    height: 3761,
+  },
+  title: {
+    en: "Soothing a crying baby: why he cries, and what to do",
+    ar: "تهدئة بكاء الرضيع: لماذا يبكي، وماذا تفعل",
+  },
+  metaTitle: {
+    en: "Soothing a Crying Baby: A Father's Guide | Nawah",
+    ar: "تهدئة بكاء الرضيع: دليل الأب | نواة",
+  },
+  description: {
+    en: "The common reasons a newborn cries, practical steps to soothe him, and what to do if you're the one who's overwhelmed.",
+    ar: "الأسباب الشائعة لبكاء المولود، خطوات عملية لتهدئته، وماذا تفعل إن شعرت أنت بالإرهاق.",
+  },
+  standfirst: {
+    en: "Crying is the only way your baby has to tell you something. This page breaks down what it usually means, what actually helps — and what to do when your own patience runs out.",
+    ar: "البكاء هو الوسيلة الوحيدة المتاحة لطفلك ليخبرك بشيء. هذه الصفحة تشرح ما يعنيه غالبًا، وما يساعد فعليًا — وماذا تفعل حين ينفد صبرك أنت.",
+  },
+  sections: [
+    {
+      heading: { en: "Why your baby cries", ar: "لماذا يبكي طفلك" },
+      body: [
+        {
+          en: "It isn't malice and it doesn't mean you're doing something wrong — it's the only tool he has. The usual reasons:",
+          ar: "لا يعني هذا سوء نية، ولا أنك تفعل شيئًا خاطئًا — إنها الأداة الوحيدة المتاحة له. الأسباب المعتادة:",
+        },
+      ],
+      bullets: [
+        { en: "Hunger.", ar: "الجوع." },
+        { en: "A dirty or wet nappy.", ar: "حفاض متّسخ أو مبلل." },
+        { en: "Tiredness.", ar: "التعب." },
+        { en: "Wanting to be held.", ar: "الرغبة في الاحتضان." },
+        { en: "Wind.", ar: "الغازات." },
+        { en: "Being too hot or too cold.", ar: "الشعور بالبرد أو الحر." },
+        { en: "Boredom, or overstimulation.", ar: "الملل، أو الإفراط في التحفيز." },
+      ],
+      cites: ["nhs-soothing-crying-baby"],
+    },
+    {
+      heading: { en: "Practical steps to soothe him", ar: "خطوات عملية لتهدئته" },
+      body: [
+        { en: "Try these, in whatever order suits him.", ar: "جرّب هذه الخطوات بالترتيب الذي يناسبه." },
+      ],
+      bullets: [
+        { en: "Offer him milk if it's feeding time.", ar: "قدّم له الحليب إذا حان وقت الرضاعة." },
+        { en: "Check his nappy and change it if needed.", ar: "تفقّد حفاضه وغيّره إذا لزم الأمر." },
+        { en: "Hold him close and move gently — walk, sway, rock.", ar: "احمله قريبًا منك وتحرّك برفق — سِر، تمايل، هزّه بلطف." },
+        { en: "Talk to him softly, or sing.", ar: "تحدّث إليه بصوت هادئ، أو غنِّ له." },
+        { en: "Pat his back gently to help him burp.", ar: "رَبِّت على ظهره برفق لمساعدته على التجشّؤ." },
+      ],
+      cites: ["nhs-soothing-crying-baby"],
+    },
+    {
+      heading: { en: "If you're the one who's overwhelmed", ar: "إذا شعرت أنت بالإرهاق" },
+      body: [
+        {
+          en: "Your calm genuinely affects him. If the crying won't stop and you feel yourself getting tense: put him down safely in his cot, close the door, and go to another room. Set yourself a limit — ten minutes, say — then go back. Ask someone around you for help rather than pushing through alone.",
+          ar: "هدوؤك يؤثّر فيه فعلًا. إن استمر البكاء وشعرت بالتوتر: ضعه بأمان في سريره، أغلق الباب، واذهب إلى غرفة أخرى. حدّد لنفسك وقتًا — عشر دقائق مثلًا — ثم عُد إليه. اطلب المساعدة ممن حولك بدل أن تتحمّل الأمر وحدك.",
+        },
+      ],
+      cites: ["nhs-soothing-crying-baby"],
+    },
+  ],
+  redFlags: {
+    heading: { en: "When crying is a medical sign, not just crying", ar: "حين يكون البكاء علامة طبية لا مجرد بكاء" },
+    intro: {
+      en: "Contact your doctor if the crying comes with any of these — they point to something beyond the ordinary reasons above.",
+      ar: "تواصل مع طبيبكما إذا رافق البكاء أيًا مما يلي — فهي تشير إلى ما هو أبعد من الأسباب المعتادة أعلاه.",
+    },
+    items: [
+      { en: "A fever.", ar: "ارتفاع في الحرارة." },
+      { en: "Repeated vomiting, or refusing feeds altogether.", ar: "قيء متكرر، أو رفض تام للرضاعة." },
+      { en: "Visible difficulty breathing.", ar: "صعوبة واضحة في التنفس." },
+      { en: "A cry that sounds unusually high-pitched or weak, or won't settle no matter what you try.", ar: "بكاء يبدو حادًا أو ضعيفًا بشكل غير معتاد، أو لا يهدأ مهما حاولت." },
+    ],
+  },
+  faqs: [
+    {
+      q: { en: "When should I worry about how much he's crying?", ar: "متى يجب أن أقلق من كثرة بكائه؟" },
+      a: {
+        en: "Ordinary crying responds, eventually, to feeding, changing, holding or sleep. If nothing works, or the crying comes with a fever, vomiting, or breathing trouble, call your doctor.",
+        ar: "البكاء العادي يستجيب في النهاية للرضاعة أو التغيير أو الاحتضان أو النوم. إذا لم ينفع شيء، أو رافقه ارتفاع حرارة أو قيء أو صعوبة تنفس، اتصل بطبيبكما.",
+      },
+    },
+    {
+      q: { en: "Does picking him up every time spoil him?", ar: "هل حمله في كل مرة يفسد طباعه؟" },
+      a: {
+        en: "No. Responding to a newborn's crying builds his sense of safety — it tells him you're there, not that he can manipulate you.",
+        ar: "لا. الاستجابة لبكاء المولود تبني شعوره بالأمان — تخبره أنك موجود، لا أنه قادر على التحكّم بك.",
+      },
+    },
+  ],
+  cta: {
+    headline: { en: "You don't have to figure this out alone at 3am", ar: "لست مضطرًا لحلّ هذا وحدك في الثالثة فجراً" },
+    body: {
+      en: "Nawah's father mode keeps you looped into what the week actually involves for a newborn, so a hard night is expected rather than alarming.",
+      ar: "يبقيك وضع الأب في نواة مطّلعًا على ما يحمله الأسبوع فعليًا مع مولود، فتكون الليلة الصعبة أمرًا متوقعًا لا مقلقًا.",
+    },
+    button: { en: "Get Nawah free", ar: "حمّل نواة مجاناً" },
+  },
+  citations: [CITE_SOOTHING],
+  updated: "2026-09-16",
+};
+
 /* ────────────────────────────────────────────────────────────────────────── */
 
 /**
@@ -1816,18 +2214,24 @@ const fathersMentalHealth: FatherArticle = {
  * than appended by default.
  *
  * The order is the pregnancy's, not the writing order. Mood applies from the
- * day they find out; the scan is week 20; movements begin around then and stay
- * relevant to the end; the budget is a second-trimester job; the bag is week
- * 37; labour is term. The father's own mental health goes last because it is
- * the only one whose window runs a year past the birth.
+ * day they find out; intimacy is a question that can come up any time from
+ * early on; the scan is week 20; movements begin around then and stay
+ * relevant to the end; the budget is a second-trimester job; the bag and the
+ * sleep setup are both late-pregnancy prep; labour is term; soothing a crying
+ * baby is the recurring newborn task once she's home. The father's own mental
+ * health goes last because it is the only one whose window runs a year past
+ * the birth.
  */
 export const fatherArticles: FatherArticle[] = [
   herMood,
+  intimacy,
   scan20Weeks,
   babyMovements,
   babyBudget,
   hospitalBag,
+  safeSleepSetup,
   labourSigns,
+  soothingCryingBaby,
   fathersMentalHealth,
 ];
 
