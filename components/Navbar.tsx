@@ -159,6 +159,9 @@ export function Navbar() {
     { label: t("nav.tools") as string, href: `/${lang}/tools`, route: true },
     { label: t("nav.namesHub") as string, href: `/${lang}/names`, route: true },
     { label: t("nav.dueMonth") as string, href: `/${lang}/due`, route: true },
+    // Added 2026-09-16 alongside app/(guide)/[lang]/articles/page.tsx — see
+    // that file's comment: the route existed with zero link from the site.
+    { label: t("nav.topicArticles") as string, href: `/${lang}/articles`, route: true },
   ];
 
   return (

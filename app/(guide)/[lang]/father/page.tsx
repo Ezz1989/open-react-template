@@ -94,6 +94,10 @@ export default async function FatherHubPage({
               ? "→ دليل الأم شهراً بعد شهر"
               : "← The mother's guide, month by month"}
           </Link>
+          {" · "}
+          <Link href={`/${locale}/articles`}>
+            {locale === "ar" ? "مقالات طبية →" : "Health articles →"}
+          </Link>
         </p>
       </main>
 

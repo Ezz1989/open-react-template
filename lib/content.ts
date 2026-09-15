@@ -26,6 +26,10 @@ export const content = {
       // identical labels in two different dropdowns would read as a bug.
       namesHub: "All names",
       dueMonth: "Due month",
+      // Added 2026-09-16: the topic-cluster articles (fasting, postpartum,
+      // c-section, etc.) had a live route and zero link from anywhere on the
+      // site — same gap `tools` fixed above, for the other hub.
+      topicArticles: "Health articles",
       about: "About us",
       mother: "Mother",
       father: "Father",
@@ -387,6 +391,7 @@ export const content = {
       tools: "الأدوات",
       namesHub: "كل الأسماء",
       dueMonth: "شهر ولادتك",
+      topicArticles: "مقالات طبية",
       about: "من نحن",
       mother: "الأم",
       father: "الأب",

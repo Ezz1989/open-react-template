@@ -57,6 +57,34 @@ export interface Article {
   verifiedNote?: string;
 }
 
+/**
+ * The topic-articles hub. Added 2026-09-16 alongside the first 4 published
+ * entries — the route existed before this (individual [cluster]/[slug]
+ * pages were live) but nothing on the site linked to any of them: no hub
+ * page, no nav entry. Same gap FATHER_HUB already solved for the father
+ * series; this is that pattern applied here.
+ */
+export const ARTICLES_HUB: {
+  title: Localized;
+  metaTitle: Localized;
+  description: Localized;
+  standfirst: Localized;
+} = {
+  title: { ar: "مقالات طبية", en: "Health articles" },
+  metaTitle: {
+    ar: "مقالات طبية عن الحمل | نواة",
+    en: "Pregnancy Health Articles | Nawah",
+  },
+  description: {
+    ar: "مقالات موثوقة عن مواضيع محددة في الحمل — من الصيام إلى التعافي بعد الولادة — بمصادر طبية تم التحقق منها.",
+    en: "Reliable articles on specific pregnancy topics — from fasting to postpartum recovery — sourced to verified medical bodies.",
+  },
+  standfirst: {
+    ar: "دليل الأم يغطي حملكِ شهراً بعد شهر. هذه الصفحات تغطي أسئلة محددة لا ترتبط بشهر واحد.",
+    en: "The month-by-month guide covers your pregnancy in order. These pages cover specific questions that don't belong to just one month.",
+  },
+};
+
 export const ARTICLES: Article[] = [
   {
     cluster: "fasting",
@@ -727,4 +755,8 @@ export const ARTICLES: Article[] = [
 
 export function resolveArticle(cluster: string, slug: string): Article | null {
   return ARTICLES.find((a) => a.cluster === cluster && a.slug === slug && a.published) ?? null;
+}
+
+export function publishedArticles(): Article[] {
+  return ARTICLES.filter((a) => a.published);
 }
