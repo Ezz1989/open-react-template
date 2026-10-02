@@ -240,7 +240,7 @@ export const content = {
     privacy: {
       eyebrow: "Legal",
       title: "Privacy Policy",
-      updated: "Last updated 11 August 2026",
+      updated: "Last updated 3 October 2026",
       intro:
         "Nawah holds some of the most private information there is — how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, who else can see it, and how to get rid of it.",
       sections: [
@@ -264,7 +264,7 @@ export const content = {
           heading: "Who else can see it",
           body: [
             "Your partner, only if you link accounts — and journal entries only when you mark them as shared. Everything else stays yours.",
-            "Service providers who process data on our behalf: Supabase (database and sign-in), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq (which processes messages you send to Nawal so it can reply).",
+            "Service providers who process data on our behalf: Supabase (database and sign-in), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
             "We do not sell your personal information to anyone.",
           ],
         },
@@ -272,7 +272,7 @@ export const content = {
           heading: "Nawal, the assistant",
           body: [
             "Nawal is software, not a doctor, nurse or midwife. It gives general information only and can be wrong. Nothing it says is medical advice, and it must never replace your own doctor.",
-            "Messages you send are processed by Groq to generate a reply. Do not send information you would not want processed by a third party.",
+            "Messages you send are processed by Groq, or by Google Gemini if Groq is unavailable, to generate a reply. Do not send information you would not want processed by a third party.",
           ],
         },
         {
@@ -599,7 +599,7 @@ export const content = {
     privacy: {
       eyebrow: "قانوني",
       title: "سياسة الخصوصية",
-      updated: "آخر تحديث ١١ أغسطس ٢٠٢٦",
+      updated: "آخر تحديث ٣ أكتوبر ٢٠٢٦",
       intro:
         "نواة يحتفظ بأكثر المعلومات خصوصية — كيف يسير الحمل، وكيف تشعرين، وما تكتبينه في الثالثة فجراً. هذه الصفحة تقول بوضوح ما الذي نخزّنه، ومن يستطيع رؤيته، وكيف تحذفينه.",
       sections: [
@@ -623,7 +623,7 @@ export const content = {
           heading: "من يستطيع رؤيتها",
           body: [
             "شريكك، فقط إذا ربطتما الحسابين — والمدوّنات اليومية فقط حين تحدّدينها كمشتركة. ما عدا ذلك يبقى لكِ وحدك.",
-            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وGoogle Firebase (تقارير الأعطال والإشعارات)، وPostHog (تحليلات استخدام مجهولة)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq (يعالج رسائلك إلى نوال ليردّ عليها).",
+            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وGoogle Firebase (تقارير الأعطال والإشعارات)، وPostHog (تحليلات استخدام مجهولة)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان رسائلك إلى نوال لتردّ عليها).",
             "لا نبيع معلوماتك الشخصية لأي جهة.",
           ],
         },
@@ -631,7 +631,7 @@ export const content = {
           heading: "نوال، المساعِدة",
           body: [
             "نوال برنامج، وليست طبيبة أو ممرضة أو قابلة. تعطي معلومات عامة فقط وقد تخطئ. لا شيء تقوله يُعدّ استشارة طبية، ولا يجوز أن يحلّ محل طبيبتك.",
-            "الرسائل التي ترسلينها تُعالَج عبر Groq لتوليد الرد. لا ترسلي معلومات لا ترغبين في أن تعالجها جهة خارجية.",
+            "الرسائل التي ترسلينها تُعالَج عبر Groq، أو عبر Google Gemini إذا تعذّر Groq، لتوليد الرد. لا ترسلي معلومات لا ترغبين في أن تعالجها جهة خارجية.",
           ],
         },
         {
