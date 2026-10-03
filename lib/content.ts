@@ -247,9 +247,9 @@ export const content = {
         {
           heading: "What we collect",
           body: [
-            "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google, we receive your email and name from Google — nothing else.",
+            "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google or Apple, we receive your email and name from them — nothing else. If you use Apple's Hide My Email, we receive a private relay address created by Apple instead of your real email.",
             "Pregnancy and health information you enter: last menstrual period, due date, week-by-week logs, symptoms, moods, kick counts, contraction timings, vitals, appointments, baby names, hospital bag and budget lists, and journal entries.",
-            "Messages you send to Nawal, the in-app assistant.",
+            "Messages you send to Nawal, the in-app assistant. They are passed to an AI provider to generate a reply; we do not store the conversation.",
             "Technical information: crash reports, and anonymous usage events such as which screens are opened.",
           ],
         },
@@ -264,7 +264,7 @@ export const content = {
           heading: "Who else can see it",
           body: [
             "Your partner, only if you link accounts — and journal entries only when you mark them as shared. Everything else stays yours.",
-            "Service providers who process data on our behalf: Supabase (database and sign-in), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
+            "Service providers who process data on our behalf: Supabase (database and sign-in), Apple (Sign in with Apple, on iPhone), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
             "We do not sell your personal information to anyone.",
           ],
         },
@@ -279,6 +279,7 @@ export const content = {
           heading: "Advertising",
           body: [
             "The free version shows ads through Google AdMob. In the EEA and UK you are asked for consent before any personalised advertising, and you can decline.",
+            "On iPhone, Nawah asks your permission through Apple's App Tracking Transparency prompt before using your device's advertising identifier. If you decline, ads are still shown, without that identifier. You can change this at any time in iPhone Settings, under Privacy & Security > Tracking.",
             "Premium removes ads entirely.",
           ],
         },
@@ -317,7 +318,7 @@ export const content = {
     deleteAccount: {
       eyebrow: "Your data",
       title: "Delete your account",
-      updated: "Last updated 11 August 2026",
+      updated: "Last updated 3 October 2026",
       intro:
         "You can delete your Nawah account and everything in it, at any time, without asking anyone's permission.",
       inAppHeading: "In the app — fastest",
@@ -337,7 +338,7 @@ export const content = {
         "Symptoms, moods, vitals, kick sessions and contraction timings",
         "Appointments, journal entries, baby names, hospital bag and budget lists",
         "The link to your partner's account",
-        "Your Nawal conversation history",
+        "Your Nawal daily message counter (the conversations themselves are never stored)",
       ],
       keptHeading: "What is kept, briefly",
       keptItems: [
@@ -353,10 +354,45 @@ export const content = {
         "Deleting your account removes the link. Your partner keeps their own account and their own entries; they lose access to anything of yours they could previously see.",
     },
 
+    support: {
+      eyebrow: "Help",
+      title: "Support",
+      updated: "Last updated 3 October 2026",
+      intro:
+        "A question about Nawah, a problem in the app, or something about your subscription? Write to us and a person will answer.",
+      sections: [
+        {
+          heading: "Your subscription",
+          body: [
+            "Nawah Premium is billed by Apple on iPhone and by Google Play on Android, so it is managed there, not inside Nawah.",
+            "To cancel on iPhone: open Settings, tap your name, tap Subscriptions, choose Nawah, then tap Cancel Subscription.",
+            "To cancel on Android: open the Google Play app, go to your subscriptions, choose Nawah, then tap Cancel subscription.",
+            "Deleting the app or your account does not cancel the subscription. Refunds are handled by Apple (reportaproblem.apple.com) or Google Play, not by us.",
+          ],
+        },
+        {
+          heading: "Your account and data",
+          body: [
+            "You can delete your account from inside the app under Profile, or follow the account deletion page on this site. Our privacy policy explains what we store and who can see it.",
+          ],
+        },
+        {
+          heading: "In an emergency",
+          body: [
+            "Nawah cannot help in a medical emergency. Call your doctor or go straight to the nearest hospital.",
+          ],
+        },
+      ],
+      contactHeading: "Contact us",
+      contactBody: "If your question is about your account, please write from the email address you signed up with.",
+      contactEmail: "nawahapp@outlook.com",
+    },
+
     footer: {
       links: [
         { label: "Privacy", href: "/privacy" },
         { label: "Delete account", href: "/delete-account" },
+        { label: "Support", href: "/support" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "Instagram", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
         { label: "TikTok", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
@@ -606,9 +642,9 @@ export const content = {
         {
           heading: "ما الذي نجمعه",
           body: [
-            "بيانات الحساب: بريدك الإلكتروني، والاسم الظاهر، وما إذا كنتِ سجّلتِ كأم أو كأب. إذا سجّلتِ الدخول عبر جوجل، نستلم منه بريدك واسمك فقط، ولا شيء غير ذلك.",
+            "بيانات الحساب: بريدك الإلكتروني، والاسم الظاهر، وما إذا كنتِ سجّلتِ كأم أو كأب. إذا سجّلتِ الدخول عبر جوجل أو Apple، نستلم منهما بريدك واسمك فقط، ولا شيء غير ذلك. وإذا اخترتِ إخفاء بريدك عند التسجيل عبر Apple، نستلم عنواناً بديلاً تُنشئه Apple بدل بريدك الحقيقي.",
             "معلومات الحمل والصحة التي تدخلينها: تاريخ آخر دورة، موعد الولادة المتوقع، السجلات الأسبوعية، الأعراض، الحالة المزاجية، عدّاد الركلات، توقيت الانقباضات، المؤشرات الحيوية، المواعيد، أسماء الطفل، قائمة حقيبة المستشفى والميزانية، ومدوّناتك اليومية.",
-            "الرسائل التي ترسلينها إلى نوال، المساعِدة داخل التطبيق.",
+            "الرسائل التي ترسلينها إلى نوال، المساعِدة داخل التطبيق. تُمرَّر إلى مزوّد ذكاء اصطناعي ليُنشئ الرد، ولا نخزّن المحادثة.",
             "معلومات تقنية: تقارير الأعطال، وأحداث استخدام مجهولة الهوية مثل الشاشات التي تُفتح.",
           ],
         },
@@ -623,7 +659,7 @@ export const content = {
           heading: "من يستطيع رؤيتها",
           body: [
             "شريكك، فقط إذا ربطتما الحسابين — والمدوّنات اليومية فقط حين تحدّدينها كمشتركة. ما عدا ذلك يبقى لكِ وحدك.",
-            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وGoogle Firebase (تقارير الأعطال والإشعارات)، وPostHog (تحليلات استخدام مجهولة)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان رسائلك إلى نوال لتردّ عليها).",
+            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وApple (تسجيل الدخول عبر Apple على iPhone)، وGoogle Firebase (تقارير الأعطال والإشعارات)، وPostHog (تحليلات استخدام مجهولة)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان رسائلك إلى نوال لتردّ عليها).",
             "لا نبيع معلوماتك الشخصية لأي جهة.",
           ],
         },
@@ -638,6 +674,7 @@ export const content = {
           heading: "الإعلانات",
           body: [
             "النسخة المجانية تعرض إعلانات عبر Google AdMob. في الاتحاد الأوروبي والمملكة المتحدة يُطلب إذنك قبل أي إعلان مخصّص، ويمكنك الرفض.",
+            "على iPhone، يطلب نواة إذنك عبر نافذة الشفافية في تتبّع التطبيقات من Apple قبل استخدام معرّف الإعلانات في جهازك. إذا رفضتِ، تظهر الإعلانات من دون هذا المعرّف. ويمكنك تغيير اختيارك في أي وقت من إعدادات iPhone، قسم الخصوصية والأمن ثم التتبّع.",
             "النسخة المدفوعة تزيل الإعلانات تماماً.",
           ],
         },
@@ -676,7 +713,7 @@ export const content = {
     deleteAccount: {
       eyebrow: "بياناتك",
       title: "حذف حسابك",
-      updated: "آخر تحديث ١١ أغسطس ٢٠٢٦",
+      updated: "آخر تحديث ٣ أكتوبر ٢٠٢٦",
       intro: "يمكنك حذف حسابك في نواة وكل ما فيه، في أي وقت، دون إذن من أحد.",
       inAppHeading: "من التطبيق — الأسرع",
       inAppSteps: [
@@ -695,7 +732,7 @@ export const content = {
         "الأعراض والحالة المزاجية والمؤشرات الحيوية وجلسات الركلات وتوقيت الانقباضات",
         "المواعيد والمدوّنات وأسماء الطفل وقائمة حقيبة المستشفى والميزانية",
         "الرابط مع حساب شريكك",
-        "سجلّ محادثاتك مع نوال",
+        "عدّاد رسائلك اليومية مع نوال (أما المحادثات نفسها فلا تُخزَّن أبداً)",
       ],
       keptHeading: "ما يُحتفظ به لفترة قصيرة",
       keptItems: [
@@ -711,10 +748,45 @@ export const content = {
         "حذف حسابك يلغي الارتباط. يحتفظ شريكك بحسابه وبمدخلاته، ويفقد الوصول إلى أي شيء يخصّك كان يراه من قبل.",
     },
 
+    support: {
+      eyebrow: "مساعدة",
+      title: "الدعم",
+      updated: "آخر تحديث ٣ أكتوبر ٢٠٢٦",
+      intro:
+        "عندك سؤال عن نواة، أو مشكلة في التطبيق، أو استفسار عن اشتراكك؟ راسلينا وسيردّ عليك شخص حقيقي.",
+      sections: [
+        {
+          heading: "اشتراكك",
+          body: [
+            "اشتراك نواة بريميوم تُحصّله Apple على iPhone وGoogle Play على أندرويد، لذلك تتم إدارته من هناك وليس من داخل نواة.",
+            "للإلغاء على iPhone: افتحي الإعدادات، اضغطي على اسمك، ثم الاشتراكات، اختاري نواة، ثم اضغطي إلغاء الاشتراك.",
+            "للإلغاء على أندرويد: افتحي تطبيق Google Play، ثم اشتراكاتك، اختاري نواة، ثم اضغطي إلغاء الاشتراك.",
+            "حذف التطبيق أو الحساب لا يُلغي الاشتراك. وطلبات استرداد المبلغ تتولّاها Apple (reportaproblem.apple.com) أو Google Play، وليس نحن.",
+          ],
+        },
+        {
+          heading: "حسابك وبياناتك",
+          body: [
+            "يمكنك حذف حسابك من داخل التطبيق في صفحة الملف الشخصي، أو باتباع صفحة حذف الحساب في هذا الموقع. وسياسة الخصوصية توضّح ما نخزّنه ومن يمكنه رؤيته.",
+          ],
+        },
+        {
+          heading: "في حالات الطوارئ",
+          body: [
+            "نواة لا تستطيع المساعدة في حالة طوارئ طبية. اتصلي بطبيبك أو توجّهي فوراً إلى أقرب مستشفى.",
+          ],
+        },
+      ],
+      contactHeading: "تواصلي معنا",
+      contactBody: "إذا كان سؤالك عن حسابك، فراسلينا من البريد الذي سجّلتِ به.",
+      contactEmail: "nawahapp@outlook.com",
+    },
+
     footer: {
       links: [
         { label: "الخصوصية", href: "/privacy" },
         { label: "حذف الحساب", href: "/delete-account" },
+        { label: "الدعم", href: "/support" },
         { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
         { label: "إنستجرام", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
         { label: "تيك توك", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
