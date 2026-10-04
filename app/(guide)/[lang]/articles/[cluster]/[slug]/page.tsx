@@ -10,8 +10,15 @@ import {
   articlesPlayUrl,
   type Locale,
 } from "@/lib/constants";
-import { BYLINE, MEDICAL_DISCLAIMER, type GuideImage } from "@/lib/guide-content";
-import { ARTICLES, resolveArticle } from "@/lib/articles-content";
+import { BYLINE, MEDICAL_DISCLAIMER, MONTH_LABEL, type GuideImage, type Localized } from "@/lib/guide-content";
+import {
+  ARTICLES,
+  ARTICLES_HUB,
+  publishedArticles,
+  resolveArticle,
+  type Article,
+} from "@/lib/articles-content";
+import { getArticle as getFatherArticle } from "@/lib/father-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 import { PanicNormalPanel } from "@/components/PanicNormalPanel";
 
@@ -112,6 +119,33 @@ function Figure({
   );
 }
 
+/**
+ * Internal links for "read next": the paths Gemini picked from the live-page
+ * list, then same-cluster siblings, then any other article, up to 4. Only pages that resolve to a real
+ * published title survive, so a stale path can never render a dead link.
+ * Internal links are how Google finds and weighs these pages beyond the hub.
+ */
+function readNext(doc: Article, locale: Locale): { href: string; title: string }[] {
+  const out: { href: string; title: string }[] = [];
+  const add = (href: string, title?: Localized) => {
+    if (!title || out.some((o) => o.href === href) || out.length >= 4) return;
+    out.push({ href, title: title[locale] });
+  };
+  for (const raw of doc.related ?? []) {
+    const parts = raw.split("/").filter(Boolean).slice(1); // drop the /ar or /en prefix
+    const href = `/${locale}/${parts.join("/")}`;
+    if (parts[0] === "articles" && parts.length === 3) add(href, resolveArticle(parts[1], parts[2])?.title);
+    else if (parts[0] === "father" && parts.length === 2) add(href, getFatherArticle(parts[1])?.title);
+    else if (parts[0] === "guide" && parts.length === 2) add(href, MONTH_LABEL[Number(parts[1])]);
+  }
+  for (const a of publishedArticles())
+    if (a.cluster === doc.cluster && a.slug !== doc.slug)
+      add(`/${locale}/articles/${a.cluster}/${a.slug}`, a.title);
+  for (const a of publishedArticles()) // then any other article, so no page is a dead end
+    if (a.slug !== doc.slug) add(`/${locale}/articles/${a.cluster}/${a.slug}`, a.title);
+  return out;
+}
+
 export default async function ClusterArticlePage({
   params,
 }: {
@@ -124,6 +158,7 @@ export default async function ClusterArticlePage({
   const url = `${SITE_URL}/${locale}/articles/${doc.cluster}/${doc.slug}`;
   const altPath = `/${locale === "en" ? "ar" : "en"}/articles/${doc.cluster}/${doc.slug}`;
   const cite = (id: string) => doc.citations.find((c) => c.id === id);
+  const next = readNext(doc, locale);
 
   /** No FAQPage — Google removed the FAQ rich result in 2026, same as the
    *  month/father routes. */
@@ -139,6 +174,8 @@ export default async function ClusterArticlePage({
         inLanguage: HREFLANG[locale],
         datePublished: doc.updated,
         dateModified: doc.updated,
+        mainEntityOfPage: url,
+        ...(doc.keywords?.length ? { keywords: doc.keywords.join(", ") } : {}),
         author: { "@type": "Organization", name: BYLINE.name[locale] },
         publisher: { "@type": "Organization", name: "Nawah", url: SITE_URL },
         citation: doc.citations.map((c) => ({
@@ -151,8 +188,9 @@ export default async function ClusterArticlePage({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: doc.eyebrow[locale], item: `${SITE_URL}/${locale}` },
-          { "@type": "ListItem", position: 2, name: doc.title[locale], item: url },
+          { "@type": "ListItem", position: 1, name: locale === "ar" ? "نواة" : "Nawah", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: ARTICLES_HUB.title[locale], item: `${SITE_URL}/${locale}/articles` },
+          { "@type": "ListItem", position: 3, name: doc.title[locale], item: url },
         ],
       },
     ],
@@ -201,6 +239,28 @@ export default async function ClusterArticlePage({
                     <li key={j}>{b[locale]}</li>
                   ))}
                 </ul>
+              )}
+              {s.table && (
+                <div className="g-table-wrap">
+                  <table className="g-table">
+                    <thead>
+                      <tr>
+                        {s.table.head.map((h, j) => (
+                          <th key={j}>{h[locale]}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {s.table.rows.map((r, j) => (
+                        <tr key={j}>
+                          {r.map((c, k) => (
+                            <td key={k}>{c[locale]}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               )}
               {s.afterBullets?.map((p, j) => (
                 <p key={`a${j}`}>{p[locale]}</p>
@@ -270,7 +330,24 @@ export default async function ClusterArticlePage({
 
           <p className="g-disclaimer">{MEDICAL_DISCLAIMER[locale]}</p>
 
+          {next.length > 0 && (
+            <nav className="g-next" aria-label={locale === "ar" ? "اقرئي أيضاً" : "Read next"}>
+              <h2>{locale === "ar" ? "اقرئي أيضاً" : "Read next"}</h2>
+              <ul>
+                {next.map((n) => (
+                  <li key={n.href}>
+                    <Link href={n.href}>{n.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+
           <p className="g-back">
+            <Link href={`/${locale}/articles`}>
+              {locale === "ar" ? "→ كل المقالات" : "← All articles"}
+            </Link>
+            {" · "}
             <Link href={`/${locale}/guide`}>
               {locale === "ar" ? "→ دليل الأم شهراً بعد شهر" : "← The mother's guide, month by month"}
             </Link>
@@ -330,6 +407,20 @@ export default async function ClusterArticlePage({
           background: var(--bg-elev); border-radius: var(--radius-sm);
           font-size: 13px; line-height: 1.7; color: var(--fg-muted);
         }
+
+        .g-table-wrap { overflow-x: auto; margin: 0 0 16px; }
+        .g-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+        .g-table th, .g-table td {
+          padding: 10px 12px; border: 1px solid var(--border);
+          text-align: start; vertical-align: top; line-height: 1.6;
+        }
+        .g-table th { background: var(--bg-elev); font-weight: 600; }
+
+        .g-next { margin-top: 40px; }
+        .g-next h2 { font-size: 20px; font-weight: 500; margin-bottom: 12px; }
+        .g-next ul { padding-inline-start: 20px; list-style: disc; }
+        .g-next li { margin-bottom: 8px; }
+        .g-next a { text-decoration: underline; }
 
         .g-back { margin-top: 32px; font-size: 14px; }
         .g-back a { text-decoration: underline; }

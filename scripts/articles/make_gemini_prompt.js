@@ -3,6 +3,7 @@
  *
  *   node scripts/articles/make_gemini_prompt.js topics <cluster> [--count=8]
  *   node scripts/articles/make_gemini_prompt.js article <cluster> "<topic>" [--split=<label>]
+  node scripts/articles/make_gemini_prompt.js batch <cluster>          (after topics → content/topics/<cluster>.json)
  *
  * Output: content/prompts/<mode>_<slug>.txt — paste that file into Gemini.
  *
@@ -17,13 +18,14 @@
 const fs = require('fs');
 const path = require('path');
 const { CLUSTERS, CLUSTER_TAGS, resolveCluster } = require('./clusters');
+const { suggest } = require('./suggest');
 
 const ROOT = path.join(__dirname, '..', '..'); // nawah-landing/
 const OUT_DIR = path.join(ROOT, 'content/prompts');
 
 // ------------------------------------------------------------------ injected blocks
 
-function blockMsaVoice() {
+function blockMsaVoice(c) {
   return `## اللغة والنبرة — Modern Standard Arabic, SuperMama's register
 
 Researched against the two sites that own these queries (\`docs/ARTICLE_PATTERN.md\` §2a).
@@ -45,7 +47,10 @@ from dialect vocabulary. Match SuperMama, not WebTeb.
   literary sentence. \`أعراض الحمل في الشهر الأول\`, not \`لماذا يبدأ العدّ قبل حدوث الحمل\`. A
   reader scanning for a term must find it verbatim in a heading.
 - Arabic-Indic digits in prose (١٢ not 12).
-- No dialect words at all — the app carries the dialect, this page does not.`;
+- No dialect words at all — the app carries the dialect, this page does not.${c && c.voice === 'father'
+  ? `\n- 🔴 **This is a FATHER article: second-person MASCULINE (ـكَ) throughout, spoken TO him.** He is
+  always learning, never failing — no jokes at his expense.`
+  : ''}`;
 }
 
 function blockArticleStructure() {
@@ -54,7 +59,8 @@ function blockArticleStructure() {
 1. Eyebrow (names the cluster/topic)
 2. \`title\` (h1) — written for a person, repeats the search term per the heading rule above
 3. \`standfirst\` — one promise, no "in this article we will..."
-4. \`sections[]\` — 3 to 5. Each ends with its own \`sources\` if it made a factual claim
+4. \`sections[]\` — 5 to 8 H2 sections (see SEO block for length). A section cites only if it
+   makes a factual claim. Use \`bullets\` for lists/steps and \`table\` for any comparison
 5. \`redFlags\` — **before the CTA**, if this topic has any (required whenever medical: true and a
    symptom/timing dimension exists; omit the field entirely, don't fake one, if it genuinely
    doesn't apply)
@@ -84,11 +90,11 @@ function blockSources() {
 Per \`docs/ARTICLE_PATTERN.md\` §5 — this is the site's article rule, NOT the reel pipeline's
 source list, and the two must not be conflated:
 
-- **Cap: 2 citations for the whole article.** Pick the 2 sources that cover the core claims
-  (typically: the reasons/how-it-works source, and the risks/red-flags source) and write
-  everything else from established medical consensus without chasing a URL per sentence. Still
-  never invent a specific number, threshold, or study finding to fit this cap — soften an
-  unsourceable figure to the general shape of the fact instead of adding a 3rd citation.
+- **ONE main source for the whole article (user decision 2026-10-04).** Pick the single page that
+  covers the article's core claims and write everything else from established medical consensus.
+  Never invent a specific number, threshold, or study finding — if a figure isn't on that one
+  page, soften it to the general shape of the fact. (Price/admin articles are the exception: see
+  the Deep Research block.)
 - **Preferred, fetch cleanly: MedlinePlus, NHS, WHO ELENA.** Use these by default.
 - **🔴 ACOG returns HTTP 402 and CDC returns 403 to every automated fetch.** If a claim can only
   be sourced there, either find the same fact at MedlinePlus/NHS/WHO instead, or state plainly
@@ -106,6 +112,56 @@ source list, and the two must not be conflated:
   attribute it vaguely to "studies" or "doctors". "I don't know" is a correct answer here.
 - The source decides the FACT. The user decides the WORD — never ship a literal translation of
   an English medical term because a source used it.`;
+}
+
+function blockSeo(topic, searches, live) {
+  const list = searches.length
+    ? searches.slice(0, 40).map(x => `- ${x.q}  (${x.markets.join('+')})`).join('\n')
+    : '- (autocomplete returned nothing — pick the phrasing WebTeb/SuperMama use in their titles)';
+  return `## SEO — this article must rank on Google AND get quoted by AI answers
+
+**Real Google searches for this topic** (Google autocomplete, Egypt \`eg\` and Saudi \`sa\`, pulled
+${new Date().toISOString().slice(0, 10)} — what people actually type; \`eg+sa\` = searched in both):
+
+${list}
+
+Rules — each is checked by a script before publishing; a failed check sends the article back:
+
+1. **Primary keyword** = the strongest search above that matches "${topic}". Put it in
+   \`primaryKeyword\`. It must appear: at the START of \`title.ar\`, in \`metaTitle.ar\`, in
+   \`description.ar\`, in the first sentence of the first section, and in at least 2 H2 headings.
+2. **Secondary keywords**: 6–12 other searches from the list, in \`keywords\`. Each becomes an H2
+   heading or a FAQ question, worded as people type it. No stuffing — each used once or twice.
+3. **\`metaTitle.ar\` ≤ 60 characters**, keyword first, ends with " | نواة". \`metaTitle.en\` ≤ 60.
+4. **\`description.ar\` 120–155 characters**, contains the primary keyword, promises the answer.
+5. **Answer first (AI-quotable):** the first paragraph of section 1 answers the search directly in
+   2–3 sentences that make sense quoted alone. No preamble.
+6. **Length: 1,200–1,800 Arabic words** across sections. Short paragraphs (2–4 sentences).
+7. **Every H2 section stands alone** — readable if an AI lifts only that section.
+8. **Structure AI engines extract:** bulleted steps for any "how", a \`table\` for any comparison
+   or price list, a one-sentence plain definition for any medical term.
+9. **FAQs: 6–8**, questions copied from the search list above where possible, answers 2–4 sentences.
+10. **\`slug\`**: short English kebab-case of the keyword (e.g. \`iron-during-pregnancy\`), ≤ 5 words.
+11. **\`imageQuery\`**: an English Pexels search for a calm editorial hero photo — objects or hands,
+    no identifiable faces, no bare belly, no Latin text/signage in shot.
+12. **Internal links:** pick 2–4 pages from the live list below that a reader of THIS article would
+    open next; put their paths in \`related\`.
+
+**Live pages on nawahapp.net** (for \`related\` — and do not duplicate their topic):
+${live.map(x => `- ${x}`).join('\n')}`;
+}
+
+function blockDeepResearch(c) {
+  if (!c.deepResearch) return '';
+  return `## 🔎 Use Gemini DEEP RESEARCH for this one
+
+Turn on Deep Research before sending. Every concrete figure, office, document or deadline must
+come from a page you actually opened, dated 2025 or 2026, and its URL goes in \`citations\` and in
+that section's \`cites\`. Here MORE than one citation is allowed — one per distinct source used.
+Put prices/steps in a \`table\` where possible, with the source and month/year per row. Anything
+you cannot source is left out, never estimated. Write "تحقّق من [الجهة] قبل التنفيذ" where rules
+change often.
+`;
 }
 
 function blockArticleCta(c) {
@@ -157,6 +213,9 @@ ${c.topicGate}
 
 ${c.medical ? blockSources() + '\n' : ''}${blockClusterUsedTopics(c)}
 
+**Live pages on nawahapp.net right now:**
+${livePages().map(x => `- ${x}`).join('\n')}
+
 # OUTPUT FORMAT — a JSON array, nothing else
 
 \`\`\`json
@@ -165,7 +224,7 @@ ${c.medical ? blockSources() + '\n' : ''}${blockClusterUsedTopics(c)}
     "title": "the exact article <h1>, as a noun phrase repeating the search term — MSA",
     "cluster": "${c.name}",
     ${c.shape === 'split' ? '"split_label": "which of the cluster\'s labels this topic is for",\n    ' : ''}"tier": 1,
-    "search_term": "the term a reader would actually type — what this title must contain verbatim",
+    "search_term": "the SHORT phrase a reader actually types into Google (2–4 words) — it is checked against real Google autocomplete and topics nobody searches are dropped",
     "why": "one line: what makes this cluster's own gate true for this topic"
   }
 ]
@@ -181,7 +240,7 @@ Rules:
 function promptArticle(c, topic, opts) {
   return `You are an Arabic pregnancy-content writer for **نواة (Nawah)**, an Arabic
 pregnancy-tracking app used in Egypt and the Gulf, writing one **website article** in Modern
-Standard Arabic. This is NOT social-video content — no dialect, no spoken-line formatting.
+Standard Arabic, plus its English version. This is NOT social-video content — no dialect.
 
 # THE TASK
 
@@ -195,7 +254,10 @@ ${c.note ? `Cluster rules: ${c.note}` : ''}
 
 ${c.topicGate}
 
-${blockMsaVoice()}
+${blockDeepResearch(c)}
+${blockSeo(topic, opts.searches, opts.live)}
+
+${blockMsaVoice(c)}
 
 ${blockArticleStructure()}
 
@@ -205,28 +267,54 @@ ${c.medical ? blockSources() + '\n' : ''}${blockArticleCta(c)}
 
 # OUTPUT FORMAT — one JSON code block, nothing else
 
+Every text field is \`{ "ar": "...", "en": "..." }\`. English is a faithful, natural translation of
+the Arabic (not a different article). Section/FAQ/redFlags \`cites\` hold citation ids.
+
 \`\`\`json
 {
-  "cluster": "${c.name}",
-  "topic": "${topic}",
-  "title": "...",
-  "standfirst": "...",
-  "eyebrow": "...",
+  "cluster": "${c.tag}",
+  "slug": "english-kebab-slug",
+  "primaryKeyword": "the Arabic primary keyword, verbatim from the search list",
+  "keywords": ["secondary search 1", "secondary search 2"],
+  "imageQuery": "english pexels query",
+  "related": ["/ar/guide/3", "/ar/articles/fasting/fasting-during-pregnancy"],
+  "eyebrow": { "ar": "...", "en": "..." },
+  "title": { "ar": "...", "en": "..." },
+  "metaTitle": { "ar": "... | نواة", "en": "... | Nawah" },
+  "description": { "ar": "120–155 chars", "en": "..." },
+  "standfirst": { "ar": "...", "en": "..." },
   "sections": [
-    { "heading": "a noun phrase repeating the search term", "body": "...", "sources": ["https://... omit field if no factual claim in this section"] }
+    {
+      "heading": { "ar": "noun phrase with a search term", "en": "..." },
+      "body": [ { "ar": "paragraph", "en": "..." } ],
+      "bullets": [ { "ar": "...", "en": "..." } ],
+      "table": { "head": [ { "ar": "...", "en": "..." } ], "rows": [ [ { "ar": "...", "en": "..." } ] ] },
+      "cites": ["src1"]
+    }
   ],
-  "redFlags": ${c.medical ? '["omit the whole field if this topic genuinely has none — do not fabricate one"]' : 'null'},
-  "cta": { "feature": "${c.ctaFeature}", "text": "the one ask, naming the feature" },
-  "faqs": [ { "q": "...", "a": "..." } ],
-  "citations": [ { "url": "https://...", "source": "MedlinePlus | NHS | WHO", "retrieved": "YYYY-MM-DD" } ]
+  "redFlags": ${c.medical ? '{ "intro": { "ar": "...", "en": "..." }, "items": [ { "ar": "...", "en": "..." } ], "cites": ["src1"] }' : 'null'},
+  "cta": { "headline": { "ar": "...", "en": "..." }, "body": { "ar": "names the ONE feature", "en": "..." }, "button": { "ar": "${c.voice === 'father' ? 'حمّل نواة' : 'حمّلي نواة'}", "en": "Get Nawah" } },
+  "faqs": [ { "q": { "ar": "...", "en": "..." }, "a": { "ar": "...", "en": "..." } } ],
+  "citations": [ { "id": "src1", "org": "NHS", "title": { "ar": "...", "en": "..." }, "url": "https://...", "retrieved": "YYYY-MM-DD" } ]
 }
 \`\`\`
 
-Before the JSON, write at most TWO lines: anything you could not source and therefore dropped,
-and (if the cluster note asks for a judgment call, e.g. gender_prediction's myth framing) how you
-applied it. After the JSON, write nothing.
+Omit \`bullets\`/\`table\`/\`cites\` on a section that has none.${c.medical ? ' Omit \`redFlags\` only if the topic genuinely has none.' : ''}
+Before the JSON, write at most TWO lines: anything you could not source and dropped. After the
+JSON, write nothing.`;
+}
 
-...   ← if the user added any extra constraint for this run, it is here`;
+/** Every live page path, so Gemini links to real pages and never duplicates one. Read from the
+ *  content files — a hand-kept list would go stale the first time an article ships. */
+function livePages() {
+  const read = f => { try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); } catch { return ''; } };
+  const out = ['/ar/guide (months 1–9: /ar/guide/1 … /ar/guide/9)', '/ar/tools', '/ar/names', '/ar/father'];
+  for (const m of read('lib/father-content.ts').matchAll(/^\s{2}slug: "([^"]+)"/gm)) out.push(`/ar/father/${m[1]}`);
+  for (const m of read('lib/articles-content.ts').matchAll(/cluster: "([^"]+)",\s*\n\s*slug: "([^"]+)"/g)) out.push(`/ar/articles/${m[1]}/${m[2]}`);
+  try {
+    for (const a of JSON.parse(read('lib/articles-generated.json') || '[]')) out.push(`/ar/articles/${a.cluster}/${a.slug}`);
+  } catch { /* first run — file not there yet */ }
+  return out;
 }
 
 // ------------------------------------------------------------------ dispatch
@@ -246,6 +334,7 @@ if (!mode || !tag) {
   console.log(`
   node scripts/articles/make_gemini_prompt.js topics <cluster> [--count=8]
   node scripts/articles/make_gemini_prompt.js article <cluster> "<topic>" [--split=<label>]
+  node scripts/articles/make_gemini_prompt.js batch <cluster>          (after topics → content/topics/<cluster>.json)
 
   clusters: ${CLUSTER_TAGS.join(' · ')}
 `);
@@ -255,25 +344,39 @@ if (!mode || !tag) {
 const c = resolveCluster(tag);
 if (!c) { console.error(`❌ unknown cluster "${tag}". Known: ${CLUSTER_TAGS.join(', ')}`); process.exit(1); }
 
-let text, outName;
-if (mode === 'topics') {
-  text = promptTopics(c, parseInt(flag('count', '8'), 10));
-  outName = `topics_${c.tag}.txt`;
-} else if (mode === 'article') {
-  if (!topicArg || topicArg.startsWith('--')) { console.error('❌ need a topic: ... <cluster> "<topic>"'); process.exit(1); }
-  text = promptArticle(c, topicArg, { splitLabel: flag('split') });
-  outName = `article_${c.tag}_${slug(topicArg)}.txt`;
-} else {
-  console.error(`❌ unknown mode "${mode}"`); process.exit(1);
+function write(outName, text) {
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  const out = path.join(OUT_DIR, outName);
+  fs.writeFileSync(out, text + '\n', 'utf8');
+  console.log(`✓ ${path.relative(ROOT, out)}  (${(text.length / 1000).toFixed(1)}k chars)`);
 }
 
-fs.mkdirSync(OUT_DIR, { recursive: true });
-const out = path.join(OUT_DIR, outName);
-fs.writeFileSync(out, text + '\n', 'utf8');
-
-console.log(`\n✓ ${path.relative(ROOT, out)}`);
-console.log(`  ${text.split('\n').length} lines · ${(text.length / 1000).toFixed(1)}k chars`);
-console.log(`\n  Paste the whole file into Gemini. Then:`);
-console.log(mode === 'topics'
-  ? `    pick a topic from the JSON, then run:\n      node scripts/articles/make_gemini_prompt.js article <cluster> "<chosen topic>"\n`
-  : `    save its JSON to content/articles/<cluster>_<slug>.json, then hand it to Claude to render\n`);
+(async () => {
+  if (mode === 'topics') {
+    write(`topics_${c.tag}.txt`, promptTopics(c, parseInt(flag('count', '8'), 10)));
+    console.log(`\n  Paste into Gemini → save its JSON array as content/topics/${c.tag}.json → then:\n` +
+      `    node scripts/articles/make_gemini_prompt.js batch ${c.tag}\n`);
+  } else if (mode === 'article') {
+    if (!topicArg || topicArg.startsWith('--')) { console.error('❌ need a topic: ... <cluster> "<topic>"'); process.exit(1); }
+    const searches = await suggest(flag('seed') || topicArg);
+    write(`article_${c.tag}_${slug(topicArg)}.txt`,
+      promptArticle(c, topicArg, { splitLabel: flag('split'), searches, live: livePages() }));
+    console.log(`  ${searches.length} real Google searches injected.\n`);
+  } else if (mode === 'batch') {
+    // Gemini's topic list → one article prompt per topic that real people actually search.
+    const raw = fs.readFileSync(path.join(ROOT, 'content/topics', `${c.tag}.json`), 'utf8');
+    const topics = JSON.parse(raw.slice(raw.indexOf('['), raw.lastIndexOf(']') + 1));
+    let kept = 0;
+    for (const t of topics) {
+      const seed = t.search_term || t.title;
+      const searches = await suggest(seed);
+      if (!searches.length) { console.log(`✗ dropped (no Google searches): ${seed}`); continue; }
+      write(`article_${c.tag}_${slug(t.title)}.txt`,
+        promptArticle(c, t.title, { splitLabel: t.split_label, searches, live: livePages() }));
+      kept++;
+    }
+    console.log(`\n  ${kept}/${topics.length} topics have real search demand → prompts written.\n`);
+  } else {
+    console.error(`❌ unknown mode "${mode}"`); process.exit(1);
+  }
+})();

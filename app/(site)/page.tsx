@@ -9,6 +9,12 @@ import { PlannersSection } from "@/components/PlannersSection";
 import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
 import { PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
+import type { Metadata } from "next";
+
+/** Without this Google picked babynawah.vercel.app as the homepage's canonical
+ *  (GSC URL inspection, 2026-10-05: "Duplicate without user-selected canonical").
+ *  Page-level only — in the layout it would point privacy/support at the home page. */
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 /**
  * Organization and WebSite entity markup.

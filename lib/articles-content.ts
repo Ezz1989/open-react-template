@@ -7,6 +7,7 @@ import type {
   RedFlags,
   Section,
 } from "./guide-content";
+import generated from "./articles-generated.json";
 
 /**
  * THE P4 TOPIC-CLUSTER ARTICLES — standalone SEO articles that are neither a
@@ -52,6 +53,11 @@ export interface Article {
   /** ISO date. */
   updated: string;
 
+  /** Primary keyword first, then the secondary searches (from Google autocomplete). */
+  keywords?: string[];
+  /** Internal links Gemini picked from the live-page list, as /ar/... paths. */
+  related?: string[];
+
   /** Not shown to readers — a record of what verification changed from the
    *  raw Gemini draft, for the next person who touches this file. */
   verifiedNote?: string;
@@ -85,7 +91,8 @@ export const ARTICLES_HUB: {
   },
 };
 
-export const ARTICLES: Article[] = [
+/** Hand-ported Sept 2026 articles. New ones arrive via scripts/articles/ingest.mjs. */
+const HANDWRITTEN: Article[] = [
   {
     cluster: "fasting",
     slug: "fasting-during-pregnancy",
@@ -751,6 +758,12 @@ export const ARTICLES: Article[] = [
       "figure either source states, and the general 'no scientific basis' framing carries the same point " +
       "without inventing a statistic.",
   },
+];
+
+/** Everything `ingest.mjs` has checked and published, after the hand-ported set. */
+export const ARTICLES: Article[] = [
+  ...HANDWRITTEN,
+  ...(generated as unknown as Article[]),
 ];
 
 export function resolveArticle(cluster: string, slug: string): Article | null {

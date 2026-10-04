@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
+import { publishedArticles as publishedTopicArticles } from "@/lib/articles-content";
 import { TOOLS } from "@/lib/tools-content";
 import { getAllNames, getOrigins, slugForName } from "@/lib/names-data";
 import { originSlug } from "@/lib/names-content";
@@ -92,6 +93,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/father/${doc.slug}`),
         },
+      });
+    }
+  }
+
+  // The topic articles (P4). Missing from this file until 2026-10-04 — the
+  // pages were live and linked from the hub, but Google was never told about
+  // them here.
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${SITE_URL}/${locale}/articles`,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: { languages: alt((l) => `${SITE_URL}/${l}/articles`) },
+    });
+  }
+
+  for (const doc of publishedTopicArticles()) {
+    const path = `articles/${doc.cluster}/${doc.slug}`;
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/${path}`,
+        lastModified: new Date(doc.updated),
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/${path}`) },
       });
     }
   }

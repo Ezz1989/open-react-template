@@ -1,5 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // babynawah.vercel.app must keep serving (the shipped Android build uses it
+  // for password resets), but Google indexed it as the homepage's canonical
+  // instead of www.nawahapp.net. noindex on that host only; links still work.
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "babynawah.vercel.app" }],
+        headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+      },
+    ];
+  },
   async redirects() {
     return [
       // Short share link: nawahapp.net/play → Play listing, tagged so installs

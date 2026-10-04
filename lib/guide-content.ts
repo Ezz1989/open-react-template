@@ -112,6 +112,9 @@ export interface Section {
   /** Paragraphs that must land after the list rather than before it, e.g. the
    *  reassurance that follows a symptom checklist. */
   afterBullets?: Localized[];
+  /** A comparison or price grid. AI answer engines lift tables verbatim for
+   *  "X vs Y" and "how much" queries, so a comparison belongs here, not in prose. */
+  table?: { head: Localized[]; rows: Localized[][] };
   cites?: string[];
   image?: GuideImage;
 }

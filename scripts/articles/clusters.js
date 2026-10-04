@@ -75,27 +75,30 @@ it) AND names concrete red flags that need a doctor same-day.
     tag: 'birth_cost',
     name: 'تكلفة الولادة',
     shape: 'split',
-    splitLabels: ['مصر', 'الخليج'],
+    splitLabels: ['مصر', 'السعودية'],
     job: 'reach — the SERP is 100% individual clinic sites, no neutral resource exists (plan)',
     medical: false,
+    deepResearch: true,
     voice: 'neutral',
     ctaFeature: 'Baby Budget (multi-currency) — the one Nawah feature this pairs with directly',
-    note: `🔴 PRICE NUMBERS ARE NOT A SOURCEABLE MEDICAL CLAIM. Do not invent a figure and do not
-treat a plausible-sounding number as fact — that is the exact failure ARTICLE_PATTERN.md §5
-documents for citations, applied to prices instead of medical claims. Write the article shape
-(what drives cost: normal vs C-section, public vs private, room class, prenatal-care package,
-insurance vs cash) with ranges left as a clearly marked placeholder for the user to fill from a
-real 2026 quote, rather than a guessed number presented as current.`,
+    note: `🔎 RUN THIS IN GEMINI DEEP RESEARCH (user decision 2026-10-04). Real 2026 prices, not
+guesses. Every price or range in the article must come from a page you actually found, published
+or updated in 2025 or 2026 (hospital price list, hospital/clinic page, insurer page, or a named
+news report), and that URL goes in the section's \`cites\`. Currency: EGP for مصر, SAR for
+السعودية. Give RANGES by hospital tier (government / mid-range private / premium private) and by
+delivery type (natural vs C-section), in a \`table\`. Name real hospitals only where the source
+names their price. A price with no source is dropped, never estimated. State the month/year each
+price was published. Autocomplete shows people search hospital names (e.g. الحبيب، فقيه، السلامة
+in KSA) — cover the ones you can source.`,
     topicGate: `The gate, asked first:
 
 > Is a reader trying to BUDGET for a birth, and finding only clinic marketing pages instead of a
 > neutral comparison?
 
-**TIER 1 — both labels needed, one article each:** مصر and الخليج get separate articles, never
-merged — currency, public/private system and typical delivery method differ enough that a merged
-page serves neither reader well.
+**TIER 1 — both labels needed, one article each:** مصر and السعودية get separate articles, never
+merged — currency, public/private system and typical delivery method differ.
 Structure per label: what drives the price up or down (delivery type, hospital tier, prenatal
-package, insurance), NOT a single headline number presented as THE cost.`,
+package, insurance) AND a sourced price table — never a single headline number presented as THE cost.`,
   },
 
   food_safety: {
@@ -133,9 +136,9 @@ searchability that makes this cluster work.`,
     job: 'shares + differentiator — father mode is the app\'s only real differentiator',
     medical: false,
     voice: 'father',
-    ctaFeature: 'app install via fatherPlayUrl, same as the 7 existing father articles',
-    note: `Extends the 7 already-live father articles (lib/father-content.ts). Read that file's
-existing topics FIRST — this batch must not duplicate an angle already covered there.
+    ctaFeature: 'partner mode — he links to her pregnancy with a code, sees the same week and baby size she sees, and gets a push each time she logs a kick session (verified in Social Media/APP_FEATURES.md; do NOT claim he sees her budget, bag checklist or contractions — those are not shared)',
+    note: `Extends the father articles already live on the site (the full list is injected below
+under "Already covered"). This batch must not duplicate an angle already covered there.
 🔴 Same rule as the father article/reel pillar: he is always LEARNING, never FAILING. No
 useless-husband jokes, no content that reads as being about him instead of to him.`,
     topicGate: `The gate, asked first (identical to the دليل الأب reel pillar's gate, ported to article
@@ -146,8 +149,29 @@ length):
 **TIER 1 — both true:** a concrete situation he will actually face (not a generic "supporting your
 wife" abstraction) · states plainly why it matters to her or the baby, never played for a laugh at
 his expense.
-Check against the 7 existing father articles before proposing — no repeats of an angle already
-live.`,
+Check against the live list below before proposing — no repeats of an angle already live.`,
+  },
+
+  mother_expansion: {
+    tag: 'mother_expansion',
+    name: 'دليل الأم — مواضيع جديدة',
+    shape: 'hub', // open count — every real search question the 9 guide months don't answer
+    job: 'reach — one article per real search question a pregnant woman types, not covered by the 9 guide months',
+    medical: true,
+    voice: 'mother',
+    ctaFeature: 'ONE Nawah feature that matches the topic, from this verified list only: week-by-week tracker with baby size, kick counter, contraction timer, symptom/mood log, hospital bag checklist, baby budget, baby names, SOS emergency screen, Nawal AI assistant. Never invent a feature',
+    note: `Symptoms, tests, discomforts, nutrition, sleep, exercise, work, travel, mental health,
+complications, labour prep, breastfeeding prep. One searchable question per article (e.g. "ألم
+أسفل البطن للحامل", "الحديد للحامل"). Not a pregnancy month — the 9 guide months already exist.
+Not a single food — food_safety owns "X آمن للحامل؟".`,
+    topicGate: `The gate, asked first:
+
+> Is this a question a pregnant woman actually types into Google, and does no live page on this
+> site already answer it?
+
+**TIER 1 — all true:** the title contains the exact search phrase · one question per article ·
+not already covered by a guide month, father article or topic article (list below) · medically
+sourceable at NHS / MedlinePlus / WHO.`,
   },
 
   fasting: {
@@ -245,7 +269,8 @@ denominational ruling as universal (practices vary) · no unevidenced health cla
     tag: 'newborn_admin',
     name: 'تسجيل المولود والتأمين',
     shape: 'split',
-    splitLabels: ['مصر', 'الخليج'],
+    splitLabels: ['مصر', 'السعودية'],
+    deepResearch: true,
     job: 'reach — admin/paperwork query, EG vs GCC split like تكلفة الولادة',
     medical: false,
     voice: 'neutral',
@@ -261,7 +286,7 @@ rather than invented specifics.`,
 
 > Is a new parent trying to figure out WHAT to do and BY WHEN, not general information?
 
-**TIER 1 — both labels, one article each (مصر / الخليج split, never merged, per the same currency/
+**TIER 1 — both labels, one article each (مصر / السعودية split, never merged, per the same currency/
 system-difference logic as تكلفة الولادة):** states the concrete steps and deadline · flags any
 detail that needs a live official-source check rather than asserting it from memory.`,
   },
