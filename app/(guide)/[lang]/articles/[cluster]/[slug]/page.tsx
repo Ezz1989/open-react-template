@@ -177,7 +177,7 @@ export default async function ClusterArticlePage({
         mainEntityOfPage: url,
         ...(doc.keywords?.length ? { keywords: doc.keywords.join(", ") } : {}),
         author: { "@type": "Organization", name: BYLINE.name[locale] },
-        publisher: { "@type": "Organization", name: "Nawah", url: SITE_URL },
+        publisher: { "@type": "Organization", "@id": `${SITE_URL}#org`, name: "Nawah", url: SITE_URL, logo: `${SITE_URL}/nawah-logo-dark.png` },
         citation: doc.citations.map((c) => ({
           "@type": "CreativeWork",
           name: c.title[locale],

@@ -201,6 +201,16 @@ If a real clinician ever reviews these pages, add a `reviewer` field and a
 
 ### Citation rule
 
+> **🔵 CURRENT RULE — user, 2026-10-05 (overrides the cap and the source
+> whitelist below).** Don't search hard for sources. Only **medical**
+> information needs verifying, and **any real source** that says it is enough
+> (health body, hospital, medical site, paper). One main source per article
+> (user, 2026-10-04). Non-medical content needs no citation. Still never invent
+> a number, and every listed URL must be real and say the claim
+> (`ingest.mjs` opens each one; ACOG/CDC block automated fetches, so cite
+> something else). Price/admin articles keep Gemini Deep Research with a source
+> per figure. The rest of this section is history.
+
 Every URL in `citations` was opened and read before it was written down.
 `retrieved` records the day that happened.
 

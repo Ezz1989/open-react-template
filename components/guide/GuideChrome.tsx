@@ -24,6 +24,9 @@ const T = {
   names: { en: "Names", ar: "الأسماء" },
   switchTo: { en: "عربي", ar: "English" },
   switchLabel: { en: "Read this page in Arabic", ar: "Read this page in English" },
+  /** Trust link on every guide page — the GEO audit (2026-10-05) found no
+   *  about link from the articles, a weak spot for health content. */
+  about: { en: "About Nawah", ar: "عن نواة" },
   privacy: { en: "Privacy", ar: "الخصوصية" },
   deleteAccount: { en: "Delete account", ar: "حذف الحساب" },
   rights: {
@@ -117,6 +120,7 @@ export function GuideFooter({ locale }: { locale: Locale }) {
           © {new Date().getFullYear()} {T.rights[locale]}
         </span>
         <span className="guide-foot-links">
+          <Link href={`/${locale}/about`}>{T.about[locale]}</Link>
           <Link href="/privacy">{T.privacy[locale]}</Link>
           <Link href="/delete-account">{T.deleteAccount[locale]}</Link>
         </span>

@@ -90,26 +90,21 @@ function blockSources() {
 Per \`docs/ARTICLE_PATTERN.md\` §5 — this is the site's article rule, NOT the reel pipeline's
 source list, and the two must not be conflated:
 
-- **ONE main source for the whole article (user decision 2026-10-04).** Pick the single page that
-  covers the article's core claims and write everything else from established medical consensus.
-  Never invent a specific number, threshold, or study finding — if a figure isn't on that one
-  page, soften it to the general shape of the fact. (Price/admin articles are the exception: see
-  the Deep Research block.)
-- **Preferred, fetch cleanly: MedlinePlus, NHS, WHO ELENA.** Use these by default.
-- **🔴 ACOG returns HTTP 402 and CDC returns 403 to every automated fetch.** If a claim can only
-  be sourced there, either find the same fact at MedlinePlus/NHS/WHO instead, or state plainly
-  that the claim was dropped for lack of a verifiable source. Do not cite ACOG/CDC as if fetched.
-- A peer-reviewed literature review (PubMed/PMC/NCBI) is acceptable ONLY where no MedlinePlus/
-  NHS/WHO page covers the specific claim — state in the citation that it is a research paper, not
-  a health-body page.
-- General consumer health/parenting sites (WebTeb, SuperMama, Tommy's, BabyCenter, hospital
-  marketing blogs, etc.) are NEVER an acceptable citation, however accurate they look.
-- Every medical claim needs a real URL you actually consulted, listed in the \`sources\` field,
-  with what it actually says matching the claim. The URL will be opened and checked — a dead
-  link, a redirect to unrelated content, or a page that doesn't say what is claimed fails the
-  whole article. A plausible-looking URL that was never opened is a fabrication, not a citation.
-- 🔴 If you cannot source a claim, DROP THE CLAIM. Do not soften it, do not hedge it, do not
-  attribute it vaguely to "studies" or "doctors". "I don't know" is a correct answer here.
+- **Don't hunt for sources (user decision 2026-10-05).** ONE main source for the whole article is
+  enough (decision 2026-10-04). Pick one page that covers the core medical claims and write the
+  rest from established medical consensus. (Price/admin articles are the exception: see the Deep
+  Research block.)
+- **Only MEDICAL information needs verifying, and ANY real source you opened will do** — a health
+  body (MedlinePlus, NHS, WHO), a hospital page, a medical site, a paper. Non-medical content
+  (customs, practical tips, the father's role, app features) needs no citation.
+- Never invent a specific number, threshold, or study finding — if a figure isn't on a page you
+  opened, soften it to the general shape of the fact.
+- **🔴 ACOG returns HTTP 402 and CDC returns 403 to automated fetches**, so the publish script
+  rejects them. Cite another page that says the same thing.
+- Every URL you list must be real, opened by you, and actually say the claim it backs — the
+  script opens each one. A plausible-looking URL that was never opened is a fabrication.
+- 🔴 If you cannot verify a medical claim anywhere, DROP IT. Don't attribute it vaguely to
+  "studies" or "doctors".
 - The source decides the FACT. The user decides the WORD — never ship a literal translation of
   an English medical term because a source used it.`;
 }
@@ -146,6 +141,14 @@ Rules — each is checked by a script before publishing; a failed check sends th
     no identifiable faces, no bare belly, no Latin text/signage in shot.
 12. **Internal links:** pick 2–4 pages from the live list below that a reader of THIS article would
     open next; put their paths in \`related\`.
+13. **Name the source inside the sentence** for every key medical fact: \`وفقاً لهيئة الخدمات
+    الصحية البريطانية (NHS)، …\` — not only in the citation list. AI answer engines quote sentences
+    that carry their own attribution (GEO audit of this site, 2026-10-05: 0 inline attributions).
+14. **Concrete numbers, only from the source:** where the main source gives a figure (weeks, days,
+    ml, %), state it with its unit and attribution. Never round, estimate or invent one; no figure in
+    the source = no figure in the article.
+15. **Each H2 opens with one plain fact sentence** that answers that heading on its own — the
+    sentence an AI would lift. Context and reassurance come after it, never before.
 
 **Live pages on nawahapp.net** (for \`related\` — and do not duplicate their topic):
 ${live.map(x => `- ${x}`).join('\n')}`;

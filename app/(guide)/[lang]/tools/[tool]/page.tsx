@@ -111,7 +111,7 @@ export default async function ToolPage({
         inLanguage: HREFLANG[locale],
         dateModified: doc.updated,
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-        publisher: { "@type": "Organization", name: "Nawah", url: SITE_URL },
+        publisher: { "@type": "Organization", "@id": `${SITE_URL}#org`, name: "Nawah", url: SITE_URL, logo: `${SITE_URL}/nawah-logo-dark.png` },
       },
       {
         "@type": "BreadcrumbList",

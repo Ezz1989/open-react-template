@@ -150,7 +150,7 @@ export default async function FatherArticlePage({
         datePublished: doc.updated,
         dateModified: doc.updated,
         author: { "@type": "Organization", name: BYLINE.name[locale] },
-        publisher: { "@type": "Organization", name: "Nawah", url: SITE_URL },
+        publisher: { "@type": "Organization", "@id": `${SITE_URL}#org`, name: "Nawah", url: SITE_URL, logo: `${SITE_URL}/nawah-logo-dark.png` },
         isPartOf: { "@id": `${SITE_URL}/${locale}/father#hub` },
         citation: doc.citations.map((c) => ({
           "@type": "CreativeWork",
