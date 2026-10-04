@@ -12,6 +12,12 @@ const nextConfig = {
           "https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=nawahapp.net&utm_medium=shortlink&utm_campaign=play&utm_source_platform=web",
         permanent: false,
       },
+      // The Facebook Page has no username, only a numeric id.
+      {
+        source: "/fb",
+        destination: "https://www.facebook.com/profile.php?id=61593761370296",
+        permanent: false,
+      },
     ];
   },
 };
