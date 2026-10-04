@@ -164,6 +164,20 @@ export function toolsPlayUrl(locale: Locale, tool: string): string {
 }
 
 /**
+ * Baby names, split out of `tools` 2026-10-05: names pages are 92% of the
+ * site's search impressions, so whether they convert to installs has to be
+ * readable on its own in Play Console, not mixed with the calculators.
+ */
+export function namesPlayUrl(locale: Locale, where: string): string {
+  return playStoreUrl({
+    source: "nawahapp.net",
+    medium: "organic_names",
+    campaign: "names",
+    content: `${locale}_${where}`,
+  });
+}
+
+/**
  * The P4 article clusters (glossary, صيام الحامل, تكلفة الولادة, etc.) — their own campaign for
  * the same reason father_guide is split from pregnancy_guide: a different content series,
  * judged separately in Play Console's Acquisition reports.

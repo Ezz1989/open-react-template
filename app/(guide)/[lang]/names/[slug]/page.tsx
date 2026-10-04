@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE, toolsPlayUrl, type Locale } from "@/lib/constants";
+import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE, type Locale } from "@/lib/constants";
 import { getAllNames, getNameBySlug, slugForName, type BabyName } from "@/lib/names-data";
 import { GENDER_LABELS, ORIGIN_LABELS, POPULAR_THRESHOLD, originSlug } from "@/lib/names-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
+import { NamesCta } from "@/components/names/NameGrid";
 
 /**
  * One name per page. Same reason every other guide route is server-rendered:
@@ -140,17 +141,7 @@ export default async function NameDetailPage({
             </p>
           </div>
 
-          <section className="g-cta">
-            <h2>{locale === "ar" ? "لسه بتختاري اسم؟" : "Still choosing a name?"}</h2>
-            <p>
-              {locale === "ar"
-                ? "تطبيق نواة فيه أكتر من ٢٥٠ اسم تقدري تتصفحيهم وتحفظي المفضّل عندك."
-                : "The Nawah app has 250+ names you can browse together and shortlist as a couple."}
-            </p>
-            <a className="btn btn-primary" href={toolsPlayUrl(locale, `name_${slug}`)} rel="noopener">
-              {locale === "ar" ? "حمّلي التطبيق" : "Get the app"}
-            </a>
-          </section>
+          <NamesCta name={n} locale={locale} where={`name_${slug}`} />
 
           {suggestions.length > 0 && (
             <section className="g-section">
@@ -185,13 +176,7 @@ export default async function NameDetailPage({
         }
         .t-result-label { display: block; font-size: 12px; color: var(--fg-soft); text-transform: uppercase; letter-spacing: 0.05em; }
         .t-result-value { display: block; font-family: var(--font-display); margin-top: 4px; }
-        .g-cta {
-          margin-top: 32px; padding: 28px;
-          background: var(--bg-elev); border: 1px solid var(--border);
-          border-radius: var(--radius-md);
-        }
-        .g-cta h2 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 10px; }
-        .g-cta p { line-height: 1.7; margin-bottom: 18px; }
+        .n-cta { margin-top: 32px; }
         .g-section { margin-top: 40px; }
         .g-section h2 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 14px; }
         .n-related { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
