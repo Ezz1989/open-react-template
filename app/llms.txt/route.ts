@@ -21,7 +21,7 @@ export function GET() {
   const body = [
     "# Nawah (نواة)",
     "",
-    "> Arabic pregnancy companion app for mothers and fathers in Egypt and the Gulf. The site publishes free pregnancy guides, father guides, calculators and a baby-names directory in Arabic (Modern Standard Arabic) and English. Health claims cite MedlinePlus, NHS, WHO or peer-reviewed papers; no clinician writes or reviews the pages.",
+    "> Arabic pregnancy companion app for mothers and fathers in Egypt and the Gulf. The site publishes free pregnancy guides, father guides, calculators and a baby-names directory in Arabic (Modern Standard Arabic) and English. Medical claims link to the source they come from; no clinician writes or reviews the pages.",
     "",
     `App: ${PLAY_STORE_URL}`,
     "",
