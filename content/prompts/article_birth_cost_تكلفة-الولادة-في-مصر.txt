@@ -4,77 +4,61 @@ Standard Arabic, plus its English version. This is NOT social-video content — 
 
 # THE TASK
 
-Write one complete article for the cluster **العقيقة والتحنيك** on this topic:
+Write one complete article for the cluster **تكلفة الولادة** on this topic:
 
-> **العقيقة والتحنيك**
+> **تكلفة الولادة في مصر**
 
+Split label: **مصر**
 
-This cluster's job: **reach — cultural/religious newborn practice, not covered by WebTeb/BabyCenter at all**
-Cluster rules: A cultural/religious explainer, not a medical article — do NOT run this through the
-medical-sourcing block (no ACOG/NHS/WHO citation requirement). Explain what عقيقة and تحنيك are,
-when they are traditionally done, and the practicalities (who performs it, what is customary) as
-description, not prescription. 🔴 If any health/hygiene claim is made about تحنيك specifically
-(e.g. about the substance used), it must be flagged as tradition, not medical benefit — do not
-imply a health benefit that is not evidenced.
+This cluster's job: **reach — the SERP is 100% individual clinic sites, no neutral resource exists (plan)**
+Cluster rules: 🔎 RUN THIS IN GEMINI DEEP RESEARCH (user decision 2026-10-04). Real 2026 prices, not
+guesses. Every price or range in the article must come from a page you actually found, published
+or updated in 2025 or 2026 (hospital price list, hospital/clinic page, insurer page, or a named
+news report), and that URL goes in the section's `cites`. Currency: EGP for مصر, SAR for
+السعودية. Give RANGES by hospital tier (government / mid-range private / premium private) and by
+delivery type (natural vs C-section), in a `table`. Name real hospitals only where the source
+names their price. A price with no source is dropped, never estimated. State the month/year each
+price was published. Autocomplete shows people search hospital names (e.g. الحبيب، فقيه، السلامة
+in KSA) — cover the ones you can source.
 
 The gate, asked first:
 
-> Would a new parent search this to understand a practice they've heard of but don't know the
-> details of?
+> Is a reader trying to BUDGET for a birth, and finding only clinic marketing pages instead of a
+> neutral comparison?
 
-**TIER 1 — all true:** describes both practices factually and respectfully, without asserting a
-denominational ruling as universal (practices vary) · no unevidenced health claim.
+**TIER 1 — both labels needed, one article each:** مصر and السعودية get separate articles, never
+merged — currency, public/private system and typical delivery method differ.
+Structure per label: what drives the price up or down (delivery type, hospital tier, prenatal
+package, insurance) AND a sourced price table — never a single headline number presented as THE cost.
 
+## 🔎 Use Gemini DEEP RESEARCH for this one
+
+Turn on Deep Research before sending. Every concrete figure, office, document or deadline must
+come from a page you actually opened, dated 2025 or 2026, and its URL goes in `citations` and in
+that section's `cites`. Here MORE than one citation is allowed — one per distinct source used.
+Put prices/steps in a `table` where possible, with the source and month/year per row. Anything
+you cannot source is left out, never estimated. Write "تحقّق من [الجهة] قبل التنفيذ" where rules
+change often.
 
 ## SEO — this article must rank on Google AND get quoted by AI answers
 
 **Real Google searches for this topic** (Google autocomplete, Egypt `eg` and Saudi `sa`, pulled
 2026-10-04 — what people actually type; `eg+sa` = searched in both):
 
-- العقيقة للولد  (eg+sa)
-- العقيقة  (eg+sa)
-- العقيقة للبنت  (eg+sa)
-- العقيقة وشروطها  (eg+sa)
-- العقيقة للولد والبنت  (eg+sa)
-- العقيقة في الاسلام  (eg+sa)
-- العقيقة هل يجوز الاكل منها  (eg+sa)
-- العقيقة هل هي واجبة  (eg+sa)
-- العقيقة هل يجوز اكلها  (eg+sa)
-- العقيقة هل هي فرض  (eg+sa)
-- العقيقة هل توزع  (eg+sa)
-- العقيقة هل هي سنة مؤكدة  (eg+sa)
-- العقيقة هل هي فرض ام سنة  (eg+sa)
-- العقيقه هل يجوز توزيعها  (eg+sa)
-- العقيقه هل يجب توزيعها  (eg+sa)
-- العقيقه هل لها عمر محدد  (eg+sa)
-- العقيقة في افريقيا  (eg+sa)
-- العقيقة في المنام  (eg+sa)
-- العقيقة في الاسلام وشروطها  (eg+sa)
-- العقيقة في السنة النبوية  (eg+sa)
-- العقيقة في المذهب المالكي  (eg+sa)
-- العقيقة متى تكون  (eg+sa)
-- العقيقة متى تذبح  (eg+sa)
-- العقيقه متى وقتها  (eg+sa)
-- العقيقة متى موعدها  (eg+sa)
-- العقيقه متى تخرج  (eg+sa)
-- العقيقة متى تبدأ  (eg+sa)
-- متى العقيقة للمولود  (eg+sa)
-- متى العقيقة للبنت  (eg+sa)
-- متى العقيقة للطفل الجديد  (eg+sa)
-- متى العقيقة للولد  (eg+sa)
-- العقيقة ماعز ام خروف  (eg+sa)
-- العقيقة ماهي  (eg+sa)
-- العقيقة ماذا يقال  (eg+sa)
-- العقيقة ما حكمها  (eg+sa)
-- العقيقة ماعز  (eg+sa)
-- ماهي العقيقة وشروطها  (eg+sa)
-- ماهي العقيقة في الاسلام  (eg+sa)
-- ما معنى العقيقة  (eg+sa)
-- ماحكم العقيقة في الاسلام  (eg+sa)
+- تكلفة الولادة في مصر  (eg+sa)
+- تكلفة الولادة القيصرية في مصر  (eg+sa)
+- تكلفة الولادة الطبيعية في مصر  (eg+sa)
+- تكلفة عملية الولادة في مصر  (eg+sa)
+- تكلفة الولادة المائية في مصر  (eg+sa)
+- تكلفة الولادة في السعودي الالماني مصر  (eg+sa)
+- تكلفة الولادة الطبيعية بدون الم في مصر  (eg+sa)
+- تكلفة تجهيز حضانة أطفال حديثي الولادة في مصر  (eg+sa)
+- كم تكلفة الولادة في المستشفيات الخاصة في مصر  (eg+sa)
+- تكلفة الولادة فى مصر  (eg+sa)
 
 Rules — each is checked by a script before publishing; a failed check sends the article back:
 
-1. **Primary keyword** = the strongest search above that matches "العقيقة والتحنيك". Put it in
+1. **Primary keyword** = the strongest search above that matches "تكلفة الولادة في مصر". Put it in
    `primaryKeyword`. It must appear: at the START of `title.ar`, in `metaTitle.ar`, in
    `description.ar`, in the first sentence of the first section, and in at least 2 H2 headings.
 2. **Secondary keywords**: 6–12 other searches from the list, in `keywords`. Each becomes an H2
@@ -177,7 +161,7 @@ that no clinician wrote or reviewed the page. This rule has no exception for tra
 Per `docs/ARTICLE_PATTERN.md` §4: "People install because the content was useful, not because
 you asked them to." A generic "download our app" block is the named failure mode.
 
-This cluster's CTA anchor: **general app install**
+This cluster's CTA anchor: **Baby Budget (multi-currency) — the one Nawah feature this pairs with directly**
 
 - Name the actual Nawah feature and why it answers what THIS article just explained — not a
   generic pitch.
@@ -193,7 +177,7 @@ the Arabic (not a different article). Section/FAQ/redFlags `cites` hold citation
 
 ```json
 {
-  "cluster": "aqiqah",
+  "cluster": "birth_cost",
   "slug": "english-kebab-slug",
   "primaryKeyword": "the Arabic primary keyword, verbatim from the search list",
   "keywords": ["secondary search 1", "secondary search 2"],
