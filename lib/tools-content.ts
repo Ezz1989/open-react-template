@@ -171,6 +171,11 @@ export const TOOLS: ToolDef[] = [
   },
 ];
 
+/** One static page per week under /tools/weeks-months/<n>, for the "11 weeks in
+ *  months" / "10 اسابيع كم شهر" searches GSC showed at position 80+ (2026-10-05).
+ *  42, not 40: people search past the due date. */
+export const WEEK_PAGES = 42;
+
 export function getTool(slug: string): ToolDef | undefined {
   return TOOLS.find((t) => t.slug === slug);
 }

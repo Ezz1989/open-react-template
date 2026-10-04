@@ -9,7 +9,8 @@ import {
   toolsPlayUrl,
   type Locale,
 } from "@/lib/constants";
-import { getTool, TOOLS } from "@/lib/tools-content";
+import { getTool, TOOLS, WEEK_PAGES } from "@/lib/tools-content";
+import { localizedNumber } from "@/lib/utils";
 import { BYLINE, MEDICAL_DISCLAIMER } from "@/lib/guide-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 import { DueDateCalculator } from "@/components/tools/DueDateCalculator";
@@ -144,6 +145,21 @@ export default async function ToolPage({
 
           {widget(locale)}
 
+          {doc.slug === "weeks-months" && (
+            <section className="g-weeks">
+              <h2>{locale === "ar" ? "كل أسبوع كم شهر؟" : "Every week in months"}</h2>
+              <ol>
+                {Array.from({ length: WEEK_PAGES }, (_, i) => i + 1).map((w) => (
+                  <li key={w}>
+                    <Link href={`/${locale}/tools/weeks-months/${w}`}>
+                      {locale === "ar" ? `الأسبوع ${localizedNumber(w, "ar")}` : `Week ${w}`}
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
+
           <section className="g-cta">
             <h2>{locale === "ar" ? "تابعي أكثر من مجرد رقم" : "Track more than one number"}</h2>
             <p>
@@ -246,6 +262,11 @@ export default async function ToolPage({
         .t-history ul { list-style: none; padding: 0; margin: 10px 0 0; }
         .t-history li { padding-block: 6px; font-size: 14px; color: var(--fg-muted); border-top: 1px solid var(--border); }
         .t-history li:first-child { border-top: none; }
+
+        .g-weeks { margin-top: 32px; }
+        .g-weeks h2 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 12px; }
+        .g-weeks ol { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 6px; }
+        .g-weeks a { display: block; padding: 8px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
 
         .g-cta {
           margin-top: 40px; padding: 28px;

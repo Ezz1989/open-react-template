@@ -3,7 +3,7 @@ import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
 import { publishedArticles as publishedTopicArticles } from "@/lib/articles-content";
-import { TOOLS } from "@/lib/tools-content";
+import { TOOLS, WEEK_PAGES } from "@/lib/tools-content";
 import { getAllNames, getOrigins, slugForName } from "@/lib/names-data";
 import { originSlug } from "@/lib/names-content";
 import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
@@ -144,6 +144,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/tools/${tool.slug}`),
         },
+      });
+    }
+  }
+
+  // One answer page per week for "X weeks in months" (added 2026-10-05).
+  for (let week = 1; week <= WEEK_PAGES; week++) {
+    const path = `tools/weeks-months/${week}`;
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/${path}`,
+        changeFrequency: "yearly",
+        priority: 0.6,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/${path}`) },
       });
     }
   }
