@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE, type Locale } from "@/lib/constants";
-import { getAllNames, getOrigins } from "@/lib/names-data";
-import { NAMES_HUB, ORIGIN_LABELS, originSlug } from "@/lib/names-content";
+import { getAllNames } from "@/lib/names-data";
+import { NAMES_HUB } from "@/lib/names-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 import { NameGrid } from "@/components/names/NameGrid";
 
 /**
- * The names hub: two big links (boys/girls), the ten origin chips, then
- * every one of the 250 names as a dense link grid. That grid is the point —
+ * The names hub: two big links (boys/girls), then every name, paged five at
+ * a time (all still in the HTML). That list is the point —
  * it is 250 internal links landing on pages that otherwise have no other
  * inbound link on the site, exactly the "orphan page" problem the guide's
  * prev/next nav exists to avoid for the month articles.
@@ -59,7 +59,9 @@ export default async function NamesHubPage({
   const locale = lang as Locale;
   if (!LOCALES.includes(locale)) notFound();
 
-  const [all, origins] = await Promise.all([getAllNames(), getOrigins()]);
+  // Origin chips removed 2026-10-06 (user): the origin is the app's reason to
+  // download now. The /names/origin/* pages themselves still exist.
+  const all = await getAllNames();
 
   return (
     <>
@@ -78,14 +80,6 @@ export default async function NamesHubPage({
           </Link>
         </div>
 
-        <div className="n-chips">
-          {origins.map((o) => (
-            <Link key={o} href={`/${locale}/names/origin/${originSlug(o)}`} className="n-chip">
-              {(ORIGIN_LABELS[o] ?? { en: o, ar: o })[locale]}
-            </Link>
-          ))}
-        </div>
-
         <h2 className="n-all-heading">{locale === "ar" ? "كل الأسماء" : "All names"}</h2>
         <NameGrid names={all} locale={locale} />
       </main>
@@ -101,12 +95,6 @@ export default async function NamesHubPage({
           font-family: var(--font-display); font-size: 20px;
           background: var(--chip-bg); border-radius: var(--radius-md);
         }
-        .n-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
-        .n-chip {
-          padding: 8px 16px; font-size: 13px; border-radius: 999px;
-          border: 1px solid var(--border); color: var(--fg-muted);
-        }
-        .n-chip:hover { border-color: var(--accent); color: var(--fg); }
         .n-all-heading { font-family: var(--font-display); font-size: 26px; font-weight: 400; margin: 48px 0 20px; }
 
         @media (max-width: 600px) {

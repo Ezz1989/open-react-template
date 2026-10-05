@@ -5,6 +5,7 @@ import { getAllNames } from "@/lib/names-data";
 import { NAMES_GIRLS } from "@/lib/names-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 import { NameGrid } from "@/components/names/NameGrid";
+import { NamesIntro } from "@/components/names/NamesIntro";
 
 export const dynamicParams = false;
 
@@ -56,8 +57,7 @@ export default async function GirlNamesPage({
     <>
       <GuideHeader locale={locale} altPath={`/${locale === "en" ? "ar" : "en"}/names/girls`} variant="neutral" />
       <main className="container g-hub">
-        <h1 className="display-md">{NAMES_GIRLS.title[locale]}</h1>
-        <p className="g-hub-stand">{NAMES_GIRLS.description[locale]}</p>
+        <NamesIntro locale={locale} active="girls" />
         <div style={{ marginTop: 40 }}>
           <NameGrid names={girls} locale={locale} />
         </div>

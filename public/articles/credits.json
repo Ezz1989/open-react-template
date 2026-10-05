@@ -42,5 +42,50 @@
     "alt": "Crop faceless female with red manicure folding colorful baby garments while sitting at white table in light room at home",
     "width": 6000,
     "height": 4000
+  },
+  {
+    "slot": "aqiqah-and-tahnik-traditions-hero",
+    "src": "/articles/aqiqah-and-tahnik-traditions-hero.jpg",
+    "photographer": "cottonbro studio",
+    "photographerUrl": "https://www.pexels.com/@cottonbro",
+    "pexelsUrl": "https://www.pexels.com/photo/a-hand-getting-spoon-on-the-table-6969206/",
+    "width": 5349,
+    "height": 3566
+  },
+  {
+    "slot": "saudi-arabia-birth-cost-2026-hero",
+    "src": "/articles/saudi-arabia-birth-cost-2026-hero.jpg",
+    "photographer": "kenan zhang",
+    "photographerUrl": "https://www.pexels.com/@kenan-zhang-2999734",
+    "pexelsUrl": "https://www.pexels.com/photo/a-newborn-baby-lying-in-a-hospital-infant-bassinet-13071793/",
+    "width": 6000,
+    "height": 4000
+  },
+  {
+    "slot": "birth-cost-in-egypt-hero",
+    "src": "/articles/birth-cost-in-egypt-hero.jpg",
+    "photographer": "Vidal Balielo Jr.",
+    "photographerUrl": "https://www.pexels.com/@vidalbalielojrfotografia",
+    "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-newborn-4005601/",
+    "width": 5472,
+    "height": 3648
+  },
+  {
+    "slot": "newborn-registration-saudi-arabia-hero",
+    "src": "/articles/newborn-registration-saudi-arabia-hero.jpg",
+    "photographer": "Drisola Jovani",
+    "photographerUrl": "https://www.pexels.com/@drisola-jovani-2159682693",
+    "pexelsUrl": "https://www.pexels.com/photo/tender-family-moment-with-baby-s-feet-and-hands-36224580/",
+    "width": 4160,
+    "height": 2774
+  },
+  {
+    "slot": "registering-newborn-in-egypt-hero",
+    "src": "/articles/registering-newborn-in-egypt-hero.jpg",
+    "photographer": "Vidal Balielo Jr.",
+    "photographerUrl": "https://www.pexels.com/@vidalbalielojrfotografia",
+    "pexelsUrl": "https://www.pexels.com/photo/man-and-woman-holding-hands-4005603/",
+    "width": 5472,
+    "height": 3072
   }
 ]

@@ -1,1 +1,2404 @@
-[]
+[
+  {
+    "cluster": "aqiqah",
+    "slug": "aqiqah-and-tahnik-traditions",
+    "published": true,
+    "hero": {
+      "src": "/articles/aqiqah-and-tahnik-traditions-hero.jpg",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/a-hand-getting-spoon-on-the-table-6969206/",
+      "width": 5349,
+      "height": 3566,
+      "alt": {
+        "ar": "يد طفل صغير بجوار ملعقة وسكين فضيين على مفرش أبيض في مائدة احتفال عائلي",
+        "en": "A small child's hand beside a silver spoon and knife on a white tablecloth at a family celebration table"
+      }
+    },
+    "eyebrow": {
+      "ar": "العقيقة والتحنيك",
+      "en": "Aqiqah and Tahnik"
+    },
+    "title": {
+      "ar": "العقيقة: شروطها، وقتها، والدليل الشامل لسنة التحنيك لمولودكِ",
+      "en": "Aqiqah: Conditions, Timing, and the Comprehensive Guide to Tahnik for Your Baby"
+    },
+    "metaTitle": {
+      "ar": "العقيقة: شروطها ووقتها وسنة التحنيك للمولود | نواة",
+      "en": "Aqiqah: Conditions, Timing, and Newborn Tahnik | Nawah"
+    },
+    "description": {
+      "ar": "العقيقة هي ذبيحة تُذبح شكراً لله على قدوم طفلكِ. تعرفي على شروط العقيقة للولد والبنت، متى تذبح، وكيفية أداء سنة التحنيك بأمان وبدون مخاطر.",
+      "en": "Aqiqah is a sacrifice offered in gratitude for your baby's arrival. Learn the conditions for boys and girls, timing, and how to perform Tahnik safely."
+    },
+    "standfirst": {
+      "ar": "كل ما تحتاجين معرفته عن طقوس استقبال طفلكِ في الثقافة الإسلامية والعربية، بدءاً من شروط الذبيحة وتوزيعها، وصولاً إلى كيفية أداء تقليد التحنيك بصورة صحيحة وآمنة.",
+      "en": "Everything you need to know about welcoming your baby in Islamic and Arab culture, from sacrifice conditions and distribution to safely performing the Tahnik tradition."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "العقيقة في الاسلام: ما هي وما معناها؟",
+          "en": "Aqiqah in Islam: What is it and what does it mean?"
+        },
+        "body": [
+          {
+            "ar": "العقيقة هي ذبيحة من الأنعام تُذبح تقرباً إلى الله وشكراً له على نعمة ولادة طفلكِ الجديد، سواء كان ذكراً أو أنثى. تُمثل هذه الشعيرة إعلاناً مجتمعياً للفرح والسرور بانضمام فرد جديد إلى عائلتكِ، وهي فرصة عظيمة لاجتماع الأهل والأحباب لمشاركتكِ هذه اللحظات السعيدة وتوثيق الروابط الأسرية.",
+            "en": "Aqiqah is a livestock sacrifice made to draw near to God and give thanks for the blessing of your new baby, whether male or female. This ritual represents a communal declaration of joy for the new member joining your family, and it is a great opportunity for loved ones to gather, share these happy moments, and strengthen family bonds."
+          },
+          {
+            "ar": "تاريخياً، ترتبط هذه الممارسة ارتباطاً وثيقاً بالثقافة العربية والإسلامية، حيث تُنفذ كجزء أساسي من طقوس استقبال المولود. تترافق هذه المناسبة عادةً مع خطوات أخرى محببة مثل اختيار اسم جميل لطفلكِ وحلق شعر رأسه، وهي خطوات تضفي أجواءً من البهجة والاحتفال في محيطكِ الاجتماعي.",
+            "en": "Historically, this practice is deeply tied to Arab and Islamic culture, performed as an essential part of newborn welcoming rituals. This occasion is usually accompanied by other beloved steps like choosing a beautiful name for your baby and shaving their head, adding an atmosphere of joy and celebration to your social circle."
+          },
+          {
+            "ar": "إلى جانب قيمتها الدينية، تحمل هذه العادة بعداً نفسياً مهماً لكِ ولزوجكِ. فهي تمثل نقطة انتقال رسمية لمرحلة الأمومة والأبوة، وتمنحكِ شعوراً بالدعم والمساندة من مجتمعكِ الذي يشارككِ طعام الاحتفال ويدعو لطفلكِ بالصلاح والبركة في بداية حياته.",
+            "en": "Besides its religious value, this tradition carries an important psychological dimension for you and your husband. It marks an official transition into motherhood and fatherhood, giving you a sense of support from your community as they share the celebratory meal and pray for your child's righteousness and blessing at the start of their life."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "العقيقة وشروطها الأساسية للذبيحة",
+          "en": "Aqiqah and its basic conditions for the sacrifice"
+        },
+        "body": [
+          {
+            "ar": "العقيقة وشروطها تتطابق تماماً مع الشروط المعروفة للأضحية في الأعياد الإسلامية، لضمان تقديم أفضل ما يمكن في هذه المناسبة. يُشترط في الذبيحة أن تكون سليمة تماماً من أي عيوب أو أمراض ظاهرة، مثل العرج البين أو العور أو الهزال الشديد، مما يعكس الاحترام والتقدير لهذه الشعيرة.",
+            "en": "Aqiqah and its conditions match perfectly with the known rules for sacrifices during Islamic Eids, ensuring the best is offered on this occasion. The sacrificed animal must be completely free of visible defects or illnesses, such as obvious limping, blindness in one eye, or severe emaciation, reflecting respect for this ritual."
+          },
+          {
+            "ar": "يجب عند اختيار الذبيحة أن تبلغ السن المحددة شرعاً، وهو أمر يختلف باختلاف نوع الحيوان الذي تختارينه. يضمن لكِ الالتزام بهذه المعايير الحصول على لحم ناضج وصحي يناسب إعداد وليمة تليق بضيوفكِ وتحتفي بقدوم طفلكِ بأفضل صورة.",
+            "en": "When choosing the animal, it must reach the age specified by religious tradition, which varies depending on the type of animal you select. Adhering to these standards ensures you get mature, healthy meat suitable for preparing a feast worthy of your guests and celebrating your baby's arrival in the best way."
+          },
+          {
+            "ar": "يمكنكِ الاستعانة بالجزّار الموثوق في منطقتكِ لمساعدتكِ في فحص الذبيحة والتأكد من مطابقتها لهذه الشروط. تحرص الكثير من الأسر على اختيار الحيوان بأنفسهم لضمان الجودة، بينما تفضل أسر أخرى توكيل جمعيات خيرية موثوقة للقيام بهذه المهمة نيابة عنهم.",
+            "en": "You can rely on a trusted local butcher to help inspect the animal and ensure it meets these conditions. Many families prefer choosing the animal themselves to guarantee quality, while others prefer delegating trusted charitable organizations to perform this task on their behalf."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "نوع الذبيحة المتاحة",
+              "en": "Available Animal Type"
+            },
+            {
+              "ar": "السن المشترطة شرعاً",
+              "en": "Religiously Required Age"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "الضأن (الخروف)",
+                "en": "Sheep"
+              },
+              {
+                "ar": "أتم ستة أشهر فأكثر",
+                "en": "Completed 6 months or older"
+              }
+            ],
+            [
+              {
+                "ar": "الماعز",
+                "en": "Goat"
+              },
+              {
+                "ar": "أتم سنة كاملة فأكثر",
+                "en": "Completed 1 year or older"
+              }
+            ],
+            [
+              {
+                "ar": "البقر",
+                "en": "Cow"
+              },
+              {
+                "ar": "أتم سنتين كاملتين",
+                "en": "Completed 2 full years"
+              }
+            ],
+            [
+              {
+                "ar": "الإبل",
+                "en": "Camel"
+              },
+              {
+                "ar": "أتم خمس سنوات",
+                "en": "Completed 5 full years"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "heading": {
+          "ar": "العقيقة للولد والبنت: ما الفرق في العدد؟",
+          "en": "Aqiqah for a boy and a girl: What is the difference in number?"
+        },
+        "body": [
+          {
+            "ar": "العقيقة للولد والبنت تختلف في عدد الذبائح المستحبة وفقاً لما استقر عليه التراث الإسلامي والسنة النبوية. يُستحب أن يُذبح عن الولد شاتان متقاربتان في الحجم والشكل والسن، بينما يُكتفى بشاة واحدة فقط عن البنت، وهذا هو التطبيق الشائع الذي تتوارثه الأجيال.",
+            "en": "Aqiqah for a boy and a girl differs in the recommended number of sacrifices according to established Islamic heritage and prophetic tradition. It is recommended to sacrifice two sheep of similar size, appearance, and age for a boy, while one sheep suffices for a girl, which is the common practice passed down through generations."
+          },
+          {
+            "ar": "إذا كانت ميزانيتكِ لا تسمح بذبح شاتين عن الولد، فلا حرج أبداً في الاكتفاء بشاة واحدة، وقد أقر الكثير من علماء الدين بصحة ذلك. الهدف الأساسي من هذه الشعيرة هو إظهار الفرح والشكر بقدوم طفلكِ، ويميل التراث الديني دائماً إلى التيسير وعدم التكليف بما يفوق طاقتكِ.",
+            "en": "If your budget does not allow for two sheep for a boy, there is absolutely no harm in settling for one, and many religious scholars have validated this. The primary goal of this ritual is to show joy and gratitude for your baby's arrival, and religious tradition always leans towards ease and not demanding beyond your capacity."
+          },
+          {
+            "ar": "من المهم ألا تشعري بالضغط الاجتماعي لمجاراة احتفالات الآخرين إذا كانت تكلفة الذبيحتين مرهقة مادياً لأسرتكِ. ركزي على الفرحة البسيطة ولمّ شمل العائلة، فالتعبير عن الامتنان لله لا يُقاس بحجم الوليمة، بل بصدق النية ومشاركة الطعام بحب.",
+            "en": "It is important not to feel social pressure to match others' celebrations if the cost of two sacrifices is financially burdensome for your family. Focus on the simple joy and gathering the family, as expressing gratitude to God is not measured by the feast's size, but by sincere intention and lovingly sharing food."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "العقيقة متى تذبح وتحسب أيامها؟",
+          "en": "When is the Aqiqah sacrificed and how are its days calculated?"
+        },
+        "body": [
+          {
+            "ar": "العقيقة متى تذبح هو سؤال يحدد توقيت احتفالكِ، واليوم المستحب والمتفق عليه لأدائها هو اليوم السابع من ولادة طفلكِ. يُحسب يوم الولادة ضمن هذه الأيام السبعة إذا وُلد الطفل نهاراً، لتتزامن الذبيحة مع طقوس تسمية المولود رسمياً وسط عائلتكِ.",
+            "en": "When the Aqiqah is sacrificed is a question that determines your celebration's timing, and the recommended and agreed-upon day to perform it is the seventh day after your baby's birth. The day of birth is counted within these seven days if the child is born during the day, so the sacrifice coincides with officially naming the newborn among your family."
+          },
+          {
+            "ar": "في حال لم تتمكني من القيام بها في اليوم السابع بسبب انشغالكِ بتعافيكِ بعد الولادة أو لاحتياجكم لترتيبات مالية، يمكنكِ تأجيلها بكل راحة. تتيح لكِ التقاليد إقامتها في اليوم الرابع عشر أو اليوم الحادي والعشرين، مما يمنحكِ مرونة كبيرة للتخطيط.",
+            "en": "If you cannot do it on the seventh day because you are busy recovering postpartum or need financial arrangements, you can comfortably postpone it. Traditions allow you to perform it on the fourteenth or twenty-first day, giving you great flexibility to plan."
+          },
+          {
+            "ar": "إذا مرت هذه الأسابيع الثلاثة ولم تتيسر الظروف، يظل بإمكانكِ أداء هذه الشعيرة في أي وقت لاحق من عمر طفلكِ عندما تتحسن ظروفكم المادية. بل إن بعض الأشخاص يقومون بعملها عن أنفسهم عندما يكبرون إذا لم يقم آباؤهم بذلك، مما يعكس سعة هذا التقليد ومرونته.",
+            "en": "If these three weeks pass and circumstances don't allow, you can still perform this ritual at any later time in your child's life when your financial situation improves. In fact, some people perform it for themselves when they grow up if their parents didn't, reflecting the breadth and flexibility of this tradition."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "العقيقة ماعز ام خروف: أيهما تختارين؟",
+          "en": "Aqiqah goat or sheep: Which do you choose?"
+        },
+        "body": [
+          {
+            "ar": "العقيقة ماعز ام خروف كلاهما خيار صحيح ومقبول شرعاً، ويعتمد الأمر بالكامل على تفضيلات أسرتكِ وميزانيتكم المتاحة. يميل الكثيرون في مجتمعاتنا العربية لاختيار الضأن (الخروف) لجودة لحمه العالية وطعمه الدسم المألوف للضيوف في الولائم الكبيرة.",
+            "en": "Aqiqah goat or sheep are both correct and religiously acceptable choices, depending entirely on your family's preferences and available budget. Many in our Arab communities lean towards choosing a sheep for its high meat quality and rich taste familiar to guests in large feasts."
+          },
+          {
+            "ar": "من ناحية أخرى، يُعد الماعز خياراً ممتازاً وبديلاً شائعاً جداً، خاصة للعائلات التي تفضل اللحوم الأقل دسماً. كما أن تكلفة الماعز قد تكون أحياناً أكثر ملاءمة لميزانية بعض الأسر، مما يجعله خياراً عملياً لا يقلل من قيمة الاحتفال أو الأجر.",
+            "en": "On the other hand, a goat is an excellent and very common alternative, especially for families who prefer leaner meats. The cost of a goat can sometimes be more suitable for some families' budgets, making it a practical choice that doesn't diminish the celebration's value or reward."
+          },
+          {
+            "ar": "الأهم في هذا الاختيار هو أن تتوافر في الذبيحة الشروط الصحية والعمرية المطلوبة بغض النظر عن نوعها. يمكنكِ ببساطة تقييم الخيارات المتاحة في الأسواق المحلية لديكِ، ومناقشة زوجكِ لاختيار الأنسب لترتيباتكم واستعداداتكم لاستقبال ضيوفكم.",
+            "en": "The most important thing in this choice is that the animal meets the required health and age conditions regardless of its type. You can simply evaluate the options available in your local markets and discuss with your husband to choose the most suitable for your arrangements and preparations to receive guests."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "العقيقة في افريقيا والدول العربية: تنوع العادات",
+          "en": "Aqiqah in Africa and Arab countries: Diversity of customs"
+        },
+        "body": [
+          {
+            "ar": "العقيقة في افريقيا والدول العربية تأخذ طابعاً احتفالياً مميزاً يختلف في تفاصيله الثقافية من بلد لآخر، رغم اتفاق الجميع على جوهر الشعيرة. في دول الشمال الأفريقي، تُرافَق الذبيحة غالباً بإعداد أطباق الكسكسي التقليدية، وتجتمع نساء العائلة لإطلاق الزغاريد وترديد الأهازيج الشعبية ترحيباً بطفلكِ.",
+            "en": "Aqiqah in Africa and Arab countries takes on a distinct celebratory nature that varies in cultural details from one country to another, despite everyone agreeing on the ritual's core. In North African countries, the sacrifice is often accompanied by preparing traditional couscous dishes, and female family members gather to ululate and sing folk songs welcoming your baby."
+          },
+          {
+            "ar": "أما في منطقة الخليج العربي، فتتحول المناسبة إلى ولائم كبيرة تُقدم فيها أطباق المندي والكبسة المطهوة بلحم الذبيحة. تُنصب الخيام أحياناً لاستقبال المهنئين من الأقارب والجيران، ويُوزع البخور والعود كجزء من كرم الضيافة والاحتفاء بالمولود الجديد.",
+            "en": "In the Arabian Gulf region, the occasion turns into large banquets where Mandi and Kabsa dishes cooked with the sacrificed meat are served. Tents are sometimes set up to receive well-wishers from relatives and neighbors, and incense and oud are distributed as part of hospitality and celebrating the new baby."
+          },
+          {
+            "ar": "في مناطق أخرى من القارة الأفريقية، تتسم الاحتفالات بالبساطة والمشاركة المجتمعية الواسعة، حيث يُدعى كل أفراد القرية أو الحي لتناول الطعام معاً. هذا التنوع الجميل يعكس كيف تتكيف التقاليد الدينية مع الثقافات المحلية لتخلق ذكريات دافئة تدوم مدى الحياة.",
+            "en": "In other parts of the African continent, celebrations are characterized by simplicity and broad community participation, where all village or neighborhood members are invited to eat together. This beautiful diversity reflects how religious traditions adapt to local cultures to create warm, lifelong memories."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "العقيقة ماذا يقال عند ذبحها؟",
+          "en": "What is said when sacrificing the Aqiqah?"
+        },
+        "body": [
+          {
+            "ar": "العقيقة ماذا يقال عند تقديمها يرتكز على إخلاص النية لله والدعاء الصادق بأن يُنبت طفلكِ نباتاً حسناً ويجعله قرة عين لكِ. من المستحب أن يتولى الذابح، سواء كان زوجكِ أو الجزّار، التسمية والتكبير بصوت مسموع لتوثيق اللحظة روحانياً.",
+            "en": "What is said when offering the Aqiqah centers on sincere intention to God and earnest prayer that your child grows up well and brings you joy. It is recommended for the slaughterer, whether your husband or the butcher, to say the Basmalah and Takbeer audibly to spiritualize the moment."
+          },
+          {
+            "ar": "يُنصح بأن يُذكر اسم طفلكِ صراحةً عند الدعاء لربط هذه الذبيحة المباركة بالمولود بشكل مباشر. هذه الكلمات البسيطة تضفي طابعاً من السكينة والطمأنينة على قلبكِ، وتشعركِ بأنكِ أودعتِ طفلكِ في حفظ الله ورعايته منذ أيامه الأولى.",
+            "en": "It is advised to explicitly mention your child's name during the prayer to directly link this blessed sacrifice to the newborn. These simple words bring a sense of peace and tranquility to your heart, making you feel you have entrusted your baby to God's care from their earliest days."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "التسمية بوضوح تام قبل البدء بقول: \"بسم الله، والله أكبر\".",
+            "en": "Saying clearly before starting: 'In the name of Allah, and Allah is the greatest'."
+          },
+          {
+            "ar": "الدعاء بقبول الذبيحة بقول: \"اللهم لك وإليك، هذه عقيقة (اسم طفلكِ)\".",
+            "en": "Praying for the sacrifice's acceptance by saying: 'O Allah, to You and for You, this is the Aqiqah of (your child's name)'."
+          },
+          {
+            "ar": "الدعاء للطفل بالبركة والصلاح وحسن الخلق وتمني مستقبل مشرق ومحفوظ له.",
+            "en": "Praying for the child to have blessings, righteousness, good character, and wishing them a bright and protected future."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "توزيع العقيقة: كيفية تقسيم اللحم وإطعام الطعام",
+          "en": "Distributing the Aqiqah: How to divide the meat and feed people"
+        },
+        "body": [
+          {
+            "ar": "توزيع العقيقة يخضع لتقسيم محبب يضمن مشاركة الفرحة مع مختلف فئات مجتمعكِ، ويوازن بين احتياجات أسرتكِ وعمل الخير. جرت العادة أن يُقسم لحمها إلى ثلاثة أجزاء متساوية، وهو تقسيم يعزز روح التكافل الاجتماعي ويجعل للمناسبة أثراً طيباً يمتد لخارج حدود منزلكِ.",
+            "en": "Distributing the Aqiqah follows a favored division that ensures sharing joy with various groups in your community, balancing your family's needs with charity. It is customary to divide its meat into three equal parts, a division that enhances social solidarity and gives the occasion a positive impact beyond your home."
+          },
+          {
+            "ar": "يمكنكِ اختيار توزيع اللحم وهو نيء في أكياس مجهزة بعناية وإرسالها لمستحقيها، أو طهيه بالكامل وإعداد وليمة كبيرة تدعين إليها من تحبين. الطهى وتقديم الطعام المجهز يوفر على المحتاجين عناء الطبخ، ويُعد شكلاً من أشكال الكرم البالغ الذي تُشكرين عليه.",
+            "en": "You can choose to distribute the raw meat in carefully prepared bags and send it to the deserving, or cook it entirely and prepare a large feast inviting those you love. Cooking and serving prepared food spares the needy the effort of cooking and is considered a form of profound generosity for which you are thanked."
+          },
+          {
+            "ar": "لا توجد قواعد صارمة تجبركِ على الالتزام الحرفي بهذا التقسيم؛ فإذا فضلتم طهي الذبيحة كاملة ودعوة الأهل والفقراء لتناولها في بيتكم، فهذا عمل رائع ومقبول. المقصد النهائي هو إطعام الطعام ونشر أجواء الفرح بسلامة وصول طفلكِ.",
+            "en": "There are no strict rules forcing you to literally adhere to this division; if you prefer to cook the entire sacrifice and invite family and the poor to eat at your home, this is wonderful and acceptable. The ultimate goal is feeding people and spreading joy for your baby's safe arrival."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "الثلث الأول: يُخصص لأهل بيتكِ للاستمتاع به وطهيه خلال احتفالكم الخاص بالمولود.",
+            "en": "The first third: Dedicated to your household to enjoy and cook during your private celebration for the newborn."
+          },
+          {
+            "ar": "الثلث الثاني: يُهدى للأقارب والأصدقاء والجيران لتعزيز الروابط الاجتماعية ومشاركة البهجة.",
+            "en": "The second third: Gifted to relatives, friends, and neighbors to strengthen social bonds and share joy."
+          },
+          {
+            "ar": "الثلث الثالث: يُتصدق به على الفقراء والمحتاجين كنوع من الشكر العملي لله.",
+            "en": "The third third: Given as charity to the poor and needy as a practical form of gratitude to God."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "سنة التحنيك: معناها وكيفية تطبيقها بأمان",
+          "en": "The tradition of Tahnik: Its meaning and how to apply it safely"
+        },
+        "body": [
+          {
+            "ar": "التحنيك هو ممارسة تراثية تعتمد على تليين جزء صغير جداً من التمر وتمريره بلطف شديد على سقف حلق طفلكِ حديث الولادة. يُنفذ هذا التقليد عادةً في الساعات الأولى بعد الولادة وقبل أن يبدأ الطفل بالرضاعة، ويُعد تعبيراً رمزياً عن الترحيب بالمولود وتمني الحلاوة لحياته القادمة.",
+            "en": "Tahnik is a heritage practice relying on softening a tiny piece of date and rubbing it very gently on the roof of your newborn's mouth. This tradition is usually performed in the first hours after birth before the baby starts nursing, and is considered a symbolic expression of welcoming the newborn and wishing sweetness for their future life."
+          },
+          {
+            "ar": "تاريخياً، كان يقوم بهذه الخطوة شخص يُشهد له بالصلاح وكبر السن في العائلة، تبركاً به وأملاً في أن يقتدي الطفل بأخلاقه. تتم العملية بمضغ قطعة التمر لتصبح لينة تماماً، ثم وضع جزء يسير منها على طرف الإصبع ومسح فم الطفل من الداخل بهدوء.",
+            "en": "Historically, this step was performed by an elderly, righteous family member, seeking blessings and hoping the child emulates their character. The process involves chewing a piece of date until completely soft, then placing a tiny bit on the fingertip and gently wiping the inside of the baby's mouth."
+          },
+          {
+            "ar": "عند رغبتكِ في أداء هذا التقليد، يجب أن تكون الأولوية القصوى للنظافة التامة لحماية مناعة طفلكِ الضعيفة. تأكدي من غسل اليدين جيداً بالماء والصابون، أو يفضل استخدام قفاز طبي معقم، واستخدام كمية لا تُذكر من التمر لمنع حدوث أي خطر للاختناق.",
+            "en": "When wishing to perform this tradition, strict hygiene must be the top priority to protect your baby's weak immune system. Ensure thorough hand washing with soap and water, or preferably use a sterile medical glove, and use a negligible amount of date to prevent any choking hazard."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "التحنيك والطب: هل هناك فوائد صحية مثبتة؟",
+          "en": "Tahnik and Medicine: Are there proven health benefits?"
+        },
+        "body": [
+          {
+            "ar": "لا يوجد دليل طبي منشور يثبت أن للتحنيك فوائد صحية لمولودكِ. وتوصي منظمة الصحة العالمية (WHO) بالاقتصار التام على الرضاعة الطبيعية خلال الأشهر الستة الأولى. يُعتقد شعبياً في بعض المجتمعات أن هذه الخطوة تقوي عضلات فك الطفل وتساعده على الرضاعة، لكن هذا الاعتقاد لا يستند إلى أساس علمي.",
+            "en": "There is no published medical evidence that Tahnik has health benefits for your newborn. The World Health Organization (WHO) recommends exclusive breastfeeding for the first 6 months. It is popularly believed in some communities that this step strengthens the baby's jaw muscles and helps with nursing, but this belief lacks scientific basis."
+          },
+          {
+            "ar": "يجب التعامل مع التحنيك على أنه ممارسة ثقافية ودينية بحتة، وليس بديلاً عن الرضاعة أو علاجاً لأي حالة طبية. إدخال أي سكريات أو أطعمة صلبة لحديثي الولادة قبل اكتمال نمو جهازهم الهضمي قد يحمل مخاطر صحية إذا لم يتم بحذر شديد وبكميات متناهية الصغر.",
+            "en": "Tahnik should be treated as a purely cultural and religious practice, not a substitute for nursing or a treatment for any medical condition. Introducing any sugars or solid foods to newborns before their digestive system fully develops can carry health risks if not done with extreme caution and in microscopic amounts."
+          },
+          {
+            "ar": "إذا كان طفلكِ يعاني من مشاكل صحية عند الولادة مثل الخداج أو نقص السكر في الدم، فإن التدخل الطبي وإرشادات طبيب الأطفال هما المسار الوحيد المعتمد للتعامل مع حالته. يمكنكِ ممارسة التقاليد الثقافية بأمان طالما أنها لا تتعارض مع التوصيات الطبية المباشرة لحالة طفلكِ الخاصة.",
+            "en": "If your baby suffers from health issues at birth like prematurity or hypoglycemia, medical intervention and pediatrician guidelines are the only approved path to manage their condition. You can safely practice cultural traditions as long as they don't conflict with direct medical recommendations for your baby's specific case."
+          }
+        ],
+        "cites": [
+          "who-infant-feeding"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "ماحكم العقيقة في الاسلام؟",
+          "en": "What is the ruling on Aqiqah in Islam?"
+        },
+        "a": {
+          "ar": "تُعتبر العقيقة سنة مؤكدة عن النبي محمد لمن يمتلك القدرة المالية. ليست فرضاً ولا يأثم من تركها، لكنها مستحبة بشدة لإظهار الشكر لله والفرح بقدوم طفلكِ، وتقوية الروابط المجتمعية.",
+          "en": "Aqiqah is considered a confirmed Sunnah of Prophet Muhammad for those with financial ability. It is not obligatory and there is no sin in omitting it, but it is highly recommended to show gratitude to God, joy for your baby's arrival, and strengthen community bonds."
+        }
+      },
+      {
+        "q": {
+          "ar": "العقيقة هل هي واجبة أم سنة؟",
+          "en": "Is Aqiqah obligatory or a Sunnah?"
+        },
+        "a": {
+          "ar": "العقيقة ليست واجبة أو ملزمة على الوالدين. هي سنة محببة ومستحبة فقط، يمكنكم القيام بها إذا كانت ميزانية الأسرة تسمح بذلك دون تحميلكم ديوناً أو أعباءً مالية إضافية ترهقكم.",
+          "en": "Aqiqah is not obligatory or binding on parents. It is only a beloved and recommended Sunnah, which you can perform if the family budget allows without burdening you with debts or extra financial strain."
+        }
+      },
+      {
+        "q": {
+          "ar": "العقيقة هل هي فرض؟",
+          "en": "Is Aqiqah mandatory?"
+        },
+        "a": {
+          "ar": "لا، العقيقة ليست فرضاً بأي حال من الأحوال. عدم القيام بها لا يترتب عليه أي إثم شرعي، والدين الإسلامي يُيسر على الأسر ولا يكلفها فوق طاقتها المادية.",
+          "en": "No, Aqiqah is not mandatory under any circumstances. Not performing it incurs no religious sin, and the Islamic religion brings ease to families and does not burden them beyond their financial capacity."
+        }
+      },
+      {
+        "q": {
+          "ar": "متى العقيقة للمولود وما هو أفضل وقت؟",
+          "en": "When is the Aqiqah for the newborn and what is the best time?"
+        },
+        "a": {
+          "ar": "الوقت الأفضل والمستحب لعمل العقيقة هو اليوم السابع من ولادة طفلكِ. إذا تعذر ذلك لظروف صحية أو مالية، يمكن فعلها في اليوم الرابع عشر، أو الحادي والعشرين، أو تأجيلها لأي وقت لاحق.",
+          "en": "The best and recommended time to perform the Aqiqah is the seventh day after your baby's birth. If not possible due to health or financial circumstances, it can be done on the 14th day, the 21st day, or postponed to any later time."
+        }
+      },
+      {
+        "q": {
+          "ar": "العقيقة هل يجوز الاكل منها لأسرتي؟",
+          "en": "Aqiqah, is it permissible for my family to eat from it?"
+        },
+        "a": {
+          "ar": "نعم بالتأكيد، يجوز لكِ ولأسرتكِ الأكل من لحم العقيقة. بل يُستحب أن تأكلوا منها وتستمتعوا بها، وتطعموا الأقارب والأصدقاء احتفالاً بقدوم طفلكِ ونشر الفرحة في محيطكم.",
+          "en": "Yes, absolutely, it is permissible for you and your family to eat from the Aqiqah meat. In fact, it is recommended that you eat and enjoy it, and feed relatives and friends to celebrate your baby's arrival and spread joy in your circle."
+        }
+      },
+      {
+        "q": {
+          "ar": "العقيقه هل يجب توزيعها كلها؟",
+          "en": "Aqiqah, must it all be distributed?"
+        },
+        "a": {
+          "ar": "لا يجب توزيعها كلها للفقراء، فهذا ليس شرطاً لصحّتها. الأفضل هو تقسيمها بحيث تستفيد منها أسرتكِ، وأقاربكِ، والمحتاجون، مما يحقق التوازن بين الاحتفال وعمل الخير.",
+          "en": "It does not have to be entirely distributed to the poor, as this is not a condition for its validity. It is best to divide it so your family, relatives, and the needy benefit, striking a balance between celebration and charity."
+        }
+      },
+      {
+        "q": {
+          "ar": "العقيقه هل يجوز توزيعها نيئة؟",
+          "en": "Aqiqah, is it permissible to distribute it raw?"
+        },
+        "a": {
+          "ar": "نعم، يجوز تماماً توزيع اللحم نيئاً على المحتاجين أو الأقارب ليقوموا بطهيه بطريقتهم. ومع ذلك، يُفضل الكثيرون طهيه وتقديمه جاهزاً لرفع مشقة الطبخ عن الفقراء وكرم ضيافة للأقارب.",
+          "en": "Yes, it is perfectly permissible to distribute raw meat to the needy or relatives for them to cook their way. However, many prefer cooking and serving it ready to spare the poor the effort of cooking and as hospitality for relatives."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يمكن الجمع بين عقيقة الولد والبنت في ذبيحة واحدة؟",
+          "en": "Can the Aqiqah for a boy and a girl be combined in one sacrifice?"
+        },
+        "a": {
+          "ar": "إذا رُزقتِ بتوأم (ولد وبنت) أو أردتِ عمل عقيقة لطفلين في وقت واحد، تُحسب لكل طفل ذبيحته المستقلة بناءً على جنسه ولا تُجزئ ذبيحة واحدة عنهما معاً، لكن يمكن التيسير بالاكتفاء بشاة واحدة لكل منهما.",
+          "en": "If you are blessed with twins (boy and girl) or want to perform Aqiqah for two children simultaneously, each child's independent sacrifice is calculated based on their gender, and one sacrifice does not suffice for both together, but ease can be taken by sufficing with one sheep for each."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "خططي لميزانية استقبال طفلكِ",
+        "en": "Plan your baby's welcoming budget"
+      },
+      "body": {
+        "ar": "تجهيزات المولود وإعداد وليمة العقيقة تتطلب تخطيطاً مالياً مسبقاً لتجنب الإرهاق المادي. استخدمي أداة حاسبة الميزانية في تطبيق نواة لتنظيم نفقاتكِ بسهولة وتتبع كل ما يخص طفلكِ.",
+        "en": "Baby preparations and preparing the Aqiqah feast require advance financial planning to avoid financial strain. Use the budget calculator tool in the Nawah app to organize your expenses easily and track everything related to your baby."
+      },
+      "button": {
+        "ar": "حمّلي نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [
+      {
+        "id": "who-infant-feeding",
+        "org": "WHO",
+        "title": {
+          "ar": "تغذية الرضع والأطفال الصغار",
+          "en": "Infant and young child feeding"
+        },
+        "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+        "retrieved": "2026-10-06"
+      }
+    ],
+    "keywords": [
+      "العقيقة",
+      "العقيقة في الاسلام",
+      "العقيقة وشروطها",
+      "العقيقة للولد والبنت",
+      "العقيقة متى تذبح",
+      "العقيقة ماعز ام خروف",
+      "العقيقة في افريقيا",
+      "العقيقة ماذا يقال",
+      "العقيقة هل هي واجبة",
+      "العقيقة هل هي فرض",
+      "العقيقه هل يجب توزيعها",
+      "العقيقه هل يجوز توزيعها",
+      "العقيقة هل يجوز الاكل منها",
+      "متى العقيقة للمولود",
+      "ماحكم العقيقة في الاسلام"
+    ],
+    "related": [
+      "/ar/names",
+      "/ar/father/baby-budget",
+      "/ar/articles/postpartum/postpartum-recovery"
+    ],
+    "updated": "2026-10-05"
+  },
+  {
+    "cluster": "birth_cost",
+    "slug": "saudi-arabia-birth-cost-2026",
+    "published": true,
+    "hero": {
+      "src": "/articles/saudi-arabia-birth-cost-2026-hero.jpg",
+      "photographer": "kenan zhang",
+      "photographerUrl": "https://www.pexels.com/@kenan-zhang-2999734",
+      "pexelsUrl": "https://www.pexels.com/photo/a-newborn-baby-lying-in-a-hospital-infant-bassinet-13071793/",
+      "width": 6000,
+      "height": 4000,
+      "alt": {
+        "ar": "مولود في سرير مستشفى شفاف ترفع يده، وأمه واقفة بجواره بملابس المستشفى",
+        "en": "A newborn in a clear hospital bassinet raising one hand, with the mother standing beside it in a hospital gown"
+      }
+    },
+    "eyebrow": {
+      "ar": "تكاليف الولادة",
+      "en": "Birth Costs"
+    },
+    "title": {
+      "ar": "تكلفة الولادة في السعودية: الدليل الشامل لأسعار المستشفيات لعام ٢٠٢٦",
+      "en": "Birth Cost in Saudi Arabia: Comprehensive 2026 Hospital Price Guide"
+    },
+    "metaTitle": {
+      "ar": "تكلفة الولادة في السعودية: الأسعار والباقات ٢٠٢٦ | نواة",
+      "en": "Birth Cost in Saudi Arabia: Prices & Packages 2026 | Nawah"
+    },
+    "description": {
+      "ar": "خططي لميزانية طفلكِ وتعرفي على تكلفة الولادة في السعودية لعام ٢٠٢٦. دليلكِ الشامل لأسعار الباقات الطبيعية والقيصرية في المستشفيات الحكومية والخاصة.",
+      "en": "Plan your baby's budget and discover the cost of birth in Saudi Arabia for 2026. Your comprehensive guide to natural and C-section packages in hospitals."
+    },
+    "standfirst": {
+      "ar": "نساعدكِ في التخطيط المالي لاستقبال طفلكِ عبر تفصيل باقات المستشفيات الخاصة والحكومية في المملكة، لتتخذي القرار الأنسب لميزانيتكِ باطمئنان ووضوح.",
+      "en": "We help you financially plan for your baby's arrival by detailing private and government hospital packages in the Kingdom, so you can make the best choice with confidence."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "تكلفة الولادة في السعودية: نظرة شاملة على مستويات الأسعار",
+          "en": "Cost of Birth in Saudi Arabia: A Comprehensive Overview of Price Levels"
+        },
+        "body": [
+          {
+            "ar": "تختلف تكلفة الولادة في السعودية بشكل كبير بناءً على نوع المستشفى، وطبيعة الولادة، والتغطية التأمينية الخاصة بكِ. للإجابة المباشرة وفقاً للبيانات المجمعة لعامي ٢٠٢٥ و٢٠٢٦، تتراوح الأسعار في المستشفيات الخاصة بين ٣٬٠٠٠ ريال سعودي للباقات الاقتصادية للولادة الطبيعية، وتتجاوز حاجز الـ ٣٧٬٠٠٠ ريال سعودي للولادة القيصرية في الأجنحة الفاخرة ضمن المستشفيات المتميزة.",
+            "en": "The cost of birth in Saudi Arabia varies significantly based on the hospital type, delivery method, and your insurance coverage. To answer directly based on aggregated 2025 and 2026 data, prices in private hospitals range from 3,000 SAR for budget-friendly natural birth packages, exceeding 37,000 SAR for C-sections in luxury suites at premium hospitals."
+          },
+          {
+            "ar": "يُعد التخطيط المالي المبكر لولادتكِ خطوة أساسية لضمان راحة بالكِ في الأشهر الأخيرة من الحمل. ينقسم نظام الرعاية الصحية للأمومة في المملكة إلى قطاع حكومي واسع يقدم الرعاية المجانية للمواطنات السعوديات، وقطاع خاص نابض يفضله الكثيرون لمرونة الباقات الفندقية، وحرية اختيار الطبيبة المشرفة، وسرعة ترتيب المواعيد.",
+            "en": "Early financial planning for your birth is an essential step to ensure peace of mind in the final months of pregnancy. The maternity healthcare system in the Kingdom is divided into a vast government sector providing free care to Saudi citizens, and a vibrant private sector preferred by many for its flexible hotel-like packages, freedom to choose the attending doctor, and fast appointment scheduling."
+          },
+          {
+            "ar": "تختلف أسعار الباقات بوضوح من مدينة لأخرى؛ فمستشفيات الرياض وجدة الكبرى مثل مجموعة الدكتور سليمان الحبيب ومستشفى فقيه تقدم باقات تُصنف ضمن الفئة المتميزة (VIP)، بينما توفر مستشفيات أخرى خيارات اقتصادية ممتازة وآمنة. من المهم أن تعرفي أن السعر المبدئي للباقة يمثل نقطة البداية فقط، وهو يغطي الإقامة الروتينية وأتعاب الطبيب، لكنه نادراً ما يشمل التدخلات الطارئة أو العلاجات المعقدة.",
+            "en": "Package prices clearly differ from city to city; major Riyadh and Jeddah hospitals like Dr. Sulaiman Al Habib Group and Fakeeh Hospital offer packages classified as premium (VIP), while other hospitals provide excellent and safe budget options. It is important to know that the initial package price is just a starting point, covering routine stays and doctor's fees, but rarely includes emergency interventions or complex treatments."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة الطبيعية في السعودية: ماذا تشمل الباقات؟",
+          "en": "Cost of Natural Birth in Saudi Arabia: What Do Packages Include?"
+        },
+        "body": [
+          {
+            "ar": "تظل الولادة الطبيعية الخيار الأكثر أماناً والأقل تكلفة مقارنة بالعمليات الجراحية، كما أنها تضمن لكِ تعافياً أسرع بإذن الله. تتراوح تكلفة الولادة الطبيعية في السعودية داخل المستشفيات الخاصة بين ٣٬٠٠٠ و ١٢٬٠٠٠ ريال سعودي، وذلك يعتمد بشكل رئيسي على مستوى الغرفة المرفقة بالباقة (غرفة مشتركة، أو خاصة، أو جناح إداري) وتصنيف المستشفى الفندقي.",
+            "en": "Natural birth remains the safest and most cost-effective option compared to surgeries, and it ensures a faster recovery. The cost of natural birth in Saudi Arabia within private hospitals ranges between 3,000 and 12,000 SAR, depending mainly on the room tier included in the package (shared room, private, or executive suite) and the hospital's hospitality rating."
+          },
+          {
+            "ar": "في معظم مستشفيات المملكة، تُغطي باقة الولادة الطبيعية الأساسية إقامة لمدة ٤٨ ساعة في المستشفى. يشمل هذا المبلغ أتعاب طبيبة النساء والتوليد المشرفة على حالتكِ، وطبيب الأطفال الذي يقوم بفحص المولود فور ولادته للاطمئنان على مؤشراته الحيوية، بالإضافة إلى الرعاية المستمرة من طاقم التمريض والقابلات.",
+            "en": "In most hospitals across the Kingdom, the basic natural birth package covers a 48-hour hospital stay. This amount includes the fees for the obstetrician overseeing your case, the pediatrician who examines the newborn immediately after birth to check their vital signs, as well as continuous care from the nursing staff and midwives."
+          },
+          {
+            "ar": "كما تتضمن هذه الباقات العناية الأولية بطفلكِ في الحضانة العادية لبضع ساعات، وإعطاء تطعيمات اليوم الأول الأساسية مثل لقاح الكبد الوبائي (ب)، وإجراء اختبار السمع الروتيني للمواليد. يجب التنويه إلى أن الباقات الأساسية لا تشمل إبرة الظهر (الإيبيدورال) لتخفيف الألم، أو الإقامة في العناية المركزة لحديثي الولادة إذا تطلب الأمر.",
+            "en": "These packages also include initial care for your baby in the regular nursery for a few hours, administration of first-day essential vaccinations like the Hepatitis B vaccine, and performing the routine newborn hearing test. It should be noted that standard packages do not include the epidural injection for pain relief, or a stay in the Neonatal Intensive Care Unit (NICU) if required."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "المستشفى (الفئة والمدينة)",
+              "en": "Hospital (Tier & City)"
+            },
+            {
+              "ar": "السعر التقريبي للولادة الطبيعية",
+              "en": "Approx. Natural Birth Price"
+            },
+            {
+              "ar": "تاريخ التسعيرة",
+              "en": "Pricing Date"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "مستشفى الظافر، جدة (متوسط)",
+                "en": "Al Dhafer Hospital, Jeddah (Mid-range)"
+              },
+              {
+                "ar": "٣٬٠٠٠ ريال سعودي",
+                "en": "3,000 SAR"
+              },
+              {
+                "ar": "٢٠٢٤",
+                "en": "2024"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى الحياة الوطني، الرياض (متوسط)",
+                "en": "Hayat National Hospital, Riyadh (Mid-range)"
+              },
+              {
+                "ar": "٣٬٥٠٠ ريال سعودي",
+                "en": "3,500 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى آية، جدة (متوسط)",
+                "en": "Aya Hospital, Jeddah (Mid-range)"
+              },
+              {
+                "ar": "٧٬٠٠٠ ريال سعودي",
+                "en": "7,000 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى سليمان الحبيب، الرياض (متميز)",
+                "en": "Sulaiman Al Habib Hospital, Riyadh (Premium)"
+              },
+              {
+                "ar": "٧٬٦٥٠ إلى ٨٬٠٠٠ ريال سعودي",
+                "en": "7,650 to 8,000 SAR"
+              },
+              {
+                "ar": "٢٠٢٥ / ٢٠٢٦",
+                "en": "2025 / 2026"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى سليمان فقيه، جدة (متميز)",
+                "en": "Sulaiman Fakeeh Hospital, Jeddah (Premium)"
+              },
+              {
+                "ar": "١١٬٢٠٠ ريال سعودي",
+                "en": "11,200 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ]
+          ]
+        },
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة القيصرية في السعودية: التفاصيل والأسعار",
+          "en": "Cost of C-Section in Saudi Arabia: Details and Prices"
+        },
+        "body": [
+          {
+            "ar": "ترتفع تكلفة الولادة القيصرية في السعودية نظراً لكونها عملية جراحية كبرى تتطلب حجز غرفة عمليات مجهزة، وطاقم تخدير متخصص، ورعاية طبية مكثفة في مرحلة الإفاقة. تبدأ أسعار الباقات القيصرية في المستشفيات الاقتصادية من ٦٬٠٠٠ ريال سعودي، وتصل إلى ١٨٬٠٠٠ ريال تقريباً في المستشفيات المتميزة باختيار الغرف الخاصة القياسية.",
+            "en": "The cost of a C-section in Saudi Arabia is higher as it is a major surgery requiring a fully equipped operating room, a specialized anesthesia team, and intensive medical care during recovery. C-section package prices start at 6,000 SAR in budget hospitals, reaching approximately 18,000 SAR in premium hospitals when selecting standard private rooms."
+          },
+          {
+            "ar": "وفقاً لأسعار مستشفى محمد فقيه المُعلنة بالرياض، تقفز التكلفة بشكل ملحوظ إذا قررتِ حجز جناح تنفيذي أو ملكي (رويال) لتتجاوز ٣٧٬٠٠٠ ريال سعودي، وهو خيار يفضله البعض لتوفر مساحة شاسعة لاستقبال المهنئين وخدمات فندقية استثنائية. تُغطي الباقة القيصرية في المعتاد إقامة تمتد من ٣ إلى ٤ أيام لضمان التئام الجرح واستقرار حالتكِ الصحية قبل العودة للمنزل.",
+            "en": "According to the announced prices of Mohammad Fakeeh Hospital in Riyadh, the cost jumps significantly if you decide to book an executive or royal suite, exceeding 37,000 SAR; an option preferred by some for the spacious area to receive guests and exceptional hotel services. The C-section package usually covers a 3 to 4-day stay to ensure wound healing and your health stability before returning home."
+          },
+          {
+            "ar": "من الضروري جداً أن تدركي الفرق المالي بين القيصرية المجدولة مسبقاً والقيصرية الطارئة؛ فإذا قمتِ بحجز باقة ولادة طبيعية واضطر الطبيب لإجراء عملية قيصرية طارئة لإنقاذ الجنين أثناء المخاض، ستُحسب التكلفة النهائية وفقاً لأسعار التدخلات الجراحية الطارئة، وقد تُضاف فروقات مالية غير مشمولة في خصومات الحجز المبكر.",
+            "en": "It is highly crucial to realize the financial difference between a pre-scheduled C-section and an emergency one; if you booked a natural birth package and the doctor had to perform an emergency C-section to save the baby during labor, the final cost will be calculated according to emergency surgical rates, and financial differences not covered by early booking discounts may be added."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "المستشفى (الفئة والمدينة)",
+              "en": "Hospital (Tier & City)"
+            },
+            {
+              "ar": "السعر التقريبي للولادة القيصرية",
+              "en": "Approx. C-Section Price"
+            },
+            {
+              "ar": "تاريخ التسعيرة",
+              "en": "Pricing Date"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "مستشفى الظافر، جدة (متوسط)",
+                "en": "Al Dhafer Hospital, Jeddah (Mid-range)"
+              },
+              {
+                "ar": "٦٬٠٠٠ ريال سعودي",
+                "en": "6,000 SAR"
+              },
+              {
+                "ar": "٢٠٢٤",
+                "en": "2024"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى الحياة الوطني، الرياض (متوسط)",
+                "en": "Hayat National Hospital, Riyadh (Mid-range)"
+              },
+              {
+                "ar": "٨٬٥٠٠ ريال سعودي",
+                "en": "8,500 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى آية، جدة (متوسط)",
+                "en": "Aya Hospital, Jeddah (Mid-range)"
+              },
+              {
+                "ar": "١٣٬٥٠٠ ريال سعودي",
+                "en": "13,500 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى سليمان الحبيب، الرياض (متميز)",
+                "en": "Sulaiman Al Habib Hospital, Riyadh (Premium)"
+              },
+              {
+                "ar": "١٥٬٠٠٠ إلى ١٦٬٥٧٥ ريال سعودي",
+                "en": "15,000 to 16,575 SAR"
+              },
+              {
+                "ar": "٢٠٢٥ / ٢٠٢٦",
+                "en": "2025 / 2026"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى محمد فقيه، الرياض (متميز-أجنحة)",
+                "en": "Mohammad Fakeeh Hospital, Riyadh (Premium-Suites)"
+              },
+              {
+                "ar": "٢٢٬٠٠٠ إلى ٣٧٬٠٠٠ ريال سعودي",
+                "en": "22,000 to 37,000 SAR"
+              },
+              {
+                "ar": "٢٠٢٤ / ٢٠٢٥",
+                "en": "2024 / 2025"
+              }
+            ]
+          ]
+        },
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة في المستشفيات الحكومية السعودية للمقيمات",
+          "en": "Cost of Birth in Saudi Government Hospitals for Expats"
+        },
+        "body": [
+          {
+            "ar": "تُتاح خدمات الرعاية الصحية للأمومة في القطاع العام لغير السعوديات برسوم محددة، مما يجعل تكلفة الولادة في المستشفيات الحكومية السعودية للمقيمات خياراً جاذباً وموثوقاً. تبلغ التكلفة التقريبية للولادة الطبيعية للأجانب في المستشفيات التابعة لوزارة الصحة حوالي ٨٬٠٠٠ ريال سعودي، بينما تبلغ تكلفة الولادة القيصرية حوالي ١٦٬٥٠٠ ريال سعودي.",
+            "en": "Maternity healthcare services in the public sector are available to non-Saudis for specific fees, making the cost of birth in Saudi government hospitals for expats an attractive and reliable option. The approximate cost of natural birth for foreigners in Ministry of Health hospitals is around 8,000 SAR, while a C-section costs about 16,500 SAR."
+          },
+          {
+            "ar": "تحظى المدن الطبية والمستشفيات الحكومية الكبرى بثقة استثنائية بين السيدات؛ وذلك لتمتعها بكوادر طبية أكاديمية وتجهيزات متقدمة للتعامل مع حالات الحمل عالي الخطورة. المستشفيات الحكومية مُجهزة بأحدث أقسام العناية المركزة لحديثي الولادة (NICU)، ما يوفر شبكة أمان طبي قصوى للطفل والأم معاً في حالات الطوارئ المعقدة التي قد تعتذر المستشفيات الخاصة الصغرى عن استقبالها.",
+            "en": "Major medical cities and government hospitals enjoy exceptional trust among women; due to their academic medical staff and advanced equipment to handle high-risk pregnancies. Government hospitals are equipped with the latest Neonatal Intensive Care Units (NICU), providing an ultimate medical safety net for both baby and mother in complex emergencies that smaller private hospitals might decline to admit."
+          },
+          {
+            "ar": "يُنصح بشدة بالتواصل المسبق مع قسم \"أهلية العلاج\" في المستشفى الحكومي المطلوب، حيث تخضع سياسات القبول وتحديثات الأسعار لتنظيم دقيق. ستحتاجين لتقديم إقامة سارية المفعول، وتقارير متابعة الحمل، وفي بعض الحالات ورقة تحويل طبي رسمية لفتح ملف وقبول الحالة.",
+            "en": "It is highly recommended to communicate in advance with the \"Patient Eligibility\" department at the desired government hospital, as admission policies and price updates are strictly regulated. You will need to provide a valid Iqama (residence permit), pregnancy follow-up reports, and in some cases, an official medical referral to open a file and admit the case."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "تكلفة عملية الولادة في السعودية: العوامل التي ترفع الفاتورة",
+          "en": "Delivery Process Cost in Saudi Arabia: Factors That Inflate the Bill"
+        },
+        "body": [
+          {
+            "ar": "السعر التسويقي المعلن للباقة لا يمثل بالضرورة الفاتورة النهائية للولادة؛ فهناك خدمات طبية إضافية تُسعر منفردة وتلعب دوراً كبيراً في تحديد تكلفة عملية الولادة في السعودية. من المهم مناقشة هذه التفاصيل بوضوح مع قسم الحسابات وتوثيقها في العقد لتجنب المفاجآت المالية عند تجهيز أوراق الخروج.",
+            "en": "The advertised marketing price for a package does not necessarily represent the final birth bill; there are additional medical services priced separately that play a major role in determining the delivery process cost in Saudi Arabia. It is important to discuss these details clearly with the billing department and document them in the contract to avoid financial surprises during discharge."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "إبرة الظهر (الإيبيدورال): الخيار الطبي الأكثر شيوعاً لتخفيف ألم الانقباضات؛ لا تُدرج ضمن الباقات الطبيعية القياسية. تتراوح تكلفتها المنفصلة بين ١٬٧٥٠ ريال (كما يوضح تسعير مستشفى الحبيب) وتصل إلى ٥٬٠٠٠ ريال في مستشفيات أخرى.",
+            "en": "Epidural: The most common medical choice to relieve contraction pain; it is not included in standard natural packages. Its separate cost ranges from 1,750 SAR (as shown in Al Habib Hospital pricing) up to 5,000 SAR in other hospitals."
+          },
+          {
+            "ar": "درجة الطبيبة المعالجة: ترتفع أتعاب الطاقم الطبي المضافة للفاتورة إذا اخترتِ إشراف طبيبة برتبة استشارية (Consultant) بدلاً من طبيبة أخصائية (Specialist).",
+            "en": "Attending doctor's rank: The medical staff fees added to the bill increase if you choose the supervision of a consultant doctor instead of a specialist."
+          },
+          {
+            "ar": "الطلق الصناعي والأدوية: تحريض المخاض طبياً باستخدام الأدوية الوريدية يتطلب مراقبة مستمرة ورسوماً تُضاف لبند الصيدلية في المستشفى.",
+            "en": "Artificial induction and medications: Medically inducing labor using IV drugs requires continuous monitoring and fees added to the hospital pharmacy section."
+          },
+          {
+            "ar": "الخياطة التجميلية: تطلب بعض الأمهات إجراء خياطة تجميلية بعد الولادة الطبيعية كإجراء إضافي، وهي خدمة اختيارية تُسعر بشكل مستقل تماماً عن باقة التوليد الأساسية.",
+            "en": "Cosmetic suturing: Some mothers request cosmetic suturing after a natural birth as an extra procedure, which is an optional service priced completely independent of the basic maternity package."
+          },
+          {
+            "ar": "العناية المركزة لحديثي الولادة (NICU): إذا وُلد طفلكِ مبكراً واحتاج دعماً تنفسياً، تُحسب إقامته في الحضانة المركزة باليوم، وهي مصاريف ضخمة جداً إن لم تكوني مشمولة بمظلة التأمين الطبي.",
+            "en": "Neonatal Intensive Care Unit (NICU): If your baby is born prematurely and requires respiratory support, their stay in the intensive nursery is billed daily, which constitutes huge expenses if you are not covered under the umbrella of medical insurance."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "التأمين الطبي وتغطية تكلفة الولادة في السعودية",
+          "en": "Medical Insurance and Birth Cost Coverage in Saudi Arabia"
+        },
+        "body": [
+          {
+            "ar": "يُعد التأمين الصحي الجيد درعاً حامياً لميزانية الأسرة، حيث يُلزم مجلس الضمان الصحي (CCHI) في المملكة جميع وثائق التأمين الطبي المعتمدة بتغطية مصاريف الحمل والولادة بشكل أساسي. ومع ذلك، يعتمد مقدار الرصيد المتاح لكِ كلياً على فئة الوثيقة الممنوحة لكِ من جهة العمل (مثل فئة VIP، أو A، أو B).",
+            "en": "Good health insurance is a protective shield for the family budget, as the Council of Cooperative Health Insurance (CCHI) in the Kingdom mandates all approved medical insurance policies to fundamentally cover pregnancy and birth expenses. However, the amount of available balance depends entirely on the policy class granted to you by your employer (such as VIP, A, or B)."
+          },
+          {
+            "ar": "تمتلك كل وثيقة \"حداً أقصى للتغطية\" لخدمات الأمومة؛ فإذا كان الحد الأقصى لوثيقتكِ ١٥٬٠٠٠ ريال سعودي وكانت الفاتورة الإجمالية للمستشفى ١٨٬٠٠٠ ريال بسبب ترقية الغرفة، سيتعين عليكِ دفع الفارق البالغ ٣٬٠٠٠ ريال من ميزانيتكِ الشخصية عند تسجيل الخروج.",
+            "en": "Each policy has a \"maximum coverage limit\" for maternity services; if your policy's limit is 15,000 SAR and the total hospital bill is 18,000 SAR due to a room upgrade, you will have to pay the 3,000 SAR difference from your personal budget upon check-out."
+          },
+          {
+            "ar": "من المزايا المطمئنة جداً في نظام التأمين السعودي أنه يضمن شمول المولود الجديد بتأمين والدته تلقائياً لمدة ٣٠ يوماً من تاريخ الولادة بحد أقصى مالي محدد. يوفر هذا النظام التلقائي غطاءً مالياً فورياً لأي رعاية طارئة، أو تحاليل طبية، أو رعاية في الحضانة قد يحتاجها طفلكِ قبل إصدار أوراقه الثبوتية وربطه رسمياً ببوليصة التأمين.",
+            "en": "A highly reassuring feature of the Saudi insurance system is that it guarantees the newborn is automatically covered by the mother's insurance for 30 days from birth up to a specific financial limit. This automatic system provides immediate financial cover for any emergency care, medical tests, or nursery care your baby might need before their ID documents are issued and officially linked to the policy."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "نصائح مالية للحجز المبكر وإدارة الميزانية بنجاح",
+          "en": "Financial Tips for Early Booking and Successful Budget Management"
+        },
+        "body": [
+          {
+            "ar": "التخطيط الذكي يجعلكِ تستفيدين من أفضل الأسعار والخدمات دون ضغوط. يُنصح بالبدء في جولات تفقد المستشفيات في نهاية الثلث الثاني من الحمل (حوالي الشهر السادس)، للتعرف على نظافة الغرف، والحديث مع قسم الحسابات لاستعراض تفاصيل الباقات بشفافية، وحجز غرفتكِ مبكراً لتجنب زحام المواعيد.",
+            "en": "Smart planning allows you to benefit from the best prices and services without stress. It is advisable to start hospital tours at the end of the second trimester (around the sixth month), to check room cleanliness, speak with the billing department to transparently review package details, and book your room early to avoid scheduling jams."
+          },
+          {
+            "ar": "يمكنكِ توفير مبالغ ضخمة من خلال استغلال المناسبات الوطنية؛ حيث تتسابق المستشفيات الخاصة في المملكة لتقديم عروض وتخفيضات هائلة على باقات الولادة ومتابعة الحمل خلال اليوم الوطني السعودي، ويوم التأسيس، وحتى مواسم نهاية العام. تسمح لكِ أغلب المستشفيات بدفع عربون صغير لتثبيت السعر المخفض واستخدامه لاحقاً وقت ولادتكِ الفعلية.",
+            "en": "You can save massive amounts by taking advantage of national holidays; private hospitals in the Kingdom compete to offer huge discounts and deals on birth and prenatal packages during Saudi National Day, Foundation Day, and even year-end seasons. Most hospitals allow you to pay a small deposit to lock in the discounted rate and use it later at the actual time of your birth."
+          },
+          {
+            "ar": "أخيراً، اطلبي دائماً من موظف الاستقبال أو شؤون المرضى استخراج فاتورة تجريبية تفصيلية (Proforma Invoice) قبل الدفع النهائي لمعرفة كل بند بدقة. اسألي بصراحة عن سياسة المستشفى في استرداد المبالغ المدفوعة في حال حدثت ظروف طارئة وتطلب الأمر تحويلكِ لمستشفى حكومي قبل إتمام الولادة لديهم.",
+            "en": "Finally, always ask the receptionist or patient affairs clerk to issue a detailed proforma invoice before final payment to accurately know every item. Ask frankly about the hospital's refund policy in case emergency circumstances occur and you are transferred to a government hospital before delivering with them."
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "كم سعر إبرة الظهر في المستشفيات السعودية؟",
+          "en": "How much does the epidural cost in Saudi hospitals?"
+        },
+        "a": {
+          "ar": "تتراوح تكلفة إبرة الظهر (الإيبيدورال) لتخفيف ألم المخاض عادةً بين ١٬٧٥٠ ريال سعودي وتصل إلى ٥٬٠٠٠ ريال سعودي حسب تصنيف المستشفى، وتُضاف كرسوم منفصلة تماماً فوق تكلفة الباقة الأساسية للولادة الطبيعية.",
+          "en": "The cost of an epidural to relieve labor pain usually ranges between 1,750 SAR and up to 5,000 SAR depending on the hospital tier, and it is added as a completely separate fee on top of the basic natural birth package cost."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل تغطي شركات التأمين الطبي الولادة القيصرية التجميلية؟",
+          "en": "Do medical insurance companies cover cosmetic C-sections?"
+        },
+        "a": {
+          "ar": "التأمين الطبي يغطي تكلفة الولادة القيصرية فقط إذا كانت بناءً على ضرورة طبية يقررها الطبيب لإنقاذ الأم أو الجنين. ولا تُغطي وثائق التأمين أي عمليات تجميلية مرفقة مثل شد البطن المصاحب للقيصرية.",
+          "en": "Medical insurance covers the cost of a C-section only if it is based on a medical necessity determined by the doctor to save the mother or fetus. Insurance policies do not cover any accompanying cosmetic procedures like a tummy tuck alongside the C-section."
+        }
+      },
+      {
+        "q": {
+          "ar": "ماذا أفعل إذا تجاوزت فاتورة الولادة الحد الأقصى للتأمين؟",
+          "en": "What should I do if the birth bill exceeds the insurance maximum limit?"
+        },
+        "a": {
+          "ar": "وفقاً لسياسات التغطية في المملكة، يتحمل المريض مسؤولية دفع أي فروقات مالية تتجاوز الحد الأقصى المتفق عليه في بوليصة التأمين الخاصة به نقداً (Out of pocket) عند تسجيل الخروج من المستشفى.",
+          "en": "According to coverage policies in the Kingdom, the patient is responsible for paying any financial differences that exceed the maximum limit agreed upon in their insurance policy in cash (out of pocket) upon checking out of the hospital."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يمكن للأجنبية المقيمة الولادة في مستشفى حكومي مجاناً؟",
+          "en": "Can a foreign resident give birth in a government hospital for free?"
+        },
+        "a": {
+          "ar": "الرعاية المجانية الكاملة مخصصة للمواطنات. تُقدم المستشفيات الحكومية خدماتها للمقيمات برسوم ثابتة (حوالي ٨٬٠٠٠ ريال للطبيعية)، ولكن في حالات الطوارئ القصوى والولادة الفورية تُسعف المستشفى الحالة وتُطالب المريضة بالرسوم لاحقاً.",
+          "en": "Full free care is dedicated to citizens. Government hospitals offer services to expats for fixed fees (around 8,000 SAR for natural), but in extreme emergencies and imminent birth, the hospital will rescue the case and bill the patient for the fees later."
+        }
+      },
+      {
+        "q": {
+          "ar": "متى يُنصح بحجز باقة الولادة وتثبيت السعر في المستشفى؟",
+          "en": "When is it recommended to book the birth package and lock the price?"
+        },
+        "a": {
+          "ar": "يُفضل البدء بالبحث وحجز الباقة ودفع العربون في بداية الشهر السابع، أو عند إعلان المستشفيات الخاصة عن تخفيضات كبيرة خلال الأعياد والمناسبات الوطنية (مثل اليوم الوطني) لضمان تثبيت السعر المنخفض.",
+          "en": "It is preferable to start researching, booking the package, and paying the deposit at the beginning of the seventh month, or when private hospitals announce huge discounts during holidays and national events (like National Day) to lock in the low price."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل تختلف أسعار الباقات بين الطبيب الاستشاري والأخصائي؟",
+          "en": "Do package prices differ between a consultant and specialist doctor?"
+        },
+        "a": {
+          "ar": "نعم، ترتفع أتعاب الطاقم الطبي المضافة للفاتورة وبالتالي تزيد التكلفة الإجمالية للولادة عند طلب إشراف طبيب بدرجة استشاري مقارنة باختيار طبيب بدرجة أخصائي.",
+          "en": "Yes, the medical staff fees added to the bill increase, thus raising the overall cost of birth, when requesting the supervision of a consultant-level doctor compared to choosing a specialist-level doctor."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل تطعيمات المولود الأولى مشمولة في باقة المستشفى الأساسية؟",
+          "en": "Are the newborn's first vaccinations included in the basic hospital package?"
+        },
+        "a": {
+          "ar": "نعم، تشمل أغلب الباقات الأساسية في كل من القطاعين الخاص والحكومي الجرعة الأولى من تطعيمات حديثي الولادة الضرورية مثل الكبد الوبائي (ب)، بالإضافة إلى فحص السمع الروتيني.",
+          "en": "Yes, most basic packages in both the private and government sectors include the first dose of essential newborn vaccinations like Hepatitis B, in addition to the routine hearing screening."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "احسبي تكاليف ولادتكِ بدقة وسهولة",
+        "en": "Calculate your birth costs accurately and easily"
+      },
+      "body": {
+        "ar": "مصاريف المستشفى هي مجرد جزء من خطة مالية أكبر لاستقبال طفلكِ. استخدمي أداة \"ميزانية الطفل\" في تطبيق نواة لتتبع نفقات الحمل خطوة بخطوة، ومقارنة التكاليف بعملتكِ المحلية، وتجنب أي مفاجآت مالية لتبدئي رحلة الأمومة باطمئنان كامل.",
+        "en": "Hospital expenses are just part of a larger financial plan for welcoming your baby. Use the \"Baby Budget\" tool in the Nawah app to track pregnancy expenses step-by-step, compare costs in your local currency, and avoid any financial surprises to start your motherhood journey with complete peace of mind."
+      },
+      "button": {
+        "ar": "حمّلي نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [],
+    "keywords": [
+      "تكلفة الولادة في السعودية",
+      "تكلفة الولادة القيصرية في السعودية",
+      "تكلفة الولادة الطبيعية في السعودية",
+      "تكلفة عملية الولادة في السعودية",
+      "تكلفة الولادة في المستشفيات الحكومية السعودية"
+    ],
+    "related": [
+      "/ar/father/baby-budget",
+      "/ar/articles/csection/c-section-vs-vaginal-birth",
+      "/ar/father/hospital-bag",
+      "/ar/guide/7"
+    ],
+    "updated": "2026-10-05"
+  },
+  {
+    "cluster": "birth_cost",
+    "slug": "birth-cost-in-egypt",
+    "published": true,
+    "hero": {
+      "src": "/articles/birth-cost-in-egypt-hero.jpg",
+      "photographer": "Vidal Balielo Jr.",
+      "photographerUrl": "https://www.pexels.com/@vidalbalielojrfotografia",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-newborn-4005601/",
+      "width": 5472,
+      "height": 3648,
+      "alt": {
+        "ar": "مولود حديث في سرير المستشفى يرتدي قبعة بيضاء وسوار المستشفى حول معصمه",
+        "en": "A newborn in a hospital cot wearing a white cap and a hospital ID band on the wrist"
+      }
+    },
+    "eyebrow": {
+      "ar": "تكلفة الولادة",
+      "en": "Birth Cost"
+    },
+    "title": {
+      "ar": "تكلفة الولادة في مصر: دليلكِ الشامل لأسعار المستشفيات",
+      "en": "Cost of Childbirth in Egypt: Your Comprehensive Guide to Hospital Prices"
+    },
+    "metaTitle": {
+      "ar": "تكلفة الولادة في مصر: أسعار ٢٠٢٦ | نواة",
+      "en": "Cost of Childbirth in Egypt: 2026 Prices | Nawah"
+    },
+    "description": {
+      "ar": "تعرفي على تكلفة الولادة في مصر لعام ٢٠٢٦ بأنواعها القيصرية والطبيعية والمائية. دليل مفصل لأسعار المستشفيات الحكومية والخاصة لتخطيط ميزانية ولادتكِ بذكاء.",
+      "en": "Discover the 2026 cost of childbirth in Egypt, including C-section, natural, and water birth. A detailed guide to public and private hospital prices."
+    },
+    "standfirst": {
+      "ar": "تتفاوت أسعار الولادة في السوق الطبي المصري بشكل كبير. نضع بين يديكِ تحليلاً واقعياً لتكاليف الولادة الطبيعية والقيصرية وأسعار الحضانات لعام ٢٠٢٦ لمساعدتكِ على الاستعداد المالي.",
+      "en": "Childbirth prices vary significantly in the Egyptian medical market. We provide a realistic analysis of natural and cesarean birth costs and incubator prices for 2026 to help you financially prepare."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "تكلفة الولادة في مصر",
+          "en": "The cost of childbirth in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتباين تكلفة الولادة في مصر بين ٨٠٠ جنيه مصري في المستشفيات العامة وتصل إلى ٥٠,٠٠٠ جنيه في القطاع الخاص لعام ٢٠٢٦. يعتمد هذا السعر على نوع الإجراء الطبي المطلوب، سواء كان ولادة طبيعية أو قيصرية. كما يلعب تصنيف المستشفى ومستوى الرعاية الفندقية المقدمة دوراً رئيسياً في تحديد الفاتورة النهائية.",
+            "en": "The cost of childbirth in Egypt varies between 800 EGP in public hospitals and reaches up to 50,000 EGP in the private sector for 2026. This price depends on the type of medical procedure required, whether natural or cesarean. The hospital's classification and the level of hotel-style care provided also play a major role in determining the final bill."
+          },
+          {
+            "ar": "أعلنت وزارة الصحة المصرية في نوفمبر ٢٠٢٥ أن متوسط تكلفة الولادة في المستشفيات الحكومية يتراوح بين ٤٠٠٠ و ٤٥٠٠ جنيه مصري. تتيح لوائح الوزارة لكل مستشفى عام تحديد تسعيرته الاسترشادية الخاصة لدعم المرضى. على سبيل المثال، طرح مستشفى بورسعيد العام في عام ٢٠٢٥ باقة مخفضة جداً بقيمة ٨٠٠ جنيه فقط. يجب عليكِ مراجعة المستشفى الحكومي القريب منكِ مبكراً للتعرف على هذه الحزم الاقتصادية وتوافرها.",
+            "en": "The Egyptian Ministry of Health announced in November 2025 that the average cost of childbirth in government hospitals ranges between 4,000 and 4,500 EGP. Ministry regulations allow each general hospital to set its own guiding prices to support patients. For example, Port Said General Hospital offered a heavily discounted package in 2025 for only 800 EGP. You must check the government hospital near you early to learn about these economical packages and their availability."
+          },
+          {
+            "ar": "تزداد التكلفة بشكل ملحوظ والمصروفات الإضافية عندما تختارين القطاع الخاص. تُحسب أتعاب الطبيب الجراح وطبيب الأطفال بشكل مستقل غالباً عن تكلفة إشغال الغرفة. تضاف أيضاً خدمات الرعاية التمريضية المستمرة والإعاشة الفندقية التي تُقدم لكِ ولمرافقيكِ أثناء فترة إقامتكِ إلى إجمالي تكلفة الولادة النهائية.",
+            "en": "Costs and additional expenses increase significantly when you choose the private sector. The fees of the surgeon and the pediatrician are often calculated independently from the room occupancy cost. Continuous nursing care services and hotel-style catering provided to you and your companions during your stay are also added to the final total cost of childbirth."
+          }
+        ],
+        "cites": [
+          "moh-egypt-2025"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة القيصرية في مصر",
+          "en": "The cost of cesarean delivery in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتراوح تكلفة الولادة القيصرية في مصر بين ٢٥٠٠ و ٥٠,٠٠٠ جنيه مصري وفقاً لتصنيف وتجهيز المستشفى. تبدأ الأسعار المنخفضة في الأقسام الاقتصادية داخل المستشفيات الحكومية أو التعليمية. بينما تسجل المستشفيات الخاصة الفاخرة أعلى معدلات الأسعار لعام ٢٠٢٦. الولادة القيصرية هي إجراء جراحي لاستخراج الجنين عبر شق في جدار البطن والرحم.",
+            "en": "The cost of a cesarean delivery in Egypt ranges between 2,500 and 50,000 EGP according to the hospital's classification and equipment. Lower prices start in the economy wards of public or teaching hospitals. Meanwhile, luxury private hospitals record the highest price rates for 2026. A cesarean delivery is a surgical procedure to extract the fetus through an incision in the abdominal wall and uterus."
+          },
+          {
+            "ar": "أوضح الدكتور معتز المطيلي في تقريره الطبي لعام ٢٠٢٥ أن الأسعار في العيادات الخاصة تبدأ غالباً من ١٢,٠٠٠ جنيه. ترتفع هذه التكلفة تدريجياً لتصل إلى ٣٠,٠٠٠ جنيه أو أكثر حسب مستوى الرعاية الفندقية المطلوبة. في القطاع الحكومي، قررت إدارة مستشفى المنصورة التخصصي في مايو ٢٠٢٦ رفع تسعيرة الولادة القيصرية، حيث بلغت التكلفة الجديدة للخدمة ٧٥٠٠ جنيه مصري.",
+            "en": "Dr. Moataz Elmotaily clarified in his 2025 medical report that prices in private clinics often start at 12,000 EGP. This cost gradually increases to reach 30,000 EGP or more depending on the level of hotel-style care required. In the public sector, the administration of Mansoura Specialized Hospital decided in May 2026 to raise the pricing of cesarean deliveries, with the new cost of the service reaching 7,500 EGP."
+          },
+          {
+            "ar": "يرجع هذا التفاوت السعري الكبير إلى المتطلبات الطبية المعقدة والمعدات اللازمة لهذه الجراحة. تحتاجين إلى غرفة عمليات معقمة بالكامل ومجهزة بأحدث أجهزة مراقبة النبض. يشمل السعر أيضاً أتعاب طاقم الجراحة ومواد التخدير النصفية. تمتد فترة التعافي داخل المستشفى عادة ليومين أو ثلاثة أيام، ويزيد هذا البقاء الطويل من الفاتورة الطبية المترتبة على الإقامة.",
+            "en": "This huge price difference is due to the complex medical requirements and equipment needed for this surgery. You need a fully sterilized operating room equipped with the latest pulse monitoring devices. The price also includes the surgical team's fees and spinal anesthesia materials. The recovery period in the hospital usually extends for two or three days, and this prolonged stay increases the medical bill associated with the accommodation."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "جهة العلاج",
+              "en": "Medical Facility"
+            },
+            {
+              "ar": "نوع الولادة",
+              "en": "Delivery Type"
+            },
+            {
+              "ar": "متوسط التكلفة (جنيه مصري)",
+              "en": "Average Cost (EGP)"
+            },
+            {
+              "ar": "سنة التسعير",
+              "en": "Pricing Year"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "مستشفى بورسعيد العام (حكومي)",
+                "en": "Port Said General Hospital (Public)"
+              },
+              {
+                "ar": "ولادة طبيعية",
+                "en": "Natural Birth"
+              },
+              {
+                "ar": "٨٠٠",
+                "en": "800"
+              },
+              {
+                "ar": "٢٠٢٥",
+                "en": "2025"
+              }
+            ],
+            [
+              {
+                "ar": "وزارة الصحة (المتوسط العام)",
+                "en": "Ministry of Health (General Average)"
+              },
+              {
+                "ar": "ولادة طبيعية / قيصرية",
+                "en": "Natural / C-Section"
+              },
+              {
+                "ar": "٤٠٠٠ - ٤٥٠٠",
+                "en": "4,000 - 4,500"
+              },
+              {
+                "ar": "٢٠٢٥",
+                "en": "2025"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى المنصورة التخصصي",
+                "en": "Mansoura Specialized Hospital"
+              },
+              {
+                "ar": "ولادة طبيعية",
+                "en": "Natural Birth"
+              },
+              {
+                "ar": "٤٥٠٠",
+                "en": "4,500"
+              },
+              {
+                "ar": "٢٠٢٦",
+                "en": "2026"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى المنصورة التخصصي",
+                "en": "Mansoura Specialized Hospital"
+              },
+              {
+                "ar": "ولادة قيصرية",
+                "en": "C-Section"
+              },
+              {
+                "ar": "٧٥٠٠",
+                "en": "7,500"
+              },
+              {
+                "ar": "٢٠٢٦",
+                "en": "2026"
+              }
+            ],
+            [
+              {
+                "ar": "مستشفى تبارك (عرض ترويجي)",
+                "en": "Tabarak Hospital (Promotional Offer)"
+              },
+              {
+                "ar": "ولادة قيصرية",
+                "en": "C-Section"
+              },
+              {
+                "ar": "٤٨٨٠",
+                "en": "4,880"
+              },
+              {
+                "ar": "٢٠٢٥",
+                "en": "2025"
+              }
+            ],
+            [
+              {
+                "ar": "المستشفيات الخاصة (متوسط)",
+                "en": "Private Hospitals (Average)"
+              },
+              {
+                "ar": "ولادة قيصرية",
+                "en": "C-Section"
+              },
+              {
+                "ar": "١٢٠٠٠ - ٣٠٠٠٠",
+                "en": "12,000 - 30,000"
+              },
+              {
+                "ar": "٢٠٢٥",
+                "en": "2025"
+              }
+            ],
+            [
+              {
+                "ar": "المستشفيات الخاصة الفاخرة",
+                "en": "Premium Private Hospitals"
+              },
+              {
+                "ar": "ولادة قيصرية",
+                "en": "C-Section"
+              },
+              {
+                "ar": "٢٥٠٠٠ - ٥٠٠٠٠",
+                "en": "25,000 - 50,000"
+              },
+              {
+                "ar": "٢٠٢٦",
+                "en": "2026"
+              }
+            ]
+          ]
+        },
+        "cites": [
+          "drmoataz-2025",
+          "mansoura-2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة الطبيعية في مصر",
+          "en": "The cost of natural birth in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تبدأ تكلفة الولادة الطبيعية في مصر من ٨٠٠ جنيه في المستشفيات الحكومية وتصل إلى ١٥,٠٠٠ جنيه في العيادات الخاصة. الولادة الطبيعية هي عملية خروج الجنين عبر مسار المهبل الطبيعي دون تدخل جراحي كبير لفتح البطن. تُعد هذه الطريقة الخيار الأكثر أماناً وتوفيراً لمعظم الأمهات اللاتي لا يواجهن مضاعفات طبية تعيق مسار المخاض.",
+            "en": "The cost of natural birth in Egypt starts from 800 EGP in government hospitals and reaches up to 15,000 EGP in private clinics. Natural birth is the process of the fetus exiting through the natural vaginal tract without major surgical intervention to open the abdomen. This method is the safest and most cost-effective option for most mothers who do not face medical complications hindering labor."
+          },
+          {
+            "ar": "حدد مستشفى المنصورة التخصصي تسعيرة الولادة الطبيعية بقيمة ٤٥٠٠ جنيه مصري في تحديثات مايو ٢٠٢٦. بينما أوضح الدكتور محمد السنيتي في نشراته أن التكلفة في العيادات الخاصة المعتدلة تتراوح بين ٨٠٠٠ و ١٥,٠٠٠ جنيه مصري. تستغرق الولادة الطبيعية عادة من ١٠ إلى ١٤ ساعة في الحمل الأول. ينخفض هذا الوقت إلى ٦ أو ٨ ساعات فقط في الأحمال التالية.",
+            "en": "Mansoura Specialized Hospital set the natural birth pricing at 4,500 EGP in the May 2026 updates. Meanwhile, Dr. Mohamed Elsenity clarified in his publications that the cost in moderate private clinics ranges between 8,000 and 15,000 EGP. Natural birth typically takes 10 to 14 hours in the first pregnancy. This time drops to only 6 or 8 hours in subsequent pregnancies."
+          },
+          {
+            "ar": "يؤثر اختلاف زمن المخاض مباشرة على مدة إشغالكِ لغرفة التوليد واستهلاك المستلزمات الطبية. تتضمن باقة الولادة الطبيعية عادة إقامة لمدة يوم واحد فقط داخل غرف المستشفى. يشمل هذا اليوم رعاية طبية مستمرة لمراقبة النزيف والاطمئنان على وتيرة انقباضات الرحم. يفضل الأطباء إجراء فحص شامل للمولود فوراً لضمان استقرار علاماته الحيوية قبل خروجكِ.",
+            "en": "The variation in labor time directly affects the duration of your occupancy of the delivery room and the consumption of medical supplies. A natural birth package usually includes a one-day stay inside the hospital rooms. This day includes continuous medical care to monitor bleeding and check the pace of uterine contractions. Doctors prefer to conduct a comprehensive examination of the newborn immediately to ensure the stability of vital signs before your discharge."
+          }
+        ],
+        "cites": [
+          "mansoura-2026",
+          "drelsenity-2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة الطبيعية بدون الم في مصر",
+          "en": "The cost of painless natural birth in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتراوح تكلفة الولادة الطبيعية بدون ألم في مصر بين ١٥,٠٠٠ و ٣٥,٠٠٠ جنيه مصري لعام ٢٠٢٦ في المستشفيات الخاصة. يعتمد هذا الإجراء بالكامل على حقن إبرة الإيبيدورال (Epidural) في المنطقة القطنية بأسفل الظهر. تخدر هذه الإبرة شبكة الأعصاب المسؤولة عن نقل الإحساس بالألم القوي من النصف السفلي للجسم.",
+            "en": "The cost of a painless natural birth in Egypt ranges between 15,000 and 35,000 EGP for 2026 in private hospitals. This procedure completely relies on injecting an epidural into the lumbar region of the lower back. This injection numbs the nerve network responsible for transmitting severe pain sensations from the lower half of the body."
+          },
+          {
+            "ar": "تبقين مع هذه التقنية في حالة وعي كامل وقدرة تامة على الدفع استجابة لتقلصات الرحم أثناء المخاض. أوضح الدكتور محمد السنيتي في تحديثات يناير ٢٠٢٦ أن إضافة الإيبيدورال ترفع التكلفة بشكل ملحوظ عن الولادة العادية. يرجع ذلك إلى الضرورة القصوى لتواجد طبيب التخدير المتخصص طوال فترة المخاض والولادة.",
+            "en": "With this technique, you remain fully conscious and fully able to push in response to uterine contractions during labor. Dr. Mohamed Elsenity clarified in the January 2026 updates that adding an epidural significantly raises the cost compared to a regular birth. This is due to the absolute necessity of the presence of a specialized anesthesiologist throughout the labor and delivery period."
+          },
+          {
+            "ar": "يراقب طبيب التخدير استجابتكِ الدوائية وتغيرات ضغط الدم، ويعدل جرعة المسكن السائل بانتظام عند الحاجة عبر قسطرة دقيقة. يتم تسعير حقنة الظهر وإشراف الطبيب أحياناً كخدمة منفصلة تماماً عن باقة الولادة الأصلية. يُنصح بمناقشة هذا الخيار مبكراً مع طبيبكِ المتابع وتأكيد توافر خبير تخدير مقيم في المستشفى.",
+            "en": "The anesthesiologist monitors your medical response and blood pressure changes, regularly adjusting the liquid painkiller dose when needed via a fine catheter. The epidural injection and the doctor's supervision are sometimes priced as a completely separate service from the original delivery package. It is advisable to discuss this option early with your attending physician and confirm the availability of a resident anesthesiologist at the hospital."
+          }
+        ],
+        "cites": [
+          "drelsenity-2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة تجهيز حضانة أطفال حديثي الولادة في مصر",
+          "en": "The cost of equipping a newborn baby incubator in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تبلغ تكلفة الليلة الواحدة في حضانة أطفال حديثي الولادة بين ١٠٠٠ و ١٥,٠٠٠ جنيه مصري للمبيت العلاجي الطارئ. الحضانة الطبية هي جهاز تقني يوفر بيئة دافئة ومعقمة، ومزودة بأنابيب ضخ الأكسجين للرعاية المركزة للمبتسرين. أشار تقرير جريدة البورصة في سبتمبر ٢٠٢٦ إلى ارتفاع رسوم الرعاية المركزة لحديثي الولادة بصورة واضحة.",
+            "en": "The cost of a single night in a newborn baby incubator ranges between 1,000 and 15,000 EGP for emergency therapeutic overnight stays. A medical incubator is a technical device that provides a warm, sterile environment equipped with oxygen pumping tubes for the intensive care of premature babies. An Al Borsa newspaper report in September 2026 indicated a clear rise in intensive care fees for newborns."
+          },
+          {
+            "ar": "سجلت تكلفة الليلة الواحدة في المستشفيات الخاصة الكبرى في مصر ما بين ١٠,٠٠٠ و ١٥,٠٠٠ جنيه لعام ٢٠٢٦. في المقابل، توفر بعض المؤسسات الخيرية مثل مؤسسة مصر بلا مرض حضانات اقتصادية لدعم الحالات الحرجة. تتراوح تكلفة اليوم الواحد في هذه المراكز الخيرية بين ١٠٠٠ و ٢٠٠٠ جنيه مصري فقط للرضيع.",
+            "en": "The cost of a single night in major private hospitals in Egypt reached between 10,000 and 15,000 EGP for 2026. In contrast, some charitable institutions like the Masr Bela Marad Foundation provide economical incubators to support critical cases. The cost of a single day in these charitable centers ranges between only 1,000 and 2,000 EGP per infant."
+          },
+          {
+            "ar": "إذا أردنا حساب تكلفة الشراء المباشر للأجهزة الطبية، يبلغ سعر جهاز الحضانة الجديد طراز (AM 3000 Plus) نحو ٧٢,٠٠٠ جنيه مصري. وتصل أسعار الأجهزة الأوروبية ذات السعة الأكبر إلى ٨٥,٠٠٠ جنيه فما فوق بناءً على تسعيرات المعدات لعام ٢٠٢٦. يُعد التحقق من توفر حضانة شاغرة في مستشفى الولادة أمراً بالغ الأهمية قبل الحجز لتجنب مخاطر النقل المفاجئ.",
+            "en": "If we want to calculate the direct purchase cost of medical devices, the price of a new incubator machine model (AM 3000 Plus) is about 72,000 EGP. The prices of larger-capacity European devices reach 85,000 EGP and above based on 2026 equipment pricing. Verifying the availability of a vacant incubator at the maternity hospital is crucial before booking to avoid the risks of sudden transfers."
+          }
+        ],
+        "cites": [
+          "alborsa-2026",
+          "masrbelamarad-2025"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة في السعودي الالماني مصر",
+          "en": "The cost of childbirth in Saudi German Hospital Egypt"
+        },
+        "body": [
+          {
+            "ar": "تقارب تكلفة الولادة في مستشفى السعودي الألماني بمصر نحو ٥٠,٠٠٠ جنيه للعملية القيصرية ضمن الفئة الطبية الفاخرة لعام ٢٠٢٦. يُصنف هذا الصرح الطبي العريق ضمن منشآت القطاع الخاص الكبرى التي توفر رعاية صحية فندقية فائقة الجودة. تعكس هذه الشريحة السعرية العليا مستوى الخدمات الطبية والاهتمام الشخصي الدقيق الموجه للأمهات.",
+            "en": "The cost of childbirth in the Saudi German Hospital in Egypt approaches about 50,000 EGP for a cesarean delivery within the luxury medical category for 2026. This prestigious medical edifice is classified among the major private sector facilities that provide premium-quality hotel-style healthcare. This upper price bracket reflects the level of medical services and meticulous personal attention directed to mothers."
+          },
+          {
+            "ar": "أشار تقرير لجريدة البورصة في سبتمبر ٢٠٢٦ إلى خطط المستشفى التوسعية المستمرة في أعداد حضانات حديثي الولادة. تعكس هذه التوسعات الضخمة مستوى الرعاية المركزة الدقيقة التي يقدمها المستشفى للأطفال المبتسرين بتكلفة قد تصل إلى ١٥,٠٠٠ جنيه لليلة. تقدم هذه الفئة الاستثمارية خدمات مميزة تتجاوز الإجراء الطبي الجراحي الأساسي بكثير.",
+            "en": "An Al Borsa newspaper report in September 2026 pointed to the hospital's ongoing expansion plans in the number of newborn incubators. These massive expansions reflect the level of precise intensive care the hospital provides to premature babies at a cost that may reach 15,000 EGP per night. This investment category offers distinctive services that go far beyond the basic surgical medical procedure."
+          },
+          {
+            "ar": "تشمل الخدمات توفير أجنحة ولادة خاصة تضمن الخصوصية التامة وممرضة مخصصة حصرياً لرعايتكِ الشخصية. تطرح إدارة المستشفى أحياناً عروضاً ترويجية حصرية في فترات محددة من العام لتخفيض أسعار الولادة الطبيعية والقيصرية. يجب عليكِ التواصل المباشر مع أرقام خدمة العملاء الرسمية لديهم لمعرفة الأسعار الدقيقة الخاصة بشهر ولادتكِ.",
+            "en": "The services include providing private birthing suites ensuring complete privacy and a nurse exclusively dedicated to your personal care. The hospital administration sometimes launches exclusive promotional offers during specific periods of the year to discount natural and cesarean birth prices. You should communicate directly with their official customer service numbers to know the exact prices specific to your birth month."
+          }
+        ],
+        "cites": [
+          "alborsa-2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة عملية الولادة في مصر",
+          "en": "The cost of the delivery process in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتكون تكلفة عملية الولادة في مصر من أتعاب الطبيب الجراح، ورسوم إشغال غرفة المستشفى، وتكاليف الإمدادات الطبية المستهلكة. لا يقتصر الأمر المالي على أجر الطبيب المولد فقط، بل يمتد ليشمل التحاليل الطبية المخبرية والأدوية الموصوفة للتعافي. ينبغي عليكِ حساب جميع المصروفات الإضافية وتجهيز ميزانيتكِ مبكراً جداً لتجنب أي أزمات مالية مفاجئة.",
+            "en": "The cost of the delivery process in Egypt consists of the surgeon's fees, the hospital room occupancy fees, and the costs of consumed medical supplies. The financial matter is not limited to the delivering doctor's fee only, but extends to include laboratory medical tests and prescribed recovery medications. You should calculate all additional expenses and prepare your budget very early to avoid any sudden financial crises."
+          },
+          {
+            "ar": "إليكِ أهم البنود الأساسية التي تحدد الفاتورة النهائية يوم الولادة والتي يجب مناقشتها مع طبيبكِ:",
+            "en": "Here are the most important basic items that determine the final bill on the day of delivery, which should be discussed with your doctor:"
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "أجور الطاقم الطبي: تأكدي من شمول الفاتورة التقديرية لأتعاب الجراح المتابع، وطبيب التخدير، وطبيب الأطفال المستلم للمولود.",
+            "en": "Medical team fees: Make sure the estimated bill includes the fees of the attending surgeon, the anesthesiologist, and the pediatrician receiving the newborn."
+          },
+          {
+            "ar": "درجة الإقامة الفندقية: يختلف السعر الإجمالي كثيراً بين اختيار الغرفة المشتركة، أو الغرفة الفردية الخاصة، أو الجناح العائلي الفاخر.",
+            "en": "Hotel accommodation grade: The total price varies greatly between choosing a shared room, a private individual room, or a luxury family suite."
+          },
+          {
+            "ar": "الإمدادات والأدوية: تُحسب المستهلكات الطبية الدقيقة والأدوية الوريدية المستخدمة داخل غرفة العمليات كبند منفصل دائماً عن حجز الغرفة.",
+            "en": "Supplies and medications: Precise medical consumables and intravenous medications used inside the operating room are always calculated as a separate item from the room booking."
+          },
+          {
+            "ar": "الرعاية الطبية الإضافية: تزيد طلبات محددة مثل إضافة حقنة الظهر المخدرة، أو حاجة المولود الطارئة للحضانة من التكلفة النهائية بشكل حاد.",
+            "en": "Additional medical care: Specific requests such as adding a numbing epidural injection, or the newborn's emergency need for an incubator sharply increase the final cost."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تكلفة الولادة المائية في مصر",
+          "en": "The cost of water birth in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتجاوز تكلفة الولادة المائية في مصر أسعار الولادة القيصرية التقليدية لندرة المراكز المتخصصة التي توفر أحواضاً طبية معقمة. الولادة المائية هي عملية وضع الجنين تدريجياً داخل حوض مخصص وعميق من الماء الدافئ. يساعد الماء الدافئ على تقليل آلام انقباضات المخاض القوية ويمنح عضلات الحوض والظهر استرخاءً عميقاً يسهل الولادة.",
+            "en": "The cost of water birth in Egypt exceeds the prices of traditional cesarean deliveries due to the rarity of specialized centers providing sterile medical tubs. Water birth is the process of gradually delivering the fetus inside a dedicated, deep tub of warm water. The warm water helps reduce the pains of strong labor contractions and gives the pelvic and back muscles deep relaxation that facilitates birth."
+          },
+          {
+            "ar": "لا تتوفر تسعيرة رسمية موحدة لهذا الإجراء الطبي لقلة المستشفيات التي توفره ضمن خدماتها القياسية في مصر. تتطلب هذه العملية الاستثنائية تجهيزات باهظة تشمل أحواض ولادة تستخدم لمرة واحدة أو تعقم بأجهزة قوية. كما تحتاج المستشفى إلى أنظمة حرارية دقيقة لضبط درجة حرارة الماء باستمرار بما يلائم الجنين.",
+            "en": "There is no unified official pricing for this medical procedure due to the few hospitals that offer it within their standard services in Egypt. This exceptional process requires expensive equipment, including birthing pools used once or sterilized with powerful machines. The hospital also needs precise thermal systems to constantly adjust the water temperature to suit the fetus."
+          },
+          {
+            "ar": "يشترط نجاح هذه التجربة وجود فريق طبي متمرس ومستعد، يضم أطباء نساء وقابلة متخصصة حصرياً في هذا النوع من التوليد. إذا رغبتِ في هذا الخيار، ابحثي جيداً عن المراكز الكبرى المعتمدة في القاهرة أو الإسكندرية. تواصلي معهم مباشرة لترتيب مقابلة شخصية لتقييم حالتكِ والتعرف على الأسعار الدقيقة والرسوم الإضافية.",
+            "en": "The success of this experience requires the presence of an experienced and ready medical team, including obstetricians and a midwife specialized exclusively in this type of obstetrics. If you desire this option, research well for major accredited centers in Cairo or Alexandria. Contact them directly to arrange a personal interview to evaluate your condition and learn about the exact prices and additional fees."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "ar": "كم تكلفة الولادة في المستشفيات الخاصة في مصر",
+          "en": "How much does childbirth cost in private hospitals in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تبدأ أسعار المستشفيات الخاصة في مصر من ٤٨٨٠ جنيهاً في الباقات المخفضة وتصل إلى ٥٠,٠٠٠ جنيه في الأجنحة الفاخرة. تقدم منشآت القطاع الخاص مستويات رعاية طبية متفاوتة جداً صُممت لتناسب مختلف الميزانيات الأسرية والمتطلبات الفردية. يعتمد التسعير الأساسي على شهرة الطبيب المعالج، وموقع المستشفى الجغرافي، وحجم الرعاية التمريضية الفندقية المتوفرة.",
+            "en": "Prices of private hospitals in Egypt start from 4,880 EGP in discounted packages and reach up to 50,000 EGP in luxury suites. Private sector facilities offer highly varying levels of medical care designed to suit different family budgets and individual requirements. Basic pricing depends on the attending doctor's fame, the hospital's geographic location, and the volume of hotel-style nursing care available."
+          },
+          {
+            "ar": "تعرض بعض المستشفيات الخاصة الاقتصادية مثل مستشفى تبارك باقات شاملة للولادة القيصرية بأسعار تنافسية. طرح المستشفى في عام ٢٠٢٥ عرضاً مخفضاً عبر المنصات الطبية للولادة القيصرية بتكلفة تقارب ٤٨٨٠ جنيهاً مصرياً. يُنصح بمتابعة الصفحات الرسمية للمستشفيات الخاصة والعيادات على منصات التواصل الاجتماعي لاصطياد العروض الشاملة.",
+            "en": "Some economical private hospitals, like Tabarak Hospital, offer comprehensive C-section packages at competitive prices. In 2025, the hospital launched a discounted offer via medical platforms for a C-section at a cost nearing 4,880 EGP. It is advisable to follow the official pages of private hospitals and clinics on social media platforms to catch comprehensive offers."
+          },
+          {
+            "ar": "تطرح العديد من العيادات المرموقة خصومات ممتازة في مواسم محددة كعيد الأم لمساعدة الأسر الشابة. راجعي شركة التأمين الطبي الخاصة بكِ لمعرفة سقف التغطية المالي المسموح به والمستشفيات الخاصة المدرجة في شبكتهم. تواصلي معهم فوراً للتأكد مما إذا كانت التغطية تشمل نفقات الإقامة، وتكاليف غرفة العمليات، ورعاية المولود المباشرة.",
+            "en": "Many prestigious clinics launch excellent discounts in specific seasons, like Mother's Day, to help young families. Review your medical insurance company to find out the allowed financial coverage ceiling and the private hospitals included in their network. Contact them immediately to confirm whether the coverage includes accommodation expenses, operating room costs, and direct newborn care."
+          }
+        ],
+        "cites": []
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "كم تكلفة الولادة فى مصر بالمستشفيات الحكومية؟",
+          "en": "How much does childbirth cost in public hospitals in Egypt?"
+        },
+        "a": {
+          "ar": "تبلغ التكلفة بين ٨٠٠ و ٤٥٠٠ جنيه مصري وفقاً لتحديثات وزارة الصحة الصادرة لعام ٢٠٢٥. تتيح العديد من المستشفيات العامة باقات اقتصادية مدعومة بشكل كامل تناسب الأسر ذات الدخل المحدود بشكل آمن.",
+          "en": "The cost ranges between 800 and 4,500 EGP according to the Ministry of Health updates issued for 2025. Many general hospitals offer fully subsidized economical packages that safely suit limited-income families."
+        }
+      },
+      {
+        "q": {
+          "ar": "لماذا ترتفع تكلفة الولادة القيصرية عن الطبيعية بشكل ملحوظ؟",
+          "en": "Why is the cost of a C-section noticeably higher than a natural birth?"
+        },
+        "a": {
+          "ar": "تعتبر الولادة القيصرية عملية جراحية كبرى تتطلب فتح غرفة عمليات معقمة وطاقم تخدير كامل متفرغ. كما تحتاجين بسبب الشق الجراحي إلى البقاء في المستشفى ليومين على الأقل للتعافي، مما يضاعف رسوم الإقامة الطبية.",
+          "en": "A cesarean delivery is considered a major surgery that requires opening a sterile operating room and a full, dedicated anesthesia team. Also, due to the surgical incision, you need to stay in the hospital for at least two days for recovery, which doubles the medical accommodation fees."
+        }
+      },
+      {
+        "q": {
+          "ar": "كم يبلغ سعر الولادة الطبيعية بدون ألم في مصر لعام ٢٠٢٦؟",
+          "en": "What is the price of painless natural birth in Egypt for 2026?"
+        },
+        "a": {
+          "ar": "تتراوح أسعارها بين ١٥,٠٠٠ و ٣٥,٠٠٠ جنيه مصري في المستشفيات والعيادات الخاصة. ترتبط هذه الزيادة المالية بتكلفة إبرة الإيبيدورال الدقيقة، وأتعاب طبيب التخدير الذي يراقب علاماتكِ الحيوية طوال فترة المخاض الطويلة.",
+          "en": "Its prices range between 15,000 and 35,000 EGP in private hospitals and clinics. This financial increase is tied to the cost of the precise epidural injection, and the fees of the anesthesiologist who monitors your vital signs throughout the long labor period."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل تشمل باقة الولادة تكلفة حضانة الأطفال حديثي الولادة إذا احتاجها الطفل؟",
+          "en": "Does the delivery package include the cost of newborn incubators if the baby needs it?"
+        },
+        "a": {
+          "ar": "لا تشمل الباقات العادية للولادة تكلفة وضع الطفل في الحضانة. تُحسب رسوم العناية المركزة لحديثي الولادة باليوم الواحد، وتتراوح التكلفة الطارئة بين ١٠٠٠ و ١٥,٠٠٠ جنيه مصري إضافي بناءً على مستوى تجهيز المستشفى.",
+          "en": "Regular delivery packages do not include the cost of placing the baby in an incubator. Newborn intensive care fees are calculated per day, and the emergency cost ranges between an additional 1,000 and 15,000 EGP based on the hospital's equipment level."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يغطي التأمين الطبي أسعار الولادة والعمليات الجراحية في مصر؟",
+          "en": "Does medical insurance cover the prices of childbirth and surgeries in Egypt?"
+        },
+        "a": {
+          "ar": "تغطي معظم بوليصات التأمين تكاليف الولادة جزئياً أو كلياً حسب بنود عقدكِ الصارمة. يجب عليكِ مراجعة شركة التأمين التابعة لكِ لمعرفة شبكة المستشفيات المعتمدة، والحد الأقصى المالي المسموح به لعمليتكِ.",
+          "en": "Most insurance policies cover childbirth costs partially or fully depending on your strict contract terms. You must review your affiliated insurance company to know the approved hospital network, and the maximum financial limit allowed for your procedure."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما هي أبرز التكاليف الخفية التي يجب الانتباه لها يوم الولادة؟",
+          "en": "What are the most prominent hidden costs to watch out for on delivery day?"
+        },
+        "a": {
+          "ar": "تشمل التكاليف غير المعلنة أدوية ما بعد الجراحة، وتحاليل فصيلة الدم الطارئة للمولود، ورسوم المرافق الإضافي للغرفة. اطلبي من إدارة المستشفى قائمة تفصيلية ومطبوعة بكل بند متوقع قبل موعد ولادتكِ بأسابيع.",
+          "en": "Undisclosed costs include post-surgery medications, emergency blood type tests for the newborn, and fees for an extra companion in the room. Ask the hospital administration for a detailed, printed list of every expected item weeks before your delivery date."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل توفر المستشفيات المصرية تقنية الولادة المائية وكم تبلغ تكلفتها الفعلية؟",
+          "en": "Do Egyptian hospitals provide water birth technology, and what is its actual cost?"
+        },
+        "a": {
+          "ar": "تتوفر تقنية الولادة المائية في عدد قليل جداً من المراكز الطبية الخاصة في القاهرة والإسكندرية الكبرى. لا توجد تسعيرة ثابتة حالياً لها، لكن تكلفتها الإجمالية مرتفعة جداً مقارنة بالولادة الطبيعية التقليدية لتعقيداتها.",
+          "en": "Water birth technology is available in very few private medical centers in Greater Cairo and Alexandria. There is currently no fixed pricing for it, but its total cost is very high compared to traditional natural birth due to its complexities."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "خططي لميزانية ولادتكِ بذكاء ووضوح",
+        "en": "Plan your birth budget smartly and clearly"
+      },
+      "body": {
+        "ar": "هل تشعرين بالقلق من المصروفات المفاجئة؟ استخدمي أداة ميزانية الطفل (Baby Budget) في تطبيق نواة لتسجيل أسعار المستشفيات، ومقارنة التكاليف، وتتبع مستلزمات صغيركِ بكل سهولة في مكان واحد وبعملات متعددة.",
+        "en": "Are you worried about sudden expenses? Use the Baby Budget tool in the Nawah app to record hospital prices, compare costs, and easily track your little one's supplies all in one place and in multiple currencies."
+      },
+      "button": {
+        "ar": "حمّلي تطبيق نواة",
+        "en": "Get Nawah App"
+      }
+    },
+    "citations": [
+      {
+        "id": "moh-egypt-2025",
+        "org": "وزارة الصحة المصرية (بيانات مسؤولي المستشفيات)",
+        "title": {
+          "ar": "بيان توضيحي حول تكلفة الولادة بوزارة الصحة في المتوسط",
+          "en": "Explanatory statement on the average cost of childbirth at the Ministry of Health"
+        },
+        "url": "https://www.facebook.com/emadelbasha56/posts/4390284564591953/",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "drmoataz-2025",
+        "org": "عيادات الدكتور معتز المطيلي",
+        "title": {
+          "ar": "اسعار الولادة القيصرية فى مصر 2025",
+          "en": "Prices of Cesarean Delivery in Egypt 2025"
+        },
+        "url": "https://www.drmoataz.com/ar/blog/%D8%A7%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D9%8A%D8%B5%D8%B1%D9%8A%D8%A9-%D9%81%D9%89-%D9%85%D8%B5%D8%B1",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "mansoura-2026",
+        "org": "مستشفى المنصورة التخصصي",
+        "title": {
+          "ar": "رفع أسعار الولادة بالمنصورة التخصصي استرشادًا بلائحة المؤسسة العلاجية",
+          "en": "Raising childbirth prices at Mansoura Specialized Hospital guided by the therapeutic institution regulations"
+        },
+        "url": "https://www.facebook.com/mohamedmamdouhjournalist/posts/4234278563489947/",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "drelsenity-2026",
+        "org": "عيادات الدكتور محمد السنيتي",
+        "title": {
+          "ar": "الولادة الطبيعية بدون ألم 2026 | المقارنة مع القيصرية والتكاليف",
+          "en": "Painless Natural Birth 2026 | Comparison with C-section and Costs"
+        },
+        "url": "https://drelsenity.com/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A8%D8%AF%D9%88%D9%86-%D8%A7%D9%84%D9%85/",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "alborsa-2026",
+        "org": "جريدة البورصة المصرية",
+        "title": {
+          "ar": "«السعودى الألمانى» تستهدف توسعة حضانات أطفال حديثي الولادة بحلول 2027",
+          "en": "Saudi German targets expanding newborn baby incubators by 2027"
+        },
+        "url": "https://www.alborsaanews.com/2026/09/08/1991382",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "masrbelamarad-2025",
+        "org": "مؤسسة مصر بلا مرض",
+        "title": {
+          "ar": "معدل تكلفة حضانة الأطفال في مصر والمناطق المحرومة",
+          "en": "Average cost of children's incubators in Egypt and deprived areas"
+        },
+        "url": "https://masrbelamarad.org/ar/%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D8%A8%D8%AA%D8%B3%D8%B1%D9%8A%D9%86/",
+        "retrieved": "2026-10-06"
+      }
+    ],
+    "keywords": [
+      "تكلفة الولادة في مصر",
+      "تكلفة الولادة القيصرية في مصر",
+      "تكلفة الولادة الطبيعية في مصر",
+      "تكلفة الولادة الطبيعية بدون الم في مصر",
+      "تكلفة تجهيز حضانة أطفال حديثي الولادة في مصر",
+      "تكلفة الولادة في السعودي الالماني مصر",
+      "تكلفة عملية الولادة في مصر",
+      "تكلفة الولادة المائية في مصر",
+      "كم تكلفة الولادة في المستشفيات الخاصة في مصر",
+      "تكلفة الولادة فى مصر"
+    ],
+    "related": [
+      "/ar/father/baby-budget",
+      "/ar/articles/csection/c-section-vs-vaginal-birth",
+      "/ar/father/hospital-bag",
+      "/ar/articles/postpartum/postpartum-recovery"
+    ],
+    "updated": "2026-10-05"
+  },
+  {
+    "cluster": "newborn_admin",
+    "slug": "newborn-registration-saudi-arabia",
+    "published": true,
+    "hero": {
+      "src": "/articles/newborn-registration-saudi-arabia-hero.jpg",
+      "photographer": "Drisola Jovani",
+      "photographerUrl": "https://www.pexels.com/@drisola-jovani-2159682693",
+      "pexelsUrl": "https://www.pexels.com/photo/tender-family-moment-with-baby-s-feet-and-hands-36224580/",
+      "width": 4160,
+      "height": 2774,
+      "alt": {
+        "ar": "يدا الأب والأم تحتضنان قدمي رضيع صغيرتين",
+        "en": "A father's and mother's hands cradling a baby's tiny feet"
+      }
+    },
+    "eyebrow": {
+      "ar": "المعاملات الرسمية",
+      "en": "Official Paperwork"
+    },
+    "title": {
+      "ar": "تسجيل المواليد في السعودية: الخطوات، الشروط، والمهلة المحددة",
+      "en": "Newborn Registration in Saudi Arabia: Steps, Requirements, and Deadlines"
+    },
+    "metaTitle": {
+      "ar": "تسجيل المواليد في السعودية: دليلك الشامل لعام ٢٠٢٦ | نواة",
+      "en": "Newborn Registration in Saudi Arabia: Complete 2026 Guide | Nawah"
+    },
+    "description": {
+      "ar": "تعرفي على كيفية تسجيل المواليد في السعودية عبر منصة أبشر، شروط إصدار شهادة الميلاد للمواطنين والمقيمين، المهلة الزمنية، وطريقة الربط بالتأمين الطبي.",
+      "en": "Learn how to register a newborn in Saudi Arabia via Absher, requirements for citizens and residents, deadlines, and how to link medical insurance."
+    },
+    "standfirst": {
+      "ar": "دليل مبسط يرافقكِ خطوة بخطوة لاستخراج الأوراق الرسمية لمولودكِ الجديد وتأمين مستقبله بثقة، لتتفرغي تماماً للتعافي والعناية بصغيركِ.",
+      "en": "A simplified step-by-step guide to issuing your newborn's official documents and securing their future with confidence, leaving you completely free to recover and care for your little one."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "تسجيل المواليد في السعودية خطوة بخطوة",
+          "en": "Newborn Registration in Saudi Arabia Step by Step"
+        },
+        "body": [
+          {
+            "ar": "تسجيل المواليد في السعودية يتم إلكترونياً بالكامل عبر منصة \"أبشر\"، ويشترط وجود تبليغ ولادة معتمد من المستشفى لإصدار شهادة الميلاد وسجل الأسرة. هذا الإجراء الأساسي يضمن حصول طفلكِ على هويته الرسمية وتأمين حقوقه الصحية والاجتماعية منذ اليوم الأول. وفقاً لمنصة أبشر الحكومية (Absher)، تُلزم الأنظمة الوالدين بإتمام هذه الخطوات عبر الإنترنت دون الحاجة لزيارة مكاتب الأحوال المدنية إطلاقاً. يمنحكِ هذا النظام الرقمي المتطور راحة كبيرة، حيث يمكنكِ التركيز على التعافي بعد الولادة بدلاً من إرهاق المعاملات الورقية والانتظار.",
+            "en": "Newborn registration in Saudi Arabia is done entirely electronically via the 'Absher' platform, and requires an approved birth notification from the hospital to issue the birth certificate and family registry. This essential procedure ensures your child receives their official identity and secures their health and social rights from day one. According to the government Absher platform, regulations require parents to complete these steps online without ever needing to visit Civil Affairs offices. This advanced digital system grants you great comfort, allowing you to focus on postpartum recovery instead of the exhaustion of paper transactions and waiting."
+          },
+          {
+            "ar": "تبدأ الرحلة فور استلامكِ إشعاراً يفيد برفع بيانات ولادة طفلكِ بنجاح من قبل المنشأة الطبية. بمجرد تسجيل دخول الأب إلى حسابه الشخصي الموثق، يمكنه استعراض بيانات المولود وتأكيد الاسم المختار للطفل بشكل نهائي. يجب التأكد من كتابة الاسم بدقة شديدة لتجنب أي تعقيدات لاحقة تتطلب مراجعات يدوية وتعديلات قانونية معقدة. يتيح لكِ النظام أيضاً تحديد العنوان الوطني المفضل لاستلام كافة الوثائق الرسمية بأمان تام عبر خدمات البريد.",
+            "en": "The journey begins as soon as you receive a notification stating your baby's birth data was successfully uploaded by the medical facility. Once the father logs into his verified personal account, he can review the newborn's details and finalize the chosen name. You must ensure the name is typed with extreme accuracy to avoid any subsequent complications that require manual reviews and complex legal amendments. The system also allows you to select your preferred national address to securely receive all official documents via postal services."
+          },
+          {
+            "ar": "يُعد هذا التطور الرقمي نقلة نوعية توفر وقتكِ وجهدكِ، خاصة في أسابيع النفاس الأولى التي تحتاجين فيها إلى أقصى درجات الراحة والدعم العاطفي. يُرجى التحقق من منصة الأحوال المدنية قبل التنفيذ لضمان عدم وجود أي تحديثات تقنية طارئة على النظام أو اشتراطات إضافية مستحدثة. التزامكم بإنجاز هذه الخطوات مبكراً يحمي طفلكِ ويضمن اندماجه السريع في سجلات الأسرة الرسمية بسلاسة.",
+            "en": "This digital advancement is a paradigm shift that saves your time and effort, especially during the first postpartum weeks when you need the utmost rest and emotional support. Please verify with the Civil Affairs platform before proceeding to ensure there are no urgent technical updates or newly introduced requirements on the system. Your commitment to completing these steps early protects your child and ensures their swift and smooth integration into the official family records."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "الدخول إلى منصة أبشر أفراد عبر حساب الأب الموثق واختيار خدمات الأحوال المدنية من القائمة.",
+            "en": "Log into the Absher Individuals platform via the father's verified account and select Civil Affairs services from the menu."
+          },
+          {
+            "ar": "تأكيد تفاصيل تبليغ الولادة المرفوع من المستشفى ومراجعة دقة البيانات الصحية بعناية فائقة.",
+            "en": "Confirm the birth notification details submitted by the hospital and review the accuracy of the health data with extreme care."
+          },
+          {
+            "ar": "إدخال اسم المولود الجديد ودفع رسوم التوصيل البريدي لإصدار الوثائق وإرسالها للمنزل.",
+            "en": "Enter the newborn's name and pay the postal delivery fees to issue the documents and have them sent home."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "دور المستشفى في تسجيل المواليد وزارة الصحة",
+          "en": "The Hospital's Role in Newborn Registration with the Ministry of Health"
+        },
+        "body": [
+          {
+            "ar": "يبدأ إجراء تسجيل المواليد وزارة الصحة فوراً من داخل المستشفى عبر إدخال بيانات الأم وتاريخ الإنجاب في النظام الصحي المتصل مباشرة بالداخلية. تُعتبر المستشفى نقطة الانطلاق الأساسية التي تُبنى عليها جميع الإجراءات القانونية لطفلكِ في سجلات الدولة. وفقاً لوزارة الصحة السعودية (MOH)، يُكلف القسم الإداري المختص في المستشفى برفع تبليغ الولادة إلكترونياً وبشكل فوري بمجرد استقرار حالتكِ الصحية بعد الإنجاب. يضمن هذا الإجراء وصول بيانات الطفل بدقة عالية إلى منصات الأحوال المدنية لتسهيل وتريع إصدار شهادة الميلاد.",
+            "en": "The Ministry of Health newborn registration procedure begins immediately from within the hospital by entering the mother's data and date of birth into the health system directly connected to the Ministry of Interior. The hospital is considered the fundamental starting point upon which all your child's legal procedures in state records are built. According to the Saudi Ministry of Health (MOH), the designated administrative department in the hospital is tasked with submitting the birth notification electronically and instantly once your health condition stabilizes after delivery. This procedure ensures the child's data reaches the Civil Affairs platforms with high accuracy to facilitate and accelerate the issuance of the birth certificate."
+          },
+          {
+            "ar": "أثناء فترة بقائكِ في جناح التعافي، سيُطلب من مرافقكِ أو زوجكِ تقديم أصول الهويات الشخصية وعقد الزواج الرسمي لمطابقتها مع البيانات المدخلة. يقوم الموظف بإصدار مسودة أولية لبيانات التبليغ ليوقع عليها الأب للتأكد من خلوها من أي أخطاء مطبعية أو تناقضات. يجب عليكِ التأكد من تطابق اسم العائلة واسم الجد تماماً مع الوثائق الرسمية السارية لتفادي أي رفض تقني لاحق يعطل المعاملة برمتها.",
+            "en": "During your stay in the recovery ward, your companion or husband will be asked to provide original personal IDs and the official marriage contract to match them with the entered data. The clerk issues an initial draft of the notification data for the father to sign, ensuring it is free of any typographical errors or discrepancies. You must ensure the spelling of the family name and grandfather's name exactly matches the valid official documents to avoid any subsequent technical rejection that halts the entire transaction."
+          },
+          {
+            "ar": "لا يحتاج هذا الإجراء المبدئي إلى أي رسوم مالية إضافية داخل المستشفيات الحكومية أو الخاصة، فهو حق أصيل ومجاني لطفلكِ يكفله النظام الصحي. تكتمل هذه المرحلة الحيوية بوصول رسالة نصية قصيرة إلى هاتف الأب المسجل مسبقاً في نظام أبشر، تؤكد نجاح نقل البيانات الطبية بنجاح. هذه الرسالة النصية هي الضوء الأخضر الذي يسمح لكم رسمياً بالانتقال إلى الخطوة التالية لإصدار الشهادة النهائية.",
+            "en": "This initial procedure does not require any additional financial fees within public or private hospitals, as it is a fundamental and free right for your child guaranteed by the health system. This vital stage is completed with the arrival of a short text message to the father's phone, previously registered in the Absher system, confirming the successful transfer of medical data. This text message is the green light that officially allows you to move to the next step to issue the final certificate."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "تقديم بطاقات الهوية الوطنية أو الإقامات السارية وعقد الزواج الموثق لموظف الدخول فوراً.",
+            "en": "Immediately provide valid national ID cards or Iqamas and the certified marriage contract to the admissions clerk."
+          },
+          {
+            "ar": "مراجعة مسودة تبليغ الولادة المطبوعة بدقة فائقة لتأكيد صحة البيانات الأساسية للأم والطفل.",
+            "en": "Review the printed birth notification draft with extreme accuracy to confirm the correct basic data of the mother and child."
+          },
+          {
+            "ar": "الاحتفاظ بالرقم المرجعي أو الرسالة النصية التي تؤكد إرسال الملف لوزارة الداخلية بنجاح.",
+            "en": "Keep the reference number or text message that confirms the file was successfully sent to the Ministry of Interior."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "شروط تسجيل المواليد ابشر للأم والأب",
+          "en": "Absher Newborn Registration Requirements for Mother and Father"
+        },
+        "body": [
+          {
+            "ar": "يتطلب إتمام عملية تسجيل المواليد ابشر بنجاح توفر بلاغ ولادة إلكتروني، وسريان صلاحية الهويات للوالدين، وتوفر عنوان وطني مفعل. تضع المنصة معايير تقنية دقيقة لضمان أمان البيانات واستخراج الوثائق الحساسة دون أي تدخل بشري أو تعطيل إداري. وفقاً لإدارة الأحوال المدنية، يُشترط خلو السجل المدني الخاص بالأب من أي غرامات مالية سابقة غير مسددة لصالح القطاع لضمان مرور الطلب. إذا وجدت غرامات متراكمة، سيقوم النظام تلقائياً بإيقاف الطلب المرفوع حتى يتم تسويتها بالكامل عبر القنوات البنكية المعتمدة.",
+            "en": "Successfully completing the Absher newborn registration process requires an electronic birth notification, valid IDs for the parents, and an active national address. The platform sets precise technical standards to ensure data security and the extraction of sensitive documents without any human intervention or administrative disruption. According to the Civil Affairs Administration, the father's civil record must be free of any previous unpaid financial fines owed to the sector to ensure the request goes through. If accumulated fines exist, the system will automatically suspend the submitted request until they are fully settled via approved banking channels."
+          },
+          {
+            "ar": "يُعد وجود عنوان وطني مفعل ومحدث شرطاً أساسياً لا غنى عنه لإتمام العملية، حيث ترفض المنصة إصدار الوثائق دون تحديد وجهة التوصيل النهائية. يُنصح الوالدان بالتأكد من تحديث اشتراك البريد السعودي الخاص بهم لتسهيل عملية الشحن وتجنب ضياع الأوراق المهمة في مكاتب البريد. يحافظ هذا الإجراء الصارم على سرية بيانات الأسرة ويضمن وصول الشهادات إلى أيديكم مباشرة دون وسطاء.",
+            "en": "Having an active and updated national address is a fundamental and indispensable condition to complete the process, as the platform refuses to issue documents without specifying a final delivery destination. Parents are advised to ensure their Saudi Post subscription is updated to facilitate the shipping process and avoid losing important papers at post offices. This strict measure protects family data confidentiality and ensures certificates reach your hands directly without intermediaries."
+          },
+          {
+            "ar": "يُفضل دائماً مراجعة متطلبات الأحوال المدنية قبل التنفيذ لضمان سريان كافة الأوراق الثبوتية الخاصة بكما وخلوها من الإيقافات. أي انتهاء في صلاحية بطاقة الإقامة للمقيمين أو الهوية الوطنية سيمنع النظام من إكمال خطوة الإصدار حتى يتم التجديد ودفع الرسوم. تأكدي من مراجعة صلاحية أوراقكم خلال الأشهر الأخيرة من الحمل لتفادي هذا الموقف المزعج بعد الولادة.",
+            "en": "It is always preferable to review Civil Affairs requirements before proceeding to ensure all your identification documents are valid and free of suspensions. Any expiration in the validity of the resident Iqama or national ID will prevent the system from completing the issuance step until it is renewed and fees are paid. Ensure you review the validity of your papers during the final months of pregnancy to avoid this frustrating situation after birth."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "تسوية كافة الغرامات المالية المدنية المسجلة على هوية رب الأسرة مسبقاً عبر البنك.",
+            "en": "Settle all civil financial fines previously registered on the head of the household's ID via the bank."
+          },
+          {
+            "ar": "تسجيل وتفعيل عنوان وطني دقيق عبر مؤسسة البريد السعودي لتوصيل الوثائق المطبوعة للمنزل.",
+            "en": "Register and activate an accurate national address via the Saudi Post Corporation for home delivery of printed documents."
+          },
+          {
+            "ar": "التحقق من التجديد المسبق وسريان مفعول الهوية الوطنية أو رخصة الإقامة للأم والأب معاً.",
+            "en": "Verify the prior renewal and validity of the national ID or residency permit for both the mother and father."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "المهلة الزمنية عند تسجيل المواليد الكترونيا",
+          "en": "Time Limits When Registering Newborns Electronically"
+        },
+        "body": [
+          {
+            "ar": "تمنح الأنظمة المواطنين ٣٦٠ يوماً لإنهاء تسجيل المواليد الكترونيا، بينما يُلزم المقيمون باستخراج الوثائق وتحديث البيانات خلال ٣٠ يوماً فقط من الإنجاب. يختلف الإطار الزمني المسموح به لإتمام هذا الإجراء الجوهري جذرياً بناءً على جنسية الوالدين لضمان التنظيم الدقيق لبيانات المقيمين. وفقاً لمنصة أبشر، يحق للمواطنين السعوديين استكمال إصدار شهادة الميلاد وسجل الأسرة المحدث خلال عام هجري كامل دون تحمل أي غرامات مالية. ورغم هذه المهلة المريحة والطويلة، نُوصيكِ بشدة بإنجاز الأمر مبكراً لحماية حقوق طفلكِ وتسهيل مراجعاته الطبية الدورية.",
+            "en": "Regulations grant citizens 360 days to complete electronic newborn registration, while residents are obligated to issue documents and update data within just 30 days of delivery. The allowed timeframe to complete this essential procedure differs radically based on the parents' nationality to ensure precise organization of residents' data. According to the Absher platform, Saudi citizens have the right to complete the issuance of the birth certificate and updated family registry within one full Hijri year without bearing any financial fines. Despite this comfortable and long deadline, we strongly recommend completing the matter early to protect your child's rights and facilitate their routine medical visits."
+          },
+          {
+            "ar": "بالنسبة للعائلات المقيمة، يُعد عامل الوقت حاسماً جداً ولا يحتمل التأجيل، حيث يجب إغلاق الملف واستخراج الشهادة خلال شهر واحد فقط من تاريخ الولادة الفعلي. هذا الفارق الزمني الشاسع يعود لارتباط إقامة الطفل المستقلة بالمديرية العامة للجوازات والرسوم الحكومية المتعلقة بها، وليس فقط بالأحوال المدنية. يُغلق النظام الإلكتروني في أبشر تلقائياً أمام المقيمين بعد انقضاء مدة الثلاثين يوماً، مما يضطرهم للمراجعة الشخصية للمكاتب وتحمل العناء.",
+            "en": "For resident families, the time factor is highly critical and brooks no delay, as the file must be closed and the certificate issued within exactly one month from the actual date of birth. This vast time difference is due to the linkage of the child's independent residency to the General Directorate of Passports and its related government fees, not just Civil Affairs. The electronic system in Absher automatically locks for residents after the thirty-day period elapses, forcing them to personally visit the offices and endure the hassle."
+          },
+          {
+            "ar": "لتنظيم هذه العملية الحساسة وفهمها بوضوح، أعددنا الجدول التالي الذي يوضح الفروقات الجوهرية بين الفئتين لتكوني على دراية كاملة بالإطار الزمني المسموح. سيساعدكِ هذا التنظيم الإداري على جدولة مهامكِ الطارئة مع زوجكِ دون الشعور بالضغط النفسي المفرط خلال أسابيع النفاس المرهقة.",
+            "en": "To organize this sensitive process and understand it clearly, we have prepared the following table illustrating the fundamental differences between the two categories so you are fully aware of the allowed timeframe. This administrative organization will help you schedule your urgent tasks with your husband without feeling excessive psychological pressure during the exhausting postpartum weeks."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "الفئة",
+              "en": "Category"
+            },
+            {
+              "ar": "المهلة القصوى عبر أبشر",
+              "en": "Maximum Absher Deadline"
+            },
+            {
+              "ar": "الغرامة بعد انتهاء المهلة",
+              "en": "Fine After Deadline"
+            },
+            {
+              "ar": "الوثائق المستخرجة إلكترونياً",
+              "en": "Electronically Issued Documents"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "المواطنون",
+                "en": "Citizens"
+              },
+              {
+                "ar": "٣٦٠ يوماً (عام كامل)",
+                "en": "360 days (one full year)"
+              },
+              {
+                "ar": "٥٠ ريالاً عن كل عام تأخير إضافي",
+                "en": "50 SAR for each additional year delayed"
+              },
+              {
+                "ar": "شهادة الميلاد الأصلية وسجل الأسرة المحدث",
+                "en": "Original Birth Certificate & Updated Family Registry"
+              }
+            ],
+            [
+              {
+                "ar": "المقيمون",
+                "en": "Residents"
+              },
+              {
+                "ar": "٣٠ يوماً فقط",
+                "en": "30 days only"
+              },
+              {
+                "ar": "٥٠ ريالاً بالإضافة لغرامات قطاع الجوازات",
+                "en": "50 SAR plus Passports sector fines"
+              },
+              {
+                "ar": "شهادة الميلاد المستقلة للمولود",
+                "en": "Independent Birth Certificate for the Newborn"
+              }
+            ]
+          ]
+        },
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "أهمية سرعة تسجيل المواليد للمقيمين",
+          "en": "The Importance of Speedy Newborn Registration for Residents"
+        },
+        "body": [
+          {
+            "ar": "يؤدي تأخير تسجيل المواليد للمقيمين إلى إيقاف إصدار رقم الحدود، مما يعطل استخراج الإقامة المستقلة وربط الطفل بالتأمين الصحي الإلزامي للأسرة. يحمل مسار استخراج الأوراق لغير السعوديين طابعاً مركباً ومختلفاً يتطلب التنسيق بين أكثر من جهة حكومية خلال وقت قياسي وقصير. وفقاً للمديرية العامة للجوازات، تُعد شهادة الميلاد المستخرجة من الأحوال المدنية بمثابة الخطوة التمهيدية الأولى التي لا تكتمل إقامة الطفل النظامية بدونها إطلاقاً. بمجرد استلام الشهادة، يتوجب على الأب حجز موعد عاجل أو استخدام الخدمات الذكية المتطورة لإصدار إقامة منفصلة للمولود الجديد.",
+            "en": "Delaying newborn registration for residents leads to the suspension of issuing the border number, which stalls the extraction of the independent residency and linking the child to the family's mandatory health insurance. The pathway for extracting documents for non-Saudis holds a complex and different nature that requires coordination between multiple government entities in record, short time. According to the General Directorate of Passports, the birth certificate extracted from Civil Affairs serves as the preliminary first step, without which the child's regular residency is entirely incomplete. Once the certificate is received, the father must urgently book an appointment or use advanced smart services to issue a separate residency for the newborn."
+          },
+          {
+            "ar": "يُمنح طفلكِ فور تسجيله وطباعة شهادته رقم حدود مؤقت يُستخدم كمعرف أساسي في أنظمة وزارة الداخلية والمستشفيات والجهات التأمينية الطبية. أي تباطؤ في إنجاز هذه الخطوة المتسلسلة يحرم الصغير من التغطية الطبية المجانية التي توفرها شركات التأمين، مما يعرضكم كعائلة لتكاليف باهظة في حال الطوارئ المرضية. السرعة هنا ليست مجرد التزام قانوني شكلي، بل هي حماية مالية وصحية حقيقية تضمن أمن وسلامة أسرتكِ.",
+            "en": "Upon registration and printing of their certificate, your child is granted a temporary border number used as a primary identifier in the systems of the Ministry of Interior, hospitals, and medical insurance entities. Any slowdown in completing this sequential step deprives the little one of the free medical coverage provided by insurance companies, exposing you as a family to exorbitant costs in case of medical emergencies. Speed here is not just a nominal legal obligation, but real financial and health protection ensuring the safety and security of your family."
+          },
+          {
+            "ar": "في حال تأخرت الإجراءات وتجاوزت إقامات الوالدين الأساسية تاريخ الصلاحية الساري، ستتعقد عملية إضافة الطفل بشكل كبير وتتطلب مراجعات يدوية واستثناءات. يُرجى التحقق من لوائح الجوازات الدورية قبل التنفيذ لضمان معرفة أي متطلبات إضافية لرسوم المرافقين والتابعين. التزامكم التام بالمدة المحددة يضمن استمرار إقامتكم القانونية في المملكة دون معوقات مهنية أو استقطاعات مالية مفاجئة.",
+            "en": "If procedures are delayed and the parents' primary residencies exceed their valid expiration date, the process of adding the child becomes highly complicated, requiring manual reviews and exceptions. Please verify with periodic Passports regulations before proceeding to ensure awareness of any additional requirements for dependents' fees. Your strict adherence to the specified timeframe ensures the continuation of your legal residency in the Kingdom without professional hindrances or sudden financial deductions."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "إصدار شهادة الميلاد الرقمية والورقية كشرط أساسي وجوهري لفتح ملف الطفل في الجوازات.",
+            "en": "Issuing the digital and paper birth certificate as a fundamental and essential condition to open the child's file in Passports."
+          },
+          {
+            "ar": "استخراج رقم الحدود المؤقت لتمكين ربط المولود بملف الأب في منصة مقيم والأنظمة الطبية.",
+            "en": "Extracting the temporary border number to enable linking the newborn to the father's file in the Muqeem platform and medical systems."
+          },
+          {
+            "ar": "دفع رسوم المرافقين المقررة نظامياً لضمان طباعة رخصة الإقامة وتفعيلها بنجاح تام للمولود.",
+            "en": "Paying the statutorily scheduled dependents' fees to ensure the printing and full, successful activation of the newborn's residency permit."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "تسجيل المواليد في السعودية والربط بالتأمين الطبي",
+          "en": "Newborn Registration in Saudi Arabia and Linking to Medical Insurance"
+        },
+        "body": [
+          {
+            "ar": "يتطلب تفعيل التأمين الصحي للمولود الجديد في السعودية تقديم شهادة الميلاد ورقم الهوية فوراً لجهة عمل الأب لاعتماد التغطية المالية. تُعد الرعاية الصحية الشاملة أولوية قصوى لصغيركِ في أيامه الأولى التي تتطلب فحوصات طبية دقيقة وتطعيمات مجدولة بانتظام للحفاظ على نموه السليم. وفقاً لمجلس الضمان الصحي (CCHI)، يحصل طفلكِ على تغطية مبدئية تلقائية على بوليصة تأمين الأم لمدة ٣٠ يوماً كحد أقصى منذ لحظة الولادة. هذه الميزة التنظيمية توفر لكِ الطمأنينة الكاملة وتسمح للأطباء بمتابعة صحته دون أي عوائق مالية أو إدارية في البداية.",
+            "en": "Activating medical insurance for a newborn in Saudi Arabia requires immediately submitting the birth certificate and ID number to the father's workplace to approve financial coverage. Comprehensive healthcare is a top priority for your little one in their early days, which require precise medical checkups and regularly scheduled vaccinations to maintain healthy growth. According to the Council of Cooperative Health Insurance (CCHI), your child receives automatic initial coverage on the mother's insurance policy for a maximum of 30 days from the moment of birth. This regulatory feature provides you with complete peace of mind and allows doctors to monitor their health initially without any financial or administrative hurdles."
+          },
+          {
+            "ar": "بعد انقضاء هذا الشهر الأول، تسقط هذه التغطية التلقائية ويصبح المولود بحاجة فورية إلى بوليصة مستقلة أو إضافة رسمية كفرد معال في الشبكة. يجب على الأب تسليم نسخة من الوثائق الجديدة لقسم الموارد البشرية في شركته بأسرع وقت ممكن لضمان استمرار سريان التأمين دون انقطاع. أي تأخير من جانبكم يعني دفع تكاليف العيادات الخاصة، زيارات طب الأطفال، والتطعيمات الإلزامية من مالكم الخاص.",
+            "en": "After this first month elapses, this automatic coverage drops, and the newborn immediately requires an independent policy or formal addition as a dependent within the network. The father must hand over a copy of the new documents to the Human Resources department at his company as quickly as possible to ensure the continuation of active insurance without interruption. Any delay on your part means paying for private clinic costs, pediatric visits, and mandatory vaccinations out of your own pocket."
+          },
+          {
+            "ar": "يُنصح بشدة بعدم الانتظار حتى الأسبوع الأخير من الشهر الأول للبدء في إجراءات الرفع والتواصل مع شركة التأمين الخاصة بكم. تتطلب بعض شركات التأمين الكبرى أياماً لعمليات الموافقة الإدارية وإدراج اسم الطفل فعلياً في شبكة المستشفيات والمراكز المعتمدة. هذا التنظيم الأسري المبكر يزيح عن كاهلكِ عبئاً كبيراً ويضمن استمرار رعاية طفلكِ الطبية بأعلى جودة متوفرة.",
+            "en": "It is strongly advised not to wait until the final week of the first month to begin the submission procedures and communicate with your insurance company. Some major insurance companies require days for administrative approval processes and to actually list the child's name within the network of approved hospitals and centers. This early family organization lifts a massive burden off your shoulders and ensures the continuity of your child's medical care at the highest available quality."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "الاستفادة من التغطية التلقائية المجانية المرفقة بوثيقة تأمين الأم خلال أول ٣٠ يوماً فقط.",
+            "en": "Benefit from the free automatic coverage attached to the mother's insurance policy during the first 30 days only."
+          },
+          {
+            "ar": "رفع شهادة الميلاد وبطاقة الهوية أو إقامة الطفل لجهة العمل فور استلامها لتحديث البيانات طبياً.",
+            "en": "Submit the birth certificate and the child's ID card or Iqama to the workplace immediately upon receipt to update the medical data."
+          },
+          {
+            "ar": "متابعة منصة مجلس الضمان الصحي الإلكترونية للتأكد من تفعيل البوليصة وربطها بالمستشفيات.",
+            "en": "Monitor the electronic Council of Cooperative Health Insurance platform to ensure policy activation and linkage to hospitals."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "غرامة تأخير تسجيل المواليد والوفيات",
+          "en": "Fine for Delayed Registration of Newborns and Deaths"
+        },
+        "body": [
+          {
+            "ar": "تُطبق غرامة تأخير تسجيل المواليد والوفيات بقيمة ٥٠ ريالاً سعودياً عن كل عام تتأخر فيه الأسرة بعد انتهاء المهلة المحددة نظامياً. يضع النظام المالي ضوابط صارمة لضمان التزام الأسر بتحديث سجلات الدولة الحيوية وتجنب الإهمال الإداري الذي يضر بحقوق الطفل مستقبلاً. وفقاً لوكالة الأحوال المدنية، تُحتسب هذه الغرامة تلقائياً عبر النظام الإلكتروني بمجرد تجاوز المواطن للعام الأول، أو تجاوز المقيم ليومه الثلاثين المسموح به. تُعد هذه الرسوم عقوبة مالية لا تُسقط أو تُلغى إلا في حالات قاهرة وموثقة تثبت لجان متخصصة تعذر الوصول للخدمة.",
+            "en": "A fine for delayed registration of newborns and deaths amounting to 50 Saudi Riyals is applied for every year the family delays after the statutory deadline expires. The financial system sets strict controls to ensure families commit to updating the state's vital records and avoid administrative negligence that harms the child's rights in the future. According to the Civil Affairs Agency, this fine is calculated automatically via the electronic system as soon as a citizen exceeds the first year, or a resident exceeds their allowed thirtieth day. These fees are considered a financial penalty that is not waived or canceled except in documented force majeure cases where specialized committees prove inability to access the service."
+          },
+          {
+            "ar": "يُوقف النظام التقني استكمال أي خطوة في المعاملة كلياً حتى يظهر سداد الغرامة المستحقة في سجلات وزارة الداخلية بشكل نهائي وواضح ومسجل. يمكنكم سداد هذه المستحقات المتراكمة بكل راحة عبر قنوات الدفع البنكية الإلكترونية الذكية باختيار قطاع الأحوال المدنية تحت تبويب المدفوعات الحكومية. يُسهل هذا الإجراء المالي تسوية الوضع دون الحاجة لزيارة مقرات البنوك المزدحمة أو الانتظار طويلاً لتحديث النظام.",
+            "en": "The technical system completely halts the completion of any step in the transaction until the payment of the due fine definitively and clearly appears registered in the Ministry of Interior's records. You can comfortably pay these accumulated dues via smart electronic bank payment channels by selecting the Civil Affairs sector under the government payments tab. This financial procedure makes it easy to settle the situation without the need to visit crowded bank branches or wait long for the system to update."
+          },
+          {
+            "ar": "لا يتوقف التأثير السلبي للتأخير عند الغرامة المالية الزهيدة فقط، بل يمتد لتعطيل خدمات حكومية أخرى أساسية مرتبطة بهوية الأب المدنية وحساباته. يُرجى التحقق من الأحوال المدنية قبل التنفيذ لضمان عدم استحداث لوائح إضافية تخص غرامات التأخير المركبة في الفترات القادمة. سداد الغرامة يفتح الباب التقني مجدداً لإكمال خطوات طباعة الشهادة واستلامها بسلام عبر البريد.",
+            "en": "The negative impact of delay does not stop merely at the trivial financial fine, but extends to disrupting other essential government services linked to the father's civil identity and accounts. Please verify with Civil Affairs before proceeding to ensure no additional regulations regarding compounding late fines have been introduced for upcoming periods. Paying the fine technically reopens the door to complete the steps of printing the certificate and receiving it safely via mail."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "تطبيق غرامة ٥٠ ريالاً تلقائياً عبر الأنظمة البنكية المرتبطة بهوية الأب بعد انتهاء المهلة المتاحة.",
+            "en": "Applying an automatic 50 SAR fine via banking systems linked to the father's ID after the available deadline expires."
+          },
+          {
+            "ar": "مضاعفة الرسوم بمقدار ٥٠ ريالاً إضافية عن كل سنة تأخير لاحقة دون سقف أعلى للإعفاء القانوني.",
+            "en": "Doubling the fees by an additional 50 SAR for each subsequent delayed year without a maximum cap for legal exemption."
+          },
+          {
+            "ar": "إيقاف بعض الخدمات الحكومية الخاصة برب الأسرة لحين تسوية وتصفية كافة الغرامات المعلقة.",
+            "en": "Suspending certain government services specific to the head of the household until all pending fines are settled and cleared."
+          }
+        ],
+        "cites": []
+      },
+      {
+        "heading": {
+          "ar": "استلام الوثائق وتحديث بيانات تسجيل المواليد الجدد",
+          "en": "Receiving Documents and Updating Registration Data for New Births"
+        },
+        "body": [
+          {
+            "ar": "يتم توصيل الوثائق المطبوعة بعد تسجيل المواليد الجدد مباشرة إلى العنوان الوطني المعتمد للأب عبر البريد السعودي خلال أيام عمل معدودة. تتوج هذه الرحلة الرقمية بخطوة مريحة تضمن وصول الأوراق الرسمية الحساسة إلى عتبة منزلكِ دون عناء المراجعات البدنية أو تعب الانتظار. وفقاً لمؤسسة البريد السعودي (سبل)، يستغرق توصيل شهادة الميلاد الأصلية وسجل الأسرة المحدث من ٣ إلى ٥ أيام عمل كحد أقصى بعد تأكيد سداد رسوم الشحن. تتيح لكِ هذه الخدمة اللوجستية المميزة متابعة خط سير الشحنة لحظة بلحظة عبر التطبيق الذكي للتأكد من موعد استلامها الدقيق.",
+            "en": "Printed documents are delivered directly to the father's approved national address via Saudi Post within a few working days after registering new births. This digital journey culminates in a comfortable step ensuring sensitive official papers arrive at your doorstep without the hassle of physical visits or the fatigue of waiting. According to the Saudi Post Corporation (SPL), delivering the original birth certificate and updated family registry takes a maximum of 3 to 5 working days after confirming payment of shipping fees. This premium logistical service allows you to track the shipment's route moment by moment via the smart app to ascertain its exact delivery time."
+          },
+          {
+            "ar": "تُطبع كافة الوثائق الحكومية الصادرة من الداخلية باستخدام تقنيات أمنية معقدة وورق خاص يحتوي على علامات مائية دقيقة تمنع محاولات التزوير كلياً. عندما تستلمين المغلف البريدي المغلق، يجب عليكِ مراجعة كافة البيانات المطبوعة للمرة الأخيرة للتأكد من عدم وجود أي خطأ مطبعي نادر حدث أثناء الإصدار. في حال اكتشاف خطأ، يتوجب على الأب حجز موعد عاجل لاستبدال الوثيقة في الأحوال المدنية قبل استخدامها رسمياً في أي معاملة.",
+            "en": "All government documents issued by the Ministry of Interior are printed using complex security technologies and special paper containing precise watermarks that completely prevent forgery attempts. When you receive the sealed postal envelope, you must review all printed data one last time to ensure no rare typographical error occurred during issuance. If an error is discovered, the father must urgently book an appointment to replace the document at Civil Affairs before using it officially in any transaction."
+          },
+          {
+            "ar": "استلامكِ لهذه الأوراق الهامة يعني إتمامكِ بنجاح لواحدة من أهم مسؤولياتكِ القانونية تجاه صغيركِ، لتتفرغي كلياً لمنحه الحب والرعاية التي يحتاجها. احتفظي دائماً بنسخ رقمية واضحة من الشهادة في هاتفكِ لتسهيل المعاملات السريعة وتقديمها للمراكز الصحية عند طلبها في زيارات التطعيم الروتينية.",
+            "en": "Receiving these important papers means you have successfully completed one of your most critical legal responsibilities towards your little one, freeing you entirely to give them the love and care they need. Always keep clear digital copies of the certificate on your phone to facilitate quick transactions and present them to health centers when requested during routine vaccination visits."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "سداد رسوم التوصيل البريدي المقررة عبر منصة أبشر باستخدام البطاقات البنكية لتأكيد الطلب.",
+            "en": "Pay the scheduled postal delivery fees via the Absher platform using bank cards to confirm the request."
+          },
+          {
+            "ar": "استخدام تطبيق البريد السعودي الموحد لتتبع مسار الشحنة البريدية الحساسة حتى وصولها للمنزل.",
+            "en": "Use the unified Saudi Post app to track the path of the sensitive postal shipment until it reaches home."
+          },
+          {
+            "ar": "حفظ الوثائق الأصلية في مكان آمن ومحمي من التلف مع ضرورة الاحتفاظ بنسخ رقمية احتياطية.",
+            "en": "Keep the original documents in a safe place protected from damage, with the necessity of keeping backup digital copies."
+          }
+        ],
+        "cites": []
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "هل يمكن تسجيل المواليد الجدد بعد مرور ٣٠ يوماً للمقيمين؟",
+          "en": "Can newborns be registered after 30 days for residents?"
+        },
+        "a": {
+          "ar": "يُغلق نظام أبشر الإلكتروني أمام المقيمين بعد ٣٠ يوماً بالضبط. لتسجيل الطفل بعد هذه المدة، يجب دفع غرامة مالية قدرها ٥٠ ريالاً وحجز موعد استثنائي لمراجعة مكاتب الأحوال المدنية والجوازات شخصياً.",
+          "en": "The Absher electronic system locks for residents after exactly 30 days. To register the child after this period, a financial fine of 50 Riyals must be paid, and an exceptional appointment booked to visit the Civil Affairs and Passports offices in person."
+        }
+      },
+      {
+        "q": {
+          "ar": "كيف استلم شهادة الميلاد بعد تسجيل المواليد الكترونيا؟",
+          "en": "How do I receive the birth certificate after registering the newborn electronically?"
+        },
+        "a": {
+          "ar": "يتم إرسال كافة الوثائق الرسمية والمطبوعة، بما فيها شهادة الميلاد، مباشرة إلى عنوانكِ الوطني المحدث والمسجل في أبشر عبر خدمة البريد السعودي (سبل) بعد سداد أجور التوصيل إلكترونياً.",
+          "en": "All official and printed documents, including the birth certificate, are sent directly to your updated national address registered in Absher via the Saudi Post (SPL) service after electronically paying the delivery fees."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يحتاج الأب لزيارة مكتب الأحوال المدنية إطلاقاً؟",
+          "en": "Does the father need to visit the Civil Affairs office at all?"
+        },
+        "a": {
+          "ar": "لا يحتاج لذلك إطلاقاً إذا تم تقديم الطلب بنجاح عبر منصة أبشر خلال المهلة المحددة وكانت الشروط مستوفاة بالكامل. التأخير أو وجود خطأ في البيانات هما الحالتان اللتان تستوجبان حجز موعد حضوري.",
+          "en": "He does not need to at all if the request is successfully submitted via the Absher platform within the specified deadline and requirements are fully met. Delay or data errors are the two cases that necessitate booking an in-person appointment."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما علاقة المستشفى بإجراءات تسجيل المواليد وزارة الصحة؟",
+          "en": "What is the hospital's connection to Ministry of Health newborn registration procedures?"
+        },
+        "a": {
+          "ar": "المستشفى هي الجهة الوحيدة المخولة طبياً وقانونياً بإرسال التبليغ الإلكتروني لوزارة الصحة لحظة الولادة، وهو الشرط التقني الأساسي الذي يفتح ملف الطفل في أبشر لتتمكني من استكمال باقي الخطوات.",
+          "en": "The hospital is the only entity medically and legally authorized to send the electronic notification to the Ministry of Health at the moment of birth, which is the fundamental technical requirement that opens the baby's file in Absher so you can complete the remaining steps."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يمكن تعديل اسم الطفل إلكترونياً بعد تأكيده في أبشر؟",
+          "en": "Can I electronically modify the baby's name after confirming it in Absher?"
+        },
+        "a": {
+          "ar": "لا يُتاح تعديل الاسم عبر المنصة إطلاقاً بعد إصدار الشهادة واعتمادها تقنياً. يتطلب أي تعديل جديد حجز موعد رسمي ومراجعة مكتب الأحوال المدنية شخصياً لتقديم طلب ورقي وتغيير الأوراق.",
+          "en": "Modifying the name via the platform is not allowed at all after the certificate is issued and technically approved. Any new modification requires booking an official appointment and personally visiting the Civil Affairs office to submit a paper request and change the documents."
+        }
+      },
+      {
+        "q": {
+          "ar": "متى يتم تفعيل تأمين طفلي الطبي للبدء في استخدامه للمراجعات؟",
+          "en": "When is my baby's medical insurance activated to start using it for visits?"
+        },
+        "a": {
+          "ar": "يُغطى طفلكِ بشكل مؤقت وتلقائي على بوليصة الأم لأول ٣٠ يوماً. بعد انقضاء هذه الفترة القصيرة، يجب تسليم نسخة من شهادة الميلاد فوراً لجهة عمل الأب لإضافته رسمياً في وثيقة التأمين كفرد مستقل.",
+          "en": "Your baby is temporarily and automatically covered under the mother's policy for the first 30 days. After this short period elapses, a copy of the birth certificate must be immediately handed over to the father's workplace to formally add him to the insurance policy as an independent member."
+        }
+      },
+      {
+        "q": {
+          "ar": "ماذا أفعل إذا تأخر المستشفى في رفع تبليغ الولادة للوزارة؟",
+          "en": "What should I do if the hospital delays submitting the birth notification to the Ministry?"
+        },
+        "a": {
+          "ar": "يجب على الأب مراجعة قسم شؤون المرضى أو إدارة الدخول في المستشفى فوراً لحثهم على الإرسال الفوري لبيانات الطفل لوزارة الصحة، وذلك لتفادي احتساب أي غرامات مالية لانتهاء المهلة.",
+          "en": "The father must immediately check with the Patient Affairs department or the Admissions Administration at the hospital to urge them to instantly send the baby's data to the Ministry of Health, in order to avoid the calculation of any financial fines due to deadline expiration."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "لا تنسي أي خطوة بعد الولادة",
+        "en": "Don't Miss a Step After Birth"
+      },
+      "body": {
+        "ar": "يوفر لكِ تطبيق نواة قائمة مهام مخصصة لمتابعة جدول تطعيمات صغيركِ وأوراقه الرسمية خطوة بخطوة، براحة بال تامة ودون أي قلق.",
+        "en": "The Nawah app provides you with a customized task list to track your little one's vaccination schedule and official paperwork step by step, with complete peace of mind and zero anxiety."
+      },
+      "button": {
+        "ar": "حمّلي نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [],
+    "keywords": [
+      "تسجيل المواليد في السعودية",
+      "تسجيل المواليد ابشر",
+      "تسجيل المواليد وزارة الصحة",
+      "تسجيل المواليد والوفيات",
+      "تسجيل المواليد للمقيمين",
+      "تسجيل المواليد الكترونيا",
+      "تسجيل المواليد الجدد"
+    ],
+    "related": [
+      "/ar/guide/9",
+      "/ar/father/baby-budget",
+      "/ar/names",
+      "/ar/articles/postpartum/postpartum-recovery"
+    ],
+    "updated": "2026-10-05"
+  },
+  {
+    "cluster": "newborn_admin",
+    "slug": "registering-newborn-in-egypt",
+    "published": true,
+    "hero": {
+      "src": "/articles/registering-newborn-in-egypt-hero.jpg",
+      "photographer": "Vidal Balielo Jr.",
+      "photographerUrl": "https://www.pexels.com/@vidalbalielojrfotografia",
+      "pexelsUrl": "https://www.pexels.com/photo/man-and-woman-holding-hands-4005603/",
+      "width": 5472,
+      "height": 3072,
+      "alt": {
+        "ar": "يدا الأب والأم متشابكتان أمام سرير مولود في حضانة المستشفى",
+        "en": "A father's and mother's hands clasped in front of a newborn's cot in a hospital nursery"
+      }
+    },
+    "eyebrow": {
+      "ar": "تسجيل المولود والتأمين",
+      "en": "Newborn Registration and Insurance"
+    },
+    "title": {
+      "ar": "تسجيل المولود في مصر: الخطوات والأوراق المطلوبة",
+      "en": "Registering a Newborn in Egypt: Steps and Required Documents"
+    },
+    "metaTitle": {
+      "ar": "تسجيل المولود في مصر: الخطوات والشروط | نواة",
+      "en": "Registering a Newborn in Egypt: Steps and Conditions | Nawah"
+    },
+    "description": {
+      "ar": "دليلك الشامل لمعرفة خطوات تسجيل المولود في مصر بوضوح. تعرّفي على الوثائق المطلوبة، شروط تسجيل المولود الجديد، ومن له حق التبليغ قانونياً.",
+      "en": "Your comprehensive guide to registering a newborn in Egypt. Learn about the required documents, registration conditions, and who has the legal right to report."
+    },
+    "standfirst": {
+      "ar": "تعرّفي على الإجراءات الرسمية والوثائق المطلوبة لضمان استخراج شهادة ميلاد طفلكِ الأولى بسهولة وفي الموعد القانوني دون تأخير.",
+      "en": "Learn the official procedures and required documents to ensure your baby's first birth certificate is issued smoothly and on legal time without delay."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "تسجيل المولود في مصر: الموعد والإطار القانوني",
+          "en": "Registering a Newborn in Egypt: Timing and Legal Framework"
+        },
+        "body": [
+          {
+            "ar": "يبدأ تسجيل المولود في مصر بالتوجه إلى مكتب الصحة التابع لمحل الولادة خلال ١٥ يوماً من تاريخ الحدث كحد أقصى. ينص قانون الطفل المصري وتوجيهات وزارة الصحة ومكاتب القاهرة على ضرورة التزامكِ وزوجكِ بهذا الإطار الزمني الدقيق لتجنب الغرامات المالية، ولضمان عدم تحول طفلكِ إلى ما يُعرف قانونياً وإدارياً بـ \"ساقط قيد\".",
+            "en": "Registering a newborn in Egypt begins by heading to the health office covering the place of birth within a maximum of 15 days from the event date. Egyptian Child Law, along with directives from the Ministry of Health and Cairo offices, mandates that you and your husband adhere strictly to this precise timeframe to avoid financial penalties, and to ensure your child does not become legally and administratively classified as an 'omitted record'."
+          },
+          {
+            "ar": "بمجرد التبليغ في الوقت المحدد والمبكر، تُستخرج شهادة الميلاد المميكنة الأولى بشكل مجاني تماماً، ويتم فوراً ربط طفلكِ بنظام التطعيمات الإجبارية التابع للدولة. وفقاً للموقع الرسمي لمكاتب الصحة بالقاهرة، يضمن هذا الإجراء السريع والفعال حصول طفلكِ على كافة حقوقه الصحية، وتسهيل تقديم خدمات الرعاية الأساسية بانتظام ودون أي تعقيدات بيروقراطية أو قانونية في المستقبل.",
+            "en": "Once reported early and on time, the first automated birth certificate is issued completely free of charge, and your child is immediately linked to the state's mandatory vaccination system. According to the official Cairo Health Offices website, this prompt and effective procedure ensures your baby receives all their health rights and facilitates the regular provision of basic care services without any future bureaucratic or legal complications."
+          }
+        ],
+        "cites": [
+          "youm7_2025",
+          "chob_2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "شروط تسجيل المولود في مصر",
+          "en": "Conditions for Registering a Newborn in Egypt"
+        },
+        "body": [
+          {
+            "ar": "ترتبط شروط تسجيل المولود في مصر بمكان حدوث الولادة الفعلي، وليس بمحل سكنكِ المكتوب في بطاقة الرقم القومي أو محل إقامتكِ الحالي. يُعد الشرط الأساسي والأهم لإتمام عملية التسجيل بنجاح هو إثبات العلاقة الزوجية رسمياً من خلال قسيمة زواج موثقة ومعتمدة، بالإضافة إلى وجود إخطار ولادة معتمد وصادر من المستشفى أو العيادة التي تمت بها الولادة.",
+            "en": "Conditions for registering a newborn in Egypt are linked to the actual place of birth, not your current residence or the address written on your national ID card. The primary and most crucial condition for successfully completing the registration process is officially proving the marital relationship through a documented and certified marriage certificate, in addition to an approved birth notification issued by the hospital or clinic where the birth occurred."
+          },
+          {
+            "ar": "في حال عدم توافر أصل قسيمة الزواج الورقية لديكِ لأي سبب، يُمكنكِ بسهولة الاستعاضة عنها بقسيمة زواج مميكنة حديثة الإصدار يتم استخراجها من السجل المدني. من المهم أن تعرفي أن مكان التسجيل واستخراج الشهادة لا يؤثر إطلاقاً على خطوات تقديم طفلكِ للمدارس لاحقاً، ولا يمنع أو يعيق عملية صرف الألبان المدعمة التي تُصرف لكِ حسب محل السكن الفعلي القريب منكِ.",
+            "en": "If you do not have the original paper marriage certificate for any reason, you can easily substitute it with a newly issued, automated marriage certificate from the Civil Registry. It is important to know that the place of registration and certificate issuance does not affect your child's future school enrollment process, nor does it prevent or hinder the dispensing of subsidized baby formula, which is provided based on your actual, nearby residence."
+          }
+        ],
+        "cites": [
+          "chob_2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "اوراق تسجيل المولود في مصر",
+          "en": "Documents for Registering a Newborn in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تتطلب عملية التسجيل تقديم مجموعة محددة وواضحة من المستندات الرسمية لإثبات النسب وتوثيق الحدث بدقة في السجلات الحكومية. بحسب تقرير اليوم السابع الصادر في أغسطس ٢٠٢٥، يجب تحضير ملف ورقي متكامل يضم النسخ الأصلية والصور الضوئية لضمان سير العملية بسلاسة وعدم رفض الطلب من قِبل مفتش الصحة المختص.",
+            "en": "The registration process requires presenting a specific and clear set of official documents to accurately prove parentage and document the event in government records. According to a Youm7 report published in August 2025, a complete paper file containing original copies and photocopies must be prepared to ensure a smooth process and avoid the request being rejected by the designated health inspector."
+          },
+          {
+            "ar": "يُنصح دائماً بتجهيز هذه الأوراق وتصويرها قبل موعد ولادتكِ بفترة كافية لتجنب أي إرهاق جسدي أو توتر لكِ ولزوجكِ خلال فترة النفاس، مع ضرورة التأكد من وضوح كافة الأختام والتوقيعات على إخطار المستشفى. تأكدي من اصطحاب الأوراق التالية مرتبة، مع تحقّقكِ من مكتب الصحة التابع لكم قبل التنفيذ الفعلي لاحتمالية تغير بعض الإجراءات الإدارية الطفيفة من حين لآخر:",
+            "en": "It is always advised to prepare and photocopy these documents well before your due date to avoid any physical exhaustion or stress for you and your husband during the postpartum period, while ensuring all stamps and signatures on the hospital notification are clear. Make sure to bring the following organized documents, while verifying with your local health office beforehand as minor administrative procedures may occasionally change:"
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "أصل إخطار الولادة على نموذج وزارة الصحة، معتمد ومختوم من المستشفى التي تمت بها الولادة، ومستوفٍ لكافة بياناتكِ وبيانات المولود.",
+            "en": "Original birth notification on the Ministry of Health form, approved and stamped by the hospital where the birth took place, fulfilling all your and the baby's details."
+          },
+          {
+            "ar": "أصل بطاقة الرقم القومي سارية المفعول للأب، مع تقديم صورتين ضوئيتين منها بوضوح.",
+            "en": "Original valid national ID card of the father, along with two clear photocopies."
+          },
+          {
+            "ar": "أصل بطاقة الرقم القومي سارية المفعول لكِ (الأم)، مصحوبة بصورتين ضوئيتين منها.",
+            "en": "Original valid national ID card for you (the mother), accompanied by two photocopies."
+          },
+          {
+            "ar": "أصل قسيمة الزواج الرسمية، مع صورتين ضوئيتين، وللمصريين بالخارج، تُطلب قسيمة موثقة من وزارة الخارجية.",
+            "en": "Original official marriage certificate, with two photocopies; for Egyptians abroad, a certificate authenticated by the Ministry of Foreign Affairs is required."
+          }
+        ],
+        "cites": [
+          "youm7_2025",
+          "chob_2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "خطوات تسجيل المولود في مصر",
+          "en": "Steps for Registering a Newborn in Egypt"
+        },
+        "body": [
+          {
+            "ar": "تبدأ خطوات تسجيل المولود في مصر بالتوجه الفعلي والمباشر إلى مكتب الصحة المختص مصحوبين بطفلكِ حديث الولادة والأوراق الرسمية المطلوبة. بمجرد الوصول إلى المكتب، يقوم كاتب الصحة بمراجعة المستندات بدقة شديدة، والتأكد من تطابق بيانات إخطار الولادة مع بيانات بطاقات الهوية الشخصية وقسيمة الزواج المقدمة.",
+            "en": "The steps for registering a newborn in Egypt begin with physically going directly to the designated health office, accompanied by your newborn baby and the required official documents. Upon arriving at the office, the health clerk meticulously reviews the documents, ensuring the details on the birth notification match those on the personal ID cards and the provided marriage certificate."
+          },
+          {
+            "ar": "تعتبر خطوة أخذ بصمة قدم طفلكِ من أهم الإجراءات الحيوية التي تتم داخل المكتب لتوثيق هوية المولود وحفظها في السجلات الحكومية الرسمية بشكل نهائي. بعد فحص الأوراق واعتماد الطلب والموافقة عليه من قِبل مفتش الصحة المتواجد، يتم إصدار الشهادة فوراً وتحديث النظام الإلكتروني لوزارة الصحة لضمان إدراج الطفل في قواعد البيانات الوطنية.",
+            "en": "Taking your baby's footprint is considered one of the most vital procedures performed inside the office to document the newborn's identity and permanently save it in official government records. After the documents are examined and the application is approved and authorized by the on-site health inspector, the certificate is issued immediately, and the Ministry of Health's electronic system is updated to ensure the child is included in national databases."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "التوجه إلى مكتب الصحة الذي وقعت بدائرته حالة الميلاد خلال المواعيد الرسمية للعمل.",
+            "en": "Head to the health office in the district where the birth occurred during official working hours."
+          },
+          {
+            "ar": "تقديم كافة المستندات المطلوبة (الإخطار، البطاقات، قسيمة الزواج) لكاتب ومفتش الصحة لمراجعتها بدقة.",
+            "en": "Submit all required documents (notification, IDs, marriage certificate) to the health clerk and inspector for careful review."
+          },
+          {
+            "ar": "أخذ بصمة قدم طفلكِ الجديد على السجلات الرسمية والدفاتر الورقية داخل المكتب.",
+            "en": "Take your new baby's footprint on the official records and paper ledgers inside the office."
+          },
+          {
+            "ar": "استلام شهادة الميلاد المميكنة الأولى مجاناً فور إتمام التسجيل، مع دفع الرسوم الرمزية الخاصة بكراسات المتابعة الصحية.",
+            "en": "Receive the first automated birth certificate for free immediately upon registration completion, while paying nominal fees for the health follow-up booklets."
+          }
+        ],
+        "cites": [
+          "chob_2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "من يستطيع تسجيل المولود في مصر؟",
+          "en": "Who Can Register a Newborn in Egypt?"
+        },
+        "body": [
+          {
+            "ar": "حدد القانون المصري بوضوح ودقة من يستطيع تسجيل المولود في مصر لتسهيل الإجراءات الإدارية على أسرتكِ مع الحفاظ التام على الأنساب والحقوق القانونية. يشير تقرير اليوم السابع لعام ٢٠٢٥ إلى أن ترتيب الأشخاص المسموح لهم والمكلفين بالتبليغ يخضع لتسلسل قانوني صارم ومنظم يبدأ بالأب كمسؤول أول.",
+            "en": "Egyptian law clearly and precisely defines who can register a newborn in Egypt to facilitate administrative procedures for your family while fully preserving lineages and legal rights. The 2025 Youm7 report indicates that the order of individuals allowed and mandated to report follows a strict, organized legal hierarchy starting with the father as the primary responsible party."
+          },
+          {
+            "ar": "يهدف هذا التسلسل المعتمد إلى ضمان عدم تعطل أو تأخر استخراج الأوراق الرسمية لطفلكِ في حال سفر الزوج، أو مرضه، أو حدوث أي ظرف طارئ يمنعه من الحضور. إذا قام أي شخص من غير الوالدين بالتبليغ ضمن المسموح لهم، يجب عليه حتماً تقديم أصل بطاقة الرقم القومي الخاصة به مع صورتين ضوئيتين لإثبات هويته الشخصية وصلة قرابته المباشرة بالمولود.",
+            "en": "This approved hierarchy aims to ensure no delay or disruption in issuing your child's official documents in case of the husband's travel, illness, or any emergency preventing his attendance. If anyone other than the parents reports the birth, provided they are among those permitted, they must present their original national ID card along with two photocopies to prove their personal identity and direct relationship to the newborn."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "الأب شخصياً، وهو صاحب الحق الأساسي والمسؤول الأول عن التبليغ عن واقعة الميلاد.",
+            "en": "The father in person, being the primary rights holder and the first person responsible for reporting the birth event."
+          },
+          {
+            "ar": "أنتِ (الأم)، وتحديداً في حالة غياب الأب أو سفره، مع تقديم المستندات التي تثبت ذلك.",
+            "en": "You (the mother), specifically in cases of the father's absence or travel, provided you submit documents proving this."
+          },
+          {
+            "ar": "أقارب الأب البالغون حتى الدرجة الثانية، مثل الجد للأب، أو العم، أو الشقيق البالغ، مع إثبات هويتهم.",
+            "en": "Adult relatives of the father up to the second degree, such as the paternal grandfather, uncle, or adult brother, with proof of their identity."
+          },
+          {
+            "ar": "مدير المستشفى، في حال حدوث الولادة داخلها دون وجود مرافقين من العائلة لتسلم الطفل.",
+            "en": "The hospital director, in cases where the birth occurs inside the facility without any accompanying family members to receive the child."
+          }
+        ],
+        "cites": [
+          "youm7_2025"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "من له الحق في تسجيل المولود في مصر في الحالات الاستثنائية",
+          "en": "Who has the Right to Register a Newborn in Egypt in Exceptional Cases"
+        },
+        "body": [
+          {
+            "ar": "يثار التساؤل والنقاش غالباً حول من له الحق في تسجيل المولود في مصر في حالات سفر الزوج للعمل أو وجود بعض الخلافات الأسرية العابرة. وفقاً لقانون الأحوال المدنية وقانون الطفل، يحق لكِ كأم تسجيل طفلكِ بنفسكِ واستخراج شهادة ميلاد رسمية له بمجرد تقديم إخطار الولادة الصحيح وقسيمة الزواج الأصلية، دون أي اشتراط أو إلزام بحضور الأب شخصياً.",
+            "en": "Questions and discussions often arise regarding who has the right to register a newborn in Egypt in cases of the husband traveling for work or passing family disputes. According to the Civil Status Law and the Child Law, you as a mother have the right to register your child yourself and issue an official birth certificate simply by presenting the correct birth notification and the original marriage certificate, without any condition or obligation for the father's personal attendance."
+          },
+          {
+            "ar": "يحمي هذا الحق القانوني طفلكِ بشكل مباشر من احتمالية الحرمان من التطعيمات الأساسية الإجبارية أو الرعاية الصحية المبكرة بسبب أي ظروف طارئة قد تعيق عملية التبليغ من جانب الزوج. في حالات الطلاق المؤسفة التي تسبق موعد الولادة، تُقدم وثيقة الطلاق الرسمية والموثقة بدلاً من قسيمة الزواج، وتبقى لكِ كامل الصلاحية والحق المطلق في التبليغ لحماية حقوق ومستقبل طفلكِ.",
+            "en": "This legal right directly protects your child from potentially missing mandatory basic vaccinations or early healthcare due to any unforeseen circumstances that might hinder the reporting process by the husband. In unfortunate cases of divorce preceding the birth date, the official documented divorce certificate is presented instead of the marriage certificate, and you retain full authority and absolute right to report to protect your child's rights and future."
+          }
+        ],
+        "cites": [
+          "youm7_2025"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تسجيل المولود في مكتب الصحة مصر أم السجل المدني؟",
+          "en": "Registering a Newborn in the Egypt Health Office or Civil Registry?"
+        },
+        "body": [
+          {
+            "ar": "يختلف مكان تسجيل المولود في مكتب الصحة مصر عن التوجه إلى مكاتب السجل المدني بناءً على توقيت وتاريخ الإبلاغ الفعلي عن واقعة الولادة. طالما أن أسرتكِ تلتزم بمدة الخمسة عشر يوماً الأولى من تاريخ الولادة، فإن مكتب الصحة القريب هو الجهة الوحيدة المختصة والمعنية بالاستقبال، والتوثيق، والإصدار الفوري والمجاني لشهادة الميلاد.",
+            "en": "Registering a newborn in the Egypt health office differs from going to the Civil Registry offices based on the actual timing and date of reporting the birth event. As long as your family adheres to the first fifteen days from the date of birth, the nearby health office is the sole entity specialized and concerned with receiving, documenting, and providing immediate and free issuance of the birth certificate."
+          },
+          {
+            "ar": "تفتح مكاتب الصحة أبوابها بشكل يومي ومنتظم لاستقبال حالات التبليغ المتنوعة، وتبدأ مواعيد العمل الرسمية من الساعة الثامنة صباحاً وحتى الساعة الخامسة مساءً خلال التوقيت الشتوي، أو تمتد للسادسة صيفاً لتسهيل الأمر على المواطنين. يوضح الجدول التفصيلي التالي الفروق الجوهرية والأساسية بين الجهتين وفقاً للبيانات الحكومية المعلنة لعام ٢٠٢٦:",
+            "en": "Health offices open their doors daily and regularly to receive various reporting cases, with official working hours starting from 8:00 AM until 5:00 PM during winter time, or extending to 6:00 PM in summer to facilitate the process for citizens. The following detailed table explains the fundamental and essential differences between the two entities according to announced government data for 2026:"
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "الجهة",
+              "en": "Entity"
+            },
+            {
+              "ar": "الإطار الزمني",
+              "en": "Timeframe"
+            },
+            {
+              "ar": "التكلفة",
+              "en": "Cost"
+            },
+            {
+              "ar": "الإجراءات المطلوبة",
+              "en": "Required Procedures"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "مكتب الصحة",
+                "en": "Health Office"
+              },
+              {
+                "ar": "خلال ١٥ يوماً من الولادة",
+                "en": "Within 15 days of birth"
+              },
+              {
+                "ar": "مجاني للشهادة الأولى",
+                "en": "Free for the first certificate"
+              },
+              {
+                "ar": "تقديم الأوراق لمفتش الصحة واستلام فوري للشهادة",
+                "en": "Submit documents to the health inspector and receive the certificate immediately"
+              }
+            ],
+            [
+              {
+                "ar": "السجل المدني",
+                "en": "Civil Registry"
+              },
+              {
+                "ar": "بعد مرور ١٥ يوماً (ساقط قيد)",
+                "en": "After 15 days (omitted record)"
+              },
+              {
+                "ar": "رسوم استخراج وثيقة ساقط قيد",
+                "en": "Fees for omitted record document issuance"
+              },
+              {
+                "ar": "شراء استمارة ساقط قيد، تحقيقات إدارية، وإجراءات تستغرق وقتاً أطول",
+                "en": "Purchase omitted record form, administrative investigations, and longer procedures"
+              }
+            ]
+          ]
+        },
+        "cites": [
+          "youm7_2025",
+          "chob_2026"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "تسجيل المولود الجديد في مصر والمتابعة الصحية",
+          "en": "Registering a New Baby in Egypt and Health Follow-up"
+        },
+        "body": [
+          {
+            "ar": "لا يقتصر تسجيل المولود الجديد في مصر على الجانب القانوني واستخراج الأوراق الثبوتية والهوية فقط، بل هو البوابة الأساسية والرئيسية لضمان رعاية طفلكِ الصحية السليمة. عند إتمام عملية التسجيل بنجاح، تتسلمين فوراً كراسة متابعة الطفل، والمعروفة بالبطاقة الصحية، والتي تختلف في لونها المميز بناءً على جنس المولود (اللون الأزرق للذكر والوردي للأنثى).",
+            "en": "Registering a new baby in Egypt is not limited to the legal aspect and issuing identification documents alone; rather, it is the primary and main gateway to ensuring your child's proper healthcare. Upon successfully completing the registration process, you immediately receive the child follow-up booklet, known as the health card, which features a distinct color based on the newborn's gender (blue for boys and pink for girls)."
+          },
+          {
+            "ar": "تحتوي هذه الكراسة الهامة على جدول زمني مفصل لكافة التطعيمات الإجبارية والجرعات التنشيطية التي توفرها وزارة الصحة مجاناً لحماية طفلكِ من الأمراض الوبائية الخطيرة خلال سنواته الأولى. بدون هذه الكراسة الرسمية الناتجة عن إجراءات التسجيل، لا يمكن لطفلكِ إطلاقاً تلقي تطعيماته المجدولة في وحدات ومراكز الرعاية الحكومية، مما يجعل خطوة التبليغ المبكر والسريع ضرورة طبية وحياتية لا غنى عنها لضمان نموه في بيئة صحية وآمنة.",
+            "en": "This important booklet contains a detailed schedule of all mandatory vaccinations and booster doses provided by the Ministry of Health for free to protect your baby from dangerous epidemic diseases during their early years. Without this official booklet resulting from registration procedures, your child absolutely cannot receive their scheduled vaccinations at government care units and centers, making the step of early and swift reporting a vital medical and life necessity to guarantee their growth in a healthy and safe environment."
+          }
+        ],
+        "cites": [
+          "chob_2026"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "متى يجب تسجيل المولود الجديد في مصر؟",
+          "en": "When must a new baby be registered in Egypt?"
+        },
+        "a": {
+          "ar": "يجب الإبلاغ عن واقعة الميلاد وتسجيل طفلكِ في مكتب الصحة التابع لمكان الولادة خلال ١٥ يوماً من تاريخ الحدث كحد أقصى لتجنب الغرامات.",
+          "en": "The birth event must be reported and your child registered at the health office covering the place of birth within a maximum of 15 days from the event date to avoid penalties."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما هي اوراق تسجيل المولود في مصر؟",
+          "en": "What are the documents for registering a newborn in Egypt?"
+        },
+        "a": {
+          "ar": "تشمل الأوراق الأساسية إخطار الولادة المختوم من المستشفى، بطاقتي الرقم القومي الساريتين للأب والأم، وقسيمة الزواج الأصلية، بالإضافة إلى صور ضوئية لكل مستند.",
+          "en": "Basic documents include the stamped birth notification from the hospital, valid national IDs for the father and mother, and the original marriage certificate, along with photocopies of each."
+        }
+      },
+      {
+        "q": {
+          "ar": "من يستطيع تسجيل المولود في مصر في حالة سفر الأب؟",
+          "en": "Who can register a newborn in Egypt if the father is traveling?"
+        },
+        "a": {
+          "ar": "يحق لكِ كأم تسجيل المولود بتقديم وثيقة السفر وقسيمة الزواج. كما يحق للجد للأب أو العم أو الأخ البالغ إتمام عملية التسجيل نيابة عن الأب.",
+          "en": "You, as the mother, have the right to register the newborn by presenting the travel document and marriage certificate. The paternal grandfather, uncle, or adult brother also has the right to complete the registration on behalf of the father."
+        }
+      },
+      {
+        "q": {
+          "ar": "ماذا يحدث إذا تأخر تسجيل المولود في مكتب الصحة مصر عن المدة القانونية؟",
+          "en": "What happens if registering a newborn in the Egypt health office is delayed past the legal period?"
+        },
+        "a": {
+          "ar": "يعتبر الطفل قانونياً \"ساقط قيد\"، ويجب التوجه إلى السجل المدني بدلاً من مكتب الصحة، وشراء نموذج مخصص لذلك، والمرور بتحقيقات إدارية ودفع رسوم إضافية.",
+          "en": "The child is legally considered an 'omitted record,' and you must go to the Civil Registry instead of the health office, purchase a designated form, undergo administrative investigations, and pay additional fees."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يمكن للأم تسجيل المولود دون حضور الأب نهائياً؟",
+          "en": "Can the mother register the newborn without the father's presence at all?"
+        },
+        "a": {
+          "ar": "نعم، يمكنكِ إتمام التسجيل بمفردكِ طالما تمتلكين أصل قسيمة الزواج وإخطار المستشفى، لضمان حصول طفلكِ على حقوقه وتطعيماته في موعدها المعتاد.",
+          "en": "Yes, you can complete the registration alone as long as you have the original marriage certificate and the hospital notification, ensuring your child receives their rights and vaccinations on time."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يختلف التسجيل إذا كانت الولادة طبيعية في المنزل؟",
+          "en": "Does registration differ if it was a natural home birth?"
+        },
+        "a": {
+          "ar": "نعم، يجب التوجه أولاً لأقرب مكتب صحة تابع لمحل الإقامة ليقوم طبيب الوحدة بتوقيع الكشف الطبي على المولود وإصدار إخطار الولادة، ثم استكمال إجراءات التسجيل المعتادة.",
+          "en": "Yes, you must first head to the nearest health office in your residential area for the unit doctor to medically examine the newborn and issue the birth notification, then proceed with the usual registration procedures."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل توجد أي رسوم مالية على استخراج شهادة الميلاد الأولى؟",
+          "en": "Are there any financial fees for issuing the first birth certificate?"
+        },
+        "a": {
+          "ar": "إصدار شهادة الميلاد الأولى وتسجيل البيانات يتم مجاناً بالكامل. يتم فقط دفع رسوم حكومية رمزية جداً للحصول على كراسة المتابعة الصحية الخاصة بتطعيمات طفلكِ.",
+          "en": "Issuing the first birth certificate and registering the data is completely free. Only very nominal government fees are paid to obtain the health follow-up booklet for your child's vaccinations."
+        }
+      },
+      {
+        "q": {
+          "ar": "أين يتم تسجيل المولود، في محل سكن الوالدين أم مكان الولادة؟",
+          "en": "Where is the newborn registered, in the parents' residence or place of birth?"
+        },
+        "a": {
+          "ar": "يتم التسجيل حصرياً في مكتب الصحة الذي تتبعه المستشفى التي تمت بها الولادة، ولا يرتبط الأمر إطلاقاً بمحل إقامتكِ الحالي المذكور في بطاقة الرقم القومي.",
+          "en": "Registration is exclusively done at the health office corresponding to the hospital where the birth took place, and it is not at all linked to your current residence mentioned on your national ID card."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "هل جهزتِ ميزانية طفلكِ؟",
+        "en": "Have you prepared your baby's budget?"
+      },
+      "body": {
+        "ar": "تتبعي نفقات المولود الجديد واحتياجاته الأساسية بكل سهولة، وخططي مالياً لكل مرحلة من خلال أداة حاسبة التكاليف في تطبيق نواة.",
+        "en": "Easily track your newborn's expenses and basic needs, and plan financially for every stage using the Cost Calculator tool in the Nawah app."
+      },
+      "button": {
+        "ar": "حمّلي نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [
+      {
+        "id": "youm7_2025",
+        "org": "اليوم السابع",
+        "title": {
+          "ar": "خطوات تسجيل المواليد واستخراج شهادات للمرة الأولى",
+          "en": "Steps for Registering Newborns and Issuing Certificates for the First Time"
+        },
+        "url": "https://www.youm7.com/story/2025/8/28/%D8%AE%D8%B7%D9%88%D8%A7%D8%AA-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%84%D9%8A%D8%AF-%D9%88%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D8%A7%D8%AC-%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89/7103115",
+        "retrieved": "2026-10-06"
+      },
+      {
+        "id": "chob_2026",
+        "org": "مكاتب الصحة بالقاهرة",
+        "title": {
+          "ar": "تسجيل المواليد",
+          "en": "Births Registration"
+        },
+        "url": "https://chob.odoo.com/birth",
+        "retrieved": "2026-10-06"
+      }
+    ],
+    "keywords": [
+      "تسجيل المولود في مصر",
+      "خطوات تسجيل المولود في مصر",
+      "اوراق تسجيل المولود في مصر",
+      "من يستطيع تسجيل المولود في مصر",
+      "شروط تسجيل المولود في مصر",
+      "تسجيل المولود في مكتب الصحة مصر",
+      "من له الحق في تسجيل المولود في مصر",
+      "تسجيل المولود الجديد في مصر"
+    ],
+    "related": [
+      "/ar/guide/9",
+      "/ar/father/baby-budget",
+      "/ar/articles/postpartum/postpartum-recovery"
+    ],
+    "updated": "2026-10-05"
+  }
+]

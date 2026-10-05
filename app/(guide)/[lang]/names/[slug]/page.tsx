@@ -141,7 +141,7 @@ export default async function NameDetailPage({
             </p>
           </div>
 
-          <NamesCta name={n} locale={locale} where={`name_${slug}`} />
+          <NamesCta display={locale === "ar" ? n.name_ar : n.name_en} locale={locale} where={`name_${slug}`} />
 
           {suggestions.length > 0 && (
             <section className="g-section">
