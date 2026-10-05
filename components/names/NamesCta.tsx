@@ -50,6 +50,7 @@ export function NamesCta({
           color: var(--accent-strong);
           text-wrap: balance;
         }
+        [dir="rtl"] .n-cta-quote { font-weight: 500; }
         .n-cta-body {
           margin: 0 0 26px; max-width: 60ch;
           font-size: 17px; line-height: 1.8; color: var(--fg);

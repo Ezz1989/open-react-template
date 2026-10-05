@@ -144,6 +144,7 @@ export function PagedNames({ items, locale, where }: { items: NameItem[]; locale
           font-size: clamp(2rem, 7vw, 5rem); line-height: 1.1; color: var(--fg);
           text-wrap: balance; overflow-wrap: anywhere;
         }
+        [dir="rtl"] .np-name { font-weight: 700; }
         .np-meaning {
           max-width: 24ch; font-size: clamp(14px, 1.7vw, 20px); line-height: 1.55;
           color: var(--fg-muted); text-wrap: balance;

@@ -46,7 +46,7 @@
 
   --font-display: var(--font-instrument-serif), 'Cormorant Garamond', Georgia, serif;
   --font-body: var(--font-plus-jakarta), -apple-system, system-ui, sans-serif;
-  --font-arabic: var(--font-noto-naskh-arabic), 'Amiri', serif;
+  --font-arabic: var(--font-tajawal), 'Tajawal', sans-serif;
 
   --radius-sm: 10px;
   --radius-md: 18px;
@@ -102,6 +102,14 @@ html, body {
 }
 
 [dir="rtl"] body { font-family: var(--font-arabic), var(--font-body); }
+
+/* Arabic headings: Tajawal too (user, 2026-10-06). Instrument Serif has no
+   Arabic glyphs, so every Arabic heading used to fall back to a system font.
+   Swapping the variable moves every var(--font-display) user at once. */
+[dir="rtl"] { --font-display: var(--font-arabic); }
+[dir="rtl"] :is(.display-xl, .display-lg, .display-md, .display-sm) { font-weight: 700; letter-spacing: 0; line-height: 1.25; }
+[dir="rtl"] :is(.display-xl, .display-lg, .display-md, .display-sm) em { font-style: normal; }
+[dir="rtl"] .serif { letter-spacing: 0; }
 
 img { max-width: 100%; display: block; }
 button { font: inherit; border: none; background: none; color: inherit; cursor: pointer; }

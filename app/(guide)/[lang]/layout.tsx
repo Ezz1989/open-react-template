@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Naskh_Arabic } from "next/font/google";
+import { Instrument_Serif, Plus_Jakarta_Sans, Tajawal } from "next/font/google";
 import { DIR, LOCALES, SITE_URL, type Locale } from "@/lib/constants";
 import { PostHogProvider } from "@/components/PostHogProvider";
 import "../../globals.css";
@@ -46,10 +46,12 @@ const plusJakarta = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
   display: "swap",
 });
-const notoArabic = Noto_Naskh_Arabic({
-  subsets: ["arabic"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-noto-naskh-arabic",
+// Tajawal = the brand's Arabic face (docs/BRAND_2026-09.md), same as the app.
+// Replaced Noto Naskh 2026-10-06 (user picked option 1 of 4).
+const tajawal = Tajawal({
+  subsets: ["arabic", "latin"],
+  weight: ["400", "500", "700", "800"],
+  variable: "--font-tajawal",
   display: "swap",
 });
 
@@ -79,9 +81,12 @@ export default async function GuideRootLayout({
   if (!LOCALES.includes(lang as Locale)) notFound();
   const locale = lang as Locale;
 
+  // Font variables go on <html>, not <body>: the :root tokens in globals.css
+  // (--font-display, --font-arabic) reference them, and a variable set on
+  // <body> is invisible to :root — every font silently fell back (fixed 2026-10-06).
   return (
-    <html lang={locale} dir={DIR[locale]}>
-      <body className={`${instrument.variable} ${plusJakarta.variable} ${notoArabic.variable}`}>
+    <html lang={locale} dir={DIR[locale]} className={`${instrument.variable} ${plusJakarta.variable} ${tajawal.variable}`}>
+      <body>
         <PostHogProvider>{children}</PostHogProvider>
       </body>
     </html>
