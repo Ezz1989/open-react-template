@@ -4,7 +4,12 @@ Same steps for every file: open it → copy everything → paste into Gemini (no
 download the JSON into Downloads → tell Claude "articles ready". Claude ingests, checks, publishes.
 If Gemini's reply gets cut off, ask it for the rest in "Part 1 / Part 2" code blocks.
 
-**22 prompts.** Do them in any order.
+**22 article prompts + 1 glossary prompt.** Do them in any order.
+
+## Glossary — 15 terms in ONE prompt
+
+`glossary_entries.txt` → save the JSON to Downloads → tell Claude "glossary ready"
+(Claude puts it in `content/glossary/` and runs `node scripts/glossary/ingest.mjs`).
 
 ## Food safety (medical — 1 real source each)
 
@@ -43,5 +48,4 @@ If Gemini's reply gets cut off, ask it for the rest in "Part 1 / Part 2" code bl
 | 21 | `article_father_expansion_دليلك-لإعداد-وجبات-الحامل-الصحية-والتعام.txt` |
 | 22 | `article_father_expansion_دورك-في-متابعة-جدول-تطعيمات-الرضيع-وتخفي.txt` |
 
-**Skip:** `topics_glossary.txt` and `content/topics/glossary.json` (15 terms) — the glossary needs
-a hub page type that isn't built yet. `done/` = prompts of articles already live.
+`done/` = prompts already used. `topics_glossary.txt` is done too (its output = `content/topics/glossary.json`).

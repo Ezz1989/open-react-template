@@ -6,6 +6,7 @@ import { publishedArticles as publishedTopicArticles } from "@/lib/articles-cont
 import { TOOLS, WEEK_PAGES } from "@/lib/tools-content";
 import { getAllNames, slugForName } from "@/lib/names-data";
 import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
+import { GLOSSARY } from "@/lib/glossary";
 
 /**
  * /sitemap.xml
@@ -215,6 +216,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.6,
         alternates: { languages: alt((l) => `${SITE_URL}/${l}/due/${slug}`) },
       });
+    }
+  }
+
+  // Glossary hub + one page per term — only once entries exist.
+  if (GLOSSARY.length) {
+    for (const path of ["glossary", ...GLOSSARY.map((e) => `glossary/${e.slug}`)]) {
+      for (const locale of LOCALES) {
+        entries.push({
+          url: `${SITE_URL}/${locale}/${path}`,
+          changeFrequency: "monthly",
+          priority: path === "glossary" ? 0.6 : 0.5,
+          alternates: { languages: alt((l) => `${SITE_URL}/${l}/${path}`) },
+        });
+      }
     }
   }
 

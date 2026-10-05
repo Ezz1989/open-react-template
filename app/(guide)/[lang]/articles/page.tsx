@@ -10,6 +10,7 @@ import {
 } from "@/lib/constants";
 import { ARTICLES_HUB, publishedArticles } from "@/lib/articles-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
+import { GLOSSARY } from "@/lib/glossary";
 
 /**
  * The topic-articles hub — direct sibling of `father/page.tsx`, same reasons
@@ -94,6 +95,12 @@ export default async function ArticlesHubPage({
           <Link href={`/${locale}/father`}>
             {locale === "ar" ? "دليل الأب →" : "Father's guide →"}
           </Link>
+          {GLOSSARY.length > 0 && (
+            <>
+              {" · "}
+              <Link href={`/${locale}/glossary`}>{locale === "ar" ? "قاموس الحمل" : "Pregnancy glossary"}</Link>
+            </>
+          )}
         </p>
       </main>
 

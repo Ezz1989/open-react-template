@@ -1,0 +1,54 @@
+You are writing glossary entries for the website of نواة (Nawah), an Arabic pregnancy app for mothers and fathers in Egypt and the Gulf.
+
+Write ONE entry for EACH of these 15 terms:
+
+1. تسمم الحمل  (angle: تعريف تسمم الحمل وأعراضه)
+2. الطلق الكاذب  (angle: معنى الطلق الكاذب وانقباضات براكستون هيكس)
+3. السدادة المخاطية  (angle: شكل السدادة المخاطية ودلالة نزولها)
+4. السائل الأمينوسي  (angle: أهمية السائل الأمينوسي حول الجنين)
+5. فحص NIPT  (angle: دلالات فحص NIPT للحامل)
+6. سكر الحمل  (angle: تشخيص سكر الحمل ومتابعته)
+7. فحص GBS  (angle: أهمية مسحة فحص GBS قبل الولادة)
+8. المشيمة المنزاحة  (angle: معنى المشيمة المنزاحة ودرجاتها)
+9. شق العجان  (angle: عملية شق العجان أثناء الولادة الطبيعية)
+10. تطويق عنق الرحم  (angle: أسباب عملية تطويق عنق الرحم)
+11. إبرة الرئة  (angle: دواعي أخذ إبرة الرئة للحامل)
+12. حليب اللبأ  (angle: فوائد حليب اللبأ للمولود)
+13. كلف الحمل  (angle: أسباب كلف الحمل وطرق التعامل معه)
+14. الطلق الصناعي  (angle: خطوات الطلق الصناعي لتحفيز الولادة)
+15. العقي  (angle: خروج العقي أو البراز الأول للمولود)
+
+# Language
+- Arabic = Modern Standard Arabic, warm and plain, second-person feminine (ـكِ) where you address the reader. No dialect.
+- English = a faithful translation of the Arabic, not a separate text.
+- Arabic-Indic digits (٠-٩) in Arabic text.
+
+# Each entry
+- definition: 1–2 sentences, plain language, what the term IS.
+- when: the week/trimester it usually comes up, or "" if it has none.
+- body: 2–3 short paragraphs (2–4 sentences each): why it matters, what happens, when to call the doctor if relevant.
+- link: the ONE most relevant page on the site from this list, exactly as written (or "" if none fits):
+  /guide/1 … /guide/9 (pregnancy months) · /father/labour-signs · /father/scan-20-weeks · /father/baby-movements · /father/hospital-bag · /articles/csection/c-section-vs-vaginal-birth · /articles/postpartum/postpartum-recovery · /tools/contraction-timer · /tools/kick-counter · /tools/due-date · /tools/weight-gain
+- citations: ONE real source for the medical facts. Any real health body, hospital or medical site is fine
+  (NHS, MedlinePlus, WHO, Mayo Clinic, Cleveland Clinic…). The URL must open and must say the claim.
+  Never invent a URL or a number. If you cannot source a fact, drop the fact.
+
+- slug = short English kebab-case. aka = other names people search for, or "".
+- Plain JSON: no comments, no trailing commas.
+
+# Output — ONE JSON code block, nothing else. If it does not fit, split it into "Part 1" / "Part 2" code blocks.
+
+{
+  "entries": [
+    {
+      "slug": "preeclampsia",
+      "term": { "ar": "تسمم الحمل", "en": "Preeclampsia" },
+      "aka": { "ar": "ارتفاع ضغط الحمل", "en": "" },
+      "definition": { "ar": "…", "en": "…" },
+      "when": { "ar": "…", "en": "…" },
+      "body": [ { "ar": "…", "en": "…" } ],
+      "link": "/father/labour-signs",
+      "citations": [ { "org": "NHS", "title": "…", "url": "https://…" } ]
+    }
+  ]
+}

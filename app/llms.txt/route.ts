@@ -1,3 +1,4 @@
+import { GLOSSARY } from "@/lib/glossary";
 import { PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles as fatherArticles } from "@/lib/father-content";
@@ -41,6 +42,9 @@ export function GET() {
     "## Baby names",
     `- [Baby names with meanings](${SITE_URL}/en/names) · [دليل الأسماء ومعانيها](${SITE_URL}/ar/names)`,
     "",
+    ...(GLOSSARY.length
+      ? ["## Pregnancy glossary", `- [Medical terms explained](${SITE_URL}/en/glossary) · [قاموس الحمل](${SITE_URL}/ar/glossary)`, ""]
+      : []),
     "## Optional",
     `- [About Nawah](${SITE_URL}/en/about)`,
     `- [Privacy policy](${SITE_URL}/privacy)`,
