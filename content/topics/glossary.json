@@ -1,0 +1,107 @@
+[
+  {
+    "title": "تعريف تسمم الحمل وأعراضه",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "تسمم الحمل",
+    "why": "A critical clinical condition mentioned frequently in app blood pressure trackers and trimester guides that requires a precise medical definition."
+  },
+  {
+    "title": "معنى الطلق الكاذب وانقباضات براكستون هيكس",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "الطلق الكاذب",
+    "why": "Frequently referenced in the 'labour-signs' father article, needing a clear definition to differentiate it from actual active labor."
+  },
+  {
+    "title": "شكل السدادة المخاطية ودلالة نزولها",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "السدادة المخاطية",
+    "why": "A core medical term used in late-pregnancy guides and labor-signs content that readers highly search for when noticing physical changes."
+  },
+  {
+    "title": "أهمية السائل الأمينوسي حول الجنين",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "السائل الأمينوسي",
+    "why": "Appears in ultrasound results and water-breaking articles; a fundamental clinical term needing a centralized explanation."
+  },
+  {
+    "title": "دلالات فحص NIPT للحامل",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "فحص NIPT",
+    "why": "A highly specific screening acronym introduced in first-trimester app content that causes anxiety if left unexplained."
+  },
+  {
+    "title": "تشخيص سكر الحمل ومتابعته",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "سكر الحمل",
+    "why": "A routine complication mentioned in second-trimester testing schedules, requiring clear definitions for glucose thresholds."
+  },
+  {
+    "title": "أهمية مسحة فحص GBS قبل الولادة",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "فحص GBS",
+    "why": "A mandatory third-trimester swab mentioned in hospital preparation; readers frequently search the acronym to understand the test."
+  },
+  {
+    "title": "معنى المشيمة المنزاحة ودرجاتها",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "المشيمة المنزاحة",
+    "why": "A common ultrasound diagnosis in mid-pregnancy that requires a dedicated entry to explain positioning and activity restrictions."
+  },
+  {
+    "title": "عملية شق العجان أثناء الولادة الطبيعية",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "شق العجان",
+    "why": "Appears in postpartum-recovery and vaginal-birth articles; a specific clinical procedure needing a standalone, medically accurate definition."
+  },
+  {
+    "title": "أسباب عملية تطويق عنق الرحم",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 1,
+    "search_term": "تطويق عنق الرحم",
+    "why": "A clinical intervention for cervical incompetence often mentioned in early ultrasound results, requiring clear decoding."
+  },
+  {
+    "title": "دواعي أخذ إبرة الرئة للحامل",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 2,
+    "search_term": "إبرة الرئة",
+    "why": "A heavily searched medical intervention for preterm labor risk in the region; necessary for Nawah's clinical glossary."
+  },
+  {
+    "title": "فوائد حليب اللبأ للمولود",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 2,
+    "search_term": "حليب اللبأ",
+    "why": "Essential postpartum term defining the first milk; highly searched and foundational for upcoming infant feeding content."
+  },
+  {
+    "title": "أسباب كلف الحمل وطرق التعامل معه",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 2,
+    "search_term": "كلف الحمل",
+    "why": "A frequent dermatological term used across symptom trackers, driving high search volume for safe management."
+  },
+  {
+    "title": "خطوات الطلق الصناعي لتحفيز الولادة",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 2,
+    "search_term": "الطلق الصناعي",
+    "why": "A clinical induction procedure often offered to overdue mothers, generating massive search intent before hospital admission."
+  },
+  {
+    "title": "خروج العقي أو البراز الأول للمولود",
+    "cluster": "قاموس المصطلحات الطبية",
+    "tier": 2,
+    "search_term": "العقي",
+    "why": "A pediatric clinical term (meconium) often causing panic in the delivery room or early days, perfect for glossary decoding."
+  }
+]

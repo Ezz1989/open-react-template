@@ -1,0 +1,66 @@
+[
+  {
+    "title": "التونة آمنة للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "التونة للحامل",
+    "why": "A specific named food with valid medical restrictions regarding mercury levels, making it a highly searched safety query."
+  },
+  {
+    "title": "الكبدة آمنة للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "الكبدة للحامل",
+    "why": "A specific named food carrying real medical warnings about Vitamin A toxicity, driving high-intent safety searches."
+  },
+  {
+    "title": "الأناناس آمن للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "الأناناس للحامل",
+    "why": "A specific named food surrounded by widespread cultural myths about causing miscarriage, leading to frequent safety questions."
+  },
+  {
+    "title": "القرفة آمنة للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "القرفة للحامل",
+    "why": "A specific named spice heavily associated with uterine contractions in Arab culture, prompting direct safety searches."
+  },
+  {
+    "title": "التمر آمن للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "التمر للحامل",
+    "why": "A specific named food deeply rooted in Arab culture regarding labor induction, causing confusion about its safety in early pregnancy."
+  },
+  {
+    "title": "الفسيخ آمن للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "الفسيخ للحامل",
+    "why": "A specific named cultural food in Egypt with severe biological risks (botulism/listeria), representing a critical, high-intent safety search."
+  },
+  {
+    "title": "المايونيز آمن للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "المايونيز للحامل",
+    "why": "A specific named condiment carrying real risks if made with raw eggs (salmonella), frequently searched during routine meals."
+  },
+  {
+    "title": "الرنجة آمنة للحامل؟",
+    "cluster": "آمنة للحامل؟ — أطعمة",
+    "split_label": "أطعمة",
+    "tier": 1,
+    "search_term": "الرنجة للحامل",
+    "why": "A specific named smoked fish popular in Egypt, prompting direct searches about listeria and high sodium risks during pregnancy."
+  }
+]

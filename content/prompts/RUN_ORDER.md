@@ -1,27 +1,47 @@
-# Gemini run order — generated 2026-10-05
+# Gemini run order — regenerated 2026-10-06
 
-For each file: open it → copy everything → paste into Gemini → copy the JSON
-Gemini returns → save it as a new `.json` file in `content/articles/`
-(any name). Then tell Claude "articles ready" — Claude runs
-`node scripts/articles/ingest.mjs`, checks every source, and publishes.
+Same steps for every file: open it → copy everything → paste into Gemini (normal mode) →
+download the JSON into Downloads → tell Claude "articles ready". Claude ingests, checks, publishes.
+If Gemini's reply gets cut off, ask it for the rest in "Part 1 / Part 2" code blocks.
 
-| # | File | Gemini mode | Save to |
-|---|---|---|---|
-| 1 | `article_birth_cost_تكلفة-الولادة-في-مصر.txt` | **Deep Research ON** | `content/articles/` |
-| 2 | `article_birth_cost_تكلفة-الولادة-في-السعودية.txt` | **Deep Research ON** | `content/articles/` |
-| 3 | `article_newborn_admin_تسجيل-المولود-في-مصر.txt` | **Deep Research ON** | `content/articles/` |
-| 4 | `article_newborn_admin_تسجيل-المولود-في-السعودية.txt` | **Deep Research ON** | `content/articles/` |
-| 5 | `article_aqiqah_العقيقة-والتحنيك.txt` | normal | `content/articles/` |
-| 6 | `topics_food_safety.txt` | normal | `content/topics/food_safety.json` |
-| 7 | `topics_mother_expansion.txt` | normal | `content/topics/mother_expansion.json` |
-| 8 | `topics_father_expansion.txt` | normal | `content/topics/father_expansion.json` |
+**22 prompts.** Do them in any order.
 
-Rows 6–8 return a topic LIST, not an article. After saving, Claude runs
-`make_gemini_prompt.js batch <cluster>` to turn each topic with real search
-demand into its own article prompt.
+## Food safety (medical — 1 real source each)
 
-**Skip:** `topics_glossary.txt` — the glossary needs a hub page type that isn't
-built yet. `done/` holds the prompts of articles already live; ignore it.
+| # | File |
+|---|---|
+| 1 | `article_food_safety_الأناناس-آمن-للحامل؟.txt` |
+| 2 | `article_food_safety_التمر-آمن-للحامل؟.txt` |
+| 3 | `article_food_safety_التونة-آمنة-للحامل؟.txt` |
+| 4 | `article_food_safety_الرنجة-آمنة-للحامل؟.txt` |
+| 5 | `article_food_safety_الفسيخ-آمن-للحامل؟.txt` |
+| 6 | `article_food_safety_القرفة-آمنة-للحامل؟.txt` |
+| 7 | `article_food_safety_الكبدة-آمنة-للحامل؟.txt` |
+| 8 | `article_food_safety_المايونيز-آمن-للحامل؟.txt` |
 
-Sourcing rule (user, 2026-10-05): only medical claims need a source, any real
-source is fine, one main source per article. Already inside every prompt.
+## Mother's guide
+
+| # | File |
+|---|---|
+| 9 | `article_mother_expansion_أسباب-تورم-القدمين-للحامل-وطرق-طبيعية-لت.txt` |
+| 10 | `article_mother_expansion_أسباب-حموضة-المعدة-للحامل-وطرق-تخفيفها-ب.txt` |
+| 11 | `article_mother_expansion_أفضل-وضعيات-نوم-الحامل-لتجنب-الضغط-على-ا.txt` |
+| 12 | `article_mother_expansion_أنواع-إفرازات-الحمل-الطبيعية-ومتى-يجب-اس.txt` |
+| 13 | `article_mother_expansion_أهمية-حمض-الفوليك-للحامل-والجرعة-الموصى-.txt` |
+| 14 | `article_mother_expansion_شروط-استخدام-صبغة-الشعر-للحامل-بأمان.txt` |
+| 15 | `article_mother_expansion_شروط-السفر-بالطائرة-للحامل-والأسابيع-الآ.txt` |
+| 16 | `article_mother_expansion_طرق-علاج-الإمساك-للحامل-بأمان-والوقاية-م.txt` |
+
+## Father's guide
+
+| # | File |
+|---|---|
+| 17 | `article_father_expansion_الطريقة-الصحيحة-لضمان-تجشؤ-الرضيع-بعد-ال.txt` |
+| 18 | `article_father_expansion_تقنيات-المساج-الآمنة-من-أجل-تخفيف-ألم-ظه.txt` |
+| 19 | `article_father_expansion_خطوات-تقميط-الرضيع-الصحيحة-لضمان-نوم-هاد.txt` |
+| 20 | `article_father_expansion_دليلك-العملي-لخطوات-تنظيف-سرة-الرضيع-حتى.txt` |
+| 21 | `article_father_expansion_دليلك-لإعداد-وجبات-الحامل-الصحية-والتعام.txt` |
+| 22 | `article_father_expansion_دورك-في-متابعة-جدول-تطعيمات-الرضيع-وتخفي.txt` |
+
+**Skip:** `topics_glossary.txt` and `content/topics/glossary.json` (15 terms) — the glossary needs
+a hub page type that isn't built yet. `done/` = prompts of articles already live.
