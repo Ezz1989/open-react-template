@@ -60,7 +60,7 @@ export default async function NamesHubPage({
   if (!LOCALES.includes(locale)) notFound();
 
   // Origin chips removed 2026-10-06 (user): the origin is the app's reason to
-  // download now. The /names/origin/* pages themselves still exist.
+  // download now. /names/origin/* now 308s to the hub (next.config.js).
   const all = await getAllNames();
 
   return (

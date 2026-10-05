@@ -24,7 +24,7 @@ export const content = {
       // that label for the "#names" homepage teaser anchor) — this entry
       // points at the full /names hub, a different destination, and two
       // identical labels in two different dropdowns would read as a bug.
-      namesHub: "All names",
+      namesHub: "Names guide",
       dueMonth: "Due month",
       // Added 2026-09-16: the topic-cluster articles (fasting, postpartum,
       // c-section, etc.) had a live route and zero link from anywhere on the
@@ -144,16 +144,15 @@ export const content = {
       eyebrow: "Baby names",
       headlineA: "Find the name",
       headlineB: "that feels like home.",
-      sub: "2,400 names. Arabic, Turkish, Persian, modern. Meaning, root, and script. Tap the heart — both of you, separately. The names you both chose float to the top.",
-      originChips: ["Arabic", "Turkish", "English", "Persian", "Modern"],
+      sub: "2,400 names. Meaning, root, and script. Tap the heart — both of you, separately. The names you both chose float to the top.",
       savedLabel: "You've saved:",
       seeds: [
-        { ar: "رامي", en: "Rami", meaning: "The skilled archer", origin: "Arabic", gender: "M", num: "#77" },
-        { ar: "ليلى", en: "Layla", meaning: "Night, dark beauty", origin: "Arabic", gender: "F", num: "#12" },
-        { ar: "يوسف", en: "Yousef", meaning: "God will add", origin: "Arabic", gender: "M", num: "#04" },
-        { ar: "نور", en: "Noor", meaning: "Light", origin: "Arabic", gender: "U", num: "#21" },
-        { ar: "زين", en: "Zein", meaning: "Grace, beauty", origin: "Arabic", gender: "M", num: "#55" },
-        { ar: "مريم", en: "Mariam", meaning: "Beloved, wished-for child", origin: "Arabic", gender: "F", num: "#01" },
+        { ar: "رامي", en: "Rami", meaning: "The skilled archer", gender: "M", num: "#77" },
+        { ar: "ليلى", en: "Layla", meaning: "Night, dark beauty", gender: "F", num: "#12" },
+        { ar: "يوسف", en: "Yousef", meaning: "God will add", gender: "M", num: "#04" },
+        { ar: "نور", en: "Noor", meaning: "Light", gender: "U", num: "#21" },
+        { ar: "زين", en: "Zein", meaning: "Grace, beauty", gender: "M", num: "#55" },
+        { ar: "مريم", en: "Mariam", meaning: "Beloved, wished-for child", gender: "F", num: "#01" },
       ],
     },
 
@@ -425,7 +424,7 @@ export const content = {
       fatherGuide: "دليل الأب",
       // Matches GuideChrome.tsx's own header labels for the same destinations.
       tools: "الأدوات",
-      namesHub: "كل الأسماء",
+      namesHub: "دليل الأسماء",
       dueMonth: "شهر ولادتك",
       topicArticles: "مقالات طبية",
       about: "من نحن",
@@ -539,16 +538,15 @@ export const content = {
       eyebrow: "أسماء المولود",
       headlineA: "الاسم الذي يشعر",
       headlineB: "كأنه البيت.",
-      sub: "٢٤٠٠ اسم. عربية، تركية، فارسية، حديثة. المعنى، الجذر، والخطّ. اضغطا القلب كلٌّ على حدة — الأسماء التي أحبّها الاثنان ترتفع إلى الأعلى.",
-      originChips: ["عربي", "تركي", "إنجليزي", "فارسي", "حديث"],
+      sub: "٢٤٠٠ اسم. المعنى، الجذر، والخطّ. اضغطا القلب كلٌّ على حدة — الأسماء التي أحبّها الاثنان ترتفع إلى الأعلى.",
       savedLabel: "حفظتما:",
       seeds: [
-        { ar: "رامي", en: "Rami", meaning: "الراجل الرامي بالسهام", origin: "عربي", gender: "M", num: "#77" },
-        { ar: "ليلى", en: "Layla", meaning: "الليل وجماله الداكن", origin: "عربي", gender: "F", num: "#12" },
-        { ar: "يوسف", en: "Yousef", meaning: "الله يزيد", origin: "عربي", gender: "M", num: "#04" },
-        { ar: "نور", en: "Noor", meaning: "الضياء", origin: "عربي", gender: "U", num: "#21" },
-        { ar: "زين", en: "Zein", meaning: "الحُسن والجمال", origin: "عربي", gender: "M", num: "#55" },
-        { ar: "مريم", en: "Mariam", meaning: "المحبوبة، الطفلة المُنتظَرة", origin: "عربي", gender: "F", num: "#01" },
+        { ar: "رامي", en: "Rami", meaning: "الراجل الرامي بالسهام", gender: "M", num: "#77" },
+        { ar: "ليلى", en: "Layla", meaning: "الليل وجماله الداكن", gender: "F", num: "#12" },
+        { ar: "يوسف", en: "Yousef", meaning: "الله يزيد", gender: "M", num: "#04" },
+        { ar: "نور", en: "Noor", meaning: "الضياء", gender: "U", num: "#21" },
+        { ar: "زين", en: "Zein", meaning: "الحُسن والجمال", gender: "M", num: "#55" },
+        { ar: "مريم", en: "Mariam", meaning: "المحبوبة، الطفلة المُنتظَرة", gender: "F", num: "#01" },
       ],
     },
 

@@ -39,7 +39,7 @@ export function GET() {
     `- [Every pregnancy week in months](${SITE_URL}/en/tools/weeks-months/1): one page per week, 1 to 42`,
     "",
     "## Baby names",
-    `- [Arabic, Coptic and international baby names with meanings](${SITE_URL}/en/names) · [أسماء المواليد ومعانيها](${SITE_URL}/ar/names)`,
+    `- [Baby names with meanings](${SITE_URL}/en/names) · [دليل الأسماء ومعانيها](${SITE_URL}/ar/names)`,
     "",
     "## Optional",
     `- [About Nawah](${SITE_URL}/en/about)`,

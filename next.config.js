@@ -32,6 +32,10 @@ const nextConfig = {
         destination: `https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=${p}&utm_medium=organic&utm_campaign=bio_sep26`,
         permanent: false,
       })),
+      // Origin pages removed 2026-10-06 (user: no name origin anywhere on the
+      // site except the hub's one sentence). Permanent, so Google moves their
+      // ranking onto the hub instead of dropping it.
+      { source: "/:lang(ar|en)/names/origin/:origin", destination: "/:lang/names", permanent: true },
       // The Facebook Page has no username, only a numeric id.
       {
         source: "/fb",

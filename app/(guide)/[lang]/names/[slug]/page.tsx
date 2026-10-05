@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE, type Locale } from "@/lib/constants";
 import { getAllNames, getNameBySlug, slugForName, type BabyName } from "@/lib/names-data";
-import { GENDER_LABELS, ORIGIN_LABELS, POPULAR_THRESHOLD, originSlug } from "@/lib/names-content";
+import { GENDER_LABELS, NAMES_HUB, NAMES_BOYS, NAMES_GIRLS, POPULAR_THRESHOLD } from "@/lib/names-content";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 import { NamesCta } from "@/components/names/NameGrid";
 
@@ -35,12 +35,12 @@ export async function generateMetadata({
   const meaning = locale === "ar" ? n.meaning_ar : n.meaning_en;
   const title =
     locale === "ar"
-      ? `معنى اسم ${displayName} — ${ORIGIN_LABELS[n.origin]?.ar ?? n.origin} | نواة`
-      : `${displayName} — Meaning & Origin | Nawah`;
+      ? `معنى اسم ${displayName} | نواة`
+      : `${displayName} — Name Meaning | Nawah`;
   const description =
     locale === "ar"
-      ? `معنى اسم ${displayName}: ${meaning}. اسم ${GENDER_LABELS[n.gender].ar} من أصل ${ORIGIN_LABELS[n.origin]?.ar ?? n.origin}.`
-      : `${displayName} means "${meaning}" — a ${GENDER_LABELS[n.gender].en.toLowerCase()}'s name of ${(ORIGIN_LABELS[n.origin]?.en ?? n.origin).toLowerCase()} origin.`;
+      ? `معنى اسم ${displayName}: ${meaning}. اسم ${GENDER_LABELS[n.gender].ar}.`
+      : `${displayName} means "${meaning}" — a ${GENDER_LABELS[n.gender].en.toLowerCase()}'s name.`;
 
   const path = (l: Locale) => `${SITE_URL}/${l}/names/${slug}`;
   const languages: Record<string, string> = {};
@@ -62,10 +62,13 @@ export async function generateMetadata({
   };
 }
 
-/** A few names to browse next: same origin, opposite/same gender mixed in,
- *  excluding the current one — real internal linking rather than a dead end. */
+/** The next few names of the same gender, alphabetically (wrapping) — real
+ *  internal linking rather than a dead end. No origin anywhere on the names
+ *  pages since 2026-10-06 (user): the origin is what the app adds. */
 function related(all: BabyName[], current: BabyName, count = 6): BabyName[] {
-  return all.filter((n) => n.origin === current.origin && n.id !== current.id).slice(0, count);
+  const same = all.filter((n) => n.gender === current.gender);
+  const at = same.findIndex((n) => n.id === current.id);
+  return Array.from({ length: Math.min(count, same.length - 1) }, (_, k) => same[(at + 1 + k) % same.length]);
 }
 
 export default async function NameDetailPage({
@@ -80,7 +83,7 @@ export default async function NameDetailPage({
   if (!n) notFound();
 
   const url = `${SITE_URL}/${locale}/names/${slug}`;
-  const originLabel = (ORIGIN_LABELS[n.origin] ?? { en: n.origin, ar: n.origin })[locale];
+  const list = n.gender === "male" ? { seg: "boys", title: NAMES_BOYS.title } : { seg: "girls", title: NAMES_GIRLS.title };
   const suggestions = related(all, n);
 
   const jsonLd = {
@@ -92,14 +95,14 @@ export default async function NameDetailPage({
           {
             "@type": "ListItem",
             position: 1,
-            name: locale === "ar" ? "أسماء المواليد" : "Baby names",
+            name: NAMES_HUB.title[locale],
             item: `${SITE_URL}/${locale}/names`,
           },
           {
             "@type": "ListItem",
             position: 2,
-            name: originLabel,
-            item: `${SITE_URL}/${locale}/names/origin/${originSlug(n.origin)}`,
+            name: list.title[locale],
+            item: `${SITE_URL}/${locale}/names/${list.seg}`,
           },
           { "@type": "ListItem", position: 3, name: locale === "ar" ? n.name_ar : n.name_en, item: url },
         ],
@@ -119,9 +122,7 @@ export default async function NameDetailPage({
       <main className="container t-wrap">
         <article>
           <p className="eyebrow">
-            <Link href={`/${locale}/names/origin/${originSlug(n.origin)}`}>{originLabel}</Link>
-            {" · "}
-            {GENDER_LABELS[n.gender][locale]}
+            <Link href={`/${locale}/names/${list.seg}`}>{list.title[locale]}</Link>
             {n.gcc_popularity >= POPULAR_THRESHOLD && (
               <>
                 {" · "}
@@ -145,7 +146,7 @@ export default async function NameDetailPage({
 
           {suggestions.length > 0 && (
             <section className="g-section">
-              <h2>{locale === "ar" ? `أسماء ${originLabel} أخرى` : `More ${originLabel} names`}</h2>
+              <h2>{locale === "ar" ? `${list.title.ar} أخرى` : `More ${list.title.en.toLowerCase()}`}</h2>
               <ul className="n-related">
                 {suggestions.map((s) => (
                   <li key={s.id}>
@@ -159,7 +160,7 @@ export default async function NameDetailPage({
           )}
 
           <p className="g-back">
-            <Link href={`/${locale}/names`}>{locale === "ar" ? "→ كل الأسماء" : "← All names"}</Link>
+            <Link href={`/${locale}/names`}>{locale === "ar" ? "→ دليل الأسماء" : "← Names guide"}</Link>
           </p>
         </article>
       </main>

@@ -17,7 +17,6 @@ export interface BabyName {
   name_en: string;
   meaning_ar: string;
   meaning_en: string;
-  origin: string;
   gender: "male" | "female";
   gcc_popularity: number;
 }
@@ -33,7 +32,7 @@ export interface BabyName {
 export const getAllNames = cache(async (): Promise<BabyName[]> => {
   const { data, error } = await getSupabase()
     .from("baby_names")
-    .select("id, name_ar, name_en, meaning_ar, meaning_en, origin, gender, gcc_popularity")
+    .select("id, name_ar, name_en, meaning_ar, meaning_en, gender, gcc_popularity")
     .order("name_en", { ascending: true });
   if (error) throw new Error(`baby_names fetch failed: ${error.message}`);
   return data ?? [];
@@ -48,11 +47,3 @@ export async function getNameBySlug(slug: string): Promise<BabyName | undefined>
   return all.find((n) => slugForName(n) === slug);
 }
 
-/** The 10 origins present in the table today, each spelled exactly as the
- *  `origin` column stores it — used both to build the per-origin hub routes
- *  and to slug them (lowercased, no other characters need escaping since
- *  every value here is a single ASCII word). */
-export async function getOrigins(): Promise<string[]> {
-  const all = await getAllNames();
-  return Array.from(new Set(all.map((n) => n.origin))).sort();
-}

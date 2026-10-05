@@ -6,7 +6,7 @@ import { PagedNames, type NameItem } from "./PagedNames";
 
 export { NamesCta } from "./NamesCta";
 
-/** Reused by the main hub, /boys, /girls and every /origin/[o] page. Maps the
+/** Reused by the main hub, /boys and /girls. Maps the
  *  rows to plain props on the server so the paging client component never
  *  imports `names-data` (and with it the Supabase client). */
 export function NameGrid({ names, locale }: { names: BabyName[]; locale: Locale }) {

@@ -4,8 +4,7 @@ import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
 import { publishedArticles as publishedTopicArticles } from "@/lib/articles-content";
 import { TOOLS, WEEK_PAGES } from "@/lib/tools-content";
-import { getAllNames, getOrigins, slugForName } from "@/lib/names-data";
-import { originSlug } from "@/lib/names-content";
+import { getAllNames, slugForName } from "@/lib/names-data";
 import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
 
 /**
@@ -161,7 +160,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // Baby names hub — hub + /boys + /girls + one per origin + every name.
+  // Baby names hub — hub + /boys + /girls + every name.
   // `updated` isn't tracked per-row in `baby_names` (unlike the guide's
   // `updated` field), so these get no `lastModified` rather than a fake one.
   for (const locale of LOCALES) {
@@ -181,20 +180,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  const [origins, names] = await Promise.all([getOrigins(), getAllNames()]);
-
-  for (const origin of origins) {
-    for (const locale of LOCALES) {
-      entries.push({
-        url: `${SITE_URL}/${locale}/names/origin/${originSlug(origin)}`,
-        changeFrequency: "monthly",
-        priority: 0.5,
-        alternates: {
-          languages: alt((l) => `${SITE_URL}/${l}/names/origin/${originSlug(origin)}`),
-        },
-      });
-    }
-  }
+  const names = await getAllNames();
 
   for (const n of names) {
     const slug = slugForName(n);

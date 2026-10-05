@@ -8,7 +8,8 @@ import { useMode } from "@/lib/mode-context";
 /**
  * Top navigation.
  *
- * Desktop: Home · Features (dropdown) · Guides (dropdown) · About us.
+ * Desktop: Home · Features (dropdown) · the six guide links inline · About us.
+ * (Guides was a dropdown until 2026-10-06 — user asked for its links in the bar.)
  * Journey, Nawal and Names are sub-topics of the product rather than peers of
  * it, so they live under Features.
  *
@@ -185,12 +186,9 @@ export function Navbar() {
           setOpen={(v) => setOpenMenu(v ? "features" : null)}
         />
 
-        <Dropdown
-          label={t("nav.articles") as string}
-          items={articleItems}
-          open={openMenu === "articles"}
-          setOpen={(v) => setOpenMenu(v ? "articles" : null)}
-        />
+        {articleItems.map((it) => (
+          <Link key={it.href} href={it.href}>{it.label}</Link>
+        ))}
 
         <Link href={`/${lang}/about`}>{t("nav.about") as string}</Link>
       </div>
@@ -357,13 +355,14 @@ export function Navbar() {
           display: flex; justify-content: center;
         }
 
-        @media (max-width: 860px) {
+        .nav-links-desktop { gap: 22px; white-space: nowrap; }
+        @media (max-width: 1240px) {
           .nav-links-desktop { display: none; }
           .nav-burger { display: block; }
           /* Frees the row so the wordmark stops colliding with the toggle. */
           .nav-modes { display: none; }
         }
-        @media (min-width: 861px) {
+        @media (min-width: 1241px) {
           .nav-mobile { display: none; }
         }
       `}</style>

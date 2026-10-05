@@ -7,7 +7,6 @@ interface Name {
   ar: string;
   en: string;
   meaning: string;
-  origin: string;
   gender: "M" | "F" | "U";
   num: string;
 }
@@ -15,7 +14,6 @@ interface Name {
 export function BabyNamesSection() {
   const { t, lang } = useLang();
   const names = t("names.seeds") as readonly Name[];
-  const originChips = t("names.originChips") as readonly string[];
   const savedLabel = t("names.savedLabel") as string;
   const eyebrow = t("names.eyebrow") as string;
   const headlineA = t("names.headlineA") as string;
@@ -66,13 +64,6 @@ export function BabyNamesSection() {
           <p className="muted" style={{ marginTop: 22, fontSize: 17, maxWidth: 480 }}>
             {sub}
           </p>
-          <div style={{ display: "flex", gap: 12, marginTop: 32, flexWrap: "wrap" }}>
-            {originChips.map((c) => (
-              <div key={c} className="chip" style={{ background: "var(--bg-elev)" }}>
-                {c}
-              </div>
-            ))}
-          </div>
           <p style={{ marginTop: 24 }}>
             <Link href={`/${lang}/names`} style={{ fontSize: 14, textDecoration: "underline", color: "var(--accent-strong)" }}>
               {browseAll}
@@ -165,12 +156,6 @@ export function BabyNamesSection() {
                   Meaning
                 </div>
                 <div style={{ marginTop: 6, fontSize: 17 }}>{current.meaning}</div>
-                <div
-                  className="chip"
-                  style={{ marginTop: 14, background: "var(--cream-200)" }}
-                >
-                  {current.origin}
-                </div>
               </div>
             </div>
             <div

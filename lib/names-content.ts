@@ -7,19 +7,6 @@ import type { Localized } from "./guide-content";
  * `guide-content.ts` vs. the page components already use.
  */
 
-export const ORIGIN_LABELS: Record<string, Localized> = {
-  Arabic: { en: "Arabic", ar: "عربي" },
-  Greek: { en: "Greek", ar: "يوناني" },
-  Hebrew: { en: "Hebrew", ar: "عبري" },
-  Quranic: { en: "Quranic", ar: "قرآني" },
-  Coptic: { en: "Coptic", ar: "قبطي" },
-  Persian: { en: "Persian", ar: "فارسي" },
-  Aramaic: { en: "Aramaic", ar: "آرامي" },
-  Turkish: { en: "Turkish", ar: "تركي" },
-  Berber: { en: "Berber", ar: "أمازيغي" },
-  Syriac: { en: "Syriac", ar: "سرياني" },
-};
-
 export const GENDER_LABELS: Record<"male" | "female", Localized> = {
   male: { en: "Boy", ar: "ولد" },
   female: { en: "Girl", ar: "بنت" },
@@ -30,16 +17,13 @@ export const GENDER_LABELS: Record<"male" | "female", Localized> = {
  *  never as a percentage or count that would imply a measured figure. */
 export const POPULAR_THRESHOLD = 90;
 
-export function originSlug(origin: string): string {
-  return origin.toLowerCase();
-}
-
 export const NAMES_HUB = {
   title: { en: "Baby names guide", ar: "دليل الأسماء" },
   metaTitle: { en: "Baby Names — Meanings & Origins | Nawah", ar: "أسماء مواليد ومعانيها | نواة" },
   description: {
-    en: "Browse boy and girl names with their meanings — and choose your favourite together in the Nawah app.",
-    ar: "تصفّحي أسماء الأولاد والبنات مع معانيها، واختاري المفضّل منها مع شريكك في تطبيق نواة.",
+    // User's copy, 2026-10-06 — the ONE place on the site that names origins.
+    en: "A name isn't just letters spoken aloud — it's the first gift that stays with your child for life, and the title of a story not yet written. A curated collection of Arabic, Quranic, Coptic, Greek, Hebrew, Persian, Aramaic, Turkish, Berber and Syriac names.",
+    ar: "الاسم ليس مجرد حروف تُنطق، بل هو أول هديةٍ ترافق طفلك مدى الحياة، وعنوانٌ لقصةٍ لم تُكتب بعد. مجموعة مختارة من الأسماء العربية والقرآنية والقبطية واليونانية والعبرية والفارسية والآرامية والتركية والأمازيغية والسريانية.",
   },
 } as const;
 
@@ -91,18 +75,3 @@ export const NAMES_GIRLS = {
     ar: "أسماء بنات مع معانيها — دليلك لاختيار اسم طفلتك.",
   },
 } as const;
-
-export function originHubMeta(origin: string): { title: Localized; metaTitle: Localized; description: Localized } {
-  const label = ORIGIN_LABELS[origin] ?? { en: origin, ar: origin };
-  return {
-    title: { en: `${label.en} names`, ar: `أسماء ${label.ar}` },
-    metaTitle: {
-      en: `${label.en} Baby Names — Meanings | Nawah`,
-      ar: `أسماء ${label.ar} للمواليد ومعانيها | نواة`,
-    },
-    description: {
-      en: `Boy and girl names of ${label.en.toLowerCase()} origin, with their meanings.`,
-      ar: `أسماء أولاد وبنات من أصل ${label.ar}، مع معانيها.`,
-    },
-  };
-}
