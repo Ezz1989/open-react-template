@@ -24,6 +24,14 @@ const nextConfig = {
           "https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=nawahapp.net&utm_medium=shortlink&utm_campaign=play&utm_source_platform=web",
         permanent: false,
       },
+      // Bio links, one per platform so Play's UTM report can tell them apart
+      // (utm_medium=organic keeps them apart from the paid links). 307 for the
+      // same reason as /play: these become device-aware when iOS is live.
+      ...["tiktok", "instagram", "facebook"].map((p) => ({
+        source: `/${p}`,
+        destination: `https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=${p}&utm_medium=organic&utm_campaign=bio_sep26`,
+        permanent: false,
+      })),
       // The Facebook Page has no username, only a numeric id.
       {
         source: "/fb",
