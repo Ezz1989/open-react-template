@@ -30,6 +30,7 @@ export const content = {
       // c-section, etc.) had a live route and zero link from anywhere on the
       // site — same gap `tools` fixed above, for the other hub.
       topicArticles: "Health articles",
+      glossary: "Glossary",
       about: "About us",
       mother: "Mother",
       father: "Father",
@@ -427,6 +428,7 @@ export const content = {
       namesHub: "دليل الأسماء",
       dueMonth: "شهر ولادتك",
       topicArticles: "مقالات طبية",
+      glossary: "قاموس الحمل",
       about: "من نحن",
       mother: "الأم",
       father: "الأب",

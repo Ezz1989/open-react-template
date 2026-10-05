@@ -163,6 +163,8 @@ export function Navbar() {
     // Added 2026-09-16 alongside app/(guide)/[lang]/articles/page.tsx — see
     // that file's comment: the route existed with zero link from the site.
     { label: t("nav.topicArticles") as string, href: `/${lang}/articles`, route: true },
+    // Glossary tab next to the health articles (user, 2026-10-06).
+    { label: t("nav.glossary") as string, href: `/${lang}/glossary`, route: true },
   ];
 
   return (
@@ -355,14 +357,14 @@ export function Navbar() {
           display: flex; justify-content: center;
         }
 
-        .nav-links-desktop { gap: 22px; white-space: nowrap; }
-        @media (max-width: 1240px) {
+        .nav-links-desktop { gap: 18px; white-space: nowrap; }
+        @media (max-width: 1340px) {
           .nav-links-desktop { display: none; }
           .nav-burger { display: block; }
           /* Frees the row so the wordmark stops colliding with the toggle. */
           .nav-modes { display: none; }
         }
-        @media (min-width: 1241px) {
+        @media (min-width: 1341px) {
           .nav-mobile { display: none; }
         }
       `}</style>

@@ -117,7 +117,7 @@ export default async function GlossaryTermPage({ params }: { params: Promise<{ l
         .q-more a { color: var(--accent-strong); text-decoration: underline; text-underline-offset: 4px; }
         .q-cta { margin-top: 36px; padding: clamp(22px, 4vw, 34px); border-radius: var(--radius-md); background: var(--chip-bg); }
         .q-cta p { margin: 0 0 16px; font-size: 17px; line-height: 1.7; }
-        .q-sources { margin-top: 40px; }
+        .q-sources { margin-top: 40px; padding: 0; }
         .q-sources h2 { font-size: 18px; font-weight: 500; margin-bottom: 10px; }
         .q-sources ol { padding-inline-start: 20px; list-style: decimal; }
         .q-sources li { font-size: 14px; line-height: 1.6; margin-bottom: 10px; }

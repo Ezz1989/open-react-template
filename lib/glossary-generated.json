@@ -1,1 +1,557 @@
-[]
+[
+  {
+    "slug": "preeclampsia",
+    "term": {
+      "ar": "تسمم الحمل",
+      "en": "Preeclampsia"
+    },
+    "aka": {
+      "ar": "ارتفاع ضغط الدم الحملي",
+      "en": "Pregnancy-induced hypertension"
+    },
+    "definition": {
+      "ar": "حالة طبية خطيرة ترتبط بارتفاع ضغط الدم وظهور بروتين في البول أثناء الحمل.",
+      "en": "A serious medical condition associated with high blood pressure and protein in the urine during pregnancy."
+    },
+    "when": {
+      "ar": "بعد الأسبوع ٢٠ من الحمل",
+      "en": "After week 20 of pregnancy"
+    },
+    "body": [
+      {
+        "ar": "يؤثر تسمم الحمل على الأوعية الدموية وقد يقلل من تدفق الدم إلى المشيمة، مما يؤثر على تغذية طفلكِ ونموه. يمكن أن يؤثر أيضاً على وظائف الكبد والكلى لديكِ.",
+        "en": "Preeclampsia affects blood vessels and can reduce blood flow to the placenta, impacting your baby's nutrition and growth. It can also affect your liver and kidney functions."
+      },
+      {
+        "ar": "تشمل الأعراض الشائعة الصداع الشديد، وتغيرات في الرؤية، وتورماً مفاجئاً في الوجه واليدين. إذا شعرتِ بأي من هذه الأعراض، يجب عليكِ الاتصال بطبيبكِ فوراً.",
+        "en": "Common symptoms include severe headaches, vision changes, and sudden swelling in the face and hands. If you experience any of these symptoms, you must contact your doctor immediately."
+      }
+    ],
+    "link": "/guide/8",
+    "citations": [
+      {
+        "org": "NHS",
+        "title": "Pre-eclampsia",
+        "url": "https://www.nhs.uk/conditions/pre-eclampsia/"
+      }
+    ]
+  },
+  {
+    "slug": "false-labor",
+    "term": {
+      "ar": "الطلق الكاذب",
+      "en": "False labor"
+    },
+    "aka": {
+      "ar": "انقباضات براكستون هيكس",
+      "en": "Braxton Hicks contractions"
+    },
+    "definition": {
+      "ar": "انقباضات رحمية غير منتظمة تهيئ جسمكِ للولادة الحقيقية دون أن تؤدي إلى فتح عنق الرحم.",
+      "en": "Irregular uterine contractions that prepare your body for real labor without causing the cervix to dilate."
+    },
+    "when": {
+      "ar": "الثلث الثالث من الحمل",
+      "en": "Third trimester"
+    },
+    "body": [
+      {
+        "ar": "تشعرين بها كشد في بطنكِ يأتي ويذهب بشكل غير متوقع. على عكس الطلق الحقيقي، لا تزداد هذه الانقباضات في قوتها ولا تتقارب في توقيتها مع مرور الوقت.",
+        "en": "You feel them as a tightening in your belly that comes and goes unpredictably. Unlike true labor, these contractions do not get stronger or closer together over time."
+      },
+      {
+        "ar": "شرب الماء، أو أخذ قسط من الراحة، أو تغيير وضعيتكِ يساعد عادةً في إيقافها. إذا أصبحت الانقباضات منتظمة ومؤلمة، فقد تكونين في حالة ولادة فعلية.",
+        "en": "Drinking water, getting some rest, or changing your position usually helps stop them. If the contractions become regular and painful, you may be in actual labor."
+      }
+    ],
+    "link": "/tools/contraction-timer",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Braxton Hicks Contractions",
+        "url": "https://my.clevelandclinic.org/health/symptoms/22965-braxton-hicks"
+      }
+    ]
+  },
+  {
+    "slug": "mucus-plug",
+    "term": {
+      "ar": "السدادة المخاطية",
+      "en": "Mucus plug"
+    },
+    "aka": {
+      "ar": "سدادة عنق الرحم",
+      "en": "Cervical plug"
+    },
+    "definition": {
+      "ar": "تجمع كثيف من المخاط يغلق قناة عنق الرحم طوال فترة الحمل لحماية طفلكِ من البكتيريا.",
+      "en": "A thick collection of mucus that seals the cervical canal throughout pregnancy to protect your baby from bacteria."
+    },
+    "when": {
+      "ar": "بين الأسبوعين ٣٧ و ٤٠",
+      "en": "Between weeks 37 and 40"
+    },
+    "body": [
+      {
+        "ar": "مع بدء ترقق عنق الرحم واتساعه استعداداً للولادة، تنزل هذه السدادة. قد تخرج دفعة واحدة أو تدريجياً على مدار أيام، وتكون على شكل إفرازات هلامية كثيفة قد تتوشح بلون بني أو وردي.",
+        "en": "As your cervix begins to thin and dilate in preparation for labor, this plug is discharged. It may come out all at once or gradually over days, appearing as a thick jelly-like discharge that might be tinged with brown or pink."
+      },
+      {
+        "ar": "نزول السدادة علامة على أن جسمكِ يستعد للولادة، ولكن المخاض الفعلي قد يستغرق أياماً أو حتى أسابيع ليبدأ.",
+        "en": "Losing the plug is a sign that your body is getting ready for childbirth, but actual labor could still take days or even weeks to begin."
+      }
+    ],
+    "link": "/father/labour-signs",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Mucus Plug",
+        "url": "https://my.clevelandclinic.org/health/symptoms/21606-mucus-plug"
+      }
+    ]
+  },
+  {
+    "slug": "amniotic-fluid",
+    "term": {
+      "ar": "السائل الأمينوسي",
+      "en": "Amniotic fluid"
+    },
+    "aka": {
+      "ar": "ماء الجنين",
+      "en": "Water (amniotic sac)"
+    },
+    "definition": {
+      "ar": "السائل الصافي المائل للصفرة الذي يحيط بطفلكِ ويحميه داخل الرحم.",
+      "en": "The clear, slightly yellowish liquid that surrounds and protects your baby inside the womb."
+    },
+    "when": {
+      "ar": "طوال فترة الحمل",
+      "en": "Throughout pregnancy"
+    },
+    "body": [
+      {
+        "ar": "يعمل هذا السائل كوسادة تحمي طفلكِ من الصدمات، ويساعد في الحفاظ على درجة حرارة ثابتة. كما أنه ضروري لتطور رئتي طفلكِ وجهازه الهضمي حيث يقوم بابتلاعه والتنفس فيه.",
+        "en": "This fluid acts as a cushion protecting your baby from bumps, and helps maintain a constant temperature. It is also essential for the development of your baby's lungs and digestive system as they swallow and breathe it in."
+      },
+      {
+        "ar": "يتم قياس كمية السائل أثناء فحوصات الموجات فوق الصوتية، حيث أن نقص أو زيادة السائل قد يشير إلى مضاعفات. عندما ينزل \"ماء الرأس\" استعداداً للولادة، فهذا هو السائل الذي يتدفق.",
+        "en": "The amount of fluid is measured during ultrasound scans, as too little or too much fluid can indicate complications. When your \"water breaks\" in preparation for labor, this is the fluid that leaks out."
+      }
+    ],
+    "link": "/guide/9",
+    "citations": [
+      {
+        "org": "MedlinePlus",
+        "title": "Amniotic fluid",
+        "url": "https://medlineplus.gov/ency/article/002220.htm"
+      }
+    ]
+  },
+  {
+    "slug": "nipt-test",
+    "term": {
+      "ar": "فحص NIPT",
+      "en": "NIPT test"
+    },
+    "aka": {
+      "ar": "فحص الحمض النووي الجنيني",
+      "en": "Non-Invasive Prenatal Testing"
+    },
+    "definition": {
+      "ar": "فحص دم آمن يُجري للأم للبحث عن الحمض النووي للجنين وتحليل احتمالية وجود حالات وراثية معينة.",
+      "en": "A safe blood test given to the mother to screen for fetal DNA and analyze the likelihood of certain genetic conditions."
+    },
+    "when": {
+      "ar": "ابتداءً من الأسبوع ١٠",
+      "en": "Starting from week 10"
+    },
+    "body": [
+      {
+        "ar": "يُعد هذا الفحص دقيقاً للغاية في تقدير مخاطر الإصابة بالمتلازمات الكروموسومية مثل متلازمة داون. لا يشكل الفحص أي خطر جسدي عليكِ أو على طفلكِ لأنه يتطلب سحب عينة دم عادية من ذراعكِ فقط.",
+        "en": "This test is highly accurate in estimating the risks of chromosomal syndromes like Down syndrome. The test poses no physical risk to you or your baby because it only requires a standard blood draw from your arm."
+      },
+      {
+        "ar": "يمكن لهذا الفحص أيضاً تحديد جنس طفلكِ في مرحلة مبكرة جداً من الحمل إذا اخترتِ معرفة ذلك.",
+        "en": "This test can also determine your baby's sex at a very early stage of pregnancy if you choose to know."
+      }
+    ],
+    "link": "/guide/3",
+    "citations": [
+      {
+        "org": "MedlinePlus",
+        "title": "Noninvasive prenatal testing (NIPT)",
+        "url": "https://medlineplus.gov/genetics/understanding/testing/nipt/"
+      }
+    ]
+  },
+  {
+    "slug": "gestational-diabetes",
+    "term": {
+      "ar": "سكر الحمل",
+      "en": "Gestational diabetes"
+    },
+    "aka": {
+      "ar": "",
+      "en": ""
+    },
+    "definition": {
+      "ar": "نوع من مرض السكري يظهر فقط أثناء فترة الحمل ويؤدي إلى ارتفاع مستويات السكر في الدم.",
+      "en": "A type of diabetes that develops only during pregnancy and leads to high blood sugar levels."
+    },
+    "when": {
+      "ar": "بين الأسبوعين ٢٤ و ٢٨",
+      "en": "Between weeks 24 and 28"
+    },
+    "body": [
+      {
+        "ar": "بسبب التغيرات الهرمونية، يصبح جسمكِ أقل قدرة على استخدام الإنسولين بفعالية. إذا لم يتم التحكم في السكر، فقد ينمو طفلكِ بحجم أكبر من المعتاد، مما قد يعقد عملية الولادة.",
+        "en": "Due to hormonal changes, your body becomes less effective at using insulin. If blood sugar is not controlled, your baby might grow larger than usual, which can complicate delivery."
+      },
+      {
+        "ar": "تتم إدارة سكر الحمل عادةً باتباع نظام غذائي صحي وممارسة الرياضة بانتظام، وقد تحتاج بعض الأمهات إلى الأدوية. في معظم الحالات، تعود مستويات السكر إلى طبيعتها بعد الولادة.",
+        "en": "Gestational diabetes is usually managed by following a healthy diet and exercising regularly, and some mothers may need medication. In most cases, blood sugar levels return to normal after birth."
+      }
+    ],
+    "link": "/guide/6",
+    "citations": [
+      {
+        "org": "NHS",
+        "title": "Gestational diabetes",
+        "url": "https://www.nhs.uk/conditions/gestational-diabetes/"
+      }
+    ]
+  },
+  {
+    "slug": "gbs-screening",
+    "term": {
+      "ar": "فحص GBS",
+      "en": "GBS screening"
+    },
+    "aka": {
+      "ar": "مسحة البكتيريا العقدية ب",
+      "en": "Group B Strep test"
+    },
+    "definition": {
+      "ar": "مسحة روتينية للكشف عن نوع شائع من البكتيريا غير الضارة لكِ، ولكنها قد تنتقل إلى طفلكِ أثناء الولادة.",
+      "en": "A routine swab to check for a common type of bacteria that is harmless to you but can be passed to your baby during birth."
+    },
+    "when": {
+      "ar": "عادةً بين الأسبوعين ٣٦ و ٣٨",
+      "en": "Usually between weeks 36 and 38"
+    },
+    "body": [
+      {
+        "ar": "تحمل الكثير من النساء السليمات هذه البكتيريا بشكل طبيعي دون أي أعراض. الفحص عبارة عن مسحة سريعة وغير مؤلمة لعنق الرحم والمستقيم.",
+        "en": "Many healthy women naturally carry this bacteria without any symptoms. The screening is a quick, painless swab of the vagina and rectum."
+      },
+      {
+        "ar": "إذا كانت النتيجة إيجابية، سيُعطى لكِ مضاد حيوي عن طريق الوريد أثناء المخاض لحماية طفلكِ من الإصابة بعدوى خطيرة.",
+        "en": "If the result is positive, you will be given intravenous antibiotics during labor to protect your baby from contracting a serious infection."
+      }
+    ],
+    "link": "/guide/9",
+    "citations": [
+      {
+        "org": "MedlinePlus",
+        "title": "Strep B Test",
+        "url": "https://medlineplus.gov/lab-tests/strep-b-test/"
+      }
+    ]
+  },
+  {
+    "slug": "placenta-previa",
+    "term": {
+      "ar": "المشيمة المنزاحة",
+      "en": "Placenta previa"
+    },
+    "aka": {
+      "ar": "المشيمة الساقطة",
+      "en": "Low-lying placenta"
+    },
+    "definition": {
+      "ar": "حالة تنغرس فيها المشيمة في الجزء السفلي من الرحم لتغطي عنق الرحم جزئياً أو كلياً.",
+      "en": "A condition in which the placenta implants in the lower part of the uterus, partially or completely covering the cervix."
+    },
+    "when": {
+      "ar": "الثلث الثاني (حوالي الأسبوع ٢٠)",
+      "en": "Second trimester (around week 20)"
+    },
+    "body": [
+      {
+        "ar": "في كثير من الأحيان، ترتفع المشيمة لأعلى مع نمو الرحم خلال الحمل. ولكن إذا ظلت تغطي عنق الرحم حتى نهاية الحمل، فقد تسبب نزيفاً حاداً، وستحتاجين إلى ولادة قيصرية آمنة.",
+        "en": "Often, the placenta moves upwards as the uterus grows during pregnancy. However, if it continues to cover the cervix until the end of pregnancy, it can cause severe bleeding, and you will need a safe cesarean delivery."
+      },
+      {
+        "ar": "إذا واجهتِ نزيفاً مهبلياً غير مصحوب بألم في النصف الثاني من حملكِ، يجب عليكِ مراجعة طبيبكِ فوراً.",
+        "en": "If you experience painless vaginal bleeding in the second half of your pregnancy, you must see your doctor immediately."
+      }
+    ],
+    "link": "/father/scan-20-weeks",
+    "citations": [
+      {
+        "org": "Mayo Clinic",
+        "title": "Placenta previa",
+        "url": "https://www.mayoclinic.org/diseases-conditions/placenta-previa/symptoms-causes/syc-20352768"
+      }
+    ]
+  },
+  {
+    "slug": "episiotomy",
+    "term": {
+      "ar": "شق العجان",
+      "en": "Episiotomy"
+    },
+    "aka": {
+      "ar": "قص العجان",
+      "en": "Perineotomy"
+    },
+    "definition": {
+      "ar": "شق جراحي صغير في المنطقة الواقعة بين المهبل والشرج لتوسيع فتحة المهبل أثناء الولادة.",
+      "en": "A small surgical incision made in the area between the vagina and the anus to enlarge the vaginal opening during birth."
+    },
+    "when": {
+      "ar": "أثناء الولادة الطبيعية",
+      "en": "During vaginal delivery"
+    },
+    "body": [
+      {
+        "ar": "لم يعد هذا الإجراء يجرى بشكل روتيني، ولكنه قد يُوصى به إذا كان طفلكِ يحتاج إلى الولادة بسرعة، أو لتجنب تمزق طبيعي حاد. يتم تخدير المنطقة قبل الشق، وتُخاط عادةً خلال ساعة من الولادة.",
+        "en": "This procedure is no longer done routinely, but it may be recommended if your baby needs to be delivered quickly, or to avoid a severe natural tear. The area is numbed before the incision and usually stitched within an hour of the birth."
+      },
+      {
+        "ar": "تلتئم الغرز عادةً خلال شهر من الولادة. اشطفي المنطقة بالماء الدافئ بعد استخدام الحمام للوقاية من العدوى، واستشيري طبيبكِ إذا استمر الألم أكثر من أسبوعين إلى ثلاثة.",
+        "en": "The stitches usually heal within a month of the birth. Rinse the area with warm water after using the toilet to prevent infection, and see your doctor if the pain lasts more than 2 to 3 weeks."
+      }
+    ],
+    "link": "/articles/postpartum/postpartum-recovery",
+    "citations": [
+      {
+        "org": "NHS",
+        "title": "Episiotomy",
+        "url": "https://www.nhs.uk/conditions/pregnancy-and-baby/episiotomy/"
+      }
+    ]
+  },
+  {
+    "slug": "cervical-cerclage",
+    "term": {
+      "ar": "تطويق عنق الرحم",
+      "en": "Cervical cerclage"
+    },
+    "aka": {
+      "ar": "ربط عنق الرحم",
+      "en": "Cervical stitch"
+    },
+    "definition": {
+      "ar": "إجراء جراحي يتم فيه وضع غرز في عنق الرحم لإبقائه مغلقاً ومنع الولادة المبكرة.",
+      "en": "A surgical procedure in which stitches are placed in the cervix to keep it closed and prevent premature birth."
+    },
+    "when": {
+      "ar": "عادةً بين الأسبوعين ١٢ و ٢٠",
+      "en": "Usually between weeks 12 and 20"
+    },
+    "body": [
+      {
+        "ar": "يُنصح بهذا الإجراء إذا كان عنق الرحم لديكِ ضعيفاً ويبدأ في الانفتاح مبكراً دون وجود انقباضات. الغرز توفر الدعم اللازم لتحمل وزن طفلكِ الذي ينمو باستمرار.",
+        "en": "This procedure is recommended if your cervix is weak and begins to open early without contractions. The stitches provide the necessary support to bear the weight of your growing baby."
+      },
+      {
+        "ar": "تُزال هذه الغرز عادةً في العيادة بين الأسبوعين ٣٦ و ٣٨ من الحمل، مما يسمح لكِ بالمرور بمرحلة مخاض وولادة طبيعية وآمنة.",
+        "en": "These stitches are usually removed in the clinic between weeks 36 and 38 of pregnancy, allowing you to proceed with a natural and safe labor and delivery."
+      }
+    ],
+    "link": "/guide/4",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Cervical Cerclage",
+        "url": "https://my.clevelandclinic.org/health/treatments/17970-cervical-cerclage"
+      }
+    ]
+  },
+  {
+    "slug": "fetal-lung-maturity-steroids",
+    "term": {
+      "ar": "إبرة الرئة",
+      "en": "Fetal lung maturity steroids"
+    },
+    "aka": {
+      "ar": "الكورتيزون للحامل",
+      "en": "Antenatal corticosteroids"
+    },
+    "definition": {
+      "ar": "حقن ستيرويدية تُعطى للأم لتسريع اكتمال نمو رئتي الجنين عند توقع ولادة مبكرة.",
+      "en": "Steroid injections given to the mother to accelerate the development of the fetal lungs when premature birth is expected."
+    },
+    "when": {
+      "ar": "عادةً بين الأسبوعين ٢٤ و ٣٤",
+      "en": "Usually between weeks 24 and 34"
+    },
+    "body": [
+      {
+        "ar": "تقلل هذه الحقن بشكل كبير من خطر إصابة طفلكِ بصعوبات في التنفس، ومشاكل الأمعاء، والنزيف الداخلي إذا ولد قبل أوانه.",
+        "en": "These injections significantly reduce the risk of your baby developing breathing difficulties, bowel problems, and internal bleeding if born prematurely."
+      },
+      {
+        "ar": "تكون الفائدة أكبر عندما تُعطى الجرعة الأخيرة قبل الولادة بما بين ٢٤ ساعة وأسبوع. إنه إجراء وقائي حيوي يُنقذ حياة الأطفال الخدج ويمنحهم بداية أفضل بعد الولادة.",
+        "en": "They work best when the last dose is given between 24 hours and one week before the birth. It is a vital preventive measure that saves the lives of premature babies and gives them a better start after birth."
+      }
+    ],
+    "link": "/guide/7",
+    "citations": [
+      {
+        "org": "Healthify (Health Navigator NZ)",
+        "title": "Steroids for preterm birth",
+        "url": "https://healthify.nz/medicines-a-z/s/steroids-for-preterm-birth"
+      }
+    ]
+  },
+  {
+    "slug": "colostrum",
+    "term": {
+      "ar": "حليب اللبأ",
+      "en": "Colostrum"
+    },
+    "aka": {
+      "ar": "الصمغة",
+      "en": "First milk"
+    },
+    "definition": {
+      "ar": "الحليب الأول الغني بالمواد المغذية الذي ينتجه ثدياكِ في أواخر الحمل والأيام الأولى بعد الولادة.",
+      "en": "The first nutrient-rich milk produced by your breasts in late pregnancy and the first few days after birth."
+    },
+    "when": {
+      "ar": "الأيام الأولى بعد الولادة",
+      "en": "First days after birth"
+    },
+    "body": [
+      {
+        "ar": "يكون هذا الحليب كثيفاً ومائلاً للصفرة، وهو مليء بالأجسام المضادة التي تعمل كأول لقاح طبيعي لطفلكِ. ورغم أن كميته قليلة، إلا أنها تتناسب تماماً مع حجم معدة طفلكِ حديث الولادة.",
+        "en": "This milk is thick and yellowish, and is packed with antibodies that act as your baby's first natural vaccine. Although the quantity is small, it perfectly matches the size of your newborn's stomach."
+      },
+      {
+        "ar": "يساعد اللبأ طفلكِ في التخلص من البراز الأول (العقي)، مما يقلل من خطر الإصابة بالصفراء قبل أن يتدفق الحليب الناضج.",
+        "en": "Colostrum helps your baby pass their first stool (meconium), which reduces the risk of jaundice before your mature milk comes in."
+      }
+    ],
+    "link": "/articles/postpartum/postpartum-recovery",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Colostrum",
+        "url": "https://my.clevelandclinic.org/health/body/22434-colostrum"
+      }
+    ]
+  },
+  {
+    "slug": "melasma",
+    "term": {
+      "ar": "كلف الحمل",
+      "en": "Melasma"
+    },
+    "aka": {
+      "ar": "قناع الحمل",
+      "en": "Mask of pregnancy"
+    },
+    "definition": {
+      "ar": "بقع داكنة تظهر على البشرة، خاصة الوجه، بسبب التغيرات الهرمونية أثناء فترة الحمل.",
+      "en": "Dark patches that appear on the skin, especially the face, due to hormonal changes during pregnancy."
+    },
+    "when": {
+      "ar": "الثلث الثاني والثالث",
+      "en": "Second and third trimesters"
+    },
+    "body": [
+      {
+        "ar": "يؤدي ارتفاع هرمونات الاستروجين والبروجسترون إلى تحفيز إنتاج الميلانين الزائد في بشرتكِ. التعرض لأشعة الشمس يجعل هذه البقع أكثر وضوحاً، لذا من الضروري استخدام واقي شمس يومياً.",
+        "en": "The rise in estrogen and progesterone hormones stimulates excess melanin production in your skin. Sun exposure makes these patches more noticeable, so it is essential to use sunscreen daily."
+      },
+      {
+        "ar": "لا تقلقي، ففي معظم الحالات يتلاشى هذا الكلف تدريجياً من تلقاء نفسه خلال الأشهر القليلة التي تلي الولادة.",
+        "en": "Don't worry, in most cases, this melasma gradually fades on its own within the few months following birth."
+      }
+    ],
+    "link": "/guide/5",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Melasma",
+        "url": "https://my.clevelandclinic.org/health/diseases/21454-melasma"
+      }
+    ]
+  },
+  {
+    "slug": "labor-induction",
+    "term": {
+      "ar": "الطلق الصناعي",
+      "en": "Labor induction"
+    },
+    "aka": {
+      "ar": "تحفيز الولادة",
+      "en": "Inducing labor"
+    },
+    "definition": {
+      "ar": "استخدام أدوية أو تقنيات طبية لتحفيز انقباضات الرحم وبدء المخاض قبل أن يبدأ تلقائياً.",
+      "en": "The use of medications or medical techniques to stimulate uterine contractions and start labor before it begins spontaneously."
+    },
+    "when": {
+      "ar": "الأسبوع ٤٠ أو بعده",
+      "en": "Week 40 or later"
+    },
+    "body": [
+      {
+        "ar": "قد يقترح طبيبكِ الطلق الصناعي إذا تأخر موعد ولادتكِ، أو إذا نزل ماء الرأس دون بدء الانقباضات، أو لوجود مخاطر صحية عليكِ أو على طفلكِ كارتفاع ضغط الدم.",
+        "en": "Your doctor may suggest inducing labor if your due date has passed, if your water breaks without contractions starting, or if there is a health risk to you or your baby such as high blood pressure."
+      },
+      {
+        "ar": "تشمل الطرق المستخدمة تليين عنق الرحم أو إعطاء أدوية وريدية لتحفيز الرحم. قد تشعرين بأن انقباضات الطلق الصناعي أقوى وتتصاعد بشكل أسرع من المخاض الطبيعي.",
+        "en": "Methods include softening the cervix or giving intravenous medications to stimulate the uterus. You might feel that induced contractions are stronger and peak faster than natural labor."
+      }
+    ],
+    "link": "/guide/9",
+    "citations": [
+      {
+        "org": "Mayo Clinic",
+        "title": "Labor induction",
+        "url": "https://www.mayoclinic.org/tests-procedures/labor-induction/about/pac-20385141"
+      }
+    ]
+  },
+  {
+    "slug": "meconium",
+    "term": {
+      "ar": "العقي",
+      "en": "Meconium"
+    },
+    "aka": {
+      "ar": "البراز الأول",
+      "en": "First stool"
+    },
+    "definition": {
+      "ar": "المادة اللزجة والكثيفة ذات اللون الأخضر الداكن المائل للسواد التي تشكل البراز الأول لطفلكِ.",
+      "en": "The thick, sticky, dark greenish-black substance that forms your baby's first stool."
+    },
+    "when": {
+      "ar": "الأيام الأولى بعد الولادة",
+      "en": "First days after birth"
+    },
+    "body": [
+      {
+        "ar": "يتكون العقي من المواد التي ابتلعها طفلكِ أثناء وجوده في الرحم، مثل السائل الأمينوسي وخلايا الجلد. خروجه هو علامة ممتازة على أن الجهاز الهضمي لطفلكِ يعمل بكفاءة.",
+        "en": "Meconium is made up of materials your baby swallowed while in the womb, such as amniotic fluid and skin cells. Passing it is an excellent sign that your baby's digestive system is working efficiently."
+      },
+      {
+        "ar": "في بعض الأحيان، قد يتبرز الجنين العقي داخل الرحم قبل الولادة. إذا حدث ذلك، سيقوم الفريق الطبي بمراقبة طفلكِ بعناية لضمان عدم استنشاقه لهذه المادة إلى رئتيه.",
+        "en": "Sometimes, the fetus may pass meconium inside the womb before birth. If this happens, the medical team will carefully monitor your baby to ensure they do not inhale this substance into their lungs."
+      }
+    ],
+    "link": "/guide/9",
+    "citations": [
+      {
+        "org": "Cleveland Clinic",
+        "title": "Meconium",
+        "url": "https://my.clevelandclinic.org/health/body/24102-meconium"
+      }
+    ]
+  }
+]
