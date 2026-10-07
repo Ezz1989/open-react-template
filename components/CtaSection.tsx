@@ -1,6 +1,6 @@
 ﻿"use client";
 import { useLang } from "@/lib/lang-context";
-import { PLAY_STORE_URL } from "@/lib/constants";
+import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
 
 export function CtaSection() {
   const { t } = useLang();
@@ -78,18 +78,12 @@ export function CtaSection() {
               </span>
             </a>
 
-            {/*
-              🔗 MEMO — LINK REQUIRED WHEN THE iOS APP SHIPS (App Store)
-              There is no iOS build yet, so this is deliberately a <span>, not an
-              <a>: a badge linking to a non-existent app misleads users and is
-              exactly the kind of claim Play/App Store review penalises.
-              WHEN THE iOS APP IS LIVE: add APP_STORE_URL to lib/constants.ts,
-              swap this <span> for an <a href={APP_STORE_URL}>, drop the
-              btn-store-soon class, and change cta.appStoreSmall from
-              "Coming soon to" / "قريباً على" back to "Download on" / "حمّل من".
-              Tracker step P18.
-            */}
-            <span className="btn btn-store btn-store-soon" aria-disabled="true">
+            <a
+              href={APP_STORE_URL}
+              className="btn btn-store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M16.36 12.72c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3-.79-1.55.02-2.98.9-3.77 2.28-1.61 2.79-.41 6.92 1.15 9.19.76 1.11 1.67 2.36 2.86 2.31 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 3 .72 1.24-.02 2.02-1.13 2.78-2.24.88-1.29 1.24-2.54 1.26-2.6-.03-.01-2.41-.93-2.41-3.7zM14.1 5.9c.63-.77 1.06-1.83.94-2.9-.91.04-2.01.61-2.67 1.37-.59.68-1.1 1.77-.96 2.81 1.01.08 2.05-.52 2.69-1.28z" />
               </svg>
@@ -97,7 +91,7 @@ export function CtaSection() {
                 <small>{appStoreSmall}</small>
                 <strong>{appStoreBig}</strong>
               </span>
-            </span>
+            </a>
           </div>
         </div>
       </div>

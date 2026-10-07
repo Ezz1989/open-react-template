@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { GrowthVisualizer } from "./GrowthVisualizer";
-import { PLAY_STORE_URL } from "@/lib/constants";
+import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
 
 const WEEK_KEYS = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40];
 
@@ -69,6 +69,15 @@ export function HeroSection() {
                 <span>
                   <small>{t("cta.downloadSmall") as string}</small>
                   <strong>{t("cta.downloadBig") as string}</strong>
+                </span>
+              </a>
+              <a href={APP_STORE_URL} className="btn btn-store" target="_blank" rel="noopener noreferrer">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.36 12.72c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3-.79-1.55.02-2.98.9-3.77 2.28-1.61 2.79-.41 6.92 1.15 9.19.76 1.11 1.67 2.36 2.86 2.31 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 3 .72 1.24-.02 2.02-1.13 2.78-2.24.88-1.29 1.24-2.54 1.26-2.6-.03-.01-2.41-.93-2.41-3.7zM14.1 5.9c.63-.77 1.06-1.83.94-2.9-.91.04-2.01.61-2.67 1.37-.59.68-1.1 1.77-.96 2.81 1.01.08 2.05-.52 2.69-1.28z" />
+                </svg>
+                <span>
+                  <small>{t("cta.appStoreSmall") as string}</small>
+                  <strong>{t("cta.appStoreBig") as string}</strong>
                 </span>
               </a>
             </div>

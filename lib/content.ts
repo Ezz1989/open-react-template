@@ -209,7 +209,7 @@ export const content = {
       sub: "Free to download. Arabic and English from the first moment. For families across Egypt, the Gulf, and wherever you're reading this.",
       downloadSmall: "Get it on",
       downloadBig: "Google Play",
-      appStoreSmall: "Coming soon to",
+      appStoreSmall: "Download on",
       appStoreBig: "App Store",
     },
 
@@ -604,7 +604,7 @@ export const content = {
       sub: "مجاني. بالعربية والإنجليزية من اللحظة الأولى. للعائلات في مصر، والخليج، وأينما كنتما تقرآن هذا.",
       downloadSmall: "تحميل من",
       downloadBig: "جوجل بلاي",
-      appStoreSmall: "قريباً على",
+      appStoreSmall: "تحميل من",
       appStoreBig: "آب ستور",
     },
 

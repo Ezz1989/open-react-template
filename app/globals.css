@@ -144,9 +144,6 @@ html, body { max-width: 100%; overflow-x: hidden; }
 .btn-store strong { font-size: 14px; font-weight: 600; line-height: 1.2; }
 /* Not-yet-available store badge. Rendered as a non-interactive <span>, never an
    <a>: there is no iOS app, so a link would send people nowhere. */
-.btn-store-soon { background: transparent; border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.72); cursor: default; }
-.btn-store-soon:hover { transform: none; }
-[data-theme="dark"] .btn-store-soon { background: transparent; border-color: var(--border); color: var(--fg-muted); }
 
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: var(--chip-bg); color: var(--accent-strong); border-radius: 999px; font-size: 12px; font-weight: 500; }
 

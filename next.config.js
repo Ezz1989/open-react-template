@@ -16,17 +16,28 @@ const nextConfig = {
     return [
       // Short share link: nawahapp.net/play → Play listing, tagged so installs
       // show up under "Tracked channels (UTM)" instead of organic.
-      // Temporary (307) on purpose: when iOS goes live this becomes a
-      // device-aware link, and a 308 would stay cached in browsers.
+      // Temporary (307) so a later change isn't stuck in browser caches.
       {
         source: "/play",
         destination:
           "https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=nawahapp.net&utm_medium=shortlink&utm_campaign=play&utm_source_platform=web",
         permanent: false,
       },
-      // Bio links, one per platform so Play's UTM report can tell them apart
-      // (utm_medium=organic keeps them apart from the paid links). 307 for the
-      // same reason as /play: these become device-aware when iOS is live.
+      // Bio links are device-aware: Apple devices → App Store, everyone else
+      // → Play. Redirects are checked in order, so the iOS rule must come
+      // first. "Macintosh" is in the list because iPad Safari sends a Mac user
+      // agent; Android never does. 307 so browsers don't cache one store.
+      // ponytail: plain App Store URL; add Apple campaign params
+      // (?pt=<provider token>&ct=<p>_bio&mt=8) once the user sends the pt from
+      // App Store Connect → Analytics → Campaigns.
+      ...["tiktok", "instagram", "facebook"].map((p) => ({
+        source: `/${p}`,
+        has: [{ type: "header", key: "user-agent", value: ".*(iPhone|iPad|iPod|Macintosh).*" }],
+        destination: "https://apps.apple.com/app/id6817668758",
+        permanent: false,
+      })),
+      // Everyone else: Play, one utm_source per platform so Play's UTM report
+      // can tell them apart (utm_medium=organic keeps them apart from paid).
       ...["tiktok", "instagram", "facebook"].map((p) => ({
         source: `/${p}`,
         destination: `https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=${p}&utm_medium=organic&utm_campaign=bio_sep26`,

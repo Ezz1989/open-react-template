@@ -8,7 +8,7 @@ import { BabyNamesSection } from "@/components/BabyNamesSection";
 import { PlannersSection } from "@/components/PlannersSection";
 import { CtaSection } from "@/components/CtaSection";
 import { Footer } from "@/components/Footer";
-import { PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
+import { APP_STORE_URL, PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 /** Without this Google picked babynawah.vercel.app as the homepage's canonical
@@ -42,6 +42,7 @@ const siteJsonLd = {
         "Arabic pregnancy companion app for mothers and fathers, built for the GCC and Egypt.",
       sameAs: [
         PLAY_STORE_URL,
+        APP_STORE_URL,
         "https://www.tiktok.com/@nawah_app",
         "https://www.instagram.com/nawah_app/",
         "https://www.facebook.com/profile.php?id=61593761370296",

@@ -1,5 +1,5 @@
 import { GLOSSARY } from "@/lib/glossary";
-import { PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
+import { APP_STORE_URL, PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles as fatherArticles } from "@/lib/father-content";
 import { publishedArticles as topicArticles } from "@/lib/articles-content";
@@ -24,7 +24,8 @@ export function GET() {
     "",
     "> Arabic pregnancy companion app for mothers and fathers in Egypt and the Gulf. The site publishes free pregnancy guides, father guides, calculators and a baby-names directory in Arabic (Modern Standard Arabic) and English. Medical claims link to the source they come from; no clinician writes or reviews the pages.",
     "",
-    `App: ${PLAY_STORE_URL}`,
+    `Android app: ${PLAY_STORE_URL}`,
+    `iPhone app: ${APP_STORE_URL}`,
     "",
     "## Pregnancy month by month",
     ...publishedMonths().map((m) => line(`guide/${m.month}`, m.title, m.description)),
