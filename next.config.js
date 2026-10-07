@@ -27,13 +27,13 @@ const nextConfig = {
       // → Play. Redirects are checked in order, so the iOS rule must come
       // first. "Macintosh" is in the list because iPad Safari sends a Mac user
       // agent; Android never does. 307 so browsers don't cache one store.
-      // ponytail: plain App Store URL; add Apple campaign params
-      // (?pt=<provider token>&ct=<p>_bio&mt=8) once the user sends the pt from
-      // App Store Connect → Analytics → Campaigns.
+      // Apple campaign link (pt = Nawah's provider token, same for every
+      // campaign); shows in App Store Connect → Analytics → Campaigns once a
+      // campaign passes 5 first-time downloads.
       ...["tiktok", "instagram", "facebook"].map((p) => ({
         source: `/${p}`,
         has: [{ type: "header", key: "user-agent", value: ".*(iPhone|iPad|iPod|Macintosh).*" }],
-        destination: "https://apps.apple.com/app/id6817668758",
+        destination: `https://apps.apple.com/app/apple-store/id6817668758?pt=129537733&ct=${p}_bio&mt=8`,
         permanent: false,
       })),
       // Everyone else: Play, one utm_source per platform so Play's UTM report
