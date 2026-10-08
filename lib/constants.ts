@@ -27,7 +27,7 @@ export const PLAY_STORE_URL = `https://play.google.com/store/apps/details?id=${P
 /**
  * App Store listing. Live since 2026-10-07 (Apple id 6817668758, see ../info.txt).
  * Used by HeroSection.tsx, CtaSection.tsx, the homepage JSON-LD and llms.txt.
- * The bio short links (/tiktok, /instagram, /facebook) live in next.config.js.
+ * The bio short links (/tiktok, /instagram, /facebook, /x) live in app/go/[platform]/route.ts.
  */
 export const APP_STORE_URL = "https://apps.apple.com/app/id6817668758";
 
