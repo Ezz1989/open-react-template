@@ -30,7 +30,7 @@ const nextConfig = {
       // Apple campaign link (pt = Nawah's provider token, same for every
       // campaign); shows in App Store Connect → Analytics → Campaigns once a
       // campaign passes 5 first-time downloads.
-      ...["tiktok", "instagram", "facebook"].map((p) => ({
+      ...["tiktok", "instagram", "facebook", "x"].map((p) => ({
         source: `/${p}`,
         has: [{ type: "header", key: "user-agent", value: ".*(iPhone|iPad|iPod|Macintosh).*" }],
         destination: `https://apps.apple.com/app/apple-store/id6817668758?pt=129537733&ct=${p}_bio&mt=8`,
@@ -38,7 +38,7 @@ const nextConfig = {
       })),
       // Everyone else: Play, one utm_source per platform so Play's UTM report
       // can tell them apart (utm_medium=organic keeps them apart from paid).
-      ...["tiktok", "instagram", "facebook"].map((p) => ({
+      ...["tiktok", "instagram", "facebook", "x"].map((p) => ({
         source: `/${p}`,
         destination: `https://play.google.com/store/apps/details?id=com.nawahapp&utm_source=${p}&utm_medium=organic&utm_campaign=bio_sep26`,
         permanent: false,
