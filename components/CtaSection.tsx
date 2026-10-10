@@ -1,6 +1,6 @@
 ﻿"use client";
 import { useLang } from "@/lib/lang-context";
-import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
+import { appStoreUrl, homePlayUrl } from "@/lib/constants";
 
 export function CtaSection() {
   const { t } = useLang();
@@ -54,17 +54,8 @@ export function CtaSection() {
               flexWrap: "wrap",
             }}
           >
-            {/*
-              🔗 MEMO — LINK UPDATE REQUIRED AT LAUNCH (Google Play)
-              PLAY_STORE_URL currently 404s. Verified 2026-08-11: the listing
-              for com.nawahapp is not public because the app is only on the
-              INTERNAL TESTING track, so this button sends visitors to an error
-              page. It starts resolving once the app is published to production
-              (tracker step P15). Re-check the URL then; nothing here needs
-              editing if the package id is unchanged.
-            */}
-            <a
-              href={PLAY_STORE_URL}
+                        <a
+              href={homePlayUrl("cta")}
               className="btn btn-store"
               target="_blank"
               rel="noopener noreferrer"
@@ -79,7 +70,7 @@ export function CtaSection() {
             </a>
 
             <a
-              href={APP_STORE_URL}
+              href={appStoreUrl("web_cta")}
               className="btn btn-store"
               target="_blank"
               rel="noopener noreferrer"

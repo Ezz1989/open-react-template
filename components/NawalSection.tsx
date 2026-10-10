@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLang } from "@/lib/lang-context";
 import { useMode } from "@/lib/mode-context";
-import { PLAY_STORE_URL } from "@/lib/constants";
+import { homePlayUrl } from "@/lib/constants";
 
 type Msg = { who: "me" | "ai"; text: string };
 
@@ -215,7 +215,7 @@ export function NawalSection() {
           </div>
           {userMsgCount >= 3 && (
             <a
-              href={PLAY_STORE_URL}
+              href={homePlayUrl("nawal_demo")}
               target="_blank"
               rel="noopener noreferrer"
               style={{

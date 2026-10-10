@@ -20,7 +20,7 @@ export const PLAY_PACKAGE_ID = "com.nawahapp";
  * URL after publishing, and consider hiding or labelling the button until then
  * if the site is being actively promoted.
  *
- * Used by HeroSection.tsx and CtaSection.tsx.
+ * Untagged — used only where a canonical URL is wanted (JSON-LD, llms.txt, reset-password). Buttons use homePlayUrl().
  */
 export const PLAY_STORE_URL = `https://play.google.com/store/apps/details?id=${PLAY_PACKAGE_ID}`;
 
@@ -176,4 +176,18 @@ export function articlesPlayUrl(locale: Locale, cluster: string, slug: string): 
     campaign: "topic_articles",
     content: `${locale}_${cluster}_${slug}`,
   });
+}
+
+/**
+ * Home-page store buttons (Hero, CTA, Nawal demo) — added 2026-10-11 after PostHog showed 146 people
+ * clicking the home page's Play button with an UNTAGGED link, so Play filed every one as organic.
+ * `where` names the button so each one reads separately in Play Console.
+ */
+export function homePlayUrl(where: string): string {
+  return playStoreUrl({ source: "nawahapp.net", medium: "website", campaign: "home", content: where });
+}
+
+/** App Store campaign link (pt = Nawah's provider token, ct = the channel), same format as the bio links. */
+export function appStoreUrl(ct: string): string {
+  return `https://apps.apple.com/app/apple-store/id6817668758?pt=129537733&ct=${ct}&mt=8`;
 }
