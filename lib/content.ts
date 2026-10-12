@@ -311,8 +311,8 @@ export const content = {
         },
       ],
       contactHeading: "Questions",
-      contactBody: "Write to nawahapp@outlook.com and a person will answer.",
-      contactEmail: "nawahapp@outlook.com",
+      contactBody: "Write to contact-us@nawahapp.net and a person will answer.",
+      contactEmail: "contact-us@nawahapp.net",
     },
 
     deleteAccount: {
@@ -329,8 +329,8 @@ export const content = {
       ],
       emailHeading: "By email — if you can't open the app",
       emailBody:
-        "Write to nawahapp@outlook.com from the email address on the account, with the subject \"Delete my account\". We will confirm your identity and delete it.",
-      contactEmail: "nawahapp@outlook.com",
+        "Write to contact-us@nawahapp.net from the email address on the account, with the subject \"Delete my account\". We will confirm your identity and delete it.",
+      contactEmail: "contact-us@nawahapp.net",
       deletedHeading: "What gets deleted",
       deletedItems: [
         "Your profile, name and sign-in details",
@@ -385,7 +385,7 @@ export const content = {
       ],
       contactHeading: "Contact us",
       contactBody: "If your question is about your account, please write from the email address you signed up with.",
-      contactEmail: "nawahapp@outlook.com",
+      contactEmail: "contact-us@nawahapp.net",
     },
 
     footer: {
@@ -393,7 +393,7 @@ export const content = {
         { label: "Privacy", href: "/privacy" },
         { label: "Delete account", href: "/delete-account" },
         { label: "Support", href: "/support" },
-        { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
+        { label: "contact-us@nawahapp.net", href: "mailto:contact-us@nawahapp.net" },
         { label: "Instagram", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
         { label: "TikTok", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
         {
@@ -706,8 +706,8 @@ export const content = {
         },
       ],
       contactHeading: "أسئلة",
-      contactBody: "اكتبي إلى nawahapp@outlook.com وسيردّ عليك إنسان.",
-      contactEmail: "nawahapp@outlook.com",
+      contactBody: "اكتبي إلى contact-us@nawahapp.net وسيردّ عليك إنسان.",
+      contactEmail: "contact-us@nawahapp.net",
     },
 
     deleteAccount: {
@@ -723,8 +723,8 @@ export const content = {
       ],
       emailHeading: "بالبريد الإلكتروني — إن تعذّر فتح التطبيق",
       emailBody:
-        "اكتبي إلى nawahapp@outlook.com من البريد المسجّل في الحساب، وليكن العنوان «حذف حسابي». سنتحقق من هويتك ثم نحذفه.",
-      contactEmail: "nawahapp@outlook.com",
+        "اكتبي إلى contact-us@nawahapp.net من البريد المسجّل في الحساب، وليكن العنوان «حذف حسابي». سنتحقق من هويتك ثم نحذفه.",
+      contactEmail: "contact-us@nawahapp.net",
       deletedHeading: "ما الذي يُحذف",
       deletedItems: [
         "ملفك الشخصي واسمك وبيانات تسجيل الدخول",
@@ -779,7 +779,7 @@ export const content = {
       ],
       contactHeading: "تواصلي معنا",
       contactBody: "إذا كان سؤالك عن حسابك، فراسلينا من البريد الذي سجّلتِ به.",
-      contactEmail: "nawahapp@outlook.com",
+      contactEmail: "contact-us@nawahapp.net",
     },
 
     footer: {
@@ -787,7 +787,7 @@ export const content = {
         { label: "الخصوصية", href: "/privacy" },
         { label: "حذف الحساب", href: "/delete-account" },
         { label: "الدعم", href: "/support" },
-        { label: "nawahapp@outlook.com", href: "mailto:nawahapp@outlook.com" },
+        { label: "contact-us@nawahapp.net", href: "mailto:contact-us@nawahapp.net" },
         { label: "إنستجرام", href: "https://www.instagram.com/nawah_app/", icon: "instagram" },
         { label: "تيك توك", href: "https://www.tiktok.com/@nawah_app", icon: "tiktok" },
         {
