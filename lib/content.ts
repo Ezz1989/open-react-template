@@ -240,7 +240,7 @@ export const content = {
     privacy: {
       eyebrow: "Legal",
       title: "Privacy Policy",
-      updated: "Last updated 3 October 2026",
+      updated: "Last updated 24 October 2026",
       intro:
         "Nawah holds some of the most private information there is — how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, who else can see it, and how to get rid of it.",
       sections: [
@@ -250,7 +250,7 @@ export const content = {
             "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google or Apple, we receive your email and name from them — nothing else. If you use Apple's Hide My Email, we receive a private relay address created by Apple instead of your real email.",
             "Pregnancy and health information you enter: last menstrual period, due date, week-by-week logs, symptoms, moods, kick counts, contraction timings, vitals, appointments, baby names, hospital bag and budget lists, and journal entries.",
             "Messages you send to Nawal, the in-app assistant. They are passed to an AI provider to generate a reply; we do not store the conversation.",
-            "Technical information: crash reports, and anonymous usage events such as which screens are opened.",
+            "Technical information: crash reports, and app usage events such as which screens are opened. Usage events are linked to your account ID, not to your name or email address. Google Analytics for Firebase, which the app includes, also uses an app-instance identifier, your device's advertising identifier and an approximate location based on your IP address.",
           ],
         },
         {
@@ -263,8 +263,8 @@ export const content = {
         {
           heading: "Who else can see it",
           body: [
-            "Your partner, only if you link accounts — and journal entries only when you mark them as shared. Everything else stays yours.",
-            "Service providers who process data on our behalf: Supabase (database and sign-in), Apple (Sign in with Apple, on iPhone), Google Firebase (crash reporting and notifications), PostHog (anonymous usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
+            "Your partner, only if you link accounts. A linked partner sees what belongs to the pregnancy you share: the pregnancy week, appointments, baby name matches, kick counting sessions, and journal entries you mark as shared. Symptoms, vitals, contractions, moods and each person's Nawal chats are not shown to the other.",
+            "Service providers who process data on our behalf: Supabase (database and sign-in), Apple (Sign in with Apple, on iPhone), Google Firebase (crash reporting, app analytics and notifications), PostHog (usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
             "We do not sell your personal information to anyone.",
           ],
         },
@@ -286,7 +286,7 @@ export const content = {
         {
           heading: "Where it is stored, and for how long",
           body: [
-            "Data is stored on Supabase infrastructure in the EU (eu-west-2). We keep it while your account exists.",
+            "Data is stored on Supabase infrastructure in the United Kingdom (London, eu-west-2). We keep it while your account exists.",
             "When you delete your account, your data is deleted — see the account deletion page for exactly what goes and what is briefly retained.",
           ],
         },
