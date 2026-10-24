@@ -16,7 +16,7 @@ const nextConfig = {
   // app/go/[platform]/route.ts, which picks the store per device and counts
   // the tap in PostHog. Rewrite, not redirect, so the public URL stays short.
   async rewrites() {
-    return [{ source: "/:platform(tiktok|instagram|facebook|x)", destination: "/go/:platform" }];
+    return [{ source: "/:platform(tiktok|instagram|facebook|x|share)", destination: "/go/:platform" }];
   },
   async redirects() {
     return [
