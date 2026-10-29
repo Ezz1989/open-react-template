@@ -28,6 +28,7 @@ const T = {
    *  about link from the articles, a weak spot for health content. */
   about: { en: "About Nawah", ar: "عن نواة" },
   privacy: { en: "Privacy", ar: "الخصوصية" },
+  terms: { en: "Terms", ar: "شروط الاستخدام" },
   deleteAccount: { en: "Delete account", ar: "حذف الحساب" },
   rights: {
     en: "Nawah. Neither of you is doing this alone.",
@@ -122,6 +123,7 @@ export function GuideFooter({ locale }: { locale: Locale }) {
         <span className="guide-foot-links">
           <Link href={`/${locale}/about`}>{T.about[locale]}</Link>
           <Link href="/privacy">{T.privacy[locale]}</Link>
+          <Link href="/terms">{T.terms[locale]}</Link>
           <Link href="/delete-account">{T.deleteAccount[locale]}</Link>
         </span>
       </div>

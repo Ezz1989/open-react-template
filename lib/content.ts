@@ -237,6 +237,133 @@ export const content = {
       back: "Back to Nawah",
     },
 
+    terms: {
+      "eyebrow": "Legal",
+      "title": "Terms of Use",
+      "updated": "Last updated 29 October 2026 · Version 1",
+      "intro": "Welcome to Nawah. These terms are the agreement between you and Nawah (\"Nawah\", \"we\", \"us\"). They cover the Nawah app on Android and iPhone and nawahapp.net. Please read them together with our Privacy Policy, which explains what we do with your information.",
+      "sections": [
+        {
+          "heading": "1. Agreeing to these terms",
+          "body": [
+            "• You accept these terms when you create an account, or continue with Google or Apple. If you already have an account, the app asks you once to accept them.",
+            "• If we change these terms in a way that matters, we will tell you in the app and ask you to accept the new version before you continue. We keep a record of the version you accepted and when."
+          ]
+        },
+        {
+          "heading": "2. Who can use Nawah",
+          "body": [
+            "• You must be 13 or older to create an account.",
+            "• Keep your sign-in details private. You are responsible for what happens in your account."
+          ]
+        },
+        {
+          "heading": "3. Nawah is not medical care",
+          "body": [
+            "• Nawah gives general pregnancy information and tracking tools. It is not a doctor, midwife or medical service, and it does not diagnose or treat anything.",
+            "• Check with your doctor before making any medical decision, and keep your regular check-ups.",
+            "• If you think something is wrong (bleeding, strong pain, your baby moving less, signs of early labor, or any emergency), call your local emergency number or go to the nearest hospital now. Do not wait for the app.",
+            "• Week-by-week content, baby sizes and reminders are general guides. Every pregnancy is different."
+          ]
+        },
+        {
+          "heading": "4. Nawal, the assistant",
+          "body": [
+            "• Nawal is AI software. Its answers are general information. They can be wrong or incomplete, and they are not medical advice.",
+            "• To write a reply, your messages are processed by our AI providers (listed in the Privacy Policy). Do not send anything you would not want processed this way.",
+            "• If a reply is wrong, unsafe or offensive, tap Report this reply. We review every report.",
+            "• Free accounts have a daily message limit."
+          ]
+        },
+        {
+          "heading": "5. Your partner, the shared journal and nudges",
+          "body": [
+            "• You can link your account with your partner's using a pairing code. Once linked, your partner sees what the app shows to linked partners, plus the journal entries you choose to share.",
+            "• Nudges are ready-made cards you send to each other. You cannot write your own text in them.",
+            "• Only link with someone you trust. You can unlink at any time in Profile; after that, your partner no longer sees your information."
+          ]
+        },
+        {
+          "heading": "6. What you must not share",
+          "body": [
+            "Anything your partner can see (a shared journal entry, a name, anything else) must not:",
+            "• harass, threaten, bully or abuse anyone;",
+            "• attack people for who they are, or spread hate;",
+            "• be sexually explicit, or involve anyone under 18 in sexual content;",
+            "• encourage violence, self-harm or anything illegal;",
+            "• reveal someone else's private information without their permission, or pretend to be someone else;",
+            "• be spam, a scam or malware.",
+            "We may remove content that breaks these rules and suspend or close the account. To report something, write to contact-us@nawahapp.net. For Nawal's replies, use Report this reply."
+          ]
+        },
+        {
+          "heading": "7. Your content",
+          "body": [
+            "• What you write stays yours. You allow us to store it, show it to you and to the partner you share it with, and keep backups, only to run Nawah for you.",
+            "• We do not sell your content or your health information, and we do not use your health information for advertising."
+          ]
+        },
+        {
+          "heading": "8. Nawah Premium",
+          "body": [
+            "• Nawah Premium is a subscription sold through Google Play or the App Store. The price, billing period and any free trial are shown before you buy.",
+            "• It renews automatically until you cancel. Cancel any time in your Google Play or App Store subscription settings; you keep Nawah Premium until the end of the period you have paid for.",
+            "• If a free trial is offered, you are not charged until it ends. Cancel at least 24 hours before it ends and you pay nothing.",
+            "• Refunds are handled by Google Play or Apple under their rules.",
+            "• One subscription for both: when one linked partner subscribes, both accounts have Nawah Premium while they stay linked.",
+            "• Deleting the app or your account does not cancel a subscription. Cancel it in the store."
+          ]
+        },
+        {
+          "heading": "9. Ads",
+          "body": [
+            "The free version shows ads from Google AdMob. Nawah Premium removes them."
+          ]
+        },
+        {
+          "heading": "10. Changes and availability",
+          "body": [
+            "We work to keep Nawah running, but we cannot promise it will always be available or free of errors. We may change, add or remove features."
+          ]
+        },
+        {
+          "heading": "11. Closing your account",
+          "body": [
+            "• You can delete your account at any time in Profile. Your data is then deleted as the Privacy Policy describes.",
+            "• We may suspend or close an account that breaks these terms or the law, or puts others at risk."
+          ]
+        },
+        {
+          "heading": "12. Responsibility",
+          "body": [
+            "Nawah is provided \"as is\" and \"as available\". As far as the law allows:",
+            "• we are not responsible for decisions you make based on the app, or for indirect or consequential losses;",
+            "• our total responsibility to you is limited to what you paid for Nawah Premium in the 12 months before the claim, or USD 50 if you paid nothing.",
+            "Nothing in these terms limits responsibility that the law does not allow us to limit (for example for death or personal injury caused by negligence, or for fraud), and nothing takes away rights you have under consumer law."
+          ]
+        },
+        {
+          "heading": "13. Law and disputes",
+          "body": [
+            "If something goes wrong, write to us first at contact-us@nawahapp.net; most problems are solved by email. These terms are governed by the laws of the country where you live, and you can take a claim to the courts there. Nothing in these terms takes away the protection of the consumer laws of your country."
+          ]
+        },
+        {
+          "heading": "14. Google Play and the App Store",
+          "body": [
+            "• Google and Apple are not parties to these terms and are not responsible for Nawah. Purchases are also covered by the store's own terms.",
+            "• If you downloaded Nawah from the App Store, Apple's Standard End User License Agreement (apple.com/legal/internet-services/itunes/dev/stdeula) also applies to your license to use the app. Where the two differ about that license, Apple's agreement applies."
+          ]
+        },
+        {
+          "heading": "15. Contact",
+          "body": [
+            "contact-us@nawahapp.net. A person answers."
+          ]
+        }
+      ]
+    },
+
     privacy: {
       eyebrow: "Legal",
       title: "Privacy Policy",
@@ -391,6 +518,7 @@ export const content = {
     footer: {
       links: [
         { label: "Privacy", href: "/privacy" },
+        { label: "Terms", href: "/terms" },
         { label: "Delete account", href: "/delete-account" },
         { label: "Support", href: "/support" },
         { label: "contact-us@nawahapp.net", href: "mailto:contact-us@nawahapp.net" },
@@ -632,6 +760,133 @@ export const content = {
       back: "العودة إلى نواة",
     },
 
+    terms: {
+      "eyebrow": "قانوني",
+      "title": "شروط الاستخدام",
+      "updated": "آخر تحديث ٢٩ أكتوبر ٢٠٢٦ · الإصدار ١",
+      "intro": "مرحبًا بك في نواة. تمثّل هذه الشروط الاتفاق بينك وبين نواة («نواة»، «نحن»)، وهي تشمل تطبيق نواة على Android وiPhone وموقع nawahapp.net. يرجى قراءتها مع سياسة الخصوصية التي توضّح ما نفعله بمعلوماتك.",
+      "sections": [
+        {
+          "heading": "١. الموافقة على هذه الشروط",
+          "body": [
+            "• إنشاؤك حسابًا أو المتابعة باستخدام Google أو Apple يعني قبولك لهذه الشروط. وإذا كان لديك حساب من قبل، يطلب منك التطبيق قبولها مرّة واحدة.",
+            "• إذا أجرينا تغييرًا مهمًا على هذه الشروط، سنخبرك داخل التطبيق ونطلب منك قبول النسخة الجديدة قبل المتابعة. ونحتفظ بسجلّ يوضّح النسخة المقبولة منك ووقت قبولها."
+          ]
+        },
+        {
+          "heading": "٢. من يمكنه استخدام نواة",
+          "body": [
+            "• يجب أن يكون عمرك ١٣ عامًا أو أكثر لإنشاء حساب.",
+            "• عليك الحفاظ على سرّية بيانات تسجيل الدخول، وتقع عليك مسؤولية ما يحدث في حسابك."
+          ]
+        },
+        {
+          "heading": "٣. نواة ليس رعاية طبية",
+          "body": [
+            "• يقدّم نواة معلومات عامّة عن الحمل وأدوات للمتابعة، وهو ليس طبيبًا أو قابلة أو خدمة طبية، ولا يشخّص أيّ شيء أو يعالجه.",
+            "• عليك الرجوع إلى طبيبك قبل اتّخاذ أيّ قرار طبي، والمواظبة على فحوصات المتابعة الدورية.",
+            "• عند الشكّ في وجود مشكلة (نزيف، أو ألم شديد، أو قلّة حركة الجنين، أو علامات ولادة مبكّرة، أو أيّ حالة طارئة)، عليك الاتصال برقم الطوارئ المحلّي أو التوجّه إلى أقرب مستشفى الآن. يجب عدم انتظار التطبيق.",
+            "• المحتوى الأسبوعي وأحجام الجنين والتذكيرات هي إرشادات عامّة. كلّ حمل يختلف عن غيره."
+          ]
+        },
+        {
+          "heading": "٤. نوال، المساعدة",
+          "body": [
+            "• نوال برنامج ذكاء اصطناعي. إجاباتها معلومات عامّة، وقد تكون خاطئة أو غير مكتملة، وهي ليست نصيحة طبية.",
+            "• لكتابة الردّ، يعالج مزوّدو خدمات الذكاء الاصطناعي لدينا (المذكورون في سياسة الخصوصية) رسائلك. يرجى عدم إرسال أيّ شيء لا رغبة لديك في معالجته بهذه الطريقة.",
+            "• إذا كان أيّ ردّ خاطئًا أو غير آمن أو مسيئًا، يرجى الضغط على الإبلاغ عن هذا الرد. نحن نراجع كلّ بلاغ.",
+            "• للحسابات المجّانية حدّ يومي لعدد الرسائل."
+          ]
+        },
+        {
+          "heading": "٥. شريكك، واليوميات المشتركة («يومياتي»)، و«التنبيهات»",
+          "body": [
+            "• يمكنك ربط حسابك بحساب شريكك باستخدام «كود الدعوة». وبعد الربط، يرى شريكك ما يعرضه التطبيق للشريكين المرتبطين، إلى جانب تدوينات «يومياتي» التي يقع اختيارك على مشاركتها.",
+            "• «التنبيهات» هي بطاقات جاهزة يمكن إرسالها بينكما، ولا يمكنك كتابة نصّ خاصّ بك فيها.",
+            "• يجب ربط حسابك فقط مع شخص محلّ ثقتك. ويمكنك إلغاء الربط في أيّ وقت من «الملف الشخصي»؛ وبعد ذلك لن يرى شريكك معلوماتك."
+          ]
+        },
+        {
+          "heading": "٦. ما يجب عدم مشاركته",
+          "body": [
+            "أيّ محتوى يمكن لشريكك رؤيته (تدوينة مشتركة في «يومياتي»، أو اسم، أو أيّ شيء آخر) يجب ألّا:",
+            "• يضايق أيّ شخص أو يهدّده أو يتنمّر عليه أو يسيء إليه؛",
+            "• يهاجم الناس بسبب هويّتهم، أو ينشر الكراهية؛",
+            "• يتضمّن محتوى جنسيًا صريحًا، أو يشمل أيّ شخص دون ١٨ عامًا في محتوى جنسي؛",
+            "• يشجّع على العنف أو إيذاء النفس أو أيّ فعل غير قانوني؛",
+            "• يكشف معلومات خاصّة بشخص آخر دون إذنه، أو ينتحل صفة شخص آخر؛",
+            "• يكون رسائل مزعجة أو احتيالًا أو برمجيات خبيثة.",
+            "قد نزيل المحتوى الذي يخالف هذه القواعد ونعلّق الحساب أو نغلقه. للإبلاغ عن أيّ شيء، يرجى مراسلتنا على contact-us@nawahapp.net. أمّا بخصوص ردود نوال، فيرجى استخدام الإبلاغ عن هذا الرد."
+          ]
+        },
+        {
+          "heading": "٧. محتواك",
+          "body": [
+            "• كلّ ما هو من كتابتك يبقى ملكًا لك. ويتيح لنا إذنك تخزينه، وعرضه لك وللشريك الذي تشمله مشاركتك، والاحتفاظ بنسخ احتياطية منه، وذلك فقط لتشغيل نواة من أجلك.",
+            "• نحن لا نبيع محتواك أو معلوماتك الصحّية، ولا نستخدم معلوماتك الصحّية للإعلانات."
+          ]
+        },
+        {
+          "heading": "٨. «نواة بريميوم»",
+          "body": [
+            "• «نواة بريميوم» هو اشتراك يُباع عبر Google Play أو App Store. يظهر السعر وفترة الفوترة وأيّ فترة تجريبية مجّانية قبل الشراء.",
+            "• يتجدّد الاشتراك تلقائيًا حتّى إلغائك له. يمكنك الإلغاء في أيّ وقت من إعدادات الاشتراكات في Google Play أو App Store؛ ويبقى «نواة بريميوم» متاحًا لك حتّى نهاية الفترة المدفوعة.",
+            "• إذا توفّرت فترة تجريبية مجّانية، فلن يُخصم منك أيّ مبلغ حتّى تنتهي. وعند الإلغاء قبل ٢٤ ساعة على الأقلّ من انتهائها، لن يكون عليك دفع أيّ شيء.",
+            "• يتولّى Google Play أو Apple طلبات استرداد الأموال وفقًا لقواعدهما.",
+            "• اشتراك واحد لكليكما: عندما يشترك أحد الشريكين المرتبطين، يحصل الحسابان معًا على «نواة بريميوم» طوال فترة ارتباطهما.",
+            "• حذف التطبيق أو حذف حسابك لا يلغي الاشتراك. عليك إلغاؤه من المتجر."
+          ]
+        },
+        {
+          "heading": "٩. الإعلانات",
+          "body": [
+            "تعرض النسخة المجّانية إعلانات من Google AdMob، ويزيلها «نواة بريميوم»."
+          ]
+        },
+        {
+          "heading": "١٠. التغييرات وتوفّر الخدمة",
+          "body": [
+            "نعمل على إبقاء نواة قيد التشغيل، لكن لا يمكننا الوعد بأن يكون متاحًا دائمًا أو خاليًا من الأخطاء. وقد نغيّر الميزات أو نضيف إليها أو نزيلها."
+          ]
+        },
+        {
+          "heading": "١١. إغلاق حسابك",
+          "body": [
+            "• يمكنك حذف حسابك في أيّ وقت من «الملف الشخصي»، وتُحذف بياناتك بعد ذلك كما توضّح سياسة الخصوصية.",
+            "• قد نعلّق أو نغلق أيّ حساب يخالف هذه الشروط أو القانون، أو يعرّض الآخرين للخطر."
+          ]
+        },
+        {
+          "heading": "١٢. المسؤولية",
+          "body": [
+            "يُقدَّم نواة «كما هو» و«حسب توفّره». وإلى أقصى حدّ يسمح به القانون:",
+            "• نحن غير مسؤولين عن القرارات المتّخذة من جانبك بناءً على التطبيق، أو عن الخسائر غير المباشرة أو التبعية؛",
+            "• يقتصر إجمالي مسؤوليتنا تجاهك على المبلغ المدفوع منك مقابل «نواة بريميوم» خلال ١٢ شهرًا قبل المطالبة، أو ٥٠ دولارًا أمريكيًا في حال عدم دفعك أيّ شيء.",
+            "لا يوجد في هذه الشروط ما يحدّ من أيّ مسؤولية لا يسمح لنا القانون بالحدّ منها (مثل المسؤولية عن الوفاة أو الإصابة الشخصية الناتجة عن الإهمال، أو عن الاحتيال)، ولا ما يلغي حقوقك المكفولة بموجب قوانين حماية المستهلك."
+          ]
+        },
+        {
+          "heading": "١٣. القانون والنزاعات",
+          "body": [
+            "إذا حدثت أيّ مشكلة، يرجى مراسلتنا أوّلًا على contact-us@nawahapp.net؛ فمعظم المشكلات تُحلّ عبر البريد الإلكتروني. تخضع هذه الشروط لقوانين بلد إقامتك، ويمكنك رفع أيّ مطالبة أمام المحاكم هناك. ولا يوجد في هذه الشروط ما يلغي الحماية التي تكفلها قوانين حماية المستهلك في بلدك."
+          ]
+        },
+        {
+          "heading": "١٤. Google Play وApp Store",
+          "body": [
+            "• لا تعدّ Google وApple طرفين في هذه الشروط، وليستا مسؤولتين عن نواة. كما تخضع عمليات الشراء لشروط المتجر الخاصّة به.",
+            "• في حال تنزيلك تطبيق نواة من App Store، تسري أيضًا اتفاقية ترخيص المستخدم النهائي القياسية من Apple (apple.com/legal/internet-services/itunes/dev/stdeula) على ترخيص استخدامك للتطبيق. وعند وجود أيّ اختلاف بين الاتفاقيتين حول هذا الترخيص، تسري اتفاقية Apple."
+          ]
+        },
+        {
+          "heading": "١٥. التواصل معنا",
+          "body": [
+            "contact-us@nawahapp.net. يردّ عليك شخص حقيقي."
+          ]
+        }
+      ]
+    },
+
     privacy: {
       eyebrow: "قانوني",
       title: "سياسة الخصوصية",
@@ -785,6 +1040,7 @@ export const content = {
     footer: {
       links: [
         { label: "الخصوصية", href: "/privacy" },
+        { label: "شروط الاستخدام", href: "/terms" },
         { label: "حذف الحساب", href: "/delete-account" },
         { label: "الدعم", href: "/support" },
         { label: "contact-us@nawahapp.net", href: "mailto:contact-us@nawahapp.net" },
