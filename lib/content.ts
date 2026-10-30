@@ -365,83 +365,103 @@ export const content = {
     },
 
     privacy: {
-      eyebrow: "Legal",
-      title: "Privacy Policy",
-      updated: "Last updated 24 October 2026",
-      intro:
-        "Nawah holds some of the most private information there is — how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, who else can see it, and how to get rid of it.",
-      sections: [
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "updated": "Last updated 30 October 2026",
+      "intro": "Nawah holds some of the most private information there is: how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, why, who else can see it, and how to get rid of it.",
+      "sections": [
         {
-          heading: "What we collect",
-          body: [
-            "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google or Apple, we receive your email and name from them — nothing else. If you use Apple's Hide My Email, we receive a private relay address created by Apple instead of your real email.",
-            "Pregnancy and health information you enter: last menstrual period, due date, week-by-week logs, symptoms, moods, kick counts, contraction timings, vitals, appointments, baby names, hospital bag and budget lists, and journal entries.",
-            "Messages you send to Nawal, the in-app assistant. They are passed to an AI provider to generate a reply; we do not store the conversation.",
-            "Technical information: crash reports, and app usage events such as which screens are opened. Usage events are linked to your account ID, not to your name or email address. Google Analytics for Firebase, which the app includes, also uses an app-instance identifier, your device's advertising identifier and an approximate location based on your IP address.",
-          ],
+          "heading": "Who we are",
+          "body": [
+            "Nawah (\"we\") runs the Nawah app and nawahapp.net and is responsible for your information. You can reach us at contact-us@nawahapp.net."
+          ]
         },
         {
-          heading: "Health data, specifically",
-          body: [
-            "Symptoms, moods, kick counts, contractions, vitals and your due date are health information. We treat them as the most sensitive data in the app.",
-            "We do not sell health data. We do not use it to target advertising. It is never shared with advertisers.",
-          ],
+          "heading": "What we collect",
+          "body": [
+            "Account details: your email address, display name, and whether you signed up as a mother or a father. If you sign in with Google or Apple, we receive your email and name from them, nothing else. If you use Apple's Hide My Email, we receive a private relay address created by Apple instead of your real email. We also record which version of the Terms of Use you accepted, and when.",
+            "Pregnancy and health information you enter: last menstrual period, due date, week-by-week logs, symptoms, moods, kick counts, contraction timings, vitals, appointments, questions you save for your next doctor visit, baby names, hospital bag and budget lists, and journal entries.",
+            "Nudges: the ready-made cards you and your partner send each other, who sent them and when.",
+            "Messages you send to Nawal, the in-app assistant. They are passed to an AI provider to generate a reply; we do not store the conversation. If you tap Report this reply, that reply and the question you asked are saved so we can review them.",
+            "How you found the app: if you installed Nawah from one of our tagged links on Android, the campaign tag of that link. Technical information: crash reports, and app usage events such as which screens are opened. Usage events are linked to your account ID, not to your name or email address. Google Analytics for Firebase, which the app includes, also uses an app-instance identifier, your device's advertising identifier and an approximate location based on your IP address."
+          ]
         },
         {
-          heading: "Who else can see it",
-          body: [
-            "Your partner, only if you link accounts. A linked partner sees what belongs to the pregnancy you share: the pregnancy week, appointments, baby name matches, kick counting sessions, and journal entries you mark as shared. Symptoms, vitals, contractions, moods and each person's Nawal chats are not shown to the other.",
+          "heading": "Why we use it",
+          "body": [
+            "To run the features you choose to use: your account, pregnancy tracking, partner linking, nudges, reminders and subscriptions.",
+            "Health information only with your explicit consent, which you give when you create your account (or, if you already have one, when you accept the Terms of Use).",
+            "Crash reports, usage events and the install campaign tag to keep the app working, to improve it and to see which of our links bring people to it. Ads in the free version, as described below."
+          ]
+        },
+        {
+          "heading": "What you must give us",
+          "body": [
+            "To create an account we need your email, a name, and whether you are the mother or the father. To track a pregnancy we need a due date or the first day of your last period. Everything else you enter is optional."
+          ]
+        },
+        {
+          "heading": "Health data, specifically",
+          "body": [
+            "Symptoms, moods, kick counts, contractions, vitals, the questions you save for your doctor and your due date are health information. We treat them as the most sensitive data in the app.",
+            "We do not sell health data. We do not use it to target advertising. It is never shared with advertisers."
+          ]
+        },
+        {
+          "heading": "Who else can see it",
+          "body": [
+            "Your partner, only if you link accounts. A linked partner sees what belongs to the pregnancy you share: the pregnancy week, appointments, baby name matches, kick counting sessions, the nudges you send each other, and journal entries you mark as shared. Symptoms, vitals, contractions, moods and each person's Nawal chats are not shown to the other.",
             "Service providers who process data on our behalf: Supabase (database and sign-in), Apple (Sign in with Apple, on iPhone), Google Firebase (crash reporting, app analytics and notifications), PostHog (usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
-            "We do not sell your personal information to anyone.",
-          ],
+            "We do not sell your personal information to anyone."
+          ]
         },
         {
-          heading: "Nawal, the assistant",
-          body: [
+          "heading": "Nawal, the assistant",
+          "body": [
             "Nawal is software, not a doctor, nurse or midwife. It gives general information only and can be wrong. Nothing it says is medical advice, and it must never replace your own doctor.",
-            "Messages you send are processed by Groq, or by Google Gemini if Groq is unavailable, to generate a reply. Do not send information you would not want processed by a third party.",
-          ],
+            "Messages you send are processed by Groq, or by Google Gemini if Groq is unavailable, to generate a reply. Do not send information you would not want processed by a third party."
+          ]
         },
         {
-          heading: "Advertising",
-          body: [
-            "The free version shows ads through Google AdMob. In the EEA and UK you are asked for consent before any personalised advertising, and you can decline.",
+          "heading": "Advertising",
+          "body": [
+            "The free version shows ads through Google AdMob. In the EEA and UK you are asked for consent before any personalized advertising, and you can decline.",
             "On iPhone, Nawah asks your permission through Apple's App Tracking Transparency prompt before using your device's advertising identifier. If you decline, ads are still shown, without that identifier. You can change this at any time in iPhone Settings, under Privacy & Security > Tracking.",
-            "Premium removes ads entirely.",
-          ],
+            "Nawah Premium removes ads entirely."
+          ]
         },
         {
-          heading: "Where it is stored, and for how long",
-          body: [
-            "Data is stored on Supabase infrastructure in the United Kingdom (London, eu-west-2). We keep it while your account exists.",
-            "When you delete your account, your data is deleted — see the account deletion page for exactly what goes and what is briefly retained.",
-          ],
+          "heading": "Where it is stored, and for how long",
+          "body": [
+            "Data is stored on Supabase infrastructure in the United Kingdom (London, eu-west-2). Some of the service providers listed above process it in other countries, so your information is processed outside the country you live in. We keep it while your account exists.",
+            "When you delete your account, your data is deleted. See the account deletion page for exactly what goes and what is briefly retained."
+          ]
         },
         {
-          heading: "Your rights",
-          body: [
+          "heading": "Your rights",
+          "body": [
             "You can access, correct, export or delete your information at any time. Deletion is available inside the app under Profile, and by email if you cannot reach the app.",
-            "If you are in a jurisdiction with data protection law — including the EU/UK GDPR and Egypt's PDPL — those rights apply to you and we will honour them.",
-          ],
+            "You can withdraw your consent at any time by deleting your account in Profile, under Account actions. It takes no more steps than signing up did.",
+            "If you are in a jurisdiction with data protection law, including the EU/UK GDPR, Saudi Arabia's Personal Data Protection Law and Egypt's Personal Data Protection Law (Law No. 151 of 2020), those rights apply to you and we will honor them."
+          ]
         },
         {
-          heading: "Children",
-          body: [
-            "Nawah is not intended for children under 13, and we do not knowingly collect their information.",
-          ],
+          "heading": "Children",
+          "body": [
+            "Nawah is not intended for children under 13, and we do not knowingly collect their information."
+          ]
         },
         {
-          heading: "Changes",
-          body: [
-            "If this policy changes in a way that matters, we will say so in the app rather than quietly editing this page.",
-          ],
-        },
+          "heading": "Changes",
+          "body": [
+            "If this policy changes in a way that matters, we will say so in the app rather than quietly editing this page."
+          ]
+        }
       ],
-      contactHeading: "Questions",
-      contactBody: "Write to contact-us@nawahapp.net and a person will answer.",
-      contactEmail: "contact-us@nawahapp.net",
+      "contactHeading": "Questions",
+      "contactBody": "Write to contact-us@nawahapp.net and a person will answer.",
+      "contactEmail": "contact-us@nawahapp.net"
     },
-
     deleteAccount: {
       eyebrow: "Your data",
       title: "Delete your account",
@@ -888,83 +908,103 @@ export const content = {
     },
 
     privacy: {
-      eyebrow: "قانوني",
-      title: "سياسة الخصوصية",
-      updated: "آخر تحديث ٢٤ أكتوبر ٢٠٢٦",
-      intro:
-        "نواة يحتفظ بأكثر المعلومات خصوصية — كيف يسير الحمل، وكيف تشعرين، وما تكتبينه في الثالثة فجراً. هذه الصفحة تقول بوضوح ما الذي نخزّنه، ومن يستطيع رؤيته، وكيف تحذفينه.",
-      sections: [
+      "eyebrow": "قانوني",
+      "title": "سياسة الخصوصية",
+      "updated": "آخر تحديث ٣٠ أكتوبر ٢٠٢٦",
+      "intro": "نواة يحتفظ بأكثر المعلومات خصوصية: كيف يسير الحمل، وشعورك تجاهه، وما يُكتَب في الساعة ٣ فجرًا. هذه الصفحة تقول بوضوح ما الذي نخزّنه، ولماذا، ومن غيرنا يستطيع رؤيته، وكيف يمكن التخلّص منه.",
+      "sections": [
         {
-          heading: "ما الذي نجمعه",
-          body: [
-            "بيانات الحساب: بريدك الإلكتروني، والاسم الظاهر، وما إذا كنتِ سجّلتِ كأم أو كأب. إذا سجّلتِ الدخول عبر جوجل أو Apple، نستلم منهما بريدك واسمك فقط، ولا شيء غير ذلك. وإذا اخترتِ إخفاء بريدك عند التسجيل عبر Apple، نستلم عنواناً بديلاً تُنشئه Apple بدل بريدك الحقيقي.",
-            "معلومات الحمل والصحة التي تدخلينها: تاريخ آخر دورة، موعد الولادة المتوقع، السجلات الأسبوعية، الأعراض، الحالة المزاجية، عدّاد الركلات، توقيت الانقباضات، المؤشرات الحيوية، المواعيد، أسماء الطفل، قائمة حقيبة المستشفى والميزانية، ومدوّناتك اليومية.",
-            "الرسائل التي ترسلينها إلى نوال، المساعِدة داخل التطبيق. تُمرَّر إلى مزوّد ذكاء اصطناعي ليُنشئ الرد، ولا نخزّن المحادثة.",
-            "معلومات تقنية: تقارير الأعطال، وأحداث استخدام التطبيق مثل الشاشات التي تُفتح. ترتبط أحداث الاستخدام بمُعرِّف حسابك، لا باسمك أو عنوان بريدك الإلكتروني. كما تستخدم خدمة Google Analytics for Firebase التي يتضمّنها التطبيق مُعرِّف نسخة التطبيق، والمُعرِّف الإعلاني لجهازك، وموقعًا تقريبيًّا يعتمد على عنوان IP لديك.",
-          ],
+          "heading": "من نحن",
+          "body": [
+            "يدير نواة («نحن») تطبيق نواة وموقع nawahapp.net، وهو المسؤول عن معلوماتك. يمكنك التواصل معنا على contact-us@nawahapp.net."
+          ]
         },
         {
-          heading: "البيانات الصحية تحديداً",
-          body: [
-            "الأعراض والحالة المزاجية وعدّاد الركلات والانقباضات والمؤشرات الحيوية وموعد الولادة كلها معلومات صحية، ونتعامل معها باعتبارها أكثر البيانات حساسية في التطبيق.",
-            "لا نبيع البيانات الصحية، ولا نستخدمها لاستهدافك بالإعلانات، ولا تُشارَك مع المعلنين إطلاقاً.",
-          ],
+          "heading": "ما الذي نجمعه",
+          "body": [
+            "بيانات الحساب: بريدك الإلكتروني، والاسم الظاهر، وما إذا كان التسجيل كأم أو كأب. عند تسجيل الدخول عبر Google أو Apple، نستلم منهما بريدك واسمك فقط، ولا شيء غير ذلك. وعند استخدام ميزة إخفاء البريد الإلكتروني من Apple، نستلم عنوانًا بديلًا خاصًا تُنشئه Apple بدل بريدك الحقيقي. كما نسجّل أي نسخة من «شروط الاستخدام» تمت الموافقة عليها، ومتى.",
+            "معلومات الحمل والصحة التي تُدخَل: تاريخ آخر دورة، وموعد الولادة المتوقع، والسجلات الأسبوعية، والأعراض، والحالة المزاجية، وعدّ الركلات، وتوقيت الانقباضات، والمؤشرات الحيوية، والمواعيد، والأسئلة المحفوظة لزيارة الطبيب القادمة، وأسماء الطفل، وقائمتا حقيبة المستشفى والميزانية، والمدوّنات اليومية.",
+            "التنبيهات اللطيفة: البطاقات الجاهزة المتبادلة بينك وبين شريكك، ومن أرسلها ومتى.",
+            "الرسائل المرسلة منك إلى نوال، المساعِدة داخل التطبيق. تُمرَّر إلى مزوّد ذكاء اصطناعي ليُنشئ الرد، ولا نخزّن المحادثة. وعند الضغط على «الإبلاغ عن هذا الرد»، يُحفَظ ذلك الرد والسؤال المطروح لنتمكّن من مراجعتهما.",
+            "كيفية الوصول إلى التطبيق: عند تثبيت نواة من أحد روابطنا المعلَّمة على Android، وسم الحملة الخاص بذلك الرابط. معلومات تقنية: تقارير الأعطال، وأحداث استخدام التطبيق مثل الشاشات التي تُفتح. تُربَط أحداث الاستخدام بمعرّف حسابك، وليس باسمك أو بريدك الإلكتروني. كما تستخدم خدمة Google Analytics for Firebase المضمّنة في التطبيق معرّف نسخة التطبيق، ومعرّف الإعلانات في جهازك، وموقعًا تقريبيًا بناءً على عنوان IP الخاص بك."
+          ]
         },
         {
-          heading: "من يستطيع رؤيتها",
-          body: [
-            "شريكك، فقط إذا ربطتما الحسابين. يرى الشريك المرتبط ما يخصّ الحمل المشترك بينكما: أسبوع الحمل، والمواعيد، وتطابقات أسماء المولود، وجلسات عدّ الركلات، وتدوينات «يومياتي» التي تُحدَّد كمشتركة. أمّا الأعراض والقياسات الحيوية والانقباضات والحالة المزاجية ومحادثات كلّ شخص مع «نوال» فلا تظهر للطرف الآخر.",
-            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وApple (تسجيل الدخول عبر Apple على iPhone)، وGoogle Firebase (تقارير الأعطال وتحليلات التطبيق والإشعارات)، وPostHog (تحليلات الاستخدام)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان رسائلك المرسلة إلى نوال لتردّ عليها).",
-            "لا نبيع معلوماتك الشخصية لأي جهة.",
-          ],
+          "heading": "لماذا نستخدمها",
+          "body": [
+            "لتشغيل الميزات التي يقع عليها اختيارك: حسابك، ومتابعة الحمل، وربط حساب الشريك، والتنبيهات اللطيفة، والتذكيرات، والاشتراكات.",
+            "المعلومات الصحية بموافقتك الصريحة فقط، والتي تُمنَح عند إنشاء حسابك (أو عند الموافقة على «شروط الاستخدام» إن كان لديك حساب بالفعل).",
+            "تقارير الأعطال وأحداث الاستخدام ووسم حملة التثبيت لاستمرار عمل التطبيق، وتحسينه، ومعرفة أي من روابطنا يجلب الناس إليه. والإعلانات في النسخة المجانية، كما هو موضّح أدناه."
+          ]
         },
         {
-          heading: "نوال، المساعِدة",
-          body: [
-            "نوال برنامج، وليست طبيبة أو ممرضة أو قابلة. تعطي معلومات عامة فقط وقد تخطئ. لا شيء تقوله يُعدّ استشارة طبية، ولا يجوز أن يحلّ محل طبيبتك.",
-            "الرسائل التي ترسلينها تُعالَج عبر Groq، أو عبر Google Gemini إذا تعذّر Groq، لتوليد الرد. لا ترسلي معلومات لا ترغبين في أن تعالجها جهة خارجية.",
-          ],
+          "heading": "ما الذي يلزم تقديمه لنا",
+          "body": [
+            "لإنشاء حساب، نحتاج إلى بريدك الإلكتروني، واسم، وتحديد كونك الأم أو الأب. ولمتابعة الحمل، نحتاج إلى موعد الولادة المتوقع أو أول يوم من آخر دورة شهرية. وكل ما يُدخَل غير ذلك اختياري."
+          ]
         },
         {
-          heading: "الإعلانات",
-          body: [
-            "النسخة المجانية تعرض إعلانات عبر Google AdMob. في الاتحاد الأوروبي والمملكة المتحدة يُطلب إذنك قبل أي إعلان مخصّص، ويمكنك الرفض.",
-            "على iPhone، يطلب نواة إذنك عبر نافذة الشفافية في تتبّع التطبيقات من Apple قبل استخدام معرّف الإعلانات في جهازك. إذا رفضتِ، تظهر الإعلانات من دون هذا المعرّف. ويمكنك تغيير اختيارك في أي وقت من إعدادات iPhone، قسم الخصوصية والأمن ثم التتبّع.",
-            "النسخة المدفوعة تزيل الإعلانات تماماً.",
-          ],
+          "heading": "البيانات الصحية تحديدًا",
+          "body": [
+            "الأعراض، والحالة المزاجية، وعدّ الركلات، والانقباضات، والمؤشرات الحيوية، والأسئلة المحفوظة لطبيبك، وموعد الولادة المتوقع كلها معلومات صحية. نتعامل معها باعتبارها أكثر البيانات حساسية في التطبيق.",
+            "لا نبيع البيانات الصحية. ولا نستخدمها لتوجيه الإعلانات. ولا تُشارَك مع المعلنين إطلاقًا."
+          ]
         },
         {
-          heading: "أين تُخزَّن، ولكم من الوقت",
-          body: [
-            "تُخزَّن البيانات على بنية Supabase في المملكة المتحدة (لندن، eu-west-2)، ونحتفظ بها ما دام حسابك قائمًا.",
-            "عند حذف حسابك تُحذف بياناتك — راجعي صفحة حذف الحساب لمعرفة ما يُحذف بالضبط وما يُحتفظ به لفترة قصيرة.",
-          ],
+          "heading": "من غيرنا يستطيع رؤيتها",
+          "body": [
+            "شريكك، فقط في حال ربط الحسابين. يرى الشريك المرتبط ما يخصّ الحمل المشترك بينكما: أسبوع الحمل، والمواعيد، وتطابقات أسماء الطفل، وجلسات عدّ الركلات، والتنبيهات اللطيفة المتبادلة بينكما، والمدوّنات اليومية التي تُحدَّد كمشتركة. أمّا الأعراض، والمؤشرات الحيوية، والانقباضات، والحالة المزاجية، ومحادثات كل طرف مع نوال، فلا تظهر للطرف الآخر.",
+            "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وApple (تسجيل الدخول عبر Apple على iPhone)، وGoogle Firebase (تقارير الأعطال وتحليلات التطبيق والإشعارات)، وPostHog (تحليلات الاستخدام)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان الرسائل المرسلة منك إلى نوال لتردّ عليها).",
+            "لا نبيع معلوماتك الشخصية لأي جهة."
+          ]
         },
         {
-          heading: "حقوقك",
-          body: [
-            "يمكنك الاطلاع على معلوماتك أو تصحيحها أو تصديرها أو حذفها في أي وقت. الحذف متاح داخل التطبيق من صفحة الحساب، وعبر البريد الإلكتروني إن تعذّر عليك الوصول للتطبيق.",
-            "إذا كنتِ في بلد لديه قانون لحماية البيانات — بما في ذلك اللائحة الأوروبية والبريطانية وقانون حماية البيانات المصري — فهذه الحقوق تنطبق عليك وسنحترمها.",
-          ],
+          "heading": "نوال، المساعِدة",
+          "body": [
+            "نوال برنامج، وليست طبيبة أو ممرضة أو قابلة. تعطي معلومات عامة فقط وقد تخطئ. لا شيء تقوله يُعدّ استشارة طبية، ولا يجوز أبدًا أن يحلّ محل طبيبك الخاص.",
+            "تُعالَج الرسائل المرسلة منك عبر Groq، أو عبر Google Gemini إذا تعذّر الوصول إلى Groq، لتوليد الرد. يُرجى عدم إرسال معلومات لا رغبة لديك في أن تعالجها جهة خارجية."
+          ]
         },
         {
-          heading: "الأطفال",
-          body: [
-            "نواة ليس مخصّصاً لمن هم دون الثالثة عشرة، ولا نجمع معلوماتهم عن قصد.",
-          ],
+          "heading": "الإعلانات",
+          "body": [
+            "تعرض النسخة المجانية إعلانات عبر Google AdMob. وفي المنطقة الاقتصادية الأوروبية والمملكة المتحدة يُطلَب إذنك قبل أي إعلانات مخصّصة، ويمكنك الرفض.",
+            "على iPhone، يطلب نواة إذنك عبر نافذة App Tracking Transparency من Apple قبل استخدام معرّف الإعلانات في جهازك. وفي حال الرفض، تظلّ الإعلانات تظهر من دون هذا المعرّف. ويمكنك تغيير ذلك في أي وقت من إعدادات iPhone، ضمن قسم الخصوصية والأمن ثم التتبّع.",
+            "يزيل اشتراك «نواة بريميوم» الإعلانات تمامًا."
+          ]
         },
         {
-          heading: "التغييرات",
-          body: [
-            "إذا تغيّرت هذه السياسة بشكل يهمّك، سنخبرك داخل التطبيق بدل تعديل هذه الصفحة بصمت.",
-          ],
+          "heading": "أين تُخزَّن، ولكم من الوقت",
+          "body": [
+            "تُخزَّن البيانات على بنية Supabase في المملكة المتحدة (لندن، eu-west-2). ويعالج بعض مزوّدي الخدمات المذكورين أعلاه هذه البيانات في دول أخرى، لذا تُعالَج معلوماتك خارج بلد إقامتك. ونحتفظ بها ما دام حسابك قائمًا.",
+            "عند حذف حسابك، تُحذَف بياناتك. يمكنك مراجعة صفحة حذف الحساب لمعرفة ما يُحذَف بالضبط وما يُحتفَظ به لفترة قصيرة."
+          ]
         },
+        {
+          "heading": "حقوقك",
+          "body": [
+            "يمكنك الاطلاع على معلوماتك أو تصحيحها أو تصديرها أو حذفها في أي وقت. الحذف متاح داخل التطبيق ضمن «الملف الشخصي»، وعبر البريد الإلكتروني إن تعذّر عليك الوصول إلى التطبيق.",
+            "يمكنك سحب موافقتك في أي وقت بحذف حسابك من «الملف الشخصي»، ضمن «إجراءات الحساب». ولا يتطلّب ذلك خطوات أكثر مما تطلّبه التسجيل.",
+            "في حال وجودك في بلد لديه قانون لحماية البيانات، بما في ذلك اللائحة العامة لحماية البيانات في الاتحاد الأوروبي والمملكة المتحدة (GDPR)، ونظام حماية البيانات الشخصية في المملكة العربية السعودية، وقانون حماية البيانات الشخصية المصري (القانون رقم ١٥١ لسنة ٢٠٢٠)، فهذه الحقوق تنطبق عليك وسنحترمها."
+          ]
+        },
+        {
+          "heading": "الأطفال",
+          "body": [
+            "نواة ليس مخصّصًا للأطفال دون ١٣ عامًا، ولا نجمع معلوماتهم عن قصد."
+          ]
+        },
+        {
+          "heading": "التغييرات",
+          "body": [
+            "إذا تغيّرت هذه السياسة بشكل يهمّك، سنخبرك داخل التطبيق بدل تعديل هذه الصفحة بصمت."
+          ]
+        }
       ],
-      contactHeading: "أسئلة",
-      contactBody: "اكتبي إلى contact-us@nawahapp.net وسيردّ عليك إنسان.",
-      contactEmail: "contact-us@nawahapp.net",
+      "contactHeading": "أسئلة",
+      "contactBody": "يمكنك الكتابة إلى contact-us@nawahapp.net وسيردّ عليك إنسان.",
+      "contactEmail": "contact-us@nawahapp.net"
     },
-
     deleteAccount: {
       eyebrow: "بياناتك",
       title: "حذف حسابك",
