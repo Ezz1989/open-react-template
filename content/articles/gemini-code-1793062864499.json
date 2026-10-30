@@ -1,0 +1,591 @@
+{
+  "cluster": "father_expansion",
+  "slug": "infant-vaccination-schedule-father-guide",
+  "primaryKeyword": "جدول تطعيمات الرضيع",
+  "keywords": [
+    "تطعيمات الرضيع",
+    "عدد تطعيمات الرضيع",
+    "مواعيد تطعيمات الرضيع",
+    "متى تبدا تطعيمات الرضيع",
+    "ماهي تطعيمات الرضيع"
+  ],
+  "imageQuery": "father holding newborn baby tiny hand close up warm light",
+  "related": [
+    "/ar/father/soothing-crying-baby",
+    "/ar/father/safe-sleep-setup",
+    "/ar/articles/newborn_admin/registering-newborn-in-egypt",
+    "/ar/articles/newborn_admin/newborn-registration-saudi-arabia"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأب",
+    "en": "Father's Guide"
+  },
+  "title": {
+    "ar": "جدول تطعيمات الرضيع: دوركَ في متابعة المواعيد وتخفيف ألم طفلكَ",
+    "en": "Infant vaccination schedule: your role in tracking appointments and easing your baby's pain"
+  },
+  "metaTitle": {
+    "ar": "جدول تطعيمات الرضيع ودور الأب في تخفيف الألم | نواة",
+    "en": "Infant Vaccination Schedule & Father's Guide | Nawah"
+  },
+  "description": {
+    "ar": "تعرّف على جدول تطعيمات الرضيع في عامه الأول، وكيف تحجز المواعيد وتحمل طفلكَ أثناء الحقن وتخفف ألمه وحرارته بخطوات عملية.",
+    "en": "Learn the infant vaccination schedule for the first year, and how to track appointments, hold your baby during shots, and ease fever and pain."
+  },
+  "standfirst": {
+    "ar": "دليل عملي يضع بين يديكَ مواعيد اللقاحات الأساسية في العام الأول، وخطوات واضحة لتهدئة رضيعكَ وتخفيف حرارته بعد كل زيارة.",
+    "en": "A practical guide giving you the essential first-year vaccine appointments and clear steps to soothe your baby and reduce fever after every visit."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "جدول تطعيمات الرضيع في العام الأول ودوركَ في تنظيمه",
+        "en": "Infant vaccination schedule in the first year and your role in organizing it"
+      },
+      "body": [
+        {
+          "ar": "يبدأ جدول تطعيمات الرضيع منذ الساعات الأولى بعد الولادة ويمتد عبر محطات محددة خلال العام الأول لحماية طفلكَ من الأمراض المعدية الخطيرة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن إعطاء اللقاحات في وقتها المحدد يوفر لطفلكَ أفضل حماية ممكنة منذ أسابيعه الأولى. دوركَ الأساسي كأب هو تولي مسؤولية التواريخ والتنسيق وحمل طفلكَ أثناء الجلسة لتخفيف العبء الجسدي والنفسي عن شريكتكَ.",
+          "en": "The infant vaccination schedule begins in the first hours after birth and continues through set milestones during the first year to protect your baby from serious infectious diseases. According to the UK National Health Service (NHS), giving vaccines on time provides your child with the best possible protection from their earliest weeks. Your primary role as a father is taking charge of dates, coordination, and holding your baby during the session to ease the physical and emotional load on your partner."
+        },
+        {
+          "ar": "في الأسابيع الأولى بعد الولادة، تكون الأم في مرحلة تعافٍ جسدي وإرهاق مستمر بسبب الرضاعة الليلية المتكررة. عندما تستلم أنتَ ملف التطعيمات بالكامل، وتضبط التذكيرات على هاتفكَ، وتجهز البطاقة الصحية قبل الموعد بليلة، فإنكَ ترفع عن زوجتكَ عبئاً ذهنياً كبيراً وتضمن عدم تفويت أي جرعة أساسية.",
+          "en": "In the first weeks after birth, the mother is in physical recovery and constant exhaustion from frequent night feedings. When you take full ownership of the vaccination file, set reminders on your phone, and prepare the health card the night before the appointment, you lift a major mental load off your wife and ensure no essential dose is missed."
+        },
+        {
+          "ar": "يُعرّف التطعيم طبياً بأنه مستحضر حيوي آمن يدرب الجهاز المناعي لرضيعكَ على التعرف على الفيروسات والبكتيريا ومقاومتها قبل أن تسبب المرض الفعلي. وفقاً لوزارة الصحة السعودية (MOH)، تشمل محطات العام الأول زيارات رئيسية عند الولادة، وعند عمر شهرين، وأربعة أشهر، وستة أشهر، وتسعة أشهر، واثني عشر شهراً. تحقّق من وزارة الصحة في بلدكَ قبل التنفيذ لمطابقة التواريخ الدقيقة المعتمدة في مكتب الصحة أو المركز الصحي التابع لكَ.",
+          "en": "Vaccination is medically defined as a safe biological preparation that trains your infant's immune system to recognize and fight viruses and bacteria before they cause actual illness. According to the Saudi Ministry of Health (MOH), first-year milestones include main visits at birth, two months, four months, six months, nine months, and twelve months of age. Check with the Ministry of Health in your country before acting to match the exact dates approved at your local health office or medical center."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "عمر الرضيع",
+            "en": "Infant Age"
+          },
+          {
+            "ar": "التطعيمات الأساسية (وفقاً لجدول وزارة الصحة السعودية MOH)",
+            "en": "Core Vaccines (per Saudi MOH Schedule)"
+          },
+          {
+            "ar": "مهمتكَ قبل الزيارة وأثناءها",
+            "en": "Your Task Before and During the Visit"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "عند الولادة",
+              "en": "At birth"
+            },
+            {
+              "ar": "لقاح الكبدي ب (HepB)",
+              "en": "Hepatitis B vaccine (HepB)"
+            },
+            {
+              "ar": "التأكد من تسجيل الجرعة في شهادة التطعيمات قبل الخروج من المستشفى",
+              "en": "Confirm the dose is recorded on the vaccination card before hospital discharge"
+            }
+          ],
+          [
+            {
+              "ar": "عمر ٢ شهر",
+              "en": "2 months"
+            },
+            {
+              "ar": "السل (BCG)، الثلاثي البكتيري (DTaP)، الكبدي ب، المستديمة النزلية (Hib)، العقدية الرئوية (PCV)، شلل الأطفال المعطل (IPV)، فيروس الروتا (RV)",
+              "en": "BCG, DTaP, HepB, Hib, PCV, IPV, Rotavirus (RV)"
+            },
+            {
+              "ar": "شراء خافض حرارة مناسب للرضع بوصفة الطبيب وتجهيز ملابس قطنية فضفاضة",
+              "en": "Buy infant-appropriate fever reducer per doctor's advice and prepare loose cotton clothes"
+            }
+          ],
+          [
+            {
+              "ar": "عمر ٤ أشهر",
+              "en": "4 months"
+            },
+            {
+              "ar": "الثلاثي البكتيري (DTaP)، الكبدي ب، المستديمة النزلية (Hib)، العقدية الرئوية (PCV)، شلل الأطفال المعطل (IPV)، شلل الأطفال الفموي (OPV)، فيروس الروتا (RV)",
+              "en": "DTaP, HepB, Hib, PCV, IPV, OPV, Rotavirus (RV)"
+            },
+            {
+              "ar": "حمل الرضيع على ركبتكَ أثناء الحقن ومراقبة موضع الإبرة لمدة ٢ إلى ٣ أيام",
+              "en": "Hold the baby on your knee during the shot and monitor the needle site for 2 to 3 days"
+            }
+          ],
+          [
+            {
+              "ar": "عمر ٦ أشهر",
+              "en": "6 months"
+            },
+            {
+              "ar": "السل (إن لم يُعطَ سابقاً)، الثلاثي البكتيري (DTaP)، الكبدي ب، المستديمة النزلية (Hib)، العقدية الرئوية (PCV)، شلل الأطفال المعطل والفموي",
+              "en": "BCG (if not given earlier), DTaP, HepB, Hib, PCV, IPV and OPV"
+            },
+            {
+              "ar": "تهدئة الطفل بعد الحقن مباشرة ومساعدة الأم في إرضاعه لتخفيف الألم",
+              "en": "Soothe the baby immediately after the shot and help the mother feed them to ease pain"
+            }
+          ],
+          [
+            {
+              "ar": "عمر ٩ أشهر",
+              "en": "9 months"
+            },
+            {
+              "ar": "الحصبة المفردة (Measles)، الحمى الشوكية الرباعي المدمج (MCV4)",
+              "en": "Single Measles vaccine, Meningococcal conjugate (MCV4)"
+            },
+            {
+              "ar": "مراجعة السجل الطبي للتأكد من عدم تفويت أي جرعة سابقة",
+              "en": "Review the medical record to ensure no previous dose was missed"
+            }
+          ],
+          [
+            {
+              "ar": "عمر ١٢ شهراً",
+              "en": "12 months"
+            },
+            {
+              "ar": "العقدية الرئوية (PCV)، شلل الأطفال الفموي (OPV)، الحمى الشوكية (MCV4)، الثلاثي الفيروسي (MMR)",
+              "en": "PCV, OPV, MCV4, MMR (Measles, Mumps, Rubella)"
+            },
+            {
+              "ar": "تشتيت انتباه طفلكَ بلعبة مفضلة أثناء الوخز وحجز موعد عمر ١٨ شهراً",
+              "en": "Distract your child with a favorite toy during the prick and book the 18-month visit"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "متى تبدا تطعيمات الرضيع وكيف تستعد لأول زيارة",
+        "en": "When infant vaccinations start and how to prepare for the first visit"
+      },
+      "body": [
+        {
+          "ar": "تبدأ تطعيمات الرضيع منذ يوم الولادة مباشرة بالجرعة التأسيسية في المستشفى، وتليها الزيارات الدورية في المراكز الصحية بدءاً من الأسبوع الثامن أو الشهر الثاني من عمر الطفل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُعد الأسبوع الثامن هو الموعد الأول لمجموعة اللقاحات المركبة، بينما تعتمد وزارة الصحة السعودية (MOH) والعيادات في مصر نظام الزيارة الأولى عند الولادة تليها زيارة الشهر الثاني.",
+          "en": "Infant vaccinations start directly on the day of birth with the initial dose at the hospital, followed by regular clinic visits starting at the eighth week or second month of the child's life. According to the NHS, week eight is the first appointment for combined vaccines, while the Saudi Ministry of Health (MOH) and clinics in Egypt follow a birth dose followed by the two-month visit."
+        },
+        {
+          "ar": "يقع على عاتقكَ في الأيام الأولى بعد الولادة استلام الدفتر الصحي أو البطاقة الورقية الخاصة بالتحصينات قبل مغادرة المستشفى. تأكد بنفسكَ من توقيع الطبيب أو الممرضة أمام جرعة التهاب الكبد الفيروسي ب، واحتفظ بهذه البطاقة في مكان ثابت وواضح في المنزل لأنكَ ستحتاج إليها في كل زيارة قادمة وفي إجراءات تسجيل الطفل لاحقاً.",
+          "en": "In the first days after birth, it is your responsibility to collect the health booklet or paper immunization card before leaving the hospital. Check personally that the doctor or nurse signed next to the Hepatitis B dose, and keep this card in a fixed, visible place at home because you will need it at every upcoming visit and for future school registration."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن الاستعداد المبكر ليوم التطعيم وعدم التسرع في الوصول إلى العيادة يمنع انتقال التوتر والقلق إليكَ وإلى طفلكَ. يمكنك تجهيز كل ما يلزم في الليلة السابقة باتباع خطوات مرتبة تضمن هدوء الزيارة.",
+          "en": "According to the NHS, preparing early for vaccination day and not rushing to the clinic prevents stress and anxiety from passing to you and your baby. You can prepare everything needed the night before by following ordered steps that ensure a calm visit."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "ألبس رضيعكَ ملابس قطنية واسعة سهلة الخلع والارتداء من منطقة الفخذين، لأن أغلب حقن الرضع تُعطى في عضلة الفخذ الأمامية.",
+          "en": "Dress your infant in loose cotton clothes that are easy to remove around the thighs, as most infant injections are given in the front thigh muscle."
+        },
+        {
+          "ar": "ضع دفتر التطعيمات وإثبات الهوية في حقيبة الخروج منذ المساء حتى لا تنساهما في الصباح.",
+          "en": "Place the vaccination booklet and ID in the outing bag the evening before so you do not forget them in the morning."
+        },
+        {
+          "ar": "تأكد من وجود خافض حرارة مخصص للرضع (شراب الباراسيتامول) في ثلاجة المنزل، واسأل الصيدلي أو الطبيب مسبقاً عن الجرعة المناسبة لوزن طفلكَ.",
+          "en": "Make sure infant liquid paracetamol is at home, and ask the pharmacist or doctor in advance about the right dose for your baby's weight."
+        },
+        {
+          "ar": "اخرج من المنزل قبل الموعد بوقتٍ كافٍ لتجنب الزحام، فهدوء أعصابكَ ينعكس مباشرة على نبضات قلبك عندما تحمل طفلكَ بين ذراعيكَ.",
+          "en": "Leave home well ahead of the appointment to avoid rushing, as your calm nerves directly affect your heart rate when you hold your baby in your arms."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "ماهي تطعيمات الرضيع وكيف تحمي جسمه الصغير",
+        "en": "What infant vaccinations are and how they protect their small body"
+      },
+      "body": [
+        {
+          "ar": "تشمل تطعيمات الرضيع مجموعة من اللقاحات الفموية والعضلية التي تبني مناعة مبكرة ضد أخطر الأمراض البكتيرية والفيروسية في سن الطفولة. وفقاً لوزارة الصحة السعودية (MOH)، تنقسم هذه اللقاحات إلى لقاحات حية مضعفة مثل لقاح فيروس الروتا والثلاثي الفيروسي، ولقاحات غير نشطة أو فرعية مثل شلل الأطفال المعطل والسعال الديكي والتهاب الكبد ب.",
+          "en": "Infant vaccinations include a set of oral and intramuscular vaccines that build early immunity against the most dangerous bacterial and viral childhood diseases. According to the Saudi Ministry of Health (MOH), these vaccines are divided into live attenuated vaccines like rotavirus and MMR, and inactivated or subunit vaccines like inactivated polio, whooping cough, and hepatitis B."
+        },
+        {
+          "ar": "يُعرّف اللقاح غير النشط بأنه مستحضر يحتوي على أجزاء ميتة أو غير فعالة من الميكروب لا تسبب المرض أبداً، لكنها تحفز جسم الرضيع على إنتاج أجسام مضادة تحميه عند التعرض للعدوى الحقيقية. وفقاً لوزارة الصحة السعودية (MOH)، تحتاج هذه اللقاحات إلى عدة جرعات متتالية وجرعات تنشيطية مع مرور الوقت لضمان بقاء المناعة قوية ومستمرة.",
+          "en": "An inactivated vaccine is defined as a preparation containing dead or inactive parts of a microbe that never cause illness, but stimulate the infant's body to produce antibodies that protect them when exposed to real infection. According to the Saudi MOH, these vaccines require several sequential doses and booster shots over time to ensure immunity remains strong and continuous."
+        },
+        {
+          "ar": "قد تسمع في العيادة أسماء طبية مركبة، ومن المفيد لكَ كأب أن تعرف وظيفة كل لقاح يُعطى لطفلكَ لتكون مطمئناً أثناء حديثكَ مع الطبيب أو الممرضة.",
+          "en": "You may hear combined medical names at the clinic, and it helps you as a father to know the function of each vaccine given to your child so you feel reassured when speaking with the doctor or nurse."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اللقاح السداسي أو الثلاثي البكتيري المدمج: يحمي طفلكَ من الخناق (الدفتيريا)، والكزاز (التيتانوس)، والسعال الديكي، والتهاب الكبد ب، وشلل الأطفال، والمستديمة النزلية ب.",
+          "en": "The 6-in-1 or combined bacterial vaccine: protects your baby against diphtheria, tetanus, whooping cough, hepatitis B, polio, and Haemophilus influenzae type b."
+        },
+        {
+          "ar": "لقاح فيروس الروتا (RV): يُعطى على شكل نقط في الفم، ويحمي الرضيع من النزلات المعوية الحادة التي تسبب الإسهال والقيء الشديدين.",
+          "en": "Rotavirus vaccine (RV): given as oral drops, protecting the infant against severe stomach bugs that cause heavy diarrhea and vomiting."
+        },
+        {
+          "ar": "لقاح المكورات الرئوية (PCV): يحمي من بكتيريا العقدية الرئوية التي قد تسبب التهاب الرئة الحاد والتهاب السحايا.",
+          "en": "Pneumococcal vaccine (PCV): protects against pneumococcal bacteria that can cause severe pneumonia and meningitis."
+        },
+        {
+          "ar": "لقاح الثلاثي الفيروسي (MMR): يُعطى عند إتمام العام الأول للوقاية من الحصبة والنكاف والحصبة الألمانية.",
+          "en": "MMR vaccine: given at one year of age to protect against measles, mumps, and rubella."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "عدد تطعيمات الرضيع ومواعيد الجرعات الأساسية",
+        "en": "Number of infant vaccinations and schedule of core doses"
+      },
+      "body": [
+        {
+          "ar": "يبلغ عدد زيارات تطعيمات الرضيع الأساسية في عامه الأول نحو ٦ محطات رئيسية حسب جدول وزارة الصحة السعودية (MOH) والنظام المتبع في مصر، أو ٤ محطات مجمعة حتى عمر العام في نظام هيئة الخدمات الصحية البريطانية (NHS). في الزيارة الواحدة، قد يتلقى طفلكَ أكثر من لقاح في الوقت نفسه، إما عن طريق نقط الفم أو عبر حقنتين في الفخذين.",
+          "en": "The number of core infant vaccination visits in the first year is around 6 main milestones under the Saudi MOH schedule and the system followed in Egypt, or 4 grouped milestones up to age one under the UK NHS schedule. In a single visit, your baby may receive more than one vaccine at the same time, either via oral drops or two injections in the thighs."
+        },
+        {
+          "ar": "يقلق كثير من الآباء عند رؤية الطفل يتلقى أكثر من وخزة في جلسة واحدة، ويتساءلون إن كان ذلك يثقل جهاز المناعة. تدمج الأنظمة الصحية الحديثة عدة لقاحات في حقنة واحدة (مثل اللقاح السداسي أو الخماسي) لتقليل عدد الوخزات مع الحفاظ على الحماية الكاملة في أبكر وقت ممكن.",
+          "en": "Many fathers worry when seeing their baby receive more than one prick in a single session, wondering if this overloads the immune system. Modern health systems combine several vaccines into a single injection (such as the 6-in-1 or 5-in-1 vaccine) to reduce the number of pricks while keeping full protection as early as possible."
+        },
+        {
+          "ar": "وفقاً لوزارة الصحة السعودية (MOH)، فإن تكرار نفس اللقاح في عمر شهرين وأربعة أشهر وستة أشهر ليس زيادة في العدد، بل هو ضروري لبناء خط دفاع مناعي مكتمل لا يتحقق بجرعة واحدة. دوركَ هنا هو مراجعة البطاقة مع الممرضة قبل الخروج من الغرفة للتأكد من تدوين جميع الجرعات المقررة لتلك الزيارة، ومعرفة تاريخ الزيارة التالية باليوم والشهر.",
+          "en": "According to the Saudi MOH, repeating the same vaccine at two, four, and six months is not an excess in number, but is necessary to build a complete immune defense line that a single dose cannot achieve. Your role here is reviewing the card with the nurse before leaving the room to confirm all scheduled doses for that visit are logged, and noting the exact day and month of the next visit."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src3",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "مواعيد تطعيمات الرضيع عند التأخر أو المرض العارض",
+        "en": "Infant vaccination appointments when delayed or during minor illness"
+      },
+      "body": [
+        {
+          "ar": "يجب الالتزام بمواعيد تطعيمات الرضيع في وقتها المحدد، ولكن إذا فاتكَ موعد إحدى الجرعات لأي سبب، يمكنك الاتصال بالطبيب أو المركز الصحي فوراً لجدولة موعد تعويضي دون الحاجة إلى إعادة الجدول من البداية. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يظل بإمكان طفلكَ استكمال معظم اللقاحات الفائتة بأمان متى راجعتَ العيادة.",
+          "en": "Infant vaccination appointments should be kept on time, but if you miss a dose appointment for any reason, you can contact the doctor or health center immediately to book a catch-up appointment without restarting the schedule from the beginning. According to the NHS, your child can still safely catch up on most missed vaccines whenever you visit the clinic."
+        },
+        {
+          "ar": "كثيراً ما يتردد الزوجان في الذهاب إلى الموعد إذا لاحظا عطساً خفيفاً أو رشحاً بسيطاً على الرضيع في صباح يوم التطعيم. وفقاً لوزارة الصحة السعودية (MOH)، فإن الأمراض العارضة البسيطة مثل الزكام الخفيف، أو التهاب الأذن الوسطى البسيط، أو الإسهال الخفيف لا تُعد موانع لتطعيم الطفل ما دام في حالة عامة جيدة ودون حمى شديدة.",
+          "en": "Couples often hesitate to go to the appointment if they notice a mild sneeze or slight runny nose on the baby the morning of vaccination day. According to the Saudi MOH, minor acute illnesses such as a mild cold, mild middle ear infection, or light diarrhea are not contraindications to vaccinating the child as long as they are generally well and without high fever."
+        },
+        {
+          "ar": "بدلاً من إلغاء الموعد من تلقاء نفسكَ وتأخير حماية طفلكَ، اذهب بالطفل إلى المركز الصحي وأخبر الطبيب الفاحص بالأعراض التي لاحظتها. يفحص الطبيب حرارة الطفل وصدره ويقرر بشكل قاطع إن كان سيأخذ الجرعة في يومها أم يؤجلها بضعة أيام.",
+          "en": "Instead of canceling the appointment on your own and delaying your baby's protection, take the baby to the health center and tell the examining doctor about the symptoms you noticed. The doctor checks the baby's temperature and chest and decides definitively whether to give the dose that day or postpone it for a few days."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src5"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "دوركَ في حمل طفلكَ وتخفيف ألمه أثناء تطعيمات الرضيع",
+        "en": "Your role in holding your baby and easing pain during infant vaccinations"
+      },
+      "body": [
+        {
+          "ar": "تساعد طريقة حملكَ لطفلكَ وتهدئتك له أثناء إعطاء تطعيمات الرضيع على تقليل ألمه وتوتره بشكل مباشر خلال لحظة الوخز. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُنصح بوضع طفلكَ على ركبتكَ واحتضانه بثبات أثناء الحقن، وإذا كانت الأم متعبة أو لا تتحمل رؤية الإبر، فإن قيامكَ أنتَ بهذه المهمة يمنح طفلكَ الأمان الذي يحتاج إليه.",
+          "en": "How you hold and soothe your baby while infant vaccinations are given directly helps reduce their pain and stress during the moment of the prick. According to the NHS, it is recommended to hold your child on your knee securely during the injection, and if the mother is tired or uncomfortable seeing needles, taking on this task yourself gives your baby the security they need."
+        },
+        {
+          "ar": "يشعر الرضيع بنبرة صوتكَ وثبات يديكَ، فكلما كنتَ هادئاً ومتماسكاً، هدأ طفلكَ أسرع بعد انتهاء الوخزة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، قد يبكي الرضيع لفترة قصيرة بعد التطعيم، لكنه سرعان ما يشعر بالتحسن والراحة بعد ضمّه إلى صدركَ واحتضانه بحنان.",
+          "en": "An infant senses the tone of your voice and the steadiness of your hands; the calmer and steadier you are, the faster your baby settles after the prick ends. According to the NHS, a baby may cry for a little while after a vaccination, but they should feel better after a warm cuddle against your chest."
+        },
+        {
+          "ar": "لكي تمر دقائق الغرفة الطبية بسلام ودون ارتباك، طبّق هذه الخطوات العملية أثناء وجودكَ مع الممرضة.",
+          "en": "So that the minutes in the medical room pass peacefully and without confusion, apply these practical steps while you are with the nurse."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "أجلس طفلكَ على ركبتكَ وضمّ ذراعيه وجزءه العلوي إلى صدركَ برفق، مع ترك الفخذ مكشوفاً ومرتخياً للممرضة دون شدّ عضلات ساقه.",
+          "en": "Seat your baby on your knee and gently hold their arms and upper body against your chest, leaving the thigh exposed and relaxed for the nurse without tensing their leg muscles."
+        },
+        {
+          "ar": "إذا كان طفلكَ يتلقى لقاحاً فموياً (مثل الروتا) مع الحقن، انتبه لأن الممرضة تعطي النقط الحلوة أولاً، ما يساعد على تهدئة الطفل قبل الوخز.",
+          "en": "If your baby is receiving an oral vaccine (like rotavirus) along with injections, note that the nurse gives the sweet drops first, which helps calm the baby before the prick."
+        },
+        {
+          "ar": "تحدث إلى طفلكَ بصوت هادئ ومنخفض، أو لوّح له بلعبة صغيرة ملونة لتشتيت بصره في اللحظة التي تلمس فيها الإبرة جلده.",
+          "en": "Speak to your baby in a calm, low voice, or wave a small colorful toy to distract their gaze the moment the needle touches their skin."
+        },
+        {
+          "ar": "ارفعه إلى صدركَ فور انتهاء الحقن وهدهده، وساعد زوجتكَ على إرضاعه في غرفة الانتظار إن رغبت، فالرضاعة والتلامس الجسدي يخففان الألم سريعاً.",
+          "en": "Lift them to your chest immediately after the shot ends and rock them, and help your wife feed them in the waiting room if she wishes, as feeding and skin-to-skin contact quickly ease pain."
+        },
+        {
+          "ar": "انتظر داخل المركز الصحي بعد التطعيم للاطمئنان على طفلكَ قبل ركوب السيارة والعودة إلى المنزل.",
+          "en": "Wait inside the health center after the vaccination to check on your baby before getting in the car and heading home."
+        }
+      ],
+      "cites": [
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "تخفيف الحرارة والاحمرار في المنزل بعد جدول تطعيمات الرضيع",
+        "en": "Relieving fever and redness at home after the infant vaccination schedule"
+      },
+      "body": [
+        {
+          "ar": "يُعد الاحمرار البسيط وارتفاع درجة الحرارة بعد جلسات جدول تطعيمات الرضيع استجابة طبيعية ومؤقتة تدل على تفاعل جهاز المناعة مع اللقاح. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، قد تظل منطقة دخول الإبرة مؤلمة وحمراء لمدة ٢ إلى ٣ أيام ثم تختفي من تلقاء نفسها، وقد يبدو الرضيع منزعجاً أو يصاب بارتفاع في درجة الحرارة.",
+          "en": "Mild redness and a high temperature after infant vaccination schedule sessions are a normal, temporary response showing the immune system is reacting to the vaccine. According to the NHS, the area where the needle goes in can be sore and red for 2 to 3 days and then go away on its own, and the baby may feel irritable or develop a fever."
+        },
+        {
+          "ar": "في الليلة التي تلي التطعيم، غالباً ما يستيقظ الرضيع أكثر من المعتاد بسبب ألم الفخذ أو الدفء الناتج عن الحمى. هنا يظهر دوركَ الحقيقي في المنزل؛ تولَّ أنتَ نوبات التهدئة وتغيير الحفاض ومراقبة الحرارة في تلك الليلة لتتمكن زوجتكَ من أخذ قسط من النوم.",
+          "en": "On the night following vaccination, the infant often wakes more than usual due to thigh soreness or warmth from a fever. Here your real role at home shines; take over soothing shifts, diaper changes, and temperature checks that night so your wife can get some sleep."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يمكنك التعامل مع ارتفاع حرارة طفلكَ وانزعاجه في المنزل عبر إجراءات واضحة وآمنة.",
+          "en": "According to the NHS, you can manage your baby's high temperature and discomfort at home through clear, safe measures."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "خفف طبقات الملابس والأغطية عن طفلكَ، ولا تلفّه ببطانيات ثقيلة حتى يتمكن جسمه من تصريف الحرارة الزائدة.",
+          "en": "Reduce layers of clothes and blankets on your baby, and do not wrap them in heavy blankets so their body can release excess heat."
+        },
+        {
+          "ar": "احرص على حصول رضيعكَ على كميات كافية من السوائل عبر الرضاعة المتكررة لمنع الجفاف وتهدئة عطشه.",
+          "en": "Ensure your infant gets plenty to drink through frequent feedings to prevent dehydration and soothe their thirst."
+        },
+        {
+          "ar": "أعطِ طفلكَ شراب الباراسيتامول أو الإيبوبروفين المخصص للأطفال لخفض الحرارة وتسكين الألم، والتزم تماماً بالجرعة المدونة في النشرة أو المحددة من الصيدلي أو الطبيب.",
+          "en": "Give your child liquid paracetamol or ibuprofen made for children to bring down temperature and ease pain, strictly following the dose in the leaflet or set by the pharmacist or doctor."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُوصى بإعطاء الرضيع شراب الباراسيتامول الوقائي بعد تلقي لقاح التهاب السحايا (MenB) عند عمر ٨ أسابيع و١٢ أسبوعاً لتقليل خطر الإصابة بالحمى.",
+          "en": "According to the NHS, it is recommended to give your baby liquid paracetamol after the MenB vaccine at 8 weeks and 12 weeks old to reduce the risk of a high temperature."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُمنع منعاً باتاً إعطاء الأسبرين للأطفال دون سن ١٦ عاماً إلا بوصفة طبية صريحة من الطبيب.",
+          "en": "According to the NHS, never give aspirin to children under 16 years old unless explicitly prescribed by a doctor."
+        }
+      ],
+      "cites": [
+        "src2"
+      ]
+    }
+  ],
+  "redFlags": {
+    "heading": {
+      "ar": "متى تتصل بالطبيب أو تذهب إلى الطوارئ فوراً بعد التطعيم",
+      "en": "When to call the doctor or go to emergency care immediately after vaccination"
+    },
+    "intro": {
+      "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تُعد ردود الفعل التحسسية الشديدة تجاه اللقاحات نادرة جداً، وإذا حدثت فإنها تظهر غالباً خلال دقائق من الحقن ويكون الفريق الطبي مدرباً على علاجها فوراً. بعد العودة إلى المنزل، تواصل مع الطبيب أو اطلب الرعاية الطبية العاجلة إذا لاحظتَ أياً من العلامات التالية:",
+      "en": "According to the NHS, serious allergic reactions to vaccinations are very rare, and if they happen they usually occur within minutes of the injection, where the medical team is trained to treat them immediately. After returning home, contact a doctor or seek urgent medical care if you notice any of the following signs:"
+    },
+    "items": [
+      {
+        "ar": "صعوبة في التنفس، أو صدور صوت صفير مستمر، أو تورم في الوجه والشفتين.",
+        "en": "Difficulty breathing, continuous wheezing, or swelling of the face and lips."
+      },
+      {
+        "ar": "ارتفاع شديد في درجة الحرارة لا ينخفض رغم تخفيف الملابس وإعطاء خافض الحرارة الموصوف.",
+        "en": "A very high fever that does not come down despite removing layers and giving the prescribed fever reducer."
+      },
+      {
+        "ar": "نوبات تشنج، أو خمول شديد يجعل إيقاظ الرضيع للرضاعة أمراً صعباً.",
+        "en": "Seizures (fits), or extreme lethargy that makes waking the infant for feeding difficult."
+      },
+      {
+        "ar": "بكاء حاد ومتواصل لساعات طويلة يختلف عن بكائه المعتاد ولا يهدأ بالاحتضان أو المسكن.",
+        "en": "High-pitched, continuous crying for hours that differs from their usual cry and does not settle with cuddling or pain relief."
+      },
+      {
+        "ar": "زيادة التورم والاحمرار في موضع الحقنة بشكل كبير بعد مرور أكثر من ٣ أيام على التطعيم.",
+        "en": "Swelling and redness at the injection site that worsens significantly after more than 3 days have passed since vaccination."
+      }
+    ],
+    "cites": [
+      "src2"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "ابدأ دوركَ كشريك حاضر من شهور الحمل في تطبيق نواة",
+      "en": "Start your role as an active partner during pregnancy in the Nawah app"
+    },
+    "body": {
+      "ar": "الاستعداد لمسؤوليات الأبوة وتخفيف العبء عن شريكتكَ يبدأ قبل وصول طفلكما. يتيح لكَ وضع الشريك في تطبيق نواة ربط هاتفكَ بحساب زوجتكَ عبر كود الدعوة، لتتابع معها نفس أسبوع الحمل وحجم الجنين على شاشتكَ الخاصة، ويصلكَ إشعار فوري في كل مرة تسجل فيها جلسة لعدّ ركلات الجنين، مع قائمة مواعيد طبية مشتركة بينكما.",
+      "en": "Preparing for fatherhood responsibilities and easing the load on your partner starts before your baby arrives. Partner mode in the Nawah app lets you link your phone to your wife's account via an invite code, so you see the same pregnancy week and baby size on your own screen, receive an instant push notification each time she logs a kick-counting session, and share one doctor appointments list."
+    },
+    "button": {
+      "ar": "حمّل نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "متى تبدا تطعيمات الرضيع؟",
+        "en": "When do infant vaccinations start?"
+      },
+      "a": {
+        "ar": "تبدأ تطعيمات الرضيع منذ اليوم الأول للولادة في المستشفى بتلقي الجرعة التأسيسية (مثل لقاح التهاب الكبد ب وفقاً لجدول وزارة الصحة السعودية MOH). بعد ذلك تبدأ الزيارات الدورية للمركز الصحي عند عمر شهرين (أو ٨ أسابيع وفقاً لنظام هيئة الخدمات الصحية البريطانية NHS) وتستمر بانتظام طوال العام الأول.",
+        "en": "Infant vaccinations start on the first day of birth at the hospital with the initial dose (such as the Hepatitis B vaccine per the Saudi MOH schedule). After that, regular clinic visits begin at two months of age (or 8 weeks under the UK NHS system) and continue regularly throughout the first year."
+      },
+      "cites": [
+        "src1",
+        "src3"
+      ]
+    },
+    {
+      "q": {
+        "ar": "ماهي تطعيمات الرضيع الأساسية في السنة الأولى؟",
+        "en": "What are the core infant vaccinations in the first year?"
+      },
+      "a": {
+        "ar": "وفقاً لوزارة الصحة السعودية (MOH)، تشمل التطعيمات الأساسية في العام الأول لقاح الدرن (السل)، والتهاب الكبد ب، واللقاح الثلاثي البكتيري (الدفتيريا والكزاز والسعال الديكي)، والمستديمة النزلية، والمكورات الرئوية، وشلل الأطفال (الفموي والمعطل)، وفيروس الروتا، ثم لقاح الحصبة والحمى الشوكية والثلاثي الفيروسي عند إتمام العام.",
+        "en": "According to the Saudi MOH, core vaccinations in the first year include BCG (tuberculosis), Hepatitis B, DTaP (diphtheria, tetanus, and whooping cough), Hib, pneumococcal (PCV), polio (oral and inactivated), and rotavirus, followed by measles, meningococcal, and MMR vaccines around one year of age."
+      },
+      "cites": [
+        "src3"
+      ]
+    },
+    {
+      "q": {
+        "ar": "كم عدد تطعيمات الرضيع في العام الأول؟",
+        "en": "How many infant vaccinations are there in the first year?"
+      },
+      "a": {
+        "ar": "ينقسم جدول العام الأول إلى ٦ محطات زمنية رئيسية وفقاً لجدول وزارة الصحة السعودية (MOH) والنظام المتبع في مصر: عند الولادة، وعمر شهرين، و٤ أشهر، و٦ أشهر، و٩ أشهر، و١٢ شهراً. وفي نظام هيئة الخدمات الصحية البريطانية (NHS)، يتلقى الرضيع جرعاته في ٤ محطات رئيسية عند ٨ أسابيع، و١٢ أسبوعاً، و١٦ أسبوعاً، وعمر سنة.",
+        "en": "The first-year schedule is divided into 6 main time milestones under the Saudi MOH schedule and the system followed in Egypt: at birth, 2 months, 4 months, 6 months, 9 months, and 12 months. Under the UK NHS system, an infant receives doses across 4 main milestones at 8 weeks, 12 weeks, 16 weeks, and 1 year."
+      },
+      "cites": [
+        "src1",
+        "src3"
+      ]
+    },
+    {
+      "q": {
+        "ar": "ماذا أفعل إذا فاتني موعد من مواعيد تطعيمات الرضيع؟",
+        "en": "What should I do if I miss one of the infant vaccination appointments?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، إذا فاتكَ موعد التطعيم لأي ظرف، تواصل مع الطبيب أو المركز الصحي لحجز موعد جديد في أقرب وقت ممكن. لا يحتاج الطفل إلى إعادة اللقاحات من الصفر، بل يستكمل الجرعة الفائتة ويكمل جدوله الطبيعي.",
+        "en": "According to the NHS, if you miss a vaccination appointment for any reason, contact your doctor or health center to book a new appointment as soon as possible. The baby does not need to restart vaccinations from scratch; they simply take the missed dose and continue their normal schedule."
+      },
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "q": {
+        "ar": "هل يؤجل الزكام البسيط جدول تطعيمات الرضيع؟",
+        "en": "Does a mild cold delay the infant vaccination schedule?"
+      },
+      "a": {
+        "ar": "وفقاً لوزارة الصحة السعودية (MOH)، لا تُعد الأمراض الحادة البسيطة مثل الزكام الخفيف أو التهاب الأذن الوسطى البسيط أو الإسهال الخفيف مانعاً من موانع التطعيم. اذهب في موعدكَ المحدد وأخبر الطبيب بالأعراض ليفحص الطفل ويؤكد سلامة إعطائه الجرعة.",
+        "en": "According to the Saudi MOH, minor acute illnesses such as a mild cold, mild middle ear infection, or light diarrhea are not contraindications to vaccination. Go to your scheduled appointment and inform the doctor of the symptoms so they can examine the baby and confirm it is safe to give the dose."
+      },
+      "cites": [
+        "src5"
+      ]
+    },
+    {
+      "q": {
+        "ar": "كم يستمر ألم الفخذ واحمراره بعد تطعيمات الرضيع؟",
+        "en": "How long do thigh pain and redness last after infant vaccinations?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، قد تظل منطقة الحقن مؤلمة وحمراء لمدة تتراوح بين ٢ إلى ٣ أيام بعد التطعيم، ثم تزول هذه الأعراض تلقائياً. يمكنك تخفيف الانزعاج بإلباس طفلكَ ملابس قطنية فضفاضة وإعطائه مسكن الألم الموصوف عند الحاجة.",
+        "en": "According to the NHS, the injection site may remain sore and red for 2 to 3 days after vaccination, and then clear up on its own. You can ease the discomfort by dressing your baby in loose cotton clothes and giving the prescribed pain reliever when needed."
+      },
+      "cites": [
+        "src2"
+      ]
+    },
+    {
+      "q": {
+        "ar": "كيف أخفض حرارة طفلي في الليل بعد التطعيم؟",
+        "en": "How do I bring down my baby's fever at night after vaccination?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، خفف طبقات الملابس والأغطية عن رضيعكَ، وقدّم له رضعات متكررة لترطيب جسمه، وأعطه شراب الباراسيتامول أو الإيبوبروفين المخصص للأطفال حسب الجرعة المحددة لوزنه. وتجنب تماماً إعطاء الأسبرين لأي طفل دون سن ١٦ عاماً.",
+        "en": "According to the NHS, remove extra layers of clothes and blankets from your infant, offer frequent feeds to keep them hydrated, and give child liquid paracetamol or ibuprofen according to the dose set for their weight. Strictly avoid giving aspirin to any child under 16 years old."
+      },
+      "cites": [
+        "src2"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "لقاحات هيئة الخدمات الصحية البريطانية ومواعيدها",
+        "en": "NHS vaccinations and when to have them"
+      },
+      "url": "https://www.nhs.uk/vaccinations/nhs-vaccinations-and-when-to-have-them/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src2",
+      "org": "NHS",
+      "title": {
+        "ar": "نصائح التطعيم للوالدين",
+        "en": "Vaccination tips for parents"
+      },
+      "url": "https://www.nhs.uk/vaccinations/vaccination-tips-for-parents/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src3",
+      "org": "Saudi Ministry of Health (MOH)",
+      "title": {
+        "ar": "جدول التطعيمات الوطني",
+        "en": "National Immunization Schedule"
+      },
+      "url": "https://www.moh.gov.sa/en/HealthAwareness/EducationalContent/HealthTips/Documents/Immunization-Schedule.pdf",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src4",
+      "org": "Saudi Ministry of Health (MOH)",
+      "title": {
+        "ar": "صحة الطفل - التطعيمات",
+        "en": "Child Health - Vaccinations"
+      },
+      "url": "https://www.moh.gov.sa/awarenessplateform/childshealth/pages/vaccination.aspx",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src5",
+      "org": "Saudi Ministry of Health (MOH)",
+      "title": {
+        "ar": "أسئلة شائعة في التحصينات",
+        "en": "Frequently Asked Questions on Immunizations"
+      },
+      "url": "https://www.moh.gov.sa/healthawareness/educationalcontent/vaccination/pages/questions.aspx",
+      "retrieved": "2026-10-27"
+    }
+  ],
+  "heroAlt": {
+    "ar": "يد بالغ تمسك بيد رضيع نائم الصغيرة",
+    "en": "An adult's hand holding the tiny hand of a sleeping baby"
+  }
+}

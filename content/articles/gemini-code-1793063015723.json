@@ -1,0 +1,618 @@
+{
+  "cluster": "father_expansion",
+  "slug": "healthy-pregnancy-meals-father-guide",
+  "primaryKeyword": "وجبات الحامل",
+  "keywords": [
+    "وجبات الحامل في الشهور الأولى",
+    "وجبات الحامل المصابة بالسكري",
+    "وجبات الحامل في الشهر الرابع",
+    "وجبات الحامل في الشهر السابع",
+    "وجبات الحامل في الشهر الخامس",
+    "وجبات الحامل في الشهر الثامن",
+    "وجبات الحامل في الشهر السادس",
+    "وجبات الحامل في الشهر الثاني",
+    "وجبات الحامل في الشهر التاسع",
+    "وجبات الحامل في رمضان",
+    "وجبات الحامل في الشهر الاول"
+  ],
+  "imageQuery": "hands preparing fresh vegetables wooden cutting board warm kitchen light",
+  "related": [
+    "/ar/father",
+    "/ar/father/her-mood",
+    "/ar/father/baby-movements",
+    "/ar/articles/fasting/fasting-during-pregnancy"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأب • التغذية وتخفيف الإرهاق",
+    "en": "Father's Guide • Nutrition and Fatigue Relief"
+  },
+  "title": {
+    "ar": "وجبات الحامل الصحية: دليلكَ العملي لإعداد طعام زوجتكَ والتعامل مع إرهاقها",
+    "en": "Healthy Pregnancy Meals: Your Practical Guide to Preparing Your Wife's Food and Managing Her Fatigue"
+  },
+  "metaTitle": {
+    "ar": "وجبات الحامل الصحية ودوركَ مع إرهاقها | نواة",
+    "en": "Healthy Pregnancy Meals & Managing Her Fatigue | Nawah"
+  },
+  "description": {
+    "ar": "دليلكَ العملي لإعداد وجبات الحامل الصحية وتخفيف إرهاق زوجتكَ في كل شهر، مع جدول الأطعمة الآمنة والممنوعة وخطوات التعامل مع الغثيان والسكري.",
+    "en": "Your practical guide to preparing healthy pregnancy meals and easing your wife's fatigue each month, with safe food tables and steps for nausea and diabetes."
+  },
+  "standfirst": {
+    "ar": "تولّيكَ مسؤولية المطبخ يرفع عن زوجتكَ عبئاً جسدياً يومياً ويجنبها روائح الطهي المحفزة للغثيان. ستجد هنا خطوات إعداد الطعام الآمن لكل مرحلة من الحمل استناداً إلى إرشادات طبية موثقة. أعدّ فريق نواة هذا الدليل لأغراض تثقيفية، ولم يكتبه أو يراجعه طبيب.",
+    "en": "Taking charge of the kitchen lifts a daily physical burden off your wife and spares her nausea-triggering cooking smells. Here you will find steps to prepare safe food for every stage of pregnancy based on documented medical guidelines. The Nawah team prepared this guide for educational purposes, and no clinician wrote or reviewed it."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "وجبات الحامل الأساسية وتخفيف إرهاق المطبخ عن زوجتكَ",
+        "en": "Essential Pregnancy Meals and Relieving Your Wife of Kitchen Fatigue"
+      },
+      "body": [
+        {
+          "ar": "تعتمد وجبات الحامل الصحية على تناول ٥ حصص على الأقل من الخضروات والفواكه يومياً، وجعل النشويات الكاملة تمثل ما يزيد قليلاً عن ثلث الطعام، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). لا تحتاج زوجتكَ إلى تناول الطعام عن شخصين، بل تحتاج إلى وجبات متوازنة تحضّرها أنتَ لتجنبها الوقوف الطويل أمام حرارة المطبخ. يبدأ دوركَ العملي من تسوّق المكونات الطازجة وتجهيز وجبات خفيفة جاهزة في الثلاجة تصل إليها بسهولة دون مجهود.",
+          "en": "Healthy pregnancy meals rely on eating at least 5 portions of fruit and vegetables daily, with wholegrain starchy foods making up just over a third of the food, according to the UK National Health Service (NHS). Your wife does not need to eat for two; rather, she needs balanced meals prepared by you to spare her from standing long in kitchen heat. Your practical role starts with shopping for fresh ingredients and prepping ready-to-eat snacks in the fridge that she can reach without effort."
+        },
+        {
+          "ar": "وفقاً لمؤسسة كنت لخدمات الصحة المجتمعية التابعة لهيئة الخدمات الصحية البريطانية (NHS)، يُعد الشعور بالتعب الشديد والإرهاق أمراً شائعاً جداً خلال الحمل، خاصة في الأسابيع ١٢ الأولى بسبب التغيرات الهرمونية. عندما تتولى أنتَ غسل الخضروات وتقطيع اللحوم وطهي الوجبات، فإنكَ تمنح جسدها ساعات الراحة التي يحتاجها لبناء المشيمة ونمو الجنين.",
+          "en": "According to Kent Community Health NHS Foundation Trust, feeling very tired and exhausted is extremely common during pregnancy, especially in the first 12 weeks due to hormonal changes. When you take over washing vegetables, cutting meat, and cooking meals, you give her body the hours of rest it needs to build the placenta and grow the baby."
+        },
+        {
+          "ar": "إلى جانب الطهي، تقع عليكَ مهمة تأمين المكملات الأساسية مع الطعام. وفقاً لبرنامج البداية الأفضل في الحياة التابع لهيئة الخدمات الصحية البريطانية (NHS)، تحتاج زوجتكَ إلى تناول ٤٠٠ ميكروغرام من حمض الفوليك يومياً حتى الأسبوع ١٢ للوقاية من عيوب الأنبوب العصبي مثل فتق الظهر، مع ١٠ ميكروغرامات من فيتامين د يومياً لدعم صحة العظام والأسنان.",
+          "en": "Alongside cooking, securing essential supplements with food falls to you. According to the NHS Best Start in Life programme, your wife needs to take 400 micrograms of folic acid daily until week 12 to prevent neural tube defects such as spina bifida, along with 10 micrograms of vitamin D daily to support healthy bones and teeth."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اغسل الفواكه والخضروات الطازجة جيداً بالماء الجاري قبل وضعها في أطباق التقديم لإزالة أي أتربة قد تحمل بكتيريا أو طفيليات.",
+          "en": "Wash fresh fruit and vegetables thoroughly under running water before placing them in serving bowls to remove any soil that may carry bacteria or parasites."
+        },
+        {
+          "ar": "اعتمد على الحبوب الكاملة مثل الخبز الأسمر والأرز البني والمعكرونة المصنوعة من القمح الكامل بدلاً من النشويات البيضاء المكررة.",
+          "en": "Rely on wholegrains such as brown bread, brown rice, and wholewheat pasta instead of refined white starchy foods."
+        },
+        {
+          "ar": "قدّم مصادر البروتين المطبوخة جيداً كل يوم، مثل الدواجن والأسماك والبيض المطهو بالكامل والبقوليات كالعدس والفول والحمص.",
+          "en": "Serve thoroughly cooked protein sources every day, such as poultry, fish, fully cooked eggs, and pulses like lentils, fava beans, and chickpeas."
+        },
+        {
+          "ar": "جهّز وجبات خفيفة صحية في علب صغيرة مثل الحمص مع أعواد الجزر والخيار، أو الزبادي المبستر قليل الدسم مع الفواكه، أو التين والمشمش المجفف.",
+          "en": "Prepare healthy snacks in small containers such as hummus with carrot and cucumber sticks, pasteurised low-fat yoghurt with fruit, or dried figs and apricots."
+        },
+        {
+          "ar": "ضع زجاجة ماء بجانب سريرها ومكان جلوسها لتشرب كميات صغيرة ومتكررة طوال اليوم.",
+          "en": "Place a water bottle beside her bed and seating area so she can drink small, frequent amounts throughout the day."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src3",
+        "src6"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وجبات الحامل في الشهور الأولى للتعامل مع الغثيان الصباحي",
+        "en": "Pregnancy Meals in the First Months to Manage Morning Sickness"
+      },
+      "body": [
+        {
+          "ar": "ترتكز وجبات الحامل في الشهور الأولى على الأطعمة الجافة الخفيفة وتقسيم الطعام إلى وجبات صغيرة متكررة، لأن الغثيان يصيب نحو ٨ من كل ١٠ حوامل، وفقاً لمؤسسة روثرهام التابعة لهيئة الخدمات الصحية البريطانية (NHS). يبدأ هذا الغثيان عادة بين الأسبوع ٤ والأسبوع ٧، ولا يقتصر على الصباح، وغالباً ما يتحسن بين الأسبوع ١٢ والأسبوع ٢٠. الروائح القوية المنبعثة من قلي الطعام أو تسبيك الصلصات هي المحفز الأول للقيء، لذا فإن إبعاد زوجتكَ عن المطبخ في هذه المرحلة ضرورة يومية.",
+          "en": "Pregnancy meals in the first months focus on bland, dry foods and dividing food into small, frequent meals, because nausea affects around 8 out of 10 pregnant women, according to The Rotherham NHS Foundation Trust. This nausea typically starts between week 4 and week 7, is not limited to the morning, and usually improves between week 12 and week 20. Strong smells from frying food or simmering sauces are the primary trigger for vomiting, so keeping your wife out of the kitchen during this stage is a daily necessity."
+        },
+        {
+          "ar": "عند تحضير وجبات الحامل في الشهر الاول، ركّز على إبقاء معدتها غير فارغة تماماً في الصباح الباكر. وفقاً لمؤسسة رايتينغتون وويغان ولي التابعة لهيئة الخدمات الصحية البريطانية (NHS)، فإن تناول بضع قطع من البسكويت السادة أو الخبز المحمص الجاف قبل النهوض من السرير بنحو ٢٠ دقيقة يساعد في تقليل حدة الغثيان الصباحي. يمكنك وضع علبة بسكويت مملح أو خبز محمص على الطاولة بجانب سريرها كل ليلة قبل أن تنام.",
+          "en": "When preparing pregnancy meals in the first month, focus on keeping her stomach from being completely empty early in the morning. According to Wrightington, Wigan and Leigh NHS Foundation Trust, eating a few plain crackers or dry toast about 20 minutes before getting out of bed helps reduce morning sickness severity. You can place a box of plain crackers or dry toast on her bedside table every night before you sleep."
+        },
+        {
+          "ar": "أما عند إعداد وجبات الحامل في الشهر الثاني، فتكون التقلبات الهرمونية والغثيان في ذروتها، مما يجعلها ترفض الأطباق الدسمة أو المتبلة. وفقاً لبرنامج البداية الأفضل في الحياة التابع لهيئة الخدمات الصحية البريطانية (NHS)، تتقبل المعدة في هذه الأسابيع الأطعمة البسيطة مثل البطاطس المشوية والمعكرونة السادة والأرز الأبيض، كما يساعد الزنجبيل ومص مكعبات الثلج في تهدئة المعدة.",
+          "en": "When preparing pregnancy meals in the second month, hormonal changes and nausea are at their peak, making her reject greasy or spicy dishes. According to the NHS Best Start in Life programme, the stomach during these weeks tolerates bland foods such as baked potatoes, plain pasta, and white rice, while ginger and sucking ice cubes also help settle the stomach."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "قدّم لها قطعاً من البسكويت السادة أو الخبز المحمص الجاف وهي في السرير قبل أن تتحرك بمدة ٢٠ دقيقة.",
+          "en": "Bring her plain biscuits or dry toast while she is still in bed 20 minutes before she gets up."
+        },
+        {
+          "ar": "قسّم طعامها إلى وجبات صغيرة كل ساعة أو ساعتين بدلاً من ٣ وجبات كبيرة ترهق معدتها.",
+          "en": "Divide her food into small snacks every hour or two instead of 3 large meals that overwhelm her stomach."
+        },
+        {
+          "ar": "حضّر وجبات باردة أو بدرجة حرارة الغرفة مثل السندويشات المحضرة منزلياً بالجبن المبستر، لأن الطعام البارد لا يطلق روائح قوية.",
+          "en": "Prepare cold or room-temperature meals such as homemade sandwiches with pasteurised cheese, as cold food does not release strong odours."
+        },
+        {
+          "ar": "اصنع لها مشروب الزنجبيل الدافئ أو قدّم بسكويت الزنجبيل لتخفيف الشعور بالغثيان خلال النهار.",
+          "en": "Make her warm ginger tea or offer ginger biscuits to ease nausea during the day."
+        },
+        {
+          "ar": "افتح نوافذ المطبخ وشغّل شفاط الهواء أثناء الطهي، وأغلق باب المطبخ لمنع تسرب الروائح إلى غرفتها.",
+          "en": "Open kitchen windows and run the extractor fan while cooking, and close the kitchen door to keep smells from reaching her room."
+        }
+      ],
+      "cites": [
+        "src3",
+        "src4",
+        "src8"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "قواعد سلامة وجبات الحامل والأطعمة الممنوعة في مطبخكَ",
+        "en": "Pregnancy Meal Safety Rules and Foods to Avoid in Your Kitchen"
+      },
+      "body": [
+        {
+          "ar": "تتطلب سلامة وجبات الحامل استبعاد اللحوم غير المطهية جيداً والأجبان غير المبسترة والكبدة، وتحديد الكافيين بما لا يتجاوز ٢٠٠ ملليغرام يومياً، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). تحتوي بعض الأطعمة النيئة أو غير المبسترة على بكتيريا الليستيريا، وهي بكتيريا تسبب داء الليستيريات الذي قد يؤدي إلى الإجهاض أو ولادة جنين ميت أو إصابة المولود بمرض شديد.",
+          "en": "Pregnancy meal safety requires excluding undercooked meats, unpasteurised cheeses, and liver, and limiting caffeine to no more than 200 milligrams a day, according to the NHS. Some raw or unpasteurised foods contain listeria bacteria, which causes listeriosis and can lead to miscarriage, stillbirth, or severe illness in a newborn baby."
+        },
+        {
+          "ar": "أثناء وقوفكَ في المطبخ، تحتاج إلى تطبيق قواعد نظافة صارمة تمنع انتقال البكتيريا من اللحوم النيئة إلى الأطعمة الجاهزة للأكل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب استخدام سكين ولوح تقطيع منفصلين تماماً للحوم النيئة، وطهي اللحوم والدواجن والبرغر والسجق حتى يتصاعد منها البخار ويختفي أي لون وردي أو أثر للدم في داخلها.",
+          "en": "While working in the kitchen, you need to apply strict hygiene rules that prevent bacteria from transferring from raw meat to ready-to-eat foods. According to the NHS, you must use a completely separate knife and chopping board for raw meats, and cook meat, poultry, burgers, and sausages until steaming hot with no trace of pink or blood inside."
+        },
+        {
+          "ar": "انتبه أيضاً لما تشتريه من المشروبات والمكملات الغذائية. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تحتوي الكبدة ومنتجاتها مثل زيت كبد الحوت على كميات عالية من فيتامين أ الذي قد يضر بنمو الجنين، كما يجب عدم تجاوز ٤ أكواب من شاي الأعشاب يومياً وتجنب العرقسوس. يوضح الجدول التالي البدائل الآمنة التي يمكنك استخدامها في الطبخ.",
+          "en": "Pay close attention as well to the drinks and supplements you buy. According to the NHS, liver and liver products like cod liver oil contain high amounts of vitamin A that can harm the baby's development, and she should not exceed 4 cups of herbal tea daily while avoiding liquorice root. The table below outlines safe alternatives you can use when cooking."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "المجموعة الغذائية",
+            "en": "Food Group"
+          },
+          {
+            "ar": "ممنوع أو يُحذر منه في الحمل",
+            "en": "Avoid or Take Care With in Pregnancy"
+          },
+          {
+            "ar": "البديل الآمن في مطبخكَ",
+            "en": "Safe Alternative in Your Kitchen"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "اللحوم والدواجن",
+              "en": "Meat and Poultry"
+            },
+            {
+              "ar": "اللحوم النيئة أو نصف المطهية، الكبدة ومنتجاتها، اللحوم الباردة كالسلامي والبيبروني إلا إذا طُهيت حتى يتصاعد البخار",
+              "en": "Raw or undercooked meat, liver and liver products, cold cured meats like salami and pepperoni unless cooked until steaming hot"
+            },
+            {
+              "ar": "لحوم الأبقار والضأن والدواجن المطبوخة بالكامل حتى يختفي اللون الوردي تماماً",
+              "en": "Beef, lamb, and poultry cooked thoroughly all the way through until no pink remains"
+            }
+          ],
+          [
+            {
+              "ar": "الأجبان والألبان",
+              "en": "Cheese and Dairy"
+            },
+            {
+              "ar": "الحليب غير المبستر، الأجبان الطرية المعتقة بالعفن مثل البري والكاممبير، والأجبان الزرقاء غير المطبوخة",
+              "en": "Unpasteurised milk, mould-ripened soft cheeses like Brie and Camembert, and uncooked blue-veined cheeses"
+            },
+            {
+              "ar": "الأجبان الصلبة كالشيدر، والأجبان الطرية المبسترة مثل القريش والفيتا والموزاريلا والحلوم والجبن الكريمي",
+              "en": "Hard cheeses like Cheddar, and pasteurised soft cheeses like cottage cheese, feta, mozzarella, halloumi, and cream cheese"
+            }
+          ],
+          [
+            {
+              "ar": "البيض",
+              "en": "Eggs"
+            },
+            {
+              "ar": "البيض النيئ أو السائل، والمايونيز المحضر منزلياً ببيض نيئ",
+              "en": "Raw or runny eggs, and homemade mayonnaise made with raw eggs"
+            },
+            {
+              "ar": "البيض المسلوق أو المقلي جيداً حتى يتماسك البياض والصفار بالكامل",
+              "en": "Eggs boiled or fried thoroughly until both the white and yolk are completely solid"
+            }
+          ],
+          [
+            {
+              "ar": "الأسماك",
+              "en": "Fish"
+            },
+            {
+              "ar": "السمك النيئ والمحار النيئ، والأسماك المدخنة الباردة كالسلمون المدخن إلا إذا طُهيت حتى يتصاعد البخار",
+              "en": "Raw fish and raw shellfish, and cold-smoked fish like smoked salmon unless cooked until steaming hot"
+            },
+            {
+              "ar": "الأسماك والمأكولات البحرية المطبوخة جيداً بالحرارة",
+              "en": "Fish and seafood cooked thoroughly with heat"
+            }
+          ],
+          [
+            {
+              "ar": "المشروبات",
+              "en": "Drinks"
+            },
+            {
+              "ar": "تجاوز ٢٠٠ ملليغرام من الكافيين يومياً، مشروبات الطاقة، العرقسوس، أو أكثر من ٤ أكواب شاي أعشاب يومياً",
+              "en": "Exceeding 200 mg of caffeine daily, energy drinks, liquorice root, or more than 4 cups of herbal tea daily"
+            },
+            {
+              "ar": "الماء، الحليب المبستر، بحد أقصى كوبين من القهوة أو ٣ أكواب من الشاي يومياً حسب تركيز الكافيين",
+              "en": "Water, pasteurised milk, and a maximum of two mugs of coffee or 3 mugs of tea daily depending on caffeine content"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src2",
+        "src3",
+        "src9"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وجبات الحامل في الشهر الرابع والشهر الخامس والشهر السادس",
+        "en": "Pregnancy Meals in the Fourth, Fifth, and Sixth Months"
+      },
+      "body": [
+        {
+          "ar": "تركز وجبات الحامل في الشهر الرابع على تعويض العناصر الغذائية مثل الحديد والكالسيوم بعد انحسار غثيان الأشهر الأولى لدى معظم النساء بين الأسبوع ١٢ والأسبوع ٢٠، وفقاً لمؤسسة روثرهام التابعة لهيئة الخدمات الصحية البريطانية (NHS). في هذه المرحلة تستعيد زوجتكَ شهيتها تدريجياً، وتصبح قادرة على تناول أطباق متكاملة تحتوي على الخضروات الورقية الداكنة والبقوليات واللحوم المطهية جيداً.",
+          "en": "Pregnancy meals in the fourth month focus on replenishing nutrients such as iron and calcium after first-trimester nausea subsides for most women between week 12 and week 20, according to The Rotherham NHS Foundation Trust. At this stage, your wife gradually regains her appetite and becomes able to eat complete dishes containing dark leafy greens, pulses, and well-cooked meats."
+        },
+        {
+          "ar": "مع انتقالكما إلى تحضير وجبات الحامل في الشهر الخامس، يبدأ الوزن بالازدياد الطبيعي مع نمو الجنين.  دوركَ هنا هو توفير أطعمة مشبعة غنية بالألياف تمنع الإمساك الشائع في الحمل دون إضافة دهون مشبعة أو سكريات عالية.",
+          "en": "As you move to preparing pregnancy meals in the fifth month, weight begins to increase naturally as the baby grows.  Your role here is to provide filling, fibre-rich foods that prevent common pregnancy constipation without adding saturated fats or high sugars."
+        },
+        {
+          "ar": "عند إعداد وجبات الحامل في الشهر السادس، تزداد حاجة جسدها إلى الحديد لدعم تدفق الدم المتزايد وتغذية الجنين. وفقاً لمجلس أنيرين بيفان الصحي التابع لهيئة الخدمات الصحية البريطانية (NHS)، تشمل المصادر الغنية بالحديد اللحوم الحمراء الخالية من الدهون، والعدس، والفاصوليا، والخضروات الداكنة مثل السبانخ والبروكلي، والخبز الأسمر، والمشمش المجفف، بينما يتوفر الكالسيوم في الألبان المبسترة والطحينة والتوفو.",
+          "en": "When preparing pregnancy meals in the sixth month, her body's need for iron grows to support increased blood flow and nourish the baby. According to Aneurin Bevan University Health Board (NHS Wales), iron-rich sources include lean red meat, lentils, beans, dark green vegetables like spinach and broccoli, wholemeal bread, and dried apricots, while calcium is found in pasteurised dairy, tahini, and tofu."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اطبخ حساء العدس أو الفاصوليا مع الخضروات كوجبة غداء مشبعة وغنية بالحديد والألياف.",
+          "en": "Cook lentil or bean soup with vegetables as a filling lunch rich in iron and fibre."
+        },
+        {
+          "ar": "أضف الطحينة المصنوعة من السمسم والحمص إلى وجباتها اليومية لدعم مستويات الكالسيوم والحديد معاً.",
+          "en": "Add sesame tahini and chickpeas to her daily meals to support both calcium and iron levels."
+        },
+        {
+          "ar": "استبدل البطاطس المقلية بالبطاطس المشوية في الفرن بقشرتها لزيادة الألياف وتقليل الدهون والملح.",
+          "en": "Replace fried chips with oven-baked potatoes with their skins left on to increase fibre and reduce fat and salt."
+        },
+        {
+          "ar": "قدّم لها حفنة من الفواكه المجففة مثل المشمش أو التين أو القراصيا كوجبة خفيفة بين الوجبات.",
+          "en": "Offer her a handful of dried fruit such as apricots, figs, or prunes as a snack between meals."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4",
+        "src6",
+        "src7"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وجبات الحامل في الشهر السابع والشهر الثامن والشهر التاسع",
+        "en": "Pregnancy Meals in the Seventh, Eighth, and Ninth Months"
+      },
+      "body": [
+        {
+          "ar": "تعتمد وجبات الحامل في الشهر السابع على تقليل حجم الوجبة الواحدة وزيادة عددها لتخفيف حرقة المعدة وعسر الهضم الناتجين عن ضغط الرحم المتنامي على المعدة، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). ارتجاع المريء هو صعود حمض المعدة نحو الحلق نتيجة ارتخاء العضلة العاصرة المريئية بفعل هرمونات الحمل، مما يسبب شعوراً بالحرقة في وسط الصدر يزداد عند الاستلقاء أو الانحناء.",
+          "en": "Pregnancy meals in the seventh month rely on reducing single meal sizes and increasing their frequency to ease heartburn and indigestion caused by the growing womb pressing on the stomach, according to the NHS. Acid reflux is stomach acid travelling up towards the throat due to pregnancy hormones relaxing the lower oesophageal sphincter muscle, causing a burning sensation in the chest that worsens when lying down or bending over."
+        },
+        {
+          "ar": "خلال تحضير وجبات الحامل في الشهر الثامن، يصبح الوقوف في المطبخ مرهقاً جداً لظهرها وقدميها، وتزداد حموضة المعدة في المساء. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن التوقف عن تناول الطعام قبل موعد النوم بمدة ٣ إلى ٤ ساعات، وتجنب الأطعمة الدسمة والحارة والشوكولاتة والطماطم والقهوة يساعد في منع ارتجاع الحمض أثناء الليل.",
+          "en": "While preparing pregnancy meals in the eighth month, standing in the kitchen becomes exhausting for her back and feet, and stomach acidity worsens in the evening. According to the NHS, stopping food intake 3 to 4 hours before bedtime and avoiding fatty or spicy foods, chocolate, tomatoes, and coffee helps prevent acid reflux during the night."
+        },
+        {
+          "ar": "أما عند تجهيز وجبات الحامل في الشهر التاسع، فتحتاج زوجتكَ إلى طاقة مستدامة سهلة الهضم استعداداً للمخاض والولادة دون إثقال المعدة. يمكنك في هذا الشهر طهي كميات مضاعفة من الشوربات واليخنات الصحية وتقسيمها في أوعية داخل المجمد، لتكون جاهزة للتسخين الفوري في الأيام الأخيرة من الحمل والأيام الأولى بعد العودة من المستشفى.",
+          "en": "When preparing pregnancy meals in the ninth month, your wife needs sustained, easy-to-digest energy in preparation for labour and birth without weighing down her stomach. During this month, you can cook double batches of healthy soups and stews and portion them into freezer containers, ready to be reheated until steaming hot during the final days of pregnancy and the first days home from the hospital."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "قدّم لها وجبة العشاء مبكراً بحيث تفرغ من الأكل قبل موعد نومها بمدة ٣ إلى ٤ ساعات على الأقل.",
+          "en": "Serve her dinner early so she finishes eating at least 3 to 4 hours before her bedtime."
+        },
+        {
+          "ar": "ضع كوباً من الحليب المبستر قليل الدسم بجانب سريرها، إذ يفيد شرب الحليب في تهدئة حرقة المعدة الليلية.",
+          "en": "Place a glass of low-fat pasteurised milk beside her bed, as drinking milk can help soothe nighttime heartburn."
+        },
+        {
+          "ar": "هيّئ لها مكان جلوس مريحاً يسند ظهرها لتتناول طعامها بوضعية مستقيمة ترفع الضغط عن المعدة.",
+          "en": "Set up a comfortable seating spot that supports her back so she can eat sitting upright, taking pressure off her stomach."
+        },
+        {
+          "ar": "خزّن وجبات مطبوخة مسبقاً في المجمد، وعند تسخينها تأكد من وصولها لدرجة الغليان وتصاعد البخار منها بالكامل.",
+          "en": "Store pre-cooked meals in the freezer, and when reheating them, make sure they are steaming hot all the way through."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src10"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وجبات الحامل المصابة بالسكري وتنظيم وجبات الحامل في رمضان",
+        "en": "Meals for a Pregnant Woman with Diabetes and Organising Pregnancy Meals in Ramadan"
+      },
+      "body": [
+        {
+          "ar": "تتطلب وجبات الحامل المصابة بالسكري الالتزام بـ ٣ وجبات منتظمة يومياً دون تخطي أي وجبة، مع استبدال السكريات البسيطة بالنشويات بطيئة الامتصاص والبروتينات الخالية من الدهون، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). سكري الحمل هو ارتفاع في مستوى سكر الدم يظهر خلال الحمل ويكتشف غالباً عبر فحص تحمل الجلوكوز بين الأسبوع ٢٤ والأسبوع ٢٨، وعادة ما يختفي بعد الولادة.",
+          "en": "Meals for a pregnant woman with diabetes require sticking to 3 regular meals a day without skipping any, while replacing simple sugars with slow-release carbohydrates and lean proteins, according to the NHS. Gestational diabetes is high blood sugar that develops during pregnancy, usually detected via an oral glucose tolerance test between week 24 and week 28, and normally disappears after birth."
+        },
+        {
+          "ar": "إذا شخّص الطبيب إصابة زوجتكَ بسكري الحمل، فإن مشاركتكَ لها في نفس النظام الغذائي ترفع عنها الشعور بالعزلة وتضبط قراءات السكر لديها. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تُنصح الحامل بفحص سكر الدم قبل الإفطار وبعد كل وجبة بساعة واحدة، مع ممارسة ١٥٠ دقيقة من النشاط البدني المعتدل أسبوعياً مثل المشي معاً بعد الوجبات لخفض مستوى الجلوكوز في الدم.",
+          "en": "If the doctor diagnoses your wife with gestational diabetes, sharing the same meal plan with her removes feelings of isolation and helps stabilise her blood sugar readings. According to the NHS, a pregnant woman is usually advised to test her blood sugar before breakfast and 1 hour after each meal, alongside aiming for 150 minutes of moderate physical activity a week, such as walking together after meals to lower blood glucose."
+        },
+        {
+          "ar": "أما بخصوص وجبات الحامل في رمضان، فإذا قررت زوجتكَ الصيام بعد استشارة طبيبها والتأكد من سلامة وضعها الصحي، فإن دوركَ يتركز في تحضير وجبتي الإفطار والسحور لتجنب الجفاف وهبوط السكر. احرص على أن تبدأ إفطارها بالماء والحساء الدافئ والبروتين المطهو جيداً مع الخضروات، وأخّر وجبة السحور لتشمل نشويات معقدة مثل الشوفان بالحليب المبستر أو الفول مع الخبز الأسمر.",
+          "en": "Regarding pregnancy meals in Ramadan, if your wife decides to fast after consulting her doctor and confirming her health allows it, your role centres on preparing Iftar and Suhoor to prevent dehydration and low blood sugar. Ensure she starts Iftar with water, warm soup, well-cooked protein, and vegetables, and delay Suhoor to include complex carbohydrates such as porridge with pasteurised milk or fava beans with wholemeal bread."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "امنع دخول المشروبات الغازية المحلاة وعصائر الفاكهة المركزة إلى المنزل لأنها ترفع سكر الدم بسرعة.",
+          "en": "Keep sugary fizzy drinks and concentrated fruit juices out of the house, as they spike blood sugar rapidly."
+        },
+        {
+          "ar": "قدّم الفاكهة الكاملة باعتدال بدلاً من عصرها، وادمجها دائماً مع مصدر بروتين أو مكسرات غير مملحة.",
+          "en": "Serve whole fruit in moderation instead of juicing it, and always pair it with a protein source or unsalted nuts."
+        },
+        {
+          "ar": "رافق زوجتكَ في مشي هادئ لمدة ٢٠ إلى ٣٠ دقيقة بعد الوجبات الرئيسية لدعم استقرار سكر الدم.",
+          "en": "Accompany your wife on a gentle 20 to 30 minute walk after main meals to support blood sugar stability."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src5"
+      ]
+    }
+  ],
+  "redFlags": {
+    "title": {
+      "ar": "متى تتصل بالطبيب أو تذهب إلى المستشفى فوراً؟",
+      "en": "When Should You Call the Doctor or Go to the Hospital Immediately?"
+    },
+    "items": [
+      {
+        "ar": "عدم قدرة زوجتكَ على الاحتفاظ بأي طعام أو سوائل في معدتها لمدة ٢٤ ساعة متواصلة بسبب القيء المستمر.",
+        "en": "Your wife is unable to keep any food or fluids down for 24 hours due to persistent vomiting."
+      },
+      {
+        "ar": "ظهور علامات الجفاف مثل العطش الشديد، أو الدوار والإغماء عند الوقوف، أو قلة التبول وتغير لون البول إلى الأصفر الداكن أو البني.",
+        "en": "Signs of dehydration appear, such as extreme thirst, dizziness or fainting when standing, passing very little urine, or dark yellow or brown urine."
+      },
+      {
+        "ar": "فقدان ملحوظ في الوزن نتيجة الغثيان والقيء الشديد (القيء الحملي المفرط الذي يصيب ٣ من كل ١٠٠ حامل).",
+        "en": "Noticeable weight loss resulting from severe nausea and vomiting (hyperemesis gravidarum, which affects 3 in every 100 pregnancies)."
+      },
+      {
+        "ar": "وجود صعوبة في البلع أو توقف الطعام في الحلق، أو استمرار حرقة المعدة الشديدة رغم تعديل الوجبات.",
+        "en": "Difficulty swallowing or food getting stuck in the throat, or severe heartburn that persists despite adjusting meals."
+      },
+      {
+        "ar": "ارتفاع درجة الحرارة أو ألم المعدة والقيء بعد تناول طعام يشتبه في تلوثه.",
+        "en": "Fever, stomach pain, or vomiting after eating food suspected of contamination."
+      }
+    ],
+    "cites": [
+      "src2",
+      "src4",
+      "src10"
+    ],
+    "intro": {
+      "ar": "متى تتصل بالطبيب أو تذهب إلى المستشفى فوراً؟",
+      "en": "When Should You Call the Doctor or Go to the Hospital Immediately?"
+    }
+  },
+  "cta": {
+    "headline": {
+      "ar": "تابع أسبوع حملها وحجم الجنين من هاتفكَ في نواة",
+      "en": "Follow Her Pregnancy Week and Baby Size from Your Phone on Nawah"
+    },
+    "body": {
+      "ar": "معرفة الأسبوع الذي تمر به زوجتكَ يسهّل عليكَ تحضير الوجبة المناسبة لأعراضها الحالية. في وضع الأب داخل تطبيق نواة، تربط هاتفكَ بحملها عبر كود الدعوة، فترى نفس أسبوع الحمل وحجم الجنين الذي تراه على شاشتها مع نصائح دوركَ الأسبوعي، ويصلكَ إشعار فوري في كل مرة تنهي فيها جلسة عدّ ركلات الجنين.",
+      "en": "Knowing which week your wife is in makes it easier to prepare the right meal for her current symptoms. In partner mode inside the Nawah app, you link your phone to her pregnancy with an invite code, see the exact same pregnancy week and baby size she sees along with your weekly role tips, and get an instant push notification every time she finishes a kick-counting session."
+    },
+    "button": {
+      "ar": "حمّل نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "ما هي أهم وجبات الحامل في الشهر الاول؟",
+        "en": "What are the most important pregnancy meals in the first month?"
+      },
+      "a": {
+        "ar": "تركز وجبات الحامل في الشهر الاول على الأطعمة الخفيفة سهلة الهضم مثل الخبز المحمص والحبوب الكاملة والخضروات المغسولة جيداً، مع تناول ٤٠٠ ميكروغرام من مكملات حمض الفوليك يومياً وفقاً لهيئة الخدمات الصحية البريطانية (NHS). يساعد تقديم البسكويت الجاف قبل نهوضها من السرير في تخفيف الغثيان المبكر.",
+        "en": "Pregnancy meals in the first month focus on light, easy-to-digest foods like toast, wholegrains, and thoroughly washed vegetables, alongside taking a 400 microgram daily folic acid supplement according to the NHS. Serving dry crackers before she gets out of bed helps ease early nausea."
+      }
+    },
+    {
+      "q": {
+        "ar": "كيف أجهز وجبات الحامل في الشهر الثاني مع اشتداد الغثيان؟",
+        "en": "How do I prepare pregnancy meals in the second month when nausea worsens?"
+      },
+      "a": {
+        "ar": "تعتمد وجبات الحامل في الشهر الثاني على تقسيم الطعام إلى وجبات صغيرة كل ساعتين وتجنب الأطعمة المقلية أو الحارة ذات الروائح النفاذة. وفقاً لبرنامج البداية الأفضل في الحياة التابع لهيئة الخدمات الصحية البريطانية (NHS)، تتقبل الحامل في هذه الفترة البطاطس المشوية والمعكرونة السادة ومشروب الزنجبيل.",
+        "en": "Pregnancy meals in the second month rely on dividing food into small snacks every two hours and avoiding fried or spicy foods with strong smells. According to the NHS Best Start in Life programme, a pregnant woman during this period tolerates baked potatoes, plain pasta, and ginger drinks."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما الذي يميز وجبات الحامل في الشهر الرابع والشهر الخامس؟",
+        "en": "What distinguishes pregnancy meals in the fourth and fifth months?"
+      },
+      "a": {
+        "ar": "في وجبات الحامل في الشهر الرابع والشهر الخامس، يقل الغثيان تدريجياً وتزداد الحاجة إلى البروتين والحديد والألياف. احرص على طهي اللحوم الخالية من الدهون والعدس والحمص والخضروات الورقية الداكنة، واستخدم الحبوب الكاملة لتجنب الإمساك ودعم الزيادة الطبيعية في الوزن.",
+        "en": "In pregnancy meals in the fourth and fifth months, nausea gradually subsides and the need for protein, iron, and fibre increases. Make sure to cook lean meats, lentils, chickpeas, and dark leafy greens, and use wholegrains to prevent constipation and support natural weight gain."
+      }
+    },
+    {
+      "q": {
+        "ar": "على ماذا تحتوي وجبات الحامل في الشهر السادس؟",
+        "en": "What should pregnancy meals in the sixth month contain?"
+      },
+      "a": {
+        "ar": "تحتاج وجبات الحامل في الشهر السادس إلى مصادر غنية بالحديد والكالسيوم مثل السبانخ والبقوليات والبيض المطهو بالكامل والألبان المبسترة والطحينة، وفقاً لمجلس أنيرين بيفان الصحي التابع لهيئة الخدمات الصحية البريطانية (NHS). قدّم هذه الأطعمة مع الفواكه الطازجة الغنية بفيتامين ج لتحسين امتصاص الحديد.",
+        "en": "Pregnancy meals in the sixth month need rich sources of iron and calcium such as spinach, pulses, fully cooked eggs, pasteurised dairy, and tahini, according to Aneurin Bevan University Health Board (NHS Wales). Serve these foods with fresh fruit rich in vitamin C to support iron absorption."
+      }
+    },
+    {
+      "q": {
+        "ar": "كيف أعدّ وجبات الحامل في الشهر السابع والشهر الثامن لتجنب الحموضة؟",
+        "en": "How do I prepare pregnancy meals in the seventh and eighth months to avoid heartburn?"
+      },
+      "a": {
+        "ar": "لتخفيف الحموضة في وجبات الحامل في الشهر السابع والشهر الثامن، قدّم وجبات صغيرة متكررة، وامنع الأكل قبل النوم بمدة ٣ إلى ٤ ساعات، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). تجنب الصلصات الحارة والشوكولاتة والدهون في وجبة العشاء، وقدّم كوباً من الحليب المبستر عند الشعور بالحرقة.",
+        "en": "To reduce heartburn in pregnancy meals in the seventh and eighth months, serve small frequent meals and stop eating 3 to 4 hours before bed, according to the NHS. Avoid spicy sauces, chocolate, and fats at dinner, and offer a glass of pasteurised milk when heartburn occurs."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هي أفضل وجبات الحامل في الشهر التاسع قبل الولادة؟",
+        "en": "What are the best pregnancy meals in the ninth month before birth?"
+      },
+      "a": {
+        "ar": "أفضل وجبات الحامل في الشهر التاسع هي الوجبات الخفيفة الغنية بالكربوهيدرات المعقدة والبروتين مثل الشوفان بالحليب، والشوربات المطهية مع الدجاج والخضروات، والفواكه المجففة كالتمر والمشمش. تمنح هذه الأطعمة جسد زوجتكَ طاقة مستمرة دون أن تسبب ثقلاً على المعدة.",
+        "en": "The best pregnancy meals in the ninth month are light meals rich in complex carbohydrates and protein, such as porridge with milk, soups cooked with chicken and vegetables, and dried fruit like dates and apricots. These foods give your wife's body steady energy without weighing down her stomach."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هي شروط وجبات الحامل المصابة بالسكري؟",
+        "en": "What are the requirements for meals for a pregnant woman with diabetes?"
+      },
+      "a": {
+        "ar": "تعتمد وجبات الحامل المصابة بالسكري على تناول ٣ وجبات منتظمة يومياً دون تخطي أي وجبة، واختيار النشويات الكاملة بطيئة الامتصاص مع البروتين الخالي من الدهون والأسماك المطهية، والامتناع عن العصائر المحلاة والمشروبات الغازية، وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+        "en": "Meals for a pregnant woman with diabetes rely on eating 3 regular meals daily without skipping any, choosing slow-release wholegrain starches with lean protein and cooked fish, and avoiding sweetened juices and fizzy drinks, according to the NHS."
+      }
+    },
+    {
+      "q": {
+        "ar": "كيف أنظم وجبات الحامل في رمضان إذا سمح الطبيب بالصيام؟",
+        "en": "How do I organise pregnancy meals in Ramadan if the doctor permits fasting?"
+      },
+      "a": {
+        "ar": "لتنظيم وجبات الحامل في رمضان بعد موافقة الطبيب، قسّم طعامها بين الإفطار والسحور إلى ٣ وجبات متوازنة، وابدأ الإفطار بالماء والحساء لتعويض السوائل تدريجياً. اجعل وجبة السحور متأخرة وغنية بالألياف والبروتين مثل الفول والبيض المسلوق جيداً والخبز الأسمر للحفاظ على استقرار سكر الدم.",
+        "en": "To organise pregnancy meals in Ramadan after a doctor's approval, divide her food between Iftar and Suhoor into 3 balanced meals, starting Iftar with water and soup to replace fluids gradually. Keep Suhoor late and rich in fibre and protein, such as fava beans, hard-boiled eggs, and wholemeal bread to keep blood sugar stable."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "نظام غذائي صحي في الحمل",
+        "en": "Have a healthy diet in pregnancy"
+      },
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src2",
+      "org": "NHS",
+      "title": {
+        "ar": "أطعمة يجب تجنبها في الحمل",
+        "en": "Foods to avoid in pregnancy"
+      },
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src3",
+      "org": "NHS Best Start in Life",
+      "title": {
+        "ar": "الفيتامينات والمكملات الغذائية والغثيان الصباحي في الحمل",
+        "en": "Vitamins and supplements in pregnancy & Morning sickness"
+      },
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/vitamins-and-supplements-in-pregnancy/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src4",
+      "org": "The Rotherham NHS Foundation Trust",
+      "title": {
+        "ar": "الغثيان والقيء في الحمل والقيء الحملي المفرط",
+        "en": "Nausea and vomiting in pregnancy and hyperemesis gravidarum"
+      },
+      "url": "https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/nausea-vomiting-pregnancy",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src5",
+      "org": "NHS",
+      "title": {
+        "ar": "سكري الحمل وعلاجه",
+        "en": "Gestational diabetes and treatment"
+      },
+      "url": "https://www.nhs.uk/conditions/gestational-diabetes/treatment/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src6",
+      "org": "Kent Community Health NHS Foundation Trust",
+      "title": {
+        "ar": "النوم والإرهاق في الحمل",
+        "en": "Sleep in pregnancy"
+      },
+      "url": "https://family.kentcht.nhs.uk/baby/ready-for-pregnancy/sleep-in-pregnancy/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src7",
+      "org": "Aneurin Bevan University Health Board (NHS Wales)",
+      "title": {
+        "ar": "التغذية الجيدة وزيادة الوزن أثناء الحمل",
+        "en": "Eat well during pregnancy & Weight gain in pregnancy"
+      },
+      "url": "https://www.abbhealthiertogether.cymru.nhs.uk/pregnant-women/staying-healthy-pregnancy/eat-well-during-pregnancy",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src8",
+      "org": "Wrightington, Wigan and Leigh NHS Foundation Trust",
+      "title": {
+        "ar": "الغثيان والقيء في الحمل",
+        "en": "Nausea & Vomiting in Pregnancy"
+      },
+      "url": "https://www.wwl.nhs.uk/media/.leaflets/5fec923e5a7be3.57089860.pdf",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src9",
+      "org": "North West Anglia NHS Foundation Trust",
+      "title": {
+        "ar": "حياة صحية خلال الحمل",
+        "en": "Living healthily during your pregnancy"
+      },
+      "url": "https://www.nwangliaft.nhs.uk/living-healthily-during-your-pregnancy/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src10",
+      "org": "NHS",
+      "title": {
+        "ar": "حرقة المعدة والارتجاع المريئي",
+        "en": "Heartburn and acid reflux"
+      },
+      "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+      "retrieved": "2026-10-27"
+    }
+  ],
+  "heroAlt": {
+    "ar": "يدان تقطّعان الفاصوليا الخضراء بسكين على لوح خشبي",
+    "en": "Hands chopping green beans with a knife on a wooden board"
+  }
+}

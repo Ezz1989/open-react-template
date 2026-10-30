@@ -1,0 +1,384 @@
+{
+  "cluster": "mother_expansion",
+  "slug": "pregnancy-sleeping-positions",
+  "primaryKeyword": "هل وضعيات نوم الحامل تؤثر على الجنين",
+  "keywords": [
+    "وضعيات نوم الحامل في الاشهر الاولى",
+    "وضعيات نوم الحامل في الشهر الاول",
+    "وضعيات نوم الحامل في الشهر الثاني",
+    "وضعيات نوم الحامل في الشهر الثالث",
+    "وضعيات نوم الحامل في الشهر الرابع",
+    "وضعيات نوم الحامل في الشهر الخامس",
+    "وضعيات نوم الحامل في الشهر السادس",
+    "وضعيات نوم الحامل في الشهر السابع",
+    "وضعيات نوم الحامل في الشهر الثامن",
+    "وضعيات نوم الحامل في الشهر التاسع"
+  ],
+  "imageQuery": "pregnant woman hands resting on white bed pillows morning light",
+  "related": [
+    "/ar/guide/3",
+    "/ar/guide/7",
+    "/ar/father/baby-movements",
+    "/ar/father/safe-sleep-setup"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأم — النوم أثناء الحمل",
+    "en": "Mother's Guide — Pregnancy Sleep"
+  },
+  "title": {
+    "ar": "هل وضعيات نوم الحامل تؤثر على الجنين وأفضل وضعية لكل شهر",
+    "en": "Do pregnancy sleeping positions affect the baby and the best position by month"
+  },
+  "metaTitle": {
+    "ar": "هل وضعيات نوم الحامل تؤثر على الجنين؟ الدليل الكامل | نواة",
+    "en": "Best Pregnancy Sleeping Positions by Month | Nawah"
+  },
+  "description": {
+    "ar": "تعرفي على إجابة سؤال هل وضعيات نوم الحامل تؤثر على الجنين، وأفضل وضعية للنوم في كل شهر لتجنب الضغط على الأوعية الدموية وحماية طفلكِ.",
+    "en": "Learn whether pregnancy sleeping positions affect your baby, and discover the safest sleep position for every month to protect blood flow."
+  },
+  "standfirst": {
+    "ar": "دليل عملي يوضح لكِ وضعيات النوم الآمنة في كل شهر من شهور حملكِ، وكيف تحمين تدفق الدم والأكسجين إلى طفلكِ دون قلق.",
+    "en": "A practical guide to safe sleeping positions for every month of your pregnancy, showing how to protect blood and oxygen flow to your baby without worry."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "هل وضعيات نوم الحامل تؤثر على الجنين في مراحل الحمل",
+        "en": "Whether pregnancy sleeping positions affect the baby across trimesters"
+      },
+      "body": [
+        {
+          "ar": "إن إجابة سؤال هل وضعيات نوم الحامل تؤثر على الجنين هي نعم بعد الأسبوع ٢٨ من الحمل، حيث توصي هيئة الخدمات الصحية البريطانية (NHS) بالنوم على أحد الجانبين لتجنب ضغط الرحم على الأوعية الدموية الرئيسية التي تغذي المشيمة. أما في الأشهر الأولى، فيمكنكِ النوم بأي وضعية تريحكِ لأن حجم الرحم لا يزال صغيراً داخل الحوض. اختيار الوضعية الجانبية في الثلث الأخير يحمي تدفق الأكسجين إلى طفلكِ ويجنبكِ الشعور بالدوار.",
+          "en": "The answer to whether pregnancy sleeping positions affect the baby is yes after week 28 of pregnancy, as the UK National Health Service (NHS) recommends sleeping on your side to prevent the uterus from pressing on major blood vessels feeding the placenta. In the early months, you can sleep in any comfortable position because the uterus is still small inside the pelvis. Choosing a side position in the third trimester protects oxygen flow to your baby and helps you avoid dizziness."
+        },
+        {
+          "ar": "الوريد الأجوف السفلي هو وعاء دموي رئيسي يمر خلف الرحم ويعيد الدم من الجزء السفلي لجسمكِ إلى القلب. عندما تستلقين على ظهركِ في الشهور المتأخرة، يضغط وزن الرحم والجنين على هذا الوريد.",
+          "en": "The inferior vena cava is a major blood vessel running behind the uterus that returns blood from your lower body to your heart. When you lie on your back in later months, the weight of the uterus and baby presses on this vein."
+        },
+        {
+          "ar": "وفقاً لمؤسسة تومي (Tommy's) لأبحاث الحمل، فإن النوم على الظهر بعد الأسبوع ٢٨ يضاعف خطر ولادة جنين متوفى مقارنة بالنوم على الجانب. لهذا السبب، يعد التعود على النوم الجانبي خطوة بسيطة وفعالة لحماية جنينكِ.",
+          "en": "According to pregnancy research charity Tommy's, going to sleep on your back after week 28 doubles the risk of stillbirth compared to sleeping on your side. For this reason, getting used to side sleeping is a simple and effective step to protect your baby."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "مرحلة الحمل",
+            "en": "Pregnancy Stage"
+          },
+          {
+            "ar": "الوضعية الآمنة",
+            "en": "Safe Position"
+          },
+          {
+            "ar": "السبب الطبي",
+            "en": "Medical Reason"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "الأشهر ١ إلى ٣ (الأسابيع ١ إلى ١٢)",
+              "en": "Months 1 to 3 (Weeks 1 to 12)"
+            },
+            {
+              "ar": "أي وضعية مريحة لكِ",
+              "en": "Any comfortable position"
+            },
+            {
+              "ar": "الرحم محمي داخل عظام الحوض ولا يضغط على الأوعية",
+              "en": "The uterus is protected inside the pelvic bones and does not press on vessels"
+            }
+          ],
+          [
+            {
+              "ar": "الأشهر ٤ إلى ٦ (الأسابيع ١٣ إلى ٢٧)",
+              "en": "Months 4 to 6 (Weeks 13 to 27)"
+            },
+            {
+              "ar": "يفضل البدء بالنوم على الجانب",
+              "en": "Preferable to start side sleeping"
+            },
+            {
+              "ar": "بداية كبر حجم البطن وزيادة الضغط التدريجي على الظهر",
+              "en": "The belly begins to grow with gradual pressure on the back"
+            }
+          ],
+          [
+            {
+              "ar": "الأشهر ٧ إلى ٩ (من الأسبوع ٢٨ حتى الولادة)",
+              "en": "Months 7 to 9 (Week 28 until birth)"
+            },
+            {
+              "ar": "النوم على الجانب الأيمن أو الأيسر فقط",
+              "en": "Left or right side sleeping only"
+            },
+            {
+              "ar": "منع ضغط الرحم على الوريد الأجوف السفلي وحماية تدفق الدم للجنين",
+              "en": "Prevents uterine pressure on the inferior vena cava and protects blood flow to the baby"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وضعيات نوم الحامل في الاشهر الاولى من الشهر الأول للثالث",
+        "en": "Pregnancy sleeping positions in the first months from month one to three"
+      },
+      "body": [
+        {
+          "ar": "تسمح وضعيات نوم الحامل في الاشهر الاولى بالنوم على الظهر أو الجانب أو البطن دون أي خطر على الجنين. خلال هذه المرحلة، يكون جنينكِ صغيراً جداً ومحاطاً بالسائل الأمنيوسي داخل تجويف الحوض العظمي.",
+          "en": "Pregnancy sleeping positions in the first months allow sleeping on your back, side, or stomach without any risk to the baby. During this stage, your baby is very small and cushioned by amniotic fluid inside the bony pelvic cavity."
+        },
+        {
+          "ar": "عند البحث عن وضعيات نوم الحامل في الشهر الاول أو وضعيات نوم الحامل في الشهر الثاني، ستجدين أن الراحة هي المعيار الوحيد. لا يوجد أي وزن يضغط على الأوعية الدموية في هذه الأسابيع المبكرة.",
+          "en": "When looking into pregnancy sleeping positions in the first month or second month, you will find that comfort is the only rule. There is no weight pressing on blood vessels during these early weeks."
+        },
+        {
+          "ar": "مع الوصول إلى وضعيات نوم الحامل في الشهر الثالث، قد تشعرين بحساسية في الثديين أو غثيان ليلي يجعل النوم على البطن غير مريح لكِ. هنا يمكنكِ وضع وسادة ناعمة بين ركبتيكِ للتعود تدريجياً على النوم الجانبي قبل كبر حجم البطن.",
+          "en": "By the time you consider pregnancy sleeping positions in the third month, breast tenderness or nighttime nausea may make stomach sleeping uncomfortable for you. At this point, you can place a soft pillow between your knees to gradually get used to side sleeping before your bump grows."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وضعيات نوم الحامل في الشهر الرابع والشهر الخامس والشهر السادس",
+        "en": "Pregnancy sleeping positions in the fourth, fifth, and sixth months"
+      },
+      "body": [
+        {
+          "ar": "تبدأ وضعيات نوم الحامل في الشهر الرابع بالتحول التدريجي نحو النوم على الجانب مع ارتفاع الرحم فوق عظمة الحوض. في هذه الفترة، يصبح النوم على البطن غير عملي بسبب بروز البطن الواضح.",
+          "en": "Pregnancy sleeping positions in the fourth month begin shifting gradually toward your side as the uterus rises above the pelvic bone. During this period, sleeping on your stomach becomes impractical due to the visible bump."
+        },
+        {
+          "ar": "خلال البحث عن وضعيات نوم الحامل في الشهر الخامس، قد تلاحظين بداية آلام أسفل الظهر عند الاستلقاء المسطح. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يساعد ثني الركبتين ووضع وسادة بينهما على إبقاء العمود الفقري مستقيماً وتخفيف الشد العضلي.",
+          "en": "When exploring pregnancy sleeping positions in the fifth month, you may notice lower back pain when lying flat. According to the NHS, bending your knees and placing a pillow between them helps keep your spine straight and relieves muscle strain."
+        },
+        {
+          "ar": "أما وضعيات نوم الحامل في الشهر السادس فتتطلب تجنب الاستلقاء الطويل على الظهر، خاصة من الأسبوع ٢٤ فصاعداً. إذا شعرتِ بضيق في التنفس أو دوخة عند الاستلقاء على ظهركِ، فهذا تنبيه من جسمكِ للانقلاب فوراً إلى أحد الجانبين.",
+          "en": "Pregnancy sleeping positions in the sixth month require avoiding lying flat on your back for long periods, especially from week 24 onward. If you feel short of breath or dizzy while lying on your back, this is a signal from your body to roll onto your side immediately."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وضعيات نوم الحامل في الشهر السابع والشهر الثامن",
+        "en": "Pregnancy sleeping positions in the seventh and eighth months"
+      },
+      "body": [
+        {
+          "ar": "تعتمد وضعيات نوم الحامل في الشهر السابع بشكل أساسي على النوم على الجانب الأيمن أو الأيسر بدءاً من الأسبوع ٢٨. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن الوضعية التي تبدئين بها نومكِ هي الأهم لأنكِ تقضين فيها أطول فترة متصلة من الليل.",
+          "en": "Pregnancy sleeping positions in the seventh month rely strictly on sleeping on your left or right side starting from week 28. According to the NHS, the position you fall asleep in is the most important because you spend the longest continuous period of the night in it."
+        },
+        {
+          "ar": "تظهر الأبحاث في مؤسسة تومي (Tommy's) أن النوم على الجانب الأيمن أو الأيسر آمن تماماً بنفس الدرجة في أواخر الحمل. يمكنكِ التبديل بين الجانبين طوال الليل لتخفيف الضغط عن الوركين والكتفين دون قلق.",
+          "en": "Research from Tommy's shows that sleeping on either the left or right side is equally safe in late pregnancy. You can switch between both sides throughout the night to relieve pressure on your hips and shoulders without worry."
+        },
+        {
+          "ar": "عند الوصول إلى وضعيات نوم الحامل في الشهر الثامن، يزداد حجم الجنين وقد تعانين من حرقة المعدة ليلاً. يساعد رفع الرأس والكتفين قليلاً باستخدام وسادة إضافية مع البقاء على جانبكِ في تقليل ارتجاع الحمض وتسهيل التنفس.",
+          "en": "When reaching pregnancy sleeping positions in the eighth month, your baby grows larger and you may experience nighttime heartburn. Slightly elevating your head and shoulders with an extra pillow while staying on your side helps reduce acid reflux and eases breathing."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "وضعيات نوم الحامل في الشهر التاسع والاستعداد للولادة",
+        "en": "Pregnancy sleeping positions in the ninth month and preparing for birth"
+      },
+      "body": [
+        {
+          "ar": "تقتصر وضعيات نوم الحامل في الشهر التاسع على النوم الجانبي المدعوم بالوسائد لتخفيف ثقل البطن وآلام الحوض. في هذه الأسابيع الأخيرة، يصل وزن الرحم إلى أقصاه، مما يجعل الاستلقاء على الظهر مسبباً لانخفاض ضغط الدم السريع.",
+          "en": "Pregnancy sleeping positions in the ninth month are limited to pillow-supported side sleeping to relieve belly weight and pelvic pain. In these final weeks, the uterus reaches its maximum weight, making back sleeping a cause of rapid blood pressure drops."
+        },
+        {
+          "ar": "طبقاً لإرشادات هيئة الخدمات الصحية البريطانية (NHS)، تنطبق قاعدة النوم على الجانب على كل نومة، بما في ذلك القيلولة النهارية والعودة إلى النوم بعد الاستيقاظ ليلاً لدخول الحمام.",
+          "en": "According to NHS guidelines, the side-sleeping rule applies to every sleep episode, including daytime naps and going back to sleep after waking up at night to use the bathroom."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "ضعي وسادة تحت بطنكِ لدعم الوزن ومنع سحب عضلات الظهر نحو الفراش.",
+          "en": "Place a pillow under your bump to support the weight and prevent pulling your back muscles toward the mattress."
+        },
+        {
+          "ar": "ثبّتي وسادة طويلة خلف ظهركِ لمنع جسمكِ من الانقلاب التلقائي على الظهر أثناء النوم العميق.",
+          "en": "Tuck a firm pillow behind your back to stop your body from rolling onto your back automatically during deep sleep."
+        },
+        {
+          "ar": "ضعي وسادة بين الفخذين والركبتين لتقليل الاحتكاك وتخفيف ألم عظمة العانة والحوض.",
+          "en": "Place a pillow between your thighs and knees to reduce friction and relieve pubic bone and pelvic pain."
+        },
+        {
+          "ar": "اجعلي السرير خالياً من الوسائد الثقيلة غير الضرورية حول وجهكِ لضمان تهوية جيدة.",
+          "en": "Keep the bed clear of unnecessary heavy pillows around your face to ensure good airflow."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "هل وضعيات نوم الحامل تؤثر على الجنين إذا استيقظت على ظهري",
+        "en": "Whether pregnancy sleeping positions affect the baby if you wake up on your back"
+      },
+      "body": [
+        {
+          "ar": "يتكرر سؤال هل وضعيات نوم الحامل تؤثر على الجنين عند الاستيقاظ المفاجئ على الظهر، وتؤكد هيئة الخدمات الصحية البريطانية (NHS) أنه لا داعي للذعر إذا وجدتِ نفسكِ مستلقية على ظهركِ. كل ما عليكِ فعله هو الانقلاب بهدوء إلى جانبكِ والعودة إلى النوم.",
+          "en": "The question of whether pregnancy sleeping positions affect the baby often comes up when waking suddenly on your back, and the NHS confirms there is no need to panic if you find yourself lying on your back. All you need to do is calmly roll onto your side and go back to sleep."
+        },
+        {
+          "ar": "توضح مؤسسة تومي (Tommy's) أن الخطر يرتبط بالوضعية التي تبدئين بها النوم، لأن الإنسان يثبت على وضعيته الأولى لأطول وقت. إذا انقلبتِ على ظهركِ أثناء الليل، فإن عدم الراحة أو ضيق التنفس سيوقظكِ تلقائياً لتعديل وضعيتكِ.",
+          "en": "Tommy's explains that the risk is linked to the position you go to sleep in, because people stay in their initial sleeping position for the longest time. If you roll onto your back during the night, discomfort or breathlessness will naturally wake you to adjust your position."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    }
+  ],
+  "redFlags": {
+    "intro": {
+      "ar": "تواصلي مع طبيبكِ أو توجهي إلى المستشفى فوراً إذا لاحظتِ أياً من الأعراض التالية أثناء الاستلقاء أو الاستيقاظ من النوم، وفقاً لإرشادات هيئة الخدمات الصحية البريطانية (NHS):",
+      "en": "Contact your doctor or go to the hospital immediately if you notice any of the following symptoms while lying down or waking from sleep, according to NHS guidelines:"
+    },
+    "items": [
+      {
+        "ar": "انخفاض ملحوظ في حركة الجنين أو تغير في نمط ركلاته المعتاد.",
+        "en": "A noticeable decrease in baby movements or a change in their usual kicking pattern."
+      },
+      {
+        "ar": "ضيق شديد في التنفس لا يتحسن حتى بعد الانقلاب على جانبكِ أو الجلوس.",
+        "en": "Severe shortness of breath that does not improve even after rolling onto your side or sitting up."
+      },
+      {
+        "ar": "ألم في الصدر أو خفقان سريع ومستمر في ضربات القلب.",
+        "en": "Chest pain or a fast, persistent racing heartbeat."
+      },
+      {
+        "ar": "دوار شديد أو شعور بالإغماء يستمر بعد تغيير وضعية النوم.",
+        "en": "Severe dizziness or feeling faint that continues after changing your sleep position."
+      },
+      {
+        "ar": "ألم مستمر في البطن أو نزول دم أو سوائل من المهبل أثناء الليل.",
+        "en": "Continuous abdominal pain or vaginal bleeding or fluid leakage during the night."
+      }
+    ],
+    "cites": [
+      "src1"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "اطمئني على نشاط طفلكِ كل يوم قبل النوم",
+      "en": "Check in on your baby's activity every day before sleep"
+    },
+    "body": {
+      "ar": "استخدمي عداد الركلات في تطبيق نواة لتسجيل حركات جنينكِ بسهولة أثناء استلقائكِ على جانبكِ في المساء، ليصل إشعار فوري إلى زوجكِ يطمئنه معكِ.",
+      "en": "Use the kick counter in the Nawah app to easily log your baby's movements while lying on your side in the evening, sending an instant notification to your husband so he stays reassured with you."
+    },
+    "button": {
+      "ar": "حمّلي نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "هل وضعيات نوم الحامل تؤثر على الجنين إذا نمت على الجانب الأيمن؟",
+        "en": "Do pregnancy sleeping positions affect the baby if I sleep on my right side?"
+      },
+      "a": {
+        "ar": "النوم على الجانب الأيمن آمن تماماً مثل الجانب الأيسر وفقاً لمؤسسة تومي (Tommy's) وهيئة الخدمات الصحية البريطانية (NHS). يمكنكِ التبديل بين الجانبين الأيمن والأيسر طوال الليل حسب راحتكِ، والمهم هو تجنب النوم على الظهر بعد الأسبوع ٢٨.",
+        "en": "Sleeping on your right side is just as safe as the left side according to Tommy's and the NHS. You can switch between your right and left sides throughout the night for comfort; the key is avoiding back sleeping after week 28."
+      }
+    },
+    {
+      "q": {
+        "ar": "متى يصبح النوم على الظهر ممنوعاً للحامل؟",
+        "en": "When does sleeping on the back become unsafe during pregnancy?"
+      },
+      "a": {
+        "ar": "توصي هيئة الخدمات الصحية البريطانية (NHS) بالتوقف عن بدء النوم على الظهر اعتباراً من الأسبوع ٢٨ من الحمل، أي بداية الشهر السابع. قبل ذلك، يفضل البدء بالتعود على النوم الجانبي من الشهر الرابع أو الخامس لتجنب آلام الظهر والدوار.",
+        "en": "The NHS recommends stopping going to sleep on your back starting from week 28 of pregnancy, which is the beginning of the seventh month. Before that, it is helpful to start practicing side sleeping around the fourth or fifth month to avoid back pain and dizziness."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هي أفضل وضعيات نوم الحامل في الاشهر الاولى عند الشعور بالغثيان؟",
+        "en": "What are the best pregnancy sleeping positions in the first months when feeling nauseous?"
+      },
+      "a": {
+        "ar": "النوم على أحد الجانبين مع رفع الرأس بوسادة إضافية يساعد في تخفيف الغثيان الليلي وارتجاع المعدة. في الأشهر الثلاثة الأولى، لا يضغط الرحم على الأوعية الدموية، لذا اختاري الوضعية التي تقلل شعوركِ بالدوار.",
+        "en": "Sleeping on either side with your head elevated on an extra pillow helps ease nighttime nausea and acid reflux. In the first three months, the uterus does not press on blood vessels, so choose whichever position reduces dizziness."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل التقلب في السرير يسبب التفاف الحبل السري حول الجنين؟",
+        "en": "Does tossing and turning in bed cause the umbilical cord to wrap around the baby?"
+      },
+      "a": {
+        "ar": "لا توجد أي علاقة بين تقلبكِ أثناء النوم والتفاف الحبل السري حول الجنين. يتحرك الجنين بحرية داخل السائل الأمنيوسي الذي يحميه، وتغيير وضعيتكِ من جانب لآخر ضروري لراحتكِ وتنشيط دورتكِ الدموية.",
+        "en": "There is no link between your tossing and turning in bed and the umbilical cord wrapping around the baby. The baby moves freely inside the protective amniotic fluid, and changing your position from side to side is helpful for your comfort and circulation."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هي وضعيات نوم الحامل في الشهر الثامن لتخفيف ضيق التنفس؟",
+        "en": "What are the best pregnancy sleeping positions in the eighth month to relieve shortness of breath?"
+      },
+      "a": {
+        "ar": "استلقي على جانبكِ الأيسر أو الأيمن مع وضع وسادتين تحت رأسكِ وأعلى ظهركِ لرفع جذعكِ قليلاً. هذه الوضعية تخفف ضغط الرحم على الحجاب الحاجز وتمنع في الوقت نفسه الضغط على الوريد الأجوف السفلي.",
+        "en": "Lie on your left or right side with two pillows under your head and upper back to slightly elevate your torso. This position relieves uterine pressure on your diaphragm while preventing pressure on the inferior vena cava."
+      }
+    },
+    {
+      "q": {
+        "ar": "كيف أثبت نفسي على الجانب ضمن وضعيات نوم الحامل في الشهر التاسع؟",
+        "en": "How do I stay on my side for pregnancy sleeping positions in the ninth month?"
+      },
+      "a": {
+        "ar": "توصي مؤسسة تومي (Tommy's) بوضع وسادة خلف ظهركِ مباشرة ووسادة أخرى بين ركبتيكِ. هذا الحاجز البسيط يمنع جسمكِ من الانقلاب الكامل على الظهر أثناء النوم العميق، وحتى لو مال ظهركِ بزاوية بسيطة على الوسادة يظل الضغط بعيداً عن الأوعية الدموية.",
+        "en": "Tommy's recommends placing a pillow directly behind your back and another between your knees. This simple barrier stops your body from rolling flat onto your back during deep sleep, and even if your back tilts slightly against the pillow, pressure stays off the blood vessels."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "التعب ومشاكل النوم أثناء الحمل",
+        "en": "Tiredness and sleep problems in pregnancy"
+      },
+      "url": "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/tiredness/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src2",
+      "org": "Tommy's",
+      "title": {
+        "ar": "النوم الآمن في الحمل — النوم على الجانب",
+        "en": "Safe sleep in pregnancy - sleeping on your side"
+      },
+      "url": "https://www.tommys.org/pregnancy-information/im-pregnant/sleep-side/sleep-position-pregnancy-qa",
+      "retrieved": "2026-10-27"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "cluster": "father_expansion",
+  "slug": "pregnancy-back-pain-massage",
+  "primaryKeyword": "الم ظهر الحامل",
+  "keywords": [
+    "علاج الم ظهر الحامل",
+    "ماسبب الم ظهر الحامل",
+    "متى يبدأ الم ظهر الحامل",
+    "الم ظهر الحامل في الشهور الاولى",
+    "الم ظهر الحامل في الشهر الثالث",
+    "الم ظهر الحامل في الشهر الخامس",
+    "الم ظهر الحامل في الشهر السادس",
+    "الم ظهر الحامل في الشهر الثامن",
+    "الم ظهر الحامل في الشهر التاسع",
+    "الم في ظهر الحامل"
+  ],
+  "imageQuery": "hands gently massaging pregnant woman lower back on couch no face",
+  "related": [
+    "/ar/father",
+    "/ar/father/labour-signs",
+    "/ar/father/her-mood",
+    "/ar/father/hospital-bag"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأب — العناية الجسدية",
+    "en": "Father's Guide — Physical Care"
+  },
+  "title": {
+    "ar": "الم ظهر الحامل: تقنيات المساج الآمنة التي يمكنك تطبيقها في المنزل",
+    "en": "Pregnancy back pain: Safe massage techniques you can apply at home"
+  },
+  "metaTitle": {
+    "ar": "الم ظهر الحامل: تقنيات المساج الآمنة للأب | نواة",
+    "en": "Pregnancy Back Pain: Safe Massage Guide for Dads | Nawah"
+  },
+  "description": {
+    "ar": "تعرف على أسباب الم ظهر الحامل وكيف تطبق تقنيات المساج الآمنة في المنزل لتخفيف ألم زوجتك خطوة بخطوة، مع أهم الوضعيات المريحة وعلامات الخطر الطبية.",
+    "en": "Learn the causes of pregnancy back pain and how to apply safe home massage techniques step by step to relieve your wife's pain, plus key medical red flags."
+  },
+  "standfirst": {
+    "ar": "دليل عملي يشرح لكَ خطوة بخطوة كيف تخفف ألم أسفل الظهر لدى زوجتكَ بيديكَ بأمان تام في المنزل، وما المناطق التي يجب عليكَ تجنب الضغط عليها.",
+    "en": "A practical step-by-step guide showing you how to safely relieve your wife's lower back pain with your own hands at home, and which areas to avoid pressing."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "الم ظهر الحامل وماسببه وكيف يتغير عبر أشهر الحمل",
+        "en": "Pregnancy back pain, its causes, and how it changes across pregnancy months"
+      },
+      "body": [
+        {
+          "ar": "يحدث الم ظهر الحامل نتيجة ارتخاء الأربطة الطبيعية وتغير مركز ثقل الجسم مع نمو الجنين، ويمكنكَ تخفيفه بأمان عبر المساج اللطيف على جانبي العمود الفقري والكمادات الدافئة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تصبح أربطة الجسم أكثر ليونة وتتمدد طبيعياً استعداداً للولادة، مما يضع ضغطاً إضافياً على مفاصل أسفل الظهر والحوض. عندما تفهم هذا التغير الجسدي، يمكنك التدخل بيديك لتخفيف العبء العضلي عن زوجتك في نهاية كل يوم.",
+          "en": "Pregnancy back pain occurs due to the natural softening of ligaments and a shifting center of gravity as the fetus grows, and you can safely relieve it through gentle massage along the sides of the spine and warm compresses. According to the UK National Health Service (NHS), body ligaments naturally become softer and stretch to prepare for labour, putting extra strain on the joints of the lower back and pelvis. When you understand this physical change, you can step in with your hands to ease your wife's muscular burden at the end of each day."
+        },
+        {
+          "ar": "إذا كنتَ تتساءل ماسبب الم ظهر الحامل من الناحية الطبية، فإن الأمر يرتبط بثلاثة تحولات جسدية متزامنة تمر بها زوجتكَ. وفقاً لكليفلاند كلينك (Cleveland Clinic)، يؤدي إفراز الهرمونات إلى إرخاء المفاصل، بينما يسحب الوزن الإضافي في مقدمة البطن العضلات إلى الأمام، وتضعف عضلات البطن المتمددة فلا تعود قادرة على إسناد الظهر كما في السابق. هرمون الريلاكسين (Relaxin) هو هرمون يفرزه الجسم أثناء الحمل لإرخاء الأربطة والمفاصل وتهيئة الحوض لخروج الطفل.",
+          "en": "If you are wondering what causes pregnancy back pain medically, it comes down to three simultaneous physical shifts your wife experiences. According to Cleveland Clinic, hormone release loosens joints, while extra weight at the front of the body pulls muscles forward, and stretched abdominal muscles weaken so they can no longer support the back as before. Relaxin is a hormone secreted by the body during pregnancy to loosen ligaments and joints and prepare the pelvis for childbirth."
+        },
+        {
+          "ar": "يظهر الم ظهر الحامل في الشهور الاولى غالباً بسبب التغيرات الهرمونية المبكرة والإجهاد، ويستمر الم ظهر الحامل في الشهر الثالث مع بداية تغير شكل الحوض. مع تقدم الحمل، يزداد الم ظهر الحامل في الشهر الخامس وكذلك الم ظهر الحامل في الشهر السادس نتيجة كبر حجم البطن وانحناء الظهر للخلف لحفظ التوازن. في المرحلة الأخيرة، يبلغ الم ظهر الحامل في الشهر الثامن ذروته ويتواصل الم ظهر الحامل في الشهر التاسع، حيث توضح كليفلاند كلينك (Cleveland Clinic) أن استقرار رأس الجنين مقابل عظم العصعص أو أسفل الظهر يزيد من حدة هذا الألم.",
+          "en": "Pregnancy back pain in the early months often appears due to early hormonal changes and fatigue, and pregnancy back pain in the third month continues as the pelvis begins to shift. As pregnancy progresses, pregnancy back pain in the fifth month and pregnancy back pain in the sixth month increase as the belly grows and the back arches backward to maintain balance. In the final stage, pregnancy back pain in the eighth month peaks and pregnancy back pain in the ninth month continues, as Cleveland Clinic notes that the fetus's head resting against the tailbone or lower back intensifies this pain."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "علاج الم ظهر الحامل بالمساج المنزلي الآمن خطوة بخطوة",
+        "en": "Treating pregnancy back pain with safe home massage step by step"
+      },
+      "body": [
+        {
+          "ar": "يعتمد علاج الم ظهر الحامل عبر المساج المنزلي على التمسيد الخفيف واللطيف للعضلات المحيطة بالعمود الفقري مع تجنب الضغط العميق تماماً. وفقاً لكليفلاند كلينك (Cleveland Clinic)، يشبه مساج الحمل المساج السويدي الذي يعتمد على حركات المسح الخفيفة والعجن اللطيف لتهدئة العضلات المشدودة وتقليل التوتر وتحسين النوم. لا تحتاج إلى خبرة طبية لتطبيق هذه الحركات، بل إلى لمسة هادئة ومنتظمة تستجيب لما تشعر به زوجتكَ.",
+          "en": "Treating pregnancy back pain through home massage relies on light, gentle stroking of the muscles surrounding the spine while completely avoiding deep pressure. According to Cleveland Clinic, prenatal massage resembles Swedish massage, using light stroking techniques and gentle kneading to soothe tight muscles, reduce stress, and improve sleep. You do not need medical expertise to apply these movements, just a calm, steady touch that responds to what your wife feels."
+        },
+        {
+          "ar": "قبل أن تبدأ جلسة المساج، تأكد من تهيئة مكان مريح ودافئ، واطلب من زوجتكَ أن تخبركَ فوراً إذا شعرت بأي انزعاج من درجة الضغط. استخدم زيتاً طبيعياً غير معطر لتسهيل انزلاق يديكَ على الجلد دون شد، واتبع الخطوات العملية التالية لتنفيذ مساج آمن وفعال:",
+          "en": "Before starting the massage session, make sure to prepare a warm, comfortable space, and ask your wife to tell you immediately if any pressure feels uncomfortable. Use an unscented natural oil so your hands glide smoothly over the skin without pulling, and follow these practical steps for a safe and effective massage:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اضبط وضعية زوجتكَ أولاً بحيث تستلقي على جانبها مع وضع وسادة بين ركبتيها المثنيتين ووسادة تحت بطنها، أو اجعلها تجلس على كرسي وتميل للأمام مستندةً بذراعيها ورأسها على وسادة فوق طاولة.",
+          "en": "Set your wife's position first so she lies on her side with a pillow between her bent knees and a pillow under her belly, or have her sit on a chair leaning forward with her arms and head resting on a pillow on a table."
+        },
+        {
+          "ar": "دفئ يديكَ جيداً بفركهما معاً مع بضع قطرات من الزيت، ثم ابدأ بحركات مسح طولية بطيئة بباطن كفيكَ من أسفل الظهر صعوداً نحو الكتفين على جانبي العمود الفقري.",
+          "en": "Warm your hands well by rubbing them together with a few drops of oil, then start with slow, long gliding strokes using your open palms from the lower back up toward the shoulders along both sides of the spine."
+        },
+        {
+          "ar": "ركز على العضلات الممتدة على يمين ويسار العمود الفقري باستخدام حركات دائرية واسعة بباطن الكف، ولا تضغط أبداً على عظام العمود الفقري نفسها.",
+          "en": "Focus on the muscles running to the right and left of the spine using wide circular motions with the heel of your palm, and never press directly on the spine bones themselves."
+        },
+        {
+          "ar": "انتقل إلى أعلى الكتفين وأسفل الرقبة واعجن العضلات بلطف بين أصابعكَ وكفكَ لتفكيك التشنجات الناتجة عن تغير وضعية الوقوف.",
+          "en": "Move to the upper shoulders and base of the neck and gently knead the muscles between your fingers and palm to release tension caused by postural shifts."
+        },
+        {
+          "ar": "استمر في الحركات الهادئة لمدة ١٠ إلى ١٥ دقيقة مع الحفاظ على إيقاع بطيء وثابت يساعد جسمها على الاسترخاء.",
+          "en": "Continue the calm movements for 10 to 15 minutes while maintaining a slow, steady rhythm that helps her body relax."
+        }
+      ],
+      "cites": [
+        "src2",
+        "src3",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "الوضعيات الآمنة والمناطق الممنوعة عند التعامل مع الم ظهر الحامل",
+        "en": "Safe positions and prohibited areas when handling pregnancy back pain"
+      },
+      "body": [
+        {
+          "ar": "تتطلب حماية زوجتكَ أثناء جلسة تخفيف الم ظهر الحامل تجنب استلقائها المسطح على بطنها أو ظهرها، والامتناع التام عن الضغط العميق على مناطق محددة في الجسم. وفقاً لمايو كلينك (Mayo Clinic)، يساعد النوم والاستلقاء على الجانب مع ثني ركبة واحدة أو كلتا الركبتين واستخدام وسائد الدعم بين الركبتين وتحت البطن وخلف الظهر في تقليل إجهاد الظهر. استلقاء الحامل على ظهرها لفترات طويلة في الشهور المتقدمة يضغط على الأوعية الدموية الرئيسية ويقلل التروية، لذا فإن وضعية الجانب هي الخيار الأسلم دائماً.",
+          "en": "Protecting your wife during a pregnancy back pain relief session requires avoiding flat lying on her stomach or back, and completely refraining from deep pressure on specific body areas. According to Mayo Clinic, lying on the side with one or both knees bent and using support pillows between the knees, under the stomach, and behind the back helps ease back strain. Lying flat on the back for prolonged periods in later pregnancy presses on major blood vessels, making the side-lying position the safest choice."
+        },
+        {
+          "ar": "إلى جانب ضبط الوضعية، هناك مناطق في جسم الحامل يجب عليكَ الحذر منها وعدم تعريضها للضغط القوي. وفقاً لكليفلاند كلينك (Cleveland Clinic)، يجب تجنب الضغط العميق على البطن وأسفل الظهر والساقين، كما يجب الابتعاد عن نقاط الضغط حول الكاحلين وبعض أصابع القدم لأنها قد تحفز انقباضات الولادة، ويجب استشارة الطبيب أولاً في حالات الحمل عالي الخطورة مثل تسمم الحمل أو ارتفاع ضغط الدم أو اضطرابات تخثر الدم. يوضح الجدول التالي الفرق بين الممارسات الآمنة والممنوعة أثناء تدليك زوجتكَ:",
+          "en": "Beyond adjusting her position, there are areas on a pregnant woman's body where you must exercise caution and avoid strong pressure. According to Cleveland Clinic, you must avoid deep pressure on the abdomen, lower back, and legs, avoid pressure points around the ankles and toes as they may induce labor contractions, and consult an OBGYN first in high-risk pregnancies such as preeclampsia, high blood pressure, or blood clotting disorders. The table below outlines safe versus prohibited practices when massaging your wife:"
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "العنصر",
+            "en": "Element"
+          },
+          {
+            "ar": "الممارسة الآمنة (افعل)",
+            "en": "Safe Practice (Do)"
+          },
+          {
+            "ar": "الممارسة الممنوعة (تجنب)",
+            "en": "Prohibited Practice (Avoid)"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "وضعية الجسم",
+              "en": "Body Position"
+            },
+            {
+              "ar": "الاستلقاء على الجانب مع وسادة بين الركبتين، أو الجلوس والميل للأمام على وسادة",
+              "en": "Lying on the side with a pillow between the knees, or sitting leaning forward on a pillow"
+            },
+            {
+              "ar": "الاستلقاء المسطح على البطن أو الاستلقاء المسطح على الظهر",
+              "en": "Lying flat on the stomach or lying flat on the back"
+            }
+          ],
+          [
+            {
+              "ar": "قوة الضغط",
+              "en": "Pressure Intensity"
+            },
+            {
+              "ar": "مسح سطحي لطيف بباطن الكف وعجن خفيف للعضلات الجانبية والكتفين",
+              "en": "Gentle surface gliding with the palm and light kneading of side muscles and shoulders"
+            },
+            {
+              "ar": "الضغط العميق على أسفل الظهر أو الضغط المباشر فوق فقرات العمود الفقري",
+              "en": "Deep tissue pressure on the lower back or direct pressure over spinal vertebrae"
+            }
+          ],
+          [
+            {
+              "ar": "مناطق الجسم",
+              "en": "Body Areas"
+            },
+            {
+              "ar": "العضلات المحيطة بالعمود الفقري، أعلى الظهر، والكتفين",
+              "en": "Muscles alongside the spine, upper back, and shoulders"
+            },
+            {
+              "ar": "البطن، الساقين بضغط عميق، والمناطق المحيطة بالكاحلين وأصابع القدم",
+              "en": "Abdomen, deep pressure on legs, and areas around the ankles and toes"
+            }
+          ],
+          [
+            {
+              "ar": "الحالات الطبية الخاصة",
+              "en": "Special Medical Conditions"
+            },
+            {
+              "ar": "استشارة الطبيب المتابع قبل البدء بأي مساج إذا كان الحمل عالي الخطورة",
+              "en": "Consulting the OBGYN before starting any massage in a high-risk pregnancy"
+            },
+            {
+              "ar": "تطبيق المساج عند وجود جلطات دموية أو تسمم حمل أو نزيف دون إذن طبي",
+              "en": "Applying massage in the presence of blood clots, preeclampsia, or bleeding without medical clearance"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src3",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "خطوات يومية عملية تساعدكَ في تخفيف الم في ظهر الحامل",
+        "en": "Practical daily steps to help you relieve pain in a pregnant woman's back"
+      },
+      "body": [
+        {
+          "ar": "لا يقتصر دوركَ في تخفيف الم في ظهر الحامل على جلسة المساج المسائية، بل يمتد إلى تعديل بيئة المنزل وحمل الأعباء البدنية اليومية عنها. وفقاً لمايو كلينك (Mayo Clinic)، يمكن أن يساعد وضع كمادة دافئة أو كيس ماء دافئ أو كمادة باردة على الظهر في إراحة العضلات المؤلمة، بشرط ضبط الكمادة الكهربائية على أقل درجة حرارة ولفها بمنشفة لتجنب الحروق. تحضير هذه الكمادة لها أثناء جلوسها للراحة يمنح عضلاتها استرخاءً فورياً قبل النوم.",
+          "en": "Your role in relieving pain in a pregnant woman's back is not limited to an evening massage session; it extends to adjusting the home environment and taking over daily physical burdens. According to Mayo Clinic, placing a heating pad, warm water bottle, or ice pack on the back can relieve sore muscles, provided you set any heating pad to the lowest temperature and wrap it in a towel to prevent burns. Preparing this compress for her while she rests gives her muscles immediate relaxation before sleep."
+        },
+        {
+          "ar": "بالإضافة إلى العلاج الحراري، توصي هيئة الخدمات الصحية البريطانية (NHS) ومؤسسة مايو كلينك (Mayo Clinic) بمجموعة من التعديلات اليومية التي تحمي العمود الفقري والحوض من الإجهاد المتكرر. يمكنك تطبيق هذه الإجراءات في المنزل لحماية ظهر زوجتكَ طوال اليوم:",
+          "en": "In addition to heat therapy, the UK National Health Service (NHS) and Mayo Clinic recommend a set of daily adjustments that protect the spine and pelvis from repeated strain. You can apply these measures at home to protect your wife's back throughout the day:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "تولَّ عنها رفع الأشياء من الأرض أو حمل أكياس التسوق الثقيلة، وإذا اضطرت هي لرفع شيء خفيف، ذكّرها بثني ركبتيها وإبقاء ظهرها مستقيماً بدلاً من الانحناء من الخصر، وفقاً لتوصيات هيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "Take over lifting objects from the floor or carrying heavy shopping bags, and if she must lift something light, remind her to bend her knees and keep her back straight rather than bending at the waist, per NHS recommendations."
+        },
+        {
+          "ar": "جهّز كرسي الجلوس الخاص بها بوضع وسادة صغيرة أو مسند قطني خلف أسفل ظهرها، وضع مسنداً منخفضاً تحت قدميها لرفعها قليلاً أثناء الجلوس الطويل، وفقاً لإرشادات مايو كلينك (Mayo Clinic).",
+          "en": "Prepare her sitting chair by placing a small pillow or lumbar support cushion behind her lower back, and place a low footstool under her feet to elevate them slightly during prolonged sitting, per Mayo Clinic guidelines."
+        },
+        {
+          "ar": "تأكد من أن مرتبة السرير توفر دعماً كافياً لظهرها؛ وتوضح هيئة الخدمات الصحية البريطانية (NHS) أنه يمكنكَ وضع لوح صلب تحت المرتبة اللينة لجعلها أكثر تماسكاً إذا لزم الأمر.",
+          "en": "Ensure the bed mattress supports her back properly; the NHS notes that you can place a piece of hardboard under a soft mattress to make it firmer if necessary."
+        },
+        {
+          "ar": "شجعها على ارتداء أحذية منخفضة الكعب توفر دعماً جيداً لقوس القدم، مثل أحذية المشي أو الأحذية الرياضية، والابتعاد عن الكعب العالي الذي يخل بالتوازن، وفقاً لمايو كلينك (Mayo Clinic).",
+          "en": "Encourage her to wear low-heeled shoes that provide good arch support, such as walking or athletic shoes, and avoid high heels that shift balance forward, according to Mayo Clinic."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "تمارين الإطالة اللطيفة لتهدئة الم ظهر الحامل في الشهر الثامن والتاسع",
+        "en": "Gentle stretching exercises to soothe pregnancy back pain in the eighth and ninth months"
+      },
+      "body": [
+        {
+          "ar": "يساعد تمرين إمالة الحوض على اليدين والركبتين في تقوية عضلات البطن وتخفيف الم ظهر الحامل بفعالية، خاصة مع زيادة ثقل البطن في الثلث الأخير. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تقوي التمارين الخفيفة مثل هذا التمرين عضلات المعدة مما يخفف ألم الظهر أثناء الحمل. يمكنك أن تجلس بجانب زوجتكَ على سجادة التمرين لمساعدتها على النزول والنهوض بأمان وضبط خطوات التمرين معها.",
+          "en": "The pelvic tilt exercise on hands and knees helps strengthen stomach muscles and effectively ease pregnancy back pain, especially as the belly grows heavier in the third trimester. According to the UK National Health Service (NHS), gentle exercises like this strengthen stomach muscles and ease backache during pregnancy. You can sit beside your wife on an exercise mat to help her get down and up safely and guide her through the steps."
+        },
+        {
+          "ar": "لكي تؤدي زوجتكَ هذا التمرين بالطريقة الصحيحة التي توصي بها هيئة الخدمات الصحية البريطانية (NHS) ومؤسسة مايو كلينك (Mayo Clinic)، ساعدها على اتباع هذه الخطوات المتسلسلة بهدوء:",
+          "en": "For your wife to perform this exercise correctly as recommended by the NHS and Mayo Clinic, help her calmly follow these sequential steps:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اطلب منها الارتكاز على يديها وركبتيها (وضعية الصندوق) بحيث تكون يداها تحت كتفيها وركبتاها تحت وركيها، مع إبقاء ظهرها مستقيماً ورأسها على استقامة ظهرها.",
+          "en": "Have her rest on her hands and knees (box position) with her hands under her shoulders and knees under her hips, keeping her back straight and her head in line with her back."
+        },
+        {
+          "ar": "تشد عضلات بطنها إلى الداخل وترفع ظهرها للأعلى نحو السقف برفق بحيث يتقوس الظهر قليلاً وتنحني الرأس والردفان للداخل.",
+          "en": "She pulls her stomach muscles in and gently raises her back up toward the ceiling so her back rounds slightly and her head and bum tuck under."
+        },
+        {
+          "ar": "تثبت على هذه الوضعية لبضع ثوانٍ مع التنفس الطبيعي، ثم تعود ببطء إلى الوضعية المستقيمة المحايدة مع الحرص على عدم تقويس الظهر للأسفل.",
+          "en": "She holds this position for a few seconds while breathing normally, then slowly returns to the straight, neutral position, taking care not to hollow her back downward."
+        },
+        {
+          "ar": "تكرر هذه الحركة ببطء وإيقاع منتظم ١٠ مرات، مع التوقف فوراً إذا شعرت بأي ألم حاد، وفقاً لتعليمات هيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "She repeats this movement slowly and rhythmically 10 times, stopping immediately if she feels any sharp pain, according to NHS instructions."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4"
+      ]
+    }
+  ],
+  "redFlags": {
+    "intro": {
+      "ar": "توقف عن المساج واطلب الرعاية الطبية العاجلة أو توجه إلى الطوارئ فوراً إذا ترافق ألم ظهر زوجتكَ مع أي من الأعراض التالية التي تحذر منها هيئة الخدمات الصحية البريطانية (NHS) وكليفلاند كلينك (Cleveland Clinic): فقدان الإحساس أو الخدر في إحدى الساقين أو كلتيهما أو في منطقة المقعدة أو الأعضاء التناسلية، أو حدوث ألم ظهر مصحوب بحمى أو نزيف مهبلي أو ألم وحرقة عند التبول، أو ألم في أحد الجانبين تحت الأضلاع، أو إذا كان الألم في الثلث الثاني أو الثالث من الحمل ويأتي على شكل تقلصات منتظمة في البطن أو الوركين لأنه قد يكون علامة على الولادة المبكرة.",
+      "en": "Stop the massage and seek urgent medical care or go to the emergency room immediately if your wife's back pain is accompanied by any of the following symptoms warned against by the NHS and Cleveland Clinic: loss of feeling or numbness in one or both legs, the buttocks, or genitals; back pain accompanied by fever, vaginal bleeding, or pain when urinating; pain in one or both sides under the ribs; or pain in the second or third trimester that feels like regular cramping in the abdomen or hips, as this could be a sign of early labour."
+    },
+    "items": [],
+    "cites": [
+      "src1",
+      "src2"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "تابع حمل زوجتكَ أسبوعاً بأسبوع عبر وضع الشريك في نواة",
+      "en": "Follow your wife's pregnancy week by week with Nawah Partner Mode"
+    },
+    "body": {
+      "ar": "يرتبط ألم الظهر بتطور حجم الجنين وتغير وزن الحمل من شهر لآخر. من خلال ميزة وضع الشريك (Partner Mode) في تطبيق نواة، يمكنكَ ربط حسابكَ بحساب زوجتكَ عبر رمز خاص لترى نفس الأسبوع وحجم الطفل الذي تراه هي، ويصلكَ إشعار فوري في كل مرة تسجل فيها جلسة ركلات للطفل لتكون حاضراً معها في كل تفصيل.",
+      "en": "Back pain is closely tied to fetal growth and shifting weight from month to month. With Partner Mode in the Nawah app, you can link your account to your wife's using a private code to see the exact same pregnancy week and baby size she sees, and get an instant push notification every time she logs a kick session."
+    },
+    "button": {
+      "ar": "حمّل نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "متى يبدأ الم ظهر الحامل؟",
+        "en": "When does pregnancy back pain start?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، من الشائع جداً أن يبدأ ألم الظهر في المراحل المبكرة من الحمل نتيجة ارتخاء الأربطة بفعل الهرمونات. كما توضح كليفلاند كلينك (Cleveland Clinic) أن الألم يزداد وضوحاً في الثلثين الثاني والثالث مع زيادة وزن الجنين وتغير مركز ثقل الجسم.",
+        "en": "According to the NHS, it is very common for back pain to start in the early stages of pregnancy as ligaments soften due to hormones. Cleveland Clinic also notes that pain becomes more pronounced in the second and third trimesters as the baby's weight increases and the body's center of gravity shifts."
+      }
+    },
+    {
+      "q": {
+        "ar": "ماسبب الم ظهر الحامل؟",
+        "en": "What is the cause of pregnancy back pain?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، يحدث ألم الظهر أثناء الحمل بسبب ثلاثة عوامل رئيسية: التغيرات الهرمونية التي تليّن أربطة الحوض وأسفل الظهر، وزيادة الوزن التي تسحب الجسم للأمام وتغير مركز الثقل، وتمدد عضلات البطن وضعفها مما يضع عبئاً إضافياً على عضلات الظهر.",
+        "en": "According to Cleveland Clinic, back pain during pregnancy happens due to three main factors: hormonal changes that soften pelvic and lower back ligaments, weight gain that pulls the body forward and shifts the center of gravity, and the stretching and weakening of abdominal muscles which puts extra strain on back muscles."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هو أفضل علاج الم ظهر الحامل في المنزل؟",
+        "en": "What is the best treatment for pregnancy back pain at home?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS) ومايو كلينك (Mayo Clinic)، يشمل العلاج المنزلي الآمن الحصول على مساج لطيف للظهر، واستخدام كمادات دافئة على أقل حرارة ملفوفة بمنشفة، والنوم على الجانب مع وضع وسادة بين الركبتين، وممارسة تمارين إطالة الظهر الخفيفة والمشي، والجلوس بوضعية مدعومة بوسادة خلف أسفل الظهر.",
+        "en": "According to the NHS and Mayo Clinic, safe home treatment includes getting a gentle back massage, using a heating pad on the lowest setting wrapped in a towel, sleeping on the side with a pillow between the knees, practicing gentle back stretches and walking, and sitting with a support pillow behind the lower back."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل الم ظهر الحامل في الشهر الاول والم ظهر الحامل في الشهر الثاني طبيعي؟",
+        "en": "Is pregnancy back pain in the first month and second month normal?"
+      },
+      "a": {
+        "ar": "نعم، تؤكد هيئة الخدمات الصحية البريطانية (NHS) أن ألم الظهر شائع جداً في المراحل الأولى من الحمل لأن الجسم يبدأ مبكراً بإفراز الهرمونات التي تلين الأربطة وتمددها. طالما أن الألم خفيف وغير مصحوب بنزيف مهبلي أو حمى أو ألم شديد في البطن، فإنه يعد عرضاً طبيعياً يمكنك تخفيفه بالراحة والكمادات الدافئة.",
+        "en": "Yes, the NHS confirms that back pain is very common in the early stages of pregnancy because the body starts releasing hormones early on that soften and stretch ligaments. As long as the pain is mild and not accompanied by vaginal bleeding, fever, or severe abdominal pain, it is a normal symptom you can ease with rest and warm compresses."
+      }
+    },
+    {
+      "q": {
+        "ar": "كيف أخفف الم ظهر الحامل في الشهر الرابع؟",
+        "en": "How do I relieve pregnancy back pain in the fourth month?"
+      },
+      "a": {
+        "ar": "مع بداية الثلث الثاني في الشهر الرابع يبدأ البطن بالبروز تدريجياً، وتنصح مايو كلينك (Mayo Clinic) في هذه المرحلة بتجنب الوقوف لفترات طويلة، ووضع قدم واحدة على مسند منخفض عند الاضطرار للوقوف، وارتداء حذاء مريح منخفض الكعب يدعم قوس القدم، مع بدء النوم على الجانب واستخدام وسائد الحمل.",
+        "en": "With the start of the second trimester in the fourth month, the belly gradually begins to show, and Mayo Clinic advises avoiding standing for long periods, resting one foot on a low step stool if standing is necessary, wearing comfortable low-heeled shoes with arch support, and sleeping on the side with pregnancy pillows."
+      }
+    },
+    {
+      "q": {
+        "ar": "متى يكون الم ظهر الحامل في الشهر الثامن أو التاسع علامة ولادة؟",
+        "en": "When is pregnancy back pain in the eighth or ninth month a sign of labour?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic) وهيئة الخدمات الصحية البريطانية (NHS)، قد يكون ألم الظهر في الثلث الثاني أو الثالث علامة على الولادة إذا بدأ بشكل مفاجئ وحاد، أو إذا كان يشبه التقلصات والمغص ويمتد إلى الوركين أو البطن، ولا يزول بتغيير الوضعية أو المساج اللطيف؛ وعندها يجب التواصل مع الطبيب فوراً.",
+        "en": "According to Cleveland Clinic and the NHS, back pain in the second or third trimester may be a sign of labour if it starts suddenly and sharply, or if it feels like cramping that radiates to the hips or abdomen and does not go away with changing positions or gentle massage; in this case, you should contact the healthcare provider immediately."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل يمكن استخدام المسكنات مع المساج لتخفيف الم ظهر الحامل؟",
+        "en": "Can painkillers be used alongside massage to relieve pregnancy back pain?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يمكن للحامل تناول الباراسيتامول لتخفيف ألم الظهر أثناء الحمل ما لم يوصِ الطبيب أو القابلة بغير ذلك، مع ضرورة اتباع التعليمات المدونة على العبوة دائماً واستشارة الطبيب قبل تناول أي دواء آخر.",
+        "en": "According to the NHS, a pregnant woman can take paracetamol to ease back pain during pregnancy unless her doctor or midwife advises otherwise, while always following the instructions on the packet and consulting a doctor before taking any other medication."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "ألم الظهر في الحمل - هيئة الخدمات الصحية البريطانية",
+        "en": "Back pain in pregnancy - NHS"
+      },
+      "url": "https://www.nhs.uk/pregnancy/common-symptoms/back-pain/",
+      "retrieved": "2026-10-26"
+    },
+    {
+      "id": "src2",
+      "org": "Cleveland Clinic",
+      "title": {
+        "ar": "ألم الظهر أثناء الحمل - كليفلاند كلينك",
+        "en": "Back Pain During Pregnancy - Cleveland Clinic"
+      },
+      "url": "https://my.clevelandclinic.org/health/symptoms/back-pain-during-pregnancy",
+      "retrieved": "2026-10-26"
+    },
+    {
+      "id": "src3",
+      "org": "Cleveland Clinic",
+      "title": {
+        "ar": "العلاج بالمساج ومساج الحمل - كليفلاند كلينك",
+        "en": "Massage Therapy & Prenatal Massage - Cleveland Clinic"
+      },
+      "url": "https://my.clevelandclinic.org/departments/wellness/integrative/treatments-services/massage-therapy",
+      "retrieved": "2026-10-26"
+    },
+    {
+      "id": "src4",
+      "org": "Mayo Clinic",
+      "title": {
+        "ar": "ألم الظهر أثناء الحمل: ٧ نصائح لتخفيف الألم - مايو كلينك",
+        "en": "Back pain during pregnancy: 7 tips for relief - Mayo Clinic"
+      },
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy/art-20046080",
+      "retrieved": "2026-10-26"
+    }
+  ],
+  "heroAlt": {
+    "ar": "امرأة مستلقية على سرير تدليك وأيدٍ تدلّك ظهرها",
+    "en": "A woman lying on a massage table while hands massage her back"
+  }
+}

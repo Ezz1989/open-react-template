@@ -1,0 +1,443 @@
+{
+  "cluster": "food_safety",
+  "slug": "liver-during-pregnancy",
+  "primaryKeyword": "الكبدة للحامل",
+  "keywords": [
+    "هل الكبده للحامل مضره",
+    "مافائدة الكبده للحامل",
+    "الكبدة للحامل في الشهور الأولى",
+    "الكبدة للحامل في الشهر الثالث",
+    "الكبدة للحامل في الشهر الرابع",
+    "الكبدة للحامل في الشهر الخامس",
+    "الكبدة للحامل في الشهر السادس",
+    "الكبدة للحامل في الشهر السابع",
+    "الكبدة للحامل في الشهر الثامن",
+    "الكبدة للحامل في الشهر التاسع",
+    "الكبدة للحامل في الشهور الاخيره"
+  ],
+  "imageQuery": "fresh spinach lentils red meat iron rich food on wooden table hands no face",
+  "related": [
+    "/ar/guide/1",
+    "/ar/guide/4",
+    "/ar/guide/7",
+    "/ar/articles/fasting/fasting-during-pregnancy"
+  ],
+  "eyebrow": {
+    "ar": "آمنة للحامل؟ · أطعمة",
+    "en": "Safe in pregnancy? · Foods"
+  },
+  "title": {
+    "ar": "الكبدة للحامل: هل هي آمنة أم مضرة في شهور الحمل؟",
+    "en": "Liver during pregnancy: is it safe or harmful across pregnancy months?"
+  },
+  "metaTitle": {
+    "ar": "الكبدة للحامل: هل هي آمنة أم مضرة؟ | نواة",
+    "en": "Liver During Pregnancy: Is It Safe or Harmful? | Nawah"
+  },
+  "description": {
+    "ar": "الكبدة للحامل غير آمنة وينصح بتجنبها طوال شهور الحمل بسبب ارتفاع فيتامين أ (الريتينول). تعرفي على أضرارها، وحكم تناولها بكل شهر، والبدائل الآمنة للحديد.",
+    "en": "Liver during pregnancy is unsafe and should be avoided throughout pregnancy due to high vitamin A (retinol). Learn the risks by month and safe iron alternatives."
+  },
+  "standfirst": {
+    "ar": "إجابة طبية واضحة حول سبب منع الكبدة ومنتجاتها طوال فترة حملكِ، وما تفعله حصة واحدة، وكيف تحصلين على الحديد بأمان في كل شهر. أعدّ هذا الدليل فريق نواة استناداً إلى المصادر الطبية الموثقة، ولم يكتبه أو يراجعه طبيب.",
+    "en": "A clear medical answer on why liver and liver products are avoided throughout your pregnancy, what happens after a single portion, and how to get iron safely each month. Written by the Nawah team from verified medical sources; not written or reviewed by a clinician."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "الكبدة للحامل والسلامة الطبية",
+        "en": "Liver during pregnancy and medical safety"
+      },
+      "body": [
+        {
+          "ar": "الكبدة للحامل غير آمنة، وتوصي الجهات الطبية بتجنب تناولها تماماً طوال أشهر الحمل التسعة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تحتوي الكبدة وجميع منتجاتها مثل معجون الكبدة (الباتيه) والنقانق المصنوعة منها على مستويات مرتفعة جداً من فيتامين أ النشط الذي قد يضر الجنين. ينطبق هذا التوجيه الطبي على جميع أنواع الكبدة الحيوانية دون استثناء، سواء كانت كبدة بقر أو غنم أو دجاج، وسواء كانت مشوية أو مقلية أو مطهوة جيداً في المنزل.",
+          "en": "Liver during pregnancy is not safe, and medical authorities recommend avoiding it completely throughout all nine months of pregnancy. According to the UK National Health Service (NHS), liver and all liver products such as liver pate and liver sausage contain very high levels of active vitamin A that can harm your unborn baby. This medical guidance applies to all types of animal liver without exception, whether beef, lamb, or chicken, and whether grilled, fried, or thoroughly cooked at home."
+        },
+        {
+          "ar": "تسمعين كثيراً من العائلة أن الكبدة غذاء ممتاز لعلاج فقر الدم ورفع الهيموجلوبين بسرعة. هذه النصيحة شائعة لأن الكبدة غنية فعلاً بالحديد، لكنها تتجاهل خطراً طبياً لا يزول بالطهي أو الغسل. المشكلة في الكبدة ليست البكتيريا التي تموت بالحرارة، بل تركيز فيتامين أ المخزّن داخل أنسجة الكبد نفسها، وهو مركب يبقى ثابتاً مهما طالت مدة الطبخ على النار.",
+          "en": "You often hear from family that liver is an excellent food for treating anemia and raising hemoglobin quickly. This advice is common because liver is indeed rich in iron, bit it overlooks a medical risk that cooking or washing does not remove. The problem with liver is not bacteria that die with heat, but the concentration of vitamin A stored inside the liver tissue itself, which remains stable no matter how long you cook it."
+        },
+        {
+          "ar": "إذا كنتِ قد تناولتِ وجبة واحدة من الكبدة قبل معرفة هذا التوجيه الطبي، فلا داعي للذعر أو القلق الشديد. وفقاً للمكتبة الوطنية للطب في الولايات المتحدة (MedlinePlus)، يرتبط الخطر الأساسي بتراكم الجرعات العالية من فيتامين أ في الجسم أو استهلاكها بشكل متكرر. كل ما عليكِ فعله الآن هو التوقف عن تناول الكبدة ومنتجاتها في بقية أسابيع حملكِ، وإبلاغ طبيبكِ في الزيارة القادمة للاطمئنان.",
+          "en": "If you ate a single meal of liver before learning about this medical guidance, there is no need for panic or severe worry. According to the US National Library of Medicine (MedlinePlus), the primary risk is linked to high doses of vitamin A building up in the body or being consumed repeatedly. All you need to do now is stop eating liver and its products for the rest of your pregnancy and mention it to your doctor at your next visit for reassurance."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "هل الكبده للحامل مضره بسبب فيتامين أ",
+        "en": "Why liver is harmful during pregnancy due to vitamin A"
+      },
+      "body": [
+        {
+          "ar": "نعم، تُعد الكبدة مضرة للحامل لأنها تحتوي على تراكيز عالية جداً من فيتامين أ المشكّل مسبقاً، وتناول جرعات كبيرة منه خلال الحمل قد يسبب تشوهات خلقية للجنين وفقاً لموقع (MedlinePlus) التابع للمعاهد الوطنية للصحة الأمريكية. يُعرف فرط فيتامين أ طبياً بأنه حالة يتراكم فيها الفيتامين داخل جسمكِ بمستويات تفوق حاجتكِ اليومية وتتحول إلى مادة سامة.",
+          "en": "Yes, liver is harmful during pregnancy because it contains very high concentrations of preformed vitamin A, and taking large doses during pregnancy can cause birth defects according to MedlinePlus from the US National Institutes of Health. Hypervitaminosis A is defined medically as a condition in which vitamin A builds up in your body to levels exceeding your daily need and becomes toxic."
+        },
+        {
+          "ar": "ينقسم فيتامين أ في الغذاء إلى نوعين مختلفين تماماً في تأثيرهما على حملكِ. النوع الأول هو الريتينول، وهو الشكل الحيواني النشط من فيتامين أ الذي يمتصه جسمكِ مباشرة ويخزنه في الكبد والأنسجة الدهنية لأنه فيتامين يذوب في الدهون ولا يخرج بسهولة مع البول. النوع الثاني هو البيتا كاروتين، وهو صبغة نباتية توجد في الخضروات والفواكه الملونة، ويحولها جسمكِ إلى فيتامين أ بالقدر الذي يحتاجه فقط دون أن تسبب أي سمية للجنين.",
+          "en": "Vitamin A in food is divided into two types that differ completely in how they affect your pregnancy. The first type is retinol, the active animal form of vitamin A that your body absorbs directly and stores in the liver and fatty tissues because it is a fat-soluble vitamin that does not easily leave through urine. The second type is beta-carotene, a plant pigment found in colorful vegetables and fruits, which your body converts into vitamin A only as needed without causing toxicity to the fetus."
+        },
+        {
+          "ar": "تحتاجين خلال فترة الحمل إلى كمية محددة وصغيرة من هذا الفيتامين لدعم نمو عيني الجنين وعظامه وأعضائه الداخلية. وفقاً لموقع (MedlinePlus)، تبلغ الحصة اليومية الموصى بها للحامل ما بين سن ١٩ و٥٠ عاماً نحو ٧٧٠ ميكروغراماً فقط في اليوم، وتكفيكِ الوجبات المتوازنة لتغطية هذا الرقم بأمان. أما تناول الكبدة أو مكملات زيت كبد الحوت فيرفع نسبة الريتينول في الدم دفعة واحدة إلى مستويات غير آمنة.",
+          "en": "During pregnancy, you need a specific, small amount of this vitamin to support the development of your baby's eyes, bones, and internal organs. According to MedlinePlus, the recommended daily allowance for a pregnant woman aged 19 to 50 is 770 micrograms per day, and balanced meals cover this number safely. Eating liver or taking cod liver oil supplements raises blood retinol levels all at once to unsafe levels."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "نوع فيتامين أ",
+            "en": "Type of vitamin A"
+          },
+          {
+            "ar": "المصادر الغذائية",
+            "en": "Food sources"
+          },
+          {
+            "ar": "الأمان خلال الحمل (وفقاً لـ NHS وMedlinePlus)",
+            "en": "Safety in pregnancy (per NHS and MedlinePlus)"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "الريتينول المركز (فيتامين أ حيواني عالي التركيز)",
+              "en": "Concentrated retinol (high-concentration animal vitamin A)"
+            },
+            {
+              "ar": "الكبدة بجميع أنواعها، الباتيه، سجق الكبدة، زيت كبد الحوت، ومكملات فيتامين أ",
+              "en": "All types of liver, pate, liver sausage, cod liver oil, and vitamin A supplements"
+            },
+            {
+              "ar": "غير آمن؛ يجب تجنبه تماماً طوال الحمل لمنع خطر التشوهات الخلقية",
+              "en": "Unsafe; must be completely avoided throughout pregnancy to prevent birth defect risks"
+            }
+          ],
+          [
+            {
+              "ar": "الريتينول المعتدل في الغذاء اليومي",
+              "en": "Moderate retinol in everyday foods"
+            },
+            {
+              "ar": "الحليب المبستر، الأجبان المسموحة، البيض المطهو جيداً، والأسماك الدهنية كالسلمون",
+              "en": "Pasteurized milk, safe cheeses, thoroughly cooked eggs, and oily fish like salmon"
+            },
+            {
+              "ar": "آمن ضمن الكميات الغذائية المعتادة في النظام المتوازن",
+              "en": "Safe within normal dietary amounts in a balanced diet"
+            }
+          ],
+          [
+            {
+              "ar": "البيتا كاروتين (طلائع فيتامين أ النباتية)",
+              "en": "Beta-carotene (plant provitamin A)"
+            },
+            {
+              "ar": "الجزر، البطاطا الحلوة، السبانخ، الفلفل الأحمر، البروكلي، والمانجو",
+              "en": "Carrots, sweet potatoes, spinach, red peppers, broccoli, and mango"
+            },
+            {
+              "ar": "آمن تماماً؛ يحوله الجسم لفيتامين أ حسب حاجته ولا يسبب سمية",
+              "en": "Completely safe; the body converts it to vitamin A as needed without causing toxicity"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "الكبدة للحامل في الشهور الأولى والشهر الثالث",
+        "en": "Liver during pregnancy in the first months and third month"
+      },
+      "body": [
+        {
+          "ar": "يُمنع تناول الكبدة للحامل في الشهور الأولى وفي الشهر الثالث منعاً باتاً لأن هذه الأسابيع تشهد تكون الأعضاء الأساسية للجنين. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يبدأ التحذير من الكبدة ومنتجاتها منذ لحظة التخطيط للحمل ويستمر طوال الثلث الأول لحماية الجنين من المستويات المرتفعة لفيتامين أ.",
+          "en": "Eating liver during pregnancy in the first months and the third month is strictly avoided because the baby's vital organs form during these weeks. According to the NHS, the warning against liver and liver products starts from when you plan a pregnancy and continues throughout the first trimester to protect the fetus from high vitamin A levels."
+        },
+        {
+          "ar": "في الأشهر الثلاثة الأولى، تتشكل الأجهزة الحيوية الدقيقة لدى جنينكِ مثل الجهاز العصبي والقلب والعظام. تكون خلايا الجنين في هذه المرحلة المبكرة شديدة الحساسية لأي زيادة في تركيز الريتينول في دمكِ. لذلك، حتى الكميات التي قد تبدو لكِ صغيرة في سندويتش كبدة واحد تحمل جرعة من فيتامين أ تفوق الحد اليومي المسموح به.",
+          "en": "In the first three months, your baby's delicate vital systems such as the nervous system, heart, and bones are forming. Fetal cells at this early stage are highly sensitive to any spike in retinol concentration in your blood. Therefore, even amounts that seem small to you in a single liver sandwich carry a dose of vitamin A exceeding the safe daily limit."
+        },
+        {
+          "ar": "إلى جانب الكبدة، يجب أن تنتبهي جيداً لنوع الفيتامينات التي تتناولينها في الثلث الأول من حملكِ. توصي هيئة الخدمات الصحية البريطانية (NHS) بتجنب أي مكملات غذائية متعددة الفيتامينات غير مخصصة للحمل، وكذلك مكملات زيت كبد الأسماك، لأنها تحتوي على فيتامين أ بصيغة الريتينول. اختاري دائماً المكملات المخصصة للحوامل، وتأكدي من ملصق العبوة أن فيتامين أ فيها يأتي من البيتا كاروتين أو أنه غير مضاف.",
+          "en": "Alongside liver, you should pay close attention to the type of vitamins you take in your first trimester. The NHS advises avoiding general multivitamin supplements not formulated for pregnancy, as well as fish liver oil supplements, because they contain vitamin A as retinol. Always choose prenatal supplements and check the label to ensure vitamin A comes from beta-carotene or is excluded."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "الكبدة للحامل في الشهر الرابع والخامس والسادس",
+        "en": "Liver during pregnancy in the fourth, fifth, and sixth months"
+      },
+      "body": [
+        {
+          "ar": "يستمر منع الكبدة للحامل في الشهر الرابع والشهر الخامس والشهر السادس، ولا تصبح الكبدة آمنة بعد انتهاء الثلث الأول من الحمل. وفقاً لتوجيهات هيئة الخدمات الصحية البريطانية (NHS)، يشمل تجنب الكبدة ومنتجاتها كامل فترة الحمل دون استثناء لأي شهر.",
+          "en": "The restriction on liver during pregnancy continues in the fourth, fifth, and sixth months, and liver does not become safe once the first trimester ends. According to NHS guidelines, avoiding liver and liver products covers the entire duration of pregnancy without exception for any month."
+        },
+        {
+          "ar": "يكثر السؤال عن الكبدة للحامل بالشهر الرابع والكبدة للحامل بالشهر الخامس في منتديات الأمهات مثل عالم حواء، حيث تظن بعض النساء أن اكتمال تكون الأعضاء في الشهور الأولى يعني زوال الخطر. هذا الاعتقاد غير دقيق طبياً، لأن أجهزة الجنين، وخاصة الدماغ والجهاز العصبي، تواصل النمو والتطور الدقيق طوال الثلث الثاني، كما أن فيتامين أ يتراكم في كبدكِ ولا يتخلص منه الجسم بسرعة.",
+          "en": "Questions about liver in the fourth and fifth months of pregnancy are common on parenting forums, where some women assume that once organs form in the first trimester, the risk disappears. This belief is medically inaccurate because the baby's systems, especially the brain and nervous system, continue growing and developing throughout the second trimester, and vitamin A accumulates in your liver rather than leaving the body quickly."
+        },
+        {
+          "ar": "السبب الحقيقي الذي يدفعكِ للبحث عن الكبدة في منتصف الحمل هو شعوركِ بالإرهاق أو ظهور نقص الحديد في تحليل صورة الدم. في الشهر الرابع والخامس والسادس يزداد حجم الدم في جسمكِ لدعم نمو الجنين، وتزداد حاجتكِ إلى الحديد لتصنيع الهيموجلوبين. الحل الآمن هنا ليس تناول الكبدة، بل الاعتماد على اللحوم الحمراء الخالية من الدهون، والبقوليات، وأقراص الحديد التي يصفها لكِ طبيبكِ بعد الفحص.",
+          "en": "The real reason you might search for liver in mid-pregnancy is feeling tired or seeing low iron on your blood test. In the fourth, fifth, and sixth months, your blood volume increases to support fetal growth, raising your need for iron to make hemoglobin. The safe solution here is not eating liver, but relying on lean red meat, legumes, and the iron tablets your doctor prescribes after testing."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src3",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "الكبدة للحامل في الشهور الاخيره من السابع إلى التاسع",
+        "en": "Liver during pregnancy in the final months from seventh to ninth"
+      },
+      "body": [
+        {
+          "ar": "تظل الكبدة للحامل في الشهور الاخيره، أي في الشهر السابع والشهر الثامن والشهر التاسع، ضمن قائمة الأطعمة الممنوعة التي ينبغي تجنبها حتى يوم الولادة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا توجد كمية محددة من الكبدة تُصنف بأنها آمنة للحامل في الثلث الثالث.",
+          "en": "Liver during pregnancy in the final months, namely the seventh, eighth, and ninth months, remains on the list of foods to avoid until delivery day. According to the NHS, no specific portion of liver is classified as safe for a pregnant woman in the third trimester."
+        },
+        {
+          "ar": "في الكبدة للحامل في الشهر السابع، وكذلك الكبدة للحامل بالشهر الثامن والشهر التاسع، تحرص الكثير من الأمهات على تقوية مخزون الحديد استعداداً لفقدان الدم الطبيعي أثناء الولادة. الرغبة في رفع مستوى الدم في هذه المرحلة صحيحة ومهمة جداً، لكن استخدام الكبدة لتحقيق هذا الهدف يعرضكِ لجرعات مفرطة من الريتينول. كما أن الكبدة غير المطهوة بدرجة كافية تحمل خطر الإصابة بالعدوى البكتيرية أو داء المقوسات (التوكسوبلازما) وفقاً لتوجيهات مستشفيات هيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "When asking about liver in the seventh, eighth, and ninth months, many mothers want to build up iron stores in preparation for normal blood loss during birth. Wanting to raise blood counts at this stage is sound and important, but using liver to achieve this exposes you to excessive doses of retinol. In addition, undercooked liver carries the risk of bacterial infection or toxoplasmosis according to NHS hospital guidance."
+        },
+        {
+          "ar": "خلال الأسابيع الأخيرة من الحمل، يعتمد علاج فقر الدم أو الوقاية منه على المتابعة الطبية المباشرة لتحاليل الدم. وفقاً لوثائق التغذية في هيئة الخدمات الصحية البريطانية (NHS)، تُجرى فحوصات الدم الدورية للحامل لمعرفة ما إذا كانت بحاجة إلى مكملات الحديد الطبية، والتي تمنحكِ الجرعة الدقيقة التي يحتاجها جسمكِ في الشهر الثامن والتاسع دون أي زيادة في فيتامين أ.",
+          "en": "During the final weeks of pregnancy, treating or preventing anemia relies on direct medical monitoring of your blood tests. According to NHS nutrition guidance, routine blood screening is carried out during pregnancy to see if you need medical iron supplements, which give you the exact dose your body needs in the eighth and ninth months without any excess vitamin A."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "مافائدة الكبده للحامل والبدائل الآمنة للحديد",
+        "en": "Benefits of liver and safe iron alternatives during pregnancy"
+      },
+      "body": [
+        {
+          "ar": "تعود شهرة الكبدة الغذائية إلى غناها بالحديد والبروتين وفيتامين ب١٢ وحمض الفوليك، لكن يمكنكِ الحصول على جميع هذه العناصر من مصادر غذائية أخرى آمنة تماماً في الحمل. وفقاً لموقع (MedlinePlus) وهيئة الخدمات الصحية البريطانية (NHS)، يُعد الحديد ضرورياً لإنتاج خلايا الدم الحمراء ونقل الأكسجين إلى خلايا جسمكِ وإلى الجنين، بينما يساعد حمض الفوليك وفيتامين ب١٢ في تكوين الحمض النووي وخلايا الدم.",
+          "en": "Liver's nutritional reputation comes from its richness in iron, protein, vitamin B12, and folate, yet you can get all of these nutrients from other food sources that are completely safe in pregnancy. According to MedlinePlus and the NHS, iron is essential for producing red blood cells and supplying oxygen to your cells and the fetus, while folate and vitamin B12 help form DNA and blood cells."
+        },
+        {
+          "ar": "بدلاً من المخاطرة بتناول الكبدة، يمكنكِ بناء وجباتكِ اليومية حول بدائل تمنحكِ الحديد والفيتامينات دون أي قلق من سمية الريتينول. كما يشير موقع (MedlinePlus) إلى أن فيتامين ج (فيتامين سي) يساعد جسمكِ على امتصاص الحديد بكفاءة أعلى، لذا فإن إضافة عصير الليمون أو الفلفل الحلو أو البرتقال إلى وجبتكِ يرفع استفادتكِ من الحديد الموجود في الطعام.",
+          "en": "Instead of risking liver intake, you can build your daily meals around alternatives that give you iron and vitamins without any worry about retinol toxicity. MedlinePlus also notes that vitamin C helps your body absorb iron more efficiently, so adding lemon juice, bell peppers, or oranges to your meal increases how much iron you get from food."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اللحوم الحمراء الخالية من الدهون والدواجن: احرصي على طهي لحم البقر أو الغنم أو الدجاج جيداً حتى ينضج تماماً ولا يبقى فيه أي لون وردي، لتحصلي على حديد سهل الامتصاص وبروتين آمن.",
+          "en": "Lean red meat and poultry: make sure to cook beef, lamb, or chicken thoroughly until steaming hot with no pink meat remaining, giving you easily absorbed iron and safe protein."
+        },
+        {
+          "ar": "البقوليات والحبوب: أضيفي العدس، والفول، والحمص، والفاصوليا المجففة إلى وجباتكِ الأسبوعية، فهي مصادر ممتازة للحديد النباتي والألياف وحمض الفوليك.",
+          "en": "Legumes and pulses: add lentils, fava beans, chickpeas, and dried beans to your weekly meals, as they are rich sources of plant iron, fiber, and folate."
+        },
+        {
+          "ar": "الخضروات الورقية الداكنة: تناولي السبانخ، والبروكلي، والخضروات الخضراء المغسولة جيداً، فهي تزودكِ بالحديد وحمض الفوليك وفيتامين أ الآمن في صورة بيتا كاروتين.",
+          "en": "Dark leafy vegetables: eat thoroughly washed spinach, broccoli, and green vegetables, which provide iron, folate, and safe vitamin A in the form of beta-carotene."
+        },
+        {
+          "ar": "البيض المطهو جيداً والأسماك المسموحة: تناول البيض المسلوق أو المقلي حتى يتماسك الصفار والبياض تماماً، إلى جانب الأسماك المطهوة مثل السلمون أو السردين، يمد جسمكِ بفيتامين ب١٢ والبروتين.",
+          "en": "Thoroughly cooked eggs and safe fish: eating boiled or fried eggs until both yolk and white are solid, alongside cooked fish like salmon or sardines, supplies your body with vitamin B12 and protein."
+        },
+        {
+          "ar": "حبوب الإفطار المدعمة والمكسرات: اختاري الخبز الكامل وحبوب الإفطار المدعمة بالحديد وحمض الفوليك، مع حفنة من اللوز أو المشمش المجفف كوجبة خفيفة بين الوجبات.",
+          "en": "Fortified cereals and nuts: choose wholegrain bread and breakfast cereals fortified with iron and folic acid, along with a handful of almonds or dried apricots as a snack between meals."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src4",
+        "src5"
+      ]
+    }
+  ],
+  "redFlags": {
+    "intro": {
+      "ar": "وفقاً لموقع (MedlinePlus)، تواصلي مع طبيبكِ فوراً إذا كنتِ تعتقدين أنكِ تناولتِ جرعات كبيرة من فيتامين أ (سواء من مكملات غذائية أو إكثار شديد من الكبدة)، أو إذا ظهرت لديكِ أي من أعراض فرط فيتامين أ التالية:",
+      "en": "According to MedlinePlus, contact your healthcare provider right away if you think you have taken large doses of vitamin A (whether from supplements or heavy liver intake), or if you notice any of the following symptoms of excess vitamin A:"
+    },
+    "items": [
+      {
+        "ar": "غثيان شديد أو قيء مستمر مع فقدان ملحوظ في الشهية بعد تناول مكملات فيتامين أ أو وجبات الكبدة المتكررة.",
+        "en": "Severe nausea or persistent vomiting with noticeable loss of appetite after taking vitamin A supplements or repeated liver meals."
+      },
+      {
+        "ar": "صداع قوي غير معتاد، أو دوخة مستمرة، أو تغير في مستوى التركيز والانتباه.",
+        "en": "Unusual severe headache, persistent dizziness, or changes in alertness and concentration."
+      },
+      {
+        "ar": "تشوش في الرؤية أو أي تغيرات مفاجئة في الإبصار.",
+        "en": "Blurred vision or any sudden changes in eyesight."
+      },
+      {
+        "ar": "آلام في العظام أو المفاصل، أو تقشر وجفاف حاد في الجلد وتشقق في زوايا الفم.",
+        "en": "Bone or joint pain, or severe skin peeling, dryness, and cracking at the corners of the mouth."
+      }
+    ],
+    "cites": [
+      "src3"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "محتارة في أكلة معينة خلال حملكِ؟ اسألي نوال في تطبيق نواة",
+      "en": "Unsure about a specific food during pregnancy? Ask Nawal in Nawah"
+    },
+    "body": {
+      "ar": "بدل الحيرة بين نصائح العائلة ومنتديات الإنترنت، افتحي تطبيق نواة واسألي المساعدة الذكية «نوال» بالعربية عن أي طعام أو عرض يمر بكِ، وسجلي أعراض الإرهاق ومواعيد تحاليل الدم في شاشة مواعيد الطبيب لتتابعي حملكِ خطوة بخطوة أنتِ وشريككِ.",
+      "en": "Instead of guessing between family advice and online forums, open the Nawah app and ask Nawal, our Arabic assistant, about any food or symptom, and log fatigue symptoms and blood test dates in your doctor appointments screen alongside your partner."
+    },
+    "button": {
+      "ar": "حمّلي نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "هل الكبده للحامل مضره؟",
+        "en": "Is liver harmful for a pregnant woman?"
+      },
+      "a": {
+        "ar": "نعم، الكبدة مضرة للحامل وتوصي هيئة الخدمات الصحية البريطانية (NHS) بتجنب تناولها وتجنب جميع منتجاتها طوال فترة الحمل. يرجع ذلك إلى احتوائها على تراكيز عالية جداً من فيتامين أ النشط (الريتينول) الذي قد يسبب أضراراً وتشوهات خلقية للجنين عند تناوله بجرعات كبيرة.",
+        "en": "Yes, liver is harmful during pregnancy, and the NHS advises avoiding it and all liver products throughout pregnancy. This is because it contains very high concentrations of active vitamin A (retinol), which can cause harm and birth defects in the fetus when consumed in large doses."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل أكل الكبدة للحامل في الشهور الأولى يسبب تشوهات؟",
+        "en": "Does eating liver in the first months of pregnancy cause birth defects?"
+      },
+      "a": {
+        "ar": "وفقاً لموقع (MedlinePlus)، فإن تناول جرعات كبيرة من فيتامين أ الموجود بتركيز مرتفع في الكبدة خلال الحمل قد يسبب تشوهات خلقية للجنين، خاصة في الشهور الأولى أثناء تكون الأعضاء. إذا أكلتِ حصة واحدة عن غير قصد فلا تقلقي، فقط توقفي عن تناولها تماماً وأخبري طبيبكِ في موعدكِ القادم.",
+        "en": "According to MedlinePlus, taking large doses of vitamin A, which is highly concentrated in liver, during pregnancy can cause birth defects, especially in the first months when organs are forming. If you ate a single portion unintentionally, do not panic; simply stop eating it completely and inform your doctor at your next visit."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما الحكم الطبي لتناول الكبدة للحامل في الشهر الرابع أو الخامس؟",
+        "en": "What is the medical guidance on eating liver in the fourth or fifth month of pregnancy?"
+      },
+      "a": {
+        "ar": "يستمر التحذير الطبي من تناول الكبدة للحامل في الشهر الرابع والشهر الخامس وبقية أشهر الثلث الثاني. وفقاً لتوجيهات هيئة الخدمات الصحية البريطانية (NHS)، فإن منع الكبدة يسري طوال أشهر الحمل التسعة وليس في الشهور الثلاثة الأولى فقط.",
+        "en": "The medical warning against eating liver continues in the fourth and fifth months and the rest of the second trimester. According to NHS guidelines, avoiding liver applies across all nine months of pregnancy, not only the first three months."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل يُسمح بتناول الكبدة للحامل في الشهر السابع أو الثامن أو التاسع لعلاج الأنيميا؟",
+        "en": "Is liver allowed in the seventh, eighth, or ninth month to treat anemia?"
+      },
+      "a": {
+        "ar": "لا يُنصح بتناول الكبدة في الشهور الأخيرة من الحمل حتى لو كنتِ تعانين من فقر الدم. لعلاج الأنيميا في الشهر السابع أو الثامن أو التاسع بأمان، يصف لكِ الطبيب أقراص الحديد المناسبة بعد إجراء فحص الدم، مع تناول اللحوم الحمراء المطهوة جيداً والعدس والسبانخ.",
+        "en": "Eating liver is not recommended in the final months of pregnancy even if you have anemia. To treat anemia safely in the seventh, eighth, or ninth month, your doctor prescribes appropriate iron tablets after a blood test, alongside thoroughly cooked red meat, lentils, and spinach."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل كبدة الدجاج أكثر أماناً للحامل من كبدة البقر أو الغنم؟",
+        "en": "Is chicken liver safer for a pregnant woman than beef or lamb liver?"
+      },
+      "a": {
+        "ar": "لا، فالتحذير الصادر عن هيئة الخدمات الصحية البريطانية (NHS) يشمل الكبدة بجميع أنواعها ومنتجاتها مثل الباتيه وسجق الكبدة دون استثناء. تخزن جميع أنواع الكبد الحيوانية فيتامين أ بصيغة الريتينول، لذا يجب تجنب كبدة الدجاج والبقر والغنم على حد سواء خلال الحمل.",
+        "en": "No, the NHS warning covers all types of liver and liver products such as pate and liver sausage without exception. All animal livers store vitamin A in the form of retinol, so chicken, beef, and lamb liver should all be avoided alike during pregnancy."
+      }
+    },
+    {
+      "q": {
+        "ar": "مافائدة الكبده للحامل وكيف أحصل على نفس الفوائد بدونها؟",
+        "en": "What are the benefits of liver for a pregnant woman and how do I get them without it?"
+      },
+      "a": {
+        "ar": "تحتوي الكبدة على الحديد وفيتامين ب١٢ وحمض الفوليك، لكن أضرار فيتامين أ فيها تفوق هذه الفوائد أثناء الحمل. يمكنكِ الحصول على الحديد وحمض الفوليك وفيتامين ب١٢ بأمان تام من اللحم البقري المطهو جيداً، والبيض الناضج، والأسماك، والبقوليات كالعدس والفول، والخضروات الورقية الداكنة.",
+        "en": "Liver contains iron, vitamin B12, and folate, but the risks of its vitamin A content outweigh these benefits during pregnancy. You can get iron, folate, and vitamin B12 safely from thoroughly cooked beef, fully cooked eggs, fish, legumes like lentils and fava beans, and dark leafy greens."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل طهي الكبدة جيداً على النار يبطل مفعول فيتامين أ الزائد فيها؟",
+        "en": "Does cooking liver thoroughly destroy the excess vitamin A in it?"
+      },
+      "a": {
+        "ar": "لا، الطهي الجيد يقتل البكتيريا والطفيليات فقط، لكنه لا يزيل فيتامين أ (الريتينول) المخزن في الكبدة. لذلك تظل الكبدة غير آمنة للحامل حتى لو كانت مطبوخة أو مشوية أو مقلية بالكامل.",
+        "en": "No, thorough cooking only kills bacteria and parasites; it does not remove the vitamin A (retinol) stored in liver. Therefore, liver remains unsafe during pregnancy even when fully cooked, grilled, or fried."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "فيتامين أ - الفيتامينات والمعادن (هيئة الخدمات الصحية البريطانية)",
+        "en": "Vitamin A – Vitamins and minerals - NHS"
+      },
+      "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a/",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src2",
+      "org": "MedlinePlus (NIH)",
+      "title": {
+        "ar": "فيتامين أ - الموسوعة الطبية (المكتبة الوطنية للطب في الولايات المتحدة)",
+        "en": "Vitamin A: MedlinePlus Medical Encyclopedia"
+      },
+      "url": "https://medlineplus.gov/ency/article/002400.htm",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src3",
+      "org": "MedlinePlus (NIH)",
+      "title": {
+        "ar": "فرط فيتامين أ - الموسوعة الطبية (المكتبة الوطنية للطب في الولايات المتحدة)",
+        "en": "Hypervitaminosis A: MedlinePlus Medical Encyclopedia"
+      },
+      "url": "https://medlineplus.gov/ency/article/000350.htm",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src4",
+      "org": "NHS",
+      "title": {
+        "ar": "التغذية السليمة في الحمل وفحوصات الحديد (هيئة الخدمات الصحية البريطانية)",
+        "en": "Eating well in pregnancy - NHS Just One Norfolk"
+      },
+      "url": "https://www.justonenorfolk.nhs.uk/media/qbep3rl4/ew-teenage-pregnancy-for-web-25-july-2022-compressed.pdf",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src5",
+      "org": "MedlinePlus (NIH)",
+      "title": {
+        "ar": "الفيتامينات ووظائفها في الجسم (المكتبة الوطنية للطب في الولايات المتحدة)",
+        "en": "Vitamins: MedlinePlus Medical Encyclopedia"
+      },
+      "url": "https://medlineplus.gov/ency/article/002399.htm",
+      "retrieved": "2026-10-27"
+    }
+  ],
+  "heroAlt": {
+    "ar": "يدان تقطّعان الطماطم على لوح خشبي بجانب سبانخ وفلفل أخضر",
+    "en": "Hands slicing tomatoes on a wooden board beside spinach and green peppers"
+  }
+}

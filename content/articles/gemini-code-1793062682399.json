@@ -1,0 +1,453 @@
+{
+  "cluster": "father_expansion",
+  "slug": "newborn-umbilical-cord-care",
+  "primaryKeyword": "تنظيف سرة الرضيع",
+  "keywords": [
+    "تنظيف سرة الرضيع قبل سقوطها",
+    "تنظيف سرة الرضيع بعد سقوطها",
+    "هل يجب تنظيف سرة الرضيع",
+    "كيف يتم تنظيف سرة الرضيع",
+    "هل يمكن تنظيف سرة الرضيع"
+  ],
+  "imageQuery": "newborn baby feet wrapped in white cotton blanket close up",
+  "related": [
+    "/ar/father/safe-sleep-setup",
+    "/ar/father/soothing-crying-baby",
+    "/ar/father/hospital-bag",
+    "/ar/articles/postpartum/postpartum-recovery"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأب",
+    "en": "Father's Guide"
+  },
+  "title": {
+    "ar": "تنظيف سرة الرضيع: دليلكَ العملي خطوة بخطوة حتى سقوطها",
+    "en": "Cleaning Your Newborn's Umbilical Cord: A Father's Practical Step-by-Step Guide Until It Falls Off"
+  },
+  "metaTitle": {
+    "ar": "تنظيف سرة الرضيع: دليلكَ العملي حتى سقوطها | نواة",
+    "en": "Newborn Umbilical Cord Care: A Dad's Practical Guide | Nawah"
+  },
+  "description": {
+    "ar": "تعرّف على خطوات تنظيف سرة الرضيع قبل سقوطها وبعده بطريقة آمنة وجافة، وكيف تتولّى هذه المهمة اليومية عن زوجتكَ مع علامات التئام السرة السليمة.",
+    "en": "Learn the steps for cleaning your newborn's umbilical cord before and after it falls off using safe dry care, and how to handle this daily task with confidence."
+  },
+  "standfirst": {
+    "ar": "تولّيكَ مهمة تغيير الحفاض والعناية بسرة طفلكَ في الأيام الأولى يمنح زوجتكَ وقتاً حقيقياً للراحة والتعافي بعد الولادة، وهذه الخطوات البسيطة تضمن لكَ القيام بذلكَ بأمان تام.",
+    "en": "Taking over diaper changes and umbilical cord care in the first days gives your wife real time to rest and recover after birth, and these simple steps let you do it safely."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "تنظيف سرة الرضيع والعناية الجافة في الأيام الأولى",
+        "en": "Cleaning the newborn's umbilical cord and dry care in the first days"
+      },
+      "body": [
+        {
+          "ar": "يعتمد تنظيف سرة الرضيع في الطب الحديث على إبقاء بقايا الحبل السري نظيفة وجافة تماماً ومعرّضة للهواء دون استخدام الكحول الطبي أو المستحضرات الموضعية. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، تجف بقايا الحبل السري وتسقط من تلقاء نفسها خلال الأسبوع ١ إلى الأسبوع ٣ من عمر الطفل. كل ما عليكَ فعله عند تغيير الحفاض هو ثني الحافة العلوية للحفاض إلى الأسفل، ومسح أي اتساخ طارئ بقطنة مبللة بالماء النظيف فقط ثم تجفيف المنطقة برفق.",
+          "en": "Cleaning a newborn's umbilical cord in modern medicine relies on keeping the cord stump clean, completely dry, and exposed to air without using rubbing alcohol or topical products. According to the American Academy of Pediatrics (AAP), the umbilical cord stump dries out and falls off on its own between week 1 and week 3 of a baby's life. All you need to do during diaper changes is fold the top edge of the diaper down, and wipe away any accidental soiling with a cotton ball dampened with plain water before gently patting the area dry."
+        },
+        {
+          "ar": "بقايا الحبل السري هي الجزء الصغير المتبقي بعد قطع الحبل السري وتثبيته بمشبك بلاستيكي عند الولادة. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا يحتوي الحبل السري على أي أعصاب، لذلكَ لن يشعر طفلكَ بأي ألم عندما تلمس المشبك أو المنطقة المحيطة به أثناء تغيير ملابسه.",
+          "en": "The umbilical stump is the small piece remaining after the umbilical cord is cut and secured with a plastic clip at birth. According to the UK National Health Service (NHS), the umbilical cord does not contain any nerves, so your baby will not feel any pain when you touch the clip or the surrounding area while changing their clothes."
+        },
+        {
+          "ar": "معرفة هذه الحقيقة تزيل عنكَ الكثير من التوتر في المرات الأولى التي تحمل فيها طفلكَ لتغيير حفاضه. يمكنك التدرّب على إمساك الحفاض وتثبيته بهدوء، فهدوء يديكَ ينتقل مباشرة إلى رضيعكَ ويمنح زوجتكَ ثقة بأنّ الطفل في أيدٍ أمينة بينما تأخذ قسطاً من النوم.",
+          "en": "Knowing this fact removes much of the hesitation during the first times you pick up your baby for a diaper change. You can practice holding and fastening the diaper calmly, as your steady hands directly soothe your newborn and give your wife peace of mind while she sleeps."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "هل يجب تنظيف سرة الرضيع بالكحول أم بالماء فقط",
+        "en": "Should the newborn's umbilical cord be cleaned with alcohol or plain water"
+      },
+      "body": [
+        {
+          "ar": "وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، لا يُنصح باستخدام الكحول الطبي أو أي مطهّرات قاتلة للجراثيم في العناية الروتينية بالسرة لأنّ السرة الجافة تسقط في وقت أسرع. ترك السرة تجفّ بشكل طبيعي في الهواء هو الإجراء القياسي المعتمد حالياً ما لم يوجّهكَ طبيب الأطفال إلى غير ذلكَ في حالات خاصة.",
+          "en": "According to the American Academy of Pediatrics (AAP), rubbing alcohol or other germ-killing antiseptics are not advised for routine cord care because dry cords fall off sooner. Leaving the cord to dry naturally in the air is the current standard practice unless your pediatrician specifically instructs otherwise."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا توجد حاجة لاستخدام المناديل المبللة أو وضع البودرة أو الكريمات على السرة، بل يُكتفى بالتنظيف حولها بماء الصنبور فقط وتجفيفها. عندما تتولّى أنتَ تجهيز ركن تغيير الحفاض في المنزل، ارفع زجاجات الكحول والبودرة من السلة، وضع مكانها كرات قطنية نظيفة ومنشفة قطنية ناعمة.",
+          "en": "According to the UK National Health Service (NHS), there is no need to use wet wipes or put powders or creams on the cord; cleaning around the stump with tap water only and drying it is sufficient. When you set up the diaper-changing station at home, remove alcohol bottles and powders from the basket, and replace them with clean cotton balls and a soft cotton towel."
+        },
+        {
+          "ar": "تتحوّل بقايا الحبل السري تدريجياً مع الجفاف من اللون الأصفر اللامع إلى اللون البني أو الرمادي قبل أن تنفصل. يوضح الجدول التالي الفرق بين الممارسات الصحيحة والممارسات القديمة التي يجب عليكَ تجنّبها عند العناية بطفلكَ:",
+          "en": "As the umbilical stump dries, it gradually changes color from shiny yellow to brown or gray before separating. The table below outlines the difference between safe practices and outdated habits you should avoid when caring for your baby:"
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "الموقف اليومي",
+            "en": "Daily Situation"
+          },
+          {
+            "ar": "التصرّف الصحيح للأب",
+            "en": "Correct Action for the Father"
+          },
+          {
+            "ar": "تصرّف يجب تجنّبه",
+            "en": "Action to Avoid"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "العناية اليومية بالسرة",
+              "en": "Daily cord care"
+            },
+            {
+              "ar": "ترك السرة جافة ومعرّضة للهواء بدون مستحضرات",
+              "en": "Leave the cord dry and exposed to air without products"
+            },
+            {
+              "ar": "رشّ الكحول الطبي أو وضع البودرة والكريمات",
+              "en": "Applying rubbing alcohol, powder, or creams"
+            }
+          ],
+          [
+            {
+              "ar": "إلباس الحفاض للرضيع",
+              "en": "Putting on the diaper"
+            },
+            {
+              "ar": "ثني الحافة الأمامية للحفاض أسفل مستوى السرة",
+              "en": "Fold the front edge of the diaper down below the cord"
+            },
+            {
+              "ar": "تغطية المشبك بالحفاض والضغط عليه",
+              "en": "Covering the plastic clip with the diaper and pressing on it"
+            }
+          ],
+          [
+            {
+              "ar": "تحميم الرضيع قبل سقوط السرة",
+              "en": "Bathing before the cord falls off"
+            },
+            {
+              "ar": "المسح بإسفنجة مبللة أو قطنة وماء دافئ دون غمر السرة",
+              "en": "Sponge bath with a damp cloth and warm water without submerging the cord"
+            },
+            {
+              "ar": "وضع الرضيع كاملًا داخل حوض الاستحمام المليء بالماء",
+              "en": "Submerging the newborn in a tub of water"
+            }
+          ],
+          [
+            {
+              "ar": "انفصال بقايا الحبل السري",
+              "en": "Separation of the cord stump"
+            },
+            {
+              "ar": "الانتظار حتى تسقط وحدها تلقائياً داخل الحفاض",
+              "en": "Wait for it to fall off entirely on its own"
+            },
+            {
+              "ar": "شدّ السرة باليد حتى لو كانت معلّقة بخيط رفيع",
+              "en": "Pulling or twisting the stump even if hanging by a thread"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "كيف يتم تنظيف سرة الرضيع خطوة بخطوة",
+        "en": "How to clean the newborn's umbilical cord step by step"
+      },
+      "body": [
+        {
+          "ar": "يتم تنظيف سرة الرضيع عند اتساخها فقط باستخدام قطنة مبللة بالماء النظيف ومسح القاعدة برفق ثم تجفيفها بالكامل. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، تكفي معاينة الجلد المحيط بقاعدة السرة مرة ١ يومياً للتأكد من نظافته وجفافه.",
+          "en": "A newborn's umbilical cord is cleaned only when soiled, using a cotton swab dampened with clean water to gently wipe the base before drying it completely. According to the American Academy of Pediatrics (AAP), checking the skin around the base of the cord 1 time a day is enough to ensure it remains clean and dry."
+        },
+        {
+          "ar": "في الأيام الأولى بعد العودة من المستشفى، تكون الحركة والانحناء مؤلمين لزوجتكَ سواء كانت الولادة طبيعية أو قيصرية. قيامكَ بتغيير الحفاض وفحص السرة في كل مرة يستيقظ فيها الطفل ليلاً أو نهاراً يختصر عليها مجهوداً بدنياً كبيراً.",
+          "en": "In the first days after returning from the hospital, moving and bending over are painful for your wife whether she had a vaginal or cesarean birth. Stepping in to change the diaper and check the cord each time the baby wakes up day or night spares her significant physical strain."
+        },
+        {
+          "ar": "اتّبع هذه الخطوات المرتّبة في كل مرة تغيّر فيها حفاض طفلكَ وتلاحظ وجود إفرازات جافة أو اتساخ حول السرة:",
+          "en": "Follow these ordered steps whenever you change your baby's diaper and notice dried secretions or soiling around the cord:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اغسل يديكَ جيداً بالماء والصابون قبل لمس طفلكَ أو فكّ الحفاض المتسخ.",
+          "en": "Wash your hands thoroughly with soap and water before touching your baby or unfastening the soiled diaper."
+        },
+        {
+          "ar": "افتح الحفاض بهدوء، وإذا وصل البراز إلى منطقة السرة، بلّل قطنة نظيفة بالماء الدافئ وقليل من صابون الأطفال اللطيف.",
+          "en": "Unfasten the diaper calmly, and if stool has reached the cord area, dampen a clean cotton ball with warm water and a little mild baby soap."
+        },
+        {
+          "ar": "اضغط برفق شديد على الجلد المحيط بقاعدة السرة نحو الأسفل لتتمكّن من رؤية القاعدة ومسح أي إفرازات عالقة تحت المشبك.",
+          "en": "Gently press down on the skin surrounding the base of the cord so you can see the base and wipe away any secretions trapped underneath the clip."
+        },
+        {
+          "ar": "ربّت على المنطقة بقطعة قماش قطنية نظيفة وجافة حتى تزول الرطوبة تماماً، ولا تفرك الجلد أبداً.",
+          "en": "Pat the area gently with a clean, dry cotton cloth until all moisture is gone, and never rub the skin."
+        },
+        {
+          "ar": "ألبس طفلكَ الحفاض الجديد مع ثني الحافة الأمامية إلى الأسفل تحت السرة، أو قصّ فتحة صغيرة في مقدمة الحفاض ليبقى المشبك معرّضاً للهواء.",
+          "en": "Put on the fresh diaper with the front edge folded down below the cord, or cut a small notch at the top of a disposable diaper so the clip stays exposed to air."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "تنظيف سرة الرضيع قبل سقوطها وقواعد الاستحمام والملابس",
+        "en": "Cleaning the newborn's umbilical cord before it falls off and rules for bathing and clothes"
+      },
+      "body": [
+        {
+          "ar": "يتطلّب تنظيف سرة الرضيع قبل سقوطها الاكتفاء بالمسح الإسفنجي للجسم وتجنّب غمر الطفل في حوض الماء حتى تنفصل السرة تماماً. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تجف السرة وتسقط في المتوسط بين اليوم ٥ واليوم ١٢ بعد الولادة، وخلال هذه الفترة يمنع بقاء الماء بعيداً عن السرة تأخّر جفافها.",
+          "en": "Cleaning a newborn's umbilical cord before it falls off requires sticking to sponge baths and avoiding submerging the baby in a bath tub until the stump separates completely. According to the UK National Health Service (NHS), the cord dries and falls off on average between day 5 and day 12 after birth, and keeping bath water away during this period prevents delayed drying."
+        },
+        {
+          "ar": "يمكنكَ تولّي مهمة المسح الدافئ لطفلكَ في غرفة دافئة بعيداً عن تيارات الهواء. جهّز وعاءً صغيراً فيه ماء دافئ، ومنشفة ناعمة، وقطناً طبياً، وحفاضاً نظيفاً قبل أن تخلع ملابس الطفل، ثم امسح وجهه ورقبته ويديه ومنطقة الحفاض كلّاً بقطنة منفصلة مع إبقاء البطن مغطى بمنشفة دافئة.",
+          "en": "You can take charge of giving your baby a warm sponge bath in a warm, draft-free room. Prepare a small bowl of warm water, a soft towel, cotton wool, and a fresh diaper before undressing your baby, then wipe their face, neck, hands, and diaper area with separate cotton pads while keeping their tummy covered with a warm towel."
+        },
+        {
+          "ar": "عند اختيار ملابس طفلكَ اليومية، البسه ملابس قطنية فضفاضة لا تضغط على بطنه. تجنّب السراويل ذات الأربطة المطاطية الضيقة التي تستقر فوق المشبك البلاستيكي مباشرة، لأنّ ضغط الملابس أو الحفاض قد يدفع المشبك نحو جلد البطن ويسبّب انزعاجاً للرضيع.",
+          "en": "When choosing your baby's daily clothes, dress them in loose cotton outfits that do not press against their tummy. Avoid pants with tight elastic waistbands that sit directly over the plastic clip, as pressure from clothing or diapers can push the clip into the abdomen and make the baby uncomfortable."
+        }
+      ],
+      "cites": [
+        "src2",
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "هل يمكن تنظيف سرة الرضيع عند تلوثها بالبول أو البراز",
+        "en": "Can the newborn's umbilical cord be cleaned if soiled with urine or stool"
+      },
+      "body": [
+        {
+          "ar": "نعم، يمكن تنظيف سرة الرضيع فوراً بالماء والصابون اللطيف إذا وصل إليها البول أو البراز عند تسرّب الحفاض. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، لا يُعدّ وصول بعض البراز إلى السرة أمراً خطيراً، وغسل المنطقة برفق بالماء والصابون يمنع حدوث أي عدوى.",
+          "en": "Yes, a newborn's umbilical cord can and should be cleaned right away with water and mild soap if urine or stool reaches it during a diaper leak. According to the American Academy of Pediatrics (AAP), getting some poop on the cord is not dangerous, and gently washing the area with soap and water prevents infection."
+        },
+        {
+          "ar": "يحدث تسرّب الحفاض كثيراً في الأسابيع الأولى، خاصة أثناء الليل، ولا يدعو ذلكَ إلى القلق أو الارتباك. بدلاً من إيقاظ زوجتكَ، أحضر كرات القطن المبللة بالماء الدافئ، وامسح السرة من القاعدة نحو الخارج بحركات لطيفة حتى تزول أي بقايا تماماً.",
+          "en": "Diaper leaks happen frequently in the first weeks, especially at night, and are no reason to panic. Instead of waking your wife, grab cotton balls dampened with warm water and wipe the cord gently from the base outward until all residue is removed."
+        },
+        {
+          "ar": "بعد الغسل، خذ وقتكَ في تجفيف السرة والجلد المحيط بها عبر التربيت بمنشفة قطنية جافة، واترك الطفل دقيقتين في الغرفة الدافئة قبل إغلاق الحفاض الجديد. هذا التجفيف السريع يعيد السرة إلى حالتها الجافة ويكمل عملية الالتئام الطبيعي دون أي مشكلة.",
+          "en": "After washing, take your time drying the cord and surrounding skin by patting with a dry cotton towel, and let the area air out for a couple of minutes in the warm room before fastening the new diaper. This quick drying restores dry cord care and lets natural healing continue smoothly."
+        }
+      ],
+      "cites": [
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "تنظيف سرة الرضيع بعد سقوطها والتعامل مع قطرات الدم",
+        "en": "Cleaning the newborn's umbilical cord after it falls off and handling drops of blood"
+      },
+      "body": [
+        {
+          "ar": "يستمر تنظيف سرة الرضيع بعد سقوطها بنفس طريقة العناية الجافة عبر مسح أي إفرازات بقطنة مبللة بالماء وتجفيفها مرتين يومياً حتى تلتئم تماماً. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، من الطبيعي جداً أن تلاحظ بضع قطرات من الدم على الحفاض أو القليل من السائل العكر في مكان السرة عند انفصالها.",
+          "en": "Cleaning the newborn's umbilical area after the stump falls off continues with the same dry care approach by wiping away any secretions with a water-dampened cotton swab and drying it 2 times a day until fully healed. According to the American Academy of Pediatrics (AAP), it is completely normal to notice a few drops of blood on the diaper or a small amount of cloudy fluid where the stump separated."
+        },
+        {
+          "ar": "قد يبدو وسط السرة أحمر اللون قليلاً عند نقطة الانفصال، وقد تتكوّن قشرة صغيرة تشبه قشرة الجروح العادية. اترك هذه القشرة تسقط وحدها، ولا تستخدم الكحول الطبي عليها لأنّه قد يهيّج الجلد الحديث ويبطئ التئام الأنسجة.",
+          "en": "The center of the navel may look slightly red right at the point of separation, and a small scab may form just like a normal skin scrape. Leave this scab to fall off on its own, and do not apply rubbing alcohol as it can irritate the fresh skin and slow tissue healing."
+        },
+        {
+          "ar": "وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، يُفضّل الاستمرار في المسح الإسفنجي لبضعة أيام إضافية بعد سقوط السرة حتى يجفّ مكانها بالكامل قبل البدء في تحميم الطفل داخل حوض الماء. إذا لاحظتَ بقاء كتلة صغيرة وردية أو حمراء رطبة تفرز سائلاً أصفر خفيفاً بعد سقوط السرة، فقد تكون ما يُعرف بالورم الحبيبي السري، وهو نسيج ندبي بسيط يزول غالباً خلال أسبوع ١ أو يعالجه طبيب الأطفال في العيادة بسهولة.",
+          "en": "According to the American Academy of Pediatrics (AAP), it is best to continue sponge baths for a few more days after the cord falls off until the belly button dries completely before starting tub baths. If you notice a small moist pink or reddish lump draining light-yellowish fluid after the cord falls off, it may be an umbilical granuloma, a minor scar tissue overgrowth that usually resolves in about 1 week or is easily treated by the pediatrician."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src3"
+      ]
+    }
+  ],
+  "redFlags": {
+    "heading": {
+      "ar": "متى يجب عليكَ الاتصال بطبيب الأطفال فوراً",
+      "en": "When you should contact the pediatrician immediately"
+    },
+    "intro": {
+      "ar": "تلتئم معظم السرّات دون أي مضاعفات، لكن وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP) وهيئة الخدمات الصحية البريطانية (NHS)، يجب عليكَ مراجعة الطبيب فوراً إذا لاحظتَ أياً من العلامات التالية أثناء تغيير الحفاض:",
+      "en": "Most umbilical stumps heal without complications, but according to the American Academy of Pediatrics (AAP) and the UK National Health Service (NHS), you must seek medical care immediately if you notice any of the following signs during a diaper change:"
+    },
+    "items": [
+      {
+        "ar": "خروج إفرازات صفراء صديدية كريهة الرائحة من السرة أو قاعدتها.",
+        "en": "Foul-smelling yellowish pus or discharge coming from the cord or its base."
+      },
+      {
+        "ar": "احمرار أو تورّم في الجلد يمتدّ من قاعدة السرة وينتشر على بطن الرضيع.",
+        "en": "Redness, warmth, or swelling of the skin spreading outward from the base of the cord onto the baby's abdomen."
+      },
+      {
+        "ar": "نزيف مستمر ونشط لا يتوقف بعد الضغط المباشر بقطعة قماش نظيفة لمدة ١٠ دقائق، أو بقعة دم يتجاوز قطرها ٥ سنتيمترات.",
+        "en": "Active bleeding that does not stop after 10 minutes of direct pressure with a clean cloth, or a blood spot larger than 5 cm across."
+      },
+      {
+        "ar": "بكاء الرضيع بشدة بمجرّد لمس السرة أو الجلد المجاور لها، أو ارتفاع درجة حرارته وخموله.",
+        "en": "The baby crying in pain whenever you touch the cord or the skin next to it, accompanied by fever or lethargy."
+      },
+      {
+        "ar": "عدم سقوط بقايا الحبل السري بعد مرور ٣ أسابيع كاملة على ولادة الطفل.",
+        "en": "The umbilical cord stump remaining attached past 3 full weeks of age."
+      }
+    ],
+    "cites": [
+      "src1",
+      "src2",
+      "src3"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "كن شريكاً حاضراً في كل خطوة مع تطبيق نواة",
+      "en": "Be a present partner in every step with the Nawah app"
+    },
+    "body": {
+      "ar": "تبدأ شراكتكَ الحقيقية منذ أسابيع الحمل قبل أن تحمل طفلكَ لتغيير حفاضه الأول. في تطبيق نواة، يمنحكَ وضع الشريك شاشة خاصة بكَ ترتبط بحساب زوجتكَ عبر كود الدعوة، لتتابع معها نفس أسبوع الحمل وحجم الجنين أولاً بأول، ويصلكَ إشعار فوري على هاتفكَ في كل مرة تنهي فيها جلسة عدّ حركات الجنين.",
+      "en": "Real partnership starts during the weeks of pregnancy before you ever change your baby's first diaper. In the Nawah app, partner mode gives you your own screen linked to your wife's pregnancy with an invite code, so you see the exact same pregnancy week and baby size she sees, and get a push notification each time she logs a kick-counting session."
+    },
+    "button": {
+      "ar": "حمّل نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "هل يجب تنظيف سرة الرضيع يومياً؟",
+        "en": "Does a newborn's umbilical cord need to be cleaned daily?"
+      },
+      "a": {
+        "ar": "لا يحتاج الحبل السري إلى تنظيف يومي طالما كان نظيفاً وجافاً. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، يكفي فحص الجلد حول قاعدة السرة مرة ١ يومياً، ومسحه بقطنة مبللة بالماء فقط في حال وجود إفرازات أو اتساخ ثم تجفيفه جيداً.",
+        "en": "The umbilical cord does not need daily cleaning as long as it stays clean and dry. According to the American Academy of Pediatrics (AAP), checking the skin around the base of the cord 1 time a day is sufficient, wiping it with a water-dampened cotton swab only if secretions or soiling appear, then drying it thoroughly."
+      },
+      "cites": [
+        "src2"
+      ]
+    },
+    {
+      "q": {
+        "ar": "كيف يتم تنظيف سرة الرضيع قبل سقوطها؟",
+        "en": "How is a newborn's umbilical cord cleaned before it falls off?"
+      },
+      "a": {
+        "ar": "يتم تنظيف سرة الرضيع قبل سقوطها بقطنة مبللة بماء الصنبور النظيف فقط عند اتساخها، يليها التجفيف بالتربيت بقطعة قماش قطنية. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب إبقاء السرة خارج منطقة الحفاض وتجنّب وضع أي كريمات أو بودرة أو مناديل مبللة عليها.",
+        "en": "A newborn's umbilical cord is cleaned before it falls off using cotton wool dampened with clean tap water only when soiled, followed by patting dry with a clean cloth. According to the UK National Health Service (NHS), you should keep the stump outside the diaper area and avoid applying creams, powders, or wet wipes."
+      },
+      "cites": [
+        "src3"
+      ]
+    },
+    {
+      "q": {
+        "ar": "متى تسقط سرة الرضيع وكيف أعرف أنها على وشك السقوط؟",
+        "en": "When does a newborn's umbilical cord fall off and how do I know it is ready?"
+      },
+      "a": {
+        "ar": "وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، تسقط سرة الرضيع في المتوسط بين اليوم ١٠ واليوم ١٤ بعد الولادة، ويمتد النطاق الطبيعي من ٧ أيام إلى ٢١ يوماً. قبل سقوطها، تنكمش بقايا الحبل السري ويتغيّر لونها من الأصفر اللامع إلى البني أو الرمادي الداكن حتى تنفصل تلقائياً.",
+        "en": "According to the American Academy of Pediatrics (AAP), the umbilical cord falls off on average between day 10 and day 14 after birth, with a normal range of 7 to 21 days. Before dropping off, the stump shrivels and turns from shiny yellow to brown or dark gray until it detaches on its own."
+      },
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "q": {
+        "ar": "كيف أتعامل مع تنظيف سرة الرضيع بعد سقوطها؟",
+        "en": "How do I handle cleaning the newborn's belly button after the cord falls off?"
+      },
+      "a": {
+        "ar": "يستمر تنظيف سرة الرضيع بعد سقوطها بمسح أي إفرازات جافة بقطنة مبللة بالماء مرتين يومياً وتجفيفها بلطف مع استمرار ثني الحفاض تحت السرة. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، يُنصح بالاستمرار في المسح الإسفنجي لبضعة أيام بعد سقوطها حتى تجف السرة تماماً قبل البدء في حمام الحوض.",
+        "en": "After the cord falls off, continue wiping away any dried secretions with a wet cotton swab 2 times a day and drying gently while keeping the diaper folded down. According to the American Academy of Pediatrics (AAP), you should continue sponge baths for a few more days until the navel finishes drying before giving tub baths."
+      },
+      "cites": [
+        "src2"
+      ]
+    },
+    {
+      "q": {
+        "ar": "هل يمكن تنظيف سرة الرضيع بالكحول الطبي لتسريع سقوطها؟",
+        "en": "Can a newborn's umbilical cord be cleaned with rubbing alcohol to make it fall off faster?"
+      },
+      "a": {
+        "ar": "لا، الكحول الطبي لا يسرّع سقوط السرة بل يؤخّره. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP)، يُنصح بتجنّب وضع الكحول على السرة لأنّ تركها تجفّ طبيعياً في الهواء يساعدها على السقوط في وقت أسرع ويمنع تهيّج جلد الرضيع.",
+        "en": "No, rubbing alcohol does not speed up separation and can actually delay it. According to the American Academy of Pediatrics (AAP), parents should avoid putting alcohol on the cord because natural air drying helps the stump fall off sooner and prevents skin irritation."
+      },
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "q": {
+        "ar": "ماذا أفعل إذا لاحظتُ بروز السرة عند بكاء الرضيع بعد سقوطها؟",
+        "en": "What should I do if I notice the belly button bulging when the baby cries after the cord falls off?"
+      },
+      "a": {
+        "ar": "بروز السرة عند البكاء يُعرف بالفتق السري، وينتج عن فتحة صغيرة في عضلات جدار البطن. وفقاً للأكاديمية الأمريكية لطب الأطفال (AAP) وهيئة الخدمات الصحية البريطانية (NHS)، يلتئم الفتق السري غالباً من تلقاء نفسه، ويجب عدم وضع شريط لاصق أو عملة معدنية فوق السرة لأنّ ذلكَ لا يفيد وقد يسبّب طفحاً جلدياً.",
+        "en": "A bulge at the belly button during crying is known as an umbilical hernia, caused by a small opening in the abdominal wall muscles. According to the American Academy of Pediatrics (AAP) and the UK National Health Service (NHS), most umbilical hernias heal on their own, and you must never tape a coin or bandage over the navel as it does not help and can cause a skin rash."
+      },
+      "cites": [
+        "src1",
+        "src3"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": {
+        "ar": "العناية بالحبل السري عند حديثي الولادة",
+        "en": "Umbilical Cord Care in Newborns"
+      },
+      "url": "https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Umbilical-Cord-Care.aspx",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src2",
+      "org": "American Academy of Pediatrics (HealthyChildren.org)",
+      "title": {
+        "ar": "أعراض الحبل السري والعناية الجافة بالسرة",
+        "en": "Umbilical Cord Symptoms and Dry Cord Care"
+      },
+      "url": "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Umbilical+Cord+Symptoms",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "src3",
+      "org": "NHS",
+      "title": {
+        "ar": "غسل الرضيع واستحمامه - هيئة الخدمات الصحية البريطانية",
+        "en": "Washing and bathing your baby - NHS"
+      },
+      "url": "https://www.nhs.uk/baby/caring-for-a-newborn/washing-and-bathing-your-baby/",
+      "retrieved": "2026-10-31"
+    }
+  ],
+  "heroAlt": {
+    "ar": "قدما مولود صغير تظهران من بطانية بيضاء",
+    "en": "A newborn's tiny feet peeking out of a white blanket"
+  }
+}

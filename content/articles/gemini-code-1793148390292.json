@@ -1,0 +1,496 @@
+{
+  "cluster": "mother_expansion",
+  "slug": "pregnancy-discharge-types",
+  "primaryKeyword": "إفرازات الحمل",
+  "keywords": [
+    "إفرازات الحمل في الشهر الأول",
+    "افرازات الحمل وافرازات ما قبل الدوره",
+    "افرازات الحمل ما لونها",
+    "إفرازات الحمل في الشهر الثاني",
+    "إفرازات الحمل في الشهر السابع",
+    "علاج افرازات الحمل",
+    "إفرازات الحمل في الشهر الثاني ونوع الجنين",
+    "افرازات الحمل متى تبدا",
+    "هل افرازات الحمل شفافه",
+    "هل افرازات الحمل مطاطية",
+    "هل افرازات الحمل صفراء",
+    "هل افرازات الحمل لها رائحه كريهه",
+    "ما هي افرازات الحمل",
+    "افرازات الحمل هل تنقض الوضوء"
+  ],
+  "imageQuery": "stack of folded white towels on bathroom shelf",
+  "related": [
+    "/ar/guide/1",
+    "/ar/guide/9",
+    "/ar/father/labour-signs",
+    "/ar/articles/gender_prediction/baby-gender-prediction-myths"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأم: أعراض الحمل وصحتكِ",
+    "en": "Mother's guide: pregnancy symptoms and health"
+  },
+  "title": {
+    "ar": "إفرازات الحمل الطبيعية: أنواعها ودلالات ألوانها ومتى تجب استشارة الطبيب",
+    "en": "Normal pregnancy discharge: types, color meanings, and when to see a doctor"
+  },
+  "metaTitle": {
+    "ar": "إفرازات الحمل الطبيعية ومتى تستشيرين الطبيب | نواة",
+    "en": "Normal pregnancy discharge & when to see a doctor | Nawah"
+  },
+  "description": {
+    "ar": "تعرّفي على أنواع إفرازات الحمل الطبيعية باللون والقوام من الشهر الأول للتاسع، والفرق بينها وبين إفرازات الدورة، ومتى تستدعي الطبيب فوراً.",
+    "en": "Learn about normal pregnancy discharge types, colors, and textures from the first month to the ninth, how they differ from period discharge, and when to see a doctor."
+  },
+  "standfirst": {
+    "ar": "دليلكِ الواضح للتفريق بين الإفرازات المهبلية الطبيعية خلال أسابيع حملكِ وبين العلامات التي تشير إلى التهاب أو تحتاج إلى تقييم طبي عاجل.",
+    "en": "Your clear guide to telling normal vaginal discharge during your pregnancy weeks apart from signs of infection or symptoms that need urgent medical evaluation."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "إفرازات الحمل في الشهر الأول وأسباب زيادتها الطبيعية",
+        "en": "Pregnancy discharge in the first month and normal reasons for its increase"
+      },
+      "body": [
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تزداد إفرازات الحمل الطبيعية بشكل ملحوظ منذ الأسابيع الأولى وتكون خفيفة القوام وشفافة أو بيضاء حليبية من دون رائحة كريهة. يُعرف هذا السائل طبياً باسم الثَرّ الأبيض، وهو إفراز مهبلي طبيعي يتكون من سوائل وخلايا متجددة من جدار المهبل وعنق الرحم لحماية المجرى التناسلي. تلاحظين هذه الزيادة مبكراً لأن جسمكِ يتفاعل فوراً مع التغيرات الهرمونية التي تلي انغراس البويضة المخصبة.",
+          "en": "According to the UK National Health Service (NHS), normal pregnancy discharge increases noticeably from the first weeks and is thin, clear, or milky white without an unpleasant smell. Medically known as leukorrhoea, this natural fluid consists of secretions and shed cells from the vaginal walls and cervix that protect the reproductive tract. You notice this increase early because your body responds right away to the hormonal shifts that follow implantation."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يؤدي الحمل إلى ليونة عنق الرحم وجدران المهبل، مما يدفع الجسم إلى إفراز كمية أكبر من السوائل لمنع انتقال أي عدوى من المهبل إلى داخل الرحم. يعمل هذا الحاجز الطبيعي بالتكامل مع السدادة المخاطية التي تتشكل في عنق الرحم لعزل الجنين عن البكتيريا الخارجية. لذلك فإن ملاحظة رطوبة يومية أكثر من المعتاد في الشهر الأول تُعد علامة صحية على قيام جسمكِ بدوره الوقائي.",
+          "en": "According to the NHS, pregnancy causes the cervix and vaginal walls to soften, prompting the body to produce more fluid to help prevent infections from travelling up from the vagina into the womb. This natural barrier works alongside the mucus plug forming in the cervix to shield the baby from outside bacteria. Seeing more daily moisture than usual in the first month is therefore a healthy sign that your body is performing its protective role."
+        },
+        {
+          "ar": "يرتبط هذا النشاط أيضاً بزيادة تدفق الدم إلى منطقة الحوض وارتفاع مستويات هرمون الإستروجين في دمكِ منذ بداية الثلث الأول. قد تشعرين بأن هذه الإفرازات تزداد عند المشي أو بذل مجهود يومي بسيط نتيجة تحرك السوائل المتجمعة في القناة المهبلية. طالما بقيت الإفرازات فاتحة اللون وخالية من الحكة أو الحرقان، فإنها لا تدعو إلى القلق ولا تحتاج إلى أي تدخل دوائي.",
+          "en": "This activity is also linked to increased blood flow to your pelvic area and rising oestrogen levels in your bloodstream from the start of the first trimester. You may feel that this discharge increases when walking or doing light daily tasks as fluid pooled in the vaginal canal moves outward. As long as the discharge stays light in color and free of itching or burning, it is no cause for concern and needs no medication."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اللون الطبيعي: شفاف تماماً أو أبيض حليبي فاتح يميل أحياناً إلى البيج الفاتح عند جفافه على الملابس الداخلية.",
+          "en": "Normal color: completely clear or milky white, sometimes drying to a pale cream shade on underwear."
+        },
+        {
+          "ar": "القوام المعتاد: سائل خفيف أو مخاطي ناعم وغير متكتل.",
+          "en": "Typical texture: thin liquid or smooth, non-clumpy mucus."
+        },
+        {
+          "ar": "الرائحة: عديمة الرائحة أو ذات رائحة خفيفة جداً ومعتادة غير نفاذة.",
+          "en": "Odor: odorless or carrying only a very mild, familiar scent that is never pungent."
+        },
+        {
+          "ar": "الأعراض المصاحبة: لا يصاحبها احمرار أو تهيج جلدي أو ألم أثناء التبول.",
+          "en": "Accompanying symptoms: free of redness, skin irritation, or pain when urinating."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "افرازات الحمل وافرازات ما قبل الدوره والفرق بينهما",
+        "en": "Pregnancy discharge vs pre-period discharge and how they differ"
+      },
+      "body": [
+        {
+          "ar": "تتشابه افرازات الحمل وافرازات ما قبل الدوره في الشكل واللون إلى حد كبير لأن كليهما ينتج عن ارتفاع هرمون البروجسترون بعد الإباضة. في الأيام التي تسبق موعد الحيض المتوقع، يفرز المهبل مخاطاً أبيض أو كريمياً في الحالتين سواء حدث حمل أم لم يحدث. لهذا السبب لا يمكن الاعتماد على شكل الإفرازات وحده لتأكيد الحمل قبل فوات موعد الدورة الشهرية.",
+          "en": "Pregnancy discharge and pre-period discharge look very similar in appearance and color because both are driven by rising progesterone after ovulation. In the days leading up to an expected period, the vagina produces white or creamy mucus whether or not conception has occurred. For this reason, appearance alone cannot confirm pregnancy before a missed period."
+        },
+        {
+          "ar": "يكمن الفرق الأساسي في استمرارية الغزارة مع مرور الأيام بعد تأخر الحيض عن موعده المعتاد. قبل نزول الدورة الشهرية بيوم أو يومين، تقل الإفرازات البيضاء عادة وتصبح أكثر جفافاً مع هبوط مستويات الهرمونات استعداداً للحيض. أما في حال حدوث الحمل، فيستمر إنتاج هرموني الإستروجين والبروجسترون في الارتفاع، فتلاحظين بقاء الإفرازات البيضاء الرطبة وازدياد كميتها تدريجياً.",
+          "en": "The main difference lies in how the amount continues to build once your period is late. One or two days before menstruation starts, white discharge usually decreases and feels drier as hormone levels drop. When pregnancy occurs, oestrogen and progesterone keep rising, so you notice the moist white discharge staying present and gradually increasing."
+        },
+        {
+          "ar": "قد تلاحظ بعض الأمهات مسحة وردية أو بنية خفيفة جداً تدوم ليوم واحد أو يومين في وقت قريب من موعد الدورة، وتُعرف بنزيف الانغراس عند التصاق البويضة بجدار الرحم. ومع ذلك، وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب إبلاغ الطبيب أو القابلة عند ملاحظة أي نزيف مهبلي أثناء الحمل للاطمئنان على سلامة الحمل. وتبقى وسيلة التأكيد الدقيقة هي إجراء اختبار الحمل المنزلي بعد تأخر الدورة بيوم واحد على الأقل.",
+          "en": "Some mothers notice a very light pink or brown smudge lasting one or two days around the time their period is due, known as implantation spotting when the fertilized egg attaches to the uterine wall. Still, according to the NHS, any vaginal bleeding during pregnancy should be reported to a doctor or midwife to check that the pregnancy is progressing safely. The reliable way to confirm pregnancy remains taking a home pregnancy test at least one day after a missed period."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "افرازات الحمل ما لونها وما دلالة كل لون وقوام",
+        "en": "Pregnancy discharge colors and what each shade and texture means"
+      },
+      "body": [
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن إجابة سؤال افرازات الحمل ما لونها في الحالة السليمة تنحصر في اللون الشفاف أو الأبيض الحليبي، بينما تشير الألوان الصفراء أو الخضراء أو الرمادية أو المتجبنة إلى احتمال وجود عدوى مهبلية. يساعدكِ الانتباه إلى لون السائل وقوامه على التمييز السريع بين التغيرات الفسيولوجية المعتادة وبين الالتهابات الفطرية أو البكتيرية. يوضح الجدول التالي دلالة كل لون وقوام وما ينبغي لكِ فعله عند ملاحظته.",
+          "en": "According to the NHS, healthy pregnancy discharge is strictly clear or milky white, whereas yellow, green, grey, or cottage-cheese textures point to a possible vaginal infection. Paying attention to fluid color and consistency helps you quickly distinguish normal physiological changes from fungal or bacterial infections. The table below outlines what each color and texture means and what step you should take."
+        },
+        {
+          "ar": "تُعد العدوى الفطرية المعروفة بالمبيضات أو القلاع المهبلي من أكثر أسباب تغير قوام الإفرازات شيوعاً أثناء الحمل بسبب تغير توازن الحموضة في المهبل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تسبب هذه الفطريات إفرازات بيضاء سميكة تشبه الجبن القريش مع حكة أو التهاب حول المهبل، وهي حالة يسهل علاجها بأمان تحت إشراف الطبيب. في المقابل، قد تدل الإفرازات المائية ذات الرائحة الكريهة الشبيهة برائحة السمك على التهاب المهبل البكتيري الذي يتطلب علاجاً طبياً مخصصاً.",
+          "en": "Yeast infection, or vaginal thrush, is one of the most common reasons for changed discharge texture during pregnancy due to shifting vaginal acidity. According to the NHS, thrush causes thick, white, cottage-cheese-like discharge alongside itching or soreness around the vagina, and can be safely treated under medical guidance. By contrast, watery discharge with an unpleasant fishy smell may indicate bacterial vaginosis, which requires targeted medical prescription."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "اللون والقوام",
+            "en": "Color and texture"
+          },
+          {
+            "ar": "ماذا يعني لكِ في الحمل",
+            "en": "What it means in pregnancy"
+          },
+          {
+            "ar": "التصرف الطبي الموصى به",
+            "en": "Recommended medical action"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "شفاف أو أبيض حليبي خفيف",
+              "en": "Clear or thin milky white"
+            },
+            {
+              "ar": "إفرازات الحمل الطبيعية الناتجة عن زيادة الإستروجين وليونة جدران المهبل لحماية الرحم.",
+              "en": "Normal pregnancy discharge caused by rising oestrogen and softer vaginal walls protecting the womb."
+            },
+            {
+              "ar": "لا يحتاج إلى علاج؛ حافظي على النظافة اليومية بالماء الفاتر والملابس القطنية.",
+              "en": "Needs no treatment; maintain daily hygiene with plain water and cotton underwear."
+            }
+          ],
+          [
+            {
+              "ar": "أبيض سميك متكتل يشبه الجبن القريش",
+              "en": "Thick, clumpy white like cottage cheese"
+            },
+            {
+              "ar": "علامة شائعة على التهاب فطري مهبلي، وغالباً ما يترافق مع حكة أو حرقان.",
+              "en": "Common sign of vaginal thrush (yeast infection), often accompanied by itching or burning."
+            },
+            {
+              "ar": "استشيري الطبيب أو الصيدلي لوصف مضاد فطريات آمن للحمل، ولا تستخدمي أدوية دون استشارة.",
+              "en": "Consult your doctor or pharmacist for a pregnancy-safe antifungal; do not self-medicate."
+            }
+          ],
+          [
+            {
+              "ar": "أصفر داكن أو أخضر",
+              "en": "Dark yellow or green"
+            },
+            {
+              "ar": "قد يشير إلى عدوى بكتيرية أو التهاب مهبلي يحتاج إلى فحص مخبري وتحديد المسبب.",
+              "en": "May indicate a bacterial or vaginal infection that requires a swab test to identify the cause."
+            },
+            {
+              "ar": "راجعي طبيبكِ في أقرب وقت لتشخيص الحالة ووصف العلاج المناسب.",
+              "en": "See your doctor promptly for diagnosis and targeted prescription treatment."
+            }
+          ],
+          [
+            {
+              "ar": "رمادي مائي ذو رائحة كريهة تشبه السمك",
+              "en": "Watery grey with an unpleasant fishy smell"
+            },
+            {
+              "ar": "يرتبط غالباً بالتهاب المهبل البكتيري الناتج عن اختلال توازن البكتيريا الطبيعية في المهبل.",
+              "en": "Often linked to bacterial vaginosis caused by an imbalance in natural vaginal bacteria."
+            },
+            {
+              "ar": "تواصلي مع الطبيب لوصف مضاد حيوي آمن خلال الحمل.",
+              "en": "Contact your doctor for a pregnancy-safe antibiotic prescription."
+            }
+          ],
+          [
+            {
+              "ar": "مخاط هلامي لزج ممزوج بخيوط وردية",
+              "en": "Sticky, jelly-like mucus with pink streaks"
+            },
+            {
+              "ar": "يمثل غالباً نزول السدادة المخاطية في الأسابيع الأخيرة كعلامة على تهيؤ عنق الرحم للولادة.",
+              "en": "Often represents the mucus plug ('show') in late pregnancy as the cervix prepares for birth."
+            },
+            {
+              "ar": "طبيعي في نهاية الشهر التاسع، لكن أبلغي الطبيب فوراً إذا ظهر قبل الأسبوع ٣٧.",
+              "en": "Normal at the end of month 9, but contact your doctor urgently if it appears before week 37."
+            }
+          ],
+          [
+            {
+              "ar": "أحمر صريح أو بني مصحوب بدم",
+              "en": "Bright red or brown mixed with blood"
+            },
+            {
+              "ar": "يُعد نزيفاً مهبلياً يستوجب التقييم الطبي لاستبعاد أي مضاعفات تتعلق بالمشيمة أو عنق الرحم.",
+              "en": "Considered vaginal bleeding requiring medical assessment to rule out placental or cervical issues."
+            },
+            {
+              "ar": "تواصلي مع طبيبكِ أو توجهي إلى المستشفى فوراً للاطمئنان على الجنين.",
+              "en": "Contact your doctor or go to the hospital right away to check on your baby."
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "إفرازات الحمل في الشهر الثاني وتغيرات الثلث الأول والثاني",
+        "en": "Pregnancy discharge in the second month and changes across the first and second trimesters"
+      },
+      "body": [
+        {
+          "ar": "تستمر إفرازات الحمل في الشهر الثاني باللون الأبيض الحليبي أو الشفاف مع زيادة تدريجية في الكمية نتيجة تضاعف إنتاج الهرمونات وتكون السدادة المخاطية بالكامل. في هذه المرحلة من الثلث الأول، يعمل عنق الرحم على بناء طبقة مخاطية سميكة تغلق قناة العنق لحماية كيس الحمل. قد تلاحظين أثناء ذلك خروج جزء بسيط من المخاط الأبيض اللزج على ملابسكِ الداخلية، وهو أمر طبيعي تماماً.",
+          "en": "Pregnancy discharge in the second month remains milky white or clear with a gradual increase in volume as hormone production rises and the mucus plug fully forms. At this stage of the first trimester, the cervix builds a thick mucus barrier that seals the cervical canal to protect the gestational sac. You may notice small amounts of sticky white mucus on your underwear during this process, which is completely normal."
+        },
+        {
+          "ar": "مع انتقالكِ إلى الثلث الثاني من الحمل بين الشهر الرابع والشهر السادس، يستقر جسمكِ هرمونياً لكن تدفق الدم في منطقة الحوض يظل مرتفعاً. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تبقى الإفرازات المهبلية غزيرة طوال أشهر الحمل مقارنة بما كانت عليه قبل الحمل، وتستمر في أداء وظيفتها في تنظيف المهبل ذاتياً. تساعد هذه البيئة الرطبة على الحفاظ على البكتيريا النافعة ومنع تكاثر الجراثيم الضارة.",
+          "en": "As you move into the second trimester between months four and six, your hormones stabilize while pelvic blood flow remains high. According to the NHS, vaginal discharge stays heavier throughout pregnancy compared to pre-pregnancy levels and continues its self-cleaning function. This moist environment helps preserve beneficial bacteria and prevents harmful germs from multiplying."
+        },
+        {
+          "ar": "من المهم في هذه الأشهر التفرقة بين الرطوبة المهبلية المعتادة وبين تسرب السائل الأمنيوسي المحيط بالجنين. الإفرازات الطبيعية تكون ذات قوام حليبي أو مخاطي خفيف وتظهر على فترات متقطعة خلال اليوم. أما إذا شعرتِ بتدفق سائل مائي شفاف ينزل باستمرار أو يبلل الفوطة الصحية بسرعة، فعليكِ مراجعة الطبيب في الحال للتأكد من سلامة كيس الماء.",
+          "en": "During these months, it is important to distinguish normal vaginal moisture from leaking amniotic fluid surrounding the baby. Normal discharge has a milky or lightly mucous consistency and appears intermittently through the day. If you feel a clear, watery fluid trickling continuously or soaking through a pad quickly, see your doctor right away to confirm the amniotic sac is intact."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "إفرازات الحمل في الشهر السابع والثلث الأخير وعلامة السدادة المخاطية",
+        "en": "Pregnancy discharge in the seventh month, the third trimester, and the mucus plug"
+      },
+      "body": [
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تزداد إفرازات الحمل في الشهر السابع وخلال الثلث الأخير من الحمل لتصل إلى أعلى مستوياتها مع اقتراب موعد الولادة. يعود ذلك إلى زيادة وزن الجنين وضغط رأسه على عنق الرحم والحوض، مما يحفز الغدد العنقية على إفراز المزيد من السوائل. قد تحتاجين في الأشهر السابع والثامن والتاسع إلى استخدام الفوط اليومية القطنية وتبديلها بانتظام للحفاظ على جفاف المنطقة وراحتكِ.",
+          "en": "According to the NHS, pregnancy discharge in the seventh month and throughout the third trimester increases further, reaching its highest volume as your due date approaches. This happens because the growing baby places more weight and pressure on the cervix and pelvis, stimulating cervical glands to secrete more fluid. During months seven, eight, and nine, you may find it helpful to wear unscented panty liners and change them regularly to stay dry and comfortable."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، قد تلاحظين في الأسبوع الأخير أو الأسابيع القليلة التي تسبق الولادة ظهور إفرازات تحتوي على خيوط من مخاط هلامي لزج بلون وردي. تُعرف هذه الظاهرة طبياً باسم العلامة أو نزول السدادة المخاطية التي كانت تغلق عنق الرحم طوال فترة الحمل. تخرج هذه السدادة دفعة واحدة على شكل كتلة هلامية صغيرة أو على دفعات متفرقة لعدة أيام عندما يبدأ عنق الرحم باللين والاتساع استعداداً للمخاض.",
+          "en": "According to the NHS, in the last week or so of pregnancy you may notice discharge containing streaks of sticky, jelly-like pink mucus. Medically called a 'show', this happens when the mucus plug that sealed your cervix throughout pregnancy comes away. It may pass as a single small jelly-like blob or in smaller pieces over several days as the cervix begins to soften and widen for labour."
+        },
+        {
+          "ar": "يُعد نزول السدادة المخاطية في نهاية الشهر التاسع إشارة طبيعية ومطمئنة على أن جسمكِ يستعد للولادة خلال أيام أو ساعات. لكن إذا لاحظتِ هذا المخاط الهلامي الوردي أو المدمم في الشهر السابع أو الثامن قبل إتمام الأسبوع ٣٧ من الحمل، فقد يكون ذلك مؤشراً على ولادة مبكرة. في هذه الحالة يجب التواصل الفوري مع طبيبكِ لفحص عنق الرحم والاطمئنان على وضع الجنين.",
+          "en": "Losing the mucus plug at the end of the ninth month is a normal, reassuring sign that your body is getting ready for birth within hours or days. However, if you spot this pink or blood-streaked jelly-like mucus in the seventh or eighth month before completing week 37 of pregnancy, it can be a sign of preterm labour. In that situation, contact your doctor immediately to have your cervix checked and ensure your baby is safe."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "إفرازات الثلث الأخير المعتادة: بيضاء حليبية غزيرة ولكنها غير مائية ولا يصاحبها ألم أو تقلصات منتظمة.",
+          "en": "Normal late-pregnancy discharge: heavy milky-white fluid that is not watery and is not accompanied by pain or regular contractions."
+        },
+        {
+          "ar": "السدادة المخاطية (العلامة): مخاط سميك هلامي القوام تشوبه خيوط وردية أو بنية خفيفة نتيجة تمدد الشعيرات الدموية في عنق الرحم.",
+          "en": "The mucus plug ('show'): thick, jelly-like mucus tinged with pink or light brown streaks from tiny capillaries stretching in the cervix."
+        },
+        {
+          "ar": "ماء الجنين (السائل الأمنيوسي): سائل شفاف مائي تماماً يتدفق دون تحكم إرادي ويستمر في النزول، ويتطلب التوجه للمستشفى فوراً.",
+          "en": "Amniotic fluid (waters breaking): completely watery clear liquid that flows involuntarily and keeps trickling or gushing, requiring immediate hospital care."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "علاج افرازات الحمل وطرق العناية اليومية الآمنة",
+        "en": "Treating pregnancy discharge and safe daily hygiene practices"
+      },
+      "body": [
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا تحتاج الإفرازات البيضاء أو الشفافة الطبيعية إلى أي علاج دوائي، بينما يعتمد علاج افرازات الحمل غير الطبيعية على تشخيص الطبيب لنوع العدوى ووصف الدواء الآمن للحامل. تحذّر الهيئة من تناول أي أدوية مضادة للفطريات أو استخدام التحاميل والكريمات المهبلية المتاحة دون وصفة طبية قبل استشارة الطبيب أو الصيدلي. فبعض الأدوية الفموية الشائعة لعلاج الفطريات خارج أوقات الحمل لا تناسب المرأة الحامل، في حين تتوفر كريمات وتحاميل موضعية آمنة تماماً يحددها الطبيب.",
+          "en": "According to the NHS, normal clear or white discharge needs no medication, whereas treating abnormal pregnancy discharge depends on a doctor diagnosing the infection and prescribing pregnancy-safe medicine. The NHS advises against using over-the-counter thrush treatments, pessaries, or creams without speaking to a doctor, midwife, or pharmacist first. Certain oral antifungal tablets commonly used outside pregnancy are unsuitable during pregnancy, while specific topical creams and pessaries prescribed by your doctor are completely safe."
+        },
+        {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يمكنكِ الوقاية من الالتهابات المهبلية وتخفيف الانزعاج الناتج عن رطوبة الإفرازات اليومية باتباع عادات عناية بسيطة تحافظ على التوازن البكتيري الطبيعي للمهبل. يمتلك المهبل قدرة ذاتية على تنظيف نفسه، وأي محاولة لغسله من الداخل بمواد كيميائية أو معطرة تؤدي إلى قتل البكتيريا النافعة وزيادة خطر العدوى. التزمي بالخطوات اليومية التالية للحفاظ على صحة المنطقة الحساسة طوال أشهر حملكِ.",
+          "en": "According to the NHS, you can help prevent vaginal infections and ease discomfort from daily moisture by following simple care habits that protect the vagina's natural bacterial balance. The vagina cleans itself naturally, and washing inside it with chemical or scented products destroys helpful bacteria and raises infection risk. Follow these daily steps to keep your intimate area healthy throughout pregnancy."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اغسلي المنطقة الخارجية بالماء الفاتر فقط، وتجنبي الصابون المعطر أو جل الاستحمام أو المطهرات القوية.",
+          "en": "Wash the outer area with plain warm water only, avoiding perfumed soaps, shower gels, or harsh antiseptics."
+        },
+        {
+          "ar": "امتنعي تماماً عن استخدام الدش المهبلي (غسل المهبل من الداخل) أو المناديل المعطرة ومزيلات العرق النسائية.",
+          "en": "Completely avoid vaginal douching (washing inside the vagina), scented wipes, and feminine deodorants."
+        },
+        {
+          "ar": "ارتدي ملابس داخلية قطنية فضفاضة تسمح بمرور الهواء وتمنع احتباس الرطوبة والحرارة.",
+          "en": "Wear loose cotton underwear that allows airflow and prevents trapped moisture and heat."
+        },
+        {
+          "ar": "استخدمي الفوط اليومية غير المعطرة عند زيادة الإفرازات، واحرصي على عدم استخدام السدادات القطنية (التامبون) أثناء الحمل.",
+          "en": "Use unscented panty liners or pads when discharge is heavy, and never use tampons during pregnancy."
+        },
+        {
+          "ar": "جففي المنطقة الحساسة بلطف من الأمام إلى الخلف بعد استخدام دورة المياه لمنع انتقال البكتيريا إلى المهبل.",
+          "en": "Pat the area dry gently from front to back after using the toilet to prevent bacteria from spreading to the vagina."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "إفرازات الحمل في الشهر الثاني ونوع الجنين وحقيقة هذا الاعتقاد",
+        "en": "Pregnancy discharge in the second month and baby gender myths"
+      },
+      "body": [
+        {
+          "ar": "لا توجد أي علاقة علمية أو طبية بين إفرازات الحمل في الشهر الثاني ونوع الجنين أو في الشهر الرابع، إذ تتحدد خصائص الإفرازات بفعل هرمونات الأم وليس جنس الطفل. تنتشر في المنتديات النسائية أقاويل تربط بين اللون الأبيض أو الأصفر أو البني للإفرازات وبين الحمل بولد أو بنت، وهي اعتقادات شعبية لا تستند إلى أي أساس فسيولوجي. يتحدد جنس الجنين كروموسومياً منذ لحظة الإخصاب ولا يغير من طبيعة سوائل عنق الرحم أو المهبل.",
+          "en": "There is no scientific or medical link between pregnancy discharge in the second or fourth month and the baby's sex, as discharge traits are governed by maternal hormones rather than fetal gender. Popular claims circulate in online forums connecting white, yellow, or brown discharge to carrying a boy or a girl, but these beliefs have no physiological basis. A baby's chromosomal sex is set at fertilization and does not alter cervical or vaginal secretions."
+        },
+        {
+          "ar": "قد يؤدي تصديق هذه الموروثات إلى إهمال عرض طبي يحتاج إلى علاج، كأن تظن الحامل أن تحول لون الإفرازات إلى الأصفر أو المائل للبني إشارة إلى جنس الجنين بينما هو في الواقع التهاب مهبلي أو نزيف خفيف. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن أي تغير في اللون إلى الأصفر أو الأخضر أو ظهور دم يستلزم تقييماً طبياً. أما الكشف الدقيق عن نوع الجنين فيتم عبر فحص السونار الطبي في منتصف الحمل، وتحديداً حول الأسبوع ٢٠ من الحمل.",
+          "en": "Believing these myths can lead to overlooking a medical symptom that needs care, such as assuming yellow or brownish discharge signals the baby's sex when it is actually a vaginal infection or light bleeding. According to the NHS, any shift toward yellow or green discharge or the presence of blood requires medical assessment. Identifying your baby's sex accurately is done through the mid-pregnancy ultrasound scan around week 20."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    }
+  ],
+  "redFlags": {
+    "intro": {
+      "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تواصلي مع طبيبكِ أو توجهي إلى المستشفى فوراً إذا لاحظتِ أياً من الأعراض التالية مع الإفرازات المهبلية في أي أسبوع من حملكِ:",
+      "en": "According to the NHS, contact your doctor or go to the hospital right away if you notice any of the following symptoms alongside vaginal discharge at any week of your pregnancy:"
+    },
+    "items": [
+      {
+        "ar": "نزيف مهبلي أحمر أو إفرازات ممزوجة بالدم في أي مرحلة من مراحل الحمل.",
+        "en": "Bright red vaginal bleeding or blood-mixed discharge at any stage of pregnancy."
+      },
+      {
+        "ar": "تدفق سائل مائي شفاف بشكل مستمر أو مفاجئ لا يمكنكِ التحكم فيه (احتمال تسرب ماء الجنين).",
+        "en": "A continuous trickle or sudden gush of clear, watery fluid you cannot control (possible leaking amniotic fluid)."
+      },
+      {
+        "ar": "تغير لون الإفرازات إلى الأصفر الداكن أو الأخضر أو الرمادي.",
+        "en": "Discharge turning dark yellow, green, or grey."
+      },
+      {
+        "ar": "انبعاث رائحة كريهة أو نفاذة تشبه رائحة السمك من الإفرازات.",
+        "en": "An unpleasant, strong, or fishy odor coming from the discharge."
+      },
+      {
+        "ar": "إفرازات بيضاء سميكة متجبنة يصاحبها حكة، احمرار، أو تورم حول المهبل.",
+        "en": "Thick, cottage-cheese-like white discharge accompanied by itching, redness, or soreness around the vagina."
+      },
+      {
+        "ar": "شعور بالألم أو الحرقان أثناء التبول، أو ألم وضغط مستمر أسفل البطن والحوض.",
+        "en": "Pain or burning when urinating, or persistent lower abdominal and pelvic pain."
+      },
+      {
+        "ar": "خروج مخاط هلامي وردي أو مدمم (السدادة المخاطية) قبل إتمام الأسبوع ٣٧ من الحمل.",
+        "en": "Passing sticky, jelly-like pink or blood-streaked mucus before completing week 37 of pregnancy."
+      }
+    ],
+    "cites": [
+      "src1"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "تابعي تغيرات جسمكِ بدقة مع سجل الأعراض والمزاج في تطبيق نواة",
+      "en": "Track your body's changes accurately with the symptom and mood log in Nawah"
+    },
+    "body": {
+      "ar": "أعدّ فريق نواة هذا المقال لأغراض التثقيف الصحي، علماً بأنه لم تتم كتابته أو مراجعته من قِبل طبيب ولا يغني عن استشارة طبيبكِ المتابع. لتسهيل متابعتكِ الطبية، استخدمي ميزة سجل الأعراض والمزاج في تطبيق نواة لتدوين أي تغير تلاحظينه في لون الإفرازات أو قوامها أو الأعراض المصاحبة يومياً على هاتفكِ بخصوصية تامة، حتى تتذكري جميع التفاصيل والتواريخ بدقة عند موعدكِ القادم مع الطبيب.",
+      "en": "The Nawah team prepared this article for health education; no clinician wrote or reviewed this page, and it does not replace your doctor's advice. To make medical follow-up easier, use the symptom and mood log in the Nawah app to privately record any changes in discharge color, texture, or accompanying symptoms by day on your phone, so you have exact details and dates ready at your next doctor's visit."
+    },
+    "button": {
+      "ar": "حمّلي نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "افرازات الحمل متى تبدا ومتى تزداد غزارتها؟",
+        "en": "When does pregnancy discharge start and when does it get heavier?"
+      },
+      "a": {
+        "ar": "تبدأ إفرازات الحمل في الزيادة منذ الأسبوع الأول أو الثاني بعد انغراس البويضة نتيجة الارتفاع السريع في هرمون الإستروجين وليونة جدران المهبل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تستمر هذه الإفرازات طوال أشهر الحمل وتبلغ أشد غزارتها في الثلث الأخير مع اقتراب موعد الولادة.",
+        "en": "Pregnancy discharge begins increasing within the first week or two after implantation due to rapidly rising oestrogen and softening vaginal walls. According to the NHS, this discharge continues throughout pregnancy and becomes heaviest in the third trimester as birth approaches."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل افرازات الحمل شفافه دائماً أم يتغير لونها؟",
+        "en": "Is pregnancy discharge always clear or does its color change?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تكون إفرازات الحمل الطبيعية إما شفافة أو بيضاء حليبية خفيفة. قد تميل إلى اللون الأبيض الكريمي أو الأصفر الباهت جداً عند جفافها على الملابس الداخلية، لكن تحولها إلى اللون الأصفر الفاقع أو الأخضر أو الرمادي يعد علامة غير طبيعية تستدعي فحص الطبيب.",
+        "en": "According to the NHS, normal pregnancy discharge is either clear or thin and milky white. It may look slightly creamy or pale off-white when dry on underwear, but turning bright yellow, green, or grey is abnormal and requires a doctor's evaluation."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل افرازات الحمل مطاطية في جميع شهور الحمل؟",
+        "en": "Is pregnancy discharge stretchy in all months of pregnancy?"
+      },
+      "a": {
+        "ar": "في معظم أسابيع الحمل تكون الإفرازات الطبيعية سائلة خفيفة أو كريمية ناعمة وليست شديدة المطاطية. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تتحول الإفرازات إلى قوام مخاطي هلامي لزج ومطاطي ممزوج بخيوط وردية في أواخر الحمل عند نزول السدادة المخاطية قبيل الولادة.",
+        "en": "During most weeks of pregnancy, normal discharge is thin and liquid or smoothly lotion-like rather than very stretchy. According to the NHS, discharge takes on a sticky, jelly-like, stretchy mucus consistency tinged with pink streaks at the end of pregnancy when the mucus plug passes before labour."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل افرازات الحمل صفراء تعتبر طبيعية أم علامة التهاب؟",
+        "en": "Is yellow pregnancy discharge normal or a sign of infection?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن الإفرازات الصفراء الواضحة أو المائلة للخضرة ليست من علامات الحمل الطبيعية بل تشير غالباً إلى وجود عدوى مهبلية. يجب عليكِ مراجعة الطبيب عند ملاحظة اللون الأصفر، لا سيما إذا صاحبه حكة أو حرقان أو رائحة غير معتادة.",
+        "en": "According to the NHS, noticeably yellow or greenish discharge is not a normal sign of pregnancy and usually points to a vaginal infection. You should see your doctor if you notice yellow discharge, especially if accompanied by itching, burning, or an unusual smell."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل افرازات الحمل لها رائحه كريهه في الحالات الطبيعية؟",
+        "en": "Does normal pregnancy discharge have an unpleasant smell?"
+      },
+      "a": {
+        "ar": "لا، وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن إفرازات الحمل الطبيعية لا ينبغي أن تكون لها رائحة كريهة على الإطلاق. وجود رائحة كريهة أو نفاذة تشبه رائحة السمك يدل غالباً على التهاب المهبل البكتيري ويحتاج إلى علاج طبي يصفه الطبيب.",
+        "en": "No. According to the NHS, normal pregnancy discharge should never smell unpleasant. A strong, unpleasant, or fishy odor usually indicates bacterial vaginosis and requires medical treatment prescribed by your doctor."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما هي افرازات الحمل التي تدل على اقتراب موعد الولادة؟",
+        "en": "What type of pregnancy discharge signals that labour is approaching?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تدل الإفرازات المخاطية الهلامية اللزجة الممزوجة بخيوط وردية أو بنية في نهاية الشهر التاسع على نزول السدادة المخاطية وتهيؤ عنق الرحم للولادة. كما أن تدفق سائل مائي شفاف بغزارة يدل على نزول ماء الجنين ويتطلب التوجه إلى المستشفى فوراً.",
+        "en": "According to the NHS, sticky, jelly-like mucus discharge streaked with pink or brown at the end of the ninth month indicates the passing of the mucus plug as the cervix prepares for birth. A gush or steady trickle of clear watery fluid indicates your waters breaking and requires going to the hospital right away."
+      }
+    },
+    {
+      "q": {
+        "ar": "افرازات الحمل هل تنقض الوضوء وتؤثر على صحة الصلاة؟",
+        "en": "Does pregnancy discharge break wudu and affect prayer validity?"
+      },
+      "a": {
+        "ar": "من الناحية الطبية، تخرج إفرازات الحمل من القناة المهبلية وعنق الرحم بشكل طبيعي ومستمر دون تحكم إرادي من الأم. أما من الناحية الفقهية، فننصحكِ بالرجوع إلى دار الإفتاء الرسمية في بلدكِ لمعرفة الحكم الشرعي الدقيق المتعلق برطوبات فرج المرأة وكيفية الوضوء عند استمرار نزولها.",
+        "en": "Medically, pregnancy discharge flows naturally and involuntarily from the cervical and vaginal canal. For religious rulings on ritual purity and prayer when discharge is continuous, consult the official fatwa authority in your country for qualified Islamic jurisprudence guidance."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "الإفرازات المهبلية في الحمل - هيئة الخدمات الصحية البريطانية",
+        "en": "Vaginal discharge in pregnancy - NHS"
+      },
+      "url": "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/vaginal-discharge/",
+      "retrieved": "2026-10-28"
+    }
+  ],
+  "heroAlt": {
+    "ar": "مناشف رمادية مطوية ومُلفوفة على رف في حمام",
+    "en": "Folded and rolled grey towels on a bathroom shelf"
+  }
+}

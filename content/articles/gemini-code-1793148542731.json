@@ -1,0 +1,504 @@
+{
+  "cluster": "mother_expansion",
+  "slug": "flying-during-pregnancy-safe-weeks",
+  "primaryKeyword": "السفر بالطائرة للحامل",
+  "keywords": [
+    "السفر بالطائرة للحامل في الشهر الأول",
+    "السفر بالطائرة للحامل في الشهر الثاني",
+    "السفر بالطائرة للحامل في الشهر الثالث",
+    "السفر بالطائرة للحامل في الشهر الرابع",
+    "السفر بالطائرة للحامل في الشهر الخامس",
+    "السفر بالطائرة للحامل في الشهر السادس",
+    "السفر بالطائرة للحامل في الشهر السابع",
+    "السفر بالطائرة للحامل في الشهر الثامن",
+    "السفر بالطائرة للحامل في الشهر التاسع",
+    "هل السفر بالطائرة امن للحامل",
+    "هل يضر السفر بالطائرة للحامل",
+    "متى يمنع السفر بالطائرة للحامل"
+  ],
+  "imageQuery": "airplane wing view from window above clouds",
+  "related": [
+    "/ar/guide/1",
+    "/ar/guide/5",
+    "/ar/guide/8",
+    "/ar/father/hospital-bag"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأم · السفر والحركة",
+    "en": "Mother's guide · Travel and mobility"
+  },
+  "title": {
+    "ar": "السفر بالطائرة للحامل: الشروط الطبية والأسابيع الآمنة للطيران",
+    "en": "Flying during pregnancy: medical rules and safe weeks to fly"
+  },
+  "metaTitle": {
+    "ar": "السفر بالطائرة للحامل: الشروط والأسابيع الآمنة | نواة",
+    "en": "Flying During Pregnancy: Safe Weeks & Rules | Nawah"
+  },
+  "description": {
+    "ar": "تعرفي على شروط السفر بالطائرة للحامل والأسابيع الآمنة للطيران في كل شهر، ومتى تطلب شركات الطيران تقريراً طبياً، ونصائح الوقاية أثناء الرحلة.",
+    "en": "Learn the medical rules for flying during pregnancy, safe weeks by trimester, when airlines ask for a doctor's letter, and how to stay comfortable in flight."
+  },
+  "standfirst": {
+    "ar": "دليل طبي واضح يوضح لكِ الأسابيع الآمنة لركوب الطائرة خلال حملكِ، والأوراق التي تطلبها شركات الطيران، وخطوات حماية صحتكِ وصحة جنينكِ في الجو.",
+    "en": "A clear medical guide explaining which weeks are safe to fly during your pregnancy, what paperwork airlines ask for, and how to protect your health in the air."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "شروط السفر بالطائرة للحامل والأسابيع الآمنة للطيران",
+        "en": "Rules for flying during pregnancy and safe weeks to travel"
+      },
+      "body": [
+        {
+          "ar": "يُعد السفر بالطائرة للحامل آمناً لكِ ولجنينكِ في معظم حالات الحمل الطبيعي التي تسير دون مضاعفات طبية. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا يسبب الطيران ضرراً للجنين، لكن شركات الطيران تطلب عادةً خطاباً طبياً بعد الأسبوع ٢٨ من الحمل، وتمنع السفر غالباً بعد الأسبوع ٣٧ في الحمل بجنين واحد أو بعد الأسبوع ٣٢ في الحمل بتوأم لارتفاع احتمال بدء المخاض.",
+          "en": "Flying during pregnancy is safe for you and your baby in most uncomplicated pregnancies. According to the UK National Health Service (NHS), air travel does not harm your baby, though airlines usually ask for a doctor's letter after week 28 and restrict flying after week 37 for a single baby or after week 32 for twins because the chance of labour rises."
+        },
+        {
+          "ar": "قبل حجز تذكرتكِ، تحتاجين إلى مراجعة طبيبكِ للتأكد من خلو حملكِ من أي مشكلات صحية قد تتأثر بطول الرحلة. يفحص الطبيب ضغط دمكِ، ومستوى الهيموجلوبين، ووضع المشيمة، ثم يحدد لكِ مدى ملاءمة السفر الجوي لحالتكِ الخاصة.",
+          "en": "Before booking your ticket, you should check with your doctor to make sure your pregnancy has no health issues that could be affected by the trip. Your doctor checks your blood pressure, haemoglobin level, and placenta position, then confirms whether air travel suits your condition."
+        },
+        {
+          "ar": "تختلف متطلبات السفر الجوي باختلاف عمر حملكِ بالأسابيع وليس بالأشهر التقريبية فقط. يوضح الجدول التالي تقسيم مراحل الحمل والسياسات المعتادة في المطارات لتتمكني من التخطيط لرحلتكِ بسهولة.",
+          "en": "Air travel rules change depending on your exact pregnancy week rather than rough months alone. The table below outlines the stages of pregnancy and standard airport policies so you can plan your trip with confidence."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "مرحلة الحمل",
+            "en": "Pregnancy stage"
+          },
+          {
+            "ar": "الوضع الطبي المعتاد",
+            "en": "Typical medical status"
+          },
+          {
+            "ar": "شروط شركات الطيران",
+            "en": "Airline requirements"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "الشهر الأول إلى الثالث (الأسبوع ١ إلى ١٢)",
+              "en": "Months 1 to 3 (weeks 1 to 12)"
+            },
+            {
+              "ar": "آمن طبياً عند غياب المضاعفات، مع زيادة الغثيان والإرهاق",
+              "en": "Medically safe without complications, though nausea and tiredness are higher"
+            },
+            {
+              "ar": "لا يُطلب تقرير طبي في الحالات الطبيعية",
+              "en": "No medical letter needed in routine cases"
+            }
+          ],
+          [
+            {
+              "ar": "الشهر الرابع إلى السادس (الأسبوع ١٣ إلى ٢٧)",
+              "en": "Months 4 to 6 (weeks 13 to 27)"
+            },
+            {
+              "ar": "الفترة الأكثر راحة واستقراراً للطيران",
+              "en": "The most comfortable and settled period to fly"
+            },
+            {
+              "ar": "يُسمح بالسفر عادةً دون تقرير طبي حتى نهاية الأسبوع ٢٧",
+              "en": "Travel is usually allowed without a medical letter until week 27"
+            }
+          ],
+          [
+            {
+              "ar": "الشهر السابع والثامن (الأسبوع ٢٨ إلى ٣٦)",
+              "en": "Months 7 and 8 (weeks 28 to 36)"
+            },
+            {
+              "ar": "آمن مع المتابعة، لكن يزداد ثقل الجسم وتورم القدمين",
+              "en": "Safe with monitoring, though body heaviness and ankle swelling increase"
+            },
+            {
+              "ar": "تطلب معظم الشركات خطاباً طبياً يوضح موعد الولادة المتوقع",
+              "en": "Most airlines ask for a medical letter stating your due date"
+            }
+          ],
+          [
+            {
+              "ar": "الشهر التاسع (بعد الأسبوع ٣٧ أو ٣٢ للتوأم)",
+              "en": "Month 9 (after week 37, or week 32 for twins)"
+            },
+            {
+              "ar": "يرتفع احتمال بدء المخاض والولادة في أي وقت",
+              "en": "The chance of going into labour rises significantly"
+            },
+            {
+              "ar": "تمنع أغلب شركات الطيران صعود الحامل إلى الطائرة",
+              "en": "Most airlines do not allow pregnant passengers to fly"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "السفر بالطائرة للحامل في الشهر الأول والثاني والثالث",
+        "en": "Flying during pregnancy in the first, second, and third months"
+      },
+      "body": [
+        {
+          "ar": "لا يزيد الطيران في الثلث الأول من الحمل من خطر الإجهاض إذا كان حملكِ سليماً ومستقراً. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تفضل بعض النساء تأجيل السفر خلال أول ١٢ أسبوعاً من الحمل بسبب التعب والغثيان، ولأن احتمال الإجهاض يكون أعلى طبيعياً في الشهور الـ ٣ الأولى سواء سافرتِ أم لم تسافري.",
+          "en": "Flying in the first trimester does not increase the risk of miscarriage when your pregnancy is healthy. According to the NHS, some women prefer not to travel during the first 12 weeks because of tiredness and nausea, and because the risk of miscarriage is naturally higher in the first 3 months whether you travel or not."
+        },
+        {
+          "ar": "عند التخطيط من أجل السفر بالطائرة للحامل في الشهر الأول أو السفر بالطائرة للحامل في الشهر الثاني، قد تشعرين بأن روائح المقصورة وحركة الطائرة تزيد من دوار الصباح. يساعدكِ اختيار مقعد قريب من جناح الطائرة على تقليل الشعور بالاهتزاز، كما يمنحكِ المقعد المطل على الممر حرية الوصول السريع إلى دورة المياه.",
+          "en": "When planning air travel in the first month or second month of pregnancy, cabin smells and plane motion may make morning sickness feel stronger. Choosing a seat over the wing reduces turbulence motion, and an aisle seat gives you quick access to the restroom."
+        },
+        {
+          "ar": "أما عند السفر بالطائرة للحامل في الشهر الثالث، فتبدأ حدة الغثيان بالهدوء تدريجياً لدى كثير من الأمهات مع اقتراب الأسبوع ١٢. لتمر رحلتكِ في الشهور الأولى بأقل قدر من الإزعاج، اتبعي الخطوات العملية التالية قبل الصعود إلى الطائرة:",
+          "en": "By the third month of pregnancy, nausea gradually starts to settle for many women as week 12 approaches. To keep your first-trimester flight comfortable, follow these practical steps before boarding:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "احتفظي في حقيبة يدكِ بوجبات خفيفة جافة مثل البسكويت المملح أو المكسرات لتهدئة الغثيان فور استيقاظكِ أو أثناء الإقلاع.",
+          "en": "Keep dry snacks like plain crackers or nuts in your carry-on bag to settle nausea when waking up or during take-off."
+        },
+        {
+          "ar": "اشربي الماء على دفعات صغيرة طوال الرحلة لتعويض الجفاف الناتج عن هواء مقصورة الطائرة الجاف.",
+          "en": "Sip water regularly throughout the flight to counter dehydration caused by dry cabin air."
+        },
+        {
+          "ar": "استشيري طبيبكِ قبل السفر إذا كنتِ تعانين من قيء شديد يمنعكِ من الاحتفاظ بالسوائل، أو إذا لاحظتِ أي نزيف مهبلي.",
+          "en": "Consult your doctor before flying if you have severe vomiting that keeps you from holding down fluids, or if you notice any vaginal bleeding."
+        },
+        {
+          "ar": "ارتدي ملابس قطنية واسعة ومريحة لا تضغط على منطقة البطن والخصر أثناء الجلوس لساعات طويلة.",
+          "en": "Wear loose, breathable cotton clothing that does not press on your waist or abdomen during long hours of sitting."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "السفر بالطائرة للحامل في الشهر الرابع والخامس والسادس",
+        "en": "Flying during pregnancy in the fourth, fifth, and sixth months"
+      },
+      "body": [
+        {
+          "ar": "يمثل الثلث الثاني من الحمل، الممتد من الأسبوع ١٣ حتى نهاية الأسبوع ٢٧، الفترة الذهبية والأكثر راحة للسفر الجوي. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تنحسر نوبات الغثيان الصباحي في هذه المرحلة وتستعيدين نشاطكِ البدني قبل أن يصبح حجم البطن كبيراً في الشهور الأخيرة.",
+          "en": "The second trimester, running from week 13 to the end of week 27, is the most comfortable window for air travel. According to the NHS, morning sickness usually fades by this stage and your energy returns before your bump grows heavier in late pregnancy."
+        },
+        {
+          "ar": "لذلك يُعد السفر بالطائرة للحامل في الشهر الرابع أو السفر بالطائرة للحامل في الشهر الخامس خياراً مناسباً إذا كنتِ ترغبين في قضاء إجازة هادئة أو زيارة عائلتكِ. في هذه الأسابيع، يكون خطر الإجهاض قد انخفض مقارنة بالشهور الـ ٣ الأولى، ويكون احتمال الولادة المبكرة لا يزال منخفضاً في حالات الحمل الطبيعي.",
+          "en": "Flying in the fourth or fifth month of pregnancy is therefore a practical choice if you want to take a quiet holiday or visit family. During these weeks, the chance of miscarriage is lower than in the first 3 months, and the risk of early labour remains low in a healthy pregnancy."
+        },
+        {
+          "ar": "عند السفر بالطائرة للحامل في الشهر السادس، يبدأ حجم بطنكِ بالظهور بوضوح، مما يتطلب ربط حزام الأمان بالطريقة الصحيحة داخل الطائرة. ضعي شريط الحزام أسفل بطنكِ مباشرةً فوق عظم الحوض وأعلى الفخذين، ولا تضعيه أبداً فوق منتصف البطن، حتى تحمي جنينكِ من أي ضغط مفاجئ عند حدوث مطبات هوائية.",
+          "en": "When flying in the sixth month of pregnancy, your bump is more visible, so fastening your seat belt properly on board matters. Place the lap strap low beneath your bump across your pelvis and upper thighs, never across the middle of your belly, to protect your baby during sudden turbulence."
+        },
+        {
+          "ar": "حتى في هذه الأشهر المريحة، احرصي على أخذ نسخة من ملف متابعة حملكِ وصور التحاليل الأساسية معكِ في حقيبة اليد. وجود هذه الأوراق يسهل على أي طبيب في وجهة سفركِ فهم تاريخكِ الصحي بسرعة إذا احتجتِ إلى استشارة طارئة.",
+          "en": "Even during these comfortable months, keep a copy of your maternity notes and basic lab results in your hand luggage. Having these papers helps any doctor at your destination understand your medical history quickly if you need an unexpected check-up."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "السفر بالطائرة للحامل في الشهر السابع والثامن والتاسع",
+        "en": "Flying during pregnancy in the seventh, eighth, and ninth months"
+      },
+      "body": [
+        {
+          "ar": "تبدأ القيود الإدارية والطبية الصارمة على ركوب الطائرة منذ بداية الأسبوع ٢٨ من الحمل، أي مع دخولكِ الشهر السابع. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تطلب شركات الطيران بعد الأسبوع ٢٨ خطاباً موقعاً من طبيبكِ يؤكد موعد ولادتكِ المتوقع ويثبت أنكِ لستِ معرضة لخطر حدوث مضاعفات.",
+          "en": "Strict airline and medical rules begin at week 28 of pregnancy, as you enter your seventh month. According to the NHS, after week 28 airlines may ask for a signed letter from your doctor or midwife confirming your due date and stating that you are not at risk of complications."
+        },
+        {
+          "ar": "إذا كنتِ تخططين من أجل السفر بالطائرة للحامل في الشهر السابع أو السفر بالطائرة للحامل في الشهر الثامن، فتأكدي من تاريخ صلاحية التقرير الطبي قبل التوجه إلى المطار. تشترط أغلب الخطوط الجوية أن يكون التقرير صادراً قبل موعد الرحلة بأيام قليلة، ويجب أن يشمل تاريخ رحلة العودة أيضاً إذا كانت بعد الأسبوع ٢٨.",
+          "en": "If you plan on flying in the seventh or eighth month of pregnancy, check the validity date required for your medical letter before heading to the airport. Most airlines ask that the letter be issued within a few days of departure, and it must cover your return flight date as well."
+        },
+        {
+          "ar": "أما السفر بالطائرة للحامل في الشهر التاسع فترفضه معظم شركات الطيران لحماية سلامتكِ وسلامة المولود. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يرتفع احتمال الدخول في المخاض طبيعياً بعد الأسبوع ٣٧ من الحمل بجنين واحد، وبعد الأسبوع ٣٢ تقريباً إذا كنتِ حاملاً بتوأم، ولذلك تمنع شركات الطيران السفر في الأسابيع الأخيرة.",
+          "en": "Flying in the ninth month of pregnancy is refused by most airlines to protect both you and your baby. According to the NHS, the chance of going into labour is naturally higher after week 37 in a single pregnancy, and around week 32 if you are carrying twins, which is why airlines stop boarding in late pregnancy."
+        },
+        {
+          "ar": "تذكري أيضاً أن حساب عمر الحمل لدى موظفي المطار يعتمد على التاريخ المدون في التقرير الطبي بالأسابيع والأيام الدقيقة. راجعي سياسة شركة الطيران التي اخترتها قبل شراء التذكرة، لأن بعض الشركات قد تضع سقفاً زمنياً أبكر للرحلات الدولية الطويلة.",
+          "en": "Keep in mind that airport staff calculate your pregnancy stage using the exact weeks and days written on your medical certificate. Check your chosen airline's policy before buying a ticket, as some carriers set earlier cut-off weeks for long international flights."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "موانع السفر بالطائرة للحامل والحالات الطبية التي تمنع الطيران",
+        "en": "Medical reasons to avoid flying during pregnancy"
+      },
+      "body": [
+        {
+          "ar": "يُنصح بتأجيل السفر الجوي تماماً إذا كنتِ تعانين من مضاعفات طبية قد تتفاقم بعيداً عن المستشفى الذي تتابعين فيه حملكِ. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب عليكِ مناقشة أي مشكلات صحية أو مضاعفات في الحمل مع طبيبكِ قبل الطيران للتأكد من أمان الرحلة.",
+          "en": "You should postpone air travel if you have pregnancy complications that could worsen away from your regular hospital. According to the NHS, you must discuss any health issues or pregnancy complications with your doctor or midwife before you fly."
+        },
+        {
+          "ar": "يرجع السبب في منع الطيران لبعض الحالات إلى أن الطائرة تفتقر إلى تجهيزات العناية المركزة لحديثي الولادة أو غرف العمليات الطارئة. إذا حدث نزيف مفاجئ أو بدأ المخاض المبكر في الجو، فلن يتوفر لكِ التدخل الطبي المتخصص في الوقت المناسب.",
+          "en": "Certain conditions rule out flying because commercial aircraft do not carry neonatal intensive care equipment or emergency operating rooms. If sudden bleeding or early labour starts in mid-air, specialist medical care is not immediately available."
+        },
+        {
+          "ar": "راجعي طبيبكِ قبل اتخاذ قرار السفر إذا كان لديكِ أي من الحالات الصحية التالية:",
+          "en": "Check with your doctor before making travel plans if you have any of the following conditions:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "وجود تاريخ سابق للولادة المبكرة، أو ظهور علامات انقباضات رحمية واتساع في عنق الرحم خلال الحمل الحالي.",
+          "en": "A history of premature birth, or signs of uterine contractions and cervical shortening in your current pregnancy."
+        },
+        {
+          "ar": "الإصابة بنزيف مهبلي في أي شهر من شهور الحمل، أو تشخيص المشيمة المنزاحة التي تغطي عنق الرحم.",
+          "en": "Vaginal bleeding at any point in pregnancy, or placenta praevia where the placenta covers the cervix."
+        },
+        {
+          "ar": "فقر الدم الشديد، حيث يقلل انخفاض الهيموجلوبين من كمية الأكسجين التي يحملها دمكِ إلى الجنين في الأجواء المرتفعة.",
+          "en": "Severe anaemia, as low haemoglobin reduces the oxygen your blood carries to your baby at cabin altitude."
+        },
+        {
+          "ar": "ارتفاع ضغط الدم غير المنتظم أو ظهور مؤشرات تسمم الحمل مثل الزلال في البول والتورم المفاجئ.",
+          "en": "Uncontrolled high blood pressure or signs of pre-eclampsia such as protein in the urine and sudden swelling."
+        },
+        {
+          "ar": "وجود جلطة دموية حالية أو سابقة في الساقين أو الرئتين، لما يفرضه الجلوس الطويل في الطائرة من مخاطر إضافية.",
+          "en": "A current or previous blood clot in the legs or lungs, since sitting still on a plane adds extra risk."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "الوقاية من الجلطات عند السفر بالطائرة للحامل في الرحلات الطويلة",
+        "en": "Preventing blood clots on long flights during pregnancy"
+      },
+      "body": [
+        {
+          "ar": "تحمل الرحلات الجوية الطويلة التي تزيد مدتها على ٤ ساعات خطراً بسيطاً للإصابة بجلطات الدم لدى الحامل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تزيد الرحلات التي تتجاوز ٤ ساعات من احتمال حدوث تجلط الأوردة العميقة، لذلك ينبغي شرب كميات وفيرة من الماء والتحرك بانتظام كل ٣٠ دقيقة تقريباً.",
+          "en": "Long-distance flights lasting longer than 4 hours carry a small risk of blood clots during pregnancy. According to the NHS, travel over 4 hours increases the chance of deep vein thrombosis (DVT), so you should drink plenty of water and move around every 30 minutes or so."
+        },
+        {
+          "ar": "تجلط الأوردة العميقة هو تكون خثرة دموية داخل أحد الأوردة العميقة في الجسم، وغالباً ما يحدث في الساقين أو الحوض نتيجة بطء حركة الدم أثناء الجلوس الطويل. خلال فترة الحمل، تتغير طبيعة الدم ليصبح أكثر قابلية للتخثر كآلية طبيعية لحمايتكِ من النزيف وقت الولادة، مما يجعل تنشيط الدورة الدموية في الطائرة أمراً ضرورياً.",
+          "en": "Deep vein thrombosis is a blood clot that forms inside a deep vein in the body, usually in the lower leg or thigh after sitting still for a long time. During pregnancy, your blood naturally clots more easily to protect you from bleeding at birth, making good circulation on a flight essential."
+        },
+        {
+          "ar": "إلى جانب الحركة وشرب السوائل، تشير هيئة الخدمات الصحية البريطانية (NHS) إلى إمكانية شراء جوارب الضغط المتدرج أو الجوارب الداعمة من الصيدلية لأنها تساعد على تقليل تورم الساقين. طبقي هذه الإرشادات البسيطة طوال مدة الطيران للحفاظ على نشاط دورتكِ الدموية:",
+          "en": "Alongside moving around and drinking fluids, the NHS notes that you can buy graduated compression or support stockings from a pharmacy to help reduce leg swelling. Follow these simple steps throughout your flight to keep your blood flowing well:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "احجزي مقعداً بجوار الممر لتتمكني من الوقوف والمشي في ممر الطائرة كل ٣٠ دقيقة دون حرج.",
+          "en": "Book an aisle seat so you can stand up and walk down the cabin aisle every 30 minutes easily."
+        },
+        {
+          "ar": "حركي قدميكِ وأنتِ جالسة عبر ثني الكاحلين للأعلى والأسفل وتدوير القدمين في دوائر لتنشيط عضلات الساق.",
+          "en": "Flex your ankles up and down and rotate your feet in circles while seated to keep your calf muscles active."
+        },
+        {
+          "ar": "ارتدي جوارب الضغط الطبية المتدرجة بالمقاس المناسب لساقيكِ قبل إقلاع الطائرة إذا كانت رحلتكِ أطول من ٤ ساعات.",
+          "en": "Put on properly fitted graduated compression stockings before take-off if your flight lasts longer than 4 hours."
+        },
+        {
+          "ar": "اشربي الماء باستمرار وتجنبي الإكثار من المشروبات الغنية بالكافيين مثل القهوة والشاي لأنها تزيد من فقدان السوائل.",
+          "en": "Drink water steadily and limit caffeinated drinks like coffee and tea, as they contribute to fluid loss."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "تجهيزات السفر بالطائرة للحامل والأوراق المطلوبة في المطار",
+        "en": "Airport preparation and required documents for pregnant travellers"
+      },
+      "body": [
+        {
+          "ar": "يحميكِ التجهيز المسبق لأوراقكِ الطبية وتأمين السفر من أي مفاجآت إدارية أو مالية أثناء تواجدكِ خارج بلدكِ. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب التأكد من أن وثيقة تأمين السفر الخاصة بكِ تغطي الحمل وأي رعاية طبية مرتبطة بالحمل أو حالات الولادة المبكرة.",
+          "en": "Preparing your medical paperwork and travel insurance ahead of time protects you from administrative or financial surprises abroad. According to the NHS, you should make sure your travel insurance covers pregnancy and any pregnancy-related medical care or premature birth."
+        },
+        {
+          "ar": "كثير من وثائق التأمين السياحي العادية تستثني تكاليف الولادة المبكرة أو حضانات الأطفال الخدج بعد أسبوع معين من الحمل. اقرئي شروط الوثيقة بدقة أو تواصلي مع شركة التأمين هاتفياً للتأكد من تغطية الطوارئ الطبية للأم والمولود في البلد الذي تقصدينه.",
+          "en": "Many standard travel insurance policies exclude premature birth or neonatal care costs after a certain week of pregnancy. Read the policy wording carefully or call the insurer to confirm emergency coverage for both mother and baby at your destination."
+        },
+        {
+          "ar": "قبل يوم السفر، جهزي حقيبة يدكِ بحيث تحتوي على كل ما تحتاجينه داخل المطار والطائرة دون الحاجة إلى انتظار حقائب الشحن:",
+          "en": "Before departure day, pack your cabin bag with everything you need at the airport and on board without waiting for checked luggage:"
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "ضعي أصل التقرير الطبي المختوم وصورة عنه في جيب قريب داخل حقيبة اليد لتقديمه عند مكتب تسجيل الصعود، خاصة بعد الأسبوع ٢٨.",
+          "en": "Keep the original stamped medical letter and a copy in an accessible pocket of your carry-on bag for the check-in desk, especially after week 28."
+        },
+        {
+          "ar": "احملي أدويتكِ اليومية والفيتامينات الموصوفة لكِ في عبواتها الأصلية مع الوصفة الطبية لتجنب أي تأخير في التفتيش الأمني.",
+          "en": "Carry your daily prenatal vitamins and prescribed medicines in their original packaging with the prescription to avoid security delays."
+        },
+        {
+          "ar": "سجلي عنوان ورقم هاتف أقرب مستشفى يضم قسم طوارئ نساء وتوليد في المدينة التي تسافرين إليها.",
+          "en": "Save the address and phone number of the nearest hospital with a maternity emergency unit in the city you are visiting."
+        },
+        {
+          "ar": "اطلبي المساعدة في حمل الحقائب الثقيلة داخل المطار، واستخدمي عربات الأمتعة لتجنب إجهاد عضلات الظهر والحوض.",
+          "en": "Ask for help lifting heavy bags at the airport and use luggage carts to avoid straining your back and pelvis."
+        }
+      ],
+      "cites": [
+        "src1"
+      ]
+    }
+  ],
+  "redFlags": {
+    "intro": {
+      "ar": "اطلبي الرعاية الطبية الفورية في وجهة سفركِ أو أبلغي طاقم الطائرة إذا ظهر لديكِ أي من الأعراض التالية أثناء الرحلة أو بعدها:",
+      "en": "Seek urgent medical care at your destination or alert the cabin crew if you develop any of the following symptoms during or after your flight:"
+    },
+    "items": [
+      {
+        "ar": "ألم أو تورم أو احمرار أو سخونة في إحدى الساقين وخاصة في عضلة السمانة، فقد يكون ذلك علامة على جلطة وريدية.",
+        "en": "Pain, swelling, redness, or warmth in one leg, especially in the calf, which can be a sign of a blood clot."
+      },
+      {
+        "ar": "ضيق مفاجئ في التنفس أو ألم في الصدر عند أخذ نفس عميق أو سعال غير مبرر.",
+        "en": "Sudden shortness of breath, chest pain when breathing deeply, or an unexplained cough."
+      },
+      {
+        "ar": "نزيف مهبلي أو نزول سوائل مائية من المهبل تشير إلى تمزق كيس الماء.",
+        "en": "Vaginal bleeding or a gush or trickle of watery fluid from the vagina suggesting your waters have broken."
+      },
+      {
+        "ar": "انقباضات رحمية منتظمة ومؤلمة أو ألم مستمر وشديد في البطن أو أسفل الظهر.",
+        "en": "Regular painful contractions or severe continuous pain in your abdomen or lower back."
+      },
+      {
+        "ar": "صداع شديد لا يزول، أو زغللة في الرؤية، أو تورم مفاجئ في الوجه واليدين.",
+        "en": "A severe headache that does not go away, blurred vision, or sudden swelling of your face and hands."
+      },
+      {
+        "ar": "ملاحظة انخفاض أو توقف في حركة الجنين المعتادة مقارنة بالأيام السابقة.",
+        "en": "Noticing a reduction or pause in your baby's usual movements compared with previous days."
+      }
+    ],
+    "cites": [
+      "src1"
+    ]
+  },
+  "cta": {
+    "headline": {
+      "ar": "اعرفي أسبوع حملكِ الدقيق قبل حجز تذكرة الطيران",
+      "en": "Know your exact pregnancy week before booking your flight"
+    },
+    "body": {
+      "ar": "لأن شركات الطيران تحسب شروط السفر والتقارير الطبية بالأسابيع الدقيقة مثل الأسبوع ٢٨ والأسبوع ٣٧، يساعدكِ متتبع الحمل أسبوعاً بأسبوع مع حجم الجنين في تطبيق نواة على معرفة أسبوعكِ الحالي بدقة ومشاركة تطورات الحمل مع زوجكِ.",
+      "en": "Because airlines apply travel rules and medical letter deadlines by exact weeks such as week 28 and week 37, the week-by-week pregnancy tracker with baby size in Nawah helps you see your exact week and share every milestone with your husband."
+    },
+    "button": {
+      "ar": "حمّلي نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "هل السفر بالطائرة امن للحامل؟",
+        "en": "Is flying during pregnancy safe?"
+      },
+      "a": {
+        "ar": "نعم، وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا يسبب الطيران ضرراً لكِ أو لجنينكِ إذا كان حملكِ يسير بصورة طبيعية دون مضاعفات. المهم هو مراجعة طبيبكِ قبل السفر، وشرب الماء بانتظام، والتحرك داخل الطائرة كل ٣٠ دقيقة في الرحلات التي تزيد على ٤ ساعات.",
+        "en": "Yes. According to the NHS, flying is not harmful to you or your baby in an uncomplicated pregnancy. Make sure you check with your doctor before travelling, drink plenty of water, and move around every 30 minutes on flights longer than 4 hours."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل يضر السفر بالطائرة للحامل في الشهور الأولى؟",
+        "en": "Does flying harm a pregnant woman in the first months?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، لا يؤدي السفر بالطائرة في الشهور الـ ٣ الأولى إلى زيادة خطر الإجهاض. مع ذلك، قد تفضل بعض الأمهات تأجيل السفر خلال أول ١٢ أسبوعاً بسبب زيادة الغثيان والإرهاق في بداية الحمل.",
+        "en": "According to the NHS, flying in the first 3 months does not increase the risk of miscarriage. However, some women prefer to postpone travel during the first 12 weeks because nausea and tiredness are stronger in early pregnancy."
+      }
+    },
+    {
+      "q": {
+        "ar": "متى يمنع السفر بالطائرة للحامل؟",
+        "en": "When is a pregnant woman not allowed to fly?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تمنع معظم شركات الطيران السفر بعد الأسبوع ٣٧ من الحمل بجنين واحد، وبعد الأسبوع ٣٢ في حالة الحمل بتوأم، بسبب ارتفاع احتمال بدء المخاض. كما يُمنع السفر طبياً في أي شهر إذا وُجدت مضاعفات خطيرة مثل المشيمة المنزاحة أو النزيف أو خطر الولادة المبكرة.",
+        "en": "According to the NHS, most airlines do not let you fly after week 37 in a single pregnancy, or after week 32 if you are carrying twins, because the chance of labour is higher. Doctors also advise against flying in any month if you have complications like placenta praevia, bleeding, or preterm labour risk."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل يجوز للحامل السفر بالطائرة في الشهر الثاني؟",
+        "en": "Can a pregnant woman fly in the second month?"
+      },
+      "a": {
+        "ar": "نعم، يمكنكِ السفر بالطائرة في الشهر الثاني طالما أكد طبيبكِ ثبات الحمل وعدم وجود نزيف أو مضاعفات صحية. احرصي على أخذ وجبات خفيفة مملحة وشرب السوائل لتخفيف الغثيان الصباحي أثناء الطيران.",
+        "en": "Yes, you can fly in the second month as long as your doctor confirms your pregnancy is stable with no bleeding or medical complications. Pack light savoury snacks and sip fluids to help ease morning sickness during the flight."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل ينفع السفر بالطائرة للحامل في الشهر الخامس؟",
+        "en": "Can a pregnant woman fly in the fifth month?"
+      },
+      "a": {
+        "ar": "يُعد الشهر الخامس من أنسب الأوقات للسفر بالطائرة لأنه يقع ضمن الثلث الثاني من الحمل، حيث يقل الغثيان وتستعيدين طاقتكِ قبل ثقل الشهور الأخيرة. لا تطلب شركات الطيران عادةً تقريراً طبياً في هذا الشهر لأنكِ لم تصلي بعد إلى الأسبوع ٢٨.",
+        "en": "The fifth month is one of the best times to fly because it falls in the second trimester, when nausea settles and your energy returns. Airlines usually do not require a medical letter in this month since you have not yet reached week 28."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما شروط السفر بالطائرة للحامل في الشهر السابع والثامن؟",
+        "en": "What are the rules for flying in the seventh and eighth months of pregnancy?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تطلب شركات الطيران بعد الأسبوع ٢٨ من الحمل خطاباً من الطبيب يؤكد موعد الولادة المتوقع وعدم وجود مضاعفات. احرصي على استخراج هذا الخطاب قبل موعد رحلتكِ بأيام قليلة والاحتفاظ به في حقيبة يدكِ.",
+        "en": "According to the NHS, after week 28 of pregnancy airlines may ask for a letter from your doctor confirming your due date and that you are not at risk of complications. Obtain this letter a few days before your flight and keep it in your hand luggage."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل بوابات التفتيش الأمني في المطار آمنة للحامل؟",
+        "en": "Are airport security scanners safe during pregnancy?"
+      },
+      "a": {
+        "ar": "نعم، بوابات الكشف عن المعادن وأجهزة المسح الأمني للركاب في المطارات آمنة ولا تستخدم الأشعة السينية المؤينة التي تخترق الجسم. تُستخدم الأشعة السينية فقط في أجهزة فحص الحقائب والأمتعة، وهي معزولة ولا تؤثر على المسافرين.",
+        "en": "Yes, walk-through metal detectors and passenger body scanners at airports are safe and do not use penetrating X-rays. X-ray machines are only used inside shielded baggage scanners for luggage and do not affect passengers."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "NHS",
+      "title": {
+        "ar": "السفر أثناء الحمل - هيئة الخدمات الصحية البريطانية (NHS)",
+        "en": "Travelling in pregnancy - NHS"
+      },
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/travelling/",
+      "retrieved": "2026-10-28"
+    }
+  ],
+  "heroAlt": {
+    "ar": "جناح طائرة من نافذة فوق السحب",
+    "en": "An aeroplane wing seen through a window above the clouds"
+  }
+}
