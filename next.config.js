@@ -16,7 +16,8 @@ const nextConfig = {
   // app/go/[platform]/route.ts, which picks the store per device and counts
   // the tap in PostHog. Rewrite, not redirect, so the public URL stays short.
   async rewrites() {
-    return [{ source: "/:platform(tiktok|instagram|facebook|x|share)", destination: "/go/:platform" }];
+    // /share = links in shared cards (app 1.0.8) · /invite = the partner-invite message (app 1.0.9+).
+    return [{ source: "/:platform(tiktok|instagram|facebook|x|share|invite)", destination: "/go/:platform" }];
   },
   async redirects() {
     return [
