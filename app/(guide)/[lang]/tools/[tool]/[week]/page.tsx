@@ -55,8 +55,10 @@ const en = (n: number, unit: string) => `${n} ${unit}${n === 1 ? "" : "s"}`;
 
 function facts(week: number) {
   const days = week * 7;
-  const months = Math.floor(days / DAYS_PER_MONTH);
-  const restDays = Math.round(days - months * DAYS_PER_MONTH);
+  let months = Math.floor(days / DAYS_PER_MONTH);
+  let restDays = Math.round(days - months * DAYS_PER_MONTH);
+  // Carry a remainder that rounds up to a full month: weeks 13 and 26 printed "2 months and 30 days".
+  if (restDays >= 30) [months, restDays] = [months + 1, 0];
   const month = monthForWeek(week);
   return { days, months, restDays, month, band: MONTH_WEEKS[month], left: 40 - week };
 }
