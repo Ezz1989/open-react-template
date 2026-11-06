@@ -48,7 +48,13 @@ function homeArticles(): Record<Chip, HomeArticle[]> {
 /** Without this Google picked babynawah.vercel.app as the homepage's canonical
  *  (GSC URL inspection, 2026-10-05: "Duplicate without user-selected canonical").
  *  Page-level only — in the layout it would point privacy/support at the home page. */
-export const metadata: Metadata = { alternates: { canonical: "/" } };
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  // Arabic title + description for Google: the home page opens in Arabic since 2026-11-06 (Gemini #56, rank 1).
+  title: "تطبيق متابعة الحمل للأم والأب | نواة",
+  description: "تابعوا حملكم في تطبيق نواة للأم والأب معاً، أسبوعاً بأسبوع بالمصرية والشامية والخليجية والإنجليزية، واقرأوا مقالات الحمل المجانية على الموقع.",
+  openGraph: { title: "تطبيق متابعة الحمل للأم والأب | نواة", description: "تابعوا حملكم في تطبيق نواة للأم والأب معاً، أسبوعاً بأسبوع بالمصرية والشامية والخليجية والإنجليزية، واقرأوا مقالات الحمل المجانية على الموقع.", url: SITE_URL, siteName: "Nawah", locale: "ar" },
+};
 
 /**
  * Organization and WebSite entity markup.

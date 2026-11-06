@@ -10,7 +10,15 @@ import {
   type Locale,
 } from "@/lib/constants";
 import { WEEK_PAGES } from "@/lib/tools-content";
-import { weekSize } from "@/lib/week-size";
+import { DEV_HEADING, weekDevelopment, weekSize } from "@/lib/week-size";
+
+// Cited next to the size + development lines (the app's base sources for a week; each checked 2026-11-06).
+// ACOG is cited in the app too but blocks fetchers, so it is left off here until it can be re-checked.
+const NHS_INDEX = "https://www.nhs.uk/pregnancy/week-by-week/";
+const OTHER_SOURCES = [
+  { name: "MedlinePlus", url: "https://medlineplus.gov/ency/article/002398.htm" },
+  { name: "Cleveland Clinic", url: "https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth" },
+];
 import { MEDICAL_DISCLAIMER, MONTH_LABEL, MONTH_WEEKS } from "@/lib/guide-content";
 import { localizedNumber } from "@/lib/utils";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
@@ -187,7 +195,7 @@ export default async function WeekInMonthsPage({
     ],
     [
       ar ? "حتى الأسبوع ٤٠" : "Until week 40",
-      f.left > 0 ? (ar ? arCount(f.left, AR_WEEK) : en(f.left, "week")) : ar ? "تجاوزتِ الأسبوع ٤٠" : "Past week 40",
+      f.left > 0 ? (ar ? arCount(f.left, AR_WEEK) : en(f.left, "week")) : ar ? "تجاوزتم الأسبوع ٤٠" : "Past week 40",
     ],
   ];
 
@@ -215,29 +223,35 @@ export default async function WeekInMonthsPage({
               ))}
             </tbody>
           </table>
-          {size && (
-            <p className="w-source">
-              {ar ? "المصادر" : "Sources"}:{" "}
-              <a href={size.nhsUrl} target="_blank" rel="noopener noreferrer" lang="en" dir="ltr">
-                NHS — {week} weeks pregnant
-              </a>
-            </p>
-          )}
+
+          <h2 className="w-h2">{DEV_HEADING[locale]}</h2>
+          <p>{weekDevelopment(week)[locale]}</p>
+          <p className="w-source">
+            {ar ? "المصادر" : "Sources"}:{" "}
+            {[{ name: "NHS", url: size?.nhsUrl ?? NHS_INDEX }, ...OTHER_SOURCES].map((s, i) => (
+              <span key={s.name}>
+                {i > 0 && " · "}
+                <a href={s.url} target="_blank" rel="noopener noreferrer" lang="en" dir="ltr">
+                  {s.name}
+                </a>
+              </span>
+            ))}
+          </p>
 
           <h2 className="w-h2">{ar ? "لماذا يختلف الرقمان؟" : "Why the two numbers differ"}</h2>
           <p>
             {ar
-              ? "شهور الحمل ليست أربعة أسابيع بالضبط لكل شهر: تسعة أشهر بمعدل ٤٫٤ أسبوع تقريباً تجمع ٤٠ أسبوعاً وليس ٣٦. لذلك يحسب الطبيب بالأسابيع، والشهر الذي تسمعينه من العائلة تقريب."
+              ? "شهور الحمل ليست أربعة أسابيع بالضبط لكل شهر: تسعة أشهر بمعدل ٤٫٤ أسبوع تقريباً تجمع ٤٠ أسبوعاً وليس ٣٦. لذلك يحسب الطبيب بالأسابيع، والشهر الذي تسمعونه من العائلة تقريب."
               : "Pregnancy months are not four weeks each: nine months of about 4.4 weeks add up to 40 weeks, not 36. That is why doctors count in weeks, and the month your family names is an approximation."}
           </p>
           <p>
             <Link href={`/${locale}/guide/${f.month}`} className="w-link">
-              {ar ? `اقرئي دليل ${MONTH_LABEL[f.month].ar} ←` : `Read the guide to month ${f.month} →`}
+              {ar ? `اقرأوا دليل ${MONTH_LABEL[f.month].ar} ←` : `Read the guide to month ${f.month} →`}
             </Link>
           </p>
 
           <section className="g-cta">
-            <h2>{ar ? "تابعي أكثر من مجرد رقم" : "Track more than one number"}</h2>
+            <h2>{ar ? "تابعوا أكثر من مجرد رقم" : "Track more than one number"}</h2>
             <p>
               {ar
                 ? "تطبيق نواة يحفظ كل هذا تلقائياً — الأسبوع، الوزن، الحركات، والتقلّصات — في مكان واحد."
