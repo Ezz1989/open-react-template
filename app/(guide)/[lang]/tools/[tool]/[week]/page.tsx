@@ -10,6 +10,7 @@ import {
   type Locale,
 } from "@/lib/constants";
 import { WEEK_PAGES } from "@/lib/tools-content";
+import { weekSize } from "@/lib/week-size";
 import { MEDICAL_DISCLAIMER, MONTH_LABEL, MONTH_WEEKS } from "@/lib/guide-content";
 import { localizedNumber } from "@/lib/utils";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
@@ -158,11 +159,23 @@ export default async function WeekInMonthsPage({
     ],
   };
 
+  // The baby's size this week (NHS length + the app's comparison, app strings only). Null for weeks 1–3 and 41+.
+  const size = weekSize(week);
   const rows: [string, string][] = [
     [
       ar ? "شهر الحمل" : "Pregnancy month",
       c.past ? (ar ? "بعد الشهر التاسع" : "After month 9") : ar ? MONTH_LABEL[f.month].ar : `Month ${f.month} of 9`,
     ],
+    ...(size
+      ? [
+          [
+            ar ? "الحجم" : "Size",
+            ar
+              ? `${size.item.ar} · ${localizedNumber(size.cm, "ar")} سم تقريبًا`
+              : `${size.item.en} · ~${size.cm} cm`,
+          ] as [string, string],
+        ]
+      : []),
     [ar ? "بالأيام" : "In days", ar ? arCount(f.days, AR_DAY) : `${f.days} days`],
     [
       ar ? "بالأشهر الميلادية" : "In calendar months",
@@ -202,6 +215,14 @@ export default async function WeekInMonthsPage({
               ))}
             </tbody>
           </table>
+          {size && (
+            <p className="w-source">
+              {ar ? "المصادر" : "Sources"}:{" "}
+              <a href={size.nhsUrl} target="_blank" rel="noopener noreferrer" lang="en" dir="ltr">
+                NHS — {week} weeks pregnant
+              </a>
+            </p>
+          )}
 
           <h2 className="w-h2">{ar ? "لماذا يختلف الرقمان؟" : "Why the two numbers differ"}</h2>
           <p>
@@ -223,7 +244,8 @@ export default async function WeekInMonthsPage({
                 : "The Nawah app saves all of this automatically — week, weight, movements and contractions — in one place."}
             </p>
             <a className="btn btn-primary" href={toolsPlayUrl(locale, `weeks_${week}`)} rel="noopener">
-              {ar ? "حمّلي التطبيق" : "Get the app"}
+              {/* Owner-approved download label (2026-11-06): plural, both parents. */}
+              {ar ? "حمِّلوا تطبيق الحمل" : "Get the app"}
             </a>
           </section>
 
@@ -260,7 +282,9 @@ export default async function WeekInMonthsPage({
         .t-wrap { max-width: 640px; padding-block: 48px 0; }
         .g-h1 { margin: 10px 0 20px; }
         .g-answer { font-size: 18px; line-height: 1.75; margin-bottom: 24px; }
-        .w-table { width: 100%; border-collapse: collapse; margin-bottom: 32px; }
+        .w-table { width: 100%; border-collapse: collapse; margin-bottom: 12px; }
+        .w-source { margin-bottom: 32px; font-size: 13px; color: var(--fg-muted); }
+        .w-source a { text-decoration: underline; }
         .w-table th, .w-table td { padding: 12px 14px; border: 1px solid var(--border); text-align: start; }
         .w-table th { width: 45%; font-weight: 500; color: var(--fg-muted); background: var(--bg-elev); }
         .w-h2 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin: 32px 0 12px; }
