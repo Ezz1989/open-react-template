@@ -50,6 +50,10 @@ export async function generateMetadata({
   return {
     title,
     description,
+    // 2026-11-06: one-line meanings × 552 pages read as scaled thin content (Google spam policy:
+    // "exclude it from Search"). Pages stay for visitors; names hub + boys/girls stay indexed.
+    // Re-enable per name only once a page carries real, sourced content.
+    robots: { index: false, follow: true },
     alternates: { canonical: path(locale), languages },
     openGraph: {
       type: "website",

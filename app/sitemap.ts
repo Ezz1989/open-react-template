@@ -4,7 +4,6 @@ import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
 import { publishedArticles as publishedTopicArticles } from "@/lib/articles-content";
 import { TOOLS, WEEK_PAGES } from "@/lib/tools-content";
-import { getAllNames, slugForName } from "@/lib/names-data";
 import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
 import { GLOSSARY } from "@/lib/glossary";
 
@@ -161,7 +160,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // Baby names hub — hub + /boys + /girls + every name.
+  // Baby names hub — hub + /boys + /girls. Single-name pages are noindex since
+  // 2026-11-06 (thin, see names/[slug]/page.tsx), so they're left out of here.
   // `updated` isn't tracked per-row in `baby_names` (unlike the guide's
   // `updated` field), so these get no `lastModified` rather than a fake one.
   for (const locale of LOCALES) {
@@ -177,20 +177,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "monthly",
         priority: 0.6,
         alternates: { languages: alt((l) => `${SITE_URL}/${l}/names/${seg}`) },
-      });
-    }
-  }
-
-  const names = await getAllNames();
-
-  for (const n of names) {
-    const slug = slugForName(n);
-    for (const locale of LOCALES) {
-      entries.push({
-        url: `${SITE_URL}/${locale}/names/${slug}`,
-        changeFrequency: "yearly",
-        priority: 0.5,
-        alternates: { languages: alt((l) => `${SITE_URL}/${l}/names/${slug}`) },
       });
     }
   }
