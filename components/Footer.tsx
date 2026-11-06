@@ -2,11 +2,12 @@
 import Image from "next/image";
 import { useLang } from "@/lib/lang-context";
 
-type SocialIcon = "instagram" | "tiktok" | "facebook";
+export type SocialIcon = "instagram" | "tiktok" | "facebook";
 
 // Hand-drawn rather than pulled from an icon package: lucide-react (already a
 // dependency) dropped brand/social glyphs, so there is nothing to import.
-const ICONS: Record<SocialIcon, React.ReactNode> = {
+// Also used by the home footer (components/home/Download.tsx).
+export const ICONS: Record<SocialIcon, React.ReactNode> = {
   instagram: (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.8" />

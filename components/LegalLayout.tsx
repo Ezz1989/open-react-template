@@ -77,7 +77,8 @@ export function LegalLayout({
               cursor: "pointer",
             }}
           >
-            {lang === "en" ? "ع" : "EN"}
+            {/* Written out in full, each in its own language (owner 2026-11-06), never «ع» / «EN». */}
+            {lang === "en" ? <span lang="ar">العربية</span> : <span lang="en">English</span>}
           </button>
         </div>
       </header>

@@ -62,14 +62,14 @@ a SHA pointer and **cannot commit these files**.
 1. Read a file before editing it. Never assume current state.
 2. ALL user-facing copy lives in `lib/content.ts`. Never hardcode strings in components. Use `t("path.to.key")` via `useLang()` from `lib/lang-context.tsx`.
 3. RTL: toggled via `document.documentElement.dir` in `LangProvider` — no manual `dir` attrs in components.
-4. Mother/father toggle: `useMode()` from `lib/mode-context.tsx` writes `data-mode` on `<html>`. Components react through the CSS cascade, not JS state.
+4. Father accent: an element with `data-mode="father"` flips the accent to navy (father guide pages set it themselves). The site-wide mother/father toggle (`lib/mode-context.tsx`) was removed with the A2 home page, 2026-11-06.
 5. One responsibility per file. Components do layout only, no business logic.
-6. **CHANGED 2026-08-11 (was "Google Play only, no App Store button").** `CtaSection.tsx` now shows BOTH badges. The App Store one is a non-interactive `<span class="btn btn-store btn-store-soon">` reading "Coming soon to App Store" / "قريباً على آب ستور" — **never an `<a>`**, because there is no iOS build and a badge linking nowhere misleads users. Full switch-on instructions are in the `APP_STORE_URL` memo in `lib/constants.ts`. Both badges were also made smaller (padding 14/24 → 11/18, strong 16px → 14px).
-7. Nawal chat uses real Groq AI via `app/api/nawal/chat/route.ts`. Never call Groq directly from the client — the key stays server-side.
+6. Store buttons: both stores are live. Home buttons use `homePlayUrl(where)` / `appStoreUrl("web_<where>")`; the «حمِّلوا تطبيق الحمل» pills use `/go/home_<where>` (store picked by device, PostHog `home_download_click`); the QR uses `/qr` (`qr_scan`).
+7. Removed 2026-11-06: the Nawal demo chat (`app/api/nawal/chat`, Groq). The Vercel env var `GROQ_API_KEY_LANDING` is now unused.
 
 ## Play Store URL
 
-`https://play.google.com/store/apps/details?id=com.nawahapp` — appears in `HeroSection.tsx` and `CtaSection.tsx`, both importing `PLAY_STORE_URL` from `lib/constants.ts`.
+`https://play.google.com/store/apps/details?id=com.nawahapp` — `PLAY_STORE_URL` in `lib/constants.ts` (untagged, JSON-LD/llms.txt only); buttons use the tagged helpers there.
 
 ✅ **Resolved.** Was 404 on 2026-08-11 while the app sat on the internal-testing track.
 The app has been **Published** on Play since 2026-08-15 (closed testing), so the listing
@@ -101,8 +101,7 @@ Real fixes applied:
 
 ## Env vars
 
-- `.env.local` (gitignored): `GROQ_API_KEY_LANDING=<key>` — separate from the Flutter app's `GROQ_API_KEY` so web abuse can't rate-limit real mobile users.
-- Vercel project settings: same var, scoped to Production + Preview.
+- `NEXT_PUBLIC_POSTHOG_KEY` (PostHog EU). `GROQ_API_KEY_LANDING` is unused since 2026-11-06 (Nawal demo removed) and can be deleted in Vercel.
 
 ## Deployment
 
@@ -127,20 +126,17 @@ Examples of the right tone:
 - Reuse pattern from `../lib/services/gemini_service.dart` for the Nawal system prompt (mother/father branching, week context, emergency guidance)
 - Keep the two surfaces voice-consistent — the `000-jeremy-content-consistency-validator` plugin runs in Task 18 to enforce this.
 
-## Component inventory (post-port)
+## Component inventory (home page A2, 2026-11-06)
 
-Section components live in `components/`:
+Spec: `docs/REVAMP_A2_SPEC.md`. `app/(home)/page.tsx` (own root layout, server-renders `lang="ar" dir="rtl"`) trims the
+articles on the server and renders `components/home/HomePage.tsx`:
 
-- `Navbar.tsx` — pill-toggle mother/father + EN/ع language toggle
-- `HeroSection.tsx` — two-column hero, week slider (4-40), stats strip, Play Store CTA
-- `GrowthVisualizer.tsx` — week-image crossfade panel (used inside Hero)
-- `FeatureGrid.tsx` — 3-col grid, 6 cards with inline SVG icons
-- `DualJourney.tsx` — mother/father split panels, click toggles mode
-- `FetusSVG.tsx` — stylized fetus SVG that scales with week (used in DualJourney)
-- `NawalSection.tsx` — real-time chat UI fetching `/api/nawal/chat`, keyword fallback
-- `BabyNamesSection.tsx` — swipe-card UI with 6 seeded names
-- `PlannersSection.tsx` — tabs with HospitalBagPanel/BudgetPanel/JournalPanel (internal)
-- `CtaSection.tsx` — centered footer CTA block
-- `Footer.tsx` — hairline row with logo, links, copyright
+- `Hero.tsx` (+ `../Navbar.tsx`) - full-screen bump video, giant two-half line, CTA pill
+- `Features.tsx` - «تطبيقٌ واحد على هاتفين» bento with real 1.0.8 screens (`public/home/screens/{ar,en}_*.png`) + «وفي التطبيق أيضاً»
+- `Articles.tsx` - 5 rows + filter chips
+- `Download.tsx` - newborn-feet video, pill, `StoreButtons.tsx`, QR (`public/home/qr.svg` -> /qr); also `HomeFooter`
+- `LoopVideo.tsx` - muted looping video over a priority poster; `icons.tsx`; styles in `home.module.css`
+- `../BabyFootsteps.tsx` - footprints on the background (client-only)
 
-Assembly: `app/page.tsx` renders Navbar → Hero → FeatureGrid → DualJourney → Nawal → BabyNames → Planners → Cta → Footer.
+`components/SiteShell.tsx` = the <html> shell shared by `(home)` (Arabic first) and `(site)` (legal pages, English first).
+Strings: `content.ts` `home.*`. Old sections (HeroSection ... CtaSection, GrowthVisualizer, FetusSVG) deleted 2026-11-06.

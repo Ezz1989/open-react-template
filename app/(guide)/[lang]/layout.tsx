@@ -57,6 +57,8 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  // iPhone Safari Smart App Banner, same as the marketing shell (owner yes 2026-11-06).
+  itunes: { appId: "6817668758" },
 };
 
 /**

@@ -22,7 +22,8 @@ const T = {
   father: { en: "Father's guide", ar: "دليل الأب" },
   tools: { en: "Tools", ar: "الأدوات" },
   names: { en: "Names guide", ar: "دليل الأسماء" },
-  switchTo: { en: "عربي", ar: "English" },
+  // Each language written out in full, in itself (owner 2026-11-06).
+  switchTo: { en: "العربية", ar: "English" },
   switchLabel: { en: "Read this page in Arabic", ar: "Read this page in English" },
   /** Trust link on every guide page — the GEO audit (2026-10-05) found no
    *  about link from the articles, a weak spot for health content. */

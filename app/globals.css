@@ -32,6 +32,12 @@
   --ink-400: #877F70;
   --ink-300: #B0AA99;
 
+  /* Home A2 (2026-11-06): page background "old lace", hero body text on video,
+     and a darker saffron that passes AA as small text on lace. */
+  --lace: #FDF4ED;
+  --lace-200: #F3EBE3;
+  --saffron-700: #8A6A10;
+
   --bg:        var(--cream-100);
   --bg-elev:   #ffffff;
   --bg-inv:    var(--rose-700);
@@ -102,6 +108,9 @@ html, body {
 }
 
 [dir="rtl"] body { font-family: var(--font-arabic), var(--font-body); }
+/* Arabic inside an English page (e.g. the «العربية» language switch) gets Tajawal too.
+   :where() = zero specificity, so any component's own font-family still wins. */
+:where([lang="ar"]) { font-family: var(--font-arabic), var(--font-body); }
 
 /* Arabic headings: Tajawal too (user, 2026-10-06). Instrument Serif has no
    Arabic glyphs, so every Arabic heading used to fall back to a system font.

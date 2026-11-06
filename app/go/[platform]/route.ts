@@ -19,6 +19,20 @@ import { after, NextRequest, NextResponse } from "next/server";
 const APP_LINKS: Record<string, { ct: string; utm: string; event: string }> = {
   share: { ct: "app_share", utm: "utm_source=app_share&utm_medium=referral&utm_campaign=share_card", event: "share_link_click" },
   invite: { ct: "partner_invite", utm: "utm_source=partner_invite&utm_medium=referral&utm_campaign=pair_invite", event: "invite_link_click" },
+  // The QR code in the home page's download section (nawahapp.net/qr), scanned from a computer screen.
+  qr: { ct: "web_qr", utm: "utm_source=nawahapp.net&utm_medium=qr&utm_campaign=home&utm_source_platform=web", event: "qr_scan" },
+  // Home page «حمِّلوا تطبيق الحمل» pills (A2, 2026-11-06): one link that picks the store by device. Same tags as
+  // homePlayUrl(where) / appStoreUrl(`web_${where}`), so both stores keep a single "home" campaign.
+  ...Object.fromEntries(
+    ["nav", "hero", "download"].map((where) => [
+      `home_${where}`,
+      {
+        ct: `web_${where}`,
+        utm: `utm_source=nawahapp.net&utm_medium=website&utm_campaign=home&utm_content=${where}&utm_source_platform=web`,
+        event: "home_download_click",
+      },
+    ]),
+  ),
 };
 const PLATFORMS = new Set(["tiktok", "instagram", "facebook", "x", ...Object.keys(APP_LINKS)]);
 const APPLE = /iPhone|iPad|iPod|Macintosh/;
