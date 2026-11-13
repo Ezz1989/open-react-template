@@ -21,6 +21,8 @@ const T = {
     ar: "هذا التاريخ في المستقبل — اختاري أول يوم من آخر دورة شهرية.",
   },
   timeline: { en: "See your full nine-month timeline →", ar: "شوفي رحلتك التسعة أشهر كاملة ←" },
+  // Owner-approved download label (2026-11-06), the same one the week pages use.
+  app: { en: "Get the app", ar: "حمِّلوا تطبيق الحمل" },
 } as const;
 
 /**
@@ -73,6 +75,11 @@ export function DueDateCalculator({ locale }: { locale: Locale }) {
           <p className="t-result-value">
             {localizedNumber(result.week, locale)} <span className="t-result-of">{T.weekOf[locale]}</span>
           </p>
+
+          {/* /go picks the store by device: Android visitors (80% of installs) never see the iOS Smart App Banner. */}
+          <a className="btn btn-primary" href="/go/tool_due" rel="nofollow" style={{ marginTop: 18 }}>
+            {T.app[locale]}
+          </a>
 
           {/* Only linked when the due month is this month or later. An LMP
               old enough to put the due date in the past (clamped week 42,

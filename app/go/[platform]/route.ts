@@ -21,6 +21,13 @@ const APP_LINKS: Record<string, { ct: string; utm: string; event: string }> = {
   invite: { ct: "partner_invite", utm: "utm_source=partner_invite&utm_medium=referral&utm_campaign=pair_invite", event: "invite_link_click" },
   // The QR code in the home page's download section (nawahapp.net/qr), scanned from a computer screen.
   qr: { ct: "web_qr", utm: "utm_source=nawahapp.net&utm_medium=qr&utm_campaign=home&utm_source_platform=web", event: "qr_scan" },
+  // Store button inside the due-date calculator's result box (Deep Research 2026-11-13: Android visitors never see the
+  // iOS Smart App Banner). Same "tools" campaign as toolsPlayUrl, its own event so the result box is countable.
+  tool_due: {
+    ct: "web_tool_due",
+    utm: "utm_source=nawahapp.net&utm_medium=organic_tool&utm_campaign=tools&utm_content=due_result&utm_source_platform=web",
+    event: "tool_download_click",
+  },
   // Home page «حمِّلوا تطبيق الحمل» pills (A2, 2026-11-06): one link that picks the store by device. Same tags as
   // homePlayUrl(where) / appStoreUrl(`web_${where}`), so both stores keep a single "home" campaign.
   ...Object.fromEntries(

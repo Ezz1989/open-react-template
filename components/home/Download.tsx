@@ -41,7 +41,7 @@ export function Download() {
 
 /** Lockup · privacy · terms · support · Instagram/TikTok/Facebook (support + socials back by owner 2026-11-06). */
 export function HomeFooter() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   // Support label + social links come from the site-wide footer list, so they stay in one place.
   const links = t("footer.links") as { label: string; href: string; icon?: SocialIcon }[];
   const support = links.find((l) => l.href === "/support");
@@ -51,6 +51,8 @@ export function HomeFooter() {
       <div className={s.footerLinks}>
         <a href="/privacy">{t("home.footer.privacy") as string}</a>
         <a href="/terms">{t("home.footer.terms") as string}</a>
+        {/* geo_audit 2026-11-12: the home page had no link to /about (who publishes the health content). Label = GuideChrome's. */}
+        <a href={`/${lang}/about`}>{t("home.footer.about") as string}</a>
         {support && <a href={support.href}>{support.label}</a>}
         {links
           .filter((l) => l.icon)

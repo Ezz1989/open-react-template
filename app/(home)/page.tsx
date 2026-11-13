@@ -49,7 +49,8 @@ function homeArticles(): Record<Chip, HomeArticle[]> {
  *  (GSC URL inspection, 2026-10-05: "Duplicate without user-selected canonical").
  *  Page-level only — in the layout it would point privacy/support at the home page. */
 export const metadata: Metadata = {
-  alternates: { canonical: "/" },
+  // hreflang (geo_audit 2026-11-12): "/" is the Arabic page; English is a client-side switch on the same URL, so no "en" URL exists to list.
+  alternates: { canonical: "/", languages: { ar: "/", "x-default": "/" } },
   // Arabic title + description for Google: the home page opens in Arabic since 2026-11-06 (Gemini #56, rank 1).
   title: "تطبيق متابعة الحمل للأم والأب | نواة",
   description: "تابعوا حملكم في تطبيق نواة للأم والأب معاً، أسبوعاً بأسبوع بالمصرية والشامية والخليجية والإنجليزية، واقرأوا مقالات الحمل المجانية على الموقع.",

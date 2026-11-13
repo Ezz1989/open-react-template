@@ -111,7 +111,7 @@ export const content = {
         play: "Google Play",
         qr: "QR code to download from your computer",
       },
-      footer: { privacy: "Privacy policy", terms: "Terms of use" },
+      footer: { privacy: "Privacy policy", terms: "Terms of use", about: "About Nawah" },
     },
 
     resetPassword: {
@@ -566,7 +566,7 @@ export const content = {
         play: "جوجل بلاي",
         qr: "رمز QR للتحميل من الكمبيوتر",
       },
-      footer: { privacy: "سياسة الخصوصية", terms: "شروط الاستخدام" },
+      footer: { privacy: "سياسة الخصوصية", terms: "شروط الاستخدام", about: "عن نواة" },
     },
 
     resetPassword: {
