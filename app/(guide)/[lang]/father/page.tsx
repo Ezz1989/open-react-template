@@ -9,6 +9,7 @@ import {
   type Locale,
 } from "@/lib/constants";
 import { FATHER_HUB, publishedArticles } from "@/lib/father-content";
+import { FATHER_MONTHS } from "@/lib/father-months";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
 
 /**
@@ -74,6 +75,18 @@ export default async function FatherHubPage({
       <main className="container f-hub">
         <h1 className="display-md">{FATHER_HUB.title[locale]}</h1>
         <p className="f-hub-stand">{FATHER_HUB.standfirst[locale]}</p>
+
+        {/* Month-by-month pages first: they answer the searched «دور الزوج في الشهر …» (2026-11-13). */}
+        <ul className="f-hub-list">
+          {FATHER_MONTHS.map((m) => (
+            <li key={`m${m.month}`}>
+              <Link href={`/${locale}/father/months/${m.month}`}>
+                <span className="f-hub-title">{m.title[locale]}</span>
+                <span className="f-hub-desc">{m.description[locale]}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
 
         <ul className="f-hub-list">
           {articles.map((a) => (

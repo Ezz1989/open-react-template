@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { HREFLANG, LOCALES, SITE_URL, X_DEFAULT_LOCALE } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles } from "@/lib/father-content";
+import { FATHER_MONTHS } from "@/lib/father-months";
 import { publishedArticles as publishedTopicArticles } from "@/lib/articles-content";
 import { TOOLS, WEEK_PAGES } from "@/lib/tools-content";
 import { cohortSlug, upcomingCohorts } from "@/lib/due-content";
@@ -92,6 +93,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: alt((l) => `${SITE_URL}/${l}/father/${doc.slug}`),
         },
+      });
+    }
+  }
+
+  // Father month-by-month pages (2026-11-13, lib/father-months.ts).
+  for (const m of FATHER_MONTHS) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/father/months/${m.month}`,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages: alt((l) => `${SITE_URL}/${l}/father/months/${m.month}`) },
       });
     }
   }

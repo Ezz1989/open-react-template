@@ -11,8 +11,11 @@ import {
   upcomingCohorts,
   type CohortSlug,
 } from "@/lib/due-content";
-import { formatMonthYearBothCalendars } from "@/lib/utils";
+import { formatMonthYearBothCalendars, localizedNumber } from "@/lib/utils";
 import { GuideHeader, GuideFooter } from "@/components/guide/GuideChrome";
+import { DueToday } from "@/components/guide/DueToday";
+import { FATHER_HUB } from "@/lib/father-content";
+import { FATHER_MONTHS } from "@/lib/father-months";
 
 /**
  * One due-month cohort: the full nine-month timeline mapped to real calendar
@@ -129,6 +132,8 @@ export default async function DueCohortPage({
             {locale === "ar" ? `موعدك ${gregorian}` : `Due in ${gregorian}`}
           </h1>
           <p className="g-stand">{hijri}</p>
+          {/* Thin-page fix 2026-11-13 (48 pages, ~145 words, 0 clicks): answer the query these pages rank for. */}
+          <DueToday year={cohort.year} month={cohort.month} locale={locale} />
           <p className="g-stand" style={{ fontSize: 16 }}>
             {locale === "ar"
               ? "هذه رحلتك التسعة أشهر كاملة — كل شهر من أشهر الحمل، والفترة التقريبية من التقويم التي يوافقها إذا كان موعدك في هذا الشهر."
@@ -142,7 +147,14 @@ export default async function DueCohortPage({
               return (
                 <li key={row.month}>
                   <Link href={`/${locale}/guide/${row.month}`} className="d-row">
-                    <span className="d-row-month">{MONTH_LABEL[row.month][locale]}</span>
+                    <span className="d-row-month">
+                      {MONTH_LABEL[row.month][locale]}
+                      <span className="d-row-weeks">
+                        {locale === "ar"
+                          ? `الأسابيع ${localizedNumber(row.weeks[0], "ar")}–${localizedNumber(row.weeks[1], "ar")}`
+                          : `weeks ${row.weeks[0]}–${row.weeks[1]}`}
+                      </span>
+                    </span>
                     <span className="d-row-period">
                       {start === end ? start : `${start} – ${end}`}
                     </span>
@@ -152,6 +164,20 @@ export default async function DueCohortPage({
               );
             })}
           </ol>
+
+          {/* The father's side of the same nine months (lib/father-months.ts); titles are the pages' own H1s. */}
+          {FATHER_MONTHS.length > 0 && (
+            <section className="d-father" data-mode="father">
+              <h2>{FATHER_HUB.title[locale]}</h2>
+              <ul>
+                {FATHER_MONTHS.map((m) => (
+                  <li key={m.month}>
+                    <Link href={`/${locale}/father/months/${m.month}`}>{m.title[locale]}</Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           <section className="g-cta">
             <h2>{locale === "ar" ? "تابعي كل أسبوع في مكانه" : "Track every week in one place"}</h2>
@@ -206,6 +232,14 @@ export default async function DueCohortPage({
         .d-row-month { font-size: 13px; color: var(--fg-soft); }
         .d-row-period { font-family: var(--font-display); font-size: 19px; }
         .d-row-trimester { font-size: 12px; color: var(--fg-soft); white-space: nowrap; }
+        .d-row-weeks { display: block; margin-top: 2px; font-size: 12px; color: var(--fg-soft); }
+        .d-today { margin-top: 14px; font-size: 18px; }
+        .d-today strong { font-family: var(--font-display); font-size: 24px; font-weight: 400; color: var(--accent-strong); }
+        .d-father { margin-top: 40px; }
+        .d-father h2 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 12px; }
+        .d-father ul { list-style: none; padding: 0; }
+        .d-father li { padding-block: 8px; border-top: 1px solid var(--border); }
+        .d-father a { text-decoration: underline; }
 
         .g-cta {
           margin-top: 48px; padding: 28px;

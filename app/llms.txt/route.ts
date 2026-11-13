@@ -2,6 +2,7 @@ import { GLOSSARY } from "@/lib/glossary";
 import { APP_STORE_URL, PLAY_STORE_URL, SITE_URL } from "@/lib/constants";
 import { publishedMonths } from "@/lib/guide-content";
 import { publishedArticles as fatherArticles } from "@/lib/father-content";
+import { FATHER_MONTHS } from "@/lib/father-months";
 import { publishedArticles as topicArticles } from "@/lib/articles-content";
 import { TOOLS } from "@/lib/tools-content";
 import type { Localized } from "@/lib/guide-content";
@@ -34,6 +35,7 @@ export function GET() {
     ...topicArticles().map((a) => line(`articles/${a.cluster}/${a.slug}`, a.title, a.description)),
     "",
     "## For fathers",
+    ...FATHER_MONTHS.map((m) => line(`father/months/${m.month}`, m.title, m.description)),
     ...fatherArticles().map((a) => line(`father/${a.slug}`, a.title, a.description)),
     "",
     "## Calculators",
