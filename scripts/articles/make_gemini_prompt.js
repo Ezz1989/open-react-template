@@ -5,7 +5,8 @@
  *   node scripts/articles/make_gemini_prompt.js article <cluster> "<topic>" [--split=<label>]
   node scripts/articles/make_gemini_prompt.js batch <cluster>          (after topics → content/topics/<cluster>.json)
  *
- * Output: content/prompts/<mode>_<slug>.txt — paste that file into Gemini.
+ * Output: ALT AI/prompts/02-website-articles/<mode>_<slug>.txt — paste that file into Gemini
+ * with the `nawah-02-website-articles` skill on.
  *
  * Lives entirely inside nawah-landing, standalone — no dependency on `Social Media/Tiktok/
  * pipeline` (different repo, different register: MSA here, Egyptian dialect there). See
@@ -21,7 +22,8 @@ const { CLUSTERS, CLUSTER_TAGS, resolveCluster } = require('./clusters');
 const { suggest } = require('./suggest');
 
 const ROOT = path.join(__dirname, '..', '..'); // nawah-landing/
-const OUT_DIR = path.join(ROOT, 'content/prompts');
+// Every Gemini prompt lives in the workspace-root `ALT AI` folder (user, 2026-10-19), next to skill 02.
+const OUT_DIR = path.join(ROOT, '..', '..', 'ALT AI', 'prompts', '02-website-articles');
 
 // ------------------------------------------------------------------ injected blocks
 
