@@ -13,6 +13,7 @@ import {
   ABOUT_FATHER,
   ABOUT_META,
   ABOUT_MOTTO,
+  ABOUT_DIALECTS,
   ABOUT_NAME,
   ABOUT_OPENING,
   ABOUT_PROMISES,
@@ -171,6 +172,7 @@ export default async function AboutPage({
         </section>
 
         <p className="a-motto">{ABOUT_MOTTO[locale]}</p>
+        <p className="a-dialects">{ABOUT_DIALECTS[locale]}</p>
 
         <section className="a-cta">
           <p>{ABOUT_CTA.body[locale]}</p>
@@ -241,6 +243,10 @@ export default async function AboutPage({
           margin-top: 48px; text-align: center;
           font-family: var(--font-display); font-size: 30px;
           color: var(--accent-strong);
+        }
+
+        .a-dialects {
+          margin-top: 10px; text-align: center; color: var(--fg-muted);
         }
 
         .a-cta {

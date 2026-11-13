@@ -284,6 +284,12 @@ export const ABOUT_MOTTO: Localized = {
   ar: "مش لوحدك في الحكاية دي.",
 };
 
+/** Owner's exact wording (2026-11-14); same line as the store listings. */
+export const ABOUT_DIALECTS: Localized = {
+  en: "In your dialect: Egyptian · Khaleeji · Levantine",
+  ar: "بلهجتك: مصري · خليجي · شامي",
+};
+
 export const ABOUT_CTA: { body: Localized; button: Localized } = {
   body: {
     en: "Nawah is free, in Arabic and English, for both of you.",
