@@ -30,20 +30,20 @@ export interface ToolDef {
 export const TOOLS: ToolDef[] = [
   {
     slug: "due-date",
-    title: { en: "Due date calculator", ar: "حاسبة موعد الولادة" },
+    title: { en: "Pregnancy & due date calculator", ar: "حاسبة الحمل وموعد الولادة" },
     metaTitle: {
-      en: "Due Date Calculator (Gregorian & Hijri) | Nawah",
-      ar: "حاسبة موعد الولادة بالميلادي والهجري | نواة",
+      en: "Pregnancy & Due Date Calculator (Gregorian, Hijri) | Nawah",
+      ar: "حاسبة الحمل وموعد الولادة بالميلادي والهجري | نواة",
     },
     description: {
-      en: "Enter the first day of your last period to get your due date and current pregnancy week, shown in both the Gregorian and Hijri calendars.",
-      ar: "أدخلي أول يوم من آخر دورة شهرية لمعرفة موعد ولادتك وأسبوع حملك الحالي، بالتقويمين الميلادي والهجري معاً.",
+      en: "Pregnancy calculator: enter the first day of your last period to get your due date and current pregnancy week, in both the Gregorian and Hijri calendars.",
+      ar: "حاسبة الحمل: أدخلي أول يوم من آخر دورة شهرية لمعرفة موعد ولادتك وأسبوع حملك الحالي، بالتقويمين الميلادي والهجري معاً.",
     },
     intro: {
-      en: "Doctors count pregnancy from the first day of your last period, not from conception. The standard estimate adds 280 days (40 weeks) to that date — the same rule the Nawah app uses to set your due date.",
-      ar: "يحسب الأطباء الحمل من أول يوم في آخر دورة شهرية، لا من يوم حدوث الحمل. القاعدة المعتمدة تضيف ٢٨٠ يوماً (٤٠ أسبوعاً) على هذا التاريخ — وهي نفس القاعدة التي يعتمدها تطبيق نواة لتحديد موعد ولادتك.",
+      en: "This pregnancy calculator gives your due date and your current week. Doctors count pregnancy from the first day of your last period, not from conception. The standard estimate adds 280 days (40 weeks) to that date — the same rule the Nawah app uses to set your due date.",
+      ar: "حاسبة الحمل هذه تحسب موعد ولادتك وأسبوع حملك الحالي. يحسب الأطباء الحمل من أول يوم في آخر دورة شهرية، لا من يوم حدوث الحمل. القاعدة المعتمدة تضيف ٢٨٠ يوماً (٤٠ أسبوعاً) على هذا التاريخ — وهي نفس القاعدة التي يعتمدها تطبيق نواة لتحديد موعد ولادتك.",
     },
-    updated: "2026-09-15",
+    updated: "2026-11-13",
   },
   {
     slug: "weeks-months",

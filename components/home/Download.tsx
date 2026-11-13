@@ -13,7 +13,7 @@ export function Download() {
 
   return (
     <section id="download" aria-labelledby="download-h" className={`${s.dl} ${s.onDark}`}>
-      <LoopVideo name="feet-full" position="center 55%" lazy />
+      <LoopVideo name="feet-full" alt={t("home.downloadSection.posterAlt") as string} position="center 55%" lazy />
       <div className={s.dlScrim} aria-hidden="true" />
       <h2 id="download-h" className={s.dlHeading}>
         {d("heading")}

@@ -29,6 +29,7 @@ function row(a: Article): HomeArticle {
     img: a.hero.src,
     width: a.hero.width,
     height: a.hero.height,
+    alt: a.hero.alt,
     cat: { ar: a.eyebrow.ar, en: a.eyebrow.en },
     title: { ar: a.title.ar, en: a.title.en },
   };

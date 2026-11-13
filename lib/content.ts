@@ -20,6 +20,7 @@ export const content = {
       },
       download: "Download the pregnancy app",
       hero: {
+        posterAlt: "A pregnant woman in a red sweater resting her hands on her bump in warm light",
         giantA: "Nawah is with you",
         giantB: "step by step",
         motto: "One story, built detail by detail with you",
@@ -102,6 +103,7 @@ export const content = {
         },
       },
       downloadSection: {
+        posterAlt: "A newborn's feet held gently in a mother's and a father's hands",
         heading: "Because pregnancy was never for the mother alone",
         taglineA: "A whole new person is on the way,",
         taglineB: "and you grow with them, day by day.",
@@ -474,6 +476,7 @@ export const content = {
       },
       download: "حمِّلوا تطبيق الحمل",
       hero: {
+        posterAlt: "حامل بسترة حمراء تضع يديها على بطنها في ضوء دافئ",
         giantA: "نواة معكم",
         giantB: "خطوة بخطوة",
         motto: "حكايةٌ واحدة تُبنى تفاصيلها بكم",
@@ -557,6 +560,7 @@ export const content = {
         },
       },
       downloadSection: {
+        posterAlt: "قدما مولود صغيرتان بين يدي الأم والأب",
         heading: "لأن الحمل لم يكن يوماً للأم وحدها",
         taglineA: "إنسانٌ جديد في الطريق،",
         taglineB: "وأنتم أيضاً تكبرون معه يوماً بعد يوم.",

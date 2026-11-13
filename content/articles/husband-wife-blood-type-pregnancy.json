@@ -1,0 +1,552 @@
+{
+  "cluster": "father_expansion",
+  "slug": "husband-wife-blood-type-pregnancy",
+  "primaryKeyword": "فصيلة دم الحامل وزوجها",
+  "keywords": [
+    "جدول توافق فصيلة دم الحامل وزوجها",
+    "فصيلة دم الأم سالب والأب موجب",
+    "موعد حقنة Rh للحامل",
+    "اختلاف فصائل الدم بين الزوجين والحمل",
+    "تأثير فصيلة الدم O على الحمل",
+    "أعراض عدم توافق الدم عند حديثي الولادة",
+    "فصيلة دم الأم موجب والأب سالب",
+    "تشابه فصيلة دم الحامل وزوجها",
+    "هل اختلاف فصائل الدم يسبب الإجهاض",
+    "متى تؤخذ إبرة الفصيلة بعد الولادة"
+  ],
+  "imageQuery": "open notebook and pen on wooden table soft window light",
+  "related": [
+    "/ar/father",
+    "/ar/guide/1",
+    "/ar/guide/7",
+    "/ar/father/hospital-bag"
+  ],
+  "eyebrow": {
+    "ar": "دليل الأب — الفحوصات الطبية",
+    "en": "Father's guide — Medical tests"
+  },
+  "title": {
+    "ar": "فصيلة دم الحامل وزوجها: متى تهمّ الفصائل وما الذي تفعله كأب",
+    "en": "Blood type of the pregnant wife and her husband: when blood groups matter and what to do as a father"
+  },
+  "metaTitle": {
+    "ar": "فصيلة دم الحامل وزوجها: جدول التوافق وحقنة Rh | نواة",
+    "en": "Wife and Husband Blood Types in Pregnancy | Nawah"
+  },
+  "description": {
+    "ar": "دليلك كأب لفهم فصيلة دم الحامل وزوجها: متى يستدعي اختلاف عامل ريسوس حقنة Anti-D في الأسبوع ٢٨، وجدول توافق الفصائل لحماية طفلك.",
+    "en": "Your father's guide to the blood type of a pregnant wife and her husband: when Rh incompatibility requires an Anti-D shot at week 28 and the compatibility chart."
+  },
+  "standfirst": {
+    "ar": "معرفتكَ المبكرة بفصيلة دمكَ وفصيلة دم زوجتكَ في أول زيارة متابعة تختصر عليكما القلق، وتضع أمامكَ خطة وقاية واضحة بمواعيد محددة لحماية طفلكَ القادم.",
+    "en": "Knowing your blood type and your wife's blood type at the first prenatal visit removes guesswork and gives you a clear, timed prevention plan to protect your baby."
+  },
+  "sections": [
+    {
+      "heading": {
+        "ar": "فصيلة دم الحامل وزوجها وعامل ريسوس في الحمل",
+        "en": "Blood type of the pregnant wife and her husband and the Rh factor in pregnancy"
+      },
+      "body": [
+        {
+          "ar": "تُحدّد فصيلة دم الحامل وزوجها ما إذا كان الجنين معرّضاً لعدم توافق عامل ريسوس، وهي حالة طبية تحدث فقط عندما تكون فصيلة دم زوجتكَ سالبة وفصيلة دمكَ موجبة وفقاً لكليفلاند كلينك (Cleveland Clinic). في هذه الحالة الوحيدة قد يرث الجنين العامل الموجب منكَ، فتحتاج زوجتكَ إلى حقنة وقائية في الأسبوع ٢٨ من الحمل وخلال ٧٢ ساعة بعد الولادة لمنع جسمها من تكوين أجسام مضادة. أمّا إذا كانت فصيلة دم زوجتكَ موجبة، أو كنتما معاً سالبَين، فلا يوجد أي خطر من عامل ريسوس على الحمل.",
+          "en": "The blood type of a pregnant wife and her husband determines whether the fetus is at risk of Rh incompatibility, a medical condition that occurs only when your wife is Rh-negative and you are Rh-positive, according to Cleveland Clinic. In this single combination, the fetus may inherit the positive factor from you, requiring your wife to receive a preventive injection at week 28 of pregnancy and within 72 hours after delivery to stop her body from forming antibodies. If your wife is Rh-positive, or if both of you are Rh-negative, there is no Rh factor risk to the pregnancy."
+        },
+        {
+          "ar": "عامل ريسوس (Rh factor) هو بروتين وراثي يوجد على سطح خلايا الدم الحمراء، ووجوده يعني أن فصيلة الدم موجبة بينما غيابه يعني أن الفصيلة سالبة وفقاً لكليفلاند كلينك (Cleveland Clinic). يتكوّن تصنيف الدم عند كل إنسان من شقّين: الحروف الأبجدية (A أو B أو AB أو O) وعلامة العامل الريسوسي (موجب أو سالب). في متابعة الحمل، تتركز الأولوية الطبية القصوى على علامة الموجب والسالب لأنها المسؤولة عن تفاعلات المناعة القوية التي تحتاج إلى تدخل وقائي.",
+          "en": "The Rhesus factor (Rh factor) is an inherited protein found on the surface of red blood cells; its presence means the blood type is positive and its absence means the blood type is negative, according to Cleveland Clinic. Every person's blood classification consists of two parts: the letter group (A, B, AB, or O) and the Rh sign (positive or negative). In prenatal care, medical priority centers on the positive or negative sign because it drives the strong immune reactions that require preventive intervention."
+        },
+        {
+          "ar": "وتوضح هيئة الخدمات الصحية البريطانية (NHS) أن هذا الفحص الروتيني يُجرى عادةً بين الأسبوع ٨ والأسبوع ١٢ من الحمل لاكتشاف فصيلة دم الأم والبحث عن أي أجسام مضادة في دمها مبكراً.",
+          "en": "The UK National Health Service (NHS) states that this routine screening is typically offered between week 8 and week 12 of pregnancy to identify the mother's blood type and check for any red cell antibodies early."
+        },
+        {
+          "ar": "يبدأ دوركَ العملي كأب من هذه الزيارة الأولى عبر التثبت من فصيلة دمكَ أنتَ أيضاً بورقة مختبر رسمية وعدم الاعتماد على الذاكرة. عندما تضع نتيجة فصيلة دمكَ بجانب نتيجة زوجتكَ في ملف متابعة الحمل، يعرف الطبيب فوراً ما إذا كان الحمل يحتاج إلى جدول متابعة عادي أم إلى خطة وقاية بحقنة مضاد (D) في الثلث الثالث من الحمل.",
+          "en": "Your practical role as a father begins at this first appointment by confirming your own blood type with an official lab record rather than relying on memory. When you place your blood group result next to your wife's in the maternity file, the doctor immediately knows whether the pregnancy needs standard routine care or a preventive Anti-D injection plan in the third trimester."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "احجز لزوجتكَ فحص الدم الأول بين الأسبوع ٨ والأسبوع ١٢ من الحمل لتحديد الفصيلة وعامل ريسوس وفحص الأجسام المضادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "Book your wife's first blood test between week 8 and week 12 of pregnancy to determine her blood group, Rh status, and antibody screen, per the NHS."
+        },
+        {
+          "ar": "أجرِ تحليل فصيلة الدم لنفسكَ في نفس المختبر إذا كانت زوجتكَ تحمل فصيلة دم سالبة ولم تكن متأكداً من فصيلتكَ بالوثائق.",
+          "en": "Take a blood type test yourself at the same lab if your wife has Rh-negative blood and you do not have documented proof of your own blood type."
+        },
+        {
+          "ar": "احفظ صورة واضحة من نتيجة فصيلة دم زوجتكَ وفصيلة دمكَ على هاتفكَ وداخل حافظة أوراق المتابعة الطبية.",
+          "en": "Save a clear photo of both your wife's blood group result and your own on your phone and inside her physical maternity folder."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "جدول توافق فصيلة دم الحامل وزوجها واحتمالات الجنين",
+        "en": "Compatibility table for the blood type of the pregnant wife and her husband"
+      },
+      "body": [
+        {
+          "ar": "يُظهر جدول توافق فصيلة دم الحامل وزوجها أن الخطر المناعي ينحصر في حالة واحدة فقط من أصل أربع حالات، وهي اجتماع أم سالبة العامل الريسوسي مع أب موجب العامل الريسوسي وفقاً لكليفلاند كلينك (Cleveland Clinic). في الحالات الثلاث الأخرى لا يتكوّن أي تعارض في عامل ريسوس بين الأم والجنين، ويسير الحمل دون الحاجة إلى إبر وقائية خاصة بالفصيلة.",
+          "en": "The compatibility chart for the blood type of a pregnant wife and her husband shows that immune risk is limited to just one out of four combinations: an Rh-negative mother with an Rh-positive father, according to Cleveland Clinic. In the other three combinations, no Rh conflict arises between mother and fetus, and the pregnancy proceeds without needing preventive blood-group injections."
+        },
+        {
+          "ar": "يتساءل كثير من الآباء عن حالة فصيلة دم الأم موجب والأب سالب، والحقيقة الطبية المطمئنة هي أن هذه الحالة آمنة تماماً ولا تسبّب أي حساسية دموية للجنين وفقاً لكليفلاند كلينك (Cleveland Clinic). عندما تكون زوجتكَ موجبة العامل الريسوسي، فإن جهازها المناعي يتعرّف بطبيعته على بروتين ريسوس ولا يهاجم دم الجنين سواء ورث الجنين الفصيلة الموجبة من أمه أو السالبة من أبيه.",
+          "en": "Many fathers ask about the case where the mother is Rh-positive and the father is Rh-negative, and the reassuring medical fact is that this combination is completely safe and causes no Rh sensitization to the fetus, according to Cleveland Clinic. When your wife is Rh-positive, her immune system naturally recognizes the Rh protein and does not attack the baby's blood whether the baby inherits positive blood from her or negative blood from you."
+        },
+        {
+          "ar": "أمّا عند تشابه فصيلة دم الحامل وزوجها، مثل أن تكونا معاً (O موجب) أو معاً (A سالب)، فإن التطابق في عامل ريسوس يمنع حدوث أي تعارض مناعي على الإطلاق وفقاً لكليفلاند كلينك (Cleveland Clinic). حتّى إذا كنتما تحملان الفصيلة السالبة معاً، فإن الجنين سيرث الفصيلة السالبة حتماً منكما، ولن تحتاج زوجتكَ إلى حقنة (Anti-D) لأن دم الجنين خالٍ من البروتين الموجب.",
+          "en": "When the blood type of the pregnant wife and her husband are identical, such as both being O-positive or both being A-negative, matching Rh factors prevent any immune conflict altogether, according to Cleveland Clinic. Even if both of you are Rh-negative, the baby will definitely inherit Rh-negative blood, so your wife will not need an Anti-D injection because the baby's blood lacks the positive protein."
+        }
+      ],
+      "table": {
+        "head": [
+          {
+            "ar": "عامل ريسوس لدى الزوجة (الأم)",
+            "en": "Wife's (Mother's) Rh factor"
+          },
+          {
+            "ar": "عامل ريسوس لديكَ (الأب)",
+            "en": "Your (Father's) Rh factor"
+          },
+          {
+            "ar": "احتمال عامل ريسوس لدى الجنين",
+            "en": "Possible fetal Rh factor"
+          },
+          {
+            "ar": "الإجراء الطبي المطلوب في الحمل",
+            "en": "Required medical action during pregnancy"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "ar": "موجب (Rh+)",
+              "en": "Positive (Rh+)"
+            },
+            {
+              "ar": "موجب (Rh+)",
+              "en": "Positive (Rh+)"
+            },
+            {
+              "ar": "موجب أو سالب (كلاهما آمن للأم الموجبة)",
+              "en": "Positive or negative (both safe for an Rh+ mother)"
+            },
+            {
+              "ar": "لا يوجد خطر، ولا تحتاج الزوجة إلى حقنة Anti-D",
+              "en": "No risk; wife does not need an Anti-D injection"
+            }
+          ],
+          [
+            {
+              "ar": "موجب (Rh+)",
+              "en": "Positive (Rh+)"
+            },
+            {
+              "ar": "سالب (Rh-)",
+              "en": "Negative (Rh-)"
+            },
+            {
+              "ar": "موجب أو سالب (كلاهما آمن للأم الموجبة)",
+              "en": "Positive or negative (both safe for an Rh+ mother)"
+            },
+            {
+              "ar": "لا يوجد خطر، ولا تحتاج الزوجة إلى حقنة Anti-D",
+              "en": "No risk; wife does not need an Anti-D injection"
+            }
+          ],
+          [
+            {
+              "ar": "سالب (Rh-)",
+              "en": "Negative (Rh-)"
+            },
+            {
+              "ar": "سالب (Rh-)",
+              "en": "Negative (Rh-)"
+            },
+            {
+              "ar": "سالب دائماً (مطابق لدم الأم)",
+              "en": "Always negative (matches the mother's blood)"
+            },
+            {
+              "ar": "لا يوجد خطر إذا كانت فصيلة الأب موثقة مخبرياً",
+              "en": "No risk when the father's Rh-negative status is lab-confirmed"
+            }
+          ],
+          [
+            {
+              "ar": "سالب (Rh-)",
+              "en": "Negative (Rh-)"
+            },
+            {
+              "ar": "موجب (Rh+)",
+              "en": "Positive (Rh+)"
+            },
+            {
+              "ar": "قد يكون موجباً (عدم توافق ريسوسي محتمل)",
+              "en": "May be positive (potential Rh incompatibility)"
+            },
+            {
+              "ar": "حقنة Anti-D في الأسبوع ٢٨، وجرعة ثانية خلال ٧٢ ساعة بعد الولادة إذا كان المولود موجباً",
+              "en": "Anti-D shot at week 28, and a second dose within 72 hours after birth if the newborn is Rh+"
+            }
+          ]
+        ]
+      },
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "فصيلة دم الأم سالب والأب موجب وآلية تكوّن الأجسام المضادة",
+        "en": "Rh-negative mother and Rh-positive father and how antibodies form"
+      },
+      "body": [
+        {
+          "ar": "تؤدي حالة فصيلة دم الأم سالب والأب موجب إلى احتمال تكوّن أجسام مضادة في دم الأم إذا انتقلت قطرات قليلة من دم الجنين الموجب إلى دورتها الدموية أثناء الحمل أو الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS). تُعرف هذه العملية علمياً باسم التحسس المناعي (Sensitisation)، حيث يتعامل الجهاز المناعي لزوجتكَ مع خلايا الدم الموجبة على أنها جسم غريب ويبدأ بصنع مضادات لمهاجمتها.",
+          "en": "An Rh-negative mother and Rh-positive father combination can lead to antibody formation in the mother's blood if small drops of Rh-positive fetal blood cross into her bloodstream during pregnancy or birth, according to the NHS. This process is medically called sensitization, where your wife's immune system treats the Rh-positive blood cells as foreign and produces antibodies to attack them."
+        },
+        {
+          "ar": "مرض انحلال الدم لدى الجنين وحديثي الولادة (HDFN)، والذي يُسمى أيضاً مرض ريسوس، هو اضطراب دموي نادر تعبر فيه الأجسام المضادة من دم الأم عبر المشيمة لتكسير خلايا الدم الحمراء لدى الجنين مما يسبب له فقر الدم واليرقان وفقاً لهيئة الخدمات الصحية البريطانية (NHS). من المهم أن تعرف كأب أن عدم توافق عامل ريسوس لا يسبب أي أعراض جسدية تشعر بها زوجتكَ، ولذلك يُكتشف حصرياً عبر تحاليل الدم الدورية.",
+          "en": "Haemolytic disease of the fetus and newborn (HDFN), also known as rhesus disease, is a rare blood disorder in which maternal antibodies cross the placenta and break down the baby's red blood cells, causing anaemia and jaundice, according to the NHS. As a father, it is important to know that Rh incompatibility causes no physical symptoms in your wife, which is why it is detected strictly through blood tests."
+        },
+        {
+          "ar": "توضح كليفلاند كلينك (Cleveland Clinic) أن الدورة الدموية للأم منفصلة عن دورة الجنين في الوضع الطبيعي، وأن اختلاط الدم يحدث غالباً عند المخاض والولادة، مما يجعل الطفل الأول في مأمن في معظم الحالات. غير أن الأجسام المضادة التي تتكوّن بعد الولادة الأولى (إن لم تأخذ الأم الحقنة الوقائية) تبقى كامنة في جسمها، وتنشط في الحمل الثاني أو الذي يليه لمهاجمة خلايا دم أي جنين قادم يحمل فصيلة موجبة.",
+          "en": "Cleveland Clinic explains that the mother's bloodstream normally stays separate from the fetus's blood, and blood mixing mostly happens during labor and delivery, meaning the first baby is usually spared. However, antibodies formed after the first birth (if the mother does not receive the preventive shot) remain in her body and can cross the placenta in a second or later pregnancy to attack the red blood cells of a future Rh-positive fetus."
+        },
+        {
+          "ar": "إلى جانب لحظة الولادة، توجد مواقف طبية محددة قد يحدث فيها اختلاط مبكر بين دم الجنين ودم زوجتكَ خلال الحمل الأول نفسه وفقاً لكليفلاند كلينك (Cleveland Clinic). معرفتكَ بهذه المواقف تساعدكَ على تذكير الطبيب فوراً بأن فصيلة دم زوجتكَ سالبة لتأخذ جرعة وقائية طارئة تحمي الحمل الحالي والحمول القادمة.",
+          "en": "Beyond delivery itself, specific medical events can cause early blood mixing between fetus and mother during the very first pregnancy, according to Cleveland Clinic. Knowing these situations allows you to immediately remind the doctor that your wife is Rh-negative so she can receive an urgent protective dose to safeguard current and future pregnancies."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "حدوث أي نزيف مهبلي أثناء الحمل لدى الزوجة صاحبة الفصيلة السالبة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Any vaginal bleeding during pregnancy in an Rh-negative wife, according to Cleveland Clinic."
+        },
+        {
+          "ar": "التعرّض لإجهاض مبكر أو حمل خارج الرحم، حيث يلزم أخذ الحقنة الوقائية لحماية الحمل المستقبلي وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Experiencing an early miscarriage or ectopic pregnancy, where the protective injection is needed to safeguard future pregnancies, per Cleveland Clinic."
+        },
+        {
+          "ar": "إجراء فحوصات تشخيصية دقيقة تتطلب سحب عينة مثل بزل السائل الأمنيوسي أو فحص الزغابات المشيمية وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Undergoing invasive prenatal diagnostic tests such as amniocentesis or chorionic villus sampling (CVS), according to Cleveland Clinic."
+        },
+        {
+          "ar": "تعرّض بطن الحامل لإصابة مباشرة أو حادث سقوط أثناء الحمل وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Direct injury or abdominal trauma such as a fall during pregnancy, per Cleveland Clinic."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "موعد حقنة Rh للحامل ودور الزوج في تأمين الجرعات",
+        "en": "Timing of the Rh injection in pregnancy and the husband's role in securing doses"
+      },
+      "body": [
+        {
+          "ar": "يحين موعد حقنة Rh للحامل الوقائية الروتينية في الأسبوع ٢٨ من الحمل، وتُعطى جرعة ثانية خلال أول ٧٢ ساعة من بعد الولادة إذا أظهر فحص دم المولود أن فصيلته موجبة وفقاً لكليفلاند كلينك (Cleveland Clinic). تمنع هذه الحقنة حدوث مضاعفات عدم توافق عامل ريسوس بشكل تام تقريباً عندما تلتزم الأسرة بمواعيدها المحددة في كل حمل.",
+          "en": "The routine preventive Rh injection during pregnancy is scheduled at week 28 of pregnancy, followed by a second dose within the first 72 hours after birth if the newborn's blood test is Rh-positive, according to Cleveland Clinic. This injection almost completely prevents Rh incompatibility complications when taken on schedule in every pregnancy."
+        },
+        {
+          "ar": "حقنة الجلوبيولين المناعي (Anti-D أو RhIG) هي دواء يُعطى بالعضل ويحتوي على أجسام مضادة جاهزة تعمل على تحييد أي خلايا دم موجبة تتسرب من الجنين قبل أن ينتبه إليها الجهاز المناعي للأم وفقاً لكليفلاند كلينك (Cleveland Clinic). وتؤكد كليفلاند كلينك أن هذه الحقنة فعّالة فقط للوقاية قبل أن يصنع جسم الأم أجساماً مضادة ذاتية، أمّا إذا أظهر فحص الدم أن الأجسام المضادة قد تكوّنت بالفعل، فلا تفيد الحقنة حينها وتتحول الخطة إلى المتابعة الدقيقة للجنين بالسونار.",
+          "en": "Rh immune globulin (Anti-D or RhIG) is an intramuscular medication that neutralizes any Rh-positive fetal blood cells before the mother's immune system notices them, according to Cleveland Clinic. Cleveland Clinic confirms that this injection works only as prevention before the mother's body makes its own antibodies; if blood screening shows she already has Rh antibodies, the shot is no longer helpful and care shifts to close fetal ultrasound monitoring."
+        },
+        {
+          "ar": "يبرز دوركَ كأب في الثلث الثالث ويوم الولادة، لأن الساعات التي تلي الولادة تكون مزدحمة بالإجراءات وقد ينشغل الفريق الطبي أو تنسى الأم المجهدة السؤال عن إبرة الفصيلة. وجودكَ بوعي كامل بهذه النافذة الزمنية (٧٢ ساعة كحد أقصى بعد الولادة) يضمن فحص فصيلة دم المولود فور خروجه وإعطاء زوجتكَ الجرعة الثانية قبل مغادرة المستشفى.",
+          "en": "Your role as a father is crucial in the third trimester and on delivery day, because the hours following birth are busy and an exhausted mother should not have to track injection deadlines alone. Your active awareness of the 72-hour postpartum window ensures the newborn's blood type is tested right after birth and your wife receives her second dose before hospital discharge."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اضبط منبهاً على تقويم هاتفكَ عند بداية الأسبوع ٢٧ لتأكيد توفر حقنة (Anti-D) في العيادة أو المستشفى قبل حلول الأسبوع ٢٨ المعتمد وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Set a calendar reminder on your phone at the start of week 27 to confirm the clinic or hospital has the Anti-D injection ready for week 28, per Cleveland Clinic."
+        },
+        {
+          "ar": "أبلغ طبيب التوليد وطاقم التمريض عند دخول مستشفى الولادة بأن فصيلة دم زوجتكَ سالبة لتجهيز تحليل دم الحبل السري أو دم المولود فور الولادة.",
+          "en": "Inform the obstetrician and nursing staff upon hospital admission that your wife is Rh-negative so they prepare to test the newborn's blood right after birth."
+        },
+        {
+          "ar": "تحقّق بنفسكَ من نتيجة فصيلة دم طفلكَ بعد الولادة: فإذا كانت موجبة، تأكد من إعطاء زوجتكَ الجرعة الثانية خلال ٧٢ ساعة من الولادة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Check your baby's blood group result yourself after birth: if the baby is Rh-positive, ensure your wife receives her second dose within 72 hours of delivery, per Cleveland Clinic."
+        },
+        {
+          "ar": "اطلب تدوين تاريخ وأرقام تشغيلات حقنة (Anti-D) في بطاقة متابعة الحمل وفي ملف الخروج من المستشفى للرجوع إليها في أي حمل قادم.",
+          "en": "Ask the medical team to record the date and batch details of the Anti-D injection in the maternity card and discharge summary for future pregnancies."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "اختلاف فصائل الدم بين الزوجين والحمل وتأثير فصيلة الدم O",
+        "en": "ABO blood group differences between spouses and the effect of blood type O"
+      },
+      "body": [
+        {
+          "ar": "يحدث اختلاف فصائل الدم بين الزوجين والحمل على مستوى الحروف (A وB وAB وO) في حوالي ١٥ من كل ١٠٠ حالة حمل، ولا يسبّب مشكلات صحية فعلية إلا في أقل من ١٪ من حالات الحمل وفقاً لكليفلاند كلينك (Cleveland Clinic). يُسمى هذا النوع عدم توافق الفصائل (ABO incompatibility)، وهو يختلف جذرياً عن عدم توافق عامل ريسوس من حيث الشدة وطريقة التعامل الطبي.",
+          "en": "ABO blood group mismatch during pregnancy involving letter groups (A, B, AB, and O) happens in about 15 out of 100 pregnancies, and causes actual clinical issues in under 1% of pregnancies, according to Cleveland Clinic. This condition is called ABO incompatibility, and it differs fundamentally from Rh incompatibility in both severity and medical management."
+        },
+        {
+          "ar": "يظهر تأثير فصيلة الدم O على الحمل بشكل أوضح عندما تكون فصيلة دم زوجتكَ هي (O) وفصيلة دمكَ أنتَ (A) أو (B) أو (AB)، فيرث الجنين فصيلة غير (O) منكَ وفقاً لكليفلاند كلينك (Cleveland Clinic). في هذه الحالة يحمل جسم الأم بطبيعته أجساماً مضادة لفصيلتي (A) و(B)، وقد يعبر جزء بسيط منها إلى دم الطفل فيسبب تكسراً خفيفاً في كريات الدم الحمراء بعد الولادة.",
+          "en": "The effect of blood type O on pregnancy is most commonly seen when your wife has type O blood and you have type A, B, or AB blood, leading the baby to inherit a non-O blood type from you, according to Cleveland Clinic. Because a mother with type O blood naturally carries anti-A and anti-B antibodies, a small amount may cross to the baby and cause mild red blood cell breakdown after birth."
+        },
+        {
+          "ar": "تؤكد كليفلاند كلينك (Cleveland Clinic) أن عدم توافق فصائل الحروف (ABO) لا يستدعي إعطاء الحامل أي حقن وقائية أثناء الحمل، ولا يشكل خطراً كبيراً على الجنين داخل الرحم. كل ما يحتاجه الأمر منكَ كأب هو إبلاغ طبيب الأطفال بعد الولادة بأن فصيلة دم الأم (O) وفصيلة دمكَ مختلفة، ليراقب مستوى الصفراء (البيليروبين) لدى المولود خلال أول ٢٤ ساعة.",
+          "en": "Cleveland Clinic confirms that ABO blood group incompatibility does not require preventive injections during pregnancy and rarely causes problems while the baby is in the womb. All that is needed from you as a father is to inform the pediatrician after birth that your wife is type O and your blood type differs, so the team monitors the newborn's bilirubin levels during the first 24 hours."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "تذكّر أن اختلاف الحروف (مثل أم O وأب A أو B) شائع في ١٥ من كل ١٠٠ حمل ولا يحتاج إلى حقنة (Anti-D) إذا كانت الأم موجبة العامل وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Remember that letter differences (such as a type O mother and type A or B father) occur in 15 out of 100 pregnancies and do not require an Anti-D shot if the mother is Rh-positive, per Cleveland Clinic."
+        },
+        {
+          "ar": "راقب مع طبيب الأطفال ظهور أي اصفرار في جلد المولود أو بياض عينيه خلال أول ٢٤ ساعة من الولادة إذا كانت فصيلة زوجتكَ هي (O) وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Monitor with the pediatrician for any yellowing of the newborn's skin or eyes within the first 24 hours of birth if your wife has type O blood, per Cleveland Clinic."
+        }
+      ],
+      "cites": [
+        "src3"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "خطوات عملية للزوج عند متابعة فصيلة دم الحامل وزوجها",
+        "en": "Practical steps for the husband when tracking the blood type of the pregnant wife and her husband"
+      },
+      "body": [
+        {
+          "ar": "تبدأ المتابعة المنظمة لملف فصيلة دم الحامل وزوجها بتوثيق الفصيلتين ونتيجة فحص الأجسام المضادة منذ الثلث الأول للحمل لتفادي أي تأخير في الطوارئ أو غرفة الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS). عندما تتولى أنتَ تنظيم هذا الملف الطبي، ترفع عن زوجتكَ عبء تذكّر المواعيد المخبرية وتضمن جاهزية المستشفى لأي إجراء.",
+          "en": "Organized tracking of the blood type of a pregnant wife and her husband begins with documenting both blood types and antibody screening results in the first trimester to prevent delays in emergencies or the delivery room, per the NHS. When you take charge of organizing this medical file, you relieve your wife of tracking lab dates and ensure the hospital is prepared."
+        },
+        {
+          "ar": "بالإضافة إلى الوقاية من عدم توافق ريسوس، تكتسب معرفة فصيلة دم زوجتكَ أهمية مضاعفة للاستعداد لأي طوارئ تتطلب نقل دم أثناء الولادة القيصرية أو الطبيعية. وتوضح كليفلاند كلينك (Cleveland Clinic) أن فصيلة الدم (O) هي المجموعة المانحة لخلايا الدم الحمراء في الطوارئ، بينما تستقبل فصيلة (AB) كريات الدم من جميع الفصائل، بشرط مطابقة عامل ريسوس الموجب أو السالب.",
+          "en": "Beyond preventing Rh incompatibility, knowing your wife's blood type is vital for emergency blood transfusion readiness during vaginal or cesarean birth. Cleveland Clinic notes that blood type O is the universal red blood cell donor in emergencies, while type AB can receive red cells from all groups, provided the Rh factor matches."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "في الزيارة الأولى (الأسبوع ٨ إلى ١٢): تأكد من إجراء زوجتكَ لفحص فصيلة الدم وعامل ريسوس وصورة الدم الكاملة وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "At the first visit (weeks 8 to 12): ensure your wife completes her blood group, Rh factor, and CBC tests, per the NHS."
+        },
+        {
+          "ar": "طوال أشهر الحمل: إذا كانت زوجتكَ سالبة العامل وأنتَ موجب، تواصل مع الطبيب فوراً عند حدوث أي نزيف مهبلي أو سقوط لأخذ جرعة (Anti-D) خلال ٧٢ ساعة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Throughout pregnancy: if your wife is Rh-negative and you are Rh-positive, contact the doctor immediately after any vaginal bleeding or fall to receive an Anti-D dose within 72 hours, per Cleveland Clinic."
+        },
+        {
+          "ar": "في الأسبوع ٢٨ من الحمل: رافق زوجتكَ لأخذ الجرعة الروتينية الأولى من حقنة (Anti-D) بعد إجراء فحص الأجسام المضادة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+          "en": "At week 28 of pregnancy: accompany your wife to receive her first routine Anti-D injection following her antibody screen, per Cleveland Clinic."
+        },
+        {
+          "ar": "في الشهر التاسع ويوم الولادة: ضع نسخة مطبوعة من فصيلة دم زوجتكَ وفصيلة دمكَ في حقيبة المستشفى، وتأكد من فحص دم المولود وإعطاء جرعة ما بعد الولادة خلال ٧٢ ساعة.",
+          "en": "In month nine and on delivery day: place printed copies of both blood group results in the hospital bag, and ensure newborn blood testing and the postpartum dose within 72 hours."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src2",
+        "src4"
+      ]
+    },
+    {
+      "heading": {
+        "ar": "أعراض عدم توافق الدم عند حديثي الولادة وطرق العلاج بعد الولادة",
+        "en": "Symptoms of blood incompatibility in newborns and postpartum treatments"
+      },
+      "body": [
+        {
+          "ar": "تتركز أعراض عدم توافق الدم عند حديثي الولادة في ظهور اليرقان (اصفرار الجلد والعينين) وفقر الدم نتيجة تكسر كريات الدم الحمراء، وغالباً ما يظهر هذا الاصفرار خلال أول ٢٤ ساعة بعد الولادة وفقاً لكليفلاند كلينك (Cleveland Clinic) وهيئة الخدمات الصحية البريطانية (NHS). عندما تعرف هذه العلامات مسبقاً كأب، يمكنك ملاحظتها مبكراً مع فريق الحضانة والتعامل معها بهدوء.",
+          "en": "Symptoms of blood incompatibility in newborns center on jaundice (yellowing of the skin and eyes) and anaemia from red blood cell breakdown, with jaundice often appearing within the first 24 hours after birth, according to Cleveland Clinic and the NHS. Knowing these signs beforehand as a father helps you spot them early with the nursery team and respond calmly."
+        },
+        {
+          "ar": "البيليروبين (Bilirubin) هو مادة صفراء تنتج بشكل طبيعي عند تفكك خلايا الدم الحمراء، وعندما تتكسر هذه الخلايا بسرعة بسبب الأجسام المضادة يتراكم البيليروبين في جسم الرضيع ويمنح الجلد لونه الأصفر وفقاً لكليفلاند كلينك (Cleveland Clinic). وتوضح هيئة الخدمات الصحية البريطانية (NHS) أن ملاحظة الاصفرار في البشرة القمحية أو السمراء تكون أوضح عند النظر إلى بياض العينين أو باطن الكفين أو باطن القدمين.",
+          "en": "Bilirubin is a yellowish substance released when red blood cells break down; when cells break down rapidly from maternal antibodies, bilirubin builds up and turns the baby's skin yellow, according to Cleveland Clinic. The NHS notes that on brown or darker skin tones, yellowing is easiest to see in the whites of the eyes, the palms of the hands, or the soles of the feet."
+        },
+        {
+          "ar": "العلاج الضوئي (Phototherapy) هو إجراء طبي آمن وغير مؤلم يوضع فيه المولود تحت إضاءة خاصة تساعد جسمه على تفكيك مادة البيليروبين والتخلص منها بسرعة وفقاً لهيئة الخدمات الصحية البريطانية (NHS) وكليفلاند كلينك (Cleveland Clinic). في معظم حالات عدم توافق الفصائل، يستجيب الرضيع للعلاج الضوئي والمتابعة الطبية في المستشفى بفاعلية عالية، ولا يُلجأ إلى نقل الدم إلا في الحالات الشديدة.",
+          "en": "Phototherapy is a safe, painless medical treatment in which the newborn is placed under special lights that help the body break down and clear excess bilirubin quickly, according to the NHS and Cleveland Clinic. In most cases of blood group incompatibility, newborns respond very effectively to phototherapy and hospital monitoring, with blood transfusion reserved only for severe cases."
+        }
+      ],
+      "bullets": [
+        {
+          "ar": "اصفرار جلد المولود أو بياض عينيه، ويُفحص بدقة في راحتي اليدين وباطن القدمين، خاصةً إذا ظهر خلال أول ٢٤ ساعة من الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS) وكليفلاند كلينك (Cleveland Clinic).",
+          "en": "Yellowing of the newborn's skin or the whites of the eyes, checked carefully on the palms and soles, especially within the first 24 hours of birth, per the NHS and Cleveland Clinic."
+        },
+        {
+          "ar": "ميل لون البول إلى الأصفر الداكن أو تغيّر لون براز الرضيع إلى لون باهت فاتح على غير المعتاد وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "Dark yellow urine or pale-colored stool in the newborn, according to the NHS."
+        },
+        {
+          "ar": "خمول واضح وميل شديد للنوم مع صعوبة إيقاظ الرضيع للرضاعة أو ضعف إقباله على الرضاعة مقارنة بالمعتاد وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "Noticeable lethargy and extreme sleepiness, with difficulty waking the baby to feed or poor feeding compared to usual, per the NHS."
+        },
+        {
+          "ar": "شحوب لون الجلد أو الشفتين أو بطانة الجفون والأظافر مع سرعة في التنفس، وهي علامات فقر الدم التي تستدعي تقييم الطبيب العاجل وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "Pale skin, fingernails, or inner eyelids alongside faster breathing than usual, which are signs of anaemia requiring urgent medical evaluation, per the NHS."
+        }
+      ],
+      "cites": [
+        "src2",
+        "src3",
+        "src5"
+      ]
+    }
+  ],
+  "redFlags": null,
+  "cta": {
+    "headline": {
+      "ar": "تابع حمل زوجتكَ أسبوعاً بأسبوع عبر وضع الشريك في نواة",
+      "en": "Follow your wife's pregnancy week by week with partner mode in Nawah"
+    },
+    "body": {
+      "ar": "سجّل موعد فحص الفصيلة في الزيارة الأولى وموعد الحقنة في الأسبوع ٢٨ ضمن المواعيد المشتركة في تطبيق نواة، فيصلكما التذكير معاً ولا يضيع موعد. بربط حسابكَ بحساب زوجتكَ برمز بسيط ترى أسبوع الحمل نفسه الذي تراه، ويصلكَ إشعار عند كل جلسة ركلات تسجّلها.",
+      "en": "Add the first-visit blood group test and the week-28 injection to the shared appointments in Nawah, so the reminder reaches you both and no date slips. Link your account to your wife's with a simple code to see the same pregnancy week she sees, and get a notification each time she logs a kick session."
+    },
+    "button": {
+      "ar": "حمّلوا نواة",
+      "en": "Get Nawah"
+    }
+  },
+  "faqs": [
+    {
+      "q": {
+        "ar": "متى تؤخذ إبرة الفصيلة بعد الولادة؟",
+        "en": "When is the Rh injection given after birth?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، تحصل الأم سالبة العامل على حقنة الغلوبيولين المناعي عادةً في الأسبوع ٢٨ من الحمل، وقد تحتاج جرعة ثانية خلال ٧٢ ساعة من الولادة إذا كان المولود موجب العامل. تأكد من نتيجة فحص دم المولود قبل الخروج من المستشفى.",
+        "en": "According to Cleveland Clinic, an Rh-negative mother usually gets Rh immune globulin around week 28 of pregnancy, and may need a second dose within 72 hours of delivery if the baby is Rh-positive. Check the baby's blood test result before leaving the hospital."
+      }
+    },
+    {
+      "q": {
+        "ar": "فصيلة دم الأم موجب والأب سالب، هل يوجد خطر على الجنين؟",
+        "en": "The mother is Rh-positive and the father Rh-negative: is the baby at risk?"
+      },
+      "a": {
+        "ar": "لا. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، إذا أظهر فحص الدم أن فصيلة الأم موجبة فلا يوجد خطر للإصابة بمرض انحلال الدم عند الجنين والمولود. الحالة الوحيدة التي تحتاج متابعة هي أن تكون الأم سالبة والجنين موجباً.",
+        "en": "No. According to the NHS, if the blood test shows the mother is D (Rh) positive, there is no risk of haemolytic disease of the fetus and newborn. The only case that needs follow-up is an Rh-negative mother carrying an Rh-positive baby."
+      }
+    },
+    {
+      "q": {
+        "ar": "تشابه فصيلة دم الحامل وزوجها، هل يمنع المشكلة؟",
+        "en": "If the wife and husband have the same blood type, is there still a problem?"
+      },
+      "a": {
+        "ar": "وفقاً لجدول كليفلاند كلينك (Cleveland Clinic)، إذا كان الزوجان كلاهما سالبي العامل فسيكون الجنين سالباً ولا يوجد خطر عدم توافق ريسوس، وإذا كانا كلاهما موجبين فلا خطر كذلك. المهم هو عامل ريسوس للأم، لا الحرف وحده.",
+        "en": "According to Cleveland Clinic's table, if both parents are Rh-negative the baby will be Rh-negative and there is no Rh incompatibility risk; if both are Rh-positive there is no risk either. What matters is the mother's Rh factor, not the letter alone."
+      }
+    },
+    {
+      "q": {
+        "ar": "متى يُجرى فحص فصيلة الدم في الحمل؟",
+        "en": "When is the blood group test done in pregnancy?"
+      },
+      "a": {
+        "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُعرض فحص الدم في أول موعد متابعة للحمل بين الأسبوع ٨ والأسبوع ١٢، لمعرفة فصيلة الأم والبحث عن أي أجسام مضادة في دمها.",
+        "en": "According to the NHS, the blood test is offered at the first antenatal appointment, at 8 to 12 weeks, to find the mother's blood type and look for any antibodies."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل تحتاج الحامل سالبة العامل حقنة بعد نزيف أو سقوط؟",
+        "en": "Does an Rh-negative pregnant woman need an injection after bleeding or a fall?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، قد يختلط قليل من دم الجنين بدم الأم عند أي نزيف مهبلي أثناء الحمل أو إصابة في البطن أو فحوصات مثل بزل السائل الأمنيوسي. اتصل بالطبيب فوراً وأخبره أن زوجتكَ سالبة العامل ليقرر إن كانت تحتاج جرعة.",
+        "en": "According to Cleveland Clinic, a small amount of fetal blood can mix with the mother's blood during any vaginal bleeding in pregnancy, an abdominal injury, or tests such as amniocentesis. Call the doctor straight away and say your wife is Rh-negative so they can decide whether she needs a dose."
+      }
+    },
+    {
+      "q": {
+        "ar": "ما تأثير فصيلة الدم O على الحمل؟",
+        "en": "How does blood type O affect pregnancy?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، يحدث عدم توافق فصائل ABO في نحو ١٥ من كل ١٠٠ حمل، وأشيعه أن تكون الأم من فصيلة O والجنين من A أو B أو AB، لكن المشكلات الفعلية نادرة جداً وتحدث في أقل من ١٪ من حالات الحمل.",
+        "en": "According to Cleveland Clinic, ABO incompatibility happens in about 15 out of 100 pregnancies, most often when the mother is type O and the baby is A, B or AB, but actual problems are extremely rare, in under 1% of pregnancies."
+      }
+    },
+    {
+      "q": {
+        "ar": "هل يحدث عدم توافق ريسوس في الحمل الأول؟",
+        "en": "Does Rh incompatibility happen in the first pregnancy?"
+      },
+      "a": {
+        "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، لا تحدث مضاعفات عدم توافق ريسوس عادةً في الحمل الأول، لأن اختلاط الدم غير مرجح قبل الولادة، لكن الأجسام المضادة التي تتكوّن بعدها قد تؤثر في الحمل التالي، ولهذا تُعطى الحقنة الوقائية في كل حمل.",
+        "en": "According to Cleveland Clinic, Rh incompatibility complications don't usually happen in a first pregnancy, because blood is unlikely to mix before delivery, but antibodies made afterwards can affect the next pregnancy, which is why the preventive injection is given in every pregnancy."
+      }
+    }
+  ],
+  "citations": [
+    {
+      "id": "src1",
+      "org": "Cleveland Clinic",
+      "title": {
+        "ar": "عامل ريسوس (Rh) في الحمل",
+        "en": "Rh Factor"
+      },
+      "url": "https://my.clevelandclinic.org/health/diseases/21053-rh-factor",
+      "retrieved": "2026-11-13"
+    },
+    {
+      "id": "src2",
+      "org": "NHS",
+      "title": {
+        "ar": "مرض انحلال الدم عند الجنين والمولود (مرض الريسوس)",
+        "en": "Haemolytic disease of the fetus and newborn (HDFN)"
+      },
+      "url": "https://www.nhs.uk/conditions/rhesus-disease-hdfn/",
+      "retrieved": "2026-11-13"
+    },
+    {
+      "id": "src3",
+      "org": "Cleveland Clinic",
+      "title": {
+        "ar": "عدم توافق فصائل الدم ABO",
+        "en": "ABO Incompatibility"
+      },
+      "url": "https://my.clevelandclinic.org/health/diseases/abo-incompatibility",
+      "retrieved": "2026-11-13"
+    },
+    {
+      "id": "src4",
+      "org": "Cleveland Clinic",
+      "title": {
+        "ar": "فصائل الدم ومعناها",
+        "en": "Blood Types"
+      },
+      "url": "https://my.clevelandclinic.org/health/treatments/21213-blood-types",
+      "retrieved": "2026-11-13"
+    },
+    {
+      "id": "src5",
+      "org": "NHS",
+      "title": {
+        "ar": "اليرقان عند الرضّع",
+        "en": "Jaundice in babies"
+      },
+      "url": "https://www.nhs.uk/conditions/jaundice-in-babies/",
+      "retrieved": "2026-11-13"
+    }
+  ],
+  "heroAlt": {
+    "ar": "دفتر مفتوح بسطور فارغة وقلم بجوار كوب أبيض على طاولة خشبية",
+    "en": "An open lined notebook with a pen beside a white mug on a wooden table"
+  }
+}

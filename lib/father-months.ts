@@ -1,4 +1,6 @@
 import part1 from "@/content/father-months/part1_months_1-5.json";
+// Months 6–9 written by Claude 2026-11-13 on the owner's word ("write it yourself"), same NHS week pages + app actions.
+import part2 from "@/content/father-months/part2_months_6-9.json";
 import type { Localized } from "@/lib/guide-content";
 
 /**
@@ -22,7 +24,7 @@ export type FatherMonth = {
   sources: { name: string; url: string }[];
 };
 
-const PARTS: FatherMonth[][] = [part1 as FatherMonth[]];
+const PARTS: FatherMonth[][] = [part1 as FatherMonth[], part2 as FatherMonth[]];
 
 export const FATHER_MONTHS: FatherMonth[] = PARTS.flat().sort((a, b) => a.month - b.month);
 

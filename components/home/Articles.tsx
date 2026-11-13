@@ -15,6 +15,7 @@ export interface HomeArticle {
   img: string;
   width: number;
   height: number;
+  alt: { ar: string; en: string };
   cat: { ar: string; en: string };
   title: { ar: string; en: string };
 }
@@ -50,7 +51,7 @@ export function Articles({ groups }: { groups: Record<Chip, HomeArticle[]> }) {
           <Link key={art.path} href={`/${lang}/${art.path}`} className={s.row}>
             <Image
               src={art.img}
-              alt=""
+              alt={art.alt[lang]}
               width={art.width}
               height={art.height}
               sizes="(max-width: 700px) 104px, 200px"

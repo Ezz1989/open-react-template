@@ -12,7 +12,7 @@ export function Hero() {
 
   return (
     <div className={`${s.hero} ${s.onDark}`}>
-      <LoopVideo name="hero-full" position="center 62%" priority />
+      <LoopVideo name="hero-full" alt={t("home.hero.posterAlt") as string} position="center 62%" priority />
       <div className={s.heroScrim} aria-hidden="true" />
       <Navbar />
       <header className={s.heroBody}>

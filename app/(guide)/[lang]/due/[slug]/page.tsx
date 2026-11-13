@@ -187,7 +187,8 @@ export default async function DueCohortPage({
                 : "The Nawah app calculates your exact week from your own dates, not a general estimate, and reminds you of every appointment."}
             </p>
             <a className="btn btn-primary" href={toolsPlayUrl(locale, `due_${cohortSlug(cohort)}`)} rel="noopener">
-              {locale === "ar" ? "حمّلي التطبيق" : "Get the app"}
+              {/* Owner-approved download label (2026-11-06): plural, both parents. */}
+              {locale === "ar" ? "حمِّلوا تطبيق الحمل" : "Get the app"}
             </a>
           </section>
 

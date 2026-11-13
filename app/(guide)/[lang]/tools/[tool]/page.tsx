@@ -168,7 +168,8 @@ export default async function ToolPage({
                 : "The Nawah app saves all of this automatically — week, weight, movements and contractions — in one place."}
             </p>
             <a className="btn btn-primary" href={toolsPlayUrl(locale, doc.slug)} rel="noopener">
-              {locale === "ar" ? "حمّلي التطبيق" : "Get the app"}
+              {/* Owner-approved download label (2026-11-06): plural, both parents. */}
+              {locale === "ar" ? "حمِّلوا تطبيق الحمل" : "Get the app"}
             </a>
           </section>
 

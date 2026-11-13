@@ -16,11 +16,14 @@ import s from "./home.module.css";
  */
 export function LoopVideo({
   name,
+  alt,
   position,
   priority = false,
   lazy = false,
 }: {
   name: string;
+  /** Poster description (geo_audit 2026-11-12 counted the empty alts). */
+  alt: string;
   /** object-position, e.g. "center 62%" */
   position: string;
   priority?: boolean;
@@ -62,7 +65,7 @@ export function LoopVideo({
     <div className={s.media} aria-hidden="true">
       <Image
         src={`/home/${name}-poster.jpg`}
-        alt=""
+        alt={alt}
         fill
         priority={priority}
         sizes="100vw"

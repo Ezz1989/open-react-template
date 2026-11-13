@@ -276,5 +276,32 @@
     "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-clouds-and-airplane-wing-36705757/",
     "width": 6240,
     "height": 4160
+  },
+  {
+    "slot": "pregnancy-sleeping-positions-hero",
+    "src": "/articles/pregnancy-sleeping-positions-hero.jpg",
+    "photographer": "Diana ✨",
+    "photographerUrl": "https://www.pexels.com/@didsss",
+    "pexelsUrl": "https://www.pexels.com/photo/cozy-unmade-bed-in-soft-morning-light-33312398/",
+    "width": 6048,
+    "height": 4024
+  },
+  {
+    "slot": "smoking-husband-during-pregnancy-hero",
+    "src": "/articles/smoking-husband-during-pregnancy-hero.jpg",
+    "photographer": "Burst",
+    "photographerUrl": "https://www.pexels.com/@burst",
+    "pexelsUrl": "https://www.pexels.com/photo/white-table-lamp-and-vase-on-side-nightstand-545034/",
+    "width": 4460,
+    "height": 2973
+  },
+  {
+    "slot": "husband-wife-blood-type-pregnancy-hero",
+    "src": "/articles/husband-wife-blood-type-pregnancy-hero.jpg",
+    "photographer": "Mahmoud Zakariya",
+    "photographerUrl": "https://www.pexels.com/@mahmoud-zakariya-2154822140",
+    "pexelsUrl": "https://www.pexels.com/photo/open-notebook-and-mug-on-reflective-surface-35128937/",
+    "width": 4096,
+    "height": 3072
   }
 ]

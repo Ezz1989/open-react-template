@@ -86,9 +86,17 @@ function seoCheck(a) {
   return { E, W, words: n };
 }
 
+// Owner 2026-11-13 ("publish it as it is"): these two block every automated check (403 / reset) but are real health
+// charities / NHS Scotland pages. A block from THEM is a warning, not an error; any other dead link still blocks.
+const BOT_BLOCKING_HOSTS = ["www.tommys.org", "www.nhsinform.scot"];
+
 async function linkCheck(a) {
   const E = [];
   for (const c of a.citations) {
+    if (BOT_BLOCKING_HOSTS.includes(new URL(c.url).hostname)) {
+      console.log(`    warn   not fetchable by script (owner-approved host): ${c.url}`);
+      continue;
+    }
     try {
       const res = await fetch(c.url, {
         redirect: "follow",
@@ -153,6 +161,8 @@ for (const f of files) {
   if (!CLUSTERS[a.cluster]) continue; // legacy Sept draft, already hand-ported
 
   const { E, W, words: n } = seoCheck(a);
+  // 2026-11-13: Gemini wrote redFlags.title instead of .intro and the build crashed on .intro.ar — catch it here.
+  if (a.redFlags && !(a.redFlags.intro?.ar && a.redFlags.intro?.en)) E.push("redFlags needs intro {ar, en} (not title)");
   if (!E.length) E.push(...(await linkCheck(a)));
   const img = E.length ? null : await hero(a);
   if (!E.length && !img) E.push("no hero photo found — change imageQuery");

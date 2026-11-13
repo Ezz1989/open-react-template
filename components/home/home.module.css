@@ -289,6 +289,15 @@
 }
 @keyframes printFade { from { opacity: 0.36; } to { opacity: 0; } }
 
+/* ---------- laptops / tablets ----------
+   The links row hid its overflow behind a hidden scrollbar: English needs ~732px and was clipped below 1366px
+   ("Names guide" cut, owner report 2026-11-13), Arabic below ~1180px. Here the links take their own full row
+   and wrap, so every link is always visible. */
+@media (min-width: 701px) and (max-width: 1365px) {
+  .navLinks { order: 3; flex-basis: 100%; flex-wrap: wrap; overflow-x: visible; row-gap: 6px; gap: 6px 26px; }
+  .navEnd { margin-inline-start: auto; }
+}
+
 /* ---------- phones ---------- */
 @media (max-width: 700px) {
   /* The portrait video fills the first screen exactly. */

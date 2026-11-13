@@ -12489,5 +12489,1685 @@
       "/ar/articles/fasting/fasting-during-pregnancy"
     ],
     "updated": "2026-10-30"
+  },
+  {
+    "cluster": "father_expansion",
+    "slug": "husband-wife-blood-type-pregnancy",
+    "published": true,
+    "hero": {
+      "src": "/articles/husband-wife-blood-type-pregnancy-hero.jpg",
+      "photographer": "Mahmoud Zakariya",
+      "photographerUrl": "https://www.pexels.com/@mahmoud-zakariya-2154822140",
+      "pexelsUrl": "https://www.pexels.com/photo/open-notebook-and-mug-on-reflective-surface-35128937/",
+      "width": 4096,
+      "height": 3072,
+      "alt": {
+        "ar": "دفتر مفتوح بسطور فارغة وقلم بجوار كوب أبيض على طاولة خشبية",
+        "en": "An open lined notebook with a pen beside a white mug on a wooden table"
+      }
+    },
+    "eyebrow": {
+      "ar": "دليل الأب — الفحوصات الطبية",
+      "en": "Father's guide — Medical tests"
+    },
+    "title": {
+      "ar": "فصيلة دم الحامل وزوجها: متى تهمّ الفصائل وما الذي تفعله كأب",
+      "en": "Blood type of the pregnant wife and her husband: when blood groups matter and what to do as a father"
+    },
+    "metaTitle": {
+      "ar": "فصيلة دم الحامل وزوجها: جدول التوافق وحقنة Rh | نواة",
+      "en": "Wife and Husband Blood Types in Pregnancy | Nawah"
+    },
+    "description": {
+      "ar": "دليلك كأب لفهم فصيلة دم الحامل وزوجها: متى يستدعي اختلاف عامل ريسوس حقنة Anti-D في الأسبوع ٢٨، وجدول توافق الفصائل لحماية طفلك.",
+      "en": "Your father's guide to the blood type of a pregnant wife and her husband: when Rh incompatibility requires an Anti-D shot at week 28 and the compatibility chart."
+    },
+    "standfirst": {
+      "ar": "معرفتكَ المبكرة بفصيلة دمكَ وفصيلة دم زوجتكَ في أول زيارة متابعة تختصر عليكما القلق، وتضع أمامكَ خطة وقاية واضحة بمواعيد محددة لحماية طفلكَ القادم.",
+      "en": "Knowing your blood type and your wife's blood type at the first prenatal visit removes guesswork and gives you a clear, timed prevention plan to protect your baby."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "فصيلة دم الحامل وزوجها وعامل ريسوس في الحمل",
+          "en": "Blood type of the pregnant wife and her husband and the Rh factor in pregnancy"
+        },
+        "body": [
+          {
+            "ar": "تُحدّد فصيلة دم الحامل وزوجها ما إذا كان الجنين معرّضاً لعدم توافق عامل ريسوس، وهي حالة طبية تحدث فقط عندما تكون فصيلة دم زوجتكَ سالبة وفصيلة دمكَ موجبة وفقاً لكليفلاند كلينك (Cleveland Clinic). في هذه الحالة الوحيدة قد يرث الجنين العامل الموجب منكَ، فتحتاج زوجتكَ إلى حقنة وقائية في الأسبوع ٢٨ من الحمل وخلال ٧٢ ساعة بعد الولادة لمنع جسمها من تكوين أجسام مضادة. أمّا إذا كانت فصيلة دم زوجتكَ موجبة، أو كنتما معاً سالبَين، فلا يوجد أي خطر من عامل ريسوس على الحمل.",
+            "en": "The blood type of a pregnant wife and her husband determines whether the fetus is at risk of Rh incompatibility, a medical condition that occurs only when your wife is Rh-negative and you are Rh-positive, according to Cleveland Clinic. In this single combination, the fetus may inherit the positive factor from you, requiring your wife to receive a preventive injection at week 28 of pregnancy and within 72 hours after delivery to stop her body from forming antibodies. If your wife is Rh-positive, or if both of you are Rh-negative, there is no Rh factor risk to the pregnancy."
+          },
+          {
+            "ar": "عامل ريسوس (Rh factor) هو بروتين وراثي يوجد على سطح خلايا الدم الحمراء، ووجوده يعني أن فصيلة الدم موجبة بينما غيابه يعني أن الفصيلة سالبة وفقاً لكليفلاند كلينك (Cleveland Clinic). يتكوّن تصنيف الدم عند كل إنسان من شقّين: الحروف الأبجدية (A أو B أو AB أو O) وعلامة العامل الريسوسي (موجب أو سالب). في متابعة الحمل، تتركز الأولوية الطبية القصوى على علامة الموجب والسالب لأنها المسؤولة عن تفاعلات المناعة القوية التي تحتاج إلى تدخل وقائي.",
+            "en": "The Rhesus factor (Rh factor) is an inherited protein found on the surface of red blood cells; its presence means the blood type is positive and its absence means the blood type is negative, according to Cleveland Clinic. Every person's blood classification consists of two parts: the letter group (A, B, AB, or O) and the Rh sign (positive or negative). In prenatal care, medical priority centers on the positive or negative sign because it drives the strong immune reactions that require preventive intervention."
+          },
+          {
+            "ar": "وتوضح هيئة الخدمات الصحية البريطانية (NHS) أن هذا الفحص الروتيني يُجرى عادةً بين الأسبوع ٨ والأسبوع ١٢ من الحمل لاكتشاف فصيلة دم الأم والبحث عن أي أجسام مضادة في دمها مبكراً.",
+            "en": "The UK National Health Service (NHS) states that this routine screening is typically offered between week 8 and week 12 of pregnancy to identify the mother's blood type and check for any red cell antibodies early."
+          },
+          {
+            "ar": "يبدأ دوركَ العملي كأب من هذه الزيارة الأولى عبر التثبت من فصيلة دمكَ أنتَ أيضاً بورقة مختبر رسمية وعدم الاعتماد على الذاكرة. عندما تضع نتيجة فصيلة دمكَ بجانب نتيجة زوجتكَ في ملف متابعة الحمل، يعرف الطبيب فوراً ما إذا كان الحمل يحتاج إلى جدول متابعة عادي أم إلى خطة وقاية بحقنة مضاد (D) في الثلث الثالث من الحمل.",
+            "en": "Your practical role as a father begins at this first appointment by confirming your own blood type with an official lab record rather than relying on memory. When you place your blood group result next to your wife's in the maternity file, the doctor immediately knows whether the pregnancy needs standard routine care or a preventive Anti-D injection plan in the third trimester."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "احجز لزوجتكَ فحص الدم الأول بين الأسبوع ٨ والأسبوع ١٢ من الحمل لتحديد الفصيلة وعامل ريسوس وفحص الأجسام المضادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Book your wife's first blood test between week 8 and week 12 of pregnancy to determine her blood group, Rh status, and antibody screen, per the NHS."
+          },
+          {
+            "ar": "أجرِ تحليل فصيلة الدم لنفسكَ في نفس المختبر إذا كانت زوجتكَ تحمل فصيلة دم سالبة ولم تكن متأكداً من فصيلتكَ بالوثائق.",
+            "en": "Take a blood type test yourself at the same lab if your wife has Rh-negative blood and you do not have documented proof of your own blood type."
+          },
+          {
+            "ar": "احفظ صورة واضحة من نتيجة فصيلة دم زوجتكَ وفصيلة دمكَ على هاتفكَ وداخل حافظة أوراق المتابعة الطبية.",
+            "en": "Save a clear photo of both your wife's blood group result and your own on your phone and inside her physical maternity folder."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "جدول توافق فصيلة دم الحامل وزوجها واحتمالات الجنين",
+          "en": "Compatibility table for the blood type of the pregnant wife and her husband"
+        },
+        "body": [
+          {
+            "ar": "يُظهر جدول توافق فصيلة دم الحامل وزوجها أن الخطر المناعي ينحصر في حالة واحدة فقط من أصل أربع حالات، وهي اجتماع أم سالبة العامل الريسوسي مع أب موجب العامل الريسوسي وفقاً لكليفلاند كلينك (Cleveland Clinic). في الحالات الثلاث الأخرى لا يتكوّن أي تعارض في عامل ريسوس بين الأم والجنين، ويسير الحمل دون الحاجة إلى إبر وقائية خاصة بالفصيلة.",
+            "en": "The compatibility chart for the blood type of a pregnant wife and her husband shows that immune risk is limited to just one out of four combinations: an Rh-negative mother with an Rh-positive father, according to Cleveland Clinic. In the other three combinations, no Rh conflict arises between mother and fetus, and the pregnancy proceeds without needing preventive blood-group injections."
+          },
+          {
+            "ar": "يتساءل كثير من الآباء عن حالة فصيلة دم الأم موجب والأب سالب، والحقيقة الطبية المطمئنة هي أن هذه الحالة آمنة تماماً ولا تسبّب أي حساسية دموية للجنين وفقاً لكليفلاند كلينك (Cleveland Clinic). عندما تكون زوجتكَ موجبة العامل الريسوسي، فإن جهازها المناعي يتعرّف بطبيعته على بروتين ريسوس ولا يهاجم دم الجنين سواء ورث الجنين الفصيلة الموجبة من أمه أو السالبة من أبيه.",
+            "en": "Many fathers ask about the case where the mother is Rh-positive and the father is Rh-negative, and the reassuring medical fact is that this combination is completely safe and causes no Rh sensitization to the fetus, according to Cleveland Clinic. When your wife is Rh-positive, her immune system naturally recognizes the Rh protein and does not attack the baby's blood whether the baby inherits positive blood from her or negative blood from you."
+          },
+          {
+            "ar": "أمّا عند تشابه فصيلة دم الحامل وزوجها، مثل أن تكونا معاً (O موجب) أو معاً (A سالب)، فإن التطابق في عامل ريسوس يمنع حدوث أي تعارض مناعي على الإطلاق وفقاً لكليفلاند كلينك (Cleveland Clinic). حتّى إذا كنتما تحملان الفصيلة السالبة معاً، فإن الجنين سيرث الفصيلة السالبة حتماً منكما، ولن تحتاج زوجتكَ إلى حقنة (Anti-D) لأن دم الجنين خالٍ من البروتين الموجب.",
+            "en": "When the blood type of the pregnant wife and her husband are identical, such as both being O-positive or both being A-negative, matching Rh factors prevent any immune conflict altogether, according to Cleveland Clinic. Even if both of you are Rh-negative, the baby will definitely inherit Rh-negative blood, so your wife will not need an Anti-D injection because the baby's blood lacks the positive protein."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "عامل ريسوس لدى الزوجة (الأم)",
+              "en": "Wife's (Mother's) Rh factor"
+            },
+            {
+              "ar": "عامل ريسوس لديكَ (الأب)",
+              "en": "Your (Father's) Rh factor"
+            },
+            {
+              "ar": "احتمال عامل ريسوس لدى الجنين",
+              "en": "Possible fetal Rh factor"
+            },
+            {
+              "ar": "الإجراء الطبي المطلوب في الحمل",
+              "en": "Required medical action during pregnancy"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "موجب (Rh+)",
+                "en": "Positive (Rh+)"
+              },
+              {
+                "ar": "موجب (Rh+)",
+                "en": "Positive (Rh+)"
+              },
+              {
+                "ar": "موجب أو سالب (كلاهما آمن للأم الموجبة)",
+                "en": "Positive or negative (both safe for an Rh+ mother)"
+              },
+              {
+                "ar": "لا يوجد خطر، ولا تحتاج الزوجة إلى حقنة Anti-D",
+                "en": "No risk; wife does not need an Anti-D injection"
+              }
+            ],
+            [
+              {
+                "ar": "موجب (Rh+)",
+                "en": "Positive (Rh+)"
+              },
+              {
+                "ar": "سالب (Rh-)",
+                "en": "Negative (Rh-)"
+              },
+              {
+                "ar": "موجب أو سالب (كلاهما آمن للأم الموجبة)",
+                "en": "Positive or negative (both safe for an Rh+ mother)"
+              },
+              {
+                "ar": "لا يوجد خطر، ولا تحتاج الزوجة إلى حقنة Anti-D",
+                "en": "No risk; wife does not need an Anti-D injection"
+              }
+            ],
+            [
+              {
+                "ar": "سالب (Rh-)",
+                "en": "Negative (Rh-)"
+              },
+              {
+                "ar": "سالب (Rh-)",
+                "en": "Negative (Rh-)"
+              },
+              {
+                "ar": "سالب دائماً (مطابق لدم الأم)",
+                "en": "Always negative (matches the mother's blood)"
+              },
+              {
+                "ar": "لا يوجد خطر إذا كانت فصيلة الأب موثقة مخبرياً",
+                "en": "No risk when the father's Rh-negative status is lab-confirmed"
+              }
+            ],
+            [
+              {
+                "ar": "سالب (Rh-)",
+                "en": "Negative (Rh-)"
+              },
+              {
+                "ar": "موجب (Rh+)",
+                "en": "Positive (Rh+)"
+              },
+              {
+                "ar": "قد يكون موجباً (عدم توافق ريسوسي محتمل)",
+                "en": "May be positive (potential Rh incompatibility)"
+              },
+              {
+                "ar": "حقنة Anti-D في الأسبوع ٢٨، وجرعة ثانية خلال ٧٢ ساعة بعد الولادة إذا كان المولود موجباً",
+                "en": "Anti-D shot at week 28, and a second dose within 72 hours after birth if the newborn is Rh+"
+              }
+            ]
+          ]
+        },
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "فصيلة دم الأم سالب والأب موجب وآلية تكوّن الأجسام المضادة",
+          "en": "Rh-negative mother and Rh-positive father and how antibodies form"
+        },
+        "body": [
+          {
+            "ar": "تؤدي حالة فصيلة دم الأم سالب والأب موجب إلى احتمال تكوّن أجسام مضادة في دم الأم إذا انتقلت قطرات قليلة من دم الجنين الموجب إلى دورتها الدموية أثناء الحمل أو الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS). تُعرف هذه العملية علمياً باسم التحسس المناعي (Sensitisation)، حيث يتعامل الجهاز المناعي لزوجتكَ مع خلايا الدم الموجبة على أنها جسم غريب ويبدأ بصنع مضادات لمهاجمتها.",
+            "en": "An Rh-negative mother and Rh-positive father combination can lead to antibody formation in the mother's blood if small drops of Rh-positive fetal blood cross into her bloodstream during pregnancy or birth, according to the NHS. This process is medically called sensitization, where your wife's immune system treats the Rh-positive blood cells as foreign and produces antibodies to attack them."
+          },
+          {
+            "ar": "مرض انحلال الدم لدى الجنين وحديثي الولادة (HDFN)، والذي يُسمى أيضاً مرض ريسوس، هو اضطراب دموي نادر تعبر فيه الأجسام المضادة من دم الأم عبر المشيمة لتكسير خلايا الدم الحمراء لدى الجنين مما يسبب له فقر الدم واليرقان وفقاً لهيئة الخدمات الصحية البريطانية (NHS). من المهم أن تعرف كأب أن عدم توافق عامل ريسوس لا يسبب أي أعراض جسدية تشعر بها زوجتكَ، ولذلك يُكتشف حصرياً عبر تحاليل الدم الدورية.",
+            "en": "Haemolytic disease of the fetus and newborn (HDFN), also known as rhesus disease, is a rare blood disorder in which maternal antibodies cross the placenta and break down the baby's red blood cells, causing anaemia and jaundice, according to the NHS. As a father, it is important to know that Rh incompatibility causes no physical symptoms in your wife, which is why it is detected strictly through blood tests."
+          },
+          {
+            "ar": "توضح كليفلاند كلينك (Cleveland Clinic) أن الدورة الدموية للأم منفصلة عن دورة الجنين في الوضع الطبيعي، وأن اختلاط الدم يحدث غالباً عند المخاض والولادة، مما يجعل الطفل الأول في مأمن في معظم الحالات. غير أن الأجسام المضادة التي تتكوّن بعد الولادة الأولى (إن لم تأخذ الأم الحقنة الوقائية) تبقى كامنة في جسمها، وتنشط في الحمل الثاني أو الذي يليه لمهاجمة خلايا دم أي جنين قادم يحمل فصيلة موجبة.",
+            "en": "Cleveland Clinic explains that the mother's bloodstream normally stays separate from the fetus's blood, and blood mixing mostly happens during labor and delivery, meaning the first baby is usually spared. However, antibodies formed after the first birth (if the mother does not receive the preventive shot) remain in her body and can cross the placenta in a second or later pregnancy to attack the red blood cells of a future Rh-positive fetus."
+          },
+          {
+            "ar": "إلى جانب لحظة الولادة، توجد مواقف طبية محددة قد يحدث فيها اختلاط مبكر بين دم الجنين ودم زوجتكَ خلال الحمل الأول نفسه وفقاً لكليفلاند كلينك (Cleveland Clinic). معرفتكَ بهذه المواقف تساعدكَ على تذكير الطبيب فوراً بأن فصيلة دم زوجتكَ سالبة لتأخذ جرعة وقائية طارئة تحمي الحمل الحالي والحمول القادمة.",
+            "en": "Beyond delivery itself, specific medical events can cause early blood mixing between fetus and mother during the very first pregnancy, according to Cleveland Clinic. Knowing these situations allows you to immediately remind the doctor that your wife is Rh-negative so she can receive an urgent protective dose to safeguard current and future pregnancies."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "حدوث أي نزيف مهبلي أثناء الحمل لدى الزوجة صاحبة الفصيلة السالبة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Any vaginal bleeding during pregnancy in an Rh-negative wife, according to Cleveland Clinic."
+          },
+          {
+            "ar": "التعرّض لإجهاض مبكر أو حمل خارج الرحم، حيث يلزم أخذ الحقنة الوقائية لحماية الحمل المستقبلي وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Experiencing an early miscarriage or ectopic pregnancy, where the protective injection is needed to safeguard future pregnancies, per Cleveland Clinic."
+          },
+          {
+            "ar": "إجراء فحوصات تشخيصية دقيقة تتطلب سحب عينة مثل بزل السائل الأمنيوسي أو فحص الزغابات المشيمية وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Undergoing invasive prenatal diagnostic tests such as amniocentesis or chorionic villus sampling (CVS), according to Cleveland Clinic."
+          },
+          {
+            "ar": "تعرّض بطن الحامل لإصابة مباشرة أو حادث سقوط أثناء الحمل وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Direct injury or abdominal trauma such as a fall during pregnancy, per Cleveland Clinic."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "موعد حقنة Rh للحامل ودور الزوج في تأمين الجرعات",
+          "en": "Timing of the Rh injection in pregnancy and the husband's role in securing doses"
+        },
+        "body": [
+          {
+            "ar": "يحين موعد حقنة Rh للحامل الوقائية الروتينية في الأسبوع ٢٨ من الحمل، وتُعطى جرعة ثانية خلال أول ٧٢ ساعة من بعد الولادة إذا أظهر فحص دم المولود أن فصيلته موجبة وفقاً لكليفلاند كلينك (Cleveland Clinic). تمنع هذه الحقنة حدوث مضاعفات عدم توافق عامل ريسوس بشكل تام تقريباً عندما تلتزم الأسرة بمواعيدها المحددة في كل حمل.",
+            "en": "The routine preventive Rh injection during pregnancy is scheduled at week 28 of pregnancy, followed by a second dose within the first 72 hours after birth if the newborn's blood test is Rh-positive, according to Cleveland Clinic. This injection almost completely prevents Rh incompatibility complications when taken on schedule in every pregnancy."
+          },
+          {
+            "ar": "حقنة الجلوبيولين المناعي (Anti-D أو RhIG) هي دواء يُعطى بالعضل ويحتوي على أجسام مضادة جاهزة تعمل على تحييد أي خلايا دم موجبة تتسرب من الجنين قبل أن ينتبه إليها الجهاز المناعي للأم وفقاً لكليفلاند كلينك (Cleveland Clinic). وتؤكد كليفلاند كلينك أن هذه الحقنة فعّالة فقط للوقاية قبل أن يصنع جسم الأم أجساماً مضادة ذاتية، أمّا إذا أظهر فحص الدم أن الأجسام المضادة قد تكوّنت بالفعل، فلا تفيد الحقنة حينها وتتحول الخطة إلى المتابعة الدقيقة للجنين بالسونار.",
+            "en": "Rh immune globulin (Anti-D or RhIG) is an intramuscular medication that neutralizes any Rh-positive fetal blood cells before the mother's immune system notices them, according to Cleveland Clinic. Cleveland Clinic confirms that this injection works only as prevention before the mother's body makes its own antibodies; if blood screening shows she already has Rh antibodies, the shot is no longer helpful and care shifts to close fetal ultrasound monitoring."
+          },
+          {
+            "ar": "يبرز دوركَ كأب في الثلث الثالث ويوم الولادة، لأن الساعات التي تلي الولادة تكون مزدحمة بالإجراءات وقد ينشغل الفريق الطبي أو تنسى الأم المجهدة السؤال عن إبرة الفصيلة. وجودكَ بوعي كامل بهذه النافذة الزمنية (٧٢ ساعة كحد أقصى بعد الولادة) يضمن فحص فصيلة دم المولود فور خروجه وإعطاء زوجتكَ الجرعة الثانية قبل مغادرة المستشفى.",
+            "en": "Your role as a father is crucial in the third trimester and on delivery day, because the hours following birth are busy and an exhausted mother should not have to track injection deadlines alone. Your active awareness of the 72-hour postpartum window ensures the newborn's blood type is tested right after birth and your wife receives her second dose before hospital discharge."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "اضبط منبهاً على تقويم هاتفكَ عند بداية الأسبوع ٢٧ لتأكيد توفر حقنة (Anti-D) في العيادة أو المستشفى قبل حلول الأسبوع ٢٨ المعتمد وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Set a calendar reminder on your phone at the start of week 27 to confirm the clinic or hospital has the Anti-D injection ready for week 28, per Cleveland Clinic."
+          },
+          {
+            "ar": "أبلغ طبيب التوليد وطاقم التمريض عند دخول مستشفى الولادة بأن فصيلة دم زوجتكَ سالبة لتجهيز تحليل دم الحبل السري أو دم المولود فور الولادة.",
+            "en": "Inform the obstetrician and nursing staff upon hospital admission that your wife is Rh-negative so they prepare to test the newborn's blood right after birth."
+          },
+          {
+            "ar": "تحقّق بنفسكَ من نتيجة فصيلة دم طفلكَ بعد الولادة: فإذا كانت موجبة، تأكد من إعطاء زوجتكَ الجرعة الثانية خلال ٧٢ ساعة من الولادة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Check your baby's blood group result yourself after birth: if the baby is Rh-positive, ensure your wife receives her second dose within 72 hours of delivery, per Cleveland Clinic."
+          },
+          {
+            "ar": "اطلب تدوين تاريخ وأرقام تشغيلات حقنة (Anti-D) في بطاقة متابعة الحمل وفي ملف الخروج من المستشفى للرجوع إليها في أي حمل قادم.",
+            "en": "Ask the medical team to record the date and batch details of the Anti-D injection in the maternity card and discharge summary for future pregnancies."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "اختلاف فصائل الدم بين الزوجين والحمل وتأثير فصيلة الدم O",
+          "en": "ABO blood group differences between spouses and the effect of blood type O"
+        },
+        "body": [
+          {
+            "ar": "يحدث اختلاف فصائل الدم بين الزوجين والحمل على مستوى الحروف (A وB وAB وO) في حوالي ١٥ من كل ١٠٠ حالة حمل، ولا يسبّب مشكلات صحية فعلية إلا في أقل من ١٪ من حالات الحمل وفقاً لكليفلاند كلينك (Cleveland Clinic). يُسمى هذا النوع عدم توافق الفصائل (ABO incompatibility)، وهو يختلف جذرياً عن عدم توافق عامل ريسوس من حيث الشدة وطريقة التعامل الطبي.",
+            "en": "ABO blood group mismatch during pregnancy involving letter groups (A, B, AB, and O) happens in about 15 out of 100 pregnancies, and causes actual clinical issues in under 1% of pregnancies, according to Cleveland Clinic. This condition is called ABO incompatibility, and it differs fundamentally from Rh incompatibility in both severity and medical management."
+          },
+          {
+            "ar": "يظهر تأثير فصيلة الدم O على الحمل بشكل أوضح عندما تكون فصيلة دم زوجتكَ هي (O) وفصيلة دمكَ أنتَ (A) أو (B) أو (AB)، فيرث الجنين فصيلة غير (O) منكَ وفقاً لكليفلاند كلينك (Cleveland Clinic). في هذه الحالة يحمل جسم الأم بطبيعته أجساماً مضادة لفصيلتي (A) و(B)، وقد يعبر جزء بسيط منها إلى دم الطفل فيسبب تكسراً خفيفاً في كريات الدم الحمراء بعد الولادة.",
+            "en": "The effect of blood type O on pregnancy is most commonly seen when your wife has type O blood and you have type A, B, or AB blood, leading the baby to inherit a non-O blood type from you, according to Cleveland Clinic. Because a mother with type O blood naturally carries anti-A and anti-B antibodies, a small amount may cross to the baby and cause mild red blood cell breakdown after birth."
+          },
+          {
+            "ar": "تؤكد كليفلاند كلينك (Cleveland Clinic) أن عدم توافق فصائل الحروف (ABO) لا يستدعي إعطاء الحامل أي حقن وقائية أثناء الحمل، ولا يشكل خطراً كبيراً على الجنين داخل الرحم. كل ما يحتاجه الأمر منكَ كأب هو إبلاغ طبيب الأطفال بعد الولادة بأن فصيلة دم الأم (O) وفصيلة دمكَ مختلفة، ليراقب مستوى الصفراء (البيليروبين) لدى المولود خلال أول ٢٤ ساعة.",
+            "en": "Cleveland Clinic confirms that ABO blood group incompatibility does not require preventive injections during pregnancy and rarely causes problems while the baby is in the womb. All that is needed from you as a father is to inform the pediatrician after birth that your wife is type O and your blood type differs, so the team monitors the newborn's bilirubin levels during the first 24 hours."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "تذكّر أن اختلاف الحروف (مثل أم O وأب A أو B) شائع في ١٥ من كل ١٠٠ حمل ولا يحتاج إلى حقنة (Anti-D) إذا كانت الأم موجبة العامل وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Remember that letter differences (such as a type O mother and type A or B father) occur in 15 out of 100 pregnancies and do not require an Anti-D shot if the mother is Rh-positive, per Cleveland Clinic."
+          },
+          {
+            "ar": "راقب مع طبيب الأطفال ظهور أي اصفرار في جلد المولود أو بياض عينيه خلال أول ٢٤ ساعة من الولادة إذا كانت فصيلة زوجتكَ هي (O) وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Monitor with the pediatrician for any yellowing of the newborn's skin or eyes within the first 24 hours of birth if your wife has type O blood, per Cleveland Clinic."
+          }
+        ],
+        "cites": [
+          "src3"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "خطوات عملية للزوج عند متابعة فصيلة دم الحامل وزوجها",
+          "en": "Practical steps for the husband when tracking the blood type of the pregnant wife and her husband"
+        },
+        "body": [
+          {
+            "ar": "تبدأ المتابعة المنظمة لملف فصيلة دم الحامل وزوجها بتوثيق الفصيلتين ونتيجة فحص الأجسام المضادة منذ الثلث الأول للحمل لتفادي أي تأخير في الطوارئ أو غرفة الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS). عندما تتولى أنتَ تنظيم هذا الملف الطبي، ترفع عن زوجتكَ عبء تذكّر المواعيد المخبرية وتضمن جاهزية المستشفى لأي إجراء.",
+            "en": "Organized tracking of the blood type of a pregnant wife and her husband begins with documenting both blood types and antibody screening results in the first trimester to prevent delays in emergencies or the delivery room, per the NHS. When you take charge of organizing this medical file, you relieve your wife of tracking lab dates and ensure the hospital is prepared."
+          },
+          {
+            "ar": "بالإضافة إلى الوقاية من عدم توافق ريسوس، تكتسب معرفة فصيلة دم زوجتكَ أهمية مضاعفة للاستعداد لأي طوارئ تتطلب نقل دم أثناء الولادة القيصرية أو الطبيعية. وتوضح كليفلاند كلينك (Cleveland Clinic) أن فصيلة الدم (O) هي المجموعة المانحة لخلايا الدم الحمراء في الطوارئ، بينما تستقبل فصيلة (AB) كريات الدم من جميع الفصائل، بشرط مطابقة عامل ريسوس الموجب أو السالب.",
+            "en": "Beyond preventing Rh incompatibility, knowing your wife's blood type is vital for emergency blood transfusion readiness during vaginal or cesarean birth. Cleveland Clinic notes that blood type O is the universal red blood cell donor in emergencies, while type AB can receive red cells from all groups, provided the Rh factor matches."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "في الزيارة الأولى (الأسبوع ٨ إلى ١٢): تأكد من إجراء زوجتكَ لفحص فصيلة الدم وعامل ريسوس وصورة الدم الكاملة وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "At the first visit (weeks 8 to 12): ensure your wife completes her blood group, Rh factor, and CBC tests, per the NHS."
+          },
+          {
+            "ar": "طوال أشهر الحمل: إذا كانت زوجتكَ سالبة العامل وأنتَ موجب، تواصل مع الطبيب فوراً عند حدوث أي نزيف مهبلي أو سقوط لأخذ جرعة (Anti-D) خلال ٧٢ ساعة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Throughout pregnancy: if your wife is Rh-negative and you are Rh-positive, contact the doctor immediately after any vaginal bleeding or fall to receive an Anti-D dose within 72 hours, per Cleveland Clinic."
+          },
+          {
+            "ar": "في الأسبوع ٢٨ من الحمل: رافق زوجتكَ لأخذ الجرعة الروتينية الأولى من حقنة (Anti-D) بعد إجراء فحص الأجسام المضادة وفقاً لكليفلاند كلينك (Cleveland Clinic).",
+            "en": "At week 28 of pregnancy: accompany your wife to receive her first routine Anti-D injection following her antibody screen, per Cleveland Clinic."
+          },
+          {
+            "ar": "في الشهر التاسع ويوم الولادة: ضع نسخة مطبوعة من فصيلة دم زوجتكَ وفصيلة دمكَ في حقيبة المستشفى، وتأكد من فحص دم المولود وإعطاء جرعة ما بعد الولادة خلال ٧٢ ساعة.",
+            "en": "In month nine and on delivery day: place printed copies of both blood group results in the hospital bag, and ensure newborn blood testing and the postpartum dose within 72 hours."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "أعراض عدم توافق الدم عند حديثي الولادة وطرق العلاج بعد الولادة",
+          "en": "Symptoms of blood incompatibility in newborns and postpartum treatments"
+        },
+        "body": [
+          {
+            "ar": "تتركز أعراض عدم توافق الدم عند حديثي الولادة في ظهور اليرقان (اصفرار الجلد والعينين) وفقر الدم نتيجة تكسر كريات الدم الحمراء، وغالباً ما يظهر هذا الاصفرار خلال أول ٢٤ ساعة بعد الولادة وفقاً لكليفلاند كلينك (Cleveland Clinic) وهيئة الخدمات الصحية البريطانية (NHS). عندما تعرف هذه العلامات مسبقاً كأب، يمكنك ملاحظتها مبكراً مع فريق الحضانة والتعامل معها بهدوء.",
+            "en": "Symptoms of blood incompatibility in newborns center on jaundice (yellowing of the skin and eyes) and anaemia from red blood cell breakdown, with jaundice often appearing within the first 24 hours after birth, according to Cleveland Clinic and the NHS. Knowing these signs beforehand as a father helps you spot them early with the nursery team and respond calmly."
+          },
+          {
+            "ar": "البيليروبين (Bilirubin) هو مادة صفراء تنتج بشكل طبيعي عند تفكك خلايا الدم الحمراء، وعندما تتكسر هذه الخلايا بسرعة بسبب الأجسام المضادة يتراكم البيليروبين في جسم الرضيع ويمنح الجلد لونه الأصفر وفقاً لكليفلاند كلينك (Cleveland Clinic). وتوضح هيئة الخدمات الصحية البريطانية (NHS) أن ملاحظة الاصفرار في البشرة القمحية أو السمراء تكون أوضح عند النظر إلى بياض العينين أو باطن الكفين أو باطن القدمين.",
+            "en": "Bilirubin is a yellowish substance released when red blood cells break down; when cells break down rapidly from maternal antibodies, bilirubin builds up and turns the baby's skin yellow, according to Cleveland Clinic. The NHS notes that on brown or darker skin tones, yellowing is easiest to see in the whites of the eyes, the palms of the hands, or the soles of the feet."
+          },
+          {
+            "ar": "العلاج الضوئي (Phototherapy) هو إجراء طبي آمن وغير مؤلم يوضع فيه المولود تحت إضاءة خاصة تساعد جسمه على تفكيك مادة البيليروبين والتخلص منها بسرعة وفقاً لهيئة الخدمات الصحية البريطانية (NHS) وكليفلاند كلينك (Cleveland Clinic). في معظم حالات عدم توافق الفصائل، يستجيب الرضيع للعلاج الضوئي والمتابعة الطبية في المستشفى بفاعلية عالية، ولا يُلجأ إلى نقل الدم إلا في الحالات الشديدة.",
+            "en": "Phototherapy is a safe, painless medical treatment in which the newborn is placed under special lights that help the body break down and clear excess bilirubin quickly, according to the NHS and Cleveland Clinic. In most cases of blood group incompatibility, newborns respond very effectively to phototherapy and hospital monitoring, with blood transfusion reserved only for severe cases."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "اصفرار جلد المولود أو بياض عينيه، ويُفحص بدقة في راحتي اليدين وباطن القدمين، خاصةً إذا ظهر خلال أول ٢٤ ساعة من الولادة وفقاً لهيئة الخدمات الصحية البريطانية (NHS) وكليفلاند كلينك (Cleveland Clinic).",
+            "en": "Yellowing of the newborn's skin or the whites of the eyes, checked carefully on the palms and soles, especially within the first 24 hours of birth, per the NHS and Cleveland Clinic."
+          },
+          {
+            "ar": "ميل لون البول إلى الأصفر الداكن أو تغيّر لون براز الرضيع إلى لون باهت فاتح على غير المعتاد وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Dark yellow urine or pale-colored stool in the newborn, according to the NHS."
+          },
+          {
+            "ar": "خمول واضح وميل شديد للنوم مع صعوبة إيقاظ الرضيع للرضاعة أو ضعف إقباله على الرضاعة مقارنة بالمعتاد وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Noticeable lethargy and extreme sleepiness, with difficulty waking the baby to feed or poor feeding compared to usual, per the NHS."
+          },
+          {
+            "ar": "شحوب لون الجلد أو الشفتين أو بطانة الجفون والأظافر مع سرعة في التنفس، وهي علامات فقر الدم التي تستدعي تقييم الطبيب العاجل وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Pale skin, fingernails, or inner eyelids alongside faster breathing than usual, which are signs of anaemia requiring urgent medical evaluation, per the NHS."
+          }
+        ],
+        "cites": [
+          "src2",
+          "src3",
+          "src5"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "ar": "متى تؤخذ إبرة الفصيلة بعد الولادة؟",
+          "en": "When is the Rh injection given after birth?"
+        },
+        "a": {
+          "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، تحصل الأم سالبة العامل على حقنة الغلوبيولين المناعي عادةً في الأسبوع ٢٨ من الحمل، وقد تحتاج جرعة ثانية خلال ٧٢ ساعة من الولادة إذا كان المولود موجب العامل. تأكد من نتيجة فحص دم المولود قبل الخروج من المستشفى.",
+          "en": "According to Cleveland Clinic, an Rh-negative mother usually gets Rh immune globulin around week 28 of pregnancy, and may need a second dose within 72 hours of delivery if the baby is Rh-positive. Check the baby's blood test result before leaving the hospital."
+        }
+      },
+      {
+        "q": {
+          "ar": "فصيلة دم الأم موجب والأب سالب، هل يوجد خطر على الجنين؟",
+          "en": "The mother is Rh-positive and the father Rh-negative: is the baby at risk?"
+        },
+        "a": {
+          "ar": "لا. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، إذا أظهر فحص الدم أن فصيلة الأم موجبة فلا يوجد خطر للإصابة بمرض انحلال الدم عند الجنين والمولود. الحالة الوحيدة التي تحتاج متابعة هي أن تكون الأم سالبة والجنين موجباً.",
+          "en": "No. According to the NHS, if the blood test shows the mother is D (Rh) positive, there is no risk of haemolytic disease of the fetus and newborn. The only case that needs follow-up is an Rh-negative mother carrying an Rh-positive baby."
+        }
+      },
+      {
+        "q": {
+          "ar": "تشابه فصيلة دم الحامل وزوجها، هل يمنع المشكلة؟",
+          "en": "If the wife and husband have the same blood type, is there still a problem?"
+        },
+        "a": {
+          "ar": "وفقاً لجدول كليفلاند كلينك (Cleveland Clinic)، إذا كان الزوجان كلاهما سالبي العامل فسيكون الجنين سالباً ولا يوجد خطر عدم توافق ريسوس، وإذا كانا كلاهما موجبين فلا خطر كذلك. المهم هو عامل ريسوس للأم، لا الحرف وحده.",
+          "en": "According to Cleveland Clinic's table, if both parents are Rh-negative the baby will be Rh-negative and there is no Rh incompatibility risk; if both are Rh-positive there is no risk either. What matters is the mother's Rh factor, not the letter alone."
+        }
+      },
+      {
+        "q": {
+          "ar": "متى يُجرى فحص فصيلة الدم في الحمل؟",
+          "en": "When is the blood group test done in pregnancy?"
+        },
+        "a": {
+          "ar": "وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُعرض فحص الدم في أول موعد متابعة للحمل بين الأسبوع ٨ والأسبوع ١٢، لمعرفة فصيلة الأم والبحث عن أي أجسام مضادة في دمها.",
+          "en": "According to the NHS, the blood test is offered at the first antenatal appointment, at 8 to 12 weeks, to find the mother's blood type and look for any antibodies."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل تحتاج الحامل سالبة العامل حقنة بعد نزيف أو سقوط؟",
+          "en": "Does an Rh-negative pregnant woman need an injection after bleeding or a fall?"
+        },
+        "a": {
+          "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، قد يختلط قليل من دم الجنين بدم الأم عند أي نزيف مهبلي أثناء الحمل أو إصابة في البطن أو فحوصات مثل بزل السائل الأمنيوسي. اتصل بالطبيب فوراً وأخبره أن زوجتكَ سالبة العامل ليقرر إن كانت تحتاج جرعة.",
+          "en": "According to Cleveland Clinic, a small amount of fetal blood can mix with the mother's blood during any vaginal bleeding in pregnancy, an abdominal injury, or tests such as amniocentesis. Call the doctor straight away and say your wife is Rh-negative so they can decide whether she needs a dose."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما تأثير فصيلة الدم O على الحمل؟",
+          "en": "How does blood type O affect pregnancy?"
+        },
+        "a": {
+          "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، يحدث عدم توافق فصائل ABO في نحو ١٥ من كل ١٠٠ حمل، وأشيعه أن تكون الأم من فصيلة O والجنين من A أو B أو AB، لكن المشكلات الفعلية نادرة جداً وتحدث في أقل من ١٪ من حالات الحمل.",
+          "en": "According to Cleveland Clinic, ABO incompatibility happens in about 15 out of 100 pregnancies, most often when the mother is type O and the baby is A, B or AB, but actual problems are extremely rare, in under 1% of pregnancies."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يحدث عدم توافق ريسوس في الحمل الأول؟",
+          "en": "Does Rh incompatibility happen in the first pregnancy?"
+        },
+        "a": {
+          "ar": "وفقاً لكليفلاند كلينك (Cleveland Clinic)، لا تحدث مضاعفات عدم توافق ريسوس عادةً في الحمل الأول، لأن اختلاط الدم غير مرجح قبل الولادة، لكن الأجسام المضادة التي تتكوّن بعدها قد تؤثر في الحمل التالي، ولهذا تُعطى الحقنة الوقائية في كل حمل.",
+          "en": "According to Cleveland Clinic, Rh incompatibility complications don't usually happen in a first pregnancy, because blood is unlikely to mix before delivery, but antibodies made afterwards can affect the next pregnancy, which is why the preventive injection is given in every pregnancy."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "تابع حمل زوجتكَ أسبوعاً بأسبوع عبر وضع الشريك في نواة",
+        "en": "Follow your wife's pregnancy week by week with partner mode in Nawah"
+      },
+      "body": {
+        "ar": "سجّل موعد فحص الفصيلة في الزيارة الأولى وموعد الحقنة في الأسبوع ٢٨ ضمن المواعيد المشتركة في تطبيق نواة، فيصلكما التذكير معاً ولا يضيع موعد. بربط حسابكَ بحساب زوجتكَ برمز بسيط ترى أسبوع الحمل نفسه الذي تراه، ويصلكَ إشعار عند كل جلسة ركلات تسجّلها.",
+        "en": "Add the first-visit blood group test and the week-28 injection to the shared appointments in Nawah, so the reminder reaches you both and no date slips. Link your account to your wife's with a simple code to see the same pregnancy week she sees, and get a notification each time she logs a kick session."
+      },
+      "button": {
+        "ar": "حمّلوا نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [
+      {
+        "id": "src1",
+        "org": "Cleveland Clinic",
+        "title": {
+          "ar": "عامل ريسوس (Rh) في الحمل",
+          "en": "Rh Factor"
+        },
+        "url": "https://my.clevelandclinic.org/health/diseases/21053-rh-factor",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src2",
+        "org": "NHS",
+        "title": {
+          "ar": "مرض انحلال الدم عند الجنين والمولود (مرض الريسوس)",
+          "en": "Haemolytic disease of the fetus and newborn (HDFN)"
+        },
+        "url": "https://www.nhs.uk/conditions/rhesus-disease-hdfn/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src3",
+        "org": "Cleveland Clinic",
+        "title": {
+          "ar": "عدم توافق فصائل الدم ABO",
+          "en": "ABO Incompatibility"
+        },
+        "url": "https://my.clevelandclinic.org/health/diseases/abo-incompatibility",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src4",
+        "org": "Cleveland Clinic",
+        "title": {
+          "ar": "فصائل الدم ومعناها",
+          "en": "Blood Types"
+        },
+        "url": "https://my.clevelandclinic.org/health/treatments/21213-blood-types",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src5",
+        "org": "NHS",
+        "title": {
+          "ar": "اليرقان عند الرضّع",
+          "en": "Jaundice in babies"
+        },
+        "url": "https://www.nhs.uk/conditions/jaundice-in-babies/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "keywords": [
+      "فصيلة دم الحامل وزوجها",
+      "جدول توافق فصيلة دم الحامل وزوجها",
+      "فصيلة دم الأم سالب والأب موجب",
+      "موعد حقنة Rh للحامل",
+      "اختلاف فصائل الدم بين الزوجين والحمل",
+      "تأثير فصيلة الدم O على الحمل",
+      "أعراض عدم توافق الدم عند حديثي الولادة",
+      "فصيلة دم الأم موجب والأب سالب",
+      "تشابه فصيلة دم الحامل وزوجها",
+      "هل اختلاف فصائل الدم يسبب الإجهاض",
+      "متى تؤخذ إبرة الفصيلة بعد الولادة"
+    ],
+    "related": [
+      "/ar/father",
+      "/ar/guide/1",
+      "/ar/guide/7",
+      "/ar/father/hospital-bag"
+    ],
+    "updated": "2026-11-13"
+  },
+  {
+    "cluster": "mother_expansion",
+    "slug": "pregnancy-sleeping-positions",
+    "published": true,
+    "hero": {
+      "src": "/articles/pregnancy-sleeping-positions-hero.jpg",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss",
+      "pexelsUrl": "https://www.pexels.com/photo/cozy-unmade-bed-in-soft-morning-light-33312398/",
+      "width": 6048,
+      "height": 4024,
+      "alt": {
+        "ar": "وسادتان بيضاوان على سرير خشبي بجوار نافذة بستارة خفيفة في ضوء الصباح",
+        "en": "Two white pillows on a wooden bed beside a window with sheer curtains in morning light"
+      }
+    },
+    "eyebrow": {
+      "ar": "دليل الأم · النوم والراحة في الحمل",
+      "en": "Mother's Guide · Sleep and Rest in Pregnancy"
+    },
+    "title": {
+      "ar": "أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين في كل مراحل الحمل",
+      "en": "Best pregnancy sleeping positions to avoid pressure on your baby in every stage"
+    },
+    "metaTitle": {
+      "ar": "أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين | نواة",
+      "en": "Best Pregnancy Sleep Positions for Baby | Nawah"
+    },
+    "description": {
+      "ar": "تعرفي على أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين في كل شهر من الحمل، ولماذا ينصح الأطباء بالنوم على الجانب بعد الأسبوع ٢٨ لحماية طفلك وراحتك.",
+      "en": "Learn the best pregnancy sleeping positions to avoid pressure on your baby each month, and why side sleeping after week 28 protects your baby and comfort."
+    },
+    "standfirst": {
+      "ar": "دليل طبي مبسط يوضح لكِ وضعية النوم الآمنة في كل ثلث من الحمل، وكيف تحمين تدفق الدم والأكسجين إلى جنينكِ مع تخفيف آلام الظهر والحوض أثناء الليل.",
+      "en": "A clear medical guide showing you the safe sleeping position in each trimester, and how to protect blood and oxygen flow to your baby while easing back and hip pain at night."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين منذ بداية الحمل",
+          "en": "Best pregnancy sleeping positions to avoid pressure on your baby from early pregnancy"
+        },
+        "body": [
+          {
+            "ar": "تُعدّ أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين هي النوم على أحد الجانبين مع ثني الركبتين قليلاً، خاصة مع تقدم أسابيع الحمل وكبر حجم الرحم. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، ينبغي لكِ تجنب الخلود إلى النوم مستلقية على ظهركِ بعد الأسبوع ٢٨ من الحمل لأن ذلك يرتبط بارتفاع خطر ولادة جنين ميت. ووفقاً لموقع ميدلاين بلس الطبي (MedlinePlus) التابع للمكتبة الوطنية للطب، يسهّل النوم على الجانب عمل قلبكِ لأنه يمنع وزن الجنين من الضغط على الوريد الكبير الذي يعيد الدم من ساقيكِ إلى القلب.",
+            "en": "The best pregnancy sleeping position to avoid pressure on your baby is lying on your side with your knees slightly bent, especially as your pregnancy progresses and your womb grows. According to the UK National Health Service (NHS), you should avoid going to sleep flat on your back after week 28 of pregnancy because it is linked to a higher risk of stillbirth. According to MedlinePlus from the National Library of Medicine, side sleeping makes it easier for your heart to pump because it keeps your baby from pressing on the large vein that carries blood back from your legs to your heart."
+          },
+          {
+            "ar": "الوريد الأجوف السفلي هو الوريد الرئيسي الكبير الذي ينقل الدم غير المؤكسج من النصف السفلي من جسمكِ وساقيكِ عائداً إلى عضلة القلب. عندما تستلقين على ظهركِ في الأشهر المتأخرة، يضغط الوزن المشترك للجنين والرحم على هذا الوريد وعلى الأوعية الدموية المحيطة به. ووفقاً لمؤسسة تومي لأبحاث الحمل والولادة (Tommy's)، يمكن أن يقلل هذا الضغط من تدفق الدم والأكسجين الواصلين إلى المشيمة والجنين.",
+            "en": "The inferior vena cava is the main large vein that carries blood from your legs and lower body back to your heart. When you lie flat on your back in late pregnancy, the combined weight of your baby and womb presses on this vein and surrounding blood vessels. According to Tommy's pregnancy research charity, this pressure can restrict blood flow and oxygen reaching your placenta and baby."
+          },
+          {
+            "ar": "لا يعني هذا أن تقلقي إذا تحرك جسمكِ أثناء الليل دون قصد منكِ. توضح مؤسسة تومي (Tommy's) أن الأبحاث الطبية ركزت على الوضعية التي تبدئين بها النوم، لأن الوضعية التي تغفين عليها هي التي تقضين فيها أطول وقت خلال الليل. إذا فتحتِ عينيكِ ليلاً ووجدتِ نفسكِ مستلقية على ظهركِ، يكفي أن تنقلبي بهدوء على جانبكِ وتكملي نومكِ دون خوف.",
+            "en": "This does not mean you need to worry if your body shifts during the night without your control. Tommy's explains that medical research focused on the position you fall asleep in, because the position you start sleep in is the one you spend the longest time in overnight. If you wake up at night and find yourself flat on your back, simply roll gently onto your side and go back to sleep without alarm."
+          },
+          {
+            "ar": "يمنحكِ النوم الجانبي فائدة مزدوجة لكِ ولجنينكِ في الوقت نفسه. فهو يحمي الدورة الدموية التي تغذي طفلكِ عبر المشيمة، ويخفف عنكِ الشعور بالدوخة أو الإغماء الذي قد يحدث عند الاستلقاء على الظهر وفقاً لهيئة الخدمات الصحية البريطانية (NHS). كما تساعد هذه الوضعية كليتيكِ على أداء عملهما بكفاءة وتخفف الضغط عن الكبد والعمود الفقري وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Side sleeping gives both you and your baby a clear benefit at the same time. It protects the blood circulation feeding your baby through the placenta, and it prevents the dizziness or faintness that can happen when lying on your back according to the NHS. This position also helps your kidneys work efficiently and keeps pressure off your liver and spine according to MedlinePlus."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "وضعيات نوم الحامل في الاشهر الاولى والثلث الأول",
+          "en": "Pregnancy sleeping positions in the first months and first trimester"
+        },
+        "body": [
+          {
+            "ar": "تسمح لكِ وضعيات نوم الحامل في الاشهر الاولى بالنوم على الجانب أو الظهر أو البطن طالما تشعرين بالراحة ولا تعانين من غثيان أو ضيق. خلال الأشهر الثلاثة الأولى يظل حجم الرحم صغيراً ومحمياً داخل عظام الحوض، فلا يسبب وزنه ضغطاً ميكانيكياً على الأوعية الدموية الكبرى عند الاستلقاء. ومع ذلك، ينصحكِ الأطباء ببدء التعود التدريجي على النوم الجانبي مبكراً حتى يصبح عادة مريحة لكِ قبل كبر حجم البطن.",
+            "en": "Pregnancy sleeping positions in the first months allow you to sleep on your side, back, or stomach as long as you feel comfortable and free of nausea or pain. During the first three months, your womb remains small and protected inside your pelvic bones, so its weight does not press heavily on major blood vessels when you lie down. Even so, doctors encourage gradually getting used to side sleeping early so it becomes a comfortable habit before your bump grows."
+          },
+          {
+            "ar": "تزداد حاجتكِ إلى النوم والراحة بشكل واضح في بداية الحمل نتيجة التغيرات الهرمونية السريعة. ووفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يُعدّ الشعور بالتعب الشديد والإرهاق أمراً شائعاً جداً خاصة في الأسابيع ١٢ الأولى من الحمل. يعمل جسمكِ بجهد كبير لتكوين المشيمة ودعم نمو الجنين، ما يجعلكِ تشعرين بالنعاس خلال النهار وتحتاجين إلى ساعات نوم أطول ليلاً وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Your need for sleep and rest rises noticeably in early pregnancy due to rapid hormonal shifts. According to the NHS, feeling very tired or exhausted is especially common during the first 12 weeks of pregnancy. Your body works hard to build the placenta and support your growing baby, leaving you sleepy during the day and needing more rest at night according to MedlinePlus."
+          },
+          {
+            "ar": "رغم حاجتكِ الشديدة للنوم في الثلث الأول، قد تلاحظين تقطع نومكِ ليلاً لعدة أسباب جسدية طبيعية. يوضح موقع ميدلاين بلس الطبي (MedlinePlus) أن كليتيكِ تعملان بجهد أكبر لتصفية حجم الدم الإضافي في جسمكِ، مما يزيد من إدرار البول وتكرار ذهابكِ إلى الحمام ليلاً. كما قد يوقظكِ غثيان الحمل أو حساسية الثديين عند التقلب على البطن في الأسابيع الأولى.",
+            "en": "Despite needing extra sleep in the first trimester, you may notice broken nights for several normal physical reasons. MedlinePlus explains that your kidneys work harder to filter the extra blood volume in your body, increasing urine output and night trips to the bathroom. Morning sickness or breast tenderness when rolling onto your stomach can also wake you in the early weeks."
+          },
+          {
+            "ar": "إذا كنتِ معتادة قبل الحمل على النوم على بطنكِ أو ظهركِ، فإن التدرب على وضع وسادة صغيرة بين ركبتيكِ منذ الأشهر الأولى يسهل عليكِ الانتقال لاحقاً. ووفقاً لموقع ميدلاين بلس الطبي (MedlinePlus)، يمكنكِ تناول بضع قطع من البسكويت الجاف المملح قبل النوم إذا كان الغثيان يمنعكِ من الاستغراق في النوم ليلاً. كما تفيدكِ القيلولة القصيرة خلال النهار في تعويض أي نقص في نوم الليل.",
+            "en": "If you were always a stomach or back sleeper before pregnancy, practicing with a small pillow between your knees in the first months eases the transition later on. According to MedlinePlus, eating a few plain crackers before bed can help if nausea keeps you awake at night. Taking short naps during the day also helps make up for lost nighttime sleep."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "مرحلة الحمل",
+              "en": "Pregnancy stage"
+            },
+            {
+              "ar": "الوضعية الموصى بها",
+              "en": "Recommended position"
+            },
+            {
+              "ar": "حكم النوم على الظهر أو البطن",
+              "en": "Back or stomach sleeping"
+            },
+            {
+              "ar": "طريقة الدعم بالوسائد",
+              "en": "Pillow support method"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "الثلث الأول (الأشهر ١ إلى ٣)",
+                "en": "First trimester (Months 1 to 3)"
+              },
+              {
+                "ar": "أي وضعية مريحة مع بدء التعود على الجانب",
+                "en": "Any comfortable position while building the side habit"
+              },
+              {
+                "ar": "مسموح طالما لا يسبب ألماً في الثدي أو غثياناً",
+                "en": "Fine as long as it causes no breast pain or nausea"
+              },
+              {
+                "ar": "وسادة خفيفة بين الركبتين للتدرب على النوم الجانبي",
+                "en": "Light pillow between knees to practice side sleeping"
+              }
+            ],
+            [
+              {
+                "ar": "الثلث الثاني (الأشهر ٤ إلى ٦)",
+                "en": "Second trimester (Months 4 to 6)"
+              },
+              {
+                "ar": "النوم على الجانب الأيسر أو الأيمن مع ثني الركبتين",
+                "en": "Left or right side with bent knees"
+              },
+              {
+                "ar": "يصبح النوم على البطن غير مريح ويفضل ترك النوم على الظهر",
+                "en": "Stomach gets uncomfortable; best to stop flat back sleeping"
+              },
+              {
+                "ar": "وسادة تحت البطن ووسادة بين الساقين لتخفيف شد الأربطة",
+                "en": "Pillow under belly and between legs to ease ligament pull"
+              }
+            ],
+            [
+              {
+                "ar": "الثلث الثالث (الأشهر ٧ إلى ٩ بعد الأسبوع ٢٨)",
+                "en": "Third trimester (Months 7 to 9 after week 28)"
+              },
+              {
+                "ar": "النوم على الجانب الأيسر أو الأيمن في الليل والقيلولة",
+                "en": "Left or right side for night sleep and daytime naps"
+              },
+              {
+                "ar": "يُتجنب بدء النوم على الظهر بعد الأسبوع ٢٨ لحماية الجنين",
+                "en": "Avoid going to sleep on your back after week 28 to protect baby"
+              },
+              {
+                "ar": "وسادة تحت البطن وبين الركبتين ولفافة خلف أسفل الظهر",
+                "en": "Pillow under bump, between knees, and rolled blanket behind back"
+              }
+            ]
+          ]
+        },
+        "cites": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "وضعيات نوم الحامل في الشهر الخامس ووضعيات نوم الحامل في الشهر السادس",
+          "en": "Pregnancy sleeping positions in the fifth month and sixth month"
+        },
+        "body": [
+          {
+            "ar": "تعتمد وضعيات نوم الحامل في الشهر الخامس ووضعيات نوم الحامل في الشهر السادس على الاستلقاء الجانبي مع ثني الركبتين ودعم البطن المتنامي بوسادة لينة. في منتصف الثلث الثاني يرتفع الرحم خارج الحوض ويبدأ بروز البطن بالظهور بوضوح، مما يجعل النوم على البطن غير مريح جسدياً لكِ. ووفقاً لموقع ميدلاين بلس الطبي (MedlinePlus)، يُعدّ الاستلقاء على الجانب مع ثني الركبتين الوضعية الأكثر راحة وأماناً مع زيادة حجم الجنين.",
+            "en": "Pregnancy sleeping positions in the fifth month and sixth month rely on side lying with bent knees and supporting your growing belly with a soft pillow. In the middle of the second trimester, your womb rises out of the pelvis and your bump shows clearly, making stomach sleeping physically uncomfortable. According to MedlinePlus, lying on your side with bent knees is the most comfortable and safe position as your baby grows."
+          },
+          {
+            "ar": "تتساءل كثير من الأمهات في هذه المرحلة عن سبب تفضيل الأطباء للجانب الأيسر تحديداً عند الاستلقاء. يوضح موقع ميدلاين بلس الطبي (MedlinePlus) أن النوم على الجانب الأيسر يحسن تدفق الدم بين القلب والجنين والرحم والكليتين، كما يبعد ضغط الرحم عن الكبد الموجود في الجهة اليمنى من البطن. وإذا شعرتِ بتعب أو ضغط في مفصل الورك الأيسر، يؤكد المصدر نفسه أنه لا بأس بالتبديل إلى الجانب الأيمن للراحة.",
+            "en": "Many mothers at this stage wonder why doctors often mention the left side when lying down. MedlinePlus explains that sleeping on your left side improves blood flow among your heart, fetus, uterus, and kidneys, while keeping pressure off your liver on the right side of your abdomen. If your left hip becomes sore or tired, the same source confirms it is fine to switch to your right side for relief."
+          },
+          {
+            "ar": "يبدأ شعوركِ بحركة الجنين عادة في هذه الفترة من الحمل، وغالباً ما تلاحظينه بوضوح عندما تستلقين للراحة ليلاً. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تبدئين بالشعور بحركة طفلكِ بين الأسبوعين ١٦ و٢٤ من الحمل، وإذا كان هذا حملكِ الأول فقد لا تشعرين بها إلا بعد الأسبوع ٢٠. عندما تهدئين في السرير ليلاً، قد يكون جنينكِ مستيقظاً ونشيطاً لأن دورات نومه واستيقاظه تختلف عن دورات نومكِ.",
+            "en": "You usually start feeling your baby move during this part of pregnancy, and you often notice it most when lying down to rest at night. According to the NHS, you start feeling your baby move between weeks 16 and 24 of pregnancy, or after week 20 if this is your first baby. When you relax in bed at night, your baby may be wide awake and active because their sleep cycles differ from yours."
+          },
+          {
+            "ar": "تعاني بعض الحوامل في الشهرين الخامس والسادس من آلام أسفل الظهر أو شد في أربطة البطن عند التقلب في الفراش. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تصبح أربطة الجسم أكثر ليونة وتتمدد طبيعياً استعداداً للولادة، مما قد يجهد مفاصل أسفل الظهر والحوض. يساعدكِ وضع وسادة بين الساقين ووسادة صغيرة تحت البطن أثناء النوم الجانبي على إبقاء العمود الفقري والحوض في وضع متوازن ومريح.",
+            "en": "Some pregnant women in the fifth and sixth months feel lower back ache or ligament pulling when turning over in bed. According to the NHS, your body's ligaments naturally soften and stretch to prepare for labour, which can strain the joints of your lower back and pelvis. Placing a pillow between your legs and a small pillow under your bump while side sleeping keeps your spine and pelvis aligned and comfortable."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "وضعيات نوم الحامل في الشهر السابع وبداية الثلث الثالث",
+          "en": "Pregnancy sleeping positions in the seventh month and start of the third trimester"
+        },
+        "body": [
+          {
+            "ar": "تقتصر وضعيات نوم الحامل في الشهر السابع على النوم على الجانب الأيسر أو الأيمن عند بدء النوم ليلاً وأثناء قيلولة النهار ابتداءً من الأسبوع ٢٨. وفقاً لمؤسسة تومي لأبحاث الحمل والولادة (Tommy's)، يبدأ الثلث الثالث من الحمل مع بداية الأسبوع ٢٨ ويمتد حتى الأسبوع ٤٠، وهي المرحلة التي يصبح فيها النوم الجانبي ضرورياً لسلامة الجنين. ووفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يجب تجنب الذهاب إلى النوم على الظهر بعد الأسبوع ٢٨ من الحمل.",
+            "en": "Pregnancy sleeping positions in the seventh month focus on sleeping on your left or right side when falling asleep at night and during daytime naps starting from week 28. According to Tommy's, the third trimester begins at the start of week 28 and runs to week 40, which is when side sleeping becomes important for your baby's safety. According to the NHS, you should avoid going to sleep on your back after 28 weeks of pregnancy."
+          },
+          {
+            "ar": "تستند هذه التوصية الطبية إلى أدلة علمية واضحة وموثوقة، لكنها لا تدعو إلى القلق أو التوتر إذا كان حملكِ يسير بصورة طبيعية. توضح مؤسسة تومي (Tommy's) أن ٦ دراسات بحثية منفصلة أظهرت أن بدء النوم على الظهر في الثلث الثالث يرتبط بزيادة خطر ولادة جنين ميت بمقدار ٢٫٦ ضعف، إضافة إلى زيادة احتمال ولادة طفل أصغر حجماً من المتوقع. ومع ذلك، تذكّركِ المؤسسة بأن المعدل العام لولادة جنين ميت في حالات الحمل غير المعقدة يظل منخفضاً ويبلغ نحو ٣ من كل ١٠٠٠ ولادة في المملكة المتحدة، والنوم على الجانب يجعله أقل من ذلك.",
+            "en": "This medical guidance rests on reliable research evidence, yet it is no reason for anxiety if your pregnancy is uncomplicated. Tommy's explains that 6 separate research studies confirmed going to sleep on your back in the third trimester is linked with a 2.6-times higher risk of stillbirth, as well as a higher risk of having a smaller baby than expected. At the same time, Tommy's reassures mothers that the overall risk in an uncomplicated pregnancy is low at around 3 in 1000 babies in the UK, and side sleeping makes it even lower."
+          },
+          {
+            "ar": "تشمل نصيحة النوم على الجانب في الشهر السابع وما بعده كل مرة تغفين فيها خلال اليوم. وفقاً لمؤسسة تومي (Tommy's)، تنطبق هذه القاعدة عند الذهاب إلى النوم في بداية الليل، وعند العودة إلى النوم بعد الاستيقاظ ليلاً لدخول الحمام، وكذلك أثناء قيلولة النهار القصيرة. فالوضعية التي تستسلمين فيها للنوم هي التي يبقى جسمكِ ثابتاً عليها لأطول فترة زمنية قبل أن يبدأ بالتقلب.",
+            "en": "The advice to sleep on your side in the seventh month and beyond applies to every episode of sleep throughout the day. According to Tommy's, this guidance covers going to sleep at night, returning to sleep after waking in the night, and daytime naps. The position you settle into sleep in is the one your body stays in for the longest stretch of time."
+          },
+          {
+            "ar": "قد تشعرين بالخوف إذا استيقظتِ في منتصف الليل ووجدتِ نفسكِ قد انقلبتِ على ظهركِ أثناء النوم. تطمئنكِ مؤسسة تومي (Tommy's) بأنه لا يمكنكِ التحكم في حركة جسمكِ وأنتِ نائمة، وأن كبر حجم البطن في الثلث الثالث يجعل الاستلقاء على الظهر غير مريح بما يكفي لإيقاظكِ قبل البقاء عليه طويلاً. كل ما عليكِ فعله عند الاستيقاظ على ظهركِ هو الانقلاب بهدوء على جانبكِ الأيسر أو الأيمن والعودة إلى النوم.",
+            "en": "You might feel anxious if you wake up in the middle of the night and find you rolled onto your back while asleep. Tommy's reassures you that nobody can control their position while asleep, and a larger bump in the third trimester is uncomfortable enough to prevent you from staying on your back for long. Whenever you wake up on your back, simply turn onto your left or right side and settle back to sleep."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "وضعيات نوم الحامل في الشهر الثامن مع زيادة وزن الجنين",
+          "en": "Pregnancy sleeping positions in the eighth month as your baby gains weight"
+        },
+        "body": [
+          {
+            "ar": "ترتكز وضعيات نوم الحامل في الشهر الثامن على النوم الجانبي المدعوم بالوسائد مع رفع الجزء العلوي من الجسم قليلاً إذا كنتِ تعانين من الحموضة أو ضيق التنفس ليلاً. في الشهر الثامن يزداد وزن الجنين ويشغل الرحم مساحة أكبر داخل البطن، مما يضغط على عضلة الحجاب الحاجز أسفل الرئتين وعلى المعدة وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus). يساعدكِ النوم على جانبكِ مع رفع رأسكِ وكتفيكِ بوسادة إضافية على التنفس براحة أكبر وتقليل ارتجاع أحماض المعدة.",
+            "en": "Pregnancy sleeping positions in the eighth month center on pillow-supported side sleeping while slightly elevating your upper body if you experience nighttime heartburn or shortness of breath. In the eighth month, your baby gains weight and your womb takes up more room, pressing on your diaphragm below your lungs and on your stomach according to MedlinePlus. Sleeping on your side with your head and upper body propped on an extra pillow helps you breathe more easily and reduces acid reflux."
+          },
+          {
+            "ar": "تُعدّ حرقة المعدة الليلية من أكثر الأسباب التي تقطع نوم الحامل في الشهر الثامن. يوضح موقع ميدلاين بلس الطبي (MedlinePlus) أن الجهاز الهضمي يعمل ببطء أكبر خلال الحمل، فيبقى الطعام في المعدة والأمعاء فترة أطول وتزداد الحموضة سوءاً عند الاستلقاء ليلاً. لتقليل هذا الانزعاج، ينصحكِ المصدر نفسه بتناول وجبات صغيرة، وتجنب الأطعمة الدهنية والحارة، وعدم الاستلقاء مباشرة بعد تناول الطعام.",
+            "en": "Nighttime heartburn is one of the most common reasons sleep breaks in the eighth month. MedlinePlus explains that your entire digestive system slows down during pregnancy, so food stays in your stomach and bowels longer and heartburn often worsens at night. To reduce this discomfort, the same source advises eating smaller meals, avoiding spicy and greasy foods, and not lying down flat right after eating."
+          },
+          {
+            "ar": "قد توقظكِ أيضاً تشنجات عضلات الساق أو القدم المفاجئة أثناء النوم على جانبكِ في الليل. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، تحدث هذه التقلصات المؤلمة غالباً في عضلة الساق الخلفية ليلاً، وتساعد تمارين القدم المنتظمة على تنشيط الدورة الدموية والوقاية منها. يمكنكِ أداء تمرين بسيط قبل النوم بثني قدمكِ ومدها بقوة للأعلى والأسفل ٣٠ مرة، ثم تدوير كل قدم في دائرة ٨ مرات في اتجاه و٨ مرات في الاتجاه المعاكس وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Sudden calf or foot cramps can also wake you while sleeping on your side at night. According to the NHS, these sharp muscle cramps happen most often at night, and regular gentle foot exercises improve circulation and help prevent them. Before bed, you can bend and stretch your foot vigorously up and down 30 times, then rotate each foot in a circle 8 times one way and 8 times the other way according to the NHS."
+          },
+          {
+            "ar": "إذا أيقظكِ تشنج عضلي مفاجئ في الساق أثناء الليل، يوصيكِ موقع ميدلاين بلس الطبي (MedlinePlus) بالضغط بقدمكِ بقوة على الحائط أو الوقوف على الساق المصابة حتى يزول الشد. كما يعاني بعض الحوامل في الشهر الثامن من تورم الكاحلين والقدمين في نهاية اليوم نتيجة تجمع السوائل وضغط الرحم على أوردة الساقين وفقاً لهيئة الخدمات الصحية البريطانية (NHS). يساعدكِ رفع ساقيكِ على وسادة أثناء الاستلقاء الجانبي بحيث تكون قدماكِ أعلى قليلاً من مستوى البطن على تخفيف هذا التورم وتحسين عودة الدم.",
+            "en": "If a sudden leg cramp wakes you at night, MedlinePlus recommends pressing your foot firmly against the wall or standing on the cramped leg until it eases. Some pregnant women in the eighth month also notice swollen ankles and feet at the end of the day due to fluid buildup and womb pressure on leg veins according to the NHS. Raising your legs on a pillow while lying on your side improves circulation and eases swelling."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "ارفعي رأسكِ والجزء العلوي من جسمكِ بوسائد إضافية مع البقاء مائلة على جانبكِ إذا شعرتِ بحرقة المعدة أو ضيق التنفس وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Prop your head and upper body on extra pillows while staying angled on your side if you feel heartburn or shortness of breath, according to MedlinePlus."
+          },
+          {
+            "ar": "مارسي تمرين ثني القدم ومدها ٣٠ مرة وتدويرها ٨ مرات في كل اتجاه قبل النوم للوقاية من تشنجات الساق الليلية وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Bend and stretch each foot 30 times and rotate it 8 times each way before bed to help prevent night leg cramps, according to the NHS."
+          },
+          {
+            "ar": "تجنبي شرب كميات كبيرة من السوائل أو تناول وجبة عشاء ثقيلة قبل موعد النوم بساعات قليلة لتقليل الحموضة والاستيقاظ المتكرر وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Avoid drinking large amounts of fluids or eating a heavy dinner within a few hours of bedtime to reduce heartburn and frequent waking, according to MedlinePlus."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "وضعيات نوم الحامل في الشهر التاسع استعداداً للولادة",
+          "en": "Pregnancy sleeping positions in the ninth month in preparation for birth"
+        },
+        "body": [
+          {
+            "ar": "تعتمد وضعيات نوم الحامل في الشهر التاسع على التبديل المرن بين الجانب الأيسر والجانب الأيمن مع وضع وسادة سميكة بين الركبتين والكاحلين لتخفيف آلام الحوض. في الأسابيع الأخيرة قبل الولادة يصل حجم البطن إلى أقصاه ويزداد الضغط على مفاصل الحوض والوركين عند الثبات على جهة واحدة طوال الليل. لذلك يمكنكِ الانتقال من الجانب الأيسر إلى الأيمن كلما شعرتِ بتعب في مفصل الورك دون أي قلق على سلامة الجنين.",
+            "en": "Pregnancy sleeping positions in the ninth month rely on alternating comfortably between your left and right sides while keeping a thick pillow between your knees and ankles to ease pelvic pain. In the final weeks before birth, your bump reaches its full size and puts extra pressure on your hip and pelvic joints when staying on one side all night. You can switch between your left and right sides whenever your hip feels sore without worrying about your baby's safety."
+          },
+          {
+            "ar": "تخشى بعض الأمهات في الشهر التاسع من النوم على الجانب الأيمن لاعتقادهن أن الجانب الأيسر وحده هو الآمن للجنين. توضح مؤسسة تومي لأبحاث الحمل والولادة (Tommy's) أن دراسة صغيرة واحدة في أوكلاند بنيوزيلندا أشارت إلى انخفاض الخطر عند النوم على الجانب الأيسر مقارنة بالأيمن، لكن ٣ دراسات بحثية منشورة بعدها لم تجد فرقاً حاسماً بين الجانبين الأيسر والأيمن. الخلاصة الطبية التي تؤكدها المؤسسة هي أن النوم على أي من الجانبين، الأيسر أو الأيمن، يحمي جنينكِ مقارنة بالنوم على الظهر.",
+            "en": "Some mothers in the ninth month worry about sleeping on their right side because they hear only the left side is safe. Tommy's explains that while one small study in Auckland, New Zealand, found a lower risk on the left side compared to the right, 3 subsequent published research studies did not find a conclusive difference between the left and right sides. The medical takeaway confirmed by Tommy's is that going to sleep on either your left or right side protects your baby compared with sleeping on your back."
+          },
+          {
+            "ar": "يزداد ألم الحوض، المعروف طبياً بألم الحزام الحوضي المرتبط بالحمل، لدى كثير من النساء في الشهر التاسع عند التقلب في السرير. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، ينتج هذا الألم عن تيبس مفاصل الحوض أو حركتها بشكل غير متساوٍ، ولا يضر الجنين لكنه يجعل الحركة والتقلب في الفراش مؤلمين. تنصحكِ الهيئة بوضع وسادة بين ساقيكِ للحصول على دعم إضافي في السرير، وإبقاء ركبتيكِ متقاربتين عند الدوران من جانب إلى آخر أو عند النهوض من الفراش.",
+            "en": "Pelvic pain, known medically as pregnancy-related pelvic girdle pain, often increases in the ninth month when turning over in bed. According to the NHS, this pain is caused by stiffness or uneven movement in your pelvic joints, and while it does not harm your baby, it makes turning in bed painful. The NHS advises putting a pillow between your legs for extra support in bed and keeping your knees together when turning over or getting out of bed."
+          },
+          {
+            "ar": "مع صعوبة النوم في الشهر التاسع وكثرة الأحلام أو التفكير في الولادة، قد تفكرين في تناول أعشاب مهدئة أو أدوية تساعدكِ على النوم. يحذر موقع ميدلاين بلس الطبي (MedlinePlus) بوضوح من تناول أي مساعدات للنوم أثناء الحمل، بما في ذلك الأدوية التي تُصرف دون وصفة طبية والمنتجات العشبية. بدلاً من ذلك، يمكنكِ تهدئة جسمكِ قبل النوم بحمام دافئ لمدة ١٥ دقيقة أو شرب كوب من الحليب الدافئ الخالي من الكافيين وفقاً للمصدر نفسه.",
+            "en": "When sleep becomes difficult in the ninth month due to vivid dreams or thoughts about birth, you might be tempted to try calming herbs or sleep tablets. MedlinePlus clearly warns against taking any sleep aids during pregnancy, including over-the-counter medicines and herbal products. Instead, you can relax before bed by soaking in a warm bath for 15 minutes or drinking warm, caffeine-free milk according to the same source."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "استحمي بماء دافئ لمدة ١٥ دقيقة أو اشربي مشروباً دافئاً خالياً من الكافيين مثل الحليب قبل النوم للاسترخاء وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Soak in a warm bath for 15 minutes or have a warm, caffeine-free drink like milk before bed to relax, according to MedlinePlus."
+          },
+          {
+            "ar": "حافظي على برودة غرفة النوم وارتدي ملابس فضفاضة مصنوعة من ألياف طبيعية لتقليل التعرق الليلي وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+            "en": "Keep your bedroom cool and wear loose clothing made of natural fibers to reduce night sweating, according to the NHS."
+          },
+          {
+            "ar": "امتنعي تماماً عن تناول أي حبوب منومة أو مكملات عشبية للنوم دون استشارة طبيبكِ وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Do not take any over-the-counter sleep medicines or herbal products without medical advice, according to MedlinePlus."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين باستخدام الوسائد",
+          "en": "Best pregnancy sleeping positions to avoid pressure on your baby using pillows"
+        },
+        "body": [
+          {
+            "ar": "تتحقق أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين باستخدام الوسائد عبر تثبيت ثلاث نقاط أساسية في جسمكِ أثناء الاستلقاء الجانبي: تحت البطن، وبين الركبتين، وخلف أسفل الظهر. لا تحتاجين بالضرورة إلى شراء وسادة حمل خاصة باهظة الثمن، إذ يمكنكِ استخدام وسائد السرير العادية أو البطانيات المطوية لتوفير الدعم نفسه وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus). الهدف من توزيع الوسائد هو منع جسمكِ من الانقلاب التلقائي على الظهر أو البطن أثناء النوم العميق وتخفيف العبء عن المفاصل.",
+            "en": "The best pregnancy sleeping positions to avoid pressure on your baby using pillows work by supporting three key areas while lying on your side: under your belly, between your knees, and behind your lower back. You do not need to buy an expensive specialized maternity pillow, as regular bed pillows or rolled blankets provide the same support according to MedlinePlus. The goal of placing pillows is to stop your body from rolling flat onto your back during deep sleep while taking strain off your joints."
+          },
+          {
+            "ar": "عندما تستلقين على جانبكِ دون دعم تحت البطن، يميل وزن الرحم إلى سحب عضلات البطن والعمود الفقري نحو المرتبة. يوصي موقع ميدلاين بلس الطبي (MedlinePlus) بوضع وسادة مريحة أسفل البطن لرفع ثقله برفق ومنع شد الأربطة الجانبية. وفي الوقت نفسه، يمنع وضع وسادة بين الساقين انزلاق الفخذ العلوي إلى الأمام، مما يحافظ على استقامة الحوض ويخفف الضغط عن مفصل الورك السفلي.",
+            "en": "When you lie on your side without support under your bump, the weight of your womb pulls your abdominal muscles and spine toward the mattress. MedlinePlus recommends placing a comfortable pillow under your belly to gently hold its weight and prevent ligament strain. At the same time, placing a pillow between your legs stops your top thigh from sliding forward, keeping your pelvis level and easing pressure on your lower hip."
+          },
+          {
+            "ar": "تساعدكِ الوسادة الخلفية على حل مشكلة الانقلاب غير المقصود على الظهر أثناء الليل. وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus)، فإن حشر وسادة مطوية أو بطانية ملفوفة عند تجويف أسفل الظهر يخفف الضغط عن الفقرات القطنية. كما تعمل هذه الوسادة الخلفية كمسند مائل يسند ظهركِ إذا تحركتِ أثناء النوم، فيبقى حوضكِ مائلاً بزاوية جانبية ولا يضغط الرحم بشكل مباشر على الوريد الأجوف السفلي.",
+            "en": "A back pillow solves the problem of accidentally rolling flat onto your back overnight. According to MedlinePlus, tucking a bunched-up pillow or rolled blanket into the small of your back relieves pressure on your lower spine. This rear support also acts as a wedge if you shift in your sleep, keeping your pelvis tilted at an angle so your womb does not press flat against the inferior vena cava."
+          },
+          {
+            "ar": "إذا كانت مرتبة سريركِ لينة جداً وتسبب لكِ آلاماً في الظهر أو الوركين عند النوم الجانبي، يمكنكِ تعديل سطح النوم بسهولة. تنصح هيئة الخدمات الصحية البريطانية (NHS) باستخدام مرتبة تدعم الجسم بشكل سليم، مع إمكانية وضع لوح صلب تحت المرتبة اللينة لجعلها أكثر تماسكاً عند الحاجة. كما يشير موقع ميدلاين بلس الطبي (MedlinePlus) إلى إمكانية استخدام طبقة إسفنجية مموجة فوق جانبكِ من السرير لتخفيف ألم الوركين الناتج عن النوم الجانبي المتواصل.",
+            "en": "If your mattress is too soft and causes back or hip pain during side sleeping, you can adjust your sleeping surface easily. The NHS advises using a mattress that supports you properly, noting you can place a piece of hardboard under a soft mattress to make it firmer if needed. MedlinePlus also suggests using an egg-crate foam topper on your side of the bed to relieve sore hips from continuous side sleeping."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "استلقي على جانبكِ الأيسر أو الأيمن واثني ركبتيكِ قليلاً باتجاه الصدر في وضعية مريحة غير مشدودة وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Lie on your left or right side and bend your knees slightly in a relaxed posture, according to MedlinePlus."
+          },
+          {
+            "ar": "ضعي وسادة رفيعة تحت بطنكِ ووسادة ثانية بين ركبتيكِ وكاحليكِ لموازنة الحوض والعمود الفقري وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Place a thin pillow under your belly and a second pillow between your knees and ankles to align your pelvis and spine, according to MedlinePlus."
+          },
+          {
+            "ar": "ثبّتي وسادة مطوية أو بطانية ملفوفة خلف أسفل ظهركِ لمنع الانقلاب الكامل على الظهر أثناء النوم وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus).",
+            "en": "Tuck a bunched pillow or rolled blanket behind your lower back to prevent rolling flat onto your back during sleep, according to MedlinePlus."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "redFlags": {
+      "intro": {
+        "ar": "تواصلي مع طبيبكِ أو وحدة الطوارئ للولادة فوراً دون انتظار الصباح إذا لاحظتِ أياً من العلامات التالية عند الاستلقاء أو أثناء الليل، وفقاً لهيئة الخدمات الصحية البريطانية (NHS):",
+        "en": "Contact your doctor or maternity unit immediately without waiting until morning if you notice any of the following signs when lying down or during the night, according to the NHS:"
+      },
+      "items": [
+        {
+          "ar": "انخفاض حركة جنينكِ عن المعتاد، أو تغير نمط حركته اليومي، أو التوقف عن الشعور بحركته عند الاستلقاء ليلاً.",
+          "en": "Your baby is moving less than usual, their normal pattern of movement has changed, or you cannot feel them moving when lying down at night."
+        },
+        {
+          "ar": "الشعور بدوار شديد أو إغماء عند الاستلقاء لا يتحسن حتى بعد الانقلاب على جانبكِ.",
+          "en": "Feeling faint or dizzy while lying down that does not pass after turning onto your side."
+        },
+        {
+          "ar": "حرقة شديدة أو ألم حاد أسفل الضلوع لا يزول بمضادات الحموضة، أو يصاحبه صداع شديد أو تشوش في الرؤية أو تورم مفاجئ في الوجه واليدين والقدمين.",
+          "en": "Severe pain just below your ribs or heartburn that does not go away with antacids, accompanied by a bad headache, vision problems, or sudden swelling in your face, hands, or feet."
+        },
+        {
+          "ar": "ألم في الظهر في الثلث الثاني أو الثالث يصاحبه نزيف مهبلي، أو حمى، أو فقدان الإحساس في إحدى الساقين أو كلتيهما.",
+          "en": "Back pain in the second or third trimester accompanied by vaginal bleeding, fever, or loss of feeling in one or both legs."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src4"
+      ]
+    },
+    "faqs": [
+      {
+        "q": {
+          "ar": "هل وضعيات نوم الحامل تؤثر على الجنين؟",
+          "en": "Do pregnancy sleeping positions affect the baby?"
+        },
+        "a": {
+          "ar": "نعم، تؤثر وضعية النوم على الجنين في الثلث الثالث من الحمل ابتداءً من الأسبوع ٢٨. وفقاً لهيئة الخدمات الصحية البريطانية (NHS) ومؤسسة تومي (Tommy's)، يضغط النوم على الظهر في أواخر الحمل على الأوعية الدموية الكبرى مما يقلل تدفق الدم والأكسجين إلى الجنين ويرفع خطر ولادة جنين ميت، بينما يحمي النوم على الجانب الأيسر أو الأيمن سلامة طفلكِ.",
+          "en": "Yes, sleeping position affects your baby in the third trimester starting from week 28. According to the NHS and Tommy's, going to sleep on your back in late pregnancy presses on major blood vessels, restricting blood flow and oxygen to your baby and increasing the risk of stillbirth, whereas sleeping on your left or right side keeps your baby safe."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما هي وضعيات نوم الحامل في الشهر الاول؟",
+          "en": "What are the pregnancy sleeping positions in the first month?"
+        },
+        "a": {
+          "ar": "تشمل وضعيات نوم الحامل في الشهر الاول النوم على الجانب أو الظهر أو البطن بحسب ما يريح جسمكِ. يكون الجنين في الشهر الأول صغيراً جداً داخل الحوض ولا يتأثر بوضعية استلقائكِ، لكن موقع ميدلاين بلس الطبي (MedlinePlus) ينصح بالاستلقاء على الجانب مع ثني الركبتين للتعود المبكر على الوضعية الأفضل لبقية أشهر الحمل.",
+          "en": "Pregnancy sleeping positions in the first month include sleeping on your side, back, or stomach depending on what feels comfortable. Your baby in the first month is tiny and protected inside the pelvis, though MedlinePlus recommends lying on your side with bent knees to build the habit early for the rest of pregnancy."
+        }
+      },
+      {
+        "q": {
+          "ar": "كيف تكون وضعيات نوم الحامل في الشهر الثاني؟",
+          "en": "What are the pregnancy sleeping positions in the second month?"
+        },
+        "a": {
+          "ar": "تتيح لكِ وضعيات نوم الحامل في الشهر الثاني حرية النوم في الوضعية التي تمنحكِ أطول قسط من الراحة، مع تفضيل النوم الجانبي إذا بدأتِ تشعرين بحساسية في الثديين أو غثيان ليلي. وفقاً لهيئة الخدمات الصحية البريطانية (NHS)، يبلغ التعب الصباحي والمسائي ذروته في الأسابيع ١٢ الأولى، لذا احرصي على أخذ قسط كافٍ من النوم والراحة.",
+          "en": "Pregnancy sleeping positions in the second month allow you to sleep in whatever posture gives you the best rest, with side sleeping preferred if breast tenderness or night nausea starts. According to the NHS, tiredness peaks during the first 12 weeks, so prioritize getting plenty of rest."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما أنسب وضعيات نوم الحامل في الشهر الثالث؟",
+          "en": "What are the most suitable pregnancy sleeping positions in the third month?"
+        },
+        "a": {
+          "ar": "تُعدّ أنسب وضعيات نوم الحامل في الشهر الثالث هي النوم على أحد الجانبين مع وضع وسادة خفيفة بين الركبتين استعداداً للثلث الثاني من الحمل. يظل النوم على الظهر آمناً في نهاية الشهر الثالث، غير أن التعود على النوم الجانبي الآن يسهل عليكِ الراحة عندما يبدأ حجم البطن بالبروز.",
+          "en": "The most suitable pregnancy sleeping positions in the third month are lying on either side with a light pillow between your knees in preparation for the second trimester. Back sleeping remains safe at the end of the third month, but getting used to side sleeping now makes rest easier once your bump begins to show."
+        }
+      },
+      {
+        "q": {
+          "ar": "ما هي وضعيات نوم الحامل في الشهر الرابع؟",
+          "en": "What are the pregnancy sleeping positions in the fourth month?"
+        },
+        "a": {
+          "ar": "مع بداية الثلث الثاني في الشهر الرابع، يفضل انتقالكِ التدريجي إلى النوم على الجانب الأيسر أو الأيمن وتجنب الاستلقاء الطويل على الظهر أو البطن. وفقاً لموقع ميدلاين بلس الطبي (MedlinePlus)، يخفف النوم على الجانب مع ثني الركبتين الضغط عن الأوردة الرئيسية ويساعد قلبكِ وكليتيكِ على ضخ الدم وتصفيته بكفاءة.",
+          "en": "With the start of the second trimester in the fourth month, it is best to shift to sleeping on your left or right side and avoid lying flat on your back or stomach for long periods. According to MedlinePlus, side sleeping with bent knees keeps pressure off major veins and helps your heart and kidneys work efficiently."
+        }
+      },
+      {
+        "q": {
+          "ar": "ماذا أفعل إذا استيقظتُ وأنا نائمة على ظهري في الأشهر الأخيرة؟",
+          "en": "What should I do if I wake up on my back in late pregnancy?"
+        },
+        "a": {
+          "ar": "لا تقلقي إذا استيقظتِ ليلاً ووجدتِ نفسكِ على ظهركِ، فهذا أمر طبيعي لا يمكنكِ التحكم فيه أثناء النوم. وفقاً لمؤسسة تومي لأبحاث الحمل والولادة (Tommy's)، المهم هو أن تنقلبي بهدوء وتعودي إلى النوم على جانبكِ الأيسر أو الأيمن، مع وضع وسادة خلف ظهركِ لتقليل تكرر الانقلاب.",
+          "en": "Do not panic if you wake up at night and find yourself on your back, as you cannot control your posture while asleep. According to Tommy's, simply roll onto your left or right side to go back to sleep, and tuck a pillow behind your back to help prevent rolling over again."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل النوم على الجانب الأيمن يضر الجنين مقارنة بالجانب الأيسر؟",
+          "en": "Does sleeping on the right side harm the baby compared to the left side?"
+        },
+        "a": {
+          "ar": "لا يضر النوم على الجانب الأيمن جنينكِ، بل يُعدّ آمناً تماماً مثل الجانب الأيسر وفقاً لمؤسسة تومي (Tommy's) وهيئة الخدمات الصحية البريطانية (NHS). يوضح موقع ميدلاين بلس الطبي (MedlinePlus) أن النوم على الجانب الأيسر يحسن تدفق الدم ويبعد الضغط عن الكبد، لكن يمكنكِ التبديل إلى الجانب الأيمن متى شعرتِ بتعب في الورك الأيسر.",
+          "en": "Sleeping on your right side does not harm your baby and is safe just like the left side, according to Tommy's and the NHS. MedlinePlus notes that while left-side sleeping improves blood flow and keeps pressure off your liver, it is completely fine to switch to your right side whenever your left hip feels uncomfortable."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "تابعي أعراض نومكِ اليومية في تطبيق نواة",
+        "en": "Track your daily sleep symptoms in the Nawah app"
+      },
+      "body": {
+        "ar": "يتيح لكِ سجل الأعراض والمزاج في تطبيق نواة تدوين ما يوقظكِ ليلاً مثل حرقة المعدة أو آلام الظهر أو تشنجات الساقين يوماً بيوم، لتشاركي تفاصيلها بدقة مع طبيبكِ في زيارتكِ القادمة. أعدّ فريق نواة هذا المحتوى بالاعتماد على المراجع الطبية الموثقة دون مراجعة من طبيب سريري.",
+        "en": "The symptom and mood log in the Nawah app lets you record what wakes you at night, such as heartburn, backache, or leg cramps day by day, so you can share accurate details with your doctor at your next visit. The Nawah team prepared this content from verified medical sources without review by a clinician."
+      },
+      "button": {
+        "ar": "حمّلي نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [
+      {
+        "id": "src1",
+        "org": "NHS",
+        "title": {
+          "ar": "المشكلات الصحية الشائعة في الحمل وآلام الظهر والحوض",
+          "en": "Common health problems in pregnancy, back pain and pelvic pain"
+        },
+        "url": "https://www.nhs.uk/pregnancy/common-symptoms/common-health-problems/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src2",
+        "org": "MedlinePlus",
+        "title": {
+          "ar": "مشكلات النوم أثناء الحمل والأعراض الشائعة",
+          "en": "Problems sleeping during pregnancy"
+        },
+        "url": "https://medlineplus.gov/ency/patientinstructions/000559.htm",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src3",
+        "org": "Tommy's",
+        "title": {
+          "ar": "أسئلة وأجوبة حول وضعية النوم أثناء الحمل",
+          "en": "Sleep position in pregnancy Q&A"
+        },
+        "url": "https://www.tommys.org/pregnancy-information/im-pregnant/sleep-side/sleep-position-pregnancy-qa",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src4",
+        "org": "NHS",
+        "title": {
+          "ar": "حركات جنينكِ أثناء الحمل",
+          "en": "Your baby's movements"
+        },
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "keywords": [
+      "أفضل وضعيات نوم الحامل لتجنب الضغط على الجنين",
+      "هل وضعيات نوم الحامل تؤثر على الجنين",
+      "وضعيات نوم الحامل في الاشهر الاولى",
+      "وضعيات نوم الحامل في الشهر الاول",
+      "وضعيات نوم الحامل في الشهر الثاني",
+      "وضعيات نوم الحامل في الشهر الثالث",
+      "وضعيات نوم الحامل في الشهر الخامس",
+      "وضعيات نوم الحامل في الشهر السادس",
+      "وضعيات نوم الحامل في الشهر السابع",
+      "وضعيات نوم الحامل في الشهر الثامن",
+      "وضعيات نوم الحامل في الشهر التاسع"
+    ],
+    "related": [
+      "/ar/guide/7",
+      "/ar/guide/8",
+      "/ar/guide/9",
+      "/ar/father/baby-movements"
+    ],
+    "updated": "2026-11-13"
+  },
+  {
+    "cluster": "father_expansion",
+    "slug": "smoking-husband-during-pregnancy",
+    "published": true,
+    "hero": {
+      "src": "/articles/smoking-husband-during-pregnancy-hero.jpg",
+      "photographer": "Burst",
+      "photographerUrl": "https://www.pexels.com/@burst",
+      "pexelsUrl": "https://www.pexels.com/photo/white-table-lamp-and-vase-on-side-nightstand-545034/",
+      "width": 4460,
+      "height": 2973,
+      "alt": {
+        "ar": "غرفة نوم مشرقة بنافذة واسعة وستارة فاتحة ومصباح نحاسي على طاولة بجوار السرير",
+        "en": "A bright bedroom with a large window, light curtains and a copper lamp on the bedside table"
+      }
+    },
+    "eyebrow": {
+      "ar": "دليل الأب — صحة الأم والجنين",
+      "en": "Father's Guide — Maternal and Fetal Health"
+    },
+    "title": {
+      "ar": "الزوج المدخن والحمل: كيف تحمي زوجتكَ وجنينكَ من أضرار التدخين السلبي",
+      "en": "Smoking Husband and Pregnancy: How to Protect Your Wife and Baby from Secondhand Smoke"
+    },
+    "metaTitle": {
+      "ar": "الزوج المدخن والحمل: حماية زوجتكَ والجنين | نواة",
+      "en": "Smoking Husband and Pregnancy: A Father's Guide | Nawah"
+    },
+    "description": {
+      "ar": "الزوج المدخن والحمل: دليلكَ العملي لفهم تأثير التدخين السلبي والشيشة على زوجتكَ وجنينكَ، وخطوات حماية المنزل والسيارة وتهيئة بيئة آمنة لطفلكَ.",
+      "en": "Smoking husband and pregnancy: your practical guide to how secondhand smoke and shisha affect your pregnant wife and baby, plus steps for a smoke-free home."
+    },
+    "standfirst": {
+      "ar": "تعرّف على ما يحدث لجنينكَ عندما تستنشق زوجتكَ دخان السجائر أو الشيشة، والخطوات اليومية التي تمنع وصول الغازات السامة إلى غرفتها وسيارتها.",
+      "en": "Learn what happens to your baby when your wife breathes in cigarette or shisha smoke, and the daily steps that keep toxic gases out of your home and car."
+    },
+    "sections": [
+      {
+        "heading": {
+          "ar": "تأثير الزوج المدخن والحمل على الجنين",
+          "en": "How a smoking husband and pregnancy affect the baby"
+        },
+        "body": [
+          {
+            "ar": "يرتبط الزوج المدخن والحمل بانتقال الغازات السامة من هواء الغرفة إلى دم الأم ثم إلى الجنين عبر المشيمة، مما يرفع خطر الولادة المبكرة وانخفاض وزن المولود، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). عندما تدخن بالقرب من زوجتكَ، تستنشق هي الدخان المنبعث من طرف السيجارة المشتعل والدخان الذي تخرجه أنتَ مع الزفير. يُعرف هذا التعرض بالتدخين السلبي، وهو يحمل للجنين مخاطر قريبة مما يحدث لو كانت الأم تدخن بنفسها.",
+            "en": "A smoking husband and pregnancy are linked through toxic gases passing from the room air into the mother's bloodstream and across the placenta to the fetus, raising the risk of premature birth and low birth weight, according to the UK National Health Service (NHS). When you smoke near your wife, she breathes in both the smoke from the lit end of the cigarette and the smoke you exhale. This exposure is called secondhand smoke, and it carries risks for the baby similar to maternal smoking."
+          },
+          {
+            "ar": "وفقاً لمنصة الخدمات الصحية الوطنية في اسكتلندا (NHS Inform)، يحتوي دخان التبغ على أكثر من ٧٠٠٠ مادة كيميائية ضارة، من بينها ٧٠ مادة معروفة بأنها تسبب السرطان مباشرة. عند احتراق التبغ في السجائر العادية أو السجائر الملفوفة يدوياً أو السيجار أو الشيشة، ينطلق غاز أول أكسيد الكربون السام الذي لا لون له ولا رائحة. يحل هذا الغاز محل الأكسجين في دم زوجتكَ، فيقل نصيب الجنين من الأكسجين والغذاء اللازمين لنموه كل يوم.",
+            "en": "According to NHS Inform Scotland, tobacco smoke contains more than 7,000 harmful chemicals, including 70 known to directly cause cancer. When tobacco burns in store-bought cigarettes, hand-rolled cigarettes, cigars, or shisha, it releases poisonous carbon monoxide gas, which you cannot see or smell. This gas replaces oxygen in your wife's blood, reducing the oxygen and nutrients reaching your baby every day."
+          },
+          {
+            "ar": "توضح مؤسسة توميز لأبحاث الحمل والولادة (Tommy's) أن نقص الأكسجين الناتج عن التدخين السلبي يجبر قلب الجنين على النبض بجهد أكبر لتعويض النقص. كما تشير منصة (NHS Inform) إلى أن استنشاق الدخان السلبي يجعل الدم أكثر لزوجة، مما يزيد قابلية تكون الجلطات الدموية حتى مع التعرض القصير. لذلك فإن قراركَ بإبعاد الدخان عن محيط زوجتكَ يحمي دورتها الدموية ويمنح جنينكَ بيئة نمو مستقرة منذ الأسابيع الأولى.",
+            "en": "Tommy's pregnancy research charity explains that oxygen deprivation from secondhand smoke forces the baby's heart to work harder to compensate. NHS Inform also notes that breathing secondhand smoke makes the blood stickier, increasing the risk of blood clots even after brief exposure. Your decision to keep smoke away from your wife therefore protects her circulation and gives your baby a stable environment from the earliest weeks."
+          },
+          {
+            "ar": "تُعرَّف المشيمة طبياً بأنها العضو المؤقت الذي يتصل بجدار الرحم وينقل الأكسجين والعناصر الغذائية من دم الأم إلى الجنين عبر الحبل السري. وفقاً لمؤسسة توميز (Tommy's)، يؤدي تعرض الحامل لدخان التبغ وأول أكسيد الكربون إلى إضعاف كفاءة المشيمة ورفع احتمالات المضاعفات الموضحة في الجدول التالي.",
+            "en": "The placenta is defined medically as the temporary organ attached to the wall of the uterus that delivers oxygen and nutrients from the mother's blood to the fetus through the umbilical cord. According to Tommy's, exposure to tobacco smoke and carbon monoxide impairs placental function and raises the risk of the complications outlined in the table below."
+          }
+        ],
+        "table": {
+          "head": [
+            {
+              "ar": "المادة الكيميائية في الدخان",
+              "en": "Chemical in smoke"
+            },
+            {
+              "ar": "ما تفعله في جسم الأم والمشيمة",
+              "en": "What it does to mother and placenta"
+            },
+            {
+              "ar": "الأثر المباشر على الجنين والرضيع",
+              "en": "Direct effect on fetus and newborn"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "ar": "أول أكسيد الكربون",
+                "en": "Carbon monoxide"
+              },
+              {
+                "ar": "يحل محل الأكسجين في كريات الدم الحمراء ويقلل الأكسجين العابر للمشيمة",
+                "en": "Replaces oxygen in red blood cells and reduces oxygen crossing the placenta"
+              },
+              {
+                "ar": "بطء النمو داخل الرحم، وانخفاض وزن المولود، وإجهاد قلب الجنين",
+                "en": "Slower growth in the womb, low birth weight, and extra strain on the fetal heart"
+              }
+            ],
+            [
+              {
+                "ar": "النيكوتين",
+                "en": "Nicotine"
+              },
+              {
+                "ar": "يسبب الإدمان ويضيق الأوعية الدموية المغذية للرحم والمشيمة",
+                "en": "Causes addiction and narrows blood vessels supplying the uterus and placenta"
+              },
+              {
+                "ar": "تقييد وصول الغذاء والأكسجين وزيادة خطر الولادة المبكرة وانفصال المشيمة",
+                "en": "Restricted nutrient and oxygen supply, raising preterm birth and placental abruption risk"
+              }
+            ],
+            [
+              {
+                "ar": "القطران والسموم المسرطنة (أكثر من ٧٠٠٠ مادة)",
+                "en": "Tar and carcinogenic toxins (over 7,000 chemicals)"
+              },
+              {
+                "ar": "تهيج الشعب الهوائية، وزيادة لزوجة الدم، وإضعاف أنسجة المشيمة",
+                "en": "Airway irritation, stickier blood, and damage to placental tissues"
+              },
+              {
+                "ar": "زيادة خطر الإجهاض، وولادة جنين ميت، ومتلازمة موت الرضيع المفاجئ بعد الولادة",
+                "en": "Higher risk of miscarriage, stillbirth, and sudden infant death syndrome after birth"
+              }
+            ]
+          ]
+        },
+        "cites": [
+          "src1",
+          "src3",
+          "src5",
+          "src7"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "التدخين السلبي للحامل في المنزل والسيارة",
+          "en": "Secondhand smoke around a pregnant wife in the home and car"
+        },
+        "body": [
+          {
+            "ar": "يبقى دخان السجائر معلقاً في هواء الغرفة لمدة تصل إلى ٥ ساعات حتى مع فتح النوافذ، وفقاً لمؤسسة توميز (Tommy's) ومنصة (NHS Inform). يعتقد كثير من الآباء أن التدخين في الشرفة القريبة من باب مفتوح أو في غرفة أخرى داخل الشقة يكفي لحماية الزوجة الحامل. غير أن هيئة الخدمات الصحية البريطانية (NHS) تؤكد أن حصر التدخين في غرفة واحدة أو فتح الشباك لا يمنع انتشار الغازات السامة إلى باقي غرف المنزل.",
+            "en": "Cigarette smoke stays suspended in room air for up to 5 hours even with a window open, according to Tommy's and NHS Inform. Many fathers assume that smoking in another room or next to an open window is enough to protect a pregnant wife. However, the NHS confirms that limiting smoking to one room or opening windows does not stop toxic gases from spreading throughout the house."
+          },
+          {
+            "ar": "وفقاً لمؤسسة توميز (Tommy's)، فإن ٨٠٪ من التدخين السلبي غير مرئي ولا رائحة له، لذلك فإن اختفاء رائحة الدخان من الصالة لا يعني أن الهواء أصبح نقياً. عندما تدخن داخل البيت، تتسرب الجزيئات الدقيقة عبر الممرات وفتحات التكييف وتستقر في الهواء الذي تتنفسه زوجتكَ لساعات طويلة بعد إطفاء السيجارة. والحل الوحيد الفعال لحماية هواء المنزل هو نقل التدخين بالكامل إلى خارج المبنى مع إغلاق الأبواب والنوافذ.",
+            "en": "According to Tommy's, 80% of secondhand smoke is invisible and odourless, meaning that once the smell fades from the living room, the air is still not clean. When you smoke indoors, fine particles travel through hallways and air vents and remain in the air your wife breathes for hours after you stub out the cigarette. The only effective way to protect indoor air is to take all smoking completely outside the building with doors and windows closed."
+          },
+          {
+            "ar": "في الأماكن المغلقة الصغيرة مثل السيارة، يرتفع تركيز المواد السامة بسرعة أكبر بكثير من الغرف الواسعة، وفقاً لمؤسسة توميز (Tommy's). وتشير المؤسسة إلى أن الدخان يبقى معلقاً في هواء السيارة لمدة تصل إلى ساعتين ونصف حتى مع فتح نافذة السيارة أثناء القيادة. لذلك توصي هيئة الخدمات الصحية البريطانية (NHS) بجعل السيارة منطقة خالية من التدخين تماماً في جميع الأوقات، حتى عندما تقود بمفردكَ قبل ركوب زوجتكَ.",
+            "en": "In small enclosed spaces like a car, toxic concentrations build up much faster than in large rooms, according to Tommy's. The charity notes that smoke remains in car air for up to two and a half hours even with the car window open while driving. The NHS therefore recommends keeping your car completely smoke-free at all times, even when driving alone before your wife gets in."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "اجعل المنزل منطقة خالية من التدخين تماماً ولا تدخن في المطبخ أو الحمام أو بجوار الشفاط أو النافذة المفتوحة.",
+            "en": "Make the home completely smoke-free and never smoke in the kitchen, bathroom, or next to an extractor fan or open window."
+          },
+          {
+            "ar": "امنع التدخين داخل السيارة في جميع الأوقات، سواء كانت زوجتكَ معكَ في الرحلة أم كنتَ تقود وحدكَ.",
+            "en": "Stop all smoking inside the car at all times, whether your wife is riding with you or you are driving alone."
+          },
+          {
+            "ar": "اطلب من الضيوف والأقارب بلطف التدخين خارج المنزل، واعتذر عن الجلوس في المقاهي أو المجالس المغلقة التي يُسمح فيها بالتدخين.",
+            "en": "Politely ask guests and relatives to smoke outside, and avoid indoor cafes or lounges where smoking is permitted."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src3",
+          "src7"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "الزوج المدخن والحمل وبقايا الدخان على الملابس أثناء الحمل",
+          "en": "Smoking husband and pregnancy: smoke residue on clothes during pregnancy"
+        },
+        "body": [
+          {
+            "ar": "تلتصق المواد الكيميائية الناتجة عن الزوج المدخن والحمل بالملابس والشعر والجلد حتى عند التدخين خارج المنزل، وتؤثر في المحيطين بكَ عند العودة إلى الداخل، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). فعندما تدخن في الشارع أو الحديقة ثم تجلس بجانب زوجتكَ على الأريكة أو تعانقها، تنتقل هذه الجزيئات العالقة في قميصكَ ويديكَ إلى مجال تنفسها المباشر. كما تترسب هذه السموم على الوسائد والسجاد والستائر في المنزل.",
+            "en": "Chemicals from a smoking husband and pregnancy cling to clothes, hair, and skin even when you smoke outside, affecting those around you when you come back indoors, according to the NHS. When you smoke on the street or in the garden and then sit next to your wife on the sofa or hug her, particles trapped in your shirt and on your hands transfer into her breathing zone. These toxins also settle onto cushions, carpets, and curtains."
+          },
+          {
+            "ar": "تنصح منصة (NHS Inform) بتنظيف السجاد والمفروشات بالبخار بانتظام لتقليل الجزيئات السامة المتراكمة في بيئة المنزل. إذا كنتَ لم تتوقف عن التدخين بعد وتدخن خارج الشقة، فإن اتباع روتين نظافة سريع فور عودتكَ يقلل تعرض زوجتكَ الحامل لهذه البقايا الكيميائية. هذه الخطوات البسيطة تحميها من الغثيان وتهيج العينين والصداع الذي يسببه استنشاق بقايا التبغ العالقة بالأقمشة.",
+            "en": "NHS Inform advises cleaning and steaming carpets regularly to reduce toxic particles built up in the home. If you have not yet quit and smoke outside the apartment, following a quick hygiene routine as soon as you come back indoors reduces your pregnant wife's exposure to chemical residue. These practical habits also spare her the nausea, eye irritation, and headaches triggered by tobacco residue on fabrics."
+          },
+          {
+            "ar": "يصبح هذا الروتين أكثر أهمية مع اقتراب موعد الولادة وتجهيز غرفة المولود ومفروشاته. تشير مؤسسة ذا لالابي ترست (The Lullaby Trust) إلى ضرورة حفظ مستلزمات الطفل، مثل مقعد السيارة ومهد النوم، في مكان نظيف وجاف وخالٍ تماماً من دخان التبغ. تعويد نفسكَ من الآن على فصل ملابس التدخين عن ملابس الجلوس في البيت يختصر عليكَ جهداً كبيراً عند وصول طفلكَ.",
+            "en": "This routine becomes even more valuable as the due date approaches and you prepare the nursery and baby gear. The Lullaby Trust emphasises storing baby equipment, such as car seats and cots, in a clean, dry, and completely smoke-free space. Getting into the habit of separating outdoor smoking clothes from indoor home clothes now prepares your household before your baby arrives."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "خصّص سترة أو قميصاً خارجياً ترتديه عند الخروج للتدخين فقط، واخلعه خارج باب الشقة أو في مدخل مهوّى بعيداً عن غرف المعيشة والنوم.",
+            "en": "Keep a dedicated outer jacket or shirt worn only when stepping outside to smoke, and take it off outside the apartment door or in a ventilated entryway."
+          },
+          {
+            "ar": "اغسل يديكَ ووجهكَ بالماء والصابون ونظّف فمكَ أو أسنانكَ فور العودة إلى المنزل قبل الجلوس بجانب زوجتكَ.",
+            "en": "Wash your hands and face with soap and water and rinse your mouth or brush your teeth immediately upon coming indoors before sitting near your wife."
+          },
+          {
+            "ar": "نظّف السجاد والستائر وأغطية الأرائك بالبخار والغسيل الدوري لإزالة الجزيئات السامة المترسبة في الأقمشة.",
+            "en": "Clean carpets, curtains, and sofa covers regularly with steam and washing to remove toxic particles settled in household fabrics."
+          },
+          {
+            "ar": "احفظ ملابس المولود الجديد ومفرش السرير ومقعد السيارة في خزائن مغلقة داخل غرف لم يدخلها الدخان قط.",
+            "en": "Store newborn clothes, bedding, and the car seat in closed cupboards inside rooms that have always been smoke-free."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "الشيشة والسجائر الإلكترونية للحامل",
+          "en": "Shisha and e-cigarettes around a pregnant wife"
+        },
+        "body": [
+          {
+            "ar": "يحتوي دخان الشيشة على مستويات مرتفعة من المواد الكيميائية المسببة للسرطان والغازات السامة مثل أول أكسيد الكربون تماماً مثل دخان السجائر، وفقاً لهيئة الخدمات الصحية البريطانية (NHS). يظن بعض الأزواج أن مرور دخان المعسل عبر الماء في الشيشة ينقيه من السموم أو يجعله أخف ضرراً على الحامل عند تدخينها في البيت أو المقهى. وتؤكد مؤسسة توميز (Tommy's) أن احتراق التبغ والفحم في الشيشة يطلق غاز أول أكسيد الكربون الذي يعبر المشيمة ويقلل أكسجين الجنين.",
+            "en": "Shisha (waterpipe) smoke contains significant levels of cancer-causing chemicals and toxic gases such as carbon monoxide just like cigarette smoke, according to the NHS. Some husbands assume that passing flavoured tobacco smoke through water filters out toxins or makes it safer around a pregnant wife at home or in a cafe. Tommy's confirms that burning tobacco and charcoal in shisha releases carbon monoxide, which crosses the placenta and reduces the baby's oxygen supply."
+          },
+          {
+            "ar": "أما السجائر الإلكترونية (الفيب)، فتوضح مؤسسة توميز (Tommy's) أنها تسخن سائلاً يحتوي عادة على النيكوتين والمنكهات دون حرق التبغ، ولذلك فهي لا تنتج القطران ولا غاز أول أكسيد الكربون، وهما المادتان الأكثر خطورة على الجنين في دخان السجائر. إذا كنتَ تستخدم السجائر الإلكترونية وسيلةً للتوقف الكامل عن تدخين التبغ، فإن مخاطرها أقل بكثير من الاستمرار في تدخين السجائر العادية أو الشيشة.",
+            "en": "As for e-cigarettes (vapes), Tommy's explains that they heat a liquid usually containing nicotine and flavourings without burning tobacco, so they do not produce tar or carbon monoxide, the two main harmful substances in tobacco smoke for a developing baby. If you use an e-cigarette to quit smoking tobacco completely, its risks are far lower than continuing to smoke cigarettes or shisha."
+          },
+          {
+            "ar": "مع ذلك، تشير مؤسسة توميز (Tommy's) إلى أن البخار المنبعث من السجائر الإلكترونية يحتوي على بعض المواد الكيميائية بمستويات منخفضة، وقد يحمل التعرض الطويل له في الأماكن المغلقة بعض المخاطر لغير المدخنين. لذلك تنصح المؤسسة وهيئة الخدمات الصحية البريطانية (NHS) بتجنب تدخين السجائر الإلكترونية داخل المنزل أو السيارة أو بالقرب من الحامل والرضيع كإجراء احترازي. كما تشدد منصة (NHS Inform) على عدم الجمع بين السجائر الإلكترونية وتدخين التبغ في الوقت نفسه، لأن الجمع بينهما قد يكون أشد ضرراً من استخدام أحدهما منفرداً.",
+            "en": "However, Tommy's notes that vape aerosol still contains low levels of some potentially harmful chemicals, and long-term indoor exposure may carry some risk to non-smokers. Both Tommy's and the NHS therefore advise avoiding vaping inside the home, in the car, or directly around pregnant women and babies as a precaution. NHS Inform also warns against continuing to smoke tobacco while vaping, as dual use may be more harmful than using either alone."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "فحص أول أكسيد الكربون للحامل",
+          "en": "Carbon monoxide testing in pregnancy"
+        },
+        "body": [
+          {
+            "ar": "يقيس فحص أول أكسيد الكربون بالتنفس نسبة الغاز السام في جسم الحامل، وتُعد القراءة التي تبلغ ٤ أجزاء في المليون أو أكثر مؤشراً على التعرض للدخان أو لمصدر غاز في المنزل، وفقاً لمؤسسة توميز (Tommy's) ومنصة (NHS Inform). يُجرى هذا الفحص البسيط عن طريق النفخ في جهاز صغير يقيس فوراً كمية أول أكسيد الكربون في الرئتين والدم. وتوصي الإرشادات الصحية بإجرائه في أول زيارة لمتابعة الحمل وفي زيارة الأسبوع ٣٦ من الحمل.",
+            "en": "A carbon monoxide breath test measures the level of poisonous gas in a pregnant woman's body, and a reading of 4 parts per million (ppm) or more indicates exposure to smoke or a household gas source, according to Tommy's and NHS Inform. This quick test involves blowing into a handheld monitor that immediately reads carbon monoxide levels in the lungs and blood. Clinical guidance recommends offering it at the first antenatal booking appointment and again at the 36-week appointment."
+          },
+          {
+            "ar": "إذا كانت زوجتكَ لا تدخن إطلاقاً ولكن نتيجة الفحص بلغت ٤ أجزاء في المليون أو أكثر، فسيبحث الطبيب أو القابلة معكما عن مصدر هذا الغاز في محيطها اليومي، وفقاً لمؤسسة توميز (Tommy's). في كثير من الحالات يكون السبب هو استنشاق التدخين السلبي من الزوج أو أحد أفراد الأسرة داخل المنزل أو السيارة. وفي حالات أخرى قد تكشف هذه القراءة المرتفعة عن وجود تسرب غير مرئي من سخان الغاز أو الموقد في المطبخ.",
+            "en": "If your wife does not smoke at all but her test result is 4 ppm or higher, the doctor or midwife will look with you for the source of carbon monoxide in her daily environment, according to Tommy's. Often, the cause is breathing secondhand smoke from a partner or family member in the home or car. In other cases, an unexpectedly high reading can alert you to a faulty gas boiler or cooker in the home."
+          },
+          {
+            "ar": "حضوركَ مواعيد متابعة الحمل مع زوجتكَ ومناقشة هذه النتيجة بصراحة مع الطبيب يمنحكما فرصة عملية لحماية الجنين. وفقاً لمؤسسة توميز (Tommy's)، عندما يتوقف التعرض لدخان التبغ وأول أكسيد الكربون، تبدأ الغازات السامة بمغادرة مجرى الدم فوراً ويعود تدفق الأكسجين إلى الجنين إلى مستواه الطبيعي. وبذلك يتحول هذا الفحص إلى أداة تطمئنكَ على نقاء الهواء الذي يتنفسه طفلكَ قبل ولادته.",
+            "en": "Attending antenatal appointments with your wife and discussing this reading openly with the clinician gives you a practical way to protect your baby. According to Tommy's, once exposure to tobacco smoke and carbon monoxide stops, harmful gases begin clearing from the bloodstream immediately and the baby's oxygen supply returns to normal. The breath test thus acts as a clear check on the air quality protecting your baby before birth."
+          }
+        ],
+        "cites": [
+          "src3",
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "نوم الرضيع الآمن مع الأب المدخن",
+          "en": "Safe infant sleep when the father smokes"
+        },
+        "body": [
+          {
+            "ar": "تزيد مشاركة السرير مع الرضيع من خطر متلازمة موت الرضيع المفاجئ بدرجة كبيرة إذا كان الأب أو الأم مدخناً، حتى لو كان التدخين يتم خارج المنزل فقط، وفقاً لمؤسسة ذا لالابي ترست (The Lullaby Trust). تُعرَّف متلازمة موت الرضيع المفاجئ طبياً بأنها الوفاة المفاجئة وغير المفسرة لرضيع يبدو بصحة جيدة أثناء النوم، وتحدث غالباً خلال الأشهر ٦ الأولى من العمر، وفقاً لمنصة (NHS Inform). وتبدأ الوقاية من هذا الخطر منذ شهور الحمل وتستمر في غرفة نوم المولود.",
+            "en": "Sharing a bed with a baby significantly increases the risk of sudden infant death syndrome (SIDS) if either parent smokes, even if you never smoke in the bedroom or the house, according to The Lullaby Trust. SIDS is defined medically as the sudden, unexpected, and unexplained death of an apparently healthy infant during sleep, most commonly in the first 6 months of life, according to NHS Inform. Protecting your baby starts during pregnancy and continues in the newborn sleep setup."
+          },
+          {
+            "ar": "توضح مؤسسة توميز (Tommy's) أن الرضع والأطفال يتنفسون بسرعة أكبر من البالغين، مما يجعلهم يستنشقون كميات أكبر من المواد الكيميائية الضارة مقارنة بحجم أجسامهم. ووفقاً لهيئة الخدمات الصحية البريطانية (NHS)، فإن الأطفال الذين يعيشون في منزل يدخن فيه شخص واحد على الأقل تزداد لديهم احتمالات الإصابة بالربو، والتهابات الصدر مثل الالتهاب الرئوي والتهاب الشعب الهوائية، والتهابات الأذن الوسطى، والتهاب السحايا البكتيري.",
+            "en": "Tommy's explains that babies and young children breathe faster than adults, meaning they take in more harmful chemicals relative to their body size. According to the NHS, children who live in a household where at least one person smokes are more likely to develop asthma, chest infections such as pneumonia and bronchitis, middle ear infections, and bacterial meningitis."
+          },
+          {
+            "ar": "حتى تحمي مولودكَ منذ ليلته الأولى في البيت، توصي مؤسسة ذا لالابي ترست (The Lullaby Trust) ومنصة (NHS Inform) بتطبيق قواعد النوم الآمن التالية دون استثناء. إن تجهيز سرير منفصل للطفل بجانب سريركما يتيح لزوجتكَ إرضاعه ومراقبته بسهولة طوال الليل مع الحفاظ على سلامة تنفسه.",
+            "en": "To protect your newborn from the very first night at home, The Lullaby Trust and NHS Inform recommend following these safe sleep rules without exception. Setting up a separate cot next to your bed lets your wife feed and check on the baby easily through the night while keeping the baby's airway safe."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "لا تشارك السرير مع رضيعكَ للنوم أبداً إذا كنتَ مدخناً أو إذا تعرض الجنين للتدخين أثناء الحمل، حتى لو كنتَ تدخن خارج البيت دائماً.",
+            "en": "Never share an adult bed with your baby for sleep if you smoke or if the baby was exposed to smoking in pregnancy, even if you only ever smoke outdoors."
+          },
+          {
+            "ar": "ضع طفلكَ دائماً على ظهره عند كل نومة في النهار والليل، داخل سريره أو مهده المنفصل ذي الفراش المسطح والثابت والخالي من الوسائد.",
+            "en": "Always place your baby on their back for every day and night sleep, in their own separate cot or Moses basket with a firm, flat, clear mattress."
+          },
+          {
+            "ar": "ضع سرير الطفل المنفصل في غرفة نومكما خلال الأشهر ٦ الأولى، مع إبعاده عن المشعات الحرارية وأشعة الشمس المباشرة.",
+            "en": "Keep the baby's separate cot or Moses basket in your bedroom for the first 6 months, away from radiators and direct sunlight."
+          },
+          {
+            "ar": "إياكَ والنوم مع الرضيع على الأريكة أو الكرسي المبطن، إذ يرفع ذلك خطر الاختناق ومتلازمة موت الرضيع المفاجئ بدرجة عالية.",
+            "en": "Never fall asleep holding your baby on a sofa or armchair, as this carries an extremely high risk of accidental suffocation and SIDS."
+          }
+        ],
+        "cites": [
+          "src1",
+          "src3",
+          "src6",
+          "src9"
+        ]
+      },
+      {
+        "heading": {
+          "ar": "الزوج المدخن والحمل وخطوات الإقلاع عن التدخين خلال الحمل",
+          "en": "Smoking husband and pregnancy: steps to quit smoking during pregnancy"
+        },
+        "body": [
+          {
+            "ar": "يمثل الزوج المدخن والحمل فرصة حقيقية للتوقف النهائي عن التبغ، إذ توصي إرشادات المعهد الوطني للصحة وجودة الرعاية (NICE) التي تنقلها مؤسسة توميز (Tommy's) بالإقلاع الكامل والمباشر بدلاً من الاكتفاء بتقليل عدد السجائر. وتوضح المؤسسة أنه لا يوجد مستوى آمن من التدخين، وأن مجرد تقليل عدد السجائر يبقي أعراض الانسحاب قائمة دون أن يمنحكَ أو يمنح جنينكَ الفوائد الصحية والمالية للإقلاع التام.",
+            "en": "A smoking husband and pregnancy represent a strong opportunity to stop tobacco use for good, and National Institute for Health and Care Excellence (NICE) guidance cited by Tommy's advises stopping abruptly rather than simply cutting down. Tommy's explains that there is no safe level of smoking, and cutting down keeps withdrawal symptoms going without delivering the health and financial benefits of quitting completely."
+          },
+          {
+            "ar": "وفقاً لمنصة (NHS Inform) ومؤسسة توميز (Tommy's)، فإن النيكوتين هو المادة التي تسبب الإدمان، لكن الضرر الأكبر يأتي من أول أكسيد الكربون والقطران والسموم الناتجة عن احتراق التبغ. لذلك تُعد بدائل النيكوتين الطبية المرخصة، مثل اللصقات الجلدية والعلكة وأقراص الاستحلاب وبخاخات الفم، وسيلة آمنة وفعالة لمضاعفة فرص نجاحكَ في الإقلاع. وتؤكد مؤسسة توميز أن الجمع بين أكثر من نوع واحد من بدائل النيكوتين، مثل لصقة يومية ثابتة مع علكة سريعة المفعول عند الرغبة الشديدة، يرفع فرص التوقف الناجح مقارنة باستخدام نوع واحد فقط.",
+            "en": "According to NHS Inform and Tommy's, nicotine is the addictive substance, while almost all the serious harm comes from the carbon monoxide, tar, and toxins produced by burning tobacco. Licensed nicotine replacement therapy (NRT), such as patches, gum, lozenges, and inhalators, is a safe and proven way to help you quit. Tommy's notes that combining more than one type of NRT, such as a steady daily patch alongside fast-acting gum for cravings, increases your chances of quitting compared with using a single product."
+          },
+          {
+            "ar": "تشير منصة (NHS Inform) إلى أن التغلب على إدمان التبغ يصبح أسهل عندما تخطط مسبقاً لتغيير العادات اليومية المرتبطة بالسيجارة، مثل سيجارة الصباح مع القهوة أو التدخين بعد الوجبات. يمكنكِ أنتَ وزوجتكَ طلب المشورة من الطبيب أو الصيدلي لوضع خطة إقلاع محددة التاريخ قبل موعد الولادة. كل يوم يمر دون دخان في بيتكَ يعني أكسجيناً أنقى لزوجتكَ الحامل، ونمواً أفضل لجنينكَ، وميزانية إضافية تدخرها لمستلزمات طفلكَ القادم.",
+            "en": "NHS Inform highlights that overcoming tobacco dependency is easier when you plan ahead to change daily routines linked to smoking, such as a morning cigarette with coffee or smoking after meals. You can speak with a doctor or pharmacist to set a firm quit date and choose the right treatment before the baby arrives. Every smoke-free day in your home means cleaner oxygen for your pregnant wife, healthier growth for your baby, and extra savings for your newborn's needs."
+          }
+        ],
+        "bullets": [
+          {
+            "ar": "حدد يوم إقلاع واضحاً وتوقف فيه تماماً عن تدخين السجائر والشيشة بدلاً من التدرج الطويل الذي يطيل أعراض سحب النيكوتين.",
+            "en": "Set a clear quit date and stop smoking cigarettes and shisha completely on that day rather than dragging out withdrawal by cutting down."
+          },
+          {
+            "ar": "استشر الصيدلي أو الطبيب لاستخدام بدائل النيكوتين المرخصة، واجمع بين لصقة النيكوتين اليومية ومنتج سريع المفعول كالعلكة عند الحاجة.",
+            "en": "Ask a pharmacist or doctor about licensed nicotine replacement therapy, combining a daily nicotine patch with a fast-acting product like gum when cravings hit."
+          },
+          {
+            "ar": "غيّر الروتين اليومي المرتبط بالتدخين، مثل تبديل مكان شرب القهوة الصباحية أو الانشغال بمشي قصير عند الشعور بالرغبة في التدخين.",
+            "en": "Change daily routines tied to smoking, such as switching where you drink your morning coffee or taking a short walk when a craving starts."
+          },
+          {
+            "ar": "إذا كنتَ وزوجتكَ تدخنان معاً، فابدآ خطة الإقلاع معاً في اليوم نفسه لدعم بعضكما ومنع الانتكاس بعد الولادة.",
+            "en": "If both you and your wife smoke, start your quit plan together on the same day to support each other and prevent relapse after birth."
+          }
+        ],
+        "cites": [
+          "src5",
+          "src7",
+          "src8",
+          "src10"
+        ]
+      }
+    ],
+    "redFlags": {
+      "intro": {
+        "ar": "متى تتوجهان إلى الطبيب أو الطوارئ فوراً؟",
+        "en": "When to contact a doctor or seek emergency care immediately"
+      },
+      "items": [
+        {
+          "ar": "ملاحظة زوجتكَ انخفاضاً أو توقفاً في حركات الجنين المعتادة، إذ يرتبط نقص الأكسجين الناتج عن دخان التبغ بضعف نمو الجنين ومضاعفات المشيمة، وفقاً لمؤسسة توميز (Tommy's).",
+          "en": "Your wife notices a reduction or pause in the baby's usual movements, as oxygen restriction from tobacco smoke is linked to fetal growth problems and placental complications, according to Tommy's."
+        },
+        {
+          "ar": "حدوث نزيف مهبلي أو ألم مستمر في البطن أو انقباضات قبل الأسبوع ٣٧ من الحمل، وهي علامات قد تشير إلى انفصال المشيمة المبكر أو الولادة المبكرة، وفقاً لمؤسسة توميز (Tommy's).",
+          "en": "Vaginal bleeding, continuous abdominal pain, or contractions before 37 weeks of pregnancy, which can be signs of placental abruption or preterm labour, according to Tommy's."
+        },
+        {
+          "ar": "ظهور قراءة أول أكسيد الكربون عند ٤ أجزاء في المليون أو أكثر لدى زوجتكَ غير المدخنة مع شعور بصداع أو دوخة في المنزل، مما يستدعي فحص أجهزة الغاز المنزلية والتوقف الفوري عن أي تدخين داخلي، وفقاً لمؤسسة توميز (Tommy's).",
+          "en": "A carbon monoxide breath test reading of 4 ppm or higher in a non-smoking wife alongside headaches or dizziness at home, requiring an immediate check of household gas appliances and stopping all indoor smoking, according to Tommy's."
+        },
+        {
+          "ar": "إصابة المولود بعد الولادة بسرعة في التنفس أو أزيز في الصدر أو سعال مستمر أو ارتفاع في الحرارة، إذ يرفع التدخين السلبي خطر الالتهاب الرئوي والتهاب الشعب الهوائية، وفقاً لهيئة الخدمات الصحية البريطانية (NHS).",
+          "en": "After birth, your newborn develops fast breathing, wheezing, persistent coughing, or fever, as secondhand smoke raises the risk of pneumonia and bronchitis, according to the NHS."
+        }
+      ],
+      "cites": [
+        "src1",
+        "src3",
+        "src5"
+      ]
+    },
+    "faqs": [
+      {
+        "q": {
+          "ar": "ما تأثير التدخين على خصوبة الرجل والحمل؟",
+          "en": "How does smoking affect male fertility and pregnancy?"
+        },
+        "a": {
+          "ar": "وفقاً لمؤسسة توميز (Tommy's)، يؤدي تدخين التبغ لدى الرجال إلى تقليل حجم السائل المنوي، وخفض عدد الحيوانات المنوية، وإضعاف قدرتها على الحركة وتخصيب البويضة، إضافة إلى زيادة احتمالات ضعف الانتصاب. كما أن تعرض الزوجة للتدخين السلبي يضعف خصوبتها ويقلل فرص نجاح علاجات الإخصاب المساعد مثل أطفال الأنابيب. ويساعد التوقف عن التدخين على تحسين جودة الحيوانات المنوية ورفع فرص حدوث حمل صحي.",
+          "en": "According to Tommy's, smoking tobacco in men reduces semen volume, lowers sperm count, impairs sperm motility and ability to fertilise an egg, and increases the risk of erectile dysfunction. Exposing a female partner to secondhand smoke also harms her fertility and lowers the likelihood that fertility treatments like IVF will succeed. Stopping smoking improves sperm quality and boosts the chances of a healthy pregnancy."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يكفي التدخين في الشرفة أو فتح النافذة لحماية زوجتي الحامل؟",
+          "en": "Is smoking on the balcony or opening a window enough to protect my pregnant wife?"
+        },
+        "a": {
+          "ar": "تؤكد هيئة الخدمات الصحية البريطانية (NHS) أن فتح النوافذ والأبواب أو التدخين في غرفة أخرى داخل البيت لا يحمي الحامل من التدخين السلبي. ووفقاً لمؤسسة توميز (Tommy's)، يبقى الدخان في هواء الغرفة لمدة تصل إلى ٥ ساعات وينتقل بين الغرف حتى مع فتح النافذة. لحماية زوجتكَ، يجب أن يكون التدخين خارج المبنى تماماً مع إغلاق باب الشرفة والنوافذ المؤدية إلى الداخل.",
+          "en": "The NHS confirms that opening windows and doors or smoking in another room does not protect a pregnant woman from secondhand smoke. According to Tommy's, smoke stays in the air for up to 5 hours and spreads from room to room even with a window open. To protect your wife, any smoking must take place completely outside the building with balcony doors and windows shut."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل الجلوس مع زوجتي الحامل في مقهى يقدم الشيشة يضر الجنين؟",
+          "en": "Does sitting with my pregnant wife in a shisha cafe harm the baby?"
+        },
+        "a": {
+          "ar": "نعم، فوفقاً لهيئة الخدمات الصحية البريطانية (NHS) ومؤسسة توميز (Tommy's)، يطلق دخان الشيشة كميات كبيرة من غاز أول أكسيد الكربون السام والمواد المسرطنة الناتجة عن احتراق التبغ والفحم. وعندما تجلس زوجتكَ في مكان مغلق أو شبه مغلق يدخن فيه الآخرون الشيشة، تستنشق هذه الغازات فينقص الأكسجين الواصل إلى الجنين عبر المشيمة. الأفضل دائماً اختيار أماكن خالية تماماً من دخان التبغ والشيشة.",
+          "en": "Yes. According to the NHS and Tommy's, shisha smoke releases large amounts of poisonous carbon monoxide gas and cancer-causing chemicals from burning tobacco and charcoal. When your wife sits in an indoor or semi-enclosed space where people are smoking shisha, she breathes in these gases, reducing oxygen flow to the fetus across the placenta. Always choose completely smoke-free venues."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل يمكنني التدخين في السيارة إذا كنتُ أقود بمفردي بدون زوجتي الحامل؟",
+          "en": "Can I smoke in the car when driving alone without my pregnant wife?"
+        },
+        "a": {
+          "ar": "تنصح هيئة الخدمات الصحية البريطانية (NHS) ومؤسسة توميز (Tommy's) بعدم التدخين في السيارة في أي وقت إطلاقاً. فالدخان السام، الذي يكون ٨٠٪ منه غير مرئي وبلا رائحة، يظل معلقاً في هواء السيارة لمدة تصل إلى ساعتين ونصف حتى مع فتح النافذة، كما تترسب سمومه في مقاعد السيارة ومكيف الهواء. إبقاء السيارة خالية من التدخين دائماً يحمي زوجتكَ الآن ويحمي مولودكَ بعد الولادة.",
+          "en": "The NHS and Tommy's advise never smoking in the car at any time. Toxic smoke, 80% of which is invisible and odourless, stays in the air inside a car for up to two and a half hours even with a window open, and its chemicals settle into car seats and air vents. Keeping your car permanently smoke-free protects your wife now and your newborn after birth."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل السجائر الإلكترونية (الفيب) آمنة بجانب الزوجة الحامل؟",
+          "en": "Is vaping (e-cigarettes) safe around a pregnant wife?"
+        },
+        "a": {
+          "ar": "توضح مؤسسة توميز (Tommy's) أن السجائر الإلكترونية لا تنتج القطران أو غاز أول أكسيد الكربون، ولذلك فإن مخاطرها أقل بكثير من دخان التبغ العادي إذا استُخدمت للإقلاع عن التدخين. ومع ذلك، قد يحمل التعرض الطويل لبخارها في الأماكن المغلقة بعض المخاطر لغير المدخنين. لذلك توصي المؤسسة وهيئة الخدمات الصحية البريطانية (NHS) بتجنب استخدام السجائر الإلكترونية داخل المنزل أو السيارة أو بجانب الحامل والطفل كإجراء وقائي.",
+          "en": "Tommy's explains that e-cigarettes do not produce tar or carbon monoxide, making any potential risks from secondhand vapour far lower than the known harms of tobacco smoke when used to quit smoking. However, long-term indoor exposure may still carry some risk to non-smokers. Both Tommy's and the NHS therefore suggest avoiding vaping inside the home, in the car, or directly around pregnant women and babies as a precaution."
+        }
+      },
+      {
+        "q": {
+          "ar": "ماذا أفعل بعد تدخين سيجارة خارج المنزل قبل الاقتراب من زوجتي الحامل؟",
+          "en": "What should I do after smoking outside before coming near my pregnant wife?"
+        },
+        "a": {
+          "ar": "تؤكد هيئة الخدمات الصحية البريطانية (NHS) أن المواد الكيميائية من الدخان تبقى عالقة على الملابس وتؤثر في المحيطين بكَ حتى عند التدخين في الخارج. لتقليل هذا الأثر، اخلع المعطف أو القميص الذي دخنتَ به عند المدخل، واغسل يديكَ ووجهكَ جيداً بالماء والصابون قبل الجلوس بجانب زوجتكَ. كما تنصح منصة (NHS Inform) بتنظيف السجاد والمفروشات بالبخار بانتظام لإزالة الجزيئات السامة المتراكمة.",
+          "en": "The NHS confirms that chemicals from cigarette smoke stay on clothes and affect people around you even when you smoke outside. To reduce this transfer, remove the outer jacket or shirt you wore while smoking at the entryway, and wash your hands and face thoroughly with soap and water before sitting near your wife. NHS Inform also advises regularly cleaning and steaming carpets to remove toxic particles."
+        }
+      },
+      {
+        "q": {
+          "ar": "هل فات الأوان للإقلاع عن التدخين إذا كانت زوجتي في الشهور الأخيرة من الحمل؟",
+          "en": "Is it too late to quit smoking if my wife is already in late pregnancy?"
+        },
+        "a": {
+          "ar": "تؤكد مؤسسة توميز (Tommy's) أن التوقف عن التدخين يفيد الأم والجنين فوراً في أي مرحلة من مراحل الحمل، ولا يكون الوقت متأخراً أبداً. فبمجرد توقف تعرض زوجتكَ للدخان، تبدأ الغازات الضارة بمغادرة جسمها ويتحسن وصول الأكسجين إلى الجنين. كما أن إقلاعكَ قبل الولادة يحمي مولودكَ الجديد من خطر متلازمة موت الرضيع المفاجئ والتهابات الجهاز التنفسي والربو بعد خروجه إلى الدنيا.",
+          "en": "Tommy's confirms that stopping smoking helps both mother and baby immediately at any stage of pregnancy, and it is never too late to quit. As soon as your wife's exposure to smoke stops, harmful gases begin clearing from her body and oxygen flow to the baby improves. Quitting before birth also protects your newborn from sudden infant death syndrome (SIDS), chest infections, and asthma."
+        }
+      }
+    ],
+    "cta": {
+      "headline": {
+        "ar": "تابع نمو جنينكَ وحركاته اليومية مع زوجتكَ على نواة",
+        "en": "Track your baby's growth and daily movements with your wife on Nawah"
+      },
+      "body": {
+        "ar": "حمايتكَ لزوجتكَ من التدخين السلبي تمنح جنينكَ الأكسجين اللازم لنموه ونشاطه كل يوم. عبر ميزة ربط الشريك في تطبيق نواة، يمكنكُم ربط حسابكَ بحساب زوجتكَ برمز بسيط لترى أسبوع الحمل نفسه وحجم الجنين الذي تراه، ويصلكَ إشعار فوري في كل مرة تسجل فيها زوجتكَ جلسة ركلات جديدة.",
+        "en": "Protecting your wife from secondhand smoke gives your baby the oxygen needed for daily growth and activity. With partner mode in the Nawah app, you link to her pregnancy with a code, see the exact same pregnancy week and baby size she sees, and get a push notification each time she logs a kick session."
+      },
+      "button": {
+        "ar": "حمّلوا نواة",
+        "en": "Get Nawah"
+      }
+    },
+    "citations": [
+      {
+        "id": "src1",
+        "org": "NHS",
+        "title": {
+          "ar": "التدخين السلبي: حماية عائلتك وأصدقائك",
+          "en": "Passive smoking: protect your family and friends"
+        },
+        "url": "https://www.nhs.uk/live-well/quit-smoking/passive-smoking-protect-your-family-and-friends/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src2",
+        "org": "NHS",
+        "title": {
+          "ar": "مخاطر التبغ غير المدخن والشيشة",
+          "en": "Paan, bidi and shisha"
+        },
+        "url": "https://www.nhs.uk/live-well/quit-smoking/paan-bidi-and-shisha-risks/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src3",
+        "org": "Tommy's",
+        "title": {
+          "ar": "مخاطر التدخين السلبي أثناء الحمل",
+          "en": "The risks of secondhand smoke"
+        },
+        "url": "https://www.tommys.org/pregnancy-information/im-pregnant/smoking-and-pregnancy/risks-secondhand-smoke",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src4",
+        "org": "Tommy's",
+        "title": {
+          "ar": "السجائر الإلكترونية والتدخين الإلكتروني أثناء الحمل",
+          "en": "Vapes (e-cigarettes) and vaping in pregnancy"
+        },
+        "url": "https://www.tommys.org/pregnancy-information/im-pregnant/smoking-and-pregnancy/electronic-cigarettes-and-vaping",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src5",
+        "org": "Tommy's",
+        "title": {
+          "ar": "فحص أول أكسيد الكربون أثناء الحمل",
+          "en": "Carbon monoxide testing in pregnancy"
+        },
+        "url": "https://www.tommys.org/pregnancy-information/im-pregnant/smoking-and-pregnancy/carbon-monoxide-testing",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src6",
+        "org": "The Lullaby Trust",
+        "title": {
+          "ar": "التدخين وسلامة طفلك",
+          "en": "Smoking and your baby"
+        },
+        "url": "https://www.lullabytrust.org.uk/baby-safety/being-a-parent-or-caregiver/smoking/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src7",
+        "org": "NHS Inform",
+        "title": {
+          "ar": "مخاطر التدخين السلبي",
+          "en": "Dangers of second-hand smoke"
+        },
+        "url": "https://www.nhsinform.scot/healthy-living/stopping-smoking/reasons-to-stop/dangers-of-second-hand-smoke/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src8",
+        "org": "NHS Inform",
+        "title": {
+          "ar": "التدخين والحمل",
+          "en": "Smoking and pregnancy"
+        },
+        "url": "https://www.nhsinform.scot/ready-steady-baby/pregnancy/looking-after-yourself-and-your-baby/smoking-and-pregnancy/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src9",
+        "org": "NHS Inform",
+        "title": {
+          "ar": "النوم الآمن للرضيع",
+          "en": "Sleeping safely"
+        },
+        "url": "https://www.nhsinform.scot/ready-steady-baby/early-parenthood/going-home/sleeping-safely/",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "id": "src10",
+        "org": "Tommy's",
+        "title": {
+          "ar": "كيف يؤثر التدخين في خصوبة المرأة والرجل؟",
+          "en": "How Does Smoking Affect Female and Male Fertility?"
+        },
+        "url": "https://www.tommys.org/pregnancy-information/planning-a-pregnancy/are-you-ready-to-conceive/how-smoking-affects-female-and-male-fertility",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "keywords": [
+      "الزوج المدخن والحمل",
+      "تأثير الزوج المدخن والحمل على الجنين",
+      "التدخين السلبي للحامل في المنزل والسيارة",
+      "بقايا الدخان على الملابس أثناء الحمل",
+      "الشيشة والسجائر الإلكترونية للحامل",
+      "فحص أول أكسيد الكربون للحامل",
+      "نوم الرضيع الآمن مع الأب المدخن",
+      "خطوات الإقلاع عن التدخين خلال الحمل",
+      "تأثير التدخين على خصوبة الرجل والحمل"
+    ],
+    "related": [
+      "/ar/father/safe-sleep-setup",
+      "/ar/father/baby-movements",
+      "/ar/articles/father_expansion/healthy-pregnancy-meals-father-guide",
+      "/ar/father/fathers-mental-health"
+    ],
+    "updated": "2026-11-13"
   }
 ]
