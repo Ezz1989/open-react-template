@@ -270,7 +270,7 @@ export const content = {
     privacy: {
       "eyebrow": "Legal",
       "title": "Privacy Policy",
-      "updated": "Last updated 30 October 2026",
+      "updated": "Last updated 16 November 2026",
       "intro": "Nawah holds some of the most private information there is: how a pregnancy is going, how you feel about it, what you write down at 3am. This page says plainly what we store, why, who else can see it, and how to get rid of it.",
       "sections": [
         {
@@ -315,7 +315,8 @@ export const content = {
           "body": [
             "Your partner, only if you link accounts. A linked partner sees what belongs to the pregnancy you share: the pregnancy week, appointments, baby name matches, kick counting sessions, the nudges you send each other, and journal entries you mark as shared. Symptoms, vitals, contractions, moods and each person's Nawal chats are not shown to the other.",
             "Service providers who process data on our behalf: Supabase (database and sign-in), Apple (Sign in with Apple, on iPhone), Google Firebase (crash reporting, app analytics and notifications), PostHog (usage analytics), Google AdMob (advertising in the free version), RevenueCat (subscriptions), and Groq and Google Gemini (AI providers that process messages you send to Nawal so it can reply).",
-            "We do not sell your personal information to anyone."
+            "We do not sell your personal information to anyone.",
+            "If Nawah is ever part of a merger, an acquisition or a sale of all or part of its assets, your data may move to the new owner only if they keep the same protections set out in this policy. We will tell you before that happens, and you can delete your account and all your data first."
           ]
         },
         {
@@ -328,7 +329,7 @@ export const content = {
         {
           "heading": "Advertising",
           "body": [
-            "The free version shows ads through Google AdMob. In the EEA and UK you are asked for consent before any personalized advertising, and you can decline.",
+            "The free version shows ads through Google AdMob. They are non-personalised: they are never based on your health information or on what you do in the app.",
             "On iPhone, Nawah asks your permission through Apple's App Tracking Transparency prompt before using your device's advertising identifier. If you decline, ads are still shown, without that identifier. You can change this at any time in iPhone Settings, under Privacy & Security > Tracking.",
             "Nawah Premium removes ads entirely."
           ]
@@ -336,7 +337,7 @@ export const content = {
         {
           "heading": "Where it is stored, and for how long",
           "body": [
-            "Data is stored on Supabase infrastructure in the United Kingdom (London, eu-west-2). Some of the service providers listed above process it in other countries, so your information is processed outside the country you live in. We keep it while your account exists.",
+            "Data is stored on Supabase infrastructure in the United Kingdom (London, eu-west-2). Some of the service providers listed above process it in other countries, so your information is processed outside the country you live in. We do this with the explicit consent you give at sign-up and under the data protection terms our providers offer. You can withdraw your consent at any time by deleting your account (Profile → Account actions). We keep your data while your account exists.",
             "When you delete your account, your data is deleted. See the account deletion page for exactly what goes and what is briefly retained."
           ]
         },
@@ -727,7 +728,7 @@ export const content = {
     privacy: {
       "eyebrow": "قانوني",
       "title": "سياسة الخصوصية",
-      "updated": "آخر تحديث ٣٠ أكتوبر ٢٠٢٦",
+      "updated": "آخر تحديث ١٦ نوفمبر ٢٠٢٦",
       "intro": "نواة يحتفظ بأكثر المعلومات خصوصية: كيف يسير الحمل، وشعورك تجاهه، وما يُكتَب في الساعة ٣ فجرًا. هذه الصفحة تقول بوضوح ما الذي نخزّنه، ولماذا، ومن غيرنا يستطيع رؤيته، وكيف يمكن التخلّص منه.",
       "sections": [
         {
@@ -772,7 +773,8 @@ export const content = {
           "body": [
             "شريكك، فقط في حال ربط الحسابين. يرى الشريك المرتبط ما يخصّ الحمل المشترك بينكما: أسبوع الحمل، والمواعيد، وتطابقات أسماء الطفل، وجلسات عدّ الركلات، والتنبيهات اللطيفة المتبادلة بينكما، والمدوّنات اليومية التي تُحدَّد كمشتركة. أمّا الأعراض، والمؤشرات الحيوية، والانقباضات، والحالة المزاجية، ومحادثات كل طرف مع نوال، فلا تظهر للطرف الآخر.",
             "مزوّدو خدمات يعالجون البيانات نيابةً عنّا: Supabase (قاعدة البيانات وتسجيل الدخول)، وApple (تسجيل الدخول عبر Apple على iPhone)، وGoogle Firebase (تقارير الأعطال وتحليلات التطبيق والإشعارات)، وPostHog (تحليلات الاستخدام)، وGoogle AdMob (الإعلانات في النسخة المجانية)، وRevenueCat (الاشتراكات)، وGroq وGoogle Gemini (مزوّدا ذكاء اصطناعي يعالجان الرسائل المرسلة منك إلى نوال لتردّ عليها).",
-            "لا نبيع معلوماتك الشخصية لأي جهة."
+            "لا نبيع معلوماتك الشخصية لأي جهة.",
+            "إذا اندمجت نواة يومًا مع جهة أخرى، أو استحوذت عليها جهة أخرى، أو بيعت أصولها كلّها أو بعضها، فقد تنتقل البيانات إلى المالك الجديد بشرط أن يلتزم بالحمايات نفسها الواردة في هذه السياسة. وسنُبلغكم قبل حدوث ذلك، ويمكن حذف الحساب وجميع البيانات قبله."
           ]
         },
         {
@@ -785,7 +787,7 @@ export const content = {
         {
           "heading": "الإعلانات",
           "body": [
-            "تعرض النسخة المجانية إعلانات عبر Google AdMob. وفي المنطقة الاقتصادية الأوروبية والمملكة المتحدة يُطلَب إذنك قبل أي إعلانات مخصّصة، ويمكنك الرفض.",
+            "تعرض النسخة المجانية إعلانات عبر Google AdMob، وهي إعلانات غير مخصّصة: لا تعتمد أبدًا على المعلومات الصحّية ولا على النشاط داخل التطبيق.",
             "على iPhone، يطلب نواة إذنك عبر نافذة App Tracking Transparency من Apple قبل استخدام معرّف الإعلانات في جهازك. وفي حال الرفض، تظلّ الإعلانات تظهر من دون هذا المعرّف. ويمكنك تغيير ذلك في أي وقت من إعدادات iPhone، ضمن قسم الخصوصية والأمن ثم التتبّع.",
             "يزيل اشتراك «نواة بريميوم» الإعلانات تمامًا."
           ]
@@ -793,7 +795,7 @@ export const content = {
         {
           "heading": "أين تُخزَّن، ولكم من الوقت",
           "body": [
-            "تُخزَّن البيانات على بنية Supabase في المملكة المتحدة (لندن، eu-west-2). ويعالج بعض مزوّدي الخدمات المذكورين أعلاه هذه البيانات في دول أخرى، لذا تُعالَج معلوماتك خارج بلد إقامتك. ونحتفظ بها ما دام حسابك قائمًا.",
+            "تُخزَّن البيانات على بنية Supabase في المملكة المتحدة (لندن، eu-west-2). ويعالج بعض مزوّدي الخدمات المذكورين أعلاه هذه البيانات في دول أخرى، لذا تُعالَج معلوماتك خارج بلد إقامتك. ويتمّ ذلك بناءً على الموافقة الصريحة عند التسجيل، وبموجب شروط حماية البيانات لدى مزوّدي الخدمات. ويمكن سحب الموافقة في أيّ وقت بحذف الحساب («الملف الشخصي» ← «إجراءات الحساب»). ونحتفظ بالبيانات ما دام الحساب قائمًا.",
             "عند حذف حسابك، تُحذَف بياناتك. يمكنك مراجعة صفحة حذف الحساب لمعرفة ما يُحذَف بالضبط وما يُحتفَظ به لفترة قصيرة."
           ]
         },
